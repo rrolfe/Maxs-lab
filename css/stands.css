@@ -82,3 +82,16 @@
 .brush[aria-pressed="true"] { background: var(--gold); color: #10303B; box-shadow: 0 4px 0 var(--ink); transform: translateY(-2px); }
 .brush .cnt { margin-left: auto; font: 800 20px var(--font); white-space: nowrap; } .brush span:not(.sw):not(.cnt) { min-width: 0; overflow-wrap: anywhere; line-height: 1.1; }
 .pzmsg { min-height: 56px; text-align: center; font-weight: 700; max-width: 560px; } .pzmsg.good { color: var(--success); }
+
+/* ---------- seasons, shop, crowds, snack menu ---------- */
+.crowdhint { font-weight: 800; padding: 8px 16px; border: 2.5px solid var(--ink); border-radius: 12px; background: var(--surface); }
+.crowdbar { display: flex; align-items: baseline; gap: 6px; font: 700 24px var(--font); margin: 14px 0 0; } .crowdbar b { font: 400 40px/1 var(--font-display); }
+.upg small.need { color: var(--try); font-weight: 700; }
+.menu { display: grid; gap: 10px; }
+.mrow { display: grid; grid-template-columns: 52px 1fr auto 64px auto; align-items: center; gap: 12px; }
+.mrow .memo { font-size: 40px; text-align: center; } .mrow .mname strong { font: 400 24px/1.1 var(--font-display); display: block; } .mrow .mname small { color: var(--muted); font-size: 17px; }
+.mrow .mval { font: 400 40px/1 var(--font-display); text-align: center; }
+.mrow .btn.icon { min-width: 64px; min-height: 64px; }
+@media (max-width: 700px) { .mrow { grid-template-columns: 44px 1fr auto 52px auto; gap: 8px; } }
+.stand .summary .stars { display: flex; gap: 8px; justify-content: center; }
+.stand .menu + h3, .stand h3 + .row { margin-top: 14px; } .stand > h3 { margin-top: 20px; }

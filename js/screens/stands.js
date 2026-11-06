@@ -5,34 +5,35 @@ import { t, addStrings } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { COST } from '../core/economy.js';
+import { standState } from '../stands/runner.js';
 
 addStrings({
   en: {
     stTitle: 'My Stands', stIntro: 'Earn pearls in any game, then open a stand and run it your way.',
     stUnlockFor: 'Open for {n} pearls', stNeed: '{n} more pearls to go', stSoon: 'Coming soon', stGo: 'Go to the stand', stEarn: 'Earn pearls',
-    stConfirm: 'Open the {name} for {n} pearls?', stNotYet: 'Not yet', stOpenedN: '{name} is open!', stDaysRun: '{n} days run',
+    stConfirm: 'Open the {name} for {n} pearls?', stNotYet: 'Not yet', stReady: 'New season ready', stSeasonOver: 'Next season: {c} pearls', stOpenedN: '{name} is open!', stDaysRun: '{n} days run',
     sd_lemonade: 'Pick a price, make enough cups and watch the weather.', sd_icecream: 'Scoops, tubs and a buddy deal. Hot days are huge!', sd_pizza: 'Fill orders with halves, quarters and eighths.',
-    sd_snack: 'Sell hot dogs, fries and treats at the ballpark on game day.', sd_sanctuary: 'Care for rescued sea animals.',
+    sd_snack: 'Baseball fans are hungry! Sell hot dogs, burgers, fries and candy on game day. Home runs and rain delays change what they want.', sd_sanctuary: 'Care for rescued sea animals.',
     sn_lemonade: 'Lemonade Stand', sn_icecream: 'Ice Cream Stand', sn_pizza: 'Pizza Shop', sn_snack: 'Ballpark Snack Shack', sn_sanctuary: 'Shark Sanctuary',
   },
   es: {
     stTitle: 'Mis puestos', stIntro: 'Gana perlas en cualquier juego, luego abre un puesto y dirígelo a tu manera.',
     stUnlockFor: 'Abrir por {n} perlas', stNeed: 'Faltan {n} perlas', stSoon: 'Próximamente', stGo: 'Ir al puesto', stEarn: 'Ganar perlas',
-    stConfirm: '¿Abrir {name} por {n} perlas?', stNotYet: 'Todavía no', stOpenedN: '¡{name} está abierto!', stDaysRun: '{n} días atendidos',
+    stConfirm: '¿Abrir {name} por {n} perlas?', stNotYet: 'Todavía no', stReady: 'Temporada nueva lista', stSeasonOver: 'Próxima temporada: {c} perlas', stOpenedN: '¡{name} está abierto!', stDaysRun: '{n} días atendidos',
     sd_lemonade: 'Elige un precio, prepara suficientes vasos y mira el clima.', sd_icecream: 'Bolas, botes y una oferta de amigos. ¡Los días de calor son enormes!', sd_pizza: 'Completa pedidos con mitades, cuartos y octavos.',
-    sd_snack: 'Vende hot dogs, papas y golosinas en el estadio el día del juego.', sd_sanctuary: 'Cuida animales marinos rescatados.',
+    sd_snack: '¡Los fans del béisbol tienen hambre! Vende hot dogs, hamburguesas, papas y dulces el día del juego. Los jonrones y las pausas por lluvia cambian lo que quieren.', sd_sanctuary: 'Cuida animales marinos rescatados.',
     sn_lemonade: 'Puesto de limonada', sn_icecream: 'Puesto de helados', sn_pizza: 'Pizzería', sn_snack: 'Puesto de botanas del estadio', sn_sanctuary: 'Santuario de tiburones',
   },
 });
 
 export const STANDS = [
-  { id: 'lemonade', cost: COST.stands.lemonade.unlock }, { id: 'snack', cost: COST.stands.snack.unlock, soon: true, icon: 'ballpark' },
+  { id: 'lemonade', cost: COST.stands.lemonade.unlock }, { id: 'snack', cost: COST.stands.snack.unlock, icon: 'ballpark' },
   { id: 'icecream', cost: COST.stands.icecream.unlock }, { id: 'pizza', cost: COST.stands.pizza.unlock },
 ];
 
 export async function mount(el, { parts }) {
   const id = parts[0];
-  if (id === 'lemonade' || id === 'icecream') {
+  if (id === 'lemonade' || id === 'icecream' || id === 'snack') {
     if (!S.unlocked[id]) { go('/stands'); return () => {}; }
     const m = await import('../stands/runner.js'); return m.mount(el, { id });
   }
@@ -50,10 +51,10 @@ function hub(el) {
       const name = t('sn_' + s.id), desc = t('sd_' + s.id);
       const icon = s.icon || s.id;
       if (s.soon) return h('div', { class: 'stcard soon' }, h('div', { class: 'sti', html: icons[icon](80) }), h('div', { class: 'stb' }, h('strong', {}, name), h('small', {}, desc)), h('span', { class: 'tag' }, t('stSoon')));
-      const open = !!S.unlocked[s.id], st = S.stands[s.id];
+      const open = !!S.unlocked[s.id], st = open && s.id !== 'pizza' ? standState(s.id) : S.stands[s.id];
       if (open) {
         return h('div', { class: 'stcard open' }, h('div', { class: 'sti', html: icons[icon](80) }),
-          h('div', { class: 'stb' }, h('strong', {}, name), h('small', {}, desc), st && st.days ? h('small', { class: 'meta' }, t('stDaysRun', { n: st.days }) + ' · ' + money(st.bank)) : null),
+          h('div', { class: 'stb' }, h('strong', {}, name), h('small', {}, desc), st && (st.days || st.season) ? h('small', { class: 'meta' }, (st.season ? t('stSeasonN', { n: st.seasons }) + ' · ' + t('stDayOf', { d: Math.min(st.season.day + 1, 10), m: 10 }) : (st.tickets > 0 ? t('stReady') : t('stSeasonOver', { c: COST.stands[s.id].season }))) + ' · ' + money(st.bank)) : null),
           h('a', { class: 'btn gold', href: '#/stands/' + s.id, onclick: () => sfx.pop() }, t('stGo')));
       }
       const need = s.cost - S.pearls.balance, can = need <= 0;
@@ -67,7 +68,7 @@ function hub(el) {
   }
   function confirmUnlock(s, name) {
     const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true' }, h('div', { class: 'dialog center' },
-      h('div', { html: icons[s.id](96) }), h('h2', {}, t('stConfirm', { name, n: s.cost })),
+      h('div', { html: icons[s.icon || s.id](96) }), h('h2', {}, t('stConfirm', { name, n: s.cost })),
       h('div', { class: 'row', style: { justifyContent: 'center' } },
         h('button', { class: 'btn gold', onclick: () => { if (!spendPearls(s.cost)) { ov.remove(); return; } S.unlocked[s.id] = true; (S.stands[s.id] ||= {}).tickets = 1; save(); ov.remove(); sfx.levelUp(); confetti(); go('/stands/' + s.id); } }, t('stUnlockFor', { n: s.cost })),
         h('button', { class: 'btn ghost', onclick: () => ov.remove() }, t('stNotYet')))));
