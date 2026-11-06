@@ -922,7 +922,7 @@
   "topic": "reading",
   "level": 5,
   "type": "choice",
-  "q": "The word dinosaur comes from two Greek words. Deinos means 'terrible' and sauros means 'lizard.' What does dinosaur mean?",
+  "q": "The name dinosaur was built from two Greek word parts. What does the name mean?",
   "opts": [
    "thunder lizard from the sky",
    "terrible lizard",
@@ -930,8 +930,8 @@
    "fierce prehistoric bird"
   ],
   "a": 1,
-  "why": "Putting the roots together gives 'terrible lizard.' Thunder lizard is the meaning of brontosaurus, a different name.",
-  "hint": "Combine the two Greek meanings in order.",
+  "why": "Deinos means terrible and sauros means lizard. Thunder lizard is what brontosaurus means, a different name.",
+  "hint": "Think about what the Greek word parts might describe.",
   "tags": [
    "dinosaurs"
   ],

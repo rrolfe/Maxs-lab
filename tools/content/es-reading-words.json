@@ -1,0 +1,2483 @@
+[
+ {
+  "id": "lec-1-001",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál es el contrario de 'caliente'?",
+  "opts": [
+   "lento",
+   "alto",
+   "frío"
+  ],
+  "a": 2,
+  "why": "Caliente y frío son opuestos, como el fuego y el hielo.",
+  "hint": "Piensa en un helado.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-002",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "El dinosaurio era enorme: sus patas parecían columnas. ¿Qué significa 'enorme'?",
+  "opts": [
+   "Muy grande",
+   "Muy rápido",
+   "Muy viejo"
+  ],
+  "a": 0,
+  "why": "Si las patas parecen columnas, el animal es gigante. 'Enorme' quiere decir muy grande.",
+  "hint": "Las columnas son gruesas y altas.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-003",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "La estrella de mar y las estrellas del cielo son lo mismo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "La estrella de mar es un animal del océano; las del cielo son soles muy lejanos.",
+  "hint": "Piensa dónde vive cada una.",
+  "tags": [
+   "ocean",
+   "space"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-004",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "El corredor del equipo es muy veloz. ¿Qué significa 'veloz'?",
+  "opts": [
+   "Cansado",
+   "Rápido",
+   "Alto"
+  ],
+  "a": 1,
+  "why": "'Veloz' y 'rápido' significan casi lo mismo: se mueve con mucha velocidad.",
+  "hint": "Imagina al corredor llegando a la base.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-005",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Sofía abrió el paraguas y se puso las botas de lluvia. ¿Qué tiempo hacía?",
+  "opts": [
+   "Hacía mucho sol",
+   "Llovía",
+   "Era de noche"
+  ],
+  "a": 1,
+  "why": "El paraguas y las botas de lluvia se usan cuando llueve.",
+  "hint": "Mira lo que se puso Sofía.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-006",
+  "topic": "reading",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena la historia de Ana y la semilla.",
+  "opts": [
+   "Primero, Ana compró una semilla.",
+   "Después, la plantó en la tierra.",
+   "Luego, la regó todos los días.",
+   "Al final, salió una flor."
+  ],
+  "why": "Las palabras primero, después, luego y al final marcan el orden.",
+  "hint": "Busca las palabras que marcan el orden.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-007",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Tomás perdió su guante de béisbol y se sentó en el suelo con la cabeza baja. ¿Cómo se sentía?",
+  "opts": [
+   "Contento",
+   "Triste",
+   "Sorprendido"
+  ],
+  "a": 1,
+  "why": "Sentarse en el suelo con la cabeza baja son pistas de tristeza.",
+  "hint": "Fíjate en cómo tiene la cabeza.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-008",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "El bate, la pelota y el guante son cosas de un deporte. ¿De cuál?",
+  "opts": [
+   "Béisbol",
+   "Natación",
+   "Ciclismo"
+  ],
+  "a": 0,
+  "why": "El bate, la pelota y el guante se usan en el béisbol.",
+  "hint": "Piensa en un estadio con bases.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-009",
+  "topic": "reading",
+  "level": 1,
+  "type": "number",
+  "q": "'El pulpo, el delfín y la tortuga nadan en el mar.' ¿Cuántos animales aparecen en la oración?",
+  "a": 3,
+  "why": "Los animales son el pulpo, el delfín y la tortuga. El mar no es un animal.",
+  "hint": "Cuenta solo los animales.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-1-010",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Los pulpos tienen ocho brazos. Con ellos agarran comida y caminan por el fondo del mar. ¿De qué trata el texto?",
+  "opts": [
+   "De cómo se construye un barco",
+   "De los peces que viven en ríos",
+   "Del pulpo"
+  ],
+  "a": 2,
+  "why": "Todo el texto habla del pulpo y de sus brazos.",
+  "hint": "¿Qué animal se repite en todo el texto?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-001",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El tiburón nadaba silencioso entre las rocas. ¿Qué significa 'silencioso'?",
+  "opts": [
+   "Con mucha hambre",
+   "Muy rápido",
+   "Sin hacer ruido"
+  ],
+  "a": 2,
+  "why": "Silencioso viene de silencio: no se oye ningún ruido.",
+  "hint": "Mira la palabra 'silencio' dentro.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-002",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El jugador ____ a toda velocidad hacia la base. ¿Qué verbo encaja mejor?",
+  "opts": [
+   "corrió",
+   "paseó despacio",
+   "gateó sin prisa"
+  ],
+  "a": 0,
+  "why": "'A toda velocidad' pide un verbo de rapidez: corrió. Pasear y gatear son lentos.",
+  "hint": "Busca el verbo más veloz.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-003",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "'Alegre' y 'triste' significan casi lo mismo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Son antónimos: alegre es contento y triste es lo contrario.",
+  "hint": "Piensa en la cara de cada uno.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-004",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál es el contrario de 'despegar', cuando hablamos de un cohete?",
+  "opts": [
+   "Sobrevolar",
+   "Orbitar",
+   "Aterrizar"
+  ],
+  "a": 2,
+  "why": "El cohete despega para subir y aterriza para bajar y posarse.",
+  "hint": "Piensa en cómo termina un viaje.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-005",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Lucas guardó sus guantes en la mochila y bostezó. Mamá apagó la luz de su cuarto. ¿Qué iba a hacer Lucas?",
+  "opts": [
+   "Dormir",
+   "Jugar béisbol",
+   "Desayunar"
+  ],
+  "a": 0,
+  "why": "Bostezar y apagar la luz son pistas de que es hora de dormir.",
+  "hint": "¿Qué se hace cuando se apaga la luz?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-006",
+  "topic": "reading",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena estos animales del más pequeño al más grande.",
+  "opts": [
+   "ratón",
+   "perro",
+   "elefante",
+   "ballena azul"
+  ],
+  "why": "Un ratón cabe en la mano; la ballena azul es más grande que cualquier elefante.",
+  "hint": "Empieza por el que cabe en tu mano.",
+  "tags": [
+   "animals",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-007",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El primer día de clases, Pablo no soltaba la mano de su mamá. ¿Cómo se sentía?",
+  "opts": [
+   "Aburrido",
+   "Nervioso",
+   "Orgulloso"
+  ],
+  "a": 1,
+  "why": "No soltar la mano de mamá muestra nervios ante algo nuevo.",
+  "hint": "Piensa en lo que sientes con algo nuevo.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-008",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El buzo explora el fondo del mar. ¿Qué hace un 'buzo'?",
+  "opts": [
+   "Vuela en cohete",
+   "Nada bajo el agua",
+   "Maneja un barco grande"
+  ],
+  "a": 1,
+  "why": "Un buzo es una persona que baja y trabaja bajo el agua.",
+  "hint": "Piensa en dónde está el fondo del mar.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-009",
+  "topic": "reading",
+  "level": 2,
+  "type": "number",
+  "q": "'Hay tres tiburones y dos delfines en la bahía.' ¿Cuántos animales hay en total?",
+  "a": 5,
+  "why": "Tres tiburones más dos delfines son cinco animales en la bahía.",
+  "hint": "Suma los dos grupos.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-2-010",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Hoy no hubo práctica de béisbol porque llovió toda la tarde. ¿Por qué no hubo práctica?",
+  "opts": [
+   "Porque hacía calor",
+   "Porque se rompió el bate",
+   "Porque llovió"
+  ],
+  "a": 2,
+  "why": "La palabra 'porque' señala la causa: llovió toda la tarde.",
+  "hint": "Busca la palabra 'porque'.",
+  "tags": [
+   "baseball",
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-001",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "La tortuga marina avanzaba despacio por la arena, con mucho cuidado. ¿Qué palabra significa lo mismo que 'despacio'?",
+  "opts": [
+   "lentamente",
+   "rápidamente",
+   "ruidosamente",
+   "alegremente"
+  ],
+  "a": 0,
+  "why": "Despacio y lentamente significan que se hace con poca velocidad.",
+  "hint": "Piensa en cómo se mueve una tortuga.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-002",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "El astrónomo ____ la Luna con su telescopio durante horas, con mucha atención. ¿Qué verbo encaja mejor?",
+  "opts": [
+   "echó un vistazo a",
+   "vio de pasada",
+   "miró de reojo",
+   "observó"
+  ],
+  "a": 3,
+  "why": "'Durante horas' y 'con atención' piden observar: mirar con cuidado.",
+  "hint": "Busca el verbo para mirar con mucha atención.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-003",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Un fósil es la huella o el resto de un ser vivo muy antiguo, conservado en la roca.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los fósiles de dinosaurios se encuentran en rocas muy antiguas.",
+  "hint": "Piensa en los huesos de dinosaurio de un museo.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-004",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Los tiburones pierden dientes toda la vida, pero les crecen nuevos. Así siempre tienen dientes afilados para comer. ¿Cuál es la idea principal?",
+  "opts": [
+   "Los tiburones comen peces muy pequeños",
+   "Los dientes de los niños se caen",
+   "Los tiburones nadan muy rápido",
+   "Los tiburones renuevan sus dientes"
+  ],
+  "a": 3,
+  "why": "La idea principal es lo que más se repite: los dientes que se renuevan.",
+  "hint": "¿De qué habla el texto en cada oración?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-005",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "El lanzador tiró la pelota muy fuerte y el bateador la golpeó lejos. Todos gritaron: '¡Jonrón!'. ¿Qué pasó con la pelota?",
+  "opts": [
+   "Salió volando del campo",
+   "Cayó en el guante del jardinero",
+   "Se quedó en la mano del lanzador",
+   "Rodó hasta la primera base"
+  ],
+  "a": 0,
+  "why": "Un jonrón es cuando la pelota sale del campo por encima de la cerca.",
+  "hint": "¿Qué significa gritar 'jonrón'?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-006",
+  "topic": "reading",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena los momentos del día de la tortuga.",
+  "opts": [
+   "El sol salió y despertó a la tortuga.",
+   "Caminó hacia el mar con pasos lentos.",
+   "Al llegar, se zambulló en las olas.",
+   "Por la noche, flotó tranquila y descansó."
+  ],
+  "why": "Las pistas son: salió el sol, caminó, al llegar, por la noche.",
+  "hint": "Sigue el orden del día: mañana, tarde y noche.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-007",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Daniel falló el golpe y su equipo perdió. Apretó los puños, frunció el ceño y pateó el suelo. ¿Qué sentía?",
+  "opts": [
+   "Miedo",
+   "Alivio",
+   "Enojo",
+   "Aburrimiento"
+  ],
+  "a": 2,
+  "why": "Puños apretados, ceño fruncido y patadas son pistas de enojo.",
+  "hint": "¿Qué emoción muestran los puños apretados?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-008",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Mi hermano duerme como un tronco. ¿Qué quiere decir esa expresión?",
+  "opts": [
+   "Duerme encima de un árbol",
+   "Duerme muy profundamente",
+   "Duerme muy poco",
+   "Duerme parado"
+  ],
+  "a": 1,
+  "why": "Un tronco no se mueve; por eso 'dormir como un tronco' es dormir muy profundo.",
+  "hint": "Piensa en cuánto se mueve un tronco.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-009",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "'El béisbol es el mejor deporte del mundo' es un hecho que se puede comprobar.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "'Mejor' depende de los gustos de cada persona. Es una opinión, no un hecho.",
+  "hint": "¿Todos piensan igual sobre el mejor deporte?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-3-010",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "El telescopio sirve para ver cosas lejanas, como las estrellas. ¿Qué significa 'tele-' en esta palabra?",
+  "opts": [
+   "Pequeño",
+   "Lejos",
+   "Agua",
+   "Vida"
+  ],
+  "a": 1,
+  "why": "'Tele-' significa lejos. 'Micro-' es pequeño, 'hidro-' es agua y 'bio-' es vida.",
+  "hint": "Piensa para qué sirve un telescopio.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-001",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "El buzo vio un banco de peces plateados. En esta oración, ¿qué es un 'banco'?",
+  "opts": [
+   "Un lugar para guardar dinero",
+   "Un grupo de peces",
+   "Un asiento largo de madera",
+   "Una roca grande y plana"
+  ],
+  "a": 1,
+  "why": "En el mar, un banco es un grupo grande de peces que nadan juntos.",
+  "hint": "Fíjate en que el texto habla de peces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-002",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "La serpiente ____ por la arena sin levantar el cuerpo. ¿Qué verbo es el más preciso?",
+  "opts": [
+   "dio saltitos",
+   "trotó muy rápido",
+   "se deslizó",
+   "trepó con fuerza"
+  ],
+  "a": 2,
+  "why": "Las serpientes se deslizan pegadas al suelo. Saltar, trotar y trepar no describen eso.",
+  "hint": "Piensa en cómo se mueve una serpiente.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-003",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "'Los tiburones dan miedo' es un hecho que se puede comprobar.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Dar miedo depende de cada persona. Es una opinión, no un hecho.",
+  "hint": "¿Todas las personas sienten lo mismo?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-004",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "El sonido viaja muy bien por el agua. Por eso las ballenas azules emiten sonidos graves que otras ballenas oyen desde muy lejos. ¿Cuál es la causa de que se oigan de lejos?",
+  "opts": [
+   "El agua del mar está muy caliente",
+   "Las ballenas tienen orejas enormes",
+   "Las ballenas cantan solo en tormentas",
+   "El sonido viaja bien por el agua"
+  ],
+  "a": 3,
+  "why": "La causa viene antes de 'por eso': el sonido viaja bien por el agua.",
+  "hint": "Busca la causa antes de 'por eso'.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-005",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "'Hidro-' significa agua. ¿Qué es un 'hidroavión'?",
+  "opts": [
+   "Un avión hecho completamente de hielo",
+   "Un avión que vuela solamente de noche",
+   "Un avión que aterriza en agua",
+   "Un avión que no necesita motor"
+  ],
+  "a": 2,
+  "why": "'Hidro-' viene de agua: el hidroavión se posa y despega del agua.",
+  "hint": "Une la raíz con la palabra 'avión'.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-006",
+  "topic": "reading",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena el nacimiento de una tortuga marina.",
+  "opts": [
+   "La mamá deja los huevos en la arena.",
+   "Después de semanas, los huevos se abren.",
+   "Las tortuguitas corren hacia el mar.",
+   "Allí empiezan a nadar."
+  ],
+  "why": "Primero van los huevos, luego nacen, después caminan y al final nadan.",
+  "hint": "Piensa qué ocurre antes: ¿huevos o crías?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-007",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Cuando dicen 'tengo mariposas en el estómago', ¿qué sienten?",
+  "opts": [
+   "Hambre de comer algo dulce",
+   "Nervios o emoción",
+   "Frío en todo el cuerpo",
+   "Sueño y ganas de dormir"
+  ],
+  "a": 1,
+  "why": "Es una expresión: los nervios o la emoción se sienten como aleteos en la barriga.",
+  "hint": "Piensa si hay mariposas de verdad.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-008",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál de estas frases es un HECHO?",
+  "opts": [
+   "La Tierra gira alrededor del Sol",
+   "La Luna es lo más bonito del cielo",
+   "Marte es el planeta más aburrido",
+   "Vivir en el espacio sería genial"
+  ],
+  "a": 0,
+  "why": "Un hecho se puede comprobar. 'Bonito', 'aburrido' y 'genial' son opiniones.",
+  "hint": "Un hecho se puede comprobar con pruebas.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-009",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "La palabra 'murciélago' tiene las cinco vocales: a, e, i, o, u.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Mur-cié-la-go tiene u, i, e, a, o. Es una de las pocas palabras con todas las vocales.",
+  "hint": "Escribe la palabra y marca las vocales.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-4-010",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "El cielo se puso muy gris, el viento sopló fuerte y los pájaros volaron a sus nidos. ¿Qué iba a pasar pronto?",
+  "opts": [
+   "Una tormenta",
+   "Un eclipse solar",
+   "Una gran sequía",
+   "Un amanecer rojo"
+  ],
+  "a": 0,
+  "why": "Cielo gris y viento fuerte son pistas de tormenta. Una sequía es falta de lluvia.",
+  "hint": "Piensa qué anuncian las nubes grises y el viento.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-001",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Todos hablaron del jonrón que ganó el partido en la última entrada: fue un golpe memorable. ¿Qué significa 'memorable'?",
+  "opts": [
+   "Digno de ser recordado",
+   "Muy suave y demasiado lento",
+   "Lleno de errores y fallas",
+   "Imposible de ver desde lejos"
+  ],
+  "a": 0,
+  "why": "Memorable viene de memoria: algo que vale la pena recordar.",
+  "hint": "Piensa en la palabra 'memoria'.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-002",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "En el desierto el agua es escasa. ¿Cuál es el antónimo de 'escasa'?",
+  "opts": [
+   "limitada",
+   "insuficiente",
+   "reducida",
+   "abundante"
+  ],
+  "a": 3,
+  "why": "Escasa significa poca. Su contrario es abundante: mucha. Las otras tres son sinónimos de escasa.",
+  "hint": "Busca el que significa mucha cantidad.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-003",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "La palabra 'astronauta' significa 'navegante de los océanos'.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Astro es estrella y nauta, navegante. El astronauta es un navegante de las estrellas.",
+  "hint": "Fíjate en la raíz 'astro'.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-004",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Ese bateador tiene ojo de águila: no se le escapa ninguna pelota. ¿Qué quiere decir esa expresión?",
+  "opts": [
+   "Tiene un ojo lastimado",
+   "Es muy bravo y agresivo",
+   "Lleva lentes especiales",
+   "Observa y nota todo"
+  ],
+  "a": 3,
+  "why": "'Ojo de águila' se dice de quien ve y se da cuenta de todo, como un águila.",
+  "hint": "Las águilas ven desde muy lejos.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-005",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Qué enseña el refrán 'Camarón que se duerme, se lo lleva la corriente'?",
+  "opts": [
+   "Los camarones nadan mejor cuando oscurece del todo",
+   "Hay que estar atentos y aprovechar oportunidades",
+   "Hay que dormir mucho para tener más energía",
+   "Las corrientes del mar siempre son peligrosas"
+  ],
+  "a": 1,
+  "why": "Es una metáfora: quien se descuida pierde su oportunidad, como el camarón dormido.",
+  "hint": "No habla de camarones de verdad.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-006",
+  "topic": "reading",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena cómo se forma un fósil.",
+  "opts": [
+   "Un dinosaurio muere cerca de un río.",
+   "El barro cubre sus huesos.",
+   "El barro se endurece y se vuelve roca.",
+   "Millones de años después, alguien encuentra el fósil."
+  ],
+  "why": "Primero muere, luego lo cubre el barro, el barro se endurece y mucho después aparece.",
+  "hint": "Piensa en lo que ocurre antes de ser enterrado.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-007",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Inés aplaudió y sonrió cuando dijeron el nombre de su amiga, pero se mordió el labio y bajó la mirada. ¿Qué sentía?",
+  "opts": [
+   "Muy enojada con su amiga por haber ganado",
+   "Contenta por su amiga y algo decepcionada",
+   "Aburrida y sin ninguna gana de aplaudir",
+   "Orgullosa de haber ganado ella misma el premio"
+  ],
+  "a": 1,
+  "why": "Aplaudir y sonreír muestran alegría; morderse el labio y bajar la mirada, decepción.",
+  "hint": "Hay dos pistas distintas: lo que hace al principio y al final.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RL.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-008",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "'Bio' significa vida y 'grafía', escritura. ¿Qué es una 'biografía'?",
+  "opts": [
+   "Un libro de dibujos de animales",
+   "Un mapa que muestra el cuerpo",
+   "El relato de la vida de alguien",
+   "Una carta escrita a un amigo"
+  ],
+  "a": 2,
+  "why": "Bio (vida) + grafía (escritura): la biografía cuenta la vida de una persona.",
+  "hint": "Une los significados de las dos partes.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-009",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Los pulpos tienen tres corazones.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Dos corazones envían sangre a las branquias y el tercero, al resto del cuerpo.",
+  "hint": "Piensa en el cuerpo tan raro de los pulpos.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-5-010",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Un cometa se acerca al Sol y su hielo se calienta. Por eso se forma una cola brillante. ¿Cuál es la causa de la cola?",
+  "opts": [
+   "La Luna empuja el cometa hacia afuera",
+   "Los cometas giran muy rápido sobre sí mismos",
+   "El hielo se calienta cerca del Sol",
+   "El cometa se enfría en el espacio"
+  ],
+  "a": 2,
+  "why": "La causa va antes de 'por eso': el hielo se calienta y forma la cola.",
+  "hint": "Busca la causa antes de 'por eso'.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-001",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Los científicos hicieron una hipótesis: el megalodón desapareció porque el mar se enfrió y su comida escaseó. ¿Qué es una hipótesis?",
+  "opts": [
+   "Una explicación que se puede probar",
+   "Un dato que ya se comprobó hace años",
+   "Un dibujo científico del animal extinto",
+   "Una opinión que nunca se puede probar"
+  ],
+  "a": 0,
+  "why": "Una hipótesis es una posible explicación que luego se prueba con evidencias.",
+  "hint": "Los científicos la prueban después.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NGSS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-002",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Algunas flores de cactus son efímeras: duran solo un día. ¿Qué palabra significa lo CONTRARIO de 'efímera'?",
+  "opts": [
+   "Fugaz",
+   "Delicada",
+   "Duradera",
+   "Colorida"
+  ],
+  "a": 2,
+  "why": "Efímera es lo que dura poco; su contrario es duradera. Fugaz es sinónimo de efímera.",
+  "hint": "Busca la que significa 'dura mucho'.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-003",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "'Hipopótamo' viene del griego y significa 'caballo de río'.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Hippos es caballo y potamós, río. Los antiguos griegos lo llamaron así.",
+  "hint": "Piensa en dónde pasa el día este animal.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-004",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "'A buen entendedor, pocas palabras bastan' significa que...",
+  "opts": [
+   "Para convencer a alguien hay que repetir mucho",
+   "Entender bien cuesta muchas palabras difíciles",
+   "Quien entiende rápido no necesita más palabras",
+   "Los que hablan poco entienden menos cosas"
+  ],
+  "a": 2,
+  "why": "Al que entiende pronto le bastan pocas palabras. No hace falta explicarle de más.",
+  "hint": "Fíjate en quién es el 'buen entendedor'.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-005",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "—¡Qué día tan perfecto! —suspiró Pablo, mientras la lluvia le mojaba el uniforme y suspendían el partido de béisbol. ¿Qué quiso decir Pablo?",
+  "opts": [
+   "Que estaba feliz de que lloviera tanto",
+   "Que el partido sería mucho mejor mojado",
+   "Que no le importaba nada el partido",
+   "Lo contrario: el día era malo"
+  ],
+  "a": 3,
+  "why": "Es ironía: dice una cosa para dar a entender lo contrario, y la situación lo muestra.",
+  "hint": "Compara lo que dice con lo que le pasa.",
+  "tags": [
+   "baseball",
+   "weather"
+  ],
+  "fun": false,
+  "src": "Common Core RL.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-006",
+  "topic": "reading",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena estos vientos del más suave al más fuerte.",
+  "opts": [
+   "brisa",
+   "viento",
+   "ventarrón",
+   "huracán"
+  ],
+  "why": "Una brisa apenas mueve las hojas; el ventarrón es muy fuerte y el huracán es aún más.",
+  "hint": "Empieza por el que apenas mueve las hojas.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-007",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Hallaron fósiles de peces en la cima de una montaña muy alta. ¿Qué se puede deducir?",
+  "opts": [
+   "Que esa tierra estuvo bajo el mar",
+   "Que unos pescadores los dejaron allí",
+   "Que los peces antiguos vivían en tierra firme",
+   "Que son rocas con forma de pez"
+  ],
+  "a": 0,
+  "why": "Los fósiles marinos en montañas indican que esa tierra estuvo cubierta por el mar y luego se elevó.",
+  "hint": "Piensa dónde vivían esos peces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-008",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras expresa el miedo MÁS intenso?",
+  "opts": [
+   "Inquietud",
+   "Recelo",
+   "Temor",
+   "Pavor"
+  ],
+  "a": 3,
+  "why": "Pavor es un miedo muy fuerte. Inquietud y recelo son más suaves.",
+  "hint": "Ordena mentalmente de miedo leve a miedo enorme.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-009",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Los tiburones ya nadaban en los mares antes de que existieran los dinosaurios.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los antepasados de los tiburones aparecieron hace unos 400 millones de años; los dinosaurios, hace unos 230.",
+  "hint": "Compara hace cuánto tiempo apareció cada uno.",
+  "tags": [
+   "sharks",
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lec-6-010",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Algunas plantas atrapan insectos. La planta carnívora cierra sus hojas como una trampa y así obtiene nutrientes que el suelo pobre no le da. ¿Cuál es la idea central?",
+  "opts": [
+   "Los insectos prefieren vivir en suelos pobres",
+   "Algunas plantas cazan insectos para nutrirse",
+   "Las hojas se cierran cuando llega la noche",
+   "Todas las plantas necesitan comer insectos"
+  ],
+  "a": 1,
+  "why": "La idea central abarca todo el texto. 'Todas las plantas' exagera: dice 'algunas'.",
+  "hint": "Cuidado con las opciones que dicen 'todas'.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-001",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál es el plural de 'pez'?",
+  "opts": [
+   "pezes",
+   "peses",
+   "peces"
+  ],
+  "a": 2,
+  "why": "Si una palabra termina en z, la z cambia a c antes de -es: pez, peces.",
+  "hint": "Recuerda qué letra cambia cuando una palabra termina en z.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-002",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué artículo va con la palabra 'delfín'? ____ delfín nada en el mar.",
+  "opts": [
+   "La",
+   "El",
+   "Las"
+  ],
+  "a": 1,
+  "why": "Delfín es masculino y está en singular: el delfín. 'La' y 'Las' son femeninos.",
+  "hint": "Es un solo delfín, y es masculino.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-003",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "'Bate' rima con 'pelota'.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Bate termina en -ate y pelota termina en -ota. No suenan igual al final.",
+  "hint": "Compara los sonidos del final de cada palabra.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-004",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál es el diminutivo de 'gato'?",
+  "opts": [
+   "gatazo",
+   "gatito",
+   "gatuno"
+  ],
+  "a": 1,
+  "why": "Los diminutivos terminan en -ito o -ita y dicen que algo es pequeño. 'Gatazo' es aumentativo.",
+  "hint": "Busca la palabra que nombra un gato pequeño.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-005",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "En 'ana juega béisbol en quito', ¿qué palabras llevan mayúscula?",
+  "opts": [
+   "Ana y Quito",
+   "Solo Ana",
+   "Solo Quito",
+   "Béisbol y Quito"
+  ],
+  "a": 0,
+  "why": "Los nombres propios, como Ana y Quito, llevan mayúscula. 'Béisbol' no es un nombre propio.",
+  "hint": "Mayúscula en los nombres de personas y lugares.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-006",
+  "topic": "words",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena las sílabas para formar el nombre de un animal del mar.",
+  "opts": [
+   "ba",
+   "lle",
+   "na"
+  ],
+  "why": "Al unir ba-lle-na se forma 'ballena', un mamífero marino.",
+  "hint": "Es un animal enorme que sopla agua.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-007",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál es la pregunta bien escrita?",
+  "opts": [
+   "¿Cómo te llamas?",
+   "Cómo te llamas?",
+   "¿Cómo te llamas."
+  ],
+  "a": 0,
+  "why": "En español, las preguntas se abren con ¿ y se cierran con ?",
+  "hint": "Mira cómo empieza y cómo termina cada pregunta.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-008",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál palabra está bien escrita?",
+  "opts": [
+   "hormiga",
+   "ormiga",
+   "hormija"
+  ],
+  "a": 0,
+  "why": "Hormiga empieza con h muda y lleva g: hormiga.",
+  "hint": "Esta palabra empieza con una letra que no suena.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-009",
+  "topic": "words",
+  "level": 1,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'tiburón'?",
+  "a": 3,
+  "why": "Se separa ti-bu-rón: tres sílabas, una por cada vocal.",
+  "hint": "Dila despacio y cuenta los golpes de voz.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-1-010",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué palabra rima con 'estrella'?",
+  "opts": [
+   "montaña",
+   "cometa",
+   "botella"
+  ],
+  "a": 2,
+  "why": "Rimar es terminar con los mismos sonidos: es-tre-lla y bo-te-lla.",
+  "hint": "Fíjate en las últimas sílabas.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-001",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Una ____ nos da leche. ¿Cómo se escribe el animal?",
+  "opts": [
+   "vaca",
+   "baca",
+   "vacca"
+  ],
+  "a": 0,
+  "why": "'Vaca' es el animal que da leche. 'Baca' es el portaequipajes de un coche.",
+  "hint": "Piensa en el significado, no en el sonido.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-002",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Elige la forma correcta del pez cazador de dientes afilados.",
+  "opts": [
+   "tiburon",
+   "tiburón",
+   "tibúron"
+  ],
+  "a": 1,
+  "why": "Tiburón se pronuncia más fuerte al final y termina en n, por eso lleva tilde.",
+  "hint": "Di la palabra: ¿en qué sílaba suena más fuerte?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-003",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "La palabra 'jirafa' se escribe con j.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Jirafa se escribe con j: j-i-r-a-f-a.",
+  "hint": "Es un animal de cuello muy largo.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-004",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál es el plural de 'lápiz'?",
+  "opts": [
+   "lápizes",
+   "lápiz",
+   "lápices"
+  ],
+  "a": 2,
+  "why": "Si la palabra termina en z, cambia a c y añade -es: lápiz, lápices.",
+  "hint": "La z se transforma antes de -es.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-005",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Completa: Los dinosaurios ____ enormes.",
+  "opts": [
+   "era",
+   "eres",
+   "eran"
+  ],
+  "a": 2,
+  "why": "'Los dinosaurios' es plural, así que el verbo también debe ir en plural: eran.",
+  "hint": "El verbo debe concordar con 'los dinosaurios'.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-006",
+  "topic": "words",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena alfabéticamente estos animales del mar.",
+  "opts": [
+   "ballena",
+   "delfín",
+   "pulpo",
+   "tiburón"
+  ],
+  "why": "Orden alfabético: b, d, p, t. Se ordena por la primera letra.",
+  "hint": "Mira la primera letra de cada palabra.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-007",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué palabra rima con 'cohete'?",
+  "opts": [
+   "planeta",
+   "juguete",
+   "cometa"
+  ],
+  "a": 1,
+  "why": "Rimar es compartir los sonidos finales: cohete y juguete terminan en -ete.",
+  "hint": "Compara los últimos tres sonidos.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-008",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál es el diminutivo de 'pelota'?",
+  "opts": [
+   "pelotón",
+   "pelotita",
+   "pelotera"
+  ],
+  "a": 1,
+  "why": "El sufijo -ita indica pequeño. Pelotón y pelotera son otras palabras.",
+  "hint": "Busca el sufijo que significa pequeño.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-009",
+  "topic": "words",
+  "level": 2,
+  "type": "number",
+  "q": "¿Cuántas letras tiene la palabra 'delfín'?",
+  "a": 6,
+  "why": "D-e-l-f-í-n: seis letras. La í con tilde sigue siendo una sola letra.",
+  "hint": "Deletrea la palabra y cuenta con los dedos.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-2-010",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál exclamación está bien escrita?",
+  "opts": [
+   "¡Qué gran jonrón!",
+   "Qué gran jonrón!",
+   "¡Qué gran jonrón."
+  ],
+  "a": 0,
+  "why": "Las exclamaciones se abren con ¡ y se cierran con !",
+  "hint": "Mira el principio y el final de cada una.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-001",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Todos los días el tiburón ____ cerca de la costa. ¿Cuál es la forma correcta?",
+  "opts": [
+   "nadava",
+   "nadaba",
+   "nádaba",
+   "nadabá"
+  ],
+  "a": 1,
+  "why": "Los verbos terminados en -aba llevan b y no llevan tilde: nadaba.",
+  "hint": "Recuerda la terminación del pasado de los verbos en -ar.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-002",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cómo se escribe un grupo de estrellas que forma un dibujo en el cielo?",
+  "opts": [
+   "constelasión",
+   "constelación",
+   "constelacion",
+   "costelación"
+  ],
+  "a": 1,
+  "why": "Las palabras terminadas en -ción llevan c y tilde en la o.",
+  "hint": "Piensa en la terminación -ción, que es una regla fija.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-003",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "'Echo' es una forma del verbo hacer.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Echo viene de echar (echo la pelota). La forma de hacer es 'hecho'.",
+  "hint": "Una de las dos lleva h.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-004",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "____ muchos peces en el acuario. ¿Cuál palabra completa la oración?",
+  "opts": [
+   "Ahí",
+   "Ay",
+   "Hai",
+   "Hay"
+  ],
+  "a": 3,
+  "why": "'Hay' (del verbo haber) dice que algo existe. 'Ahí' es un lugar y 'ay' expresa dolor o sorpresa.",
+  "hint": "¿Es existencia, lugar o queja?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-005",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cómo se escribe el movimiento de las olas del mar?",
+  "opts": [
+   "oleage",
+   "oleáje",
+   "oleaxe",
+   "oleaje"
+  ],
+  "a": 3,
+  "why": "Las palabras terminadas en -aje llevan j: oleaje, viaje, mensaje.",
+  "hint": "Recuerda el final: -aje.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-006",
+  "topic": "words",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena las sílabas para formar el nombre de quien viaja al espacio.",
+  "opts": [
+   "as",
+   "tro",
+   "nau",
+   "ta"
+  ],
+  "why": "As-tro-nau-ta: 'nau' tiene un diptongo, que cuenta como una sola sílaba.",
+  "hint": "Es quien viaja en cohete.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-007",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Ayer el pelotero ____ la pelota muy lejos. ¿Qué forma del verbo lanzar encaja?",
+  "opts": [
+   "lanza",
+   "lanzará",
+   "lanzó",
+   "lanzaría"
+  ],
+  "a": 2,
+  "why": "'Ayer' indica pasado: lanzó. 'Lanza' es presente y 'lanzará', futuro.",
+  "hint": "Busca la palabra de tiempo: 'ayer'.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-008",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cuál es el aumentativo de 'perro'?",
+  "opts": [
+   "perrazo",
+   "perrito",
+   "perrillo",
+   "perruno"
+  ],
+  "a": 0,
+  "why": "Los aumentativos como -azo o -ote indican algo grande. Perrito y perrillo son diminutivos.",
+  "hint": "Busca el sufijo que significa grande.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-009",
+  "topic": "words",
+  "level": 3,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'murciélago'?",
+  "a": 4,
+  "why": "Mur-cié-la-go: 'ie' es un diptongo, así que 'cié' es una sola sílaba.",
+  "hint": "Las vocales juntas 'ie' suenan en un solo golpe.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-3-010",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien las comas?",
+  "opts": [
+   "Vi, tiburones delfines y ballenas.",
+   "Vi tiburones delfines, y ballenas.",
+   "Vi tiburones, delfines y ballenas.",
+   "Vi tiburones delfines y, ballenas."
+  ],
+  "a": 2,
+  "why": "En una lista se separa con comas, pero no se pone coma antes de 'y'.",
+  "hint": "Separa cada animal con coma, menos el último.",
+  "tags": [
+   "ocean",
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-001",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Un dinosaurio es un animal con columna vertebral, o sea, un ____. ¿Cómo se escribe?",
+  "opts": [
+   "bertebrado",
+   "vertebrado",
+   "vertevrado",
+   "vertébrado"
+  ],
+  "a": 1,
+  "why": "Vertebrado viene de vértebra. Las palabras de una misma familia conservan la v.",
+  "hint": "Piensa en la palabra 'vértebra'.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-002",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Los dinosaurios nacían de un ____. ¿Cómo se escribe?",
+  "opts": [
+   "uevo",
+   "huebo",
+   "hubo",
+   "huevo"
+  ],
+  "a": 3,
+  "why": "Huevo empieza con hue- y lleva v. 'Hubo' es una forma del verbo haber.",
+  "hint": "Empieza con una letra muda.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-003",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Todas las palabras agudas llevan tilde.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Las agudas solo llevan tilde si terminan en n, s o vocal: canción sí, reloj no.",
+  "hint": "Compara 'canción' con 'reloj'.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-004",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál palabra está bien acentuada?",
+  "opts": [
+   "jonron",
+   "jónron",
+   "jónrón",
+   "jonrón"
+  ],
+  "a": 3,
+  "why": "'Jonrón' es aguda (suena fuerte en -rón) y termina en n: lleva tilde.",
+  "hint": "Di la palabra: ¿en qué sílaba suena más fuerte?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-005",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "____ qué descubrió hoy el buzo en el fondo del mar. ¿Cómo se escribe el inicio?",
+  "opts": [
+   "Haber",
+   "Ha ver",
+   "A ver",
+   "Aber"
+  ],
+  "a": 2,
+  "why": "'A ver' (preposición y verbo) expresa curiosidad. 'Haber' es el verbo de 'ha habido'.",
+  "hint": "Puedes cambiarlo por 'veamos'.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-006",
+  "topic": "words",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena alfabéticamente estos planetas.",
+  "opts": [
+   "Júpiter",
+   "Marte",
+   "Mercurio",
+   "Venus"
+  ],
+  "why": "J, M, M, V. Entre Marte y Mercurio decide la segunda letra: a va antes que e.",
+  "hint": "Si la primera letra se repite, mira la segunda.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-007",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Mañana los astronautas ____ a la Luna. ¿Qué forma del verbo viajar encaja?",
+  "opts": [
+   "viajaron",
+   "viajaban",
+   "viajarán",
+   "han viajado"
+  ],
+  "a": 2,
+  "why": "'Mañana' indica futuro, así que el verbo va en futuro: viajarán.",
+  "hint": "Busca la palabra de tiempo: 'mañana'.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-008",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Qué palabra NO pertenece a la familia de 'mar'?",
+  "opts": [
+   "marfil",
+   "marino",
+   "marea",
+   "submarino"
+  ],
+  "a": 0,
+  "why": "Marino, marea y submarino vienen de 'mar'. Marfil viene del árabe y no se relaciona con el mar.",
+  "hint": "Pregúntate cuál no tiene nada que ver con el mar.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-009",
+  "topic": "words",
+  "level": 4,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'constelación'?",
+  "a": 4,
+  "why": "Cons-te-la-ción: 'ción' tiene un diptongo, así que es una sola sílaba.",
+  "hint": "Las vocales 'io' juntas suenan en un solo golpe.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-4-010",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "En 'mañana viajamos a quito el miércoles', ¿qué palabras llevan mayúscula?",
+  "opts": [
+   "Mañana y Quito",
+   "Mañana, Quito y Miércoles",
+   "Solo Quito",
+   "Quito y Miércoles"
+  ],
+  "a": 0,
+  "why": "Mayúscula al empezar y en nombres de ciudades. Los días de la semana van en minúscula.",
+  "hint": "¿Qué palabras son nombres propios o inician la oración?",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-001",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cómo se escribe la ciencia que estudia las rocas y la historia de la Tierra?",
+  "opts": [
+   "jeología",
+   "geología",
+   "geolojía",
+   "jeolojía"
+  ],
+  "a": 1,
+  "why": "Geo- (tierra) y -logía (estudio) se escriben con g: geología, geografía, geometría.",
+  "hint": "Piensa en el prefijo que significa tierra.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-002",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien la tilde diacrítica?",
+  "opts": [
+   "Tu tienes tu guante nuevo.",
+   "Tú tienes tu guante nuevo.",
+   "Tú tienes tú guante nuevo.",
+   "Tu tienes tú guante nuevo."
+  ],
+  "a": 1,
+  "why": "'Tú' (pronombre) lleva tilde; 'tu' (posesivo) no: Tú tienes tu guante.",
+  "hint": "Un pronombre puede cambiarse por 'él' o 'ella'.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-003",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "En 'pingüino' la u lleva diéresis (ü) para que se pronuncie.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Gue y gui suenan sin u (guitarra). Con ü se pronuncia: pingüino, cigüeña.",
+  "hint": "Compara 'guitarra' con 'pingüino'.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-004",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Los ____ llevan agua dulce de las montañas hasta el mar. ¿Cuál palabra está bien escrita?",
+  "opts": [
+   "rios",
+   "riós",
+   "ríos",
+   "ríós"
+  ],
+  "a": 2,
+  "why": "La fuerza cae en la i (rí-os), así que se separa en dos sílabas y lleva tilde.",
+  "hint": "Di la palabra: ¿la fuerza cae en la i o en la o?",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-005",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "No era un tiburón, ____ una raya. ¿Cómo se escribe?",
+  "opts": [
+   "si no",
+   "sinó",
+   "sí no",
+   "sino"
+  ],
+  "a": 3,
+  "why": "'Sino' une una idea contraria después de una negación. 'Si no' expresa condición.",
+  "hint": "Hay una negación antes y una idea contraria después.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-006",
+  "topic": "words",
+  "level": 5,
+  "type": "order",
+  "q": "Pon estas palabras en orden alfabético.",
+  "opts": [
+   "tiburón",
+   "tilde",
+   "tiza",
+   "tortuga"
+  ],
+  "why": "Compara letra por letra: tib-, til-, tiz-, tor-.",
+  "hint": "Si dos palabras empiezan igual, mira la siguiente letra.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-007",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Ayer yo ____ un dibujo de un megalodón. ¿Qué forma del verbo hacer encaja?",
+  "opts": [
+   "hice",
+   "hací",
+   "hizo",
+   "hicé"
+  ],
+  "a": 0,
+  "why": "El pasado de 'hacer' es irregular: yo hice, tú hiciste, él hizo.",
+  "hint": "Conjuga 'hacer' con 'yo' en pasado.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-008",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál de estos prefijos significa 'debajo de'?",
+  "opts": [
+   "sub-",
+   "super-",
+   "inter-",
+   "trans-"
+  ],
+  "a": 0,
+  "why": "Sub- es debajo (submarino, subsuelo). Super- es encima, inter- es entre y trans- es a través.",
+  "hint": "Prueba cada prefijo con la palabra 'marino'.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-009",
+  "topic": "words",
+  "level": 5,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'electricidad'?",
+  "a": 5,
+  "why": "E-lec-tri-ci-dad: cinco sílabas. En 'tri' hay tres letras pero una sola vocal.",
+  "hint": "Marca cada golpe de voz con un dedo.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-5-010",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien la coma del vocativo?",
+  "opts": [
+   "Ana pásame el bate.",
+   "Ana pásame, el bate.",
+   "Ana, pásame, el bate.",
+   "Ana, pásame el bate."
+  ],
+  "a": 3,
+  "why": "El vocativo, la palabra con que llamamos a alguien, se separa con coma.",
+  "hint": "¿A quién le habla la oración?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-001",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras tiene un HIATO (dos vocales en sílabas distintas)?",
+  "opts": [
+   "poeta",
+   "puerta",
+   "cielo",
+   "causa"
+  ],
+  "a": 0,
+  "why": "Po-e-ta tiene dos vocales abiertas juntas, que se separan. Puerta, cielo y causa tienen diptongo.",
+  "hint": "Un diptongo une una vocal abierta con una cerrada.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-002",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Las palabras llanas llevan tilde cuando NO terminan en vocal, n ni s. ¿Cuál está bien escrita?",
+  "opts": [
+   "crater",
+   "cratér",
+   "cráter",
+   "cráters"
+  ],
+  "a": 2,
+  "why": "Cráter es llana (CRÁ-ter) y termina en r: por eso lleva tilde.",
+  "hint": "Di la palabra: ¿en qué sílaba cae la fuerza?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-003",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "'Aun' sin tilde significa 'incluso' y 'aún' con tilde significa 'todavía'.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Aún (todavía) lleva tilde: Aún no llegó. Aun (incluso) no: Aun así, lo intentó.",
+  "hint": "Prueba cambiarla por 'todavía' o por 'incluso'.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-004",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "El barco navegaba ____ el puerto. ¿Cuál palabra completa la oración?",
+  "opts": [
+   "hacía",
+   "hacia",
+   "asia",
+   "acia"
+  ],
+  "a": 1,
+  "why": "'Hacia' indica dirección y no lleva tilde. 'Hacía' es del verbo hacer: hacía calor.",
+  "hint": "¿Indica dirección o es el verbo hacer?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-005",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cómo se escribe el verbo que significa hacer una tela con hilos?",
+  "opts": [
+   "teger",
+   "protejer",
+   "tejer",
+   "escojer"
+  ],
+  "a": 2,
+  "why": "Casi todos los verbos en -ger llevan g (proteger, escoger), pero tejer lleva j.",
+  "hint": "Casi todos los -ger llevan g; solo unos pocos son excepción.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-006",
+  "topic": "words",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena estas cinco palabras por orden alfabético.",
+  "opts": [
+   "cohete",
+   "cola",
+   "colina",
+   "colmena",
+   "cometa"
+  ],
+  "why": "Compara letra por letra: coh-, col-a, col-i, col-m, com-.",
+  "hint": "Si las primeras letras se repiten, compara las siguientes.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-007",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Si tuviera un telescopio, ____ los anillos de Saturno. ¿Qué forma del verbo ver encaja?",
+  "opts": [
+   "veré",
+   "vería",
+   "he visto",
+   "veo"
+  ],
+  "a": 1,
+  "why": "Con 'si tuviera' (algo imaginado) se usa el condicional: vería.",
+  "hint": "Es algo que solo se imagina, no que ocurre.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-008",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál es el plural de 'paraguas'?",
+  "opts": [
+   "los paraguases",
+   "las paraguas",
+   "los paragua",
+   "los paraguas"
+  ],
+  "a": 3,
+  "why": "Paraguas ya termina en -s y no es aguda: no cambia. Solo cambia el artículo.",
+  "hint": "Fíjate si cambia la palabra o solo el artículo.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-009",
+  "topic": "words",
+  "level": 6,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'paleontología'?",
+  "a": 7,
+  "why": "Pa-le-on-to-lo-gí-a: 'e-o' y 'í-a' son hiatos; cada vocal queda en una sílaba distinta.",
+  "hint": "Dos vocales abiertas juntas, o una débil con tilde, se separan.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "pal-6-010",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Los científicos buscan el ____ de la extinción de los dinosaurios. ¿Cómo se escribe?",
+  "opts": [
+   "porqué",
+   "por qué",
+   "porque",
+   "por que"
+  ],
+  "a": 0,
+  "why": "Con 'el' delante es un sustantivo (la razón): 'el porqué', junto y con tilde.",
+  "hint": "Fíjate en la palabra 'el' que va delante.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ }
+]

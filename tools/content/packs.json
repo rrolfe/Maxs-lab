@@ -2675,6 +2675,898 @@
      }
     ]
    }
+  },
+  {
+   "id": "food-and-cooking",
+   "icon": "🍳",
+   "name": {
+    "en": "Food and Cooking",
+    "es": "Comida y cocina"
+   },
+   "words": {
+    "en": [
+     {
+      "w": "RICE",
+      "clue": "Tiny white or brown grains grown in flooded fields",
+      "fact": "Rice plants grow best with their roots in shallow, flooded fields called paddies.",
+      "tier": 1
+     },
+     {
+      "w": "CORN",
+      "clue": "Golden kernels grow in rows on a cob",
+      "fact": "An ear of corn usually has an even number of rows of kernels.",
+      "tier": 1
+     },
+     {
+      "w": "BEAN",
+      "clue": "Seed that grows in a pod, tasty in chili",
+      "fact": "Beans have protein, and bean plants help put nutrients back into the soil.",
+      "tier": 1
+     },
+     {
+      "w": "HONEY",
+      "clue": "Sweet golden food made by bees",
+      "fact": "A honeybee makes only about a twelfth of a teaspoon of honey in its whole life.",
+      "tier": 1
+     },
+     {
+      "w": "FLOUR",
+      "clue": "Soft powder ground from wheat, used for baking",
+      "fact": "Bread flour has more protein than cake flour, so it makes chewier dough.",
+      "tier": 1
+     },
+     {
+      "w": "YEAST",
+      "clue": "Tiny living puffs that make bread dough rise",
+      "fact": "Yeast is a living fungus that eats sugar and makes gas bubbles.",
+      "tier": 1
+     },
+     {
+      "w": "BREAD",
+      "clue": "Baked loaf made from flour, water and yeast",
+      "fact": "People were baking bread thousands of years ago, long before the pyramids.",
+      "tier": 1
+     },
+     {
+      "w": "MANGO",
+      "clue": "Sweet orange-yellow tropical fruit with a big flat pit",
+      "fact": "Mangoes are related to cashews and pistachios.",
+      "tier": 1
+     },
+     {
+      "w": "BAKE",
+      "clue": "Cook food with dry heat in an oven",
+      "fact": "Cakes rise in the oven because heat makes tiny gas bubbles grow bigger.",
+      "tier": 1
+     },
+     {
+      "w": "CHEF",
+      "clue": "Cook in charge of a restaurant kitchen",
+      "fact": "The tall white hat a chef wears is called a toque.",
+      "tier": 1
+     },
+     {
+      "w": "STIR",
+      "clue": "Mix food around with a spoon",
+      "fact": "Stirring a pot keeps food from sticking and helps it heat evenly.",
+      "tier": 1
+     },
+     {
+      "w": "PASTA",
+      "clue": "Italian dough shaped into noodles, shells or tubes",
+      "fact": "There are hundreds of pasta shapes, from tiny stars to long strands.",
+      "tier": 1
+     },
+     {
+      "w": "BUTTER",
+      "clue": "Creamy yellow spread made by churning cream",
+      "fact": "If you shake cream long enough, it turns into butter.",
+      "tier": 2
+     },
+     {
+      "w": "CHEESE",
+      "clue": "Food made from milk that is pressed and aged",
+      "fact": "It takes about ten pounds of milk to make one pound of cheese.",
+      "tier": 2
+     },
+     {
+      "w": "TOMATO",
+      "clue": "Round red fruit often mistaken for a vegetable",
+      "fact": "A tomato is a fruit because it grows from a flower and holds seeds.",
+      "tier": 2
+     },
+     {
+      "w": "POTATO",
+      "clue": "Underground tuber made into fries and chips",
+      "fact": "Potatoes were first grown in the Andes mountains of South America.",
+      "tier": 2
+     },
+     {
+      "w": "PEPPER",
+      "clue": "Spicy black powder shaken from a small shaker",
+      "fact": "Black pepper comes from berries that are dried until they turn dark and wrinkled.",
+      "tier": 2
+     },
+     {
+      "w": "VINEGAR",
+      "clue": "Sour liquid used for pickling and salad dressing",
+      "fact": "The word comes from French words meaning \"sour wine.\"",
+      "tier": 2
+     },
+     {
+      "w": "NOODLE",
+      "clue": "Long thin strand of dough cooked in soup",
+      "fact": "Some of the oldest known noodles were found in China and are about 4,000 years old.",
+      "tier": 2
+     },
+     {
+      "w": "SPATULA",
+      "clue": "Flat tool for flipping pancakes",
+      "fact": "A rubber spatula can scrape a bowl almost completely clean.",
+      "tier": 2
+     },
+     {
+      "w": "POPCORN",
+      "clue": "Corn kernels that burst into fluffy white snacks",
+      "fact": "Popcorn pops because water inside the kernel turns to steam and bursts it open.",
+      "tier": 2
+     },
+     {
+      "w": "PRETZEL",
+      "clue": "Twisted baked snack with coarse salt crystals",
+      "fact": "Soft pretzels get their shiny brown crust from a quick bath in baking soda water.",
+      "tier": 2
+     },
+     {
+      "w": "AVOCADO",
+      "clue": "Green fruit with a big pit that is mashed for guacamole",
+      "fact": "Avocados ripen only after they are picked, not while still on the tree.",
+      "tier": 2
+     },
+     {
+      "w": "PUMPKIN",
+      "clue": "Big orange squash carved at Halloween",
+      "fact": "Pumpkins are fruits, and they are mostly water.",
+      "tier": 2
+     },
+     {
+      "w": "COCONUT",
+      "clue": "Hairy brown tropical fruit with sweet water inside",
+      "fact": "A coconut can float across the ocean and sprout on a faraway beach.",
+      "tier": 2
+     },
+     {
+      "w": "SIMMER",
+      "clue": "Cook gently, just below the boiling point",
+      "fact": "Water at a simmer is about 185 to 205 degrees Fahrenheit.",
+      "tier": 2
+     },
+     {
+      "w": "CINNAMON",
+      "clue": "Sweet brown spice from tree bark, sprinkled on toast",
+      "fact": "Cinnamon sticks are really curled-up strips of tree bark.",
+      "tier": 3
+     },
+     {
+      "w": "CHOCOLATE",
+      "clue": "Sweet treat made from roasted cacao beans",
+      "fact": "Chocolate is made from seeds of the cacao tree, which first grew in the Americas.",
+      "tier": 3
+     },
+     {
+      "w": "PINEAPPLE",
+      "clue": "Spiky tropical fruit with a leafy crown",
+      "fact": "A pineapple plant takes about two years to grow a single fruit.",
+      "tier": 3
+     },
+     {
+      "w": "STRAWBERRY",
+      "clue": "Red berry with seeds on the outside",
+      "fact": "A strawberry has about two hundred seeds on its outside skin.",
+      "tier": 3
+     },
+     {
+      "w": "BROCCOLI",
+      "clue": "Green vegetable that looks like tiny trees",
+      "fact": "Broccoli is a flower bud that we eat before it blooms.",
+      "tier": 3
+     },
+     {
+      "w": "SPAGHETTI",
+      "clue": "Long, thin Italian noodles often topped with tomato sauce",
+      "fact": "The name comes from an Italian word meaning \"little strings.\"",
+      "tier": 3
+     },
+     {
+      "w": "TORTILLA",
+      "clue": "Thin round flatbread made from corn or wheat",
+      "fact": "Tortillas have been made in Mexico for thousands of years.",
+      "tier": 3
+     },
+     {
+      "w": "CUCUMBER",
+      "clue": "Long green veggie that is cool and crunchy",
+      "fact": "A cucumber is about 95 percent water.",
+      "tier": 3
+     },
+     {
+      "w": "INGREDIENT",
+      "clue": "One of the foods you mix together in a recipe",
+      "fact": "Bakers weigh ingredients because a cup of flour can weigh different amounts.",
+      "tier": 3
+     },
+     {
+      "w": "WATERMELON",
+      "clue": "Big green fruit with sweet red inside and black seeds",
+      "fact": "Watermelons are related to cucumbers and pumpkins.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "ARROZ",
+      "clue": "Granitos blancos que se cultivan en campos inundados",
+      "fact": "Las plantas de arroz crecen mejor con las raíces en campos poco profundos llenos de agua.",
+      "tier": 1
+     },
+     {
+      "w": "PAN",
+      "clue": "Alimento horneado que se hace con harina, agua y levadura",
+      "fact": "La gente ya horneaba pan hace miles de años, mucho antes de las pirámides.",
+      "tier": 1
+     },
+     {
+      "w": "SOPA",
+      "clue": "Comida caliente y líquida que se toma con cuchara",
+      "fact": "En Ecuador hay sopas deliciosas, como el locro de papa con queso y aguacate.",
+      "tier": 1
+     },
+     {
+      "w": "HUEVO",
+      "clue": "Lo ponen las gallinas y se come frito o cocido",
+      "fact": "Un huevo cocido gira rápido si está duro y lento si está crudo.",
+      "tier": 1
+     },
+     {
+      "w": "MAÍZ",
+      "clue": "Grano dorado que crece en una mazorca",
+      "fact": "El maíz nació en América y se cultiva allí desde hace miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "MIEL",
+      "clue": "Líquido dorado y dulce que hacen las abejas",
+      "fact": "En toda su vida, una abeja hace menos de una cucharadita de miel.",
+      "tier": 1
+     },
+     {
+      "w": "QUESO",
+      "clue": "Alimento hecho con leche que se prensa y se deja madurar",
+      "fact": "Se necesitan unos diez litros de leche para hacer un kilo de queso.",
+      "tier": 1
+     },
+     {
+      "w": "PAPA",
+      "clue": "Tubérculo que crece bajo tierra y se hace en puré o fritas",
+      "fact": "Las papas se empezaron a cultivar en los Andes hace miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "YUCA",
+      "clue": "Raíz larga de cáscara café que se hierve o se fríe",
+      "fact": "La yuca siempre se cocina antes de comer, porque cruda no es segura.",
+      "tier": 1
+     },
+     {
+      "w": "MOTE",
+      "clue": "Granos grandes de maíz cocidos, típicos de los Andes",
+      "fact": "El mote es maíz pelado y cocido que se come en Ecuador desde hace mucho tiempo.",
+      "tier": 1
+     },
+     {
+      "w": "SAL",
+      "clue": "Polvo blanco que da sabor y que también tiene el mar",
+      "fact": "El agua del mar está llena de sal, y también se saca de minas bajo tierra.",
+      "tier": 1
+     },
+     {
+      "w": "HORNO",
+      "clue": "Cajón caliente de la cocina donde se cuecen pasteles y pan",
+      "fact": "Los pasteles suben en el horno porque el calor agranda las burbujitas de gas.",
+      "tier": 1
+     },
+     {
+      "w": "CHOCLO",
+      "clue": "Mazorca tierna de maíz que se come en los Andes",
+      "fact": "En Ecuador, el choclo se come con queso o en sopas como el locro.",
+      "tier": 2
+     },
+     {
+      "w": "CEVICHE",
+      "clue": "Plato frío de camarón o pescado con limón",
+      "fact": "El jugo de limón cambia el pescado y lo hace parecer cocido, aunque no se calienta.",
+      "tier": 2
+     },
+     {
+      "w": "HUMITA",
+      "clue": "Masa de choclo molido envuelta en hojas y cocida al vapor",
+      "fact": "Las humitas se envuelven en hojas de la misma mazorca de maíz para cocerlas.",
+      "tier": 2
+     },
+     {
+      "w": "CEBOLLA",
+      "clue": "Bulbo que hace llorar al cortarla",
+      "fact": "Al cortar una cebolla se libera un gas que irrita los ojos y los hace lagrimear.",
+      "tier": 2
+     },
+     {
+      "w": "TOMATE",
+      "clue": "Fruta roja y redonda que se usa en ensaladas y salsas",
+      "fact": "El tomate es una fruta porque crece de una flor y guarda semillas.",
+      "tier": 2
+     },
+     {
+      "w": "PLÁTANO",
+      "clue": "Fruta alargada que se fríe en tajadas, como los patacones",
+      "fact": "La planta del plátano parece un árbol, pero en realidad es una hierba gigante.",
+      "tier": 2
+     },
+     {
+      "w": "AZÚCAR",
+      "clue": "Polvito dulce y blanco que se saca de la caña",
+      "fact": "El azúcar se saca de la caña de azúcar y también de la remolacha.",
+      "tier": 2
+     },
+     {
+      "w": "HARINA",
+      "clue": "Polvo suave de trigo molido que sirve para hacer pan",
+      "fact": "Hay harinas de trigo, de maíz y de otros granos, y cada una da una textura distinta.",
+      "tier": 2
+     },
+     {
+      "w": "SARTÉN",
+      "clue": "Utensilio plano con mango para freír huevos",
+      "fact": "Las sartenes antiadherentes tienen una capa lisa para que la comida no se pegue.",
+      "tier": 2
+     },
+     {
+      "w": "TENEDOR",
+      "clue": "Cubierto con púas para pinchar la comida",
+      "fact": "En muchos países de Asia la gente come con palillos en lugar de tenedor.",
+      "tier": 2
+     },
+     {
+      "w": "RECETA",
+      "clue": "Lista de ingredientes y pasos para preparar un plato",
+      "fact": "Muchos cocineros anotan sus recetas favoritas y las pasan a sus hijos y nietos.",
+      "tier": 2
+     },
+     {
+      "w": "HERVIR",
+      "clue": "Cocinar en agua que burbujea fuerte",
+      "fact": "En Quito, el agua hierve a unos 91 grados, no a 100, por la altura.",
+      "tier": 2
+     },
+     {
+      "w": "HORNEAR",
+      "clue": "Cocer pan o pasteles con calor seco, sin freír",
+      "fact": "Las galletas se doran porque el calor cambia los azúcares y las proteínas de la masa.",
+      "tier": 2
+     },
+     {
+      "w": "SANDÍA",
+      "clue": "Fruta enorme, verde por fuera y roja por dentro, con semillas negras",
+      "fact": "La sandía es pariente del pepino y del zapallo.",
+      "tier": 2
+     },
+     {
+      "w": "EMPANADA",
+      "clue": "Masa rellena de queso o carne que se fríe o se hornea",
+      "fact": "En Ecuador hay empanadas de viento, rellenas de queso y espolvoreadas con azúcar.",
+      "tier": 3
+     },
+     {
+      "w": "MARACUYÁ",
+      "clue": "Fruta ácida de cáscara arrugada con pulpa llena de semillitas",
+      "fact": "La maracuyá crece en una enredadera con flores muy vistosas.",
+      "tier": 3
+     },
+     {
+      "w": "AGUACATE",
+      "clue": "Fruta verde cremosa con una semilla grande, ideal para guacamole",
+      "fact": "Los aguacates maduran después de cortarlos del árbol, no mientras cuelgan de él.",
+      "tier": 3
+     },
+     {
+      "w": "CHOCOLATE",
+      "clue": "Dulce hecho con semillas tostadas de cacao",
+      "fact": "El chocolate se hace con semillas del árbol de cacao, que crece en Ecuador.",
+      "tier": 3
+     },
+     {
+      "w": "ZANAHORIA",
+      "clue": "Raíz larga y crujiente de color naranja",
+      "fact": "Hay zanahorias moradas, amarillas y blancas, además de las naranjas.",
+      "tier": 3
+     },
+     {
+      "w": "MANTEQUILLA",
+      "clue": "Pasta amarilla y cremosa que se pone sobre el pan tostado",
+      "fact": "Si agitas crema de leche el tiempo suficiente, se convierte en mantequilla.",
+      "tier": 3
+     },
+     {
+      "w": "ENCEBOLLADO",
+      "clue": "Sopa de pescado muy popular en la costa de Ecuador",
+      "fact": "Lleva yuca y cebolla curtida con limón, y se acompaña con chifles.",
+      "tier": 3
+     },
+     {
+      "w": "LEVADURA",
+      "clue": "Hongo diminuto y vivo que hace crecer la masa del pan",
+      "fact": "La levadura come azúcar y suelta gas, por eso la masa se infla.",
+      "tier": 3
+     },
+     {
+      "w": "MERMELADA",
+      "clue": "Dulce espeso de fruta cocida con azúcar para untar",
+      "fact": "La mermelada se espesa por una sustancia natural de las frutas llamada pectina.",
+      "tier": 3
+     },
+     {
+      "w": "INGREDIENTE",
+      "clue": "Cada alimento que se mezcla en una receta",
+      "fact": "Los panaderos pesan los ingredientes porque una taza de harina puede pesar distinto cada vez.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "weather-and-earth",
+   "icon": "🌦️",
+   "name": {
+    "en": "Weather and Earth",
+    "es": "Clima y Tierra"
+   },
+   "words": {
+    "en": [
+     {
+      "w": "RAIN",
+      "clue": "Water drops that fall from clouds",
+      "fact": "Small raindrops are round, and bigger ones flatten out like a hamburger bun.",
+      "tier": 1
+     },
+     {
+      "w": "SNOW",
+      "clue": "Frozen flakes that fall from winter clouds",
+      "fact": "Snow looks white because tiny ice crystals scatter all the colors of light.",
+      "tier": 1
+     },
+     {
+      "w": "HAIL",
+      "clue": "Balls of ice that fall from storm clouds",
+      "fact": "Hailstones grow bigger as wind tosses them up and down inside a storm cloud.",
+      "tier": 1
+     },
+     {
+      "w": "WIND",
+      "clue": "Air moving from place to place",
+      "fact": "Wind blows from areas of high air pressure toward areas of low air pressure.",
+      "tier": 1
+     },
+     {
+      "w": "FOG",
+      "clue": "Cloud that touches the ground",
+      "fact": "Fog forms when air cools so much that its water vapor turns into tiny droplets.",
+      "tier": 1
+     },
+     {
+      "w": "CLOUD",
+      "clue": "Floating puffs of tiny water drops or ice crystals",
+      "fact": "A fluffy cumulus cloud can weigh about a million pounds, yet it floats.",
+      "tier": 1
+     },
+     {
+      "w": "STORM",
+      "clue": "Wild weather with strong wind, rain or snow",
+      "fact": "A thunderstorm cloud can be taller than the tallest mountain.",
+      "tier": 1
+     },
+     {
+      "w": "FROST",
+      "clue": "Thin layer of ice crystals on cold mornings",
+      "fact": "Frost forms when water vapor freezes right onto cold surfaces, skipping the liquid stage.",
+      "tier": 1
+     },
+     {
+      "w": "LAVA",
+      "clue": "Hot melted rock that flows out of a volcano",
+      "fact": "Lava cools into hard rock, and over time it can build new islands.",
+      "tier": 1
+     },
+     {
+      "w": "QUAKE",
+      "clue": "Sudden shaking of the ground",
+      "fact": "Earth has thousands of tiny quakes every day that people never feel.",
+      "tier": 1
+     },
+     {
+      "w": "CORE",
+      "clue": "Super hot center of Earth",
+      "fact": "Earth's inner core is solid metal, nearly as hot as the surface of the Sun.",
+      "tier": 1
+     },
+     {
+      "w": "MAGMA",
+      "clue": "Hot melted rock underground",
+      "fact": "Magma is called lava once it breaks through to Earth's surface.",
+      "tier": 1
+     },
+     {
+      "w": "RAINBOW",
+      "clue": "Colorful arc that appears when sunshine hits water drops",
+      "fact": "A rainbow is really a full circle, but the ground hides the bottom half.",
+      "tier": 2
+     },
+     {
+      "w": "THUNDER",
+      "clue": "Loud rumbling noise after a flash in the sky",
+      "fact": "Count the seconds between the flash and the rumble: five seconds is about one mile.",
+      "tier": 2
+     },
+     {
+      "w": "TORNADO",
+      "clue": "Spinning funnel of wind that touches the ground",
+      "fact": "Most tornadoes last only a few minutes.",
+      "tier": 2
+     },
+     {
+      "w": "BREEZE",
+      "clue": "Light, gentle wind",
+      "fact": "Sea breezes blow from the cool ocean toward the warm land during the day.",
+      "tier": 2
+     },
+     {
+      "w": "DROUGHT",
+      "clue": "Long stretch of dry weather with very little rain",
+      "fact": "Cacti store water in their stems to survive long dry spells.",
+      "tier": 2
+     },
+     {
+      "w": "MONSOON",
+      "clue": "Seasonal wind that brings months of heavy rain to places like India",
+      "fact": "The word monsoon comes from an Arabic word meaning \"season.\"",
+      "tier": 2
+     },
+     {
+      "w": "TSUNAMI",
+      "clue": "Giant ocean wave set off by a quake under the sea",
+      "fact": "Tsunami is a Japanese word that means \"harbor wave.\"",
+      "tier": 2
+     },
+     {
+      "w": "CLIMATE",
+      "clue": "Usual weather of a place over many years",
+      "fact": "Weather changes every day, but climate describes typical weather over decades.",
+      "tier": 2
+     },
+     {
+      "w": "SEASON",
+      "clue": "One of four parts of the year, such as winter",
+      "fact": "Seasons happen because Earth is tilted as it circles the Sun.",
+      "tier": 2
+     },
+     {
+      "w": "GEYSER",
+      "clue": "Hot spring that shoots water and steam into the air",
+      "fact": "Geysers erupt when underground water gets so hot that it bursts up as steam.",
+      "tier": 2
+     },
+     {
+      "w": "MINERAL",
+      "clue": "Natural, solid, non-living stuff that rocks are made of",
+      "fact": "The salt in your kitchen is a mineral.",
+      "tier": 2
+     },
+     {
+      "w": "CRYSTAL",
+      "clue": "Solid with flat faces and a repeating pattern, like quartz",
+      "fact": "Crystals grow slowly as atoms line up in neat, repeating patterns.",
+      "tier": 2
+     },
+     {
+      "w": "MANTLE",
+      "clue": "Thick hot layer of rock between Earth's crust and core",
+      "fact": "Earth's mantle is solid rock that flows very slowly, like thick putty.",
+      "tier": 2
+     },
+     {
+      "w": "EROSION",
+      "clue": "Wearing away of rock and soil by wind or water",
+      "fact": "The Grand Canyon was carved by a river wearing away rock for millions of years.",
+      "tier": 2
+     },
+     {
+      "w": "LIGHTNING",
+      "clue": "Giant spark of electricity in a storm cloud",
+      "fact": "A bolt of lightning is hotter than the surface of the Sun.",
+      "tier": 3
+     },
+     {
+      "w": "AVALANCHE",
+      "clue": "Mass of snow sliding fast down a mountain",
+      "fact": "Most avalanches happen on slopes tilted between 30 and 45 degrees.",
+      "tier": 3
+     },
+     {
+      "w": "HURRICANE",
+      "clue": "Giant spinning storm that forms over warm ocean water",
+      "fact": "The calm center of a hurricane is called its eye.",
+      "tier": 3
+     },
+     {
+      "w": "BLIZZARD",
+      "clue": "Snowstorm with strong winds and very little to see",
+      "fact": "A blizzard is defined by strong wind and blowing snow, not by how much snow falls.",
+      "tier": 3
+     },
+     {
+      "w": "EARTHQUAKE",
+      "clue": "Shaking of the ground when pieces of Earth's crust slip",
+      "fact": "Earth's crust is broken into huge pieces called plates that slowly move.",
+      "tier": 3
+     },
+     {
+      "w": "THERMOMETER",
+      "clue": "Tool that measures how hot or cold something is",
+      "fact": "Its name comes from Greek words meaning \"heat\" and \"measure.\"",
+      "tier": 3
+     },
+     {
+      "w": "SNOWFLAKE",
+      "clue": "Tiny six-sided ice crystal that falls in winter",
+      "fact": "Every snowflake has six sides or six points.",
+      "tier": 3
+     },
+     {
+      "w": "EVAPORATION",
+      "clue": "When liquid water slowly turns into invisible vapor",
+      "fact": "Water that evaporated from the ocean may fall as rain on a faraway mountain.",
+      "tier": 3
+     },
+     {
+      "w": "HUMIDITY",
+      "clue": "Amount of water vapor in the air",
+      "fact": "Humid air feels sticky because sweat cannot dry easily from your skin.",
+      "tier": 3
+     },
+     {
+      "w": "STALACTITE",
+      "clue": "Icicle-shaped rock hanging from a cave ceiling",
+      "fact": "A stalactite grows when mineral-rich water drips and leaves tiny deposits behind.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "NIEVE",
+      "clue": "Copitos blancos y fríos que caen del cielo en invierno",
+      "fact": "La nieve se ve blanca porque los cristalitos de hielo reflejan todos los colores de la luz.",
+      "tier": 1
+     },
+     {
+      "w": "NUBE",
+      "clue": "Masa flotante de gotitas de agua o cristales de hielo",
+      "fact": "Una nube esponjosa puede pesar unos 500 000 kilos y aun así flota.",
+      "tier": 1
+     },
+     {
+      "w": "RAYO",
+      "clue": "Chispa gigante de electricidad que sale de una nube de tormenta",
+      "fact": "Un rayo es más caliente que la superficie del Sol.",
+      "tier": 1
+     },
+     {
+      "w": "LAVA",
+      "clue": "Roca derretida y ardiente que sale de un volcán",
+      "fact": "La lava se enfría y se endurece hasta formar roca; así pueden nacer islas nuevas.",
+      "tier": 1
+     },
+     {
+      "w": "MAGMA",
+      "clue": "Roca derretida que está bajo la tierra",
+      "fact": "El magma se llama lava cuando llega a la superficie.",
+      "tier": 1
+     },
+     {
+      "w": "ROCA",
+      "clue": "Material duro y sólido de la corteza de la Tierra",
+      "fact": "Hay tres grandes tipos de rocas: ígneas, sedimentarias y metamórficas.",
+      "tier": 1
+     },
+     {
+      "w": "HIELO",
+      "clue": "Agua congelada y dura",
+      "fact": "El hielo flota porque es menos denso que el agua líquida.",
+      "tier": 1
+     },
+     {
+      "w": "CUEVA",
+      "clue": "Espacio hueco y oscuro dentro de una montaña o bajo la tierra",
+      "fact": "Muchas cuevas se forman cuando el agua disuelve la roca durante miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "CLIMA",
+      "clue": "El tiempo típico de un lugar durante muchos años",
+      "fact": "En Ecuador no hay cuatro estaciones marcadas porque está sobre la línea del ecuador.",
+      "tier": 1
+     },
+     {
+      "w": "GARÚA",
+      "clue": "Lluvia muy finita, casi como niebla, que moja poco a poco",
+      "fact": "En las islas Galápagos, la garúa es una niebla húmeda que riega las plantas durante la temporada fresca.",
+      "tier": 1
+     },
+     {
+      "w": "BRISA",
+      "clue": "Viento suave y agradable",
+      "fact": "La brisa marina sopla del mar frío hacia la tierra caliente durante el día.",
+      "tier": 1
+     },
+     {
+      "w": "SUELO",
+      "clue": "Capa de tierra donde crecen las plantas",
+      "fact": "Una cucharadita de suelo sano tiene más seres vivos diminutos que personas hay en el planeta.",
+      "tier": 1
+     },
+     {
+      "w": "LLUVIA",
+      "clue": "Gotas de agua que caen de las nubes",
+      "fact": "Las gotas de lluvia pequeñas son redondas y las grandes se aplastan como un pancito.",
+      "tier": 2
+     },
+     {
+      "w": "VIENTO",
+      "clue": "Lo que mueve las hojas y hace volar las cometas",
+      "fact": "El viento mueve el aire de las zonas de alta presión a las de baja presión.",
+      "tier": 2
+     },
+     {
+      "w": "NIEBLA",
+      "clue": "Nube que toca el suelo",
+      "fact": "La niebla se forma cuando el aire se enfría tanto que su vapor de agua se vuelve gotitas.",
+      "tier": 2
+     },
+     {
+      "w": "TRUENO",
+      "clue": "Ruido fuerte que se escucha después de ver un relámpago",
+      "fact": "Si cuentas cinco segundos entre el destello y el ruido, la tormenta está a unos 1,6 kilómetros.",
+      "tier": 2
+     },
+     {
+      "w": "HURACÁN",
+      "clue": "Gran tormenta que gira sobre el mar cálido",
+      "fact": "El centro de un huracán, llamado ojo, está en calma.",
+      "tier": 2
+     },
+     {
+      "w": "TORNADO",
+      "clue": "Embudo de viento que gira y toca el suelo",
+      "fact": "La mayoría de los tornados duran solo unos minutos.",
+      "tier": 2
+     },
+     {
+      "w": "GRANIZO",
+      "clue": "Bolitas de hielo que caen en una tormenta",
+      "fact": "Los granizos crecen porque el viento los sube y los baja dentro de la nube.",
+      "tier": 2
+     },
+     {
+      "w": "SEQUÍA",
+      "clue": "Largo tiempo sin casi nada de lluvia",
+      "fact": "Los cactus guardan agua en su tallo para sobrevivir a las sequías.",
+      "tier": 2
+     },
+     {
+      "w": "NÚCLEO",
+      "clue": "Centro caliente de la Tierra",
+      "fact": "El núcleo interno de la Tierra es de metal sólido, casi tan caliente como la superficie del Sol.",
+      "tier": 2
+     },
+     {
+      "w": "CORTEZA",
+      "clue": "Capa de roca de afuera de la Tierra, donde vivimos",
+      "fact": "La corteza terrestre está rota en grandes placas que se mueven muy despacio.",
+      "tier": 2
+     },
+     {
+      "w": "CRISTAL",
+      "clue": "Sólido con caras planas y forma ordenada, como el cuarzo",
+      "fact": "Los cristales crecen despacio mientras sus átomos se acomodan en patrones ordenados.",
+      "tier": 2
+     },
+     {
+      "w": "MINERAL",
+      "clue": "Sustancia sólida de la naturaleza con la que se forman las rocas",
+      "fact": "La sal de cocina es un mineral.",
+      "tier": 2
+     },
+     {
+      "w": "PÁRAMO",
+      "clue": "Paisaje frío y húmedo de alta montaña andina, con neblina y pastos",
+      "fact": "El páramo guarda agua como una esponja gigante y alimenta muchos ríos.",
+      "tier": 2
+     },
+     {
+      "w": "EROSIÓN",
+      "clue": "Desgaste lento de rocas y tierra por el agua y el viento",
+      "fact": "Un río puede tallar un cañón enorme a lo largo de millones de años.",
+      "tier": 2
+     },
+     {
+      "w": "ARCOÍRIS",
+      "clue": "Arco de colores que aparece con sol y gotas de agua",
+      "fact": "Un arcoíris en realidad es un círculo completo, pero el suelo tapa la mitad de abajo.",
+      "tier": 3
+     },
+     {
+      "w": "TORMENTA",
+      "clue": "Mal tiempo con viento fuerte, lluvia y relámpagos",
+      "fact": "Una nube de tormenta puede ser más alta que la montaña más alta del mundo.",
+      "tier": 3
+     },
+     {
+      "w": "RELÁMPAGO",
+      "clue": "Destello de luz brillante en el cielo durante una tormenta",
+      "fact": "Ves el relámpago antes de oír el trueno porque la luz viaja más rápido que el sonido.",
+      "tier": 3
+     },
+     {
+      "w": "TERREMOTO",
+      "clue": "Sacudida del suelo cuando se mueven las rocas bajo la Tierra",
+      "fact": "Cada día ocurren miles de temblores pequeños que casi nadie siente.",
+      "tier": 3
+     },
+     {
+      "w": "AVALANCHA",
+      "clue": "Masa de nieve que se desliza rápido por una montaña",
+      "fact": "La mayoría de las avalanchas ocurre en pendientes de entre 30 y 45 grados.",
+      "tier": 3
+     },
+     {
+      "w": "ESCARCHA",
+      "clue": "Capa fina de cristalitos de hielo en las mañanas muy frías",
+      "fact": "La escarcha se forma cuando el vapor de agua se congela directo sobre superficies frías.",
+      "tier": 3
+     },
+     {
+      "w": "TERMÓMETRO",
+      "clue": "Instrumento que mide qué tan caliente o frío está algo",
+      "fact": "Su nombre viene del griego: termo significa calor y metro significa medir.",
+      "tier": 3
+     },
+     {
+      "w": "ESTALACTITA",
+      "clue": "Roca en forma de carámbano que cuelga del techo de una cueva",
+      "fact": "Una estalactita crece cuando gotas de agua con minerales dejan restos al caer.",
+      "tier": 3
+     },
+     {
+      "w": "EVAPORACIÓN",
+      "clue": "Cuando el agua líquida se convierte despacio en vapor invisible",
+      "fact": "El agua que se evapora del mar puede caer como lluvia sobre una montaña lejana.",
+      "tier": 3
+     },
+     {
+      "w": "AGUACERO",
+      "clue": "Lluvia fuerte y repentina que dura poco",
+      "fact": "En muchos lugares tropicales llueve fuerte casi todas las tardes.",
+      "tier": 3
+     }
+    ]
+   }
   }
  ]
 }
