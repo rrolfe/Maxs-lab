@@ -1,5 +1,6 @@
 // Passport: stamps from places, badges, explorers & heroes to meet, and a simple view of each subject level.
-import { S, save, addPearls, levelOf, TOPICS, rank, DAILY_PEARL_CAP } from '../core/store.js';
+import { S, save, addPearls, losePearls, levelOf, TOPICS, rank, DAILY_PEARL_CAP } from '../core/store.js';
+import { REWARD, payFor, penaltyFor } from '../core/economy.js';
 import { h, shuffle, confetti, flyPoints, hashStr } from '../core/dom.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
@@ -13,7 +14,7 @@ addStrings({
     pListen: 'Read to me', pTitle: 'Passport', pTabStamps: 'Stamps', pTabBadges: 'Badges', pTabHeroes: 'Heroes', pTabLevels: 'My levels',
     pNoStamps: 'No stamps yet. Visit a place on the World Map and answer a question to collect your first one!', pGoMap: 'Open the World Map',
     pEarned: 'Earned', pLocked: 'Keep going to unlock this one.', pMeet: 'Meet', pMet: 'Met', pLevel: 'Level {n}', pFacts: 'Did you know?', pTry: 'Try this', pQuiz: 'Quick question',
-    pHeroQuizBonus: 'Answer right to add this hero to your passport (+5 pearls).', pMetNow: 'Added to your passport!', pWrong: 'Not quite. Try another answer.',
+    pHeroQuizBonus: 'Answer right to add this hero to your passport (+12 pearls).', pMetNow: 'Added to your passport!', pWrong: 'Not quite. Try another answer.',
     pRank: '{r}', pNextRank: '{n} pearls to {r}', pTopRank: 'You reached the top rank!', pLevelsNote: 'Levels grow as you answer. Harder questions appear when a subject feels easy.', pOf6: 'of 6',
     pHeroCount: '{n} of {m} heroes met',
   },
@@ -21,7 +22,7 @@ addStrings({
     pListen: 'Léemelo', pTitle: 'Pasaporte', pTabStamps: 'Sellos', pTabBadges: 'Insignias', pTabHeroes: 'Héroes', pTabLevels: 'Mis niveles',
     pNoStamps: 'Todavía no hay sellos. ¡Visita un lugar en el Mapa del mundo y responde una pregunta para conseguir el primero!', pGoMap: 'Abrir el Mapa del mundo',
     pEarned: 'Ganada', pLocked: 'Sigue jugando para abrir esta.', pMeet: 'Conocer', pMet: 'Conocido', pLevel: 'Nivel {n}', pFacts: '¿Sabías que…?', pTry: 'Inténtalo', pQuiz: 'Pregunta rápida',
-    pHeroQuizBonus: 'Responde bien para agregar a este héroe a tu pasaporte (+5 perlas).', pMetNow: '¡Agregado a tu pasaporte!', pWrong: 'Casi. Prueba otra respuesta.',
+    pHeroQuizBonus: 'Responde bien para agregar a este héroe a tu pasaporte (+12 perlas).', pMetNow: '¡Agregado a tu pasaporte!', pWrong: 'Casi. Prueba otra respuesta.',
     pRank: '{r}', pNextRank: '{n} perlas para {r}', pTopRank: '¡Llegaste al rango más alto!', pLevelsNote: 'Los niveles suben a medida que respondes. Salen preguntas más difíciles cuando una materia te parece fácil.', pOf6: 'de 6',
     pHeroCount: '{n} de {m} héroes conocidos',
   },
@@ -84,13 +85,14 @@ export async function mount(el, { parts }) {
     const q = L(p.quiz)[0]; const done = !!S.passport.people[p.id];
     const msg = h('p', { class: 'qmsg', role: 'status' });
     const opts = h('div', { class: 'opts' });
+    let wrongN = 0;
     const draw2 = () => {
       opts.replaceChildren(...shuffle(q.opts.map((o, i) => ({ o, i }))).map(({ o, i }) => h('button', { class: 'ans', onclick: (e) => {
         const b = e.currentTarget;
-        if (i !== q.a) { sfx.wrong(); b.classList.add('try'); b.disabled = true; msg.textContent = t('pWrong'); return; }
+        if (i !== q.a) { sfx.wrong(); b.classList.add('try'); b.disabled = true; wrongN++; const lost = losePearls(penaltyFor(q.opts.length, REWARD.hero.stamp)); msg.textContent = t('pWrong') + (lost ? ' −' + lost : ''); return; }
         sfx.hardCorrect(); b.classList.add('right'); opts.querySelectorAll('button').forEach((x) => { x.disabled = true; });
         let m = q.why;
-        if (!S.passport.people[p.id]) { S.passport.people[p.id] = { t: Date.now() }; const g = addPearls(5); save(); m += ' ' + t('pMetNow') + (g.got ? ' +' + g.got : ''); confetti(); if (g.got) flyPoints(b, g.got); awardBadges(); }
+        if (!S.passport.people[p.id]) { S.passport.people[p.id] = { t: Date.now() }; const g = addPearls(REWARD.hero.stamp + payFor(q.opts.length, REWARD.hero.stamp, wrongN)); save(); m += ' ' + t('pMetNow') + (g.got ? ' +' + g.got : ''); confetti(); if (g.got) flyPoints(b, g.got); awardBadges(); }
         msg.textContent = m;
       } }, o)));
     };

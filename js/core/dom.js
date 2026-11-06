@@ -108,6 +108,18 @@ export function flyPoints(fromEl, n, toSel = '#pearl-count') {
   setTimeout(() => el.remove(), 700);
 }
 
+/** A small, calm "-N" that drifts up from an element (no red flash). */
+export function flyLoss(fromEl, n) {
+  if (!fromEl) return;
+  const a = fromEl.getBoundingClientRect();
+  const el = h('div', { class: 'fly loss', 'aria-hidden': 'true' }, '−' + n);
+  el.style.left = a.left + a.width / 2 + 'px'; el.style.top = a.top + 'px';
+  document.body.append(el);
+  if (reduceMotion()) { setTimeout(() => el.remove(), 700); return; }
+  requestAnimationFrame(() => { el.style.transform = 'translateY(-46px)'; el.style.opacity = '0'; });
+  setTimeout(() => el.remove(), 900);
+}
+
 let toastTimer;
 export function toast(msg, ms = 2600) {
   let t = document.getElementById('toast');

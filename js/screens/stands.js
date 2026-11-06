@@ -4,29 +4,30 @@ import { icons } from '../core/icons.js';
 import { t, addStrings } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
+import { COST } from '../core/economy.js';
 
 addStrings({
   en: {
-    stTitle: 'My Stands', stIntro: 'Earn pearls in Quiz Missions, then open a stand and run it your way.',
+    stTitle: 'My Stands', stIntro: 'Earn pearls in any game, then open a stand and run it your way.',
     stUnlockFor: 'Open for {n} pearls', stNeed: '{n} more pearls to go', stSoon: 'Coming soon', stGo: 'Go to the stand', stEarn: 'Earn pearls',
     stConfirm: 'Open the {name} for {n} pearls?', stNotYet: 'Not yet', stOpenedN: '{name} is open!', stDaysRun: '{n} days run',
     sd_lemonade: 'Pick a price, make enough cups and watch the weather.', sd_icecream: 'Scoops, tubs and a buddy deal. Hot days are huge!', sd_pizza: 'Fill orders with halves, quarters and eighths.',
-    sd_ballpark: 'Run a snack shack on game day.', sd_sanctuary: 'Care for rescued sea animals.',
-    sn_lemonade: 'Lemonade Stand', sn_icecream: 'Ice Cream Stand', sn_pizza: 'Pizza Shop', sn_ballpark: 'Ballpark Snack Shack', sn_sanctuary: 'Shark Sanctuary',
+    sd_snack: 'Sell hot dogs, fries and treats at the ballpark on game day.', sd_sanctuary: 'Care for rescued sea animals.',
+    sn_lemonade: 'Lemonade Stand', sn_icecream: 'Ice Cream Stand', sn_pizza: 'Pizza Shop', sn_snack: 'Ballpark Snack Shack', sn_sanctuary: 'Shark Sanctuary',
   },
   es: {
-    stTitle: 'Mis puestos', stIntro: 'Gana perlas en las Misiones de preguntas, luego abre un puesto y dirígelo a tu manera.',
+    stTitle: 'Mis puestos', stIntro: 'Gana perlas en cualquier juego, luego abre un puesto y dirígelo a tu manera.',
     stUnlockFor: 'Abrir por {n} perlas', stNeed: 'Faltan {n} perlas', stSoon: 'Próximamente', stGo: 'Ir al puesto', stEarn: 'Ganar perlas',
     stConfirm: '¿Abrir {name} por {n} perlas?', stNotYet: 'Todavía no', stOpenedN: '¡{name} está abierto!', stDaysRun: '{n} días atendidos',
     sd_lemonade: 'Elige un precio, prepara suficientes vasos y mira el clima.', sd_icecream: 'Bolas, botes y una oferta de amigos. ¡Los días de calor son enormes!', sd_pizza: 'Completa pedidos con mitades, cuartos y octavos.',
-    sd_ballpark: 'Atiende un puesto de botanas en día de juego.', sd_sanctuary: 'Cuida animales marinos rescatados.',
-    sn_lemonade: 'Puesto de limonada', sn_icecream: 'Puesto de helados', sn_pizza: 'Pizzería', sn_ballpark: 'Puesto de botanas del estadio', sn_sanctuary: 'Santuario de tiburones',
+    sd_snack: 'Vende hot dogs, papas y golosinas en el estadio el día del juego.', sd_sanctuary: 'Cuida animales marinos rescatados.',
+    sn_lemonade: 'Puesto de limonada', sn_icecream: 'Puesto de helados', sn_pizza: 'Pizzería', sn_snack: 'Puesto de botanas del estadio', sn_sanctuary: 'Santuario de tiburones',
   },
 });
 
 export const STANDS = [
-  { id: 'lemonade', cost: 200 }, { id: 'icecream', cost: 600 }, { id: 'pizza', cost: 900 },
-  { id: 'ballpark', soon: true, icon: 'ballpark' }, { id: 'sanctuary', soon: true, icon: 'shark' },
+  { id: 'lemonade', cost: COST.stands.lemonade.unlock }, { id: 'snack', cost: COST.stands.snack.unlock, soon: true, icon: 'ballpark' },
+  { id: 'icecream', cost: COST.stands.icecream.unlock }, { id: 'pizza', cost: COST.stands.pizza.unlock },
 ];
 
 export async function mount(el, { parts }) {
@@ -68,7 +69,7 @@ function hub(el) {
     const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true' }, h('div', { class: 'dialog center' },
       h('div', { html: icons[s.id](96) }), h('h2', {}, t('stConfirm', { name, n: s.cost })),
       h('div', { class: 'row', style: { justifyContent: 'center' } },
-        h('button', { class: 'btn gold', onclick: () => { if (!spendPearls(s.cost)) { ov.remove(); return; } S.unlocked[s.id] = true; save(); ov.remove(); sfx.levelUp(); confetti(); go('/stands/' + s.id); } }, t('stUnlockFor', { n: s.cost })),
+        h('button', { class: 'btn gold', onclick: () => { if (!spendPearls(s.cost)) { ov.remove(); return; } S.unlocked[s.id] = true; (S.stands[s.id] ||= {}).tickets = 1; save(); ov.remove(); sfx.levelUp(); confetti(); go('/stands/' + s.id); } }, t('stUnlockFor', { n: s.cost })),
         h('button', { class: 'btn ghost', onclick: () => ov.remove() }, t('stNotYet')))));
     document.body.append(ov);
   }

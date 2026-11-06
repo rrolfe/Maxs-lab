@@ -1,0 +1,2264 @@
+{
+ "strokkur": {
+  "en": [
+   {
+    "q": "How often does Strokkur shoot hot water and steam into the air?",
+    "opts": [
+     "Once every day",
+     "Once every year",
+     "Every few minutes",
+     "Every few hours"
+    ],
+    "a": 2,
+    "why": "Strokkur erupts every few minutes, so if you wait, you will not wait long.",
+    "f": 0
+   },
+   {
+    "q": "Where is the water when heat from inside Earth first warms it?",
+    "opts": [
+     "Underground",
+     "In a hot lake on the surface",
+     "High in the clouds",
+     "Inside a pipe made by people"
+    ],
+    "a": 0,
+    "why": "The heat warms water underground. Then it bursts upward out of the ground.",
+    "f": 1
+   },
+   {
+    "q": "Which nearby geyser gave its name to geysers all over the world?",
+    "opts": [
+     "Strokkur",
+     "Hekla",
+     "Vesuvius",
+     "Geysir"
+    ],
+    "a": 3,
+    "why": "The nearby geyser called Geysir gave its name to all geysers, even Strokkur.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cada cuánto lanza Strokkur agua caliente y vapor al aire?",
+    "opts": [
+     "Una vez al día",
+     "Una vez al año",
+     "Cada pocos minutos",
+     "Cada pocas horas"
+    ],
+    "a": 2,
+    "why": "Strokkur lanza agua cada pocos minutos, así que no hay que esperar mucho.",
+    "f": 0
+   },
+   {
+    "q": "¿Dónde está el agua cuando el calor del interior de la Tierra empieza a calentarla?",
+    "opts": [
+     "Bajo el suelo",
+     "En un lago caliente de la superficie",
+     "Muy alto, en las nubes",
+     "Dentro de un tubo hecho por personas"
+    ],
+    "a": 0,
+    "why": "El calor calienta el agua bajo el suelo. Después sale disparada hacia arriba.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué géiser cercano dio su nombre a los géiseres de todo el mundo?",
+    "opts": [
+     "Strokkur",
+     "Hekla",
+     "Vesubio",
+     "Geysir"
+    ],
+    "a": 3,
+    "why": "El cercano Geysir dio su nombre a todos los géiseres, incluso a Strokkur.",
+    "f": 2
+   }
+  ]
+ },
+ "tromso": {
+  "en": [
+   {
+    "q": "What happens to the Sun during part of winter in Tromsø?",
+    "opts": [
+     "It rises at midnight",
+     "It stays down, but twilight brightens the sky",
+     "It shines all day and all night",
+     "It rises late but lights the sky fully"
+    ],
+    "a": 1,
+    "why": "In part of winter the Sun does not rise, yet twilight can still brighten the sky a little.",
+    "f": 1
+   },
+   {
+    "q": "When might the northern lights glow above Tromsø?",
+    "opts": [
+     "On bright, sunny afternoons",
+     "On dark, clear nights",
+     "Every single night of the year",
+     "Only during the midnight sun"
+    ],
+    "a": 1,
+    "why": "Northern lights sometimes glow on dark, clear nights. They do not appear every night.",
+    "f": 2
+   },
+   {
+    "q": "The hook asks what if bedtime came before what?",
+    "opts": [
+     "Sunrise",
+     "Lunch",
+     "Midnight",
+     "Sunset"
+    ],
+    "a": 3,
+    "why": "In summer the Sun can stay up at midnight, so bedtime might come before sunset!",
+    "f": -1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué le pasa al Sol durante una parte del invierno en Tromsø?",
+    "opts": [
+     "Sale a medianoche",
+     "No sale, pero hay un poco de luz crepuscular",
+     "Brilla todo el día y toda la noche",
+     "Sale tarde pero ilumina todo el cielo"
+    ],
+    "a": 1,
+    "why": "En una parte del invierno el Sol no sale, pero su luz todavía puede iluminar un poco el cielo.",
+    "f": 1
+   },
+   {
+    "q": "¿Cuándo pueden brillar las auroras boreales sobre Tromsø?",
+    "opts": [
+     "En tardes soleadas y brillantes",
+     "En noches oscuras y despejadas",
+     "Todas las noches del año",
+     "Solo durante el Sol de medianoche"
+    ],
+    "a": 1,
+    "why": "A veces las auroras brillan en noches oscuras y despejadas. No aparecen todas las noches.",
+    "f": 2
+   },
+   {
+    "q": "El gancho pregunta: ¿y si llegara la hora de dormir antes de qué?",
+    "opts": [
+     "De que salga el Sol",
+     "Del almuerzo",
+     "De la medianoche",
+     "De que se esconda el Sol"
+    ],
+    "a": 3,
+    "why": "En verano el Sol puede seguir en el cielo a medianoche, ¡así que dormirías antes de que se esconda!",
+    "f": -1
+   }
+  ]
+ },
+ "giants-causeway": {
+  "en": [
+   {
+    "q": "About how many rock columns crowd the shore at the Giant's Causeway?",
+    "opts": [
+     "40,000",
+     "4,000",
+     "400",
+     "400,000"
+    ],
+    "a": 0,
+    "why": "About 40,000 rock columns crowd this shore in Northern Ireland.",
+    "f": 0
+   },
+   {
+    "q": "How many sides do many of the column tops have?",
+    "opts": [
+     "Four",
+     "Five",
+     "Six",
+     "Eight"
+    ],
+    "a": 2,
+    "why": "Many tops have six sides, a shape called a hexagon.",
+    "f": 1
+   },
+   {
+    "q": "What happened to the ancient lava after it cooled?",
+    "opts": [
+     "It grew taller and taller",
+     "It melted into the sea",
+     "It crumbled into sand",
+     "It shrank and cracked"
+    ],
+    "a": 3,
+    "why": "The lava cooled, shrank, and cracked, and that made the columns.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuántas columnas de roca, más o menos, se agrupan en la costa de la Calzada del Gigante?",
+    "opts": [
+     "40.000",
+     "4.000",
+     "400",
+     "400.000"
+    ],
+    "a": 0,
+    "why": "Unas 40.000 columnas de roca se agrupan en esta costa de Irlanda del Norte.",
+    "f": 0
+   },
+   {
+    "q": "¿Cuántos lados tienen muchas de las columnas en la parte de arriba?",
+    "opts": [
+     "Cuatro",
+     "Cinco",
+     "Seis",
+     "Ocho"
+    ],
+    "a": 2,
+    "why": "Muchas tienen seis lados arriba, una figura llamada hexágono.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué le pasó a la lava antigua después de enfriarse?",
+    "opts": [
+     "Creció cada vez más alta",
+     "Se derritió en el mar",
+     "Se deshizo en arena",
+     "Se encogió y se agrietó"
+    ],
+    "a": 3,
+    "why": "La lava se enfrió, se encogió y se agrietó, y así se hicieron las columnas.",
+    "f": 2
+   }
+  ]
+ },
+ "mont-saint-michel": {
+  "en": [
+   {
+    "q": "Which two things sit on the rocky island?",
+    "opts": [
+     "A lighthouse and a farm",
+     "A castle and a harbor",
+     "A tall abbey and a tiny village",
+     "A tall tower and a big city"
+    ],
+    "a": 2,
+    "why": "A tall abbey and a tiny village sit together on the rocky island.",
+    "f": 0
+   },
+   {
+    "q": "What does the sea do at low tide here?",
+    "opts": [
+     "It rises up to the abbey doors",
+     "It pulls far back and shows a wide sandy bay",
+     "It freezes into ice",
+     "It fills the bay with more water"
+    ],
+    "a": 1,
+    "why": "At low tide the sea pulls far back and a wide sandy bay appears.",
+    "f": 1
+   },
+   {
+    "q": "Where did builders put the abbey church?",
+    "opts": [
+     "Above strong stone rooms that support it",
+     "Below the sandy bay",
+     "Inside a deep cave",
+     "Beside a tall lighthouse"
+    ],
+    "a": 0,
+    "why": "Builders put the church above strong stone rooms. Those rooms hold it up.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué dos cosas hay sobre la isla rocosa?",
+    "opts": [
+     "Un faro y una granja",
+     "Un castillo y un puerto",
+     "Una abadía alta y un pueblo pequeñito",
+     "Una torre alta y una ciudad grande"
+    ],
+    "a": 2,
+    "why": "Una abadía alta y un pueblo pequeñito están juntos sobre la isla rocosa.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué hace el mar aquí cuando baja la marea?",
+    "opts": [
+     "Sube hasta las puertas de la abadía",
+     "Se retira y deja ver una bahía de arena",
+     "Se congela y se hace hielo",
+     "Llena la bahía con más agua"
+    ],
+    "a": 1,
+    "why": "Cuando baja la marea, el mar se retira mucho y aparece una bahía ancha de arena.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde pusieron los constructores la iglesia de la abadía?",
+    "opts": [
+     "Sobre salas de piedra muy fuertes que la sostienen",
+     "Debajo de la bahía de arena",
+     "Dentro de una cueva profunda",
+     "Junto a un faro alto"
+    ],
+    "a": 0,
+    "why": "Pusieron la iglesia sobre salas de piedra muy fuertes. Esas salas la sostienen.",
+    "f": 2
+   }
+  ]
+ },
+ "pompeii": {
+  "en": [
+   {
+    "q": "In which year did Mount Vesuvius bury Pompeii?",
+    "opts": [
+     "97",
+     "179",
+     "79",
+     "790"
+    ],
+    "a": 2,
+    "why": "Mount Vesuvius buried the Roman city in ash and rock in the year 79.",
+    "f": 0
+   },
+   {
+    "q": "The little food shops in Pompeii are compared to what we have today. What is it?",
+    "opts": [
+     "Takeout",
+     "A school lunchroom",
+     "A movie snack stand",
+     "A picnic"
+    ],
+    "a": 0,
+    "why": "People bought cooked food from little shops, a bit like takeout today.",
+    "f": 1
+   },
+   {
+    "q": "How long ago was the life that Pompeii's painted walls help us imagine?",
+    "opts": [
+     "Almost 200 years ago",
+     "Almost 500 years ago",
+     "Almost 20,000 years ago",
+     "Almost 2,000 years ago"
+    ],
+    "a": 3,
+    "why": "Painted walls and shop counters help us imagine life almost 2,000 years ago.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué año sepultó el Vesubio a Pompeya?",
+    "opts": [
+     "97",
+     "179",
+     "79",
+     "790"
+    ],
+    "a": 2,
+    "why": "El Vesubio sepultó la ciudad romana bajo cenizas y rocas en el año 79.",
+    "f": 0
+   },
+   {
+    "q": "Los pequeños locales de comida de Pompeya se comparan con algo de hoy. ¿Con qué?",
+    "opts": [
+     "Comida para llevar",
+     "Un comedor de escuela",
+     "Un puesto de bocadillos en el cine",
+     "Un picnic"
+    ],
+    "a": 0,
+    "why": "Las personas compraban comida preparada en locales pequeños, como la comida para llevar de hoy.",
+    "f": 1
+   },
+   {
+    "q": "¿Hace cuánto tiempo era la vida que nos ayudan a imaginar las paredes pintadas de Pompeya?",
+    "opts": [
+     "Hace casi 200 años",
+     "Hace casi 500 años",
+     "Hace casi 20.000 años",
+     "Hace casi 2.000 años"
+    ],
+    "a": 3,
+    "why": "Las paredes pintadas y los mostradores nos ayudan a imaginar la vida de hace casi 2.000 años.",
+    "f": 2
+   }
+  ]
+ },
+ "sagrada-familia": {
+  "en": [
+   {
+    "q": "In which city is the church with columns that branch like tree trunks?",
+    "opts": [
+     "Madrid",
+     "Barcelona",
+     "Seville",
+     "Valencia"
+    ],
+    "a": 1,
+    "why": "The Sagrada Família is a church in Barcelona.",
+    "f": 0
+   },
+   {
+    "q": "What do the colorful glass windows turn sunlight into?",
+    "opts": [
+     "Dark shadow shapes",
+     "Glowing patches of color",
+     "One single white beam",
+     "Thin ribbons of rain"
+    ],
+    "a": 1,
+    "why": "The colorful glass windows turn sunlight into glowing patches of color.",
+    "f": 1
+   },
+   {
+    "q": "Which architect used shapes from nature to help design it?",
+    "opts": [
+     "Leonardo da Vinci",
+     "Pablo Picasso",
+     "Salvador Dalí",
+     "Antoni Gaudí"
+    ],
+    "a": 3,
+    "why": "Architect Antoni Gaudí used shapes from nature to help design this church.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué ciudad está la iglesia con columnas que se ramifican como troncos de árboles?",
+    "opts": [
+     "Madrid",
+     "Barcelona",
+     "Sevilla",
+     "Valencia"
+    ],
+    "a": 1,
+    "why": "La Sagrada Familia es una iglesia de Barcelona.",
+    "f": 0
+   },
+   {
+    "q": "¿En qué convierten la luz del Sol las ventanas de vidrios de colores?",
+    "opts": [
+     "En formas de sombra oscura",
+     "En manchas de color brillantes",
+     "En un solo rayo blanco",
+     "En finas cintas de lluvia"
+    ],
+    "a": 1,
+    "why": "Las ventanas de colores convierten la luz del Sol en manchas de color brillantes.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué arquitecto usó formas de la naturaleza para ayudar a diseñarla?",
+    "opts": [
+     "Leonardo da Vinci",
+     "Pablo Picasso",
+     "Salvador Dalí",
+     "Antoni Gaudí"
+    ],
+    "a": 3,
+    "why": "El arquitecto Antoni Gaudí usó formas de la naturaleza para diseñar esta iglesia.",
+    "f": 2
+   }
+  ]
+ },
+ "meteora": {
+  "en": [
+   {
+    "q": "Some of Meteora's rock towers rise more than how high above the ground?",
+    "opts": [
+     "1,300 feet",
+     "130 feet",
+     "300 feet",
+     "13,000 feet"
+    ],
+    "a": 0,
+    "why": "Some rock towers rise more than 1,300 feet above the ground.",
+    "f": 2
+   },
+   {
+    "q": "What is a monastery?",
+    "opts": [
+     "A fortress where soldiers live",
+     "A big library for kings",
+     "A place where a religious community lives and prays",
+     "A place where sailors store boats"
+    ],
+    "a": 2,
+    "why": "A monastery is a place where a religious community lives and prays.",
+    "f": 1
+   },
+   {
+    "q": "Which sentence describes where Meteora's monasteries sit?",
+    "opts": [
+     "Carved into the sides of rock pillars",
+     "At the bottom of a deep valley",
+     "Inside caves in the cliffs",
+     "On top of tall rock pillars"
+    ],
+    "a": 3,
+    "why": "The monasteries sit on top of tall rock pillars, not inside them.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "Algunas torres de Meteora se elevan más de cierta altura sobre el suelo. ¿Cuál?",
+    "opts": [
+     "1.300 pies",
+     "130 pies",
+     "300 pies",
+     "13.000 pies"
+    ],
+    "a": 0,
+    "why": "Algunas torres de roca se elevan más de 1.300 pies sobre el suelo.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué es un monasterio?",
+    "opts": [
+     "Una fortaleza donde viven soldados",
+     "Una biblioteca grande para reyes",
+     "Un lugar donde vive y reza una comunidad religiosa",
+     "Un lugar donde los marineros guardan barcos"
+    ],
+    "a": 2,
+    "why": "Un monasterio es un lugar donde vive y reza una comunidad religiosa.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué frase describe dónde están los monasterios de Meteora?",
+    "opts": [
+     "Tallados en los costados de pilares de roca",
+     "En el fondo de un valle profundo",
+     "Dentro de cuevas en los acantilados",
+     "En la cima de altos pilares de roca"
+    ],
+    "a": 3,
+    "why": "Los monasterios están en la cima de altos pilares de roca, no dentro de ellos.",
+    "f": 0
+   }
+  ]
+ },
+ "cappadocia": {
+  "en": [
+   {
+    "q": "What kind of rock did wind and water wear away to shape the towers?",
+    "opts": [
+     "Limestone",
+     "Sandstone",
+     "Volcanic rock",
+     "Marble"
+    ],
+    "a": 2,
+    "why": "Wind and water wore away volcanic rock to shape these towers.",
+    "f": 1
+   },
+   {
+    "q": "Besides rooms and churches, what did people carve into the rock?",
+    "opts": [
+     "Bridges over rivers",
+     "Underground towns",
+     "Boats for the sea",
+     "Tall lighthouses"
+    ],
+    "a": 1,
+    "why": "People carved rooms, churches, and even underground towns into the rock.",
+    "f": 2
+   },
+   {
+    "q": "What nickname do people give the tall, pointy rocks?",
+    "opts": [
+     "Fairy chimneys",
+     "Giant candles",
+     "Wizard hats",
+     "Stone needles"
+    ],
+    "a": 0,
+    "why": "The tall, pointy rocks are nicknamed fairy chimneys.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué tipo de roca desgastaron el viento y el agua para dar forma a las torres?",
+    "opts": [
+     "Piedra caliza",
+     "Arenisca",
+     "Roca volcánica",
+     "Mármol"
+    ],
+    "a": 2,
+    "why": "El viento y el agua desgastaron la roca volcánica hasta dar forma a estas torres.",
+    "f": 1
+   },
+   {
+    "q": "Además de habitaciones e iglesias, ¿qué excavaron las personas en la roca?",
+    "opts": [
+     "Puentes sobre ríos",
+     "Pueblos subterráneos",
+     "Barcos para el mar",
+     "Faros altos"
+    ],
+    "a": 1,
+    "why": "Las personas excavaron habitaciones, iglesias y hasta pueblos subterráneos en la roca.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué apodo les dan las personas a las rocas altas y puntiagudas?",
+    "opts": [
+     "Chimeneas de hadas",
+     "Velas gigantes",
+     "Sombreros de mago",
+     "Agujas de piedra"
+    ],
+    "a": 0,
+    "why": "A las rocas altas y puntiagudas las llaman chimeneas de hadas.",
+    "f": 0
+   }
+  ]
+ },
+ "suomenlinna": {
+  "en": [
+   {
+    "q": "Across how many fortified islands does this sea fortress spread?",
+    "opts": [
+     "Three",
+     "Nine",
+     "Six",
+     "Twelve"
+    ],
+    "a": 2,
+    "why": "The fortress near Helsinki spreads across six fortified islands.",
+    "f": 0
+   },
+   {
+    "q": "In which year did people begin building Suomenlinna?",
+    "opts": [
+     "1748",
+     "1648",
+     "1848",
+     "1948"
+    ],
+    "a": 0,
+    "why": "People began building it in 1748, long before cars existed.",
+    "f": 1
+   },
+   {
+    "q": "Near which city is this sea fortress?",
+    "opts": [
+     "Stockholm",
+     "Oslo",
+     "Tallinn",
+     "Helsinki"
+    ],
+    "a": 3,
+    "why": "Suomenlinna is a sea fortress near Helsinki.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En cuántas islas protegidas por murallas se extiende esta fortaleza marina?",
+    "opts": [
+     "Tres",
+     "Nueve",
+     "Seis",
+     "Doce"
+    ],
+    "a": 2,
+    "why": "La fortaleza cerca de Helsinki ocupa seis islas protegidas por murallas.",
+    "f": 0
+   },
+   {
+    "q": "¿En qué año comenzaron las personas a construir Suomenlinna?",
+    "opts": [
+     "1748",
+     "1648",
+     "1848",
+     "1948"
+    ],
+    "a": 0,
+    "why": "Comenzaron a construirla en 1748, mucho antes de que existieran los carros.",
+    "f": 1
+   },
+   {
+    "q": "¿Cerca de qué ciudad está esta fortaleza marina?",
+    "opts": [
+     "Estocolmo",
+     "Oslo",
+     "Tallin",
+     "Helsinki"
+    ],
+    "a": 3,
+    "why": "Suomenlinna es una fortaleza marina cerca de Helsinki.",
+    "f": 0
+   }
+  ]
+ },
+ "moscow": {
+  "en": [
+   {
+    "q": "Who created the game Tetris in Moscow?",
+    "opts": [
+     "Anton Chekhov",
+     "Alexey Pajitnov",
+     "Alexander Popov",
+     "Yuri Gagarin"
+    ],
+    "a": 1,
+    "why": "Computer programmer Alexey Pajitnov created Tetris in Moscow.",
+    "f": 0
+   },
+   {
+    "q": "What interest did he turn into a game people enjoy around the world?",
+    "opts": [
+     "Sports",
+     "Puzzles",
+     "Painting",
+     "Space travel"
+    ],
+    "a": 1,
+    "why": "He loved puzzles and turned that interest into a game enjoyed around the world.",
+    "f": 1
+   },
+   {
+    "q": "Where does Saint Basil's Cathedral stand?",
+    "opts": [
+     "Inside the Kremlin's tallest tower",
+     "Beside the river, far from the walls",
+     "In a forest park",
+     "On Red Square, beside the Kremlin's old walls"
+    ],
+    "a": 3,
+    "why": "Saint Basil's Cathedral stands on Red Square, beside the Kremlin's old walls.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Quién creó el juego Tetris en Moscú?",
+    "opts": [
+     "Antón Chéjov",
+     "Alexey Pajitnov",
+     "Alexander Popov",
+     "Yuri Gagarin"
+    ],
+    "a": 1,
+    "why": "El programador Alexey Pajitnov creó Tetris en Moscú.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué interés convirtió él en un juego que se disfruta en todo el mundo?",
+    "opts": [
+     "Los deportes",
+     "Los rompecabezas",
+     "La pintura",
+     "Los viajes espaciales"
+    ],
+    "a": 1,
+    "why": "Le encantaban los rompecabezas y los convirtió en un juego que se disfruta en todo el mundo.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde está la catedral de San Basilio?",
+    "opts": [
+     "Dentro de la torre más alta del Kremlin",
+     "Junto al río, lejos de las murallas",
+     "En un parque con bosque",
+     "En la Plaza Roja, junto a las murallas del Kremlin"
+    ],
+    "a": 3,
+    "why": "La catedral de San Basilio está en la Plaza Roja, junto a las antiguas murallas del Kremlin.",
+    "f": 2
+   }
+  ]
+ },
+ "neuschwanstein": {
+  "en": [
+   {
+    "q": "In which year did King Ludwig the Second begin building the castle?",
+    "opts": [
+     "1869",
+     "1469",
+     "1769",
+     "1969"
+    ],
+    "a": 0,
+    "why": "King Ludwig began building the castle in 1869. It only looks medieval!",
+    "f": 0
+   },
+   {
+    "q": "The castle looks medieval. Which modern comforts did it have?",
+    "opts": [
+     "A heated swimming pool",
+     "A glass roof with a garden",
+     "Running water, central heating, flushing toilets",
+     "A moat with a drawbridge"
+    ],
+    "a": 2,
+    "why": "It had running water, central heating, and flushing toilets inside its medieval look.",
+    "f": 1
+   },
+   {
+    "q": "Why did a special lift carry meals upstairs?",
+    "opts": [
+     "To keep the king's food hot",
+     "To hide the kitchen from guests",
+     "To save space in the kitchen",
+     "So people did not carry every dish up the stairs"
+    ],
+    "a": 3,
+    "why": "The lift carried meals upstairs, so nobody had to carry every dish up the stairs.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué año empezó el rey Luis Segundo a construir el castillo?",
+    "opts": [
+     "1869",
+     "1469",
+     "1769",
+     "1969"
+    ],
+    "a": 0,
+    "why": "El rey Luis comenzó a construir el castillo en 1869. ¡Solo parece medieval!",
+    "f": 0
+   },
+   {
+    "q": "El castillo parece medieval. ¿Qué comodidades modernas tenía?",
+    "opts": [
+     "Una piscina climatizada",
+     "Un techo de vidrio con jardín",
+     "Agua por tuberías, calefacción, inodoros con descarga",
+     "Un foso con puente levadizo"
+    ],
+    "a": 2,
+    "why": "Tenía agua por tuberías, calefacción central e inodoros con descarga, aunque parece medieval.",
+    "f": 1
+   },
+   {
+    "q": "¿Por qué un elevador especial llevaba la comida a los pisos de arriba?",
+    "opts": [
+     "Para mantener caliente la comida del rey",
+     "Para esconder la cocina de los invitados",
+     "Para ahorrar espacio en la cocina",
+     "Para no subir cada plato por las escaleras"
+    ],
+    "a": 3,
+    "why": "El elevador llevaba la comida arriba, para no tener que subir cada plato por las escaleras.",
+    "f": 2
+   }
+  ]
+ },
+ "kinderdijk": {
+  "en": [
+   {
+    "q": "How many historic windmills stand beside the waterways at Kinderdijk?",
+    "opts": [
+     "Nine",
+     "Twelve",
+     "Nineteen",
+     "Twenty-nine"
+    ],
+    "a": 2,
+    "why": "Nineteen historic windmills stand beside the waterways here.",
+    "f": 0
+   },
+   {
+    "q": "How high is the land around Kinderdijk compared with the sea?",
+    "opts": [
+     "High above sea level",
+     "Below sea level",
+     "Exactly at sea level",
+     "It floats on the sea"
+    ],
+    "a": 1,
+    "why": "The area is below sea level, so managing water is a very important job.",
+    "f": 2
+   },
+   {
+    "q": "Where did the mills move the water?",
+    "opts": [
+     "Away from low-lying land",
+     "Toward low land to water crops",
+     "Into storage tanks inside the mills",
+     "Up into the clouds"
+    ],
+    "a": 0,
+    "why": "The mills were built to move water away from low-lying land.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuántos molinos de viento históricos hay junto a los canales de Kinderdijk?",
+    "opts": [
+     "Nueve",
+     "Doce",
+     "Diecinueve",
+     "Veintinueve"
+    ],
+    "a": 2,
+    "why": "Aquí hay diecinueve molinos de viento históricos junto a los canales.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué altura tiene la tierra de Kinderdijk comparada con el mar?",
+    "opts": [
+     "Muy por encima del nivel del mar",
+     "Está por debajo del nivel del mar",
+     "Justo al nivel del mar",
+     "Flota sobre el mar"
+    ],
+    "a": 1,
+    "why": "La zona está por debajo del nivel del mar, así que controlar el agua es muy importante.",
+    "f": 2
+   },
+   {
+    "q": "¿Hacia dónde llevaban el agua los molinos?",
+    "opts": [
+     "Lejos de los terrenos bajos",
+     "Hacia los terrenos bajos para regar cultivos",
+     "A tanques dentro de los molinos",
+     "Hacia arriba, a las nubes"
+    ],
+    "a": 0,
+    "why": "Los molinos se construyeron para sacar el agua de los terrenos bajos.",
+    "f": 1
+   }
+  ]
+ },
+ "plitvice": {
+  "en": [
+   {
+    "q": "How many named lakes are joined by waterfalls in this forest park?",
+    "opts": [
+     "Eight",
+     "Twelve",
+     "Sixteen",
+     "Twenty"
+    ],
+    "a": 2,
+    "why": "Sixteen named lakes are joined by waterfalls in this forest park.",
+    "f": 0
+   },
+   {
+    "q": "What slowly builds the natural rock barriers called tufa?",
+    "opts": [
+     "Minerals in the water",
+     "Waves from the sea",
+     "Melting glaciers",
+     "Busy beavers"
+    ],
+    "a": 0,
+    "why": "Minerals in the water slowly build natural rock barriers called tufa.",
+    "f": 1
+   },
+   {
+    "q": "What do the tufa barriers do for the lakes?",
+    "opts": [
+     "Keep the water warm",
+     "Keep fish out",
+     "Turn the lakes into rivers",
+     "Help hold the lakes in place"
+    ],
+    "a": 3,
+    "why": "The barriers help hold the lakes in place and can keep changing over time.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuántos lagos con nombre están unidos por cascadas en este parque con bosques?",
+    "opts": [
+     "Ocho",
+     "Doce",
+     "Dieciséis",
+     "Veinte"
+    ],
+    "a": 2,
+    "why": "Dieciséis lagos con nombre están unidos por cascadas en este parque.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué construye lentamente las barreras naturales de roca llamadas toba calcárea?",
+    "opts": [
+     "Los minerales del agua",
+     "Las olas del mar",
+     "Los glaciares al derretirse",
+     "Los castores trabajadores"
+    ],
+    "a": 0,
+    "why": "Los minerales del agua forman lentamente barreras naturales de roca llamadas toba calcárea.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué hacen las barreras de toba calcárea por los lagos?",
+    "opts": [
+     "Mantienen el agua tibia",
+     "Evitan que entren peces",
+     "Convierten los lagos en ríos",
+     "Ayudan a mantener el agua en los lagos"
+    ],
+    "a": 3,
+    "why": "Las barreras ayudan a mantener el agua en los lagos y pueden seguir cambiando con el tiempo.",
+    "f": 2
+   }
+  ]
+ },
+ "giza": {
+  "en": [
+   {
+    "q": "For which king was the Great Pyramid built?",
+    "opts": [
+     "Tutankhamun",
+     "Khufu",
+     "Ramses",
+     "Akhenaten"
+    ],
+    "a": 1,
+    "why": "The Great Pyramid was built for King Khufu about 4,500 years ago.",
+    "f": 0
+   },
+   {
+    "q": "The three large pyramids were made for Khufu and which two relatives?",
+    "opts": [
+     "His brother and his father",
+     "His son and his grandson",
+     "His wife and his daughter",
+     "His son and his cousin"
+    ],
+    "a": 1,
+    "why": "The three big pyramids were made for Khufu, his son, and his grandson.",
+    "f": 1
+   },
+   {
+    "q": "About how long ago was the Great Pyramid built?",
+    "opts": [
+     "450 years ago",
+     "2,000 years ago",
+     "45,000 years ago",
+     "4,500 years ago"
+    ],
+    "a": 3,
+    "why": "The Great Pyramid is about 4,500 years old.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Para qué rey se construyó la Gran Pirámide?",
+    "opts": [
+     "Tutankamón",
+     "Keops",
+     "Ramsés",
+     "Akenatón"
+    ],
+    "a": 1,
+    "why": "La Gran Pirámide se construyó para el rey Keops hace unos 4.500 años.",
+    "f": 0
+   },
+   {
+    "q": "Las tres grandes pirámides se hicieron para Keops y ¿qué dos parientes?",
+    "opts": [
+     "Su hermano y su padre",
+     "Su hijo y su nieto",
+     "Su esposa y su hija",
+     "Su hijo y su primo"
+    ],
+    "a": 1,
+    "why": "Las tres grandes pirámides se hicieron para Keops, su hijo y su nieto.",
+    "f": 1
+   },
+   {
+    "q": "¿Hace cuánto tiempo se construyó la Gran Pirámide, más o menos?",
+    "opts": [
+     "Hace 450 años",
+     "Hace 2.000 años",
+     "Hace 45.000 años",
+     "Hace 4.500 años"
+    ],
+    "a": 3,
+    "why": "La Gran Pirámide tiene unos 4.500 años.",
+    "f": 0
+   }
+  ]
+ },
+ "ait-benhaddou": {
+  "en": [
+   {
+    "q": "What helped protect the village of Aït Benhaddou?",
+    "opts": [
+     "High walls and corner towers",
+     "A deep moat of water",
+     "A thick forest",
+     "A wide river"
+    ],
+    "a": 0,
+    "why": "High walls and corner towers helped protect this village.",
+    "f": 1
+   },
+   {
+    "q": "The village stood on an old trade route between the Sahara and which city?",
+    "opts": [
+     "Casablanca",
+     "Cairo",
+     "Marrakesh",
+     "Tunis"
+    ],
+    "a": 2,
+    "why": "It stood on an old trade route between the Sahara and the city of Marrakesh.",
+    "f": 2
+   },
+   {
+    "q": "Which material are most of the historic buildings made from?",
+    "opts": [
+     "Cut marble",
+     "Wood",
+     "Baked red bricks",
+     "Earth"
+    ],
+    "a": 3,
+    "why": "The historic buildings here are made mainly from earth.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué ayudaba a proteger el pueblo de Aït Benhaddou?",
+    "opts": [
+     "Murallas altas y torres en las esquinas",
+     "Un foso profundo con agua",
+     "Un bosque espeso",
+     "Un río ancho"
+    ],
+    "a": 0,
+    "why": "Las murallas altas y las torres en las esquinas ayudaban a proteger el pueblo.",
+    "f": 1
+   },
+   {
+    "q": "El pueblo estaba en una antigua ruta de comercio entre el Sahara y ¿qué ciudad?",
+    "opts": [
+     "Casablanca",
+     "El Cairo",
+     "Marrakech",
+     "Túnez"
+    ],
+    "a": 2,
+    "why": "Estaba en una antigua ruta de comercio entre el Sahara y la ciudad de Marrakech.",
+    "f": 2
+   },
+   {
+    "q": "¿De qué material están hechos casi todos los edificios históricos?",
+    "opts": [
+     "De mármol cortado",
+     "De madera",
+     "De ladrillos rojos cocidos",
+     "De tierra"
+    ],
+    "a": 3,
+    "why": "Los edificios históricos de este lugar están hechos principalmente de tierra.",
+    "f": 0
+   }
+  ]
+ },
+ "petra": {
+  "en": [
+   {
+    "q": "What is the narrow rocky passage to the Treasury called?",
+    "opts": [
+     "The Wadi",
+     "The Rose Road",
+     "The Siq",
+     "The Sand Stair"
+    ],
+    "a": 2,
+    "why": "A narrow rocky passage called the Siq leads to the famous Treasury.",
+    "f": 1
+   },
+   {
+    "q": "Which people built channels, dams, and tunnels to manage precious water?",
+    "opts": [
+     "The Romans",
+     "The Nabataeans",
+     "The Egyptians",
+     "The Greeks"
+    ],
+    "a": 1,
+    "why": "The Nabataean people built channels, dams, and tunnels to manage water.",
+    "f": 2
+   },
+   {
+    "q": "Where did ancient builders carve the grand building fronts?",
+    "opts": [
+     "Straight into sandstone cliffs",
+     "Into big marble blocks",
+     "Into walls of ice",
+     "Onto wooden doors"
+    ],
+    "a": 0,
+    "why": "They carved grand building fronts straight into sandstone cliffs.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se llama el pasaje angosto entre rocas que lleva al Tesoro?",
+    "opts": [
+     "El Wadi",
+     "El Camino Rosado",
+     "El Siq",
+     "La Escalera de Arena"
+    ],
+    "a": 2,
+    "why": "Un pasaje angosto entre rocas, llamado Siq, lleva al famoso Tesoro.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué pueblo construyó canales, represas y túneles para controlar el agua valiosa?",
+    "opts": [
+     "Los romanos",
+     "El pueblo nabateo",
+     "Los egipcios",
+     "Los griegos"
+    ],
+    "a": 1,
+    "why": "El pueblo nabateo construyó canales, represas y túneles para controlar el agua.",
+    "f": 2
+   },
+   {
+    "q": "¿Dónde tallaron los antiguos constructores las grandes fachadas?",
+    "opts": [
+     "Directamente en paredes de arenisca",
+     "En grandes bloques de mármol",
+     "En paredes de hielo",
+     "En puertas de madera"
+    ],
+    "a": 0,
+    "why": "Tallaron grandes fachadas directamente en paredes de arenisca.",
+    "f": 0
+   }
+  ]
+ },
+ "amboseli": {
+  "en": [
+   {
+    "q": "Which mountain rises behind the park on clear days?",
+    "opts": [
+     "Mount Everest",
+     "Mount Fuji",
+     "Mount Kilimanjaro",
+     "Mount Kenya"
+    ],
+    "a": 2,
+    "why": "On clear days, Mount Kilimanjaro rises behind the park.",
+    "f": 2
+   },
+   {
+    "q": "What gives water to the park's landscape?",
+    "opts": [
+     "Swamps and marshes",
+     "A wide river",
+     "Melting glaciers",
+     "Underground ice caves"
+    ],
+    "a": 0,
+    "why": "Swamps and marshes give water to a land that also has dry, open plains.",
+    "f": 1
+   },
+   {
+    "q": "Across the border from Amboseli, which country has Kilimanjaro?",
+    "opts": [
+     "Kenya",
+     "Uganda",
+     "Ethiopia",
+     "Tanzania"
+    ],
+    "a": 3,
+    "why": "Kilimanjaro rises behind the park across the border in Tanzania.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué montaña se ve detrás del parque en días despejados?",
+    "opts": [
+     "El monte Everest",
+     "El monte Fuji",
+     "El monte Kilimanjaro",
+     "El monte Kenia"
+    ],
+    "a": 2,
+    "why": "En días despejados, el monte Kilimanjaro se ve detrás del parque.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué aporta agua al paisaje del parque?",
+    "opts": [
+     "Pantanos y humedales",
+     "Un río ancho",
+     "Glaciares que se derriten",
+     "Cuevas de hielo subterráneas"
+    ],
+    "a": 0,
+    "why": "Los pantanos y otros humedales aportan agua a un paisaje que también tiene llanuras secas.",
+    "f": 1
+   },
+   {
+    "q": "Al otro lado de la frontera de Amboseli, ¿en qué país está el Kilimanjaro?",
+    "opts": [
+     "Kenia",
+     "Uganda",
+     "Etiopía",
+     "Tanzania"
+    ],
+    "a": 3,
+    "why": "El Kilimanjaro se ve detrás del parque, al otro lado de la frontera, en Tanzania.",
+    "f": 2
+   }
+  ]
+ },
+ "serengeti": {
+  "en": [
+   {
+    "q": "Which pair of animals also joins the great migration?",
+    "opts": [
+     "Giraffes and elephants",
+     "Zebras and gazelles",
+     "Lions and cheetahs",
+     "Buffalo and rhinos"
+    ],
+    "a": 1,
+    "why": "Zebras and gazelles also join the great migration.",
+    "f": 1
+   },
+   {
+    "q": "Which two countries does the wider migration route cross?",
+    "opts": [
+     "Tanzania and Uganda",
+     "Tanzania and Kenya",
+     "Kenya and Ethiopia",
+     "Tanzania and Zambia"
+    ],
+    "a": 1,
+    "why": "The wider migration route crosses parts of both Tanzania and Kenya.",
+    "f": 2
+   },
+   {
+    "q": "What two things do wildebeest search for as they travel the grassland?",
+    "opts": [
+     "Shade and sand",
+     "Salt and shelter",
+     "Mud and rocks",
+     "Food and water"
+    ],
+    "a": 3,
+    "why": "Wildebeest travel the grassland in search of food and water.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué pareja de animales también se une a la gran migración?",
+    "opts": [
+     "Jirafas y elefantes",
+     "Cebras y gacelas",
+     "Leones y guepardos",
+     "Búfalos y rinocerontes"
+    ],
+    "a": 1,
+    "why": "Las cebras y las gacelas también se unen a la gran migración.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué dos países atraviesa la ruta completa de la migración?",
+    "opts": [
+     "Tanzania y Uganda",
+     "Tanzania y Kenia",
+     "Kenia y Etiopía",
+     "Tanzania y Zambia"
+    ],
+    "a": 1,
+    "why": "La ruta completa de la migración atraviesa partes de Tanzania y de Kenia.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué dos cosas buscan los ñus mientras recorren las llanuras?",
+    "opts": [
+     "Sombra y arena",
+     "Sal y refugio",
+     "Barro y rocas",
+     "Comida y agua"
+    ],
+    "a": 3,
+    "why": "Los ñus recorren las llanuras de pasto en busca de comida y agua.",
+    "f": 0
+   }
+  ]
+ },
+ "deadvlei": {
+  "en": [
+   {
+    "q": "What kind of trees are the dead trees of Deadvlei?",
+    "opts": [
+     "Camelthorn trees",
+     "Baobab trees",
+     "Palm trees",
+     "Pine trees"
+    ],
+    "a": 0,
+    "why": "The dead trees are camelthorn trees. Growing dunes blocked their water long ago.",
+    "f": 1
+   },
+   {
+    "q": "For about how long have the tree trunks stayed standing?",
+    "opts": [
+     "A few weeks",
+     "About ten years",
+     "Hundreds of years",
+     "Millions of years"
+    ],
+    "a": 2,
+    "why": "The tree trunks have remained standing for hundreds of years.",
+    "f": 2
+   },
+   {
+    "q": "What do the dark, dead trees stand on?",
+    "opts": [
+     "Wet green mud",
+     "A black lava field",
+     "A frozen lake",
+     "A pale clay flat"
+    ],
+    "a": 3,
+    "why": "They stand on a pale clay flat between huge sand dunes.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué tipo de árboles son los árboles muertos de Deadvlei?",
+    "opts": [
+     "Acacias de jirafa",
+     "Baobabs",
+     "Palmeras",
+     "Pinos"
+    ],
+    "a": 0,
+    "why": "Los árboles muertos son acacias de jirafa. Hace mucho, las dunas bloquearon su agua.",
+    "f": 1
+   },
+   {
+    "q": "¿Durante cuánto tiempo han seguido de pie los troncos de los árboles?",
+    "opts": [
+     "Unas pocas semanas",
+     "Unos diez años",
+     "Cientos de años",
+     "Millones de años"
+    ],
+    "a": 2,
+    "why": "Los troncos de los árboles han seguido de pie durante cientos de años.",
+    "f": 2
+   },
+   {
+    "q": "¿Sobre qué están los árboles oscuros y muertos?",
+    "opts": [
+     "Barro verde y húmedo",
+     "Un campo de lava negra",
+     "Un lago congelado",
+     "Una planicie de arcilla clara"
+    ],
+    "a": 3,
+    "why": "Están sobre una planicie de arcilla clara, entre enormes dunas de arena.",
+    "f": 0
+   }
+  ]
+ },
+ "tsingy": {
+  "en": [
+   {
+    "q": "Where did the limestone first begin to form?",
+    "opts": [
+     "Inside a volcano",
+     "In a desert",
+     "Beneath the sea",
+     "Under a glacier"
+    ],
+    "a": 2,
+    "why": "The limestone began beneath the sea. Later the land rose.",
+    "f": 1
+   },
+   {
+    "q": "Which animals do the nearby living forests shelter?",
+    "opts": [
+     "Lions and zebras",
+     "Lemurs and many kinds of birds",
+     "Gorillas and parrots",
+     "Penguins and seals"
+    ],
+    "a": 1,
+    "why": "Living forests nearby shelter lemurs and many kinds of birds.",
+    "f": 2
+   },
+   {
+    "q": "What happened after the land rose?",
+    "opts": [
+     "Water wore the limestone away",
+     "Lava covered the limestone",
+     "Sand buried the limestone",
+     "Wind planted a forest on it"
+    ],
+    "a": 0,
+    "why": "After the land rose, water wore the limestone away into sharp towers.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde empezó a formarse la piedra caliza?",
+    "opts": [
+     "Dentro de un volcán",
+     "En un desierto",
+     "Bajo el mar",
+     "Bajo un glaciar"
+    ],
+    "a": 2,
+    "why": "La caliza empezó a formarse bajo el mar. Más tarde la tierra se elevó.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué animales protegen los bosques cercanos llenos de vida?",
+    "opts": [
+     "Leones y cebras",
+     "Lémures y muchas clases de aves",
+     "Gorilas y loros",
+     "Pingüinos y focas"
+    ],
+    "a": 1,
+    "why": "Los bosques cercanos dan refugio a lémures y a muchas clases de aves.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué pasó después de que la tierra se elevó?",
+    "opts": [
+     "El agua desgastó la caliza",
+     "La lava cubrió la caliza",
+     "La arena enterró la caliza",
+     "El viento plantó un bosque encima"
+    ],
+    "a": 0,
+    "why": "Después de que la tierra se elevó, el agua desgastó la caliza hasta formar torres puntiagudas.",
+    "f": 1
+   }
+  ]
+ },
+ "boulders": {
+  "en": [
+   {
+    "q": "Near which city is Boulders Beach?",
+    "opts": [
+     "Durban",
+     "Nairobi",
+     "Cape Town",
+     "Lagos"
+    ],
+    "a": 2,
+    "why": "African penguins live on this rocky coast near Cape Town.",
+    "f": 0
+   },
+   {
+    "q": "What can the loud calls of these penguins sound like?",
+    "opts": [
+     "A donkey braying",
+     "A lion roaring",
+     "A dog barking",
+     "A trumpet playing"
+    ],
+    "a": 0,
+    "why": "Their loud calls can sound a bit like a donkey braying.",
+    "f": 2
+   },
+   {
+    "q": "What do these penguins not need to make a home?",
+    "opts": [
+     "A rocky coast",
+     "Fish to eat",
+     "Warm sand",
+     "Antarctic ice"
+    ],
+    "a": 3,
+    "why": "These penguins do not need Antarctic ice to make a home.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cerca de qué ciudad está la playa Boulders?",
+    "opts": [
+     "Durban",
+     "Nairobi",
+     "Ciudad del Cabo",
+     "Lagos"
+    ],
+    "a": 2,
+    "why": "Los pingüinos africanos viven en esta costa rocosa cerca de Ciudad del Cabo.",
+    "f": 0
+   },
+   {
+    "q": "¿A qué pueden sonar las fuertes llamadas de estos pingüinos?",
+    "opts": [
+     "Al rebuzno de un burro",
+     "Al rugido de un león",
+     "Al ladrido de un perro",
+     "A una trompeta"
+    ],
+    "a": 0,
+    "why": "Sus llamadas fuertes pueden sonar un poco como el rebuzno de un burro.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué no necesitan estos pingüinos para tener un hogar?",
+    "opts": [
+     "Una costa rocosa",
+     "Peces para comer",
+     "Arena tibia",
+     "El hielo de la Antártida"
+    ],
+    "a": 3,
+    "why": "Estos pingüinos no necesitan el hielo de la Antártida para tener un hogar.",
+    "f": 1
+   }
+  ]
+ },
+ "lalibela": {
+  "en": [
+   {
+    "q": "How many famous churches at Lalibela were carved from rock?",
+    "opts": [
+     "Seven",
+     "Eleven",
+     "Twelve",
+     "Twenty-one"
+    ],
+    "a": 1,
+    "why": "Eleven famous churches here were carved from rock.",
+    "f": 0
+   },
+   {
+    "q": "How did builders make the doors, windows, rooms, and pillars?",
+    "opts": [
+     "By stacking bricks",
+     "By removing stone",
+     "By pouring melted metal",
+     "By stacking wooden logs"
+    ],
+    "a": 1,
+    "why": "Builders removed stone to make doors, windows, rooms, and pillars.",
+    "f": 1
+   },
+   {
+    "q": "What connects different parts of Lalibela?",
+    "opts": [
+     "Rope bridges",
+     "Underground trains",
+     "Wide paved roads",
+     "Trenches and tunnels"
+    ],
+    "a": 3,
+    "why": "Trenches and tunnels connect parts of this remarkable place.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuántas famosas iglesias de Lalibela fueron talladas en roca?",
+    "opts": [
+     "Siete",
+     "Once",
+     "Doce",
+     "Veintiuna"
+    ],
+    "a": 1,
+    "why": "Once famosas iglesias de este lugar fueron talladas en roca.",
+    "f": 0
+   },
+   {
+    "q": "¿Cómo hicieron los constructores las puertas, ventanas, habitaciones y pilares?",
+    "opts": [
+     "Apilando ladrillos",
+     "Quitando piedra",
+     "Vertiendo metal derretido",
+     "Apilando troncos de madera"
+    ],
+    "a": 1,
+    "why": "Los constructores quitaron piedra para hacer puertas, ventanas, habitaciones y pilares.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué conecta distintas partes de Lalibela?",
+    "opts": [
+     "Puentes de cuerda",
+     "Trenes subterráneos",
+     "Caminos anchos y pavimentados",
+     "Zanjas y túneles"
+    ],
+    "a": 3,
+    "why": "Zanjas y túneles conectan distintas partes de este lugar asombroso.",
+    "f": 2
+   }
+  ]
+ },
+ "rwanda-volcanoes": {
+  "en": [
+   {
+    "q": "Besides gorillas, which monkeys does the park protect?",
+    "opts": [
+     "Golden monkeys",
+     "Silver monkeys",
+     "Howler monkeys",
+     "Spider monkeys"
+    ],
+    "a": 0,
+    "why": "The park also protects golden monkeys and bamboo forests.",
+    "f": 1
+   },
+   {
+    "q": "Why do researchers study the gorillas?",
+    "opts": [
+     "To train them to climb",
+     "To find food for visitors",
+     "To help protect them",
+     "To draw maps of the volcanoes"
+    ],
+    "a": 2,
+    "why": "Gorillas live in family groups, and researchers study them to help protect them.",
+    "f": 2
+   },
+   {
+    "q": "On what kind of land do the mountain gorillas live?",
+    "opts": [
+     "Dry grassy plains",
+     "Sandy desert edges",
+     "Swamps near the sea",
+     "Forests on volcanic slopes"
+    ],
+    "a": 3,
+    "why": "Mountain gorillas live in forests on volcanic slopes.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "Además de los gorilas, ¿qué monos protege el parque?",
+    "opts": [
+     "Los monos dorados",
+     "Los monos plateados",
+     "Los monos aulladores",
+     "Los monos araña"
+    ],
+    "a": 0,
+    "why": "El parque también protege a los monos dorados y los bosques de bambú.",
+    "f": 1
+   },
+   {
+    "q": "¿Por qué estudian los investigadores a los gorilas?",
+    "opts": [
+     "Para entrenarlos a trepar",
+     "Para buscar comida para los visitantes",
+     "Para ayudar a protegerlos",
+     "Para dibujar mapas de los volcanes"
+    ],
+    "a": 2,
+    "why": "Los gorilas viven en grupos familiares, y los investigadores los estudian para ayudar a protegerlos.",
+    "f": 2
+   },
+   {
+    "q": "¿En qué tipo de terreno viven los gorilas de montaña?",
+    "opts": [
+     "Llanuras secas de pasto",
+     "Orillas arenosas del desierto",
+     "Pantanos cerca del mar",
+     "Bosques en laderas volcánicas"
+    ],
+    "a": 3,
+    "why": "Los gorilas de montaña viven en los bosques de laderas volcánicas.",
+    "f": 0
+   }
+  ]
+ },
+ "djoudj": {
+  "en": [
+   {
+    "q": "Which desert have many migrating birds just crossed when they stop here?",
+    "opts": [
+     "The Gobi",
+     "The Kalahari",
+     "The Sahara",
+     "The Arabian Desert"
+    ],
+    "a": 2,
+    "why": "Many migrating birds stop here after crossing the Sahara Desert.",
+    "f": 0
+   },
+   {
+    "q": "Which birds are found at Djoudj?",
+    "opts": [
+     "Penguins, owls, and ostriches",
+     "Pelicans, flamingos, and spoonbills",
+     "Eagles, parrots, and robins",
+     "Puffins, swans, and geese"
+    ],
+    "a": 1,
+    "why": "Pelicans, flamingos, and spoonbills are among the birds found here.",
+    "f": 2
+   },
+   {
+    "q": "What gives the birds places to rest and feed?",
+    "opts": [
+     "Lakes, streams, and wetlands",
+     "Tall cliffs and caves",
+     "Mountain forests",
+     "Sandy dunes"
+    ],
+    "a": 0,
+    "why": "Lakes, streams, and wetlands give the birds places to rest and feed.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué desierto acaban de cruzar muchas aves migratorias cuando se detienen aquí?",
+    "opts": [
+     "El Gobi",
+     "El Kalahari",
+     "El Sahara",
+     "El desierto de Arabia"
+    ],
+    "a": 2,
+    "why": "Muchas aves migratorias se detienen aquí después de cruzar el desierto del Sahara.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué aves se encuentran en Djoudj?",
+    "opts": [
+     "Pingüinos, búhos y avestruces",
+     "Pelícanos, flamencos y espátulas",
+     "Águilas, loros y petirrojos",
+     "Frailecillos, cisnes y gansos"
+    ],
+    "a": 1,
+    "why": "Entre las aves que se encuentran aquí hay pelícanos, flamencos y espátulas.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué les da a las aves lugares para descansar y alimentarse?",
+    "opts": [
+     "Lagos, arroyos y humedales",
+     "Acantilados altos y cuevas",
+     "Bosques de montaña",
+     "Dunas de arena"
+    ],
+    "a": 0,
+    "why": "Los lagos, arroyos y humedales les dan a las aves lugares para descansar y alimentarse.",
+    "f": 1
+   }
+  ]
+ },
+ "okavango": {
+  "en": [
+   {
+    "q": "When does the Okavango's seasonal flood arrive?",
+    "opts": [
+     "During the rainy season",
+     "When snow melts",
+     "During the dry season",
+     "Right after a big storm"
+    ],
+    "a": 2,
+    "why": "The flood arrives during Botswana's dry season, which is a surprise!",
+    "f": 1
+   },
+   {
+    "q": "Which dry lands surround this watery home?",
+    "opts": [
+     "The Kalahari",
+     "The Sahara",
+     "The Gobi",
+     "The Namib"
+    ],
+    "a": 0,
+    "why": "This watery home is among the dry lands of the Kalahari.",
+    "f": 2
+   },
+   {
+    "q": "Which animals use this watery home?",
+    "opts": [
+     "Penguins and seals",
+     "Polar bears and walruses",
+     "Flamingos and pelicans",
+     "Elephants and zebras"
+    ],
+    "a": 3,
+    "why": "Elephants and zebras use this watery home among the dry lands.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuándo llega la inundación de temporada del Okavango?",
+    "opts": [
+     "Durante la estación de lluvias",
+     "Cuando se derrite la nieve",
+     "Durante la estación seca",
+     "Justo después de una gran tormenta"
+    ],
+    "a": 2,
+    "why": "La inundación llega durante la estación seca de Botsuana, ¡una sorpresa!",
+    "f": 1
+   },
+   {
+    "q": "¿Qué tierras secas rodean este hogar lleno de agua?",
+    "opts": [
+     "El Kalahari",
+     "El Sahara",
+     "El Gobi",
+     "El Namib"
+    ],
+    "a": 0,
+    "why": "Este hogar lleno de agua está entre las tierras secas del Kalahari.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué animales usan este hogar lleno de agua?",
+    "opts": [
+     "Pingüinos y focas",
+     "Osos polares y morsas",
+     "Flamencos y pelícanos",
+     "Elefantes y cebras"
+    ],
+    "a": 3,
+    "why": "Los elefantes y las cebras usan este hogar lleno de agua entre las tierras secas.",
+    "f": 2
+   }
+  ]
+ },
+ "faroe": {
+  "en": [
+   {
+    "q": "Between which two places are the Faroe Islands?",
+    "opts": [
+     "Scotland and Greenland",
+     "Iceland and Norway",
+     "Norway and Denmark",
+     "Iceland and Greenland"
+    ],
+    "a": 1,
+    "why": "The Faroe Islands lie between Iceland and Norway.",
+    "f": 1
+   },
+   {
+    "q": "Where do seabirds nest on the Faroe Islands?",
+    "opts": [
+     "On grassy slopes",
+     "On steep cliffs",
+     "On sandy beaches",
+     "Behind the waterfall"
+    ],
+    "a": 1,
+    "why": "Seabirds nest on steep cliffs. The sheep graze on the grassy slopes.",
+    "f": 2
+   },
+   {
+    "q": "What color is the cliff that Múlafossur tumbles over?",
+    "opts": [
+     "Red",
+     "Black",
+     "White",
+     "Green"
+    ],
+    "a": 3,
+    "why": "Múlafossur tumbles over a green cliff toward the Atlantic Ocean.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Entre qué dos lugares están las Islas Feroe?",
+    "opts": [
+     "Escocia y Groenlandia",
+     "Islandia y Noruega",
+     "Noruega y Dinamarca",
+     "Islandia y Groenlandia"
+    ],
+    "a": 1,
+    "why": "Las Feroe están entre Islandia y Noruega.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde anidan las aves marinas en las Islas Feroe?",
+    "opts": [
+     "En laderas de pasto",
+     "En acantilados empinados",
+     "En playas de arena",
+     "Detrás de la cascada"
+    ],
+    "a": 1,
+    "why": "Las aves marinas anidan en acantilados. Las ovejas pastan en las laderas verdes.",
+    "f": 2
+   },
+   {
+    "q": "¿De qué color es el acantilado por el que cae Múlafossur?",
+    "opts": [
+     "Rojo",
+     "Negro",
+     "Blanco",
+     "Verde"
+    ],
+    "a": 3,
+    "why": "Múlafossur cae desde un acantilado verde hacia el océano Atlántico.",
+    "f": 0
+   }
+  ]
+ },
+ "victoria": {
+  "en": [
+   {
+    "q": "What does the local name Mosi-oa-Tunya mean?",
+    "opts": [
+     "The smoke that thunders",
+     "The roaring lion",
+     "The river that sings",
+     "The wall of rain"
+    ],
+    "a": 0,
+    "why": "Mosi-oa-Tunya means “the smoke that thunders”. The “smoke” is really water spray.",
+    "f": 2
+   },
+   {
+    "q": "Into what does the Zambezi River drop here?",
+    "opts": [
+     "A huge lake",
+     "A cave tunnel",
+     "A deep crack",
+     "A wide, flat valley"
+    ],
+    "a": 2,
+    "why": "The Zambezi River drops into a deep crack at the border of Zambia and Zimbabwe.",
+    "f": 0
+   },
+   {
+    "q": "The falls are about 1,700 meters across. How does that compare with a mile?",
+    "opts": [
+     "It is less than a mile",
+     "It is exactly a mile",
+     "It is half a mile",
+     "It is more than a mile"
+    ],
+    "a": 3,
+    "why": "About 1,700 meters across is more than a mile, so the wall of water is very wide.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué significa el nombre local Mosi-oa-Tunya?",
+    "opts": [
+     "El humo que truena",
+     "El león que ruge",
+     "El río que canta",
+     "La pared de lluvia"
+    ],
+    "a": 0,
+    "why": "Mosi-oa-Tunya significa «el humo que truena». Ese «humo» es agua pulverizada.",
+    "f": 2
+   },
+   {
+    "q": "¿En qué cae aquí el río Zambeze?",
+    "opts": [
+     "Un lago enorme",
+     "Un túnel en una cueva",
+     "Una grieta profunda",
+     "Un valle ancho y plano"
+    ],
+    "a": 2,
+    "why": "El río Zambeze cae en una grieta profunda entre Zambia y Zimbabue.",
+    "f": 0
+   },
+   {
+    "q": "Las cataratas miden unos 1.700 metros de ancho. ¿Cómo se compara eso con una milla?",
+    "opts": [
+     "Es menos de una milla",
+     "Es exactamente una milla",
+     "Es media milla",
+     "Es más de una milla"
+    ],
+    "a": 3,
+    "why": "Unos 1.700 metros de ancho es más de una milla, así que la pared de agua es muy ancha.",
+    "f": 1
+   }
+  ]
+ },
+ "iceland-lights": {
+  "en": [
+   {
+    "q": "Near which mountain do the northern lights sometimes glow?",
+    "opts": [
+     "Hekla",
+     "Kilimanjaro",
+     "Kirkjufell",
+     "Mount Fuji"
+    ],
+    "a": 2,
+    "why": "Near Kirkjufell mountain, northern lights sometimes glow above the coast.",
+    "f": 0
+   },
+   {
+    "q": "What does the Sun send into space that helps the lights glow?",
+    "opts": [
+     "Clouds of dust",
+     "Tiny particles",
+     "Rays of cold",
+     "Drops of hot water"
+    ],
+    "a": 1,
+    "why": "The Sun sends tiny particles into space, and some make high gases glow.",
+    "f": 1
+   },
+   {
+    "q": "What do you need to see the lights?",
+    "opts": [
+     "Dark skies and good conditions",
+     "A bright full Moon",
+     "A cloudy, warm night",
+     "Sunshine at noon"
+    ],
+    "a": 0,
+    "why": "You need dark skies and good conditions, and the lights do not appear every night.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cerca de qué montaña brillan a veces las auroras boreales?",
+    "opts": [
+     "Hekla",
+     "Kilimanjaro",
+     "Kirkjufell",
+     "Monte Fuji"
+    ],
+    "a": 2,
+    "why": "Cerca de la montaña Kirkjufell, a veces las auroras brillan sobre la costa.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué envía el Sol al espacio que ayuda a que brillen las luces?",
+    "opts": [
+     "Nubes de polvo",
+     "Partículas diminutas",
+     "Rayos de frío",
+     "Gotas de agua caliente"
+    ],
+    "a": 1,
+    "why": "El Sol envía partículas diminutas al espacio, y algunas hacen brillar gases en lo alto.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué necesitas para ver las luces?",
+    "opts": [
+     "Cielos oscuros y buenas condiciones",
+     "Una luna llena brillante",
+     "Una noche nublada y cálida",
+     "Sol al mediodía"
+    ],
+    "a": 0,
+    "why": "Se necesitan cielos oscuros y buenas condiciones, y las luces no aparecen todas las noches.",
+    "f": 2
+   }
+  ]
+ },
+ "maasai-mara": {
+  "en": [
+   {
+    "q": "In which part of Africa is the Maasai Mara?",
+    "opts": [
+     "West Africa",
+     "North Africa",
+     "East Africa",
+     "Southern Africa"
+    ],
+    "a": 2,
+    "why": "The Maasai Mara is a huge wildlife area in Kenya, in East Africa.",
+    "f": 0
+   },
+   {
+    "q": "According to the card, which big cat lives here with cheetahs, elephants, and giraffes?",
+    "opts": [
+     "Lions",
+     "Leopards",
+     "Tigers",
+     "Pumas"
+    ],
+    "a": 0,
+    "why": "The card says lions, cheetahs, elephants, and giraffes all live in this landscape.",
+    "f": 2
+   },
+   {
+    "q": "Which animals travel between the Maasai Mara and the Serengeti?",
+    "opts": [
+     "Lions and cheetahs",
+     "Elephants and giraffes",
+     "Hippos and crocodiles",
+     "Wildebeest and zebras"
+    ],
+    "a": 3,
+    "why": "Wildebeest and zebras follow fresh grass between the Maasai Mara and the Serengeti.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué parte de África está Masái Mara?",
+    "opts": [
+     "África occidental",
+     "África del norte",
+     "África oriental",
+     "África del sur"
+    ],
+    "a": 2,
+    "why": "Masái Mara es una gran zona de vida silvestre en Kenia, en África oriental.",
+    "f": 0
+   },
+   {
+    "q": "Según la tarjeta, ¿qué felino grande vive aquí con guepardos, elefantes y jirafas?",
+    "opts": [
+     "Leones",
+     "Leopardos",
+     "Tigres",
+     "Pumas"
+    ],
+    "a": 0,
+    "why": "La tarjeta dice que leones, guepardos, elefantes y jirafas viven en este paisaje.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué animales viajan entre Masái Mara y el Serengeti?",
+    "opts": [
+     "Leones y guepardos",
+     "Elefantes y jirafas",
+     "Hipopótamos y cocodrilos",
+     "Ñus y cebras"
+    ],
+    "a": 3,
+    "why": "Los ñus y las cebras siguen el pasto fresco entre Masái Mara y el Serengeti.",
+    "f": 1
+   }
+  ]
+ }
+}

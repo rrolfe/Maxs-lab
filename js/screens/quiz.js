@@ -1,18 +1,19 @@
-import { S, TOPICS, levelOf, addPearls, today, day, save } from '../core/store.js';
-import { h, clear, sleep, confetti, flyPoints, toast } from '../core/dom.js';
+import { S, TOPICS, levelOf, addPearls, losePearls, today, day, save } from '../core/store.js';
+import { h, clear, sleep, confetti, flyPoints, flyLoss, toast } from '../core/dom.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { sfx, speak, canSpeak, stopSpeaking } from '../core/audio.js';
 import { dailyMissions, MISSIONS, TOPIC_META } from '../quiz/missions.js';
-import { buildRound, prepare, pointsFor, recordAnswer } from '../quiz/engine.js';
+import { buildRound, prepare, pointsFor, penaltyOf, recordAnswer } from '../quiz/engine.js';
+import { REWARD } from '../core/economy.js';
 import { awardBadges } from '../core/badges.js';
 
 addStrings({
   en: {
     quizTitle: 'Quiz Missions', todays: 'Today’s missions', pickSubject: 'Practice a subject', level: 'Level {n}', questions8: '8 questions · about 4 minutes',
-    dive: 'First mission today: +15 pearls bonus!', goMission: 'Go', boss: 'Stretch question', bossNote: 'Tricky on purpose. Nothing is lost if you miss it.',
-    notYet: 'Not yet. Try again, or tap Hint.', notYet2: 'Not yet. Look again!', correct: 'Correct!', correctHard: 'Nice thinking! That was a tough one.', correctHint: 'Good use of the hint. Try spotting that clue yourself next time.',
+    dive: 'First mission today: +15 pearls bonus!', goMission: 'Go', boss: 'Stretch question', bossNote: 'Tricky on purpose! A miss costs a few pearls, so think first.',
+    notYet: 'Not yet. Try again, or tap Hint. (Wrong picks cost a few pearls.)', notYet2: 'Not yet. Look again!', correct: 'Correct!', correctHard: 'Nice thinking! That was a tough one.', correctHint: 'Good use of the hint. Try spotting that clue yourself next time.',
     correctN: ['Correct!', 'You got it!', 'Yes!', 'Nailed it!', 'That’s right!'],
     showAnswer: 'Here is the answer', hintTitle: 'Hint', hintNone: 'Read it slowly and picture it.', dadQ: 'Dad’s question', tapOrder: 'Tap the items in the right order.',
     yourOrder: 'Your order', clear: 'Undo', qOf: '{i} of {n}', roundDone: 'Mission complete!', stars: '{n} of 3 stars', newPearls: '+{n} pearls',
@@ -23,8 +24,8 @@ addStrings({
   },
   es: {
     quizTitle: 'Misiones de preguntas', todays: 'Misiones de hoy', pickSubject: 'Practica una materia', level: 'Nivel {n}', questions8: '8 preguntas · unos 4 minutos',
-    dive: 'Primera misión de hoy: ¡+15 perlas de bonificación!', goMission: 'Ir', boss: 'Pregunta de reto', bossNote: 'Es difícil a propósito. No pierdes nada si fallas.',
-    notYet: 'Todavía no. Inténtalo otra vez o toca Pista.', notYet2: 'Todavía no. ¡Mira otra vez!', correct: '¡Correcto!', correctHard: '¡Buen razonamiento! Esa era difícil.', correctHint: 'Buen uso de la pista. La próxima vez intenta descubrirla tú.',
+    dive: 'Primera misión de hoy: ¡+15 perlas de bonificación!', goMission: 'Ir', boss: 'Pregunta de reto', bossNote: '¡Es difícil a propósito! Si fallas pierdes unas perlas, así que piensa primero.',
+    notYet: 'Todavía no. Inténtalo otra vez o toca Pista. (Las respuestas equivocadas cuestan unas perlas.)', notYet2: 'Todavía no. ¡Mira otra vez!', correct: '¡Correcto!', correctHard: '¡Buen razonamiento! Esa era difícil.', correctHint: 'Buen uso de la pista. La próxima vez intenta descubrirla tú.',
     correctN: ['¡Correcto!', '¡Lo lograste!', '¡Sí!', '¡Exacto!', '¡Así es!'],
     showAnswer: 'Esta es la respuesta', hintTitle: 'Pista', hintNone: 'Léela despacio e imagínala.', dadQ: 'Pregunta de Papá', tapOrder: 'Toca los elementos en el orden correcto.',
     yourOrder: 'Tu orden', clear: 'Deshacer', qOf: '{i} de {n}', roundDone: '¡Misión cumplida!', stars: '{n} de 3 estrellas', newPearls: '+{n} perlas',
@@ -194,7 +195,7 @@ async function runRound(el, { mission, topic }) {
       if (answerUI.isRight()) {
         st.over = true;
         answerUI.markRight();
-        const pts = pointsFor(q, { attempts: st.attempts, hinted: st.hinted > 0 });
+        const pts = pointsFor(q, { wrong: st.attempts - 1, hinted: st.hinted > 0 });
         const success = st.attempts === 1 && !st.hinted ? 1 : 0.6;
         if (success === 1) firstTry++;
         answered++;
@@ -213,12 +214,15 @@ async function runRound(el, { mission, topic }) {
         if (!needRead) st.timers.push(setTimeout(advance, 1500));
         return;
       }
-      // wrong
+      // wrong: a small, gentle loss so blind guessing does not pay
       sfx.wrong();
+      const lost = losePearls(penaltyOf(q)); roundPts -= lost; st.lostTotal = (st.lostTotal || 0) + lost;
+      document.getElementById('round-pts').textContent = Math.max(0, roundPts);
+      if (lost) flyLoss(checkBtn, lost);
       stage.querySelector('.qlayout').classList.remove('wobble'); void stage.offsetWidth; stage.querySelector('.qlayout').classList.add('wobble');
       if (st.attempts >= 2 || q.type === 'number' && st.attempts >= 2) return reveal(0);
       answerUI.wrongPick();
-      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('span', {}, t('notYet')));
+      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('span', {}, t('notYet')), lost ? h('b', { class: 'minus' }, '−' + lost) : null);
       checkBtn.disabled = true; showBtn.hidden = false;
       hintBtn.classList.add('nudge');
     }
@@ -229,7 +233,7 @@ async function runRound(el, { mission, topic }) {
       recordAnswer(q, 0, { ms });
       answerUI.showRight();
       if (!requeued.has(q.id) && queue.length < 11 && q.slot !== 'boss') { requeued.add(q.id); queue.splice(Math.min(i + 4, queue.length), 0, { ...queue[i], slot: 'easy', rel: -1, redo: true }); }
-      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('div', {}, h('strong', {}, t('showAnswer')), h('p', { class: 'why' }, q.why || '')));
+      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('div', {}, h('strong', {}, t('showAnswer')), h('p', { class: 'why' }, q.why || '')), st.lostTotal ? h('b', { class: 'minus' }, '−' + st.lostTotal) : null);
       if (S.speak && canSpeak() && q.why) { /* read-aloud only on tap */ }
       checkBtn.hidden = true; hintBtn.hidden = true; showBtn.hidden = true; nextBtn.hidden = false; nextBtn.disabled = true;
       setTimeout(() => { nextBtn.disabled = false; }, 1500);
@@ -247,9 +251,9 @@ async function runRound(el, { mission, topic }) {
     stopSpeaking();
     const total = queue.length;
     const stars = firstTry >= Math.ceil(total * 0.75) ? 3 : firstTry >= Math.ceil(total * 0.4) ? 2 : 1;
-    let bonus = 5; const lines = [[t('bonusFinish'), 5]];
-    if (firstTry === total) { bonus += 5; lines.push([t('bonusPerfect'), 5]); }
-    if (S.mission.lastDay !== today()) { bonus += 15; lines.push([t('bonusDive'), 15]); S.mission.lastDay = today(); }
+    const R = REWARD.quiz; let bonus = R.missionDone; const lines = [[t('bonusFinish'), R.missionDone]];
+    if (firstTry === total) { bonus += R.missionPerfect; lines.push([t('bonusPerfect'), R.missionPerfect]); }
+    if (S.mission.lastDay !== today()) { bonus += R.firstMissionToday; lines.push([t('bonusDive'), R.firstMissionToday]); S.mission.lastDay = today(); }
     day().missions++; S.mission.done++;
     const got = addPearls(bonus).got;
     const ups = TOPICS.filter((tp) => levelOf(tp) > startLevels[tp]);
@@ -261,7 +265,7 @@ async function runRound(el, { mission, topic }) {
       h('div', { html: icons.trophy(84) }), h('h1', {}, t('roundDone')),
       h('div', { class: 'stars', role: 'img', 'aria-label': t('stars', { n: stars }) }, [1, 2, 3].map((n) => h('span', { html: n <= stars ? icons.star(64) : icons.starOff(64) }))),
       h('p', { class: 'big' }, t('rightOf', { a: firstTry, b: total })),
-      h('div', { class: 'tally' }, h('span', { html: icons.pearl(40) }), h('strong', {}, t('newPearls', { n: roundPts + got })), h('small', { class: 'muted' }, lines.map(([a, b]) => `${a} +${b}`).join(' · '))),
+      h('div', { class: 'tally' }, h('span', { html: icons.pearl(40) }), h('strong', {}, t('newPearls', { n: Math.max(0, roundPts) + got })), h('small', { class: 'muted' }, lines.map(([a, b]) => `${a} +${b}`).join(' · '))),
       ups.map((tp) => h('p', { class: 'levelup' }, h('span', { html: icons.star(34) }), t('levelUp', { topic: t(TOPIC_META[tp].key), n: levelOf(tp) }))),
       ups.length ? h('p', { class: 'muted' }, t('levelUpNote')) : null,
       newBadges.map((b) => h('p', { class: 'levelup' }, h('span', { html: icons.trophy(34) }), b)),

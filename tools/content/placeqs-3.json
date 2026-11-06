@@ -1,0 +1,2264 @@
+{
+ "sao-paulo": {
+  "en": [
+   {
+    "q": "Which sentence about São Paulo is true?",
+    "opts": [
+     "MASP is raised up; the planetarium has a dome",
+     "MASP has a dome; the planetarium is raised up",
+     "MASP is underground; planetarium has glass floor",
+     "MASP floats; the planetarium has a copper roof"
+    ],
+    "a": 0,
+    "why": "MASP is lifted above the ground. The planetarium in Ibirapuera Park is the one with the dome-shaped ceiling for showing the night sky.",
+    "f": 0
+   },
+   {
+    "q": "Who designed São Paulo’s unusual MASP museum building?",
+    "opts": [
+     "Antoni Gaudí",
+     "Lina Bo Bardi",
+     "Gustave Eiffel",
+     "Frank Lloyd Wright"
+    ],
+    "a": 1,
+    "why": "Architect Lina Bo Bardi designed the MASP building. Antoni Gaudí is the architect connected to Barcelona.",
+    "f": 1
+   },
+   {
+    "q": "Where in São Paulo can visitors see the night sky shown under a dome-shaped ceiling?",
+    "opts": [
+     "On the plaza under MASP",
+     "Inside the MASP art museum",
+     "In Ibirapuera Park",
+     "At the top of a funicular"
+    ],
+    "a": 2,
+    "why": "A planetarium in Ibirapuera Park uses a dome-shaped ceiling to show the night sky. The plaza under MASP is just open public space.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué oración sobre São Paulo es verdadera?",
+    "opts": [
+     "El MASP está elevado; el planetario tiene cúpula",
+     "El MASP tiene cúpula; el planetario está elevado",
+     "El MASP está bajo tierra; planetario con piso de vidrio",
+     "El MASP flota; el planetario tiene techo de cobre"
+    ],
+    "a": 0,
+    "why": "El MASP está elevado sobre el suelo. El planetario del Parque Ibirapuera es el que tiene techo de cúpula para mostrar el cielo nocturno.",
+    "f": 0
+   },
+   {
+    "q": "¿Quién diseñó el singular edificio del museo MASP de São Paulo?",
+    "opts": [
+     "Antoni Gaudí",
+     "Lina Bo Bardi",
+     "Gustave Eiffel",
+     "Frank Lloyd Wright"
+    ],
+    "a": 1,
+    "why": "La arquitecta Lina Bo Bardi diseñó el MASP. Antoni Gaudí es el arquitecto que se relaciona con Barcelona.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde de São Paulo pueden los visitantes ver el cielo nocturno bajo un techo en forma de cúpula?",
+    "opts": [
+     "En la plaza bajo el MASP",
+     "Dentro del museo de arte MASP",
+     "En el Parque Ibirapuera",
+     "En lo alto de un funicular"
+    ],
+    "a": 2,
+    "why": "Un planetario del Parque Ibirapuera usa un techo de cúpula para mostrar el cielo nocturno. La plaza bajo el MASP es solo un espacio público abierto.",
+    "f": 2
+   }
+  ]
+ },
+ "santiago": {
+  "en": [
+   {
+    "q": "Which pair belongs to Santiago?",
+    "opts": [
+     "The Mapocho River and the Alps",
+     "The Mapocho River and the Andes mountains",
+     "The Tagus River and the Andes",
+     "The Mississippi River and the Rocky Mountains"
+    ],
+    "a": 1,
+    "why": "Santiago has the Mapocho River running through it and is close to the Andes mountains.",
+    "f": 0
+   },
+   {
+    "q": "On which hill in Santiago can visitors ride a cable car or a funicular?",
+    "opts": [
+     "San Cristóbal Hill",
+     "Monserrate",
+     "Mount Royal",
+     "Ibirapuera Hill"
+    ],
+    "a": 0,
+    "why": "San Cristóbal Hill has a cable car and a funicular. Monserrate has them too, but it is in Bogotá.",
+    "f": 2
+   },
+   {
+    "q": "Which sentence about Santiago is true?",
+    "opts": [
+     "It is a Caribbean island city",
+     "It sits on a cliff above a big river",
+     "It is Peru’s capital, built by the Inca",
+     "It is Chile’s capital, close to the Andes"
+    ],
+    "a": 3,
+    "why": "Santiago is the capital of Chile, with the Andes mountains close by.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué pareja corresponde a Santiago?",
+    "opts": [
+     "El río Mapocho y los Alpes",
+     "El río Mapocho y la cordillera de los Andes",
+     "El río Tajo y los Andes",
+     "El río Misisipi y las Montañas Rocosas"
+    ],
+    "a": 1,
+    "why": "Por Santiago pasa el río Mapocho y la ciudad está cerca de la cordillera de los Andes.",
+    "f": 0
+   },
+   {
+    "q": "¿En qué cerro de Santiago se puede viajar en teleférico o en funicular?",
+    "opts": [
+     "El cerro San Cristóbal",
+     "Monserrate",
+     "El monte Royal",
+     "El cerro Ibirapuera"
+    ],
+    "a": 0,
+    "why": "El cerro San Cristóbal tiene teleférico y funicular. Monserrate también, pero está en Bogotá.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué oración sobre Santiago es verdadera?",
+    "opts": [
+     "Es una ciudad en una isla del Caribe",
+     "Está sobre un acantilado junto a un gran río",
+     "Es la capital de Perú, hecha por los incas",
+     "Es la capital de Chile, cerca de los Andes"
+    ],
+    "a": 3,
+    "why": "Santiago es la capital de Chile, con la cordillera de los Andes muy cerca.",
+    "f": 0
+   }
+  ]
+ },
+ "cartagena": {
+  "en": [
+   {
+    "q": "What do the narrow streets inside Cartagena’s old city pass?",
+    "opts": [
+     "Glass pyramids",
+     "Floating houseboats",
+     "Colorful houses with balconies",
+     "Giant copper statues"
+    ],
+    "a": 2,
+    "why": "Inside the old city, narrow streets pass colorful houses with balconies.",
+    "f": 2
+   },
+   {
+    "q": "Which pair is right for Cartagena?",
+    "opts": [
+     "Colorful houses guard the old city; walls are inside",
+     "A glass dome guards the city; colorful houses float",
+     "Forts guard a bay; houses stand on a bridge",
+     "Walls guard the old city; colorful houses are inside"
+    ],
+    "a": 3,
+    "why": "Cartagena’s long stone walls helped protect the old city. Inside it are narrow streets with colorful houses.",
+    "f": 1
+   },
+   {
+    "q": "Where is the city of Cartagena?",
+    "opts": [
+     "On Colombia’s Caribbean coast",
+     "On Panama’s Pacific coast",
+     "High in the Andes",
+     "On an island in a lagoon"
+    ],
+    "a": 0,
+    "why": "Cartagena is on Colombia’s Caribbean coast. Panama City, the tempting answer, is on the Pacific side of Panama.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Junto a qué pasan las calles angostas dentro de la ciudad antigua de Cartagena?",
+    "opts": [
+     "Pirámides de vidrio",
+     "Casas flotantes",
+     "Casas de colores con balcones",
+     "Estatuas gigantes de cobre"
+    ],
+    "a": 2,
+    "why": "Dentro de la ciudad antigua, las calles angostas pasan junto a casas de colores con balcones.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué pareja es correcta para Cartagena?",
+    "opts": [
+     "Casas de colores protegen la ciudad; las murallas están dentro",
+     "Una cúpula de vidrio protege la ciudad; las casas flotan",
+     "Fuertes protegen una bahía; las casas están sobre un puente",
+     "Murallas protegen la ciudad; dentro hay casas de colores"
+    ],
+    "a": 3,
+    "why": "Las largas murallas de Cartagena ayudaron a proteger la ciudad antigua. Dentro hay calles angostas con casas de colores.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde queda la ciudad de Cartagena?",
+    "opts": [
+     "En la costa caribeña de Colombia",
+     "En la costa del Pacífico de Panamá",
+     "En lo alto de los Andes",
+     "En una isla dentro de una laguna"
+    ],
+    "a": 0,
+    "why": "Cartagena está en la costa caribeña de Colombia. La Ciudad de Panamá, la opción tentadora, está en el lado del Pacífico.",
+    "f": 0
+   }
+  ]
+ },
+ "bogota": {
+  "en": [
+   {
+    "q": "Who made the gold objects shown in Bogotá’s Gold Museum?",
+    "opts": [
+     "Europeans who had just arrived",
+     "Factory workers from a world fair",
+     "Modern jewelers",
+     "Indigenous peoples"
+    ],
+    "a": 3,
+    "why": "Indigenous peoples made the gold objects, long before Europeans arrived.",
+    "f": 0
+   },
+   {
+    "q": "Where in Bogotá is Monserrate?",
+    "opts": [
+     "On the city’s western side",
+     "In the middle of a lake",
+     "On the city’s eastern side",
+     "On an island in the harbor"
+    ],
+    "a": 2,
+    "why": "Monserrate is a tall hill on the eastern side of Bogotá.",
+    "f": 1
+   },
+   {
+    "q": "Besides a cable car, what else can take visitors up Monserrate?",
+    "opts": [
+     "A ferry",
+     "A funicular train",
+     "A swan boat",
+     "A water elevator"
+    ],
+    "a": 1,
+    "why": "Visitors can ride a cable car or a funicular train up Monserrate.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Quién hizo los objetos de oro que se exhiben en el Museo del Oro de Bogotá?",
+    "opts": [
+     "Europeos recién llegados",
+     "Obreros de una feria mundial",
+     "Joyeros modernos",
+     "Pueblos indígenas"
+    ],
+    "a": 3,
+    "why": "Los pueblos indígenas hicieron los objetos de oro, mucho antes de la llegada de los europeos.",
+    "f": 0
+   },
+   {
+    "q": "¿Dónde está Monserrate en Bogotá?",
+    "opts": [
+     "Al occidente de la ciudad",
+     "En medio de un lago",
+     "Al oriente de la ciudad",
+     "En una isla del puerto"
+    ],
+    "a": 2,
+    "why": "Monserrate es un cerro alto al oriente de Bogotá.",
+    "f": 1
+   },
+   {
+    "q": "Además de un teleférico, ¿qué más puede llevar a los visitantes a Monserrate?",
+    "opts": [
+     "Un transbordador",
+     "Un tren funicular",
+     "Un barco cisne",
+     "Un ascensor de agua"
+    ],
+    "a": 1,
+    "why": "Los visitantes pueden subir a Monserrate en teleférico o en un tren funicular.",
+    "f": 2
+   }
+  ]
+ },
+ "cusco": {
+  "en": [
+   {
+    "q": "Where is Cusco?",
+    "opts": [
+     "High in the Andes",
+     "On the Caribbean coast",
+     "On an island in a river",
+     "Beside Lake Michigan"
+    ],
+    "a": 0,
+    "why": "Cusco is high in the Andes mountains and was the capital of the Inca Empire.",
+    "f": 0
+   },
+   {
+    "q": "How was the Twelve-Angled Stone shaped?",
+    "opts": [
+     "Melted into place with fire",
+     "Carefully, to fit its neighbors",
+     "Carved to look like a face",
+     "Cut to match a map"
+    ],
+    "a": 1,
+    "why": "The Twelve-Angled Stone was carefully shaped to fit the stones next to it in an old wall.",
+    "f": 1
+   },
+   {
+    "q": "What is the Plaza de Armas?",
+    "opts": [
+     "A stone wall with twelve corners",
+     "A hill with a funicular",
+     "A large public square in the historic center",
+     "A museum of gold"
+    ],
+    "a": 2,
+    "why": "The Plaza de Armas is a large public square in Cusco’s historic center.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde está Cusco?",
+    "opts": [
+     "En lo alto de los Andes",
+     "En la costa del Caribe",
+     "En una isla de un río",
+     "Junto al lago Míchigan"
+    ],
+    "a": 0,
+    "why": "Cusco está en lo alto de los Andes y fue la capital del Imperio inca.",
+    "f": 0
+   },
+   {
+    "q": "¿Cómo se le dio forma a la Piedra de los Doce Ángulos?",
+    "opts": [
+     "Se derritió con fuego hasta quedar en su lugar",
+     "Con cuidado, para encajar con sus vecinas",
+     "Se talló para parecer una cara",
+     "Se cortó para copiar un mapa"
+    ],
+    "a": 1,
+    "why": "La Piedra de los Doce Ángulos se talló con cuidado para encajar con las piedras vecinas de una antigua pared.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué es la Plaza de Armas?",
+    "opts": [
+     "Una pared de piedra con doce esquinas",
+     "Un cerro con funicular",
+     "Una gran plaza pública en el centro histórico",
+     "Un museo de oro"
+    ],
+    "a": 2,
+    "why": "La Plaza de Armas es una gran plaza pública del centro histórico de Cusco.",
+    "f": 2
+   }
+  ]
+ },
+ "havana": {
+  "en": [
+   {
+    "q": "On which part of Cuba’s coast does Havana stand?",
+    "opts": [
+     "The northeast",
+     "The northwest",
+     "The southwest",
+     "The southeast"
+    ],
+    "a": 1,
+    "why": "Havana is on the northwest coast of Cuba.",
+    "f": 0
+   },
+   {
+    "q": "Where were Havana’s forts built?",
+    "opts": [
+     "Near the narrow entrance to the bay",
+     "Far inland in the mountains",
+     "In the middle of Old Havana’s plaza",
+     "On top of the old balconies"
+    ],
+    "a": 0,
+    "why": "Forts were built near the narrow entrance of Havana’s bay, to help defend the harbor.",
+    "f": 1
+   },
+   {
+    "q": "What does Old Havana preserve?",
+    "opts": [
+     "Forts, canals and locks",
+     "Gold objects and a theater",
+     "Floating homes and ferries",
+     "Historic streets, public squares and buildings"
+    ],
+    "a": 3,
+    "why": "Old Havana preserves historic streets, public squares and buildings from different centuries.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué parte de la costa de Cuba está La Habana?",
+    "opts": [
+     "El noreste",
+     "El noroeste",
+     "El suroeste",
+     "El sureste"
+    ],
+    "a": 1,
+    "why": "La Habana está en la costa noroeste de Cuba.",
+    "f": 0
+   },
+   {
+    "q": "¿Dónde se construyeron los fuertes de La Habana?",
+    "opts": [
+     "Cerca de la entrada angosta de la bahía",
+     "Muy tierra adentro, en las montañas",
+     "En medio de la plaza de La Habana Vieja",
+     "Encima de los balcones antiguos"
+    ],
+    "a": 0,
+    "why": "Se construyeron fuertes cerca de la entrada angosta de la bahía para ayudar a defender el puerto.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué conserva La Habana Vieja?",
+    "opts": [
+     "Fuertes, canales y esclusas",
+     "Objetos de oro y un teatro",
+     "Casas flotantes y transbordadores",
+     "Calles históricas, plazas públicas y edificios"
+    ],
+    "a": 3,
+    "why": "La Habana Vieja conserva calles históricas, plazas públicas y edificios de distintos siglos.",
+    "f": 2
+   }
+  ]
+ },
+ "panama-city": {
+  "en": [
+   {
+    "q": "On which coast of Panama is Panama City?",
+    "opts": [
+     "The Atlantic coast",
+     "The Caribbean coast",
+     "The Pacific coast",
+     "The Indian Ocean coast"
+    ],
+    "a": 2,
+    "why": "Panama City is on Panama’s Pacific coast.",
+    "f": 0
+   },
+   {
+    "q": "Which two oceans does the Panama Canal connect?",
+    "opts": [
+     "The Pacific and the Indian",
+     "The Atlantic and the Arctic",
+     "The Indian and the Atlantic",
+     "The Atlantic and the Pacific"
+    ],
+    "a": 3,
+    "why": "The Panama Canal connects the Atlantic and Pacific oceans, and its locks lift ships with water.",
+    "f": 1
+   },
+   {
+    "q": "Panamá Viejo has ruins of what?",
+    "opts": [
+     "The earlier city, with an old stone tower",
+     "A ship from the canal",
+     "A fort at a bay entrance",
+     "A museum of gold"
+    ],
+    "a": 0,
+    "why": "Panamá Viejo preserves ruins of the earlier city, including an old stone tower.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué costa de Panamá está la Ciudad de Panamá?",
+    "opts": [
+     "La costa del Atlántico",
+     "La costa del Caribe",
+     "La costa del Pacífico",
+     "La costa del océano Índico"
+    ],
+    "a": 2,
+    "why": "La Ciudad de Panamá está en la costa del Pacífico de Panamá.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué dos océanos conecta el canal de Panamá?",
+    "opts": [
+     "El Pacífico y el Índico",
+     "El Atlántico y el Ártico",
+     "El Índico y el Atlántico",
+     "El Atlántico y el Pacífico"
+    ],
+    "a": 3,
+    "why": "El canal de Panamá conecta los océanos Atlántico y Pacífico, y sus esclusas suben los barcos con agua.",
+    "f": 1
+   },
+   {
+    "q": "¿De qué son las ruinas de Panamá Viejo?",
+    "opts": [
+     "De la ciudad anterior, con una antigua torre de piedra",
+     "De un barco del canal",
+     "De un fuerte en la entrada de una bahía",
+     "De un museo de oro"
+    ],
+    "a": 0,
+    "why": "Panamá Viejo conserva ruinas de la ciudad anterior, entre ellas una antigua torre de piedra.",
+    "f": 2
+   }
+  ]
+ },
+ "mexico-city": {
+  "en": [
+   {
+    "q": "What are the canals of Xochimilco left over from?",
+    "opts": [
+     "A dried-up river",
+     "An old road system",
+     "A canal built for big ships",
+     "An old lake landscape"
+    ],
+    "a": 3,
+    "why": "Xochimilco’s canals are left from an old lake landscape in the Mexico City area.",
+    "f": 0
+   },
+   {
+    "q": "For how long have people grown crops on chinampas?",
+    "opts": [
+     "For only a few years",
+     "Since the last world fair",
+     "For centuries",
+     "Only since the canal locks"
+    ],
+    "a": 2,
+    "why": "People have grown crops on chinampas, garden plots among the canals, for centuries.",
+    "f": 1
+   },
+   {
+    "q": "Which description fits the axolotl?",
+    "opts": [
+     "A reptile that lives on land",
+     "An amphibian that lives in water",
+     "A fish that climbs trees",
+     "A mammal that lives on chinampas"
+    ],
+    "a": 1,
+    "why": "The axolotl is an amphibian that lives in water and is native to this region.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿De qué quedan los canales de Xochimilco?",
+    "opts": [
+     "De un río que se secó",
+     "De un antiguo sistema de caminos",
+     "De un canal para barcos grandes",
+     "De un antiguo paisaje de lagos"
+    ],
+    "a": 3,
+    "why": "Los canales de Xochimilco quedan de un antiguo paisaje de lagos en la zona de la Ciudad de México.",
+    "f": 0
+   },
+   {
+    "q": "¿Desde hace cuánto tiempo se siembran alimentos en las chinampas?",
+    "opts": [
+     "Solo desde hace unos años",
+     "Desde la última feria mundial",
+     "Desde hace siglos",
+     "Solo desde las esclusas del canal"
+    ],
+    "a": 2,
+    "why": "Se han sembrado alimentos en las chinampas, terrenos de cultivo entre los canales, durante siglos.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué descripción corresponde al ajolote?",
+    "opts": [
+     "Un reptil que vive en tierra",
+     "Un anfibio que vive en el agua",
+     "Un pez que trepa árboles",
+     "Un mamífero que vive en las chinampas"
+    ],
+    "a": 1,
+    "why": "El ajolote es un anfibio que vive en el agua y es originario de esta región.",
+    "f": 2
+   }
+  ]
+ },
+ "san-jose-cr": {
+  "en": [
+   {
+    "q": "What do people do at San José’s National Theatre?",
+    "opts": [
+     "Gather for music and stage performances",
+     "Ride a cable car",
+     "Look at dinosaur fossils",
+     "Watch ships rise in locks"
+    ],
+    "a": 0,
+    "why": "The National Theatre is a historic building where people gather for music and stage performances.",
+    "f": 1
+   },
+   {
+    "q": "The gold objects in the Pre-Columbian Gold Museum were made before what happened?",
+    "opts": [
+     "The National Theatre opened",
+     "Europeans arrived",
+     "The 1962 World’s Fair",
+     "The Panama Canal was dug"
+    ],
+    "a": 1,
+    "why": "Indigenous peoples made these gold objects before Europeans arrived. That is what Pre-Columbian means.",
+    "f": 2
+   },
+   {
+    "q": "Which three things come together in San José?",
+    "opts": [
+     "Rainforest, seals and cycling",
+     "Canals, locks and ships",
+     "Music, theater and golden history",
+     "Cable cars, bridges and ferries"
+    ],
+    "a": 2,
+    "why": "Costa Rica’s capital brings together music, theater and golden history.",
+    "f": -1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué hace la gente en el Teatro Nacional de San José?",
+    "opts": [
+     "Se reúne para escuchar música y ver espectáculos",
+     "Viaja en teleférico",
+     "Mira fósiles de dinosaurios",
+     "Ve subir barcos en esclusas"
+    ],
+    "a": 0,
+    "why": "El Teatro Nacional es un edificio histórico donde la gente se reúne para escuchar música y ver espectáculos.",
+    "f": 1
+   },
+   {
+    "q": "Los objetos de oro del Museo del Oro Precolombino se hicieron antes de que sucediera ¿qué?",
+    "opts": [
+     "Se abrió el Teatro Nacional",
+     "Llegaron los europeos",
+     "La Exposición Mundial de 1962",
+     "Se cavó el canal de Panamá"
+    ],
+    "a": 1,
+    "why": "Pueblos indígenas hicieron estos objetos de oro antes de la llegada de los europeos. Eso significa precolombino.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué tres cosas se reúnen en San José?",
+    "opts": [
+     "Bosque lluvioso, focas y bicicletas",
+     "Canales, esclusas y barcos",
+     "Música, teatro e historia de oro",
+     "Teleféricos, puentes y transbordadores"
+    ],
+    "a": 2,
+    "why": "La capital de Costa Rica reúne música, teatro e historia de oro.",
+    "f": -1
+   }
+  ]
+ },
+ "san-juan": {
+  "en": [
+   {
+    "q": "What was El Morro built to help guard?",
+    "opts": [
+     "A gold museum",
+     "The entrance to San Juan Bay",
+     "A mountain pass",
+     "A big plaza in Old San Juan"
+    ],
+    "a": 1,
+    "why": "El Morro is a stone fort built to help guard the entrance to San Juan Bay.",
+    "f": 1
+   },
+   {
+    "q": "San Juan is a coastal city on which island?",
+    "opts": [
+     "Puerto Rico",
+     "Cuba",
+     "Liberty Island",
+     "Montréal Island"
+    ],
+    "a": 0,
+    "why": "San Juan is on the island of Puerto Rico. Cuba is the island where Havana is.",
+    "f": 0
+   },
+   {
+    "q": "El Morro is ___, and Old San Juan has ___. Which pair fits?",
+    "opts": [
+     "A stone tower; canals",
+     "A gold museum; cobblestone streets",
+     "A stone fort; glass floors",
+     "A stone fort; cobblestone streets"
+    ],
+    "a": 3,
+    "why": "El Morro is a stone fort by the bay entrance. Old San Juan has cobblestone streets and colorful historic buildings.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué se construyó El Morro para ayudar a proteger?",
+    "opts": [
+     "Un museo de oro",
+     "La entrada de la bahía de San Juan",
+     "Un paso de montaña",
+     "Una gran plaza del Viejo San Juan"
+    ],
+    "a": 1,
+    "why": "El Morro es un fuerte de piedra construido para ayudar a proteger la entrada de la bahía de San Juan.",
+    "f": 1
+   },
+   {
+    "q": "San Juan es una ciudad costera de ¿qué isla?",
+    "opts": [
+     "Puerto Rico",
+     "Cuba",
+     "La isla de la Libertad",
+     "La isla de Montreal"
+    ],
+    "a": 0,
+    "why": "San Juan está en la isla de Puerto Rico. Cuba es la isla donde está La Habana.",
+    "f": 0
+   },
+   {
+    "q": "El Morro es ___ y el Viejo San Juan tiene ___. ¿Qué pareja encaja?",
+    "opts": [
+     "Una torre de piedra; canales",
+     "Un museo de oro; calles adoquinadas",
+     "Un fuerte de piedra; pisos de vidrio",
+     "Un fuerte de piedra; calles adoquinadas"
+    ],
+    "a": 3,
+    "why": "El Morro es un fuerte de piedra junto a la entrada de la bahía. El Viejo San Juan tiene calles adoquinadas y edificios históricos de colores.",
+    "f": 1
+   }
+  ]
+ },
+ "new-york": {
+  "en": [
+   {
+    "q": "How do visitors travel to Liberty Island to see the statue?",
+    "opts": [
+     "By cable car",
+     "By funicular",
+     "By ferry",
+     "By walking across the Brooklyn Bridge"
+    ],
+    "a": 2,
+    "why": "Visitors take a ferry to Liberty Island. The Brooklyn Bridge connects Manhattan and Brooklyn, not the island.",
+    "f": 1
+   },
+   {
+    "q": "Which river does the Brooklyn Bridge cross?",
+    "opts": [
+     "The Hudson River",
+     "The Mississippi River",
+     "The Thames",
+     "The East River"
+    ],
+    "a": 3,
+    "why": "The Brooklyn Bridge crosses the East River and connects Manhattan with Brooklyn.",
+    "f": 2
+   },
+   {
+    "q": "How does the card describe the copper on the Statue of Liberty?",
+    "opts": [
+     "A thin outer skin",
+     "A thick solid block",
+     "Paint on a stone body",
+     "Only the torch is copper"
+    ],
+    "a": 0,
+    "why": "The statue has a thin outer skin made of copper.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo viajan los visitantes a la isla de la Libertad para ver la estatua?",
+    "opts": [
+     "En teleférico",
+     "En funicular",
+     "En transbordador",
+     "Caminando por el puente de Brooklyn"
+    ],
+    "a": 2,
+    "why": "Los visitantes viajan en transbordador a la isla de la Libertad. El puente de Brooklyn conecta Manhattan con Brooklyn, no con la isla.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué río cruza el puente de Brooklyn?",
+    "opts": [
+     "El río Hudson",
+     "El río Misisipi",
+     "El Támesis",
+     "El río Este"
+    ],
+    "a": 3,
+    "why": "El puente de Brooklyn cruza el río Este y conecta Manhattan con Brooklyn.",
+    "f": 2
+   },
+   {
+    "q": "¿Cómo describe la tarjeta el cobre de la Estatua de la Libertad?",
+    "opts": [
+     "Una capa exterior delgada",
+     "Un bloque grueso y macizo",
+     "Pintura sobre un cuerpo de piedra",
+     "Solo la antorcha es de cobre"
+    ],
+    "a": 0,
+    "why": "La estatua tiene una capa exterior delgada hecha de cobre.",
+    "f": 0
+   }
+  ]
+ },
+ "washington-dc": {
+  "en": [
+   {
+    "q": "Which museum in Washington, D.C., displays dinosaur fossils in its Deep Time exhibition?",
+    "opts": [
+     "The Gold Museum",
+     "The Houseboat Museum",
+     "The Louvre",
+     "The Smithsonian National Museum of Natural History"
+    ],
+    "a": 3,
+    "why": "Deep Time, with dinosaur fossils, is at the Smithsonian National Museum of Natural History.",
+    "f": 2
+   },
+   {
+    "q": "What is around the lawns of the National Mall?",
+    "opts": [
+     "Canals and houseboats",
+     "Swan boats and a pond",
+     "Museums and monuments",
+     "Ferries and islands"
+    ],
+    "a": 2,
+    "why": "The National Mall is a long open park with lawns, and museums and monuments are nearby.",
+    "f": 1
+   },
+   {
+    "q": "After a walk through the huge park, what does the hook say you meet?",
+    "opts": [
+     "Boats shaped like swans",
+     "Dinosaur fossils in a museum",
+     "A giant copper statue",
+     "A glass pyramid"
+    ],
+    "a": 1,
+    "why": "The hook says to walk through a huge park, then meet dinosaur fossils in a museum.",
+    "f": -1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué museo de Washington D. C. exhibe fósiles de dinosaurios en su exposición Deep Time?",
+    "opts": [
+     "El Museo del Oro",
+     "El Museo de la Casa Flotante",
+     "El Louvre",
+     "El Museo Nacional de Historia Natural del Smithsonian"
+    ],
+    "a": 3,
+    "why": "Deep Time, con fósiles de dinosaurios, está en el Museo Nacional de Historia Natural del Smithsonian.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué hay alrededor de los céspedes del National Mall?",
+    "opts": [
+     "Canales y casas flotantes",
+     "Barcos cisne y un estanque",
+     "Museos y monumentos",
+     "Transbordadores e islas"
+    ],
+    "a": 2,
+    "why": "El National Mall es un largo parque abierto con césped, y hay museos y monumentos cerca.",
+    "f": 1
+   },
+   {
+    "q": "Después de pasear por el gran parque, ¿qué dice la introducción que encuentras?",
+    "opts": [
+     "Barcos con forma de cisne",
+     "Fósiles de dinosaurios en un museo",
+     "Una enorme estatua de cobre",
+     "Una pirámide de vidrio"
+    ],
+    "a": 1,
+    "why": "La introducción dice que paseas por un gran parque y luego descubres fósiles de dinosaurios en un museo.",
+    "f": -1
+   }
+  ]
+ },
+ "boston": {
+  "en": [
+   {
+    "q": "What does Boston’s Freedom Trail guide walkers past?",
+    "opts": [
+     "Historic places",
+     "Dinosaur fossils",
+     "Cable car stops",
+     "Jazz clubs"
+    ],
+    "a": 0,
+    "why": "A red line guides walkers on the Freedom Trail past historic places.",
+    "f": 0
+   },
+   {
+    "q": "Where do Boston’s Swan Boats carry visitors?",
+    "opts": [
+     "Around Lake Michigan",
+     "Around the pond in the Public Garden",
+     "To Liberty Island",
+     "Along the Mississippi River"
+    ],
+    "a": 1,
+    "why": "Swan Boats carry visitors around the pond in the Public Garden.",
+    "f": 1
+   },
+   {
+    "q": "A Swan Boat driver’s pedaling is a little like doing what?",
+    "opts": [
+     "Rowing a canoe",
+     "Pulling a cable",
+     "Riding a bicycle",
+     "Climbing stairs"
+    ],
+    "a": 2,
+    "why": "Each Swan Boat driver pedals the boat, a little like riding a bicycle.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Por dónde guía el Freedom Trail de Boston a los caminantes?",
+    "opts": [
+     "Por lugares históricos",
+     "Por fósiles de dinosaurios",
+     "Por paradas de teleférico",
+     "Por clubes de jazz"
+    ],
+    "a": 0,
+    "why": "Una línea roja guía a los caminantes del Freedom Trail por lugares históricos.",
+    "f": 0
+   },
+   {
+    "q": "¿Adónde llevan los Swan Boats de Boston a los visitantes?",
+    "opts": [
+     "Alrededor del lago Míchigan",
+     "Alrededor del estanque del Jardín Público",
+     "A la isla de la Libertad",
+     "A lo largo del río Misisipi"
+    ],
+    "a": 1,
+    "why": "Los Swan Boats llevan visitantes por el estanque del Jardín Público.",
+    "f": 1
+   },
+   {
+    "q": "Cuando la persona pedalea un Swan Boat, es un poco como ¿qué?",
+    "opts": [
+     "Remar en una canoa",
+     "Jalar un cable",
+     "Andar en bicicleta",
+     "Subir escaleras"
+    ],
+    "a": 2,
+    "why": "Cada persona impulsa su Swan Boat pedaleando, un poco como al andar en bicicleta.",
+    "f": 2
+   }
+  ]
+ },
+ "san-francisco": {
+  "en": [
+   {
+    "q": "What is the Golden Gate?",
+    "opts": [
+     "A tower of the bridge",
+     "A strait connecting the bay with the Pacific Ocean",
+     "A gate in an old stone wall",
+     "A tunnel under the bay"
+    ],
+    "a": 1,
+    "why": "The Golden Gate is a strait. The bridge crosses it, between San Francisco Bay and the Pacific Ocean.",
+    "f": 1
+   },
+   {
+    "q": "Where is the moving cable that cable cars grip?",
+    "opts": [
+     "Beneath the street",
+     "Above the street on poles",
+     "Inside the bridge towers",
+     "Under the water of the bay"
+    ],
+    "a": 0,
+    "why": "Cable cars grip a moving cable beneath the street to travel along their tracks.",
+    "f": 2
+   },
+   {
+    "q": "What is the name of the Golden Gate Bridge’s color?",
+    "opts": [
+     "Golden Orange",
+     "Bridge Red",
+     "Sunset Orange",
+     "International Orange"
+    ],
+    "a": 3,
+    "why": "The bridge is painted a color called International Orange.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué es el Golden Gate?",
+    "opts": [
+     "Una torre del puente",
+     "Un estrecho que conecta la bahía con el océano Pacífico",
+     "Una puerta en una antigua muralla",
+     "Un túnel bajo la bahía"
+    ],
+    "a": 1,
+    "why": "El Golden Gate es un estrecho. El puente lo cruza, entre la bahía de San Francisco y el océano Pacífico.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde está el cable en movimiento al que se sujetan los tranvías de cable?",
+    "opts": [
+     "Bajo la calle",
+     "Sobre la calle, en postes",
+     "Dentro de las torres del puente",
+     "Bajo el agua de la bahía"
+    ],
+    "a": 0,
+    "why": "Los tranvías de cable se sujetan a un cable en movimiento bajo la calle para recorrer sus vías.",
+    "f": 2
+   },
+   {
+    "q": "¿Cómo se llama el color del puente Golden Gate?",
+    "opts": [
+     "Naranja dorado",
+     "Rojo puente",
+     "Naranja atardecer",
+     "Naranja internacional"
+    ],
+    "a": 3,
+    "why": "El puente está pintado de un color llamado naranja internacional.",
+    "f": 0
+   }
+  ]
+ },
+ "new-orleans": {
+  "en": [
+   {
+    "q": "Beside which river does New Orleans stand?",
+    "opts": [
+     "The St. Lawrence River",
+     "The Thames",
+     "The Mississippi River",
+     "The Arno River"
+    ],
+    "a": 2,
+    "why": "New Orleans stands beside the Mississippi River.",
+    "f": 0
+   },
+   {
+    "q": "Jazz developed in New Orleans from what?",
+    "opts": [
+     "One single marching band",
+     "The whistles of river ferries",
+     "The sounds of parade floats",
+     "The music of different communities"
+    ],
+    "a": 3,
+    "why": "Jazz grew from the music of different communities, with deep roots in Black American traditions.",
+    "f": 1
+   },
+   {
+    "q": "Besides decorated floats, what else comes through the streets in Mardi Gras parades?",
+    "opts": [
+     "Marching bands",
+     "Cable cars",
+     "Swan boats",
+     "Houseboats"
+    ],
+    "a": 0,
+    "why": "Mardi Gras parades bring decorated floats and marching bands through the city streets.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Junto a qué río está Nueva Orleans?",
+    "opts": [
+     "El río San Lorenzo",
+     "El Támesis",
+     "El río Misisipi",
+     "El río Arno"
+    ],
+    "a": 2,
+    "why": "Nueva Orleans está junto al río Misisipi.",
+    "f": 0
+   },
+   {
+    "q": "El jazz se desarrolló en Nueva Orleans a partir de ¿qué?",
+    "opts": [
+     "Una sola banda de música",
+     "Los silbatos de los transbordadores",
+     "Los sonidos de las carrozas",
+     "La música de distintas comunidades"
+    ],
+    "a": 3,
+    "why": "El jazz nació de la música de distintas comunidades, con profundas raíces en las tradiciones afroestadounidenses.",
+    "f": 1
+   },
+   {
+    "q": "Además de carrozas decoradas, ¿qué más recorre las calles en los desfiles de Mardi Gras?",
+    "opts": [
+     "Bandas de música",
+     "Tranvías de cable",
+     "Barcos cisne",
+     "Casas flotantes"
+    ],
+    "a": 0,
+    "why": "Los desfiles de Mardi Gras llevan carrozas decoradas y bandas de música por las calles.",
+    "f": 2
+   }
+  ]
+ },
+ "chicago": {
+  "en": [
+   {
+    "q": "Lake Michigan is one of what?",
+    "opts": [
+     "The Seven Seas",
+     "Lakes high in the Andes",
+     "The canals of Venice",
+     "North America’s Great Lakes"
+    ],
+    "a": 3,
+    "why": "Chicago is beside Lake Michigan, one of North America’s Great Lakes.",
+    "f": 0
+   },
+   {
+    "q": "In which park is Cloud Gate?",
+    "opts": [
+     "Stanley Park",
+     "The Public Garden",
+     "Millennium Park",
+     "Ibirapuera Park"
+    ],
+    "a": 2,
+    "why": "Cloud Gate, nicknamed the Bean, is in Millennium Park.",
+    "f": 1
+   },
+   {
+    "q": "What does Cloud Gate’s polished, curved surface act like?",
+    "opts": [
+     "A giant window",
+     "A giant curved mirror",
+     "A giant magnifying glass",
+     "A giant lamp"
+    ],
+    "a": 1,
+    "why": "Its polished stainless steel reflects people, buildings and the sky like a giant curved mirror.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "El lago Míchigan es uno de ¿qué?",
+    "opts": [
+     "Los Siete Mares",
+     "Lagos en lo alto de los Andes",
+     "Los canales de Venecia",
+     "Los Grandes Lagos de América del Norte"
+    ],
+    "a": 3,
+    "why": "Chicago está junto al lago Míchigan, uno de los Grandes Lagos de América del Norte.",
+    "f": 0
+   },
+   {
+    "q": "¿En qué parque está Cloud Gate?",
+    "opts": [
+     "Stanley Park",
+     "El Jardín Público",
+     "Millennium Park",
+     "El Parque Ibirapuera"
+    ],
+    "a": 2,
+    "why": "Cloud Gate, conocida como The Bean, está en el Millennium Park.",
+    "f": 1
+   },
+   {
+    "q": "¿Como qué funciona la superficie pulida y curva de Cloud Gate?",
+    "opts": [
+     "Como una enorme ventana",
+     "Como un enorme espejo curvo",
+     "Como una enorme lupa",
+     "Como una enorme lámpara"
+    ],
+    "a": 1,
+    "why": "Su acero inoxidable pulido refleja a las personas, los edificios y el cielo como un enorme espejo curvo.",
+    "f": 2
+   }
+  ]
+ },
+ "seattle": {
+  "en": [
+   {
+    "q": "In which year was the World’s Fair that the Space Needle was built for?",
+    "opts": [
+     "1962",
+     "1889",
+     "1932",
+     "1992"
+    ],
+    "a": 0,
+    "why": "The Space Needle was built for the 1962 World’s Fair. The Eiffel Tower is the one from 1889.",
+    "f": 0
+   },
+   {
+    "q": "What do the stalls at Pike Place Market sell?",
+    "opts": [
+     "Only fresh fish",
+     "Foods, flowers and other goods",
+     "Only gold objects",
+     "Tickets for the fair"
+    ],
+    "a": 1,
+    "why": "Pike Place Market has stalls selling foods, flowers and other goods. Fish is just one famous stall.",
+    "f": 1
+   },
+   {
+    "q": "At one famous Pike Place stall, who tosses fish to one another?",
+    "opts": [
+     "Visitors from the ferry",
+     "Swan Boat drivers",
+     "Fishmongers, the people who sell fish",
+     "Rangers from the park"
+    ],
+    "a": 2,
+    "why": "At one famous stall, fishmongers toss fish to one another while they work.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué año fue la Exposición Mundial para la que se construyó la Space Needle?",
+    "opts": [
+     "1962",
+     "1889",
+     "1932",
+     "1992"
+    ],
+    "a": 0,
+    "why": "La Space Needle se construyó para la Exposición Mundial de 1962. La Torre Eiffel es la de 1889.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué venden los puestos del mercado Pike Place?",
+    "opts": [
+     "Solo pescado fresco",
+     "Alimentos, flores y otros productos",
+     "Solo objetos de oro",
+     "Boletos para la feria"
+    ],
+    "a": 1,
+    "why": "El mercado Pike Place tiene puestos de alimentos, flores y otros productos. El pescado es solo un puesto famoso.",
+    "f": 1
+   },
+   {
+    "q": "En un famoso puesto de Pike Place, ¿quiénes se lanzan los pescados?",
+    "opts": [
+     "Visitantes del transbordador",
+     "Los conductores de Swan Boats",
+     "Los pescaderos, que venden pescado",
+     "Guardabosques del parque"
+    ],
+    "a": 2,
+    "why": "En un famoso puesto, los pescaderos se lanzan los pescados entre ellos mientras trabajan.",
+    "f": 2
+   }
+  ]
+ },
+ "vancouver": {
+  "en": [
+   {
+    "q": "Where is Stanley Park’s coastal rainforest?",
+    "opts": [
+     "A day’s drive outside the city",
+     "Inside the city itself",
+     "On an island in a lake",
+     "Under the seawall"
+    ],
+    "a": 1,
+    "why": "Stanley Park protects a large area of coastal rainforest within the city.",
+    "f": 0
+   },
+   {
+    "q": "Which two ways can people travel on the seawall path?",
+    "opts": [
+     "Walking and cycling",
+     "Walking and riding a cable car",
+     "Cycling and rowing",
+     "Skiing and walking"
+    ],
+    "a": 0,
+    "why": "The seawall path follows the water around the park, with space for walking and cycling.",
+    "f": 1
+   },
+   {
+    "q": "What are harbor seals doing when people may spot them from the seawall?",
+    "opts": [
+     "Resting on the path",
+     "Pedaling boats",
+     "Following ferries",
+     "Searching for fish"
+    ],
+    "a": 3,
+    "why": "Harbor seals live in the nearby waters. People may spot them as they search for fish.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde está el bosque lluvioso costero del Stanley Park?",
+    "opts": [
+     "A un día de viaje fuera de la ciudad",
+     "Dentro de la propia ciudad",
+     "En una isla de un lago",
+     "Bajo el camino junto al agua"
+    ],
+    "a": 1,
+    "why": "El Stanley Park protege una gran zona de bosque lluvioso costero dentro de la ciudad.",
+    "f": 0
+   },
+   {
+    "q": "¿De qué dos maneras se puede recorrer el camino junto al agua?",
+    "opts": [
+     "Caminando y en bicicleta",
+     "Caminando y en teleférico",
+     "En bicicleta y remando",
+     "Esquiando y caminando"
+    ],
+    "a": 0,
+    "why": "El camino junto al agua rodea el parque y tiene espacio para caminar y andar en bicicleta.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué hacen las focas comunes cuando se las puede ver desde el camino?",
+    "opts": [
+     "Descansan sobre el camino",
+     "Pedalean barcos",
+     "Siguen a los transbordadores",
+     "Buscan peces"
+    ],
+    "a": 3,
+    "why": "Las focas comunes viven en las aguas cercanas. A veces se las ve mientras buscan peces.",
+    "f": 2
+   }
+  ]
+ },
+ "toronto": {
+  "en": [
+   {
+    "q": "Which lake is Toronto on?",
+    "opts": [
+     "Lake Michigan",
+     "Lake Erie",
+     "Lake Ontario",
+     "Lake Superior"
+    ],
+    "a": 2,
+    "why": "Toronto stands on the shore of Lake Ontario. Lake Michigan is the lake beside Chicago.",
+    "f": 0
+   },
+   {
+    "q": "Where is the CN Tower’s glass floor?",
+    "opts": [
+     "Under the lake",
+     "At the bottom of a ferry",
+     "Beneath a plaza",
+     "High above the ground"
+    ],
+    "a": 3,
+    "why": "The CN Tower’s glass floor is high above the ground, so visitors can look down beneath their feet.",
+    "f": 1
+   },
+   {
+    "q": "What can visitors find on the Toronto Islands?",
+    "opts": [
+     "Parks",
+     "Forts",
+     "Glass floors",
+     "Funiculars"
+    ],
+    "a": 0,
+    "why": "Ferries carry people from the city to parks on the Toronto Islands.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué lago está Toronto?",
+    "opts": [
+     "El lago Míchigan",
+     "El lago Erie",
+     "El lago Ontario",
+     "El lago Superior"
+    ],
+    "a": 2,
+    "why": "Toronto está a orillas del lago Ontario. El lago Míchigan es el que está junto a Chicago.",
+    "f": 0
+   },
+   {
+    "q": "¿Dónde está el piso de vidrio de la Torre CN?",
+    "opts": [
+     "Bajo el lago",
+     "En el fondo de un transbordador",
+     "Debajo de una plaza",
+     "Muy alto sobre el suelo"
+    ],
+    "a": 3,
+    "why": "El piso de vidrio de la Torre CN está muy alto sobre el suelo, así que los visitantes miran debajo de sus pies.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué pueden encontrar los visitantes en las islas de Toronto?",
+    "opts": [
+     "Parques",
+     "Fuertes",
+     "Pisos de vidrio",
+     "Funiculares"
+    ],
+    "a": 0,
+    "why": "Los transbordadores llevan personas desde la ciudad hasta los parques de las islas de Toronto.",
+    "f": 2
+   }
+  ]
+ },
+ "montreal": {
+  "en": [
+   {
+    "q": "What is Montréal built on?",
+    "opts": [
+     "A cliff above the St. Lawrence River",
+     "A shore of Lake Ontario",
+     "A lagoon of 100 islands",
+     "An island in the St. Lawrence River"
+    ],
+    "a": 3,
+    "why": "Montréal is built on an island in the St. Lawrence River. The cliff belongs to Québec City.",
+    "f": 0
+   },
+   {
+    "q": "Why are the RÉSO passages useful in winter?",
+    "opts": [
+     "They melt the snow outside",
+     "They carry boats to the river",
+     "People can walk out of the cold",
+     "They lead straight to the mountain"
+    ],
+    "a": 2,
+    "why": "The RÉSO connects buildings with indoor passages, including tunnels, so people can walk out of the winter cold.",
+    "f": 2
+   },
+   {
+    "q": "Where do Montréal’s special walking routes go, says the hook?",
+    "opts": [
+     "Along a seawall",
+     "Beneath its streets",
+     "Across tall bridges",
+     "Around a pond"
+    ],
+    "a": 1,
+    "why": "The hook says this island city has walking routes beneath its streets.",
+    "f": -1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Sobre qué está construida Montreal?",
+    "opts": [
+     "Un acantilado sobre el río San Lorenzo",
+     "La orilla del lago Ontario",
+     "Una laguna de 100 islas",
+     "Una isla en el río San Lorenzo"
+    ],
+    "a": 3,
+    "why": "Montreal está construida en una isla del río San Lorenzo. El acantilado es de la Ciudad de Quebec.",
+    "f": 0
+   },
+   {
+    "q": "¿Por qué son útiles los pasajes de la red RÉSO en invierno?",
+    "opts": [
+     "Derriten la nieve de afuera",
+     "Llevan barcos hasta el río",
+     "La gente puede caminar al resguardo del frío",
+     "Llegan directo a la montaña"
+    ],
+    "a": 2,
+    "why": "La red RÉSO conecta edificios con pasajes interiores, incluidos túneles, para caminar al resguardo del frío del invierno.",
+    "f": 2
+   },
+   {
+    "q": "Según la introducción, ¿por dónde van las rutas especiales para caminar de Montreal?",
+    "opts": [
+     "Junto a un camino al agua",
+     "Bajo sus calles",
+     "Sobre puentes altos",
+     "Alrededor de un estanque"
+    ],
+    "a": 1,
+    "why": "La introducción dice que esta ciudad en una isla tiene rutas para caminar bajo sus calles.",
+    "f": -1
+   }
+  ]
+ },
+ "quebec-city": {
+  "en": [
+   {
+    "q": "Where is part of Québec City’s old town?",
+    "opts": [
+     "High on a cliff",
+     "On a tiny island",
+     "Beneath the streets",
+     "Floating on the river"
+    ],
+    "a": 0,
+    "why": "Part of Québec City’s old town is high on a cliff beside the St. Lawrence River.",
+    "f": 0
+   },
+   {
+    "q": "Which two things does Old Québec still have?",
+    "opts": [
+     "Canals and houseboats",
+     "Stone walls and city gates",
+     "Domes and round openings",
+     "Glass floors and towers"
+    ],
+    "a": 1,
+    "why": "Old Québec still has historic stone walls and city gates.",
+    "f": 1
+   },
+   {
+    "q": "What two things make a walk feel like an adventure, says the hook?",
+    "opts": [
+     "Swans and a pond",
+     "Jazz and floats",
+     "Old city walls and a hillside train",
+     "Gold and a theater"
+    ],
+    "a": 2,
+    "why": "The hook says old city walls and a hillside train make a walk feel like an adventure.",
+    "f": -1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde está parte del casco antiguo de la Ciudad de Quebec?",
+    "opts": [
+     "En lo alto de un acantilado",
+     "En una isla diminuta",
+     "Bajo las calles",
+     "Flotando sobre el río"
+    ],
+    "a": 0,
+    "why": "Parte del casco antiguo de la Ciudad de Quebec está en lo alto de un acantilado junto al río San Lorenzo.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué dos cosas conserva todavía el Viejo Quebec?",
+    "opts": [
+     "Canales y casas flotantes",
+     "Murallas de piedra y puertas de la ciudad",
+     "Cúpulas y aberturas redondas",
+     "Pisos de vidrio y torres"
+    ],
+    "a": 1,
+    "why": "El Viejo Quebec conserva murallas de piedra y puertas históricas.",
+    "f": 1
+   },
+   {
+    "q": "Según la introducción, ¿qué dos cosas convierten el paseo en una aventura?",
+    "opts": [
+     "Cisnes y un estanque",
+     "Jazz y carrozas",
+     "Antiguas murallas y un tren por la ladera",
+     "Oro y un teatro"
+    ],
+    "a": 2,
+    "why": "La introducción dice que las antiguas murallas y un tren por la ladera convierten el paseo en una aventura.",
+    "f": -1
+   }
+  ]
+ },
+ "london": {
+  "en": [
+   {
+    "q": "Which part of Tower Bridge lifts up?",
+    "opts": [
+     "The two ends",
+     "The middle",
+     "The glass floors",
+     "The tall towers"
+    ],
+    "a": 1,
+    "why": "The middle of Tower Bridge lifts so tall boats can pass.",
+    "f": 1
+   },
+   {
+    "q": "Where are the glass floors of Tower Bridge?",
+    "opts": [
+     "High above the road",
+     "Under the river",
+     "At the bottom of the towers",
+     "Inside the boats"
+    ],
+    "a": 0,
+    "why": "The bridge has glass floors high above the road, so visitors can look straight down.",
+    "f": 2
+   },
+   {
+    "q": "In the hook, what opens to let boats through?",
+    "opts": [
+     "A tunnel",
+     "A garden gate",
+     "A museum door",
+     "A road"
+    ],
+    "a": 3,
+    "why": "The hook describes a road, which is Tower Bridge, that opens to let boats through.",
+    "f": -1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué parte del Puente de la Torre se levanta?",
+    "opts": [
+     "Los dos extremos",
+     "El centro",
+     "Los pisos de vidrio",
+     "Las torres altas"
+    ],
+    "a": 1,
+    "why": "El centro del Puente de la Torre se levanta para que pasen barcos altos.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde están los pisos de vidrio del Puente de la Torre?",
+    "opts": [
+     "Muy por encima de la calle",
+     "Bajo el río",
+     "En la base de las torres",
+     "Dentro de los barcos"
+    ],
+    "a": 0,
+    "why": "El puente tiene pisos de vidrio muy por encima de la calle, desde donde se mira directo hacia abajo.",
+    "f": 2
+   },
+   {
+    "q": "En la introducción, ¿qué se abre para dejar pasar barcos?",
+    "opts": [
+     "Un túnel",
+     "Una puerta de jardín",
+     "La puerta de un museo",
+     "Una calle"
+    ],
+    "a": 3,
+    "why": "La introducción habla de una calle, que es el Puente de la Torre, que se abre para dejar pasar barcos.",
+    "f": -1
+   }
+  ]
+ },
+ "paris": {
+  "en": [
+   {
+    "q": "In which year was the Eiffel Tower built for a big world fair?",
+    "opts": [
+     "1789",
+     "1962",
+     "1889",
+     "1920"
+    ],
+    "a": 2,
+    "why": "The Eiffel Tower was built for a big world fair in 1889.",
+    "f": 0
+   },
+   {
+    "q": "About how many metal pieces did workers join to build the Eiffel Tower?",
+    "opts": [
+     "Hundreds",
+     "About ten",
+     "Millions",
+     "Thousands"
+    ],
+    "a": 3,
+    "why": "Workers joined thousands of metal pieces to build the tower.",
+    "f": 1
+   },
+   {
+    "q": "Where is the Louvre’s glass pyramid?",
+    "opts": [
+     "In the museum’s courtyard",
+     "On the museum’s roof",
+     "Inside the Eiffel Tower",
+     "Under the river"
+    ],
+    "a": 0,
+    "why": "The Louvre art museum has a glass pyramid in its courtyard.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué año se construyó la Torre Eiffel para una gran feria mundial?",
+    "opts": [
+     "1789",
+     "1962",
+     "1889",
+     "1920"
+    ],
+    "a": 2,
+    "why": "La Torre Eiffel se construyó para una gran feria mundial en 1889.",
+    "f": 0
+   },
+   {
+    "q": "¿Cuántas piezas de metal unieron los trabajadores para construir la Torre Eiffel?",
+    "opts": [
+     "Cientos",
+     "Unas diez",
+     "Millones",
+     "Miles"
+    ],
+    "a": 3,
+    "why": "Los trabajadores unieron miles de piezas de metal para construir la torre.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde está la pirámide de vidrio del Louvre?",
+    "opts": [
+     "En el patio del museo",
+     "En el techo del museo",
+     "Dentro de la Torre Eiffel",
+     "Bajo el río"
+    ],
+    "a": 0,
+    "why": "El museo de arte del Louvre tiene una pirámide de vidrio en su patio.",
+    "f": 2
+   }
+  ]
+ },
+ "rome": {
+  "en": [
+   {
+    "q": "What is the round opening in the Pantheon’s dome called?",
+    "opts": [
+     "An arena",
+     "A funicular",
+     "A plaza",
+     "An oculus"
+    ],
+    "a": 3,
+    "why": "The Pantheon’s dome has a round opening called an oculus.",
+    "f": 1
+   },
+   {
+    "q": "What happens to the sunlight coming through the oculus?",
+    "opts": [
+     "It stays in one spot all day",
+     "It turns off at noon",
+     "It moves across the inside during the day",
+     "It warms the water below"
+    ],
+    "a": 2,
+    "why": "Sunlight comes through the oculus and moves across the inside as the day passes.",
+    "f": 2
+   },
+   {
+    "q": "What did crowds come to the Colosseum to do?",
+    "opts": [
+     "Ride ferries",
+     "Watch events",
+     "Buy jewelry",
+     "See dinosaur fossils"
+    ],
+    "a": 1,
+    "why": "The Colosseum is a huge ancient arena where crowds watched events.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se llama la abertura redonda de la cúpula del Panteón?",
+    "opts": [
+     "Una arena",
+     "Un funicular",
+     "Una plaza",
+     "Un óculo"
+    ],
+    "a": 3,
+    "why": "La cúpula del Panteón tiene una abertura redonda llamada óculo.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué pasa con la luz del sol que entra por el óculo?",
+    "opts": [
+     "Se queda en un solo lugar todo el día",
+     "Se apaga al mediodía",
+     "Se mueve por el interior durante el día",
+     "Calienta el agua de abajo"
+    ],
+    "a": 2,
+    "why": "La luz del sol entra por el óculo y se mueve por el interior durante el día.",
+    "f": 2
+   },
+   {
+    "q": "¿A qué iban las multitudes al Coliseo?",
+    "opts": [
+     "A viajar en transbordador",
+     "A ver espectáculos",
+     "A comprar joyas",
+     "A ver fósiles de dinosaurios"
+    ],
+    "a": 1,
+    "why": "El Coliseo es una enorme arena antigua donde multitudes veían espectáculos.",
+    "f": 0
+   }
+  ]
+ },
+ "florence": {
+  "en": [
+   {
+    "q": "Which river does the Ponte Vecchio cross?",
+    "opts": [
+     "The Arno",
+     "The Tagus",
+     "The Thames",
+     "The Mapocho"
+    ],
+    "a": 0,
+    "why": "The Ponte Vecchio is a bridge across Florence’s Arno River.",
+    "f": 0
+   },
+   {
+    "q": "Where do the walls of the bridge’s jewelry shops stand?",
+    "opts": [
+     "On a cliff",
+     "Above the water",
+     "Inside the dome",
+     "Under the bridge"
+    ],
+    "a": 1,
+    "why": "Small jewelry shops line the bridge, and their walls stand above the water.",
+    "f": 1
+   },
+   {
+    "q": "What color are the terracotta tiles on Florence’s cathedral dome?",
+    "opts": [
+     "Blue",
+     "Green",
+     "Reddish",
+     "Golden"
+    ],
+    "a": 2,
+    "why": "The giant brick dome is covered with reddish terracotta tiles.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué río cruza el Ponte Vecchio?",
+    "opts": [
+     "El Arno",
+     "El Tajo",
+     "El Támesis",
+     "El Mapocho"
+    ],
+    "a": 0,
+    "why": "El Ponte Vecchio es un puente sobre el río Arno en Florencia.",
+    "f": 0
+   },
+   {
+    "q": "¿Dónde quedan las paredes de las joyerías del puente?",
+    "opts": [
+     "Sobre un acantilado",
+     "Sobre el agua",
+     "Dentro de la cúpula",
+     "Debajo del puente"
+    ],
+    "a": 1,
+    "why": "Pequeñas joyerías bordean el puente, y sus paredes quedan sobre el agua.",
+    "f": 1
+   },
+   {
+    "q": "¿De qué color son las tejas de terracota de la cúpula de la catedral de Florencia?",
+    "opts": [
+     "Azules",
+     "Verdes",
+     "Rojizas",
+     "Doradas"
+    ],
+    "a": 2,
+    "why": "La cúpula gigante de ladrillo está cubierta de tejas rojizas de terracota.",
+    "f": 2
+   }
+  ]
+ },
+ "venice": {
+  "en": [
+   {
+    "q": "Historic Venice spreads across about how many islands?",
+    "opts": [
+     "About 12",
+     "More than 100",
+     "Only 3",
+     "More than 1,000"
+    ],
+    "a": 1,
+    "why": "Historic Venice spreads across more than 100 small islands in a lagoon.",
+    "f": 0
+   },
+   {
+    "q": "What runs between Venice’s islands, and what connects many of them?",
+    "opts": [
+     "Canals run between them, and bridges connect many",
+     "Roads run between them, and tunnels connect many",
+     "Canals run between them, and tunnels connect many",
+     "Locks run between them, and ferries connect all"
+    ],
+    "a": 0,
+    "why": "Canals run between the islands, and bridges connect many of them.",
+    "f": 1
+   },
+   {
+    "q": "Which famous route do Venice’s public boats use?",
+    "opts": [
+     "The East River",
+     "The seawall",
+     "The Golden Gate",
+     "The Grand Canal"
+    ],
+    "a": 3,
+    "why": "Public boats follow routes, including the Grand Canal, and work like water buses.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "La Venecia histórica ocupa aproximadamente ¿cuántas islas?",
+    "opts": [
+     "Unas 12",
+     "Más de 100",
+     "Solo 3",
+     "Más de 1000"
+    ],
+    "a": 1,
+    "why": "La Venecia histórica ocupa más de 100 pequeñas islas en una laguna.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué hay entre las islas de Venecia y qué conecta a muchas de ellas?",
+    "opts": [
+     "Canales entre ellas, y puentes que conectan muchas",
+     "Calles entre ellas, y túneles que conectan muchas",
+     "Canales entre ellas, y túneles que conectan muchas",
+     "Esclusas entre ellas, y transbordadores que conectan todas"
+    ],
+    "a": 0,
+    "why": "Hay canales entre las islas, y los puentes conectan muchas de ellas.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué famosa ruta recorren los barcos públicos de Venecia?",
+    "opts": [
+     "El río Este",
+     "El camino junto al agua",
+     "El Golden Gate",
+     "El Gran Canal"
+    ],
+    "a": 3,
+    "why": "Los barcos públicos siguen rutas, incluido el Gran Canal, y funcionan como autobuses acuáticos.",
+    "f": 2
+   }
+  ]
+ },
+ "amsterdam": {
+  "en": [
+   {
+    "q": "What are canals?",
+    "opts": [
+     "Raised footpaths",
+     "Narrow stone walls",
+     "Waterways running through the city",
+     "Floating homes"
+    ],
+    "a": 2,
+    "why": "Amsterdam’s canals are waterways that run through the city.",
+    "f": 0
+   },
+   {
+    "q": "Where are Amsterdam’s houseboats tied up?",
+    "opts": [
+     "Beside the Mississippi",
+     "Out in the ocean",
+     "Under the bridges",
+     "Beside the canals"
+    ],
+    "a": 3,
+    "why": "Some people live in houseboats tied up beside the canals.",
+    "f": 1
+   },
+   {
+    "q": "What can visitors learn at the Houseboat Museum?",
+    "opts": [
+     "What a floating home is like",
+     "How locks lift ships",
+     "How to steer a cargo ship",
+     "How canals are dug"
+    ],
+    "a": 0,
+    "why": "The museum is inside an old cargo boat, and visitors see what a floating home is like.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué son los canales?",
+    "opts": [
+     "Caminos elevados",
+     "Murallas angostas de piedra",
+     "Vías de agua que recorren la ciudad",
+     "Casas flotantes"
+    ],
+    "a": 2,
+    "why": "Los canales de Ámsterdam son vías de agua que recorren la ciudad.",
+    "f": 0
+   },
+   {
+    "q": "¿Dónde están amarradas las casas flotantes de Ámsterdam?",
+    "opts": [
+     "Junto al Misisipi",
+     "En pleno océano",
+     "Bajo los puentes",
+     "Junto a los canales"
+    ],
+    "a": 3,
+    "why": "Algunas personas viven en casas flotantes amarradas junto a los canales.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué pueden conocer los visitantes en el Museo de la Casa Flotante?",
+    "opts": [
+     "Cómo es una casa sobre el agua",
+     "Cómo las esclusas suben los barcos",
+     "Cómo se maneja un barco de carga",
+     "Cómo se cavan los canales"
+    ],
+    "a": 0,
+    "why": "El museo está dentro de un antiguo barco de carga, y allí se conoce cómo es una casa sobre el agua.",
+    "f": 2
+   }
+  ]
+ },
+ "barcelona": {
+  "en": [
+   {
+    "q": "Which animal shape does the fountain at Park Güell have?",
+    "opts": [
+     "A swan",
+     "A seal",
+     "An axolotl",
+     "A dragon"
+    ],
+    "a": 3,
+    "why": "Park Güell has a dragon-shaped fountain covered with colorful pieces of tile.",
+    "f": 0
+   },
+   {
+    "q": "What is putting little pieces together to make a picture or pattern called?",
+    "opts": [
+     "An oculus",
+     "A funicular",
+     "A mosaic",
+     "A strait"
+    ],
+    "a": 2,
+    "why": "Putting little pieces together to make a picture or pattern is called a mosaic.",
+    "f": 1
+   },
+   {
+    "q": "Which architect used nature for ideas at the Sagrada Família?",
+    "opts": [
+     "Lina Bo Bardi",
+     "Antoni Gaudí",
+     "Gustave Eiffel",
+     "Pablo Picasso"
+    ],
+    "a": 1,
+    "why": "Antoni Gaudí used nature for ideas, so the Sagrada Família’s columns branch like trees.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué forma de animal tiene la fuente del Parque Güell?",
+    "opts": [
+     "Un cisne",
+     "Una foca",
+     "Un ajolote",
+     "Un dragón"
+    ],
+    "a": 3,
+    "why": "El Parque Güell tiene una fuente con forma de dragón cubierta de pedacitos de azulejos de colores.",
+    "f": 0
+   },
+   {
+    "q": "¿Cómo se llama unir pedacitos para formar una imagen o un diseño?",
+    "opts": [
+     "Un óculo",
+     "Un funicular",
+     "Un mosaico",
+     "Un estrecho"
+    ],
+    "a": 2,
+    "why": "Unir pedacitos para formar una imagen o un diseño se llama hacer un mosaico.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué arquitecto se inspiró en la naturaleza en la Sagrada Familia?",
+    "opts": [
+     "Lina Bo Bardi",
+     "Antoni Gaudí",
+     "Gustave Eiffel",
+     "Pablo Picasso"
+    ],
+    "a": 1,
+    "why": "Antoni Gaudí se inspiró en la naturaleza, por eso las columnas de la Sagrada Familia se ramifican como árboles.",
+    "f": 2
+   }
+  ]
+ },
+ "lisbon": {
+  "en": [
+   {
+    "q": "What is the Tagus River called in Portuguese?",
+    "opts": [
+     "Tejo",
+     "Belém",
+     "Tago",
+     "Lisboa"
+    ],
+    "a": 0,
+    "why": "Lisbon stands beside the Tagus River, which is called Tejo in Portuguese.",
+    "f": 0
+   },
+   {
+    "q": "According to the card, which tram route travels through old neighborhoods?",
+    "opts": [
+     "Route 8",
+     "Route 28",
+     "Route 82",
+     "Route 2"
+    ],
+    "a": 1,
+    "why": "Route 28 travels through Lisbon’s old neighborhoods on tram tracks.",
+    "f": 1
+   },
+   {
+    "q": "What is the Tower of Belém made of?",
+    "opts": [
+     "Metal",
+     "Glass",
+     "Stone",
+     "Brick"
+    ],
+    "a": 2,
+    "why": "The Tower of Belém is a stone landmark beside the river.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se llama el río Tajo en portugués?",
+    "opts": [
+     "Tejo",
+     "Belém",
+     "Tago",
+     "Lisboa"
+    ],
+    "a": 0,
+    "why": "Lisboa está junto al río Tajo, que en portugués se llama Tejo.",
+    "f": 0
+   },
+   {
+    "q": "Según la tarjeta, ¿qué ruta de tranvía pasa por barrios antiguos?",
+    "opts": [
+     "La ruta 8",
+     "La ruta 28",
+     "La ruta 82",
+     "La ruta 2"
+    ],
+    "a": 1,
+    "why": "La ruta 28 pasa por los barrios antiguos de Lisboa sobre rieles.",
+    "f": 1
+   },
+   {
+    "q": "¿De qué material es la Torre de Belém?",
+    "opts": [
+     "Metal",
+     "Vidrio",
+     "Piedra",
+     "Ladrillo"
+    ],
+    "a": 2,
+    "why": "La Torre de Belém es un monumento de piedra junto al río.",
+    "f": 2
+   }
+  ]
+ }
+}

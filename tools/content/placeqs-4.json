@@ -1,0 +1,2264 @@
+{
+ "athens": {
+  "en": [
+   {
+    "q": "What is the Parthenon, the building with many columns on the Acropolis?",
+    "opts": [
+     "An ancient temple",
+     "An old royal palace",
+     "A glass museum",
+     "A tall tower"
+    ],
+    "a": 0,
+    "why": "The Parthenon is an ancient temple with many columns. It stands on the Acropolis hill.",
+    "f": 1
+   },
+   {
+    "q": "In the Acropolis Museum, what is made of glass, and what can you see below it?",
+    "opts": [
+     "The roof; an old ship in the sea",
+     "Parts of the floor; an old neighborhood",
+     "The walls; a dried-up ancient river",
+     "The windows; a buried royal garden"
+    ],
+    "a": 1,
+    "why": "Parts of the museum floor are glass. Through them you see remains of an ancient neighborhood!",
+    "f": 2
+   },
+   {
+    "q": "The Parthenon stands on top of what?",
+    "opts": [
+     "The Acropolis Museum",
+     "A big glass floor",
+     "The Acropolis, a rocky hill",
+     "An ancient neighborhood"
+    ],
+    "a": 2,
+    "why": "The Parthenon stands on the Acropolis, a rocky hill rising above Athens.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué es el Partenón, el edificio con muchas columnas en la Acrópolis?",
+    "opts": [
+     "Un templo antiguo",
+     "Un viejo palacio real",
+     "Un museo de vidrio",
+     "Una torre alta"
+    ],
+    "a": 0,
+    "why": "El Partenón es un templo antiguo con muchas columnas. Está en la colina de la Acrópolis.",
+    "f": 1
+   },
+   {
+    "q": "En el Museo de la Acrópolis, ¿qué es de vidrio y qué se ve debajo?",
+    "opts": [
+     "El techo; un viejo barco en el mar",
+     "Partes del piso; un barrio antiguo",
+     "Las paredes; un antiguo río seco",
+     "Las ventanas; un jardín real enterrado"
+    ],
+    "a": 1,
+    "why": "Algunas partes del piso del museo son de vidrio. ¡Debajo se ven restos de un barrio antiguo!",
+    "f": 2
+   },
+   {
+    "q": "¿Sobre qué está el Partenón?",
+    "opts": [
+     "El Museo de la Acrópolis",
+     "Un gran piso de vidrio",
+     "La Acrópolis, una colina rocosa",
+     "Un barrio antiguo"
+    ],
+    "a": 2,
+    "why": "El Partenón está en la Acrópolis, una colina rocosa que se eleva sobre Atenas.",
+    "f": 0
+   }
+  ]
+ },
+ "istanbul": {
+  "en": [
+   {
+    "q": "What is the name of the waterway between the two sides of Istanbul?",
+    "opts": [
+     "The Danube",
+     "The Nile",
+     "The Amazon",
+     "The Bosporus"
+    ],
+    "a": 3,
+    "why": "The Bosporus runs between Istanbul's two sides, and boats travel along it.",
+    "f": 1
+   },
+   {
+    "q": "Which pair is correct?",
+    "opts": [
+     "Bosporus: covered market. Grand Bazaar: waterway.",
+     "Bosporus: waterway. Grand Bazaar: covered market.",
+     "Bosporus: tall tower. Grand Bazaar: bridge.",
+     "Bosporus: palace. Grand Bazaar: island."
+    ],
+    "a": 1,
+    "why": "The Bosporus is a waterway, and the Grand Bazaar is a huge covered market with lanes full of shops.",
+    "f": 2
+   },
+   {
+    "q": "Boats travel along a waterway that sits between which two parts of Istanbul?",
+    "opts": [
+     "Two old palaces beside the sea",
+     "Two big covered markets",
+     "The European side and the Asian side",
+     "Two tall hills with towers on top"
+    ],
+    "a": 2,
+    "why": "The Bosporus separates the part of Istanbul in Europe from the part in Asia.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se llama la vía de agua entre los dos lados de Estambul?",
+    "opts": [
+     "El Danubio",
+     "El Nilo",
+     "El Amazonas",
+     "El Bósforo"
+    ],
+    "a": 3,
+    "why": "El Bósforo está entre los dos lados de Estambul, y por allí navegan barcos.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué pareja es correcta?",
+    "opts": [
+     "Bósforo: mercado cubierto. Gran Bazar: vía de agua.",
+     "Bósforo: vía de agua. Gran Bazar: mercado cubierto.",
+     "Bósforo: torre alta. Gran Bazar: puente.",
+     "Bósforo: palacio. Gran Bazar: isla."
+    ],
+    "a": 1,
+    "why": "El Bósforo es una vía de agua, y el Gran Bazar es un enorme mercado cubierto con pasillos llenos de tiendas.",
+    "f": 2
+   },
+   {
+    "q": "Los barcos navegan por una vía de agua entre dos partes de Estambul. ¿Cuáles?",
+    "opts": [
+     "Dos palacios antiguos junto al mar",
+     "Dos grandes mercados cubiertos",
+     "El lado europeo y el lado asiático",
+     "Dos colinas altas con torres"
+    ],
+    "a": 2,
+    "why": "El Bósforo separa la parte de Estambul que está en Europa de la que está en Asia.",
+    "f": 0
+   }
+  ]
+ },
+ "cairo": {
+  "en": [
+   {
+    "q": "Where do the Giza pyramids stand compared with Cairo?",
+    "opts": [
+     "Right in the middle of the Nile",
+     "Inside a museum in Cairo",
+     "On an island far from Cairo",
+     "Near Cairo, across the Nile River"
+    ],
+    "a": 3,
+    "why": "The Giza pyramids stand near Cairo, on the other side of the Nile River.",
+    "f": 0
+   },
+   {
+    "q": "Who built the big pyramids?",
+    "opts": [
+     "Ancient Egyptians",
+     "Ancient Greeks",
+     "Ancient Japanese",
+     "Ancient Turks"
+    ],
+    "a": 0,
+    "why": "Ancient Egyptians built the big pyramids as tombs for their kings.",
+    "f": 1
+   },
+   {
+    "q": "The Great Sphinx has a lion's body. What is its head, and what is it carved from?",
+    "opts": [
+     "A lion head, carved from rock",
+     "A human head, built from bricks",
+     "A human head, carved from rock",
+     "An eagle head, carved from wood"
+    ],
+    "a": 2,
+    "why": "The Great Sphinx has a lion's body and a human head, carved from rock.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde están las pirámides de Guiza respecto a El Cairo?",
+    "opts": [
+     "En medio del río Nilo",
+     "Dentro de un museo de El Cairo",
+     "En una isla lejos de El Cairo",
+     "Cerca de El Cairo, al otro lado del Nilo"
+    ],
+    "a": 3,
+    "why": "Las pirámides de Guiza están cerca de El Cairo, al otro lado del río Nilo.",
+    "f": 0
+   },
+   {
+    "q": "¿Quiénes construyeron las grandes pirámides?",
+    "opts": [
+     "Los antiguos egipcios",
+     "Los antiguos griegos",
+     "Los antiguos japoneses",
+     "Los antiguos turcos"
+    ],
+    "a": 0,
+    "why": "Los antiguos egipcios construyeron las grandes pirámides como tumbas para sus reyes.",
+    "f": 1
+   },
+   {
+    "q": "La Gran Esfinge tiene cuerpo de león. ¿Cómo es su cabeza y de qué está tallada?",
+    "opts": [
+     "Cabeza de león, tallada en roca",
+     "Cabeza humana, hecha de ladrillos",
+     "Cabeza humana, tallada en roca",
+     "Cabeza de águila, tallada en madera"
+    ],
+    "a": 2,
+    "why": "La Gran Esfinge tiene cuerpo de león y cabeza humana, talladas en roca.",
+    "f": 2
+   }
+  ]
+ },
+ "cape-town": {
+  "en": [
+   {
+    "q": "What is special about the floors of Table Mountain's cable cars?",
+    "opts": [
+     "They are made of glass",
+     "They are heated",
+     "They tilt side to side",
+     "They slowly turn"
+    ],
+    "a": 3,
+    "why": "The cable car floors slowly turn, so riders get views all around.",
+    "f": 1
+   },
+   {
+    "q": "What is the name of the coastal spot in Cape Town where African penguins live beside the beach?",
+    "opts": [
+     "Boulders",
+     "Table Beach",
+     "Cable Cove",
+     "Penguin Point"
+    ],
+    "a": 0,
+    "why": "African penguins live at Boulders, on the Cape Town coast, right beside the beach.",
+    "f": 2
+   },
+   {
+    "q": "What rises above Cape Town with a broad, flat top?",
+    "opts": [
+     "Penguin Mountain",
+     "Table Mountain",
+     "Boulders Hill",
+     "Cable Peak"
+    ],
+    "a": 1,
+    "why": "Table Mountain rises above Cape Town. Its broad, flat top looks a bit like a table.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué tienen de especial los pisos de los teleféricos de la Montaña de la Mesa?",
+    "opts": [
+     "Son de vidrio",
+     "Están calientes",
+     "Se inclinan de lado a lado",
+     "Giran lentamente"
+    ],
+    "a": 3,
+    "why": "Los pisos de los teleféricos giran lentamente para que los pasajeros vean en todas direcciones.",
+    "f": 1
+   },
+   {
+    "q": "¿Cómo se llama el lugar de la costa de Ciudad del Cabo donde viven pingüinos africanos junto a la playa?",
+    "opts": [
+     "Boulders",
+     "Playa de la Mesa",
+     "Cala del Cable",
+     "Punta Pingüino"
+    ],
+    "a": 0,
+    "why": "Los pingüinos africanos viven en Boulders, en la costa de Ciudad del Cabo, junto a la playa.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué se eleva sobre Ciudad del Cabo con una cima ancha y plana?",
+    "opts": [
+     "La Montaña del Pingüino",
+     "La Montaña de la Mesa",
+     "La Colina Boulders",
+     "El Pico del Cable"
+    ],
+    "a": 1,
+    "why": "La Montaña de la Mesa se eleva sobre Ciudad del Cabo. Su cima ancha y plana parece una mesa.",
+    "f": 0
+   }
+  ]
+ },
+ "marrakesh": {
+  "en": [
+   {
+    "q": "What nickname does Marrakesh have?",
+    "opts": [
+     "The Blue City",
+     "The Golden City",
+     "The Green City",
+     "The Red City"
+    ],
+    "a": 3,
+    "why": "Marrakesh is often called the Red City.",
+    "f": 0
+   },
+   {
+    "q": "What is the name of the square where storytellers and musicians perform for crowds?",
+    "opts": [
+     "Jemaa el-Fna",
+     "Souk Square",
+     "Red Square",
+     "Bazaar Square"
+    ],
+    "a": 0,
+    "why": "Storytellers and musicians perform for gathered crowds in Jemaa el-Fna square.",
+    "f": 2
+   },
+   {
+    "q": "Besides its nickname, what does the old city of Marrakesh have?",
+    "opts": [
+     "A harbor full of ferries",
+     "Souks with many small shops",
+     "Tall glass towers and bridges",
+     "A snowy mountain ski slope"
+    ],
+    "a": 1,
+    "why": "The old city has souks: busy markets with many small shops.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué apodo tiene Marrakech?",
+    "opts": [
+     "La Ciudad Azul",
+     "La Ciudad Dorada",
+     "La Ciudad Verde",
+     "La Ciudad Roja"
+    ],
+    "a": 3,
+    "why": "A Marrakech se la conoce como la Ciudad Roja.",
+    "f": 0
+   },
+   {
+    "q": "¿Cómo se llama la plaza donde narradores y músicos actúan para la gente?",
+    "opts": [
+     "Jemaa el-Fna",
+     "Plaza del Zoco",
+     "Plaza Roja",
+     "Plaza del Bazar"
+    ],
+    "a": 0,
+    "why": "Narradores de cuentos y músicos actúan en la plaza Jemaa el-Fna para la gente que se reúne.",
+    "f": 2
+   },
+   {
+    "q": "Además de su apodo, ¿qué tiene la ciudad antigua de Marrakech?",
+    "opts": [
+     "Un puerto lleno de transbordadores",
+     "Zocos con muchas tienditas",
+     "Torres altas de vidrio y puentes",
+     "Una pista de esquí en la nieve"
+    ],
+    "a": 1,
+    "why": "La ciudad antigua tiene zocos: mercados animados con muchas tienditas.",
+    "f": 1
+   }
+  ]
+ },
+ "nairobi": {
+  "en": [
+   {
+    "q": "Lions, giraffes, zebras, and which other animal live in Nairobi National Park?",
+    "opts": [
+     "Elephants",
+     "Gorillas",
+     "Rhinos",
+     "Camels"
+    ],
+    "a": 2,
+    "why": "Lions, giraffes, zebras, and rhinos all live in Nairobi National Park.",
+    "f": 1
+   },
+   {
+    "q": "How far is Nairobi National Park from the city center?",
+    "opts": [
+     "Close to it",
+     "A day's drive away",
+     "On an island in a lake",
+     "On top of a mountain"
+    ],
+    "a": 0,
+    "why": "Nairobi National Park is close to the city center, so wild animals live near the busy city!",
+    "f": 0
+   },
+   {
+    "q": "What can visitors do from the raised wooden path at Nairobi Safari Walk?",
+    "opts": [
+     "Ride a boat across a wide river",
+     "Look across different animal habitats",
+     "Pet the baby lions and zebras",
+     "Climb up to a volcano top"
+    ],
+    "a": 1,
+    "why": "The raised wooden path lets visitors look across different animal habitats.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "Leones, jirafas, cebras y ¿qué otro animal viven en el Parque Nacional de Nairobi?",
+    "opts": [
+     "Elefantes",
+     "Gorilas",
+     "Rinocerontes",
+     "Camellos"
+    ],
+    "a": 2,
+    "why": "En el Parque Nacional de Nairobi viven leones, jirafas, cebras y rinocerontes.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué tan lejos está el Parque Nacional de Nairobi del centro de la ciudad?",
+    "opts": [
+     "Cerca",
+     "A un día de viaje",
+     "En una isla de un lago",
+     "En la cima de una montaña"
+    ],
+    "a": 0,
+    "why": "El Parque Nacional de Nairobi está cerca del centro, ¡así que hay animales salvajes junto a la ciudad animada!",
+    "f": 0
+   },
+   {
+    "q": "¿Qué pueden hacer los visitantes desde el camino elevado de madera de Nairobi Safari Walk?",
+    "opts": [
+     "Cruzar un río en un bote",
+     "Observar distintos hábitats de animales",
+     "Acariciar a los leones bebé",
+     "Subir hasta la cima de un volcán"
+    ],
+    "a": 1,
+    "why": "El camino elevado de madera permite observar distintos hábitats de animales.",
+    "f": 2
+   }
+  ]
+ },
+ "dubai": {
+  "en": [
+   {
+    "q": "Which two old neighborhoods does Dubai Creek separate?",
+    "opts": [
+     "Bur Dubai and Burj Khalifa",
+     "Deira and Abu Dhabi",
+     "Bur Dubai and Deira",
+     "Creek Town and Old Dune"
+    ],
+    "a": 2,
+    "why": "Dubai Creek separates two old neighborhoods: Bur Dubai and Deira.",
+    "f": 1
+   },
+   {
+    "q": "The Burj Khalifa is as tall as about how many 100-meter running tracks stacked end to end?",
+    "opts": [
+     "Exactly five",
+     "About three",
+     "About twenty",
+     "A bit more than eight"
+    ],
+    "a": 3,
+    "why": "At 828 meters, the Burj Khalifa equals a bit more than eight 100-meter tracks stacked end to end.",
+    "f": 2
+   },
+   {
+    "q": "What do the traditional abra boats cross?",
+    "opts": [
+     "Burj Lake",
+     "Dubai Creek",
+     "Deira River",
+     "Bur Sea"
+    ],
+    "a": 1,
+    "why": "Abras carry people across Dubai Creek.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué dos barrios antiguos separa Dubai Creek?",
+    "opts": [
+     "Bur Dubai y Burj Khalifa",
+     "Deira y Abu Dabi",
+     "Bur Dubai y Deira",
+     "Creek Town y Old Dune"
+    ],
+    "a": 2,
+    "why": "Dubai Creek separa dos barrios antiguos: Bur Dubai y Deira.",
+    "f": 1
+   },
+   {
+    "q": "El Burj Khalifa mide como unas ¿cuántas pistas de 100 metros puestas una sobre otra?",
+    "opts": [
+     "Exactamente cinco",
+     "Unas tres",
+     "Unas veinte",
+     "Un poco más de ocho"
+    ],
+    "a": 3,
+    "why": "Con 828 metros, el Burj Khalifa equivale a un poco más de ocho pistas de 100 metros puestas una sobre otra.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué cruzan los barcos tradicionales llamados abras?",
+    "opts": [
+     "El lago Burj",
+     "Dubai Creek",
+     "El río Deira",
+     "El mar Bur"
+    ],
+    "a": 1,
+    "why": "Las abras llevan personas de un lado a otro de Dubai Creek.",
+    "f": 0
+   }
+  ]
+ },
+ "tokyo": {
+  "en": [
+   {
+    "q": "What does the name Kaminarimon mean?",
+    "opts": [
+     "Red Lantern Gate",
+     "Wind Gate",
+     "Thunder Gate",
+     "Rain Gate"
+    ],
+    "a": 2,
+    "why": "Kaminarimon means Thunder Gate. It is the gate with the huge red lantern.",
+    "f": 0
+   },
+   {
+    "q": "Where does Kaminarimon Gate lead toward?",
+    "opts": [
+     "Tokyo Skytree tower",
+     "A big royal palace",
+     "A giant covered market",
+     "Sensoji, a Buddhist temple"
+    ],
+    "a": 3,
+    "why": "The gate leads toward Sensoji, a Buddhist temple.",
+    "f": 1
+   },
+   {
+    "q": "Tokyo Skytree is a tall tower for which two things?",
+    "opts": [
+     "Broadcasting and views",
+     "Trains and boats",
+     "Weather and bells",
+     "Flags and fireworks"
+    ],
+    "a": 0,
+    "why": "Tokyo Skytree is a tall tower used for broadcasting and for views.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué significa el nombre Kaminarimon?",
+    "opts": [
+     "Puerta de la Linterna Roja",
+     "Puerta del Viento",
+     "Puerta del Trueno",
+     "Puerta de la Lluvia"
+    ],
+    "a": 2,
+    "why": "Kaminarimon significa Puerta del Trueno. Es la puerta con la enorme linterna roja.",
+    "f": 0
+   },
+   {
+    "q": "¿Hacia dónde lleva la puerta Kaminarimon?",
+    "opts": [
+     "Hacia la torre Tokyo Skytree",
+     "Hacia un gran palacio real",
+     "Hacia un mercado cubierto gigante",
+     "Hacia Sensoji, un templo budista"
+    ],
+    "a": 3,
+    "why": "La puerta lleva hacia Sensoji, un templo budista.",
+    "f": 1
+   },
+   {
+    "q": "Tokyo Skytree es una torre alta para ¿qué dos cosas?",
+    "opts": [
+     "Transmisión y miradores",
+     "Trenes y barcos",
+     "Clima y campanas",
+     "Banderas y fuegos artificiales"
+    ],
+    "a": 0,
+    "why": "Tokyo Skytree es una torre de transmisión y miradores.",
+    "f": 2
+   }
+  ]
+ },
+ "kyoto": {
+  "en": [
+   {
+    "q": "What are the orange-red gates at Fushimi Inari called?",
+    "opts": [
+     "Sensoji",
+     "Arashi",
+     "Torii",
+     "Inari"
+    ],
+    "a": 2,
+    "why": "The orange-red gates along the paths are called torii. There are thousands of them!",
+    "f": 0
+   },
+   {
+    "q": "Where do the gate paths wind?",
+    "opts": [
+     "Along a busy harbor front at night",
+     "Across old black lava fields",
+     "Over a long river bridge",
+     "Through wooded hills behind the shrine"
+    ],
+    "a": 3,
+    "why": "The gate paths wind through wooded hills behind the shrine.",
+    "f": 1
+   },
+   {
+    "q": "Which area of Kyoto has paths through groves of tall bamboo?",
+    "opts": [
+     "Arashiyama",
+     "Fushimi Inari",
+     "Sensoji",
+     "Gion"
+    ],
+    "a": 0,
+    "why": "In Kyoto's Arashiyama area, paths pass through groves of tall bamboo.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se llaman las puertas de color rojo anaranjado de Fushimi Inari?",
+    "opts": [
+     "Sensoji",
+     "Arashi",
+     "Torii",
+     "Inari"
+    ],
+    "a": 2,
+    "why": "Las puertas rojo anaranjado de los caminos se llaman torii. ¡Hay miles!",
+    "f": 0
+   },
+   {
+    "q": "¿Por dónde recorren los caminos de puertas?",
+    "opts": [
+     "Junto a un puerto animado",
+     "Por antiguos campos de lava negra",
+     "Sobre un largo puente de río",
+     "Por colinas arboladas detrás del santuario"
+    ],
+    "a": 3,
+    "why": "Los caminos de puertas recorren colinas arboladas detrás del santuario.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué zona de Kioto tiene caminos entre grupos de bambú alto?",
+    "opts": [
+     "Arashiyama",
+     "Fushimi Inari",
+     "Sensoji",
+     "Gion"
+    ],
+    "a": 0,
+    "why": "En la zona de Arashiyama, en Kioto, hay caminos entre grupos de bambú alto.",
+    "f": 2
+   }
+  ]
+ },
+ "seoul": {
+  "en": [
+   {
+    "q": "What does Cheonggyecheon stream pass under?",
+    "opts": [
+     "Tall waterfalls",
+     "Many bridges",
+     "Glass domes",
+     "Old train tunnels"
+    ],
+    "a": 1,
+    "why": "The stream passes under many bridges, with walking paths beside the water.",
+    "f": 1
+   },
+   {
+    "q": "What can you find on the grounds of Gyeongbokgung, the old royal palace?",
+    "opts": [
+     "Museums about space travel and rockets",
+     "A big sea animal park",
+     "A huge sports stadium for fans",
+     "Museums about Korean history and life"
+    ],
+    "a": 3,
+    "why": "Gyeongbokgung's grounds hold museums about Korean history and life.",
+    "f": 2
+   },
+   {
+    "q": "What kind of paths are beside the water of Seoul's stream?",
+    "opts": [
+     "Walking paths",
+     "Train tracks",
+     "Sandy beaches",
+     "Fishing docks"
+    ],
+    "a": 0,
+    "why": "Walking paths run beside the water of the Cheonggyecheon stream.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Por debajo de qué pasa el arroyo Cheonggyecheon?",
+    "opts": [
+     "Altas cascadas",
+     "Muchos puentes",
+     "Cúpulas de vidrio",
+     "Viejos túneles de tren"
+    ],
+    "a": 1,
+    "why": "El arroyo pasa debajo de muchos puentes y tiene caminos para caminar junto al agua.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué hay en los terrenos de Gyeongbokgung, el antiguo palacio real?",
+    "opts": [
+     "Museos sobre viajes espaciales",
+     "Un gran parque de animales marinos",
+     "Un enorme estadio deportivo",
+     "Museos sobre la historia y la vida de Corea"
+    ],
+    "a": 3,
+    "why": "En los terrenos de Gyeongbokgung hay museos sobre la historia y la vida de Corea.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué tipo de caminos hay junto al agua del arroyo de Seúl?",
+    "opts": [
+     "Caminos para caminar",
+     "Vías de tren",
+     "Playas de arena",
+     "Muelles de pesca"
+    ],
+    "a": 0,
+    "why": "Hay caminos para caminar junto al agua del arroyo Cheonggyecheon.",
+    "f": 1
+   }
+  ]
+ },
+ "beijing": {
+  "en": [
+   {
+    "q": "What is the Forbidden City palace home to today?",
+    "opts": [
+     "The Great Wall Museum",
+     "The Palace Museum",
+     "The Emperor's Market",
+     "A tall broadcast tower"
+    ],
+    "a": 1,
+    "why": "Today the Forbidden City is home to the Palace Museum.",
+    "f": 0
+   },
+   {
+    "q": "Who lived in Beijing's Forbidden City palace long ago?",
+    "opts": [
+     "Sea captains",
+     "Farmers",
+     "Emperors",
+     "Museum guards"
+    ],
+    "a": 2,
+    "why": "The Forbidden City was a palace where emperors lived.",
+    "f": 0
+   },
+   {
+    "q": "Along what do sections of the Great Wall near Beijing run?",
+    "opts": [
+     "The hills",
+     "A harbor",
+     "A river bank",
+     "A sandy beach"
+    ],
+    "a": 0,
+    "why": "Sections of the Great Wall near Beijing run along the hills, with stone walls and watchtowers.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué alberga hoy el palacio de la Ciudad Prohibida?",
+    "opts": [
+     "El Museo de la Gran Muralla",
+     "El Museo del Palacio",
+     "El Mercado del Emperador",
+     "Una alta torre de transmisión"
+    ],
+    "a": 1,
+    "why": "Hoy la Ciudad Prohibida alberga el Museo del Palacio.",
+    "f": 0
+   },
+   {
+    "q": "¿Quiénes vivían hace mucho en el palacio de la Ciudad Prohibida de Pekín?",
+    "opts": [
+     "Capitanes de barco",
+     "Granjeros",
+     "Emperadores",
+     "Guardias de museo"
+    ],
+    "a": 2,
+    "why": "La Ciudad Prohibida fue un palacio donde vivían emperadores.",
+    "f": 0
+   },
+   {
+    "q": "¿Sobre qué se extienden las partes de la Gran Muralla cerca de Pekín?",
+    "opts": [
+     "Las colinas",
+     "Un puerto",
+     "La orilla de un río",
+     "Una playa de arena"
+    ],
+    "a": 0,
+    "why": "Cerca de Pekín, partes de la Gran Muralla recorren las colinas, con muros de piedra y torres de vigilancia.",
+    "f": 2
+   }
+  ]
+ },
+ "hong-kong": {
+  "en": [
+   {
+    "q": "Which harbor separates Hong Kong Island from the Kowloon side?",
+    "opts": [
+     "Star Harbour",
+     "Victoria Harbour",
+     "Peak Harbour",
+     "Dragon Harbour"
+    ],
+    "a": 1,
+    "why": "Victoria Harbour separates Hong Kong Island from the Kowloon side.",
+    "f": 0
+   },
+   {
+    "q": "What can riders do when the tram reaches Victoria Peak?",
+    "opts": [
+     "Watch penguins",
+     "Take a ferry",
+     "Look over the city",
+     "Walk through bamboo"
+    ],
+    "a": 2,
+    "why": "The Peak Tram climbs to Victoria Peak, where riders can look over the city.",
+    "f": 2
+   },
+   {
+    "q": "The tram that goes uphill to Victoria Peak has what name?",
+    "opts": [
+     "The Star Tram",
+     "The Harbour Tram",
+     "The Victoria Tram",
+     "The Peak Tram"
+    ],
+    "a": 3,
+    "why": "It is called the Peak Tram, because it takes riders up to Victoria Peak.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué puerto separa la isla de Hong Kong del lado de Kowloon?",
+    "opts": [
+     "El puerto Star",
+     "El puerto Victoria",
+     "El puerto Peak",
+     "El puerto del Dragón"
+    ],
+    "a": 1,
+    "why": "El puerto Victoria separa la isla de Hong Kong del lado de Kowloon.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué pueden hacer los pasajeros cuando el tranvía llega a Victoria Peak?",
+    "opts": [
+     "Ver pingüinos",
+     "Tomar un transbordador",
+     "Mirar la ciudad desde arriba",
+     "Caminar entre bambú"
+    ],
+    "a": 2,
+    "why": "El Peak Tram sube a Victoria Peak, desde donde se puede mirar la ciudad.",
+    "f": 2
+   },
+   {
+    "q": "¿Cómo se llama el tranvía que sube a Victoria Peak?",
+    "opts": [
+     "Star Tram",
+     "Harbour Tram",
+     "Victoria Tram",
+     "Peak Tram"
+    ],
+    "a": 3,
+    "why": "Se llama Peak Tram, porque lleva a los pasajeros hasta Victoria Peak.",
+    "f": 2
+   }
+  ]
+ },
+ "singapore": {
+  "en": [
+   {
+    "q": "What does the Merlion's fish body remind people of?",
+    "opts": [
+     "A giant fish caught long ago in the bay",
+     "Singapore's early days as a fishing village",
+     "A famous shark from the harbor",
+     "A garden growing under the sea"
+    ],
+    "a": 1,
+    "why": "The fish body recalls Singapore's early history as a fishing village.",
+    "f": 1
+   },
+   {
+    "q": "Which part of the Merlion statue is the lion?",
+    "opts": [
+     "The tail",
+     "The body",
+     "The head",
+     "The paws"
+    ],
+    "a": 2,
+    "why": "The Merlion has a lion's head and a fish's body.",
+    "f": 0
+   },
+   {
+    "q": "What are the giant Supertrees at Gardens by the Bay compared to?",
+    "opts": [
+     "Floating islands",
+     "Tall lighthouses",
+     "Glass greenhouses",
+     "Upright gardens"
+    ],
+    "a": 3,
+    "why": "Supertrees hold plants up their sides, like upright gardens.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué recuerda el cuerpo de pez del Merlion?",
+    "opts": [
+     "Un pez gigante pescado hace mucho",
+     "Los inicios de Singapur como aldea de pescadores",
+     "Un tiburón famoso del puerto",
+     "Un jardín que crecía bajo el mar"
+    ],
+    "a": 1,
+    "why": "El cuerpo de pez recuerda la historia de Singapur como aldea de pescadores.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué parte de la estatua del Merlion es de león?",
+    "opts": [
+     "La cola",
+     "El cuerpo",
+     "La cabeza",
+     "Las patas"
+    ],
+    "a": 2,
+    "why": "El Merlion tiene cabeza de león y cuerpo de pez.",
+    "f": 0
+   },
+   {
+    "q": "¿Con qué se comparan los Supertrees gigantes de Gardens by the Bay?",
+    "opts": [
+     "Islas flotantes",
+     "Faros altos",
+     "Invernaderos de vidrio",
+     "Jardines verticales"
+    ],
+    "a": 3,
+    "why": "Los Supertrees tienen plantas en sus costados, como jardines verticales.",
+    "f": 2
+   }
+  ]
+ },
+ "bangkok": {
+  "en": [
+   {
+    "q": "How long is the reclining statue at Wat Pho?",
+    "opts": [
+     "46 meters",
+     "64 meters",
+     "14 meters",
+     "100 meters"
+    ],
+    "a": 0,
+    "why": "The reclining statue at Wat Pho is 46 meters long!",
+    "f": 2
+   },
+   {
+    "q": "What covers the reclining statue?",
+    "opts": [
+     "Shiny paint",
+     "Colored glass",
+     "Thin gold leaf",
+     "Silver coins"
+    ],
+    "a": 2,
+    "why": "The reclining statue is covered in thin gold leaf.",
+    "f": 2
+   },
+   {
+    "q": "Which river do passenger boats travel along in Bangkok?",
+    "opts": [
+     "The Mekong River in the north",
+     "The Yarra River",
+     "The Danube River",
+     "The Chao Phraya River"
+    ],
+    "a": 3,
+    "why": "Passenger boats travel along Bangkok's Chao Phraya River.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuánto mide de largo la estatua reclinada de Wat Pho?",
+    "opts": [
+     "46 metros",
+     "64 metros",
+     "14 metros",
+     "100 metros"
+    ],
+    "a": 0,
+    "why": "¡La estatua reclinada de Wat Pho mide 46 metros de largo!",
+    "f": 2
+   },
+   {
+    "q": "¿Con qué está cubierta la estatua reclinada?",
+    "opts": [
+     "Pintura brillante",
+     "Vidrio de colores",
+     "Finas láminas de oro",
+     "Monedas de plata"
+    ],
+    "a": 2,
+    "why": "La estatua reclinada está cubierta con finas láminas de oro.",
+    "f": 2
+   },
+   {
+    "q": "¿Por qué río viajan los barcos de pasajeros en Bangkok?",
+    "opts": [
+     "El río Mekong",
+     "El río Yarra",
+     "El río Nilo",
+     "El río Chao Phraya"
+    ],
+    "a": 3,
+    "why": "Los barcos de pasajeros recorren el río Chao Phraya de Bangkok.",
+    "f": 0
+   }
+  ]
+ },
+ "sydney": {
+  "en": [
+   {
+    "q": "Why do people call Sydney Harbour Bridge the Coathanger?",
+    "opts": [
+     "Because of its curved shape",
+     "It hangs above the harbor",
+     "It is made of wire",
+     "It was built to hold coats"
+    ],
+    "a": 0,
+    "why": "People call it the Coathanger because of its curved shape.",
+    "f": 2
+   },
+   {
+    "q": "What does Sydney Harbour Bridge use to cross the harbor?",
+    "opts": [
+     "A floating wooden road",
+     "A giant steel arch",
+     "A glass tunnel",
+     "A giant rope net"
+    ],
+    "a": 1,
+    "why": "The bridge crosses the harbor with a giant steel arch.",
+    "f": 1
+   },
+   {
+    "q": "Which Sydney building has curved roof shapes that look like sails or shells?",
+    "opts": [
+     "The Harbour Bridge",
+     "The Coathanger",
+     "The Yarra Tower",
+     "The Opera House"
+    ],
+    "a": 3,
+    "why": "The Sydney Opera House has curved roofs often called sails or shells.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Por qué la gente llama la Percha al Puente del Puerto de Sídney?",
+    "opts": [
+     "Por su forma curva",
+     "Cuelga sobre el puerto",
+     "Está hecho de alambre",
+     "Se construyó para guardar abrigos"
+    ],
+    "a": 0,
+    "why": "La gente lo llama la Percha por su forma curva.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué usa el Puente del Puerto de Sídney para cruzar el agua?",
+    "opts": [
+     "Un camino flotante de madera",
+     "Un enorme arco de acero",
+     "Un túnel de vidrio",
+     "Una red gigante de cuerdas"
+    ],
+    "a": 1,
+    "why": "El puente cruza el agua con un enorme arco de acero.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué edificio de Sídney tiene techos curvos que parecen velas o conchas?",
+    "opts": [
+     "El Puente del Puerto",
+     "La Percha",
+     "La Torre Yarra",
+     "La Ópera"
+    ],
+    "a": 3,
+    "why": "La Ópera de Sídney tiene techos curvos que suelen llamarse velas o conchas.",
+    "f": 0
+   }
+  ]
+ },
+ "melbourne": {
+  "en": [
+   {
+    "q": "What do Melbourne's trams travel on?",
+    "opts": [
+     "Tracks in the streets",
+     "Cables high in the air",
+     "Water canals",
+     "Tunnels deep underground"
+    ],
+    "a": 0,
+    "why": "Trams travel through Melbourne on tracks in the streets.",
+    "f": 0
+   },
+   {
+    "q": "What can you find along parts of the Yarra River's banks?",
+    "opts": [
+     "Lava fields",
+     "Paths and public art",
+     "Penguin colonies",
+     "Glass floors"
+    ],
+    "a": 1,
+    "why": "The Yarra River has paths and public art along parts of its banks.",
+    "f": 2
+   },
+   {
+    "q": "What is painted on the walls of many narrow lanes in Melbourne?",
+    "opts": [
+     "Giant tram maps",
+     "Old royal crowns",
+     "Colorful street art",
+     "Plain white paint"
+    ],
+    "a": 2,
+    "why": "Many narrow lanes have colorful street art painted on their walls.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Sobre qué viajan los tranvías de Melbourne?",
+    "opts": [
+     "Rieles en las calles",
+     "Cables en lo alto del aire",
+     "Canales de agua",
+     "Túneles muy profundos"
+    ],
+    "a": 0,
+    "why": "Los tranvías recorren Melbourne sobre rieles en las calles.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué hay junto a partes de las orillas del río Yarra?",
+    "opts": [
+     "Campos de lava",
+     "Caminos y obras de arte",
+     "Colonias de pingüinos",
+     "Pisos de vidrio"
+    ],
+    "a": 1,
+    "why": "El río Yarra tiene caminos y obras de arte junto a partes de sus orillas.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué hay pintado en las paredes de muchos callejones de Melbourne?",
+    "opts": [
+     "Mapas gigantes de tranvías",
+     "Antiguas coronas reales",
+     "Arte callejero de colores",
+     "Pintura blanca lisa"
+    ],
+    "a": 2,
+    "why": "Muchos callejones tienen arte callejero de colores pintado en sus paredes.",
+    "f": 1
+   }
+  ]
+ },
+ "auckland": {
+  "en": [
+   {
+    "q": "About how long ago did Rangitoto Island form in eruptions?",
+    "opts": [
+     "About 600 years ago",
+     "About 60 years ago",
+     "About 6,000 years ago",
+     "About 6 million years ago"
+    ],
+    "a": 0,
+    "why": "Rangitoto Island formed in eruptions about 600 years ago.",
+    "f": 1
+   },
+   {
+    "q": "Which volcanic hill is named in Auckland?",
+    "opts": [
+     "Mount Rangitoto",
+     "Mount Hobson",
+     "Mount Erebus",
+     "Mount Skytree"
+    ],
+    "a": 1,
+    "why": "Auckland has hills formed by volcanoes, including Mount Hobson.",
+    "f": 0
+   },
+   {
+    "q": "What do walking tracks on Rangitoto pass through?",
+    "opts": [
+     "Snowy meadows and ice caves",
+     "Sandy deserts and palm groves",
+     "Old lava fields and native forest",
+     "Coral reefs and shipwrecks"
+    ],
+    "a": 2,
+    "why": "Tracks on Rangitoto pass old lava fields and native forest. Plants grew where lava once flowed!",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Hace cuánto se formó la isla Rangitoto en erupciones?",
+    "opts": [
+     "Hace unos 600 años",
+     "Hace unos 60 años",
+     "Hace unos 6,000 años",
+     "Hace unos 6 millones de años"
+    ],
+    "a": 0,
+    "why": "La isla Rangitoto se formó en erupciones hace unos 600 años.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué colina volcánica se nombra en Auckland?",
+    "opts": [
+     "Mount Rangitoto",
+     "Mount Hobson",
+     "Mount Erebus",
+     "Mount Skytree"
+    ],
+    "a": 1,
+    "why": "Auckland tiene colinas formadas por volcanes, como Mount Hobson.",
+    "f": 0
+   },
+   {
+    "q": "¿Por dónde pasan los senderos de Rangitoto?",
+    "opts": [
+     "Praderas nevadas y cuevas de hielo",
+     "Desiertos de arena y palmerales",
+     "Antiguos campos de lava y bosque nativo",
+     "Arrecifes de coral y barcos hundidos"
+    ],
+    "a": 2,
+    "why": "Los senderos de Rangitoto pasan por antiguos campos de lava y bosque nativo. ¡Hay plantas donde antes corría lava!",
+    "f": 2
+   }
+  ]
+ },
+ "guayaquil": {
+  "en": [
+   {
+    "q": "What is the Malecón in Guayaquil?",
+    "opts": [
+     "A lighthouse on a hill by the sea",
+     "A park full of iguanas",
+     "A long set of 444 steps",
+     "A walkway beside the Guayas River"
+    ],
+    "a": 3,
+    "why": "The Malecón is the waterfront walkway beside the Guayas River.",
+    "f": 1
+   },
+   {
+    "q": "How many steps lead up Santa Ana Hill to its lighthouse?",
+    "opts": [
+     "404",
+     "444",
+     "144",
+     "544"
+    ],
+    "a": 1,
+    "why": "There are 444 steps up Santa Ana Hill to the lighthouse. That is a lot of climbing!",
+    "f": 2
+   },
+   {
+    "q": "Besides wandering, what do the iguanas of Seminario Park do?",
+    "opts": [
+     "Swim in the river",
+     "Sleep in caves",
+     "Climb trees",
+     "Climb the lighthouse"
+    ],
+    "a": 2,
+    "why": "Iguanas climb trees and wander through Seminario Park, right in the city.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué es el Malecón de Guayaquil?",
+    "opts": [
+     "Un faro en un cerro",
+     "Un parque lleno de iguanas",
+     "Una escalera de 444 escalones",
+     "Un paseo junto al río Guayas"
+    ],
+    "a": 3,
+    "why": "El Malecón es el paseo a la orilla del río Guayas.",
+    "f": 1
+   },
+   {
+    "q": "¿Cuántos escalones hay para subir al faro del cerro Santa Ana?",
+    "opts": [
+     "404",
+     "444",
+     "144",
+     "544"
+    ],
+    "a": 1,
+    "why": "Hay 444 escalones para subir al faro del cerro Santa Ana. ¡Son muchísimos escalones!",
+    "f": 2
+   },
+   {
+    "q": "Además de pasear, ¿qué hacen las iguanas del Parque Seminario?",
+    "opts": [
+     "Nadan en el río",
+     "Duermen en cuevas",
+     "Trepan a los árboles",
+     "Suben al faro"
+    ],
+    "a": 2,
+    "why": "Las iguanas trepan a los árboles y pasean por el Parque Seminario, en plena ciudad.",
+    "f": 0
+   }
+  ]
+ },
+ "kirkland": {
+  "en": [
+   {
+    "q": "Which pair of animals can you look for from Juanita Bay's boardwalks?",
+    "opts": [
+     "Sharks and whales",
+     "Lions and giraffes",
+     "Penguins and seals",
+     "Birds and turtles"
+    ],
+    "a": 3,
+    "why": "Juanita Bay's boardwalks let you look for birds, turtles, and other wetland animals.",
+    "f": 1
+   },
+   {
+    "q": "Which one is the capital city of the country?",
+    "opts": [
+     "Washington, D.C.",
+     "Kirkland",
+     "Washington State",
+     "Lake Washington"
+    ],
+    "a": 0,
+    "why": "Washington, D.C. is the country's capital city. Washington State is a different place, in the northwest.",
+    "f": 2
+   },
+   {
+    "q": "Which body of water is Kirkland beside?",
+    "opts": [
+     "Juanita Bay",
+     "The Pacific Ocean",
+     "Lake Washington",
+     "Lake Juanita"
+    ],
+    "a": 2,
+    "why": "Kirkland sits beside Lake Washington, a lake with fresh water.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué par de animales puedes buscar desde las pasarelas de la bahía de Juanita?",
+    "opts": [
+     "Tiburones y ballenas",
+     "Leones y jirafas",
+     "Pingüinos y focas",
+     "Aves y tortugas"
+    ],
+    "a": 3,
+    "why": "Desde las pasarelas de la bahía de Juanita puedes buscar aves, tortugas y otros animales de los humedales.",
+    "f": 1
+   },
+   {
+    "q": "¿Cuál es la capital del país?",
+    "opts": [
+     "Washington, D. C.",
+     "Kirkland",
+     "El estado de Washington",
+     "El lago Washington"
+    ],
+    "a": 0,
+    "why": "Washington, D. C. es la capital del país. El estado de Washington es otro lugar, en el noroeste.",
+    "f": 2
+   },
+   {
+    "q": "¿Junto a qué masa de agua está Kirkland?",
+    "opts": [
+     "La bahía de Juanita",
+     "El océano Pacífico",
+     "El lago Washington",
+     "El lago Juanita"
+    ],
+    "a": 2,
+    "why": "Kirkland está junto al lago Washington, un lago de agua dulce.",
+    "f": 0
+   }
+  ]
+ },
+ "exuma": {
+  "en": [
+   {
+    "q": "How do you say the word \"cay\" in Exuma?",
+    "opts": [
+     "Like \"kay\"",
+     "Like \"cake\"",
+     "Like \"sky\"",
+     "Like \"keys\""
+    ],
+    "a": 3,
+    "why": "Cays are small islands, and you say the word like \"keys\".",
+    "f": 0
+   },
+   {
+    "q": "On which cay do pigs paddle in the sea?",
+    "opts": [
+     "Big Major Cay",
+     "Big Minor Cay",
+     "Lemon Cay",
+     "Little Pig Cay"
+    ],
+    "a": 0,
+    "why": "Pigs paddle in the sea on Big Major Cay!",
+    "f": 2
+   },
+   {
+    "q": "How does a lemon shark's yellow-brown color help it?",
+    "opts": [
+     "It keeps the shark warm at night",
+     "It blends in above a sandy seabed",
+     "It scares other sharks away",
+     "It helps it swim much faster"
+    ],
+    "a": 1,
+    "why": "The yellow-brown color helps lemon sharks blend in above a sandy seabed.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se pronuncia la palabra inglesa «cay» en Exuma?",
+    "opts": [
+     "Como «kei»",
+     "Como «keik»",
+     "Como «skai»",
+     "Como «kiis»"
+    ],
+    "a": 3,
+    "why": "Los cayos son islitas, y en inglés la palabra «cay» se pronuncia «kiis».",
+    "f": 0
+   },
+   {
+    "q": "¿En qué cayo nadan los chanchitos en el mar?",
+    "opts": [
+     "Big Major Cay",
+     "Big Minor Cay",
+     "Lemon Cay",
+     "Little Pig Cay"
+    ],
+    "a": 0,
+    "why": "¡Los chanchitos nadan en el mar en Big Major Cay!",
+    "f": 2
+   },
+   {
+    "q": "¿Cómo ayuda a un tiburón limón su color entre amarillo y café?",
+    "opts": [
+     "Lo mantiene calientito",
+     "Se confunde con el fondo arenoso",
+     "Asusta a otros tiburones",
+     "Lo ayuda a nadar más rápido"
+    ],
+    "a": 1,
+    "why": "El color entre amarillo y café ayuda a los tiburones limón a confundirse con el fondo arenoso.",
+    "f": 1
+   }
+  ]
+ },
+ "hawaii": {
+  "en": [
+   {
+    "q": "Which number state is Hawaiʻi?",
+    "opts": [
+     "The 49th",
+     "The 25th",
+     "The 1st",
+     "The 50th"
+    ],
+    "a": 3,
+    "why": "Hawaiʻi is America's 50th state.",
+    "f": 0
+   },
+   {
+    "q": "What is the black sand on some Hawaiian beaches made from?",
+    "opts": [
+     "Volcanic rock",
+     "Burnt seaweed",
+     "Crushed coal",
+     "Dark seashells"
+    ],
+    "a": 0,
+    "why": "Black sand is made from volcanic rock.",
+    "f": 2
+   },
+   {
+    "q": "In which ocean are the Hawaiian Islands?",
+    "opts": [
+     "The Atlantic Ocean",
+     "The Pacific Ocean",
+     "The Indian Ocean",
+     "The Arctic Ocean"
+    ],
+    "a": 1,
+    "why": "Hawaiʻi has tropical islands like Exuma, but it is in the Pacific Ocean.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué número de estado es Hawái?",
+    "opts": [
+     "El 49",
+     "El 25",
+     "El 1",
+     "El 50"
+    ],
+    "a": 3,
+    "why": "Hawái es el estado número 50 de Estados Unidos.",
+    "f": 0
+   },
+   {
+    "q": "¿De qué está hecha la arena negra de algunas playas de Hawái?",
+    "opts": [
+     "Roca volcánica",
+     "Algas quemadas",
+     "Carbón triturado",
+     "Conchas oscuras"
+    ],
+    "a": 0,
+    "why": "La arena negra está hecha de roca volcánica.",
+    "f": 2
+   },
+   {
+    "q": "¿En qué océano están las islas de Hawái?",
+    "opts": [
+     "El océano Atlántico",
+     "El océano Pacífico",
+     "El océano Índico",
+     "El océano Ártico"
+    ],
+    "a": 1,
+    "why": "Hawái tiene islas tropicales como Exuma, pero está en el océano Pacífico.",
+    "f": 0
+   }
+  ]
+ },
+ "antarctica": {
+  "en": [
+   {
+    "q": "What helps keep water in Antarctica's hidden lakes from freezing?",
+    "opts": [
+     "Warm ocean currents",
+     "Sunlight through the ice",
+     "Heat from inside Earth",
+     "Salt from the sea"
+    ],
+    "a": 2,
+    "why": "Heat from inside Earth helps keep the water under the thick ice from freezing.",
+    "f": 0
+   },
+   {
+    "q": "What makes caves inside the ice on Mount Erebus?",
+    "opts": [
+     "The volcano's heat and steam",
+     "Strong freezing winds",
+     "Penguins digging for fun",
+     "Big crashing ocean waves"
+    ],
+    "a": 0,
+    "why": "Mount Erebus is a volcano. Its heat and steam make caves inside the ice!",
+    "f": 1
+   },
+   {
+    "q": "Icefish have nearly clear blood. What do they lack?",
+    "opts": [
+     "Hard scales on the skin",
+     "The red substance in blood",
+     "Fins for swimming",
+     "Eyes for seeing in the dark"
+    ],
+    "a": 1,
+    "why": "Icefish lack the red substance that colors our blood, so theirs is nearly clear.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué ayuda a que el agua de los lagos ocultos de la Antártida no se congele?",
+    "opts": [
+     "Corrientes cálidas del océano",
+     "La luz del sol a través del hielo",
+     "El calor del interior de la Tierra",
+     "La sal del mar"
+    ],
+    "a": 2,
+    "why": "El calor del interior de la Tierra ayuda a que el agua bajo el hielo grueso no se congele.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué forma cuevas dentro del hielo en el monte Erebus?",
+    "opts": [
+     "El calor y el vapor del volcán",
+     "Fuertes vientos helados",
+     "Pingüinos que cavan por diversión",
+     "Grandes olas del océano"
+    ],
+    "a": 0,
+    "why": "El monte Erebus es un volcán. ¡Su calor y su vapor forman cuevas dentro del hielo!",
+    "f": 1
+   },
+   {
+    "q": "Los peces de hielo tienen sangre casi transparente. ¿Qué les falta?",
+    "opts": [
+     "Escamas duras en la piel",
+     "La sustancia roja de la sangre",
+     "Aletas para nadar",
+     "Ojos para ver en la oscuridad"
+    ],
+    "a": 1,
+    "why": "A los peces de hielo les falta la sustancia roja que da color a nuestra sangre, por eso la suya es casi transparente.",
+    "f": 2
+   }
+  ]
+ },
+ "santa-cruz-bolivia": {
+  "en": [
+   {
+    "q": "Where in Bolivia does Santa Cruz stand?",
+    "opts": [
+     "High in the Andes mountains",
+     "On a snowy mountaintop peak",
+     "On broad, low plains in the east",
+     "In a dry far western desert"
+    ],
+    "a": 2,
+    "why": "Santa Cruz stands on broad, low plains in eastern Bolivia.",
+    "f": 0
+   },
+   {
+    "q": "What colors can toborochi flowers be?",
+    "opts": [
+     "Red or blue",
+     "Yellow or orange",
+     "Purple or green",
+     "Pink or white"
+    ],
+    "a": 3,
+    "why": "Toborochi trees have pink or white flowers.",
+    "f": 1
+   },
+   {
+    "q": "What does Santa Cruz's botanical garden protect?",
+    "opts": [
+     "Mountain snow where llamas live",
+     "Native forest where many birds live",
+     "A coral reef in the warm sea",
+     "A hot desert where camels live"
+    ],
+    "a": 1,
+    "why": "The botanical garden protects native forest where many kinds of birds live.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde, en Bolivia, está Santa Cruz?",
+    "opts": [
+     "En lo alto de los Andes",
+     "En la cima de una montaña nevada",
+     "En amplias llanuras bajas del este",
+     "En un desierto del extremo oeste"
+    ],
+    "a": 2,
+    "why": "Santa Cruz está en las amplias llanuras del este de Bolivia, a poca altura sobre el mar.",
+    "f": 0
+   },
+   {
+    "q": "¿De qué colores pueden ser las flores del toborochi?",
+    "opts": [
+     "Rojas o azules",
+     "Amarillas o anaranjadas",
+     "Moradas o verdes",
+     "Rosadas o blancas"
+    ],
+    "a": 3,
+    "why": "Los toborochis tienen flores rosadas o blancas.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué protege el jardín botánico de Santa Cruz?",
+    "opts": [
+     "Nieve de montaña con llamas",
+     "Bosque nativo donde viven muchas aves",
+     "Un arrecife de coral en el mar",
+     "Un desierto caluroso con camellos"
+    ],
+    "a": 1,
+    "why": "El jardín botánico protege un bosque nativo donde viven muchas clases de aves.",
+    "f": 2
+   }
+  ]
+ },
+ "mar-del-plata": {
+  "en": [
+   {
+    "q": "On which coast is Mar del Plata?",
+    "opts": [
+     "Argentina's Pacific coast",
+     "Argentina's Arctic coast",
+     "Argentina's Atlantic coast",
+     "A lake shore in the mountains"
+    ],
+    "a": 2,
+    "why": "Mar del Plata is on Argentina's Atlantic coast, with many sandy beaches.",
+    "f": 0
+   },
+   {
+    "q": "What colors is the Punta Mogotes lighthouse painted?",
+    "opts": [
+     "Blue and yellow",
+     "Green and white",
+     "Black and gold",
+     "Red and white"
+    ],
+    "a": 3,
+    "why": "The Punta Mogotes lighthouse is painted red and white.",
+    "f": 2
+   },
+   {
+    "q": "What does the reserve at Mar del Plata's harbor do?",
+    "opts": [
+     "Helps protect the sea lions",
+     "Sells boat rides to tourists",
+     "Teaches kids to surf",
+     "Grows flowers on the beach"
+    ],
+    "a": 0,
+    "why": "At the harbor, a reserve helps protect the sea lions that gather there.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué costa está Mar del Plata?",
+    "opts": [
+     "La costa del Pacífico de Argentina",
+     "La costa ártica de Argentina",
+     "La costa atlántica de Argentina",
+     "La orilla de un lago de montaña"
+    ],
+    "a": 2,
+    "why": "Mar del Plata está en la costa atlántica de Argentina, con muchas playas de arena.",
+    "f": 0
+   },
+   {
+    "q": "¿De qué colores está pintado el faro de Punta Mogotes?",
+    "opts": [
+     "Azul y amarillo",
+     "Verde y blanco",
+     "Negro y dorado",
+     "Rojo y blanco"
+    ],
+    "a": 3,
+    "why": "El faro de Punta Mogotes está pintado de rojo y blanco.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué hace la reserva del puerto de Mar del Plata?",
+    "opts": [
+     "Ayuda a proteger a los lobos marinos",
+     "Vende paseos en bote a turistas",
+     "Enseña a surfear a niños",
+     "Cultiva flores en la playa"
+    ],
+    "a": 0,
+    "why": "En el puerto hay una reserva que ayuda a proteger a los lobos marinos que se reúnen allí.",
+    "f": 1
+   }
+  ]
+ },
+ "medellin": {
+  "en": [
+   {
+    "q": "How do Metrocable cabins carry people in Medellín?",
+    "opts": [
+     "Rolling in tunnels underground",
+     "Floating down a slow river",
+     "Hanging from cables above the streets",
+     "Sailing across the open sea"
+    ],
+    "a": 2,
+    "why": "Metrocable cabins hang from cables, high above the streets.",
+    "f": 0
+   },
+   {
+    "q": "What are the people who carry flower designs on their backs called?",
+    "opts": [
+     "Sillaneros",
+     "Floristas",
+     "Metros",
+     "Silleteros"
+    ],
+    "a": 3,
+    "why": "At the Flower Festival, people called silleteros carry large flower designs on their backs.",
+    "f": 1
+   },
+   {
+    "q": "Where in Medellín's botanical garden might you spot wings of different colors?",
+    "opts": [
+     "The Butterfly House",
+     "The Bird Tower",
+     "The Flower Boat",
+     "The Cable Garden"
+    ],
+    "a": 0,
+    "why": "The city's botanical garden has a Butterfly House.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo llevan a las personas las cabinas del Metrocable de Medellín?",
+    "opts": [
+     "Rodando por túneles subterráneos",
+     "Flotando por un río",
+     "Colgadas de cables sobre las calles",
+     "Navegando por mar abierto"
+    ],
+    "a": 2,
+    "why": "Las cabinas del Metrocable cuelgan de cables, por encima de las calles.",
+    "f": 0
+   },
+   {
+    "q": "¿Cómo se llaman las personas que llevan diseños de flores en la espalda?",
+    "opts": [
+     "Sillaneros",
+     "Floristas",
+     "Metros",
+     "Silleteros"
+    ],
+    "a": 3,
+    "why": "En la Feria de las Flores, los silleteros llevan grandes diseños de flores en la espalda.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde, en el jardín botánico de Medellín, podrías ver alas de distintos colores?",
+    "opts": [
+     "La Casa de las Mariposas",
+     "La Torre de las Aves",
+     "El Barco de Flores",
+     "El Jardín del Cable"
+    ],
+    "a": 0,
+    "why": "El jardín botánico de la ciudad tiene una Casa de las Mariposas.",
+    "f": 2
+   }
+  ]
+ },
+ "la-paz": {
+  "en": [
+   {
+    "q": "What is La Paz's cable car system called?",
+    "opts": [
+     "Metrocable",
+     "Mi Teleférico",
+     "Sky Tram",
+     "Peak Tram"
+    ],
+    "a": 1,
+    "why": "People ride cable cars above the city on Mi Teleférico.",
+    "f": 1
+   },
+   {
+    "q": "What shape is the huge valley where La Paz sits?",
+    "opts": [
+     "A long tube",
+     "A tall pyramid",
+     "A flat plate",
+     "A bowl"
+    ],
+    "a": 3,
+    "why": "La Paz sits high in the Andes, in a huge valley shaped like a bowl.",
+    "f": 0
+   },
+   {
+    "q": "What shaped the clay into strange towers at Valle de la Luna?",
+    "opts": [
+     "Water and wind",
+     "Lava",
+     "Giant machines",
+     "Glaciers"
+    ],
+    "a": 0,
+    "why": "Water and wind shaped the clay into strange towers, right here on Earth!",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se llama el sistema de teleféricos de La Paz?",
+    "opts": [
+     "Metrocable",
+     "Mi Teleférico",
+     "Sky Tram",
+     "Peak Tram"
+    ],
+    "a": 1,
+    "why": "Las personas viajan por encima de la ciudad en Mi Teleférico.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué forma tiene el enorme valle donde está La Paz?",
+    "opts": [
+     "De tubo largo",
+     "De pirámide alta",
+     "De plato plano",
+     "De tazón"
+    ],
+    "a": 3,
+    "why": "La Paz está en lo alto de los Andes, en un enorme valle con forma de tazón.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué moldeó la arcilla en extrañas torres en el Valle de la Luna?",
+    "opts": [
+     "El agua y el viento",
+     "La lava",
+     "Máquinas gigantes",
+     "Glaciares"
+    ],
+    "a": 0,
+    "why": "El agua y el viento moldearon la arcilla en extrañas torres, ¡aquí mismo en la Tierra!",
+    "f": 2
+   }
+  ]
+ },
+ "boise": {
+  "en": [
+   {
+    "q": "What does the Boise River Greenbelt link together?",
+    "opts": [
+     "Beaches with sea lions and boats",
+     "Parks, with paths for walking and cycling",
+     "Museums with cable cars inside",
+     "Lakes with passenger ferries"
+    ],
+    "a": 1,
+    "why": "The Greenbelt links parks with paths for walking and cycling.",
+    "f": 1
+   },
+   {
+    "q": "Great blue herons can be spotted along the river with which other birds?",
+    "opts": [
+     "Pelicans and flamingos",
+     "Penguins and ostriches",
+     "Ducks and Canada geese",
+     "Eagles and parrots"
+    ],
+    "a": 2,
+    "why": "Along the river you can spot ducks, Canada geese, and great blue herons.",
+    "f": 2
+   },
+   {
+    "q": "Which state is Boise in?",
+    "opts": [
+     "Idaho",
+     "Washington",
+     "Oregon",
+     "Montana"
+    ],
+    "a": 0,
+    "why": "Boise is in Idaho, and the Boise River runs through the city.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué conecta el Boise River Greenbelt?",
+    "opts": [
+     "Playas con lobos marinos",
+     "Parques, con caminos para pasear y andar en bici",
+     "Museos con teleféricos",
+     "Lagos con transbordadores de pasajeros"
+    ],
+    "a": 1,
+    "why": "El Greenbelt conecta parques con caminos para pasear y andar en bicicleta.",
+    "f": 1
+   },
+   {
+    "q": "¿Con qué otras aves se pueden ver las garzas azuladas a lo largo del río?",
+    "opts": [
+     "Pelícanos y flamencos",
+     "Pingüinos y avestruces",
+     "Patos y gansos canadienses",
+     "Águilas y loros"
+    ],
+    "a": 2,
+    "why": "A lo largo del río se pueden ver patos, gansos canadienses y garzas azuladas.",
+    "f": 2
+   },
+   {
+    "q": "¿En qué estado está Boise?",
+    "opts": [
+     "Idaho",
+     "Washington",
+     "Oregón",
+     "Montana"
+    ],
+    "a": 0,
+    "why": "Boise está en Idaho, y el río Boise atraviesa la ciudad.",
+    "f": 0
+   }
+  ]
+ },
+ "las-terrenas": {
+  "en": [
+   {
+    "q": "On which peninsula is Las Terrenas?",
+    "opts": [
+     "The Santiago Peninsula",
+     "The Samaná Peninsula",
+     "The Santo Domingo Peninsula",
+     "The Sierra Peninsula"
+    ],
+    "a": 1,
+    "why": "Las Terrenas is on the Samaná Peninsula in the Dominican Republic.",
+    "f": 0
+   },
+   {
+    "q": "What can you see along parts of the town's sandy beach?",
+    "opts": [
+     "Swimming pigs",
+     "Cable cars",
+     "Fishing canoes",
+     "Giant tortoises"
+    ],
+    "a": 2,
+    "why": "Fishing canoes can be seen along parts of the town's sandy beach.",
+    "f": 1
+   },
+   {
+    "q": "Where is the place called Las Ballenas?",
+    "opts": [
+     "On top of a green hill",
+     "In the middle of town",
+     "Inside a big sea cave",
+     "Offshore, out in the sea"
+    ],
+    "a": 3,
+    "why": "Las Ballenas is offshore. Its large whale-like rocks give it its name.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué península está Las Terrenas?",
+    "opts": [
+     "La península de Santiago",
+     "La península de Samaná",
+     "La península de Santo Domingo",
+     "La península de la Sierra"
+    ],
+    "a": 1,
+    "why": "Las Terrenas está en la península de Samaná, en República Dominicana.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué se puede ver en algunas partes de la playa de arena del pueblo?",
+    "opts": [
+     "Chanchitos nadadores",
+     "Teleféricos",
+     "Canoas de pescadores",
+     "Tortugas gigantes"
+    ],
+    "a": 2,
+    "why": "En algunas partes de la playa del pueblo se pueden ver canoas de pescadores.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde está el lugar llamado Las Ballenas?",
+    "opts": [
+     "En la cima de una colina verde",
+     "En el medio del pueblo",
+     "Dentro de una gran cueva marina",
+     "Mar adentro"
+    ],
+    "a": 3,
+    "why": "Las Ballenas está mar adentro. Sus grandes rocas parecidas a ballenas le dan el nombre.",
+    "f": 2
+   }
+  ]
+ },
+ "galapagos": {
+  "en": [
+   {
+    "q": "The Galápagos are islands in whose Pacific waters?",
+    "opts": [
+     "Peru's",
+     "Ecuador's",
+     "Chile's",
+     "Colombia's"
+    ],
+    "a": 1,
+    "why": "The Galápagos are islands in Ecuador's Pacific waters, formed by volcanoes.",
+    "f": 0
+   },
+   {
+    "q": "Which giant animals are among the unusual animals on the islands?",
+    "opts": [
+     "Giant crabs",
+     "Giant frogs",
+     "Giant tortoises",
+     "Giant snails"
+    ],
+    "a": 2,
+    "why": "Giant tortoises are among the unusual animals that live on the islands.",
+    "f": 1
+   },
+   {
+    "q": "Which kind of iguanas swim in the sea?",
+    "opts": [
+     "Tree iguanas",
+     "Desert iguanas",
+     "Giant iguanas",
+     "Marine iguanas"
+    ],
+    "a": 3,
+    "why": "Marine iguanas swim in the sea and eat algae growing on rocks.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "Las Galápagos son islas en el océano Pacífico, ¿de qué país?",
+    "opts": [
+     "De Perú",
+     "De Ecuador",
+     "De Chile",
+     "De Colombia"
+    ],
+    "a": 1,
+    "why": "Las Galápagos son islas ecuatorianas del océano Pacífico, formadas por volcanes.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué animales gigantes están entre los singulares animales de las islas?",
+    "opts": [
+     "Cangrejos gigantes",
+     "Ranas gigantes",
+     "Tortugas gigantes",
+     "Caracoles gigantes"
+    ],
+    "a": 2,
+    "why": "Las tortugas gigantes son algunos de los singulares animales que viven en las islas.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué tipo de iguanas nadan en el mar?",
+    "opts": [
+     "Las iguanas de árbol",
+     "Las iguanas del desierto",
+     "Las iguanas gigantes",
+     "Las iguanas marinas"
+    ],
+    "a": 3,
+    "why": "Las iguanas marinas nadan en el mar y comen algas que crecen sobre las rocas.",
+    "f": 2
+   }
+  ]
+ }
+}

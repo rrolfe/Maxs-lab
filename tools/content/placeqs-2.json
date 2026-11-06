@@ -1,0 +1,2264 @@
+{
+ "jigokudani": {
+  "en": [
+   {
+    "q": "The snow monkeys in this valley belong to one kind of monkey. Which kind?",
+    "opts": [
+     "Japanese macaques",
+     "Golden langurs",
+     "Snow baboons",
+     "Red howlers"
+    ],
+    "a": 0,
+    "why": "The snow monkeys here are Japanese macaques, and they live wild in a mountain valley.",
+    "f": 0
+   },
+   {
+    "q": "When do some of the monkeys sit in the hot spring water?",
+    "opts": [
+     "When it rains",
+     "After they eat",
+     "At night",
+     "In cold weather"
+    ],
+    "a": 3,
+    "why": "Some monkeys warm up in the hot spring water when the weather is cold.",
+    "f": 1
+   },
+   {
+    "q": "What makes this park different from a zoo full of cages?",
+    "opts": [
+     "Only baby monkeys live there",
+     "The monkeys sleep in warm rooms",
+     "The monkeys roam freely",
+     "People can pet the monkeys"
+    ],
+    "a": 2,
+    "why": "The monkeys roam freely. The park is a place to watch them, not a zoo with cages.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "Los monos de nieve de este valle son de un tipo en particular. ¿Cuál?",
+    "opts": [
+     "Macacos japoneses",
+     "Langures dorados",
+     "Babuinos de nieve",
+     "Monos aulladores rojos"
+    ],
+    "a": 0,
+    "why": "Los monos de nieve de aquí son macacos japoneses, y viven libres en un valle de montaña.",
+    "f": 0
+   },
+   {
+    "q": "¿Cuándo se sientan algunos monos en el agua termal?",
+    "opts": [
+     "Cuando llueve",
+     "Después de comer",
+     "De noche",
+     "Cuando hace frío"
+    ],
+    "a": 3,
+    "why": "Algunos monos se calientan en el agua termal cuando hace frío.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué hace diferente a este parque de un zoológico lleno de jaulas?",
+    "opts": [
+     "Solo viven monos bebés",
+     "Los monos duermen en cuartos calientes",
+     "Los monos andan libres",
+     "La gente puede acariciar a los monos"
+    ],
+    "a": 2,
+    "why": "Los monos andan libres. El parque es un lugar para observarlos, no un zoológico con jaulas.",
+    "f": 2
+   }
+  ]
+ },
+ "wulingyuan": {
+  "en": [
+   {
+    "q": "About how many thin rock pillars and peaks rise from this green landscape?",
+    "opts": [
+     "About 300",
+     "More than 3,000",
+     "About 30,000",
+     "Exactly 1,000"
+    ],
+    "a": 1,
+    "why": "More than 3,000 thin rock pillars and peaks rise from this green place.",
+    "f": 0
+   },
+   {
+    "q": "Many of the towers are taller than how many feet?",
+    "opts": [
+     "65 feet",
+     "650 feet",
+     "165 feet",
+     "1,650 feet"
+    ],
+    "a": 1,
+    "why": "Many towers are over 650 feet tall, and they are made of sandstone.",
+    "f": 1
+   },
+   {
+    "q": "Which pair of things can you find between the towers?",
+    "opts": [
+     "Waterfalls and caves",
+     "Glaciers and caves",
+     "Waterfalls and sand dunes",
+     "Streams and volcanoes"
+    ],
+    "a": 0,
+    "why": "Between the towers there are streams, waterfalls, caves, and natural stone bridges.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuántos pilares y picos delgados de roca se elevan de este paisaje verde?",
+    "opts": [
+     "Unos 300",
+     "Más de 3,000",
+     "Unos 30,000",
+     "Exactamente 1,000"
+    ],
+    "a": 1,
+    "why": "Más de 3,000 pilares y picos delgados de roca se elevan de este lugar verde.",
+    "f": 0
+   },
+   {
+    "q": "¿Muchas torres miden más de cuántos pies de altura?",
+    "opts": [
+     "65 pies",
+     "650 pies",
+     "165 pies",
+     "1,650 pies"
+    ],
+    "a": 1,
+    "why": "Muchas torres miden más de 650 pies de alto, y son de arenisca.",
+    "f": 1
+   },
+   {
+    "q": "¿Cuál de estos pares de cosas hay entre las torres?",
+    "opts": [
+     "Cascadas y cuevas",
+     "Glaciares y cuevas",
+     "Cascadas y dunas de arena",
+     "Arroyos y volcanes"
+    ],
+    "a": 0,
+    "why": "Entre las torres hay arroyos, cascadas, cuevas y puentes naturales de piedra.",
+    "f": 2
+   }
+  ]
+ },
+ "jantar-mantar": {
+  "en": [
+   {
+    "q": "About how long ago was Jantar Mantar built?",
+    "opts": [
+     "About 30 years ago",
+     "About 100 years ago",
+     "About 3,000 years ago",
+     "About 300 years ago"
+    ],
+    "a": 3,
+    "why": "Jantar Mantar is an outdoor science center built about 300 years ago.",
+    "f": 0
+   },
+   {
+    "q": "What kind of place is Jantar Mantar?",
+    "opts": [
+     "A palace for kings",
+     "A museum of paintings",
+     "An outdoor science center",
+     "A stone marketplace"
+    ],
+    "a": 2,
+    "why": "Jantar Mantar is an outdoor science center full of giant stone tools.",
+    "f": 0
+   },
+   {
+    "q": "The giant stone tools helped people track the Sun, stars, and planets. What did people not need?",
+    "opts": [
+     "Sunlight",
+     "Clear nights",
+     "A telescope",
+     "Careful watching"
+    ],
+    "a": 2,
+    "why": "The stone tools let people track the sky without a telescope.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Hace cuánto tiempo se construyó Jantar Mantar?",
+    "opts": [
+     "Hace unos 30 años",
+     "Hace unos 100 años",
+     "Hace unos 3,000 años",
+     "Hace unos 300 años"
+    ],
+    "a": 3,
+    "why": "Jantar Mantar es un centro de ciencias al aire libre construido hace unos 300 años.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué tipo de lugar es Jantar Mantar?",
+    "opts": [
+     "Un palacio para reyes",
+     "Un museo de pinturas",
+     "Un centro de ciencias al aire libre",
+     "Un mercado de piedra"
+    ],
+    "a": 2,
+    "why": "Jantar Mantar es un centro de ciencias al aire libre lleno de enormes herramientas de piedra.",
+    "f": 0
+   },
+   {
+    "q": "Las enormes herramientas de piedra ayudaban a seguir el Sol, las estrellas y los planetas. ¿Qué no necesitaba la gente?",
+    "opts": [
+     "Luz del Sol",
+     "Noches despejadas",
+     "Un telescopio",
+     "Observar con cuidado"
+    ],
+    "a": 2,
+    "why": "Las herramientas de piedra permitían seguir el cielo sin telescopio.",
+    "f": 2
+   }
+  ]
+ },
+ "sagarmatha": {
+  "en": [
+   {
+    "q": "Mount Everest stands on Nepal's border with which country?",
+    "opts": [
+     "India",
+     "China",
+     "Bhutan",
+     "Pakistan"
+    ],
+    "a": 1,
+    "why": "Mount Everest stands on the border between Nepal and China.",
+    "f": 0
+   },
+   {
+    "q": "Which list shows what Sagarmatha National Park protects?",
+    "opts": [
+     "Glaciers, deep valleys, and snowy peaks",
+     "Glaciers, jungles, and snowy peaks",
+     "Frozen lakes, deep valleys, and volcanoes",
+     "Glaciers, deep canyons, and sand dunes"
+    ],
+    "a": 0,
+    "why": "The park protects glaciers, deep valleys, and snowy peaks on the Nepal side.",
+    "f": 1
+   },
+   {
+    "q": "Which pair of rare animals lives in this park?",
+    "opts": [
+     "Snow leopards and polar bears",
+     "Red pandas and tigers",
+     "Polar bears and red pandas",
+     "Snow leopards and red pandas"
+    ],
+    "a": 3,
+    "why": "Snow leopards and red pandas are among the rare animals in this park.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En la frontera de Nepal con qué país está el monte Everest?",
+    "opts": [
+     "India",
+     "China",
+     "Bután",
+     "Pakistán"
+    ],
+    "a": 1,
+    "why": "El monte Everest está en la frontera entre Nepal y China.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué lista muestra lo que protege el parque nacional de Sagarmatha?",
+    "opts": [
+     "Glaciares, valles profundos y picos nevados",
+     "Glaciares, selvas y picos nevados",
+     "Lagos helados, valles profundos y volcanes",
+     "Glaciares, cañones profundos y dunas"
+    ],
+    "a": 0,
+    "why": "El parque protege glaciares, valles profundos y picos nevados en el lado de Nepal.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué par de animales poco comunes vive en este parque?",
+    "opts": [
+     "Leopardos de las nieves y osos polares",
+     "Pandas rojos y tigres",
+     "Osos polares y pandas rojos",
+     "Leopardos de las nieves y pandas rojos"
+    ],
+    "a": 3,
+    "why": "Los leopardos de las nieves y los pandas rojos están entre los animales poco comunes de este parque.",
+    "f": 2
+   }
+  ]
+ },
+ "tigers-nest": {
+  "en": [
+   {
+    "q": "What is the other name of Tiger's Nest?",
+    "opts": [
+     "Paro Tashi",
+     "Taktsang Lhasa",
+     "Paro Himal",
+     "Paro Taktsang"
+    ],
+    "a": 3,
+    "why": "Tiger's Nest is a monastery called Paro Taktsang, set against a steep cliff.",
+    "f": 0
+   },
+   {
+    "q": "About how high above the valley are the buildings?",
+    "opts": [
+     "About 300 feet",
+     "About 1,000 feet",
+     "About 3,000 feet",
+     "About 10,000 feet"
+    ],
+    "a": 2,
+    "why": "The buildings are about 3,000 feet above the valley below.",
+    "f": 1
+   },
+   {
+    "q": "What does the walking trail pass through and see along the way?",
+    "opts": [
+     "Pine forest and rushing streams",
+     "Pine forest and prayer flags",
+     "Bamboo forest and prayer flags",
+     "Palm trees and colorful kites"
+    ],
+    "a": 1,
+    "why": "The trail climbs through pine forest, with colorful prayer flags along the way.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cuál es el otro nombre del Nido del Tigre?",
+    "opts": [
+     "Paro Tashi",
+     "Taktsang Lhasa",
+     "Paro Himal",
+     "Paro Taktsang"
+    ],
+    "a": 3,
+    "why": "El Nido del Tigre es un monasterio llamado Paro Taktsang, junto a un acantilado empinado.",
+    "f": 0
+   },
+   {
+    "q": "¿A qué altura sobre el valle están los edificios?",
+    "opts": [
+     "Unos 300 pies",
+     "Unos 1,000 pies",
+     "Unos 3,000 pies",
+     "Unos 10,000 pies"
+    ],
+    "a": 2,
+    "why": "Los edificios están a unos 3,000 pies sobre el valle.",
+    "f": 1
+   },
+   {
+    "q": "¿Por qué pasa el sendero y qué se ve en el camino?",
+    "opts": [
+     "Bosque de pinos y arroyos veloces",
+     "Bosque de pinos y banderas de oración",
+     "Bosque de bambú y banderas de oración",
+     "Palmeras y cometas de colores"
+    ],
+    "a": 1,
+    "why": "El sendero sube por un bosque de pinos, con coloridas banderas de oración en el camino.",
+    "f": 2
+   }
+  ]
+ },
+ "komodo": {
+  "en": [
+   {
+    "q": "What record do Komodo dragons hold among living animals of their kind?",
+    "opts": [
+     "Largest living lizard",
+     "Largest living snake",
+     "Largest living crocodile",
+     "Largest living turtle"
+    ],
+    "a": 0,
+    "why": "Komodo dragons are the world's largest living kind of lizard.",
+    "f": 0
+   },
+   {
+    "q": "About how long can a large Komodo dragon be?",
+    "opts": [
+     "About ten feet",
+     "About three feet",
+     "About six feet",
+     "About twenty feet"
+    ],
+    "a": 0,
+    "why": "A large dragon can be about ten feet long, longer than most grown-ups are tall.",
+    "f": 1
+   },
+   {
+    "q": "What lives in the sea that this park protects?",
+    "opts": [
+     "Coral reefs and penguins",
+     "Kelp forests and sea turtles",
+     "Ice shelves and walruses",
+     "Coral reefs and sea turtles"
+    ],
+    "a": 3,
+    "why": "The park protects islands and the sea around them, where coral reefs and sea turtles live.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué récord tienen los dragones de Komodo entre los animales vivos de su tipo?",
+    "opts": [
+     "El lagarto vivo más grande",
+     "La serpiente viva más grande",
+     "El cocodrilo vivo más grande",
+     "La tortuga viva más grande"
+    ],
+    "a": 0,
+    "why": "Los dragones de Komodo son el tipo de lagarto vivo más grande del mundo.",
+    "f": 0
+   },
+   {
+    "q": "¿Cuánto puede medir de largo un dragón de Komodo grande?",
+    "opts": [
+     "Unos diez pies",
+     "Unos tres pies",
+     "Unos seis pies",
+     "Unos veinte pies"
+    ],
+    "a": 0,
+    "why": "Un dragón grande puede medir unos diez pies de largo, más que la estatura de la mayoría de los adultos.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué vive en el mar que protege este parque?",
+    "opts": [
+     "Arrecifes de coral y pingüinos",
+     "Bosques de algas y tortugas marinas",
+     "Plataformas de hielo y morsas",
+     "Arrecifes de coral y tortugas marinas"
+    ],
+    "a": 3,
+    "why": "El parque protege las islas y el mar que las rodea, donde viven arrecifes de coral y tortugas marinas.",
+    "f": 2
+   }
+  ]
+ },
+ "phong-nha": {
+  "en": [
+   {
+    "q": "The caves of Phong Nha-Ke Bang are hidden in which kind of rock?",
+    "opts": [
+     "Sandstone",
+     "Granite",
+     "Limestone",
+     "Marble"
+    ],
+    "a": 2,
+    "why": "Phong Nha-Ke Bang has a huge network of caves hidden in limestone rock.",
+    "f": 0
+   },
+   {
+    "q": "Some rivers here are hard to see from above. Why?",
+    "opts": [
+     "Leaves cover them",
+     "They flow through underground caves",
+     "They only flow at night",
+     "They are frozen under ice"
+    ],
+    "a": 1,
+    "why": "Some rivers flow underground through the caves instead of staying out in the sunshine.",
+    "f": 1
+   },
+   {
+    "q": "Where does the park protect animals?",
+    "opts": [
+     "Only in the forest",
+     "Both above and below ground",
+     "Only inside the caves",
+     "Only in the rivers"
+    ],
+    "a": 1,
+    "why": "Forests grow above the hidden world, and the park protects animals above and below ground.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué tipo de roca están escondidas las cuevas de Phong Nha-Ke Bang?",
+    "opts": [
+     "Arenisca",
+     "Granito",
+     "Caliza",
+     "Mármol"
+    ],
+    "a": 2,
+    "why": "Phong Nha-Ke Bang tiene una enorme red de cuevas escondidas en roca caliza.",
+    "f": 0
+   },
+   {
+    "q": "Algunos ríos de aquí son difíciles de ver desde arriba. ¿Por qué?",
+    "opts": [
+     "Las hojas los cubren",
+     "Fluyen por cuevas bajo tierra",
+     "Solo fluyen de noche",
+     "Están congelados bajo el hielo"
+    ],
+    "a": 1,
+    "why": "Algunos ríos fluyen bajo tierra, por las cuevas, en lugar de quedarse al sol.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde protege animales el parque?",
+    "opts": [
+     "Solo en el bosque",
+     "Sobre la tierra y bajo ella",
+     "Solo dentro de las cuevas",
+     "Solo en los ríos"
+    ],
+    "a": 1,
+    "why": "Sobre este mundo escondido crecen bosques, y el parque protege animales sobre la tierra y bajo ella.",
+    "f": 2
+   }
+  ]
+ },
+ "supertrees": {
+  "en": [
+   {
+    "q": "What are the Supertrees at Gardens by the Bay?",
+    "opts": [
+     "Structures built by people, shaped like trees",
+     "Real trees grown very tall",
+     "Ice sculptures of trees",
+     "Trees moved from a forest"
+    ],
+    "a": 0,
+    "why": "The Supertrees are structures built by people, shaped like giant trees.",
+    "f": 0
+   },
+   {
+    "q": "What turns the tall towers into gardens?",
+    "opts": [
+     "Soil poured on top",
+     "Painted leaves",
+     "Fountains spraying water",
+     "Real plants growing up their sides"
+    ],
+    "a": 3,
+    "why": "Real plants grow up the sides of the towers, turning them into tall gardens.",
+    "f": 1
+   },
+   {
+    "q": "What do some Supertrees do with sunlight energy, and when?",
+    "opts": [
+     "Light the gardens at noon",
+     "Heat the gardens in winter",
+     "Light the gardens at night",
+     "Water the gardens at dawn"
+    ],
+    "a": 2,
+    "why": "Some Supertrees collect energy from sunlight to help light the gardens at night.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué son los superárboles de Gardens by the Bay?",
+    "opts": [
+     "Estructuras hechas por personas con forma de árbol",
+     "Árboles de verdad que crecieron muy altos",
+     "Esculturas de hielo con forma de árbol",
+     "Árboles traídos de un bosque"
+    ],
+    "a": 0,
+    "why": "Los superárboles son estructuras hechas por personas, con forma de árboles gigantes.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué convierte las altas torres en jardines?",
+    "opts": [
+     "Tierra echada encima",
+     "Hojas pintadas",
+     "Fuentes que lanzan agua",
+     "Plantas de verdad que crecen por sus lados"
+    ],
+    "a": 3,
+    "why": "Plantas de verdad crecen por los lados de las torres y las convierten en jardines altos.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué hacen algunos superárboles con la energía del Sol, y cuándo?",
+    "opts": [
+     "Iluminan los jardines al mediodía",
+     "Calientan los jardines en invierno",
+     "Iluminan los jardines de noche",
+     "Riegan los jardines al amanecer"
+    ],
+    "a": 2,
+    "why": "Algunos superárboles juntan energía del Sol para ayudar a iluminar los jardines de noche.",
+    "f": 2
+   }
+  ]
+ },
+ "flaming-cliffs": {
+  "en": [
+   {
+    "q": "In which desert are the Flaming Cliffs?",
+    "opts": [
+     "The Sahara",
+     "The Atacama",
+     "The Gobi Desert",
+     "The Namib"
+    ],
+    "a": 2,
+    "why": "The Flaming Cliffs are red rock cliffs in Mongolia's Gobi Desert. They are not really on fire!",
+    "f": 0
+   },
+   {
+    "q": "When did fossil hunters find nests of dinosaur eggs here?",
+    "opts": [
+     "In the 1820s",
+     "In the 1920s",
+     "In the 1970s",
+     "In the 2010s"
+    ],
+    "a": 1,
+    "why": "Fossil hunters found nests of dinosaur eggs here in the 1920s.",
+    "f": 1
+   },
+   {
+    "q": "Which group of fossils comes from this desert?",
+    "opts": [
+     "Dinosaurs, ancient mammals, and lizards",
+     "Dinosaurs, ancient fish, and birds",
+     "Dinosaurs, whales, and sharks",
+     "Mammoths, ancient fish, and lizards"
+    ],
+    "a": 0,
+    "why": "Fossils from this desert include dinosaurs, ancient mammals, and lizards.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué desierto están los Acantilados Llameantes?",
+    "opts": [
+     "El Sahara",
+     "El Atacama",
+     "El desierto de Gobi",
+     "El Namib"
+    ],
+    "a": 2,
+    "why": "Los Acantilados Llameantes son riscos de roca roja en el desierto de Gobi, en Mongolia. ¡No están en llamas de verdad!",
+    "f": 0
+   },
+   {
+    "q": "¿Cuándo encontraron los cazadores de fósiles nidos de huevos de dinosaurio aquí?",
+    "opts": [
+     "En la década de 1820",
+     "En la década de 1920",
+     "En la década de 1970",
+     "En la década de 2010"
+    ],
+    "a": 1,
+    "why": "Los cazadores de fósiles encontraron nidos de huevos de dinosaurio aquí en la década de 1920.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué grupo de fósiles viene de este desierto?",
+    "opts": [
+     "Dinosaurios, mamíferos antiguos y lagartijas",
+     "Dinosaurios, peces antiguos y aves",
+     "Dinosaurios, ballenas y tiburones",
+     "Mamuts, peces antiguos y lagartijas"
+    ],
+    "a": 0,
+    "why": "Los fósiles de este desierto incluyen dinosaurios, mamíferos antiguos y lagartijas.",
+    "f": 2
+   }
+  ]
+ },
+ "great-barrier-reef": {
+  "en": [
+   {
+    "q": "What do many tiny coral animals build that helps make a reef?",
+    "opts": [
+     "Shell houses",
+     "Mud towers",
+     "Wooden nests",
+     "Hard skeletons"
+    ],
+    "a": 3,
+    "why": "Many tiny coral animals live together and build hard skeletons that help make a reef.",
+    "f": 0
+   },
+   {
+    "q": "What is the Great Barrier Reef really made of?",
+    "opts": [
+     "One giant wall-shaped reef",
+     "A few dozen reefs",
+     "One ring around an island",
+     "Thousands of separate reefs"
+    ],
+    "a": 3,
+    "why": "The Great Barrier Reef includes thousands of separate reefs along Australia's coast.",
+    "f": 1
+   },
+   {
+    "q": "How many of the world's seven kinds of sea turtle can be found in this reef's waters?",
+    "opts": [
+     "Two",
+     "Four",
+     "Six",
+     "Seven"
+    ],
+    "a": 2,
+    "why": "Six of the world's seven kinds of sea turtle can be found in this reef's waters.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué construyen muchos animales diminutos de coral que ayuda a formar un arrecife?",
+    "opts": [
+     "Casas de caracol",
+     "Torres de lodo",
+     "Nidos de madera",
+     "Esqueletos duros"
+    ],
+    "a": 3,
+    "why": "Muchos animalitos de coral viven juntos y construyen esqueletos duros que ayudan a formar un arrecife.",
+    "f": 0
+   },
+   {
+    "q": "¿De qué está hecha en realidad la Gran Barrera de Coral?",
+    "opts": [
+     "De un solo arrecife gigante con forma de muro",
+     "De unas pocas docenas de arrecifes",
+     "De un anillo alrededor de una isla",
+     "De miles de arrecifes separados"
+    ],
+    "a": 3,
+    "why": "La Gran Barrera de Coral incluye miles de arrecifes separados a lo largo de la costa de Australia.",
+    "f": 1
+   },
+   {
+    "q": "¿Cuántos de los siete tipos de tortuga marina del mundo se pueden encontrar en las aguas de este arrecife?",
+    "opts": [
+     "Dos",
+     "Cuatro",
+     "Seis",
+     "Siete"
+    ],
+    "a": 2,
+    "why": "Seis de los siete tipos de tortuga marina del mundo se pueden encontrar en las aguas de este arrecife.",
+    "f": 2
+   }
+  ]
+ },
+ "waitomo": {
+  "en": [
+   {
+    "q": "What do the tiny glowing animals make on the dark cave ceilings?",
+    "opts": [
+     "Little rainbows",
+     "Points of light",
+     "Shining puddles",
+     "Pale shadows"
+    ],
+    "a": 1,
+    "why": "Tiny glowing animals make points of light on Waitomo's dark cave ceilings.",
+    "f": 0
+   },
+   {
+    "q": "What are Waitomo's glowworms really?",
+    "opts": [
+     "Young flies called larvae",
+     "Baby beetles",
+     "True worms",
+     "Baby spiders"
+    ],
+    "a": 0,
+    "why": "These glowworms are young flies, called larvae. They are not worms!",
+    "f": 1
+   },
+   {
+    "q": "What do the glowworms hang down, and what is their glow for?",
+    "opts": [
+     "Sticky threads, to lure insects",
+     "Sticky threads, to scare bats",
+     "Silk ropes, to climb walls",
+     "Wet roots, to warm the cave"
+    ],
+    "a": 0,
+    "why": "They hang sticky threads and use their glow to lure small insects into them.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué forman los animalitos brillantes en los techos oscuros de la cueva?",
+    "opts": [
+     "Arcoíris pequeños",
+     "Puntos de luz",
+     "Charcos brillantes",
+     "Sombras pálidas"
+    ],
+    "a": 1,
+    "why": "Animalitos brillantes forman puntos de luz en los techos oscuros de las cuevas de Waitomo.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué son en realidad los gusanos luminosos de Waitomo?",
+    "opts": [
+     "Moscas jóvenes llamadas larvas",
+     "Escarabajos bebés",
+     "Gusanos de verdad",
+     "Arañas bebés"
+    ],
+    "a": 0,
+    "why": "Estos gusanos luminosos son moscas jóvenes, llamadas larvas. ¡No son gusanos!",
+    "f": 1
+   },
+   {
+    "q": "¿Qué cuelgan los gusanos luminosos y para qué usan su brillo?",
+    "opts": [
+     "Hilos pegajosos, para atraer insectos",
+     "Hilos pegajosos, para asustar murciélagos",
+     "Cuerdas de seda, para trepar paredes",
+     "Raíces mojadas, para calentar la cueva"
+    ],
+    "a": 0,
+    "why": "Cuelgan hilos pegajosos y usan su brillo para atraer pequeños insectos hacia ellos.",
+    "f": 2
+   }
+  ]
+ },
+ "sigatoka": {
+  "en": [
+   {
+    "q": "On which Fijian island do the Sigatoka dunes stand?",
+    "opts": [
+     "Vanua Levu",
+     "Taveuni",
+     "Kadavu",
+     "Viti Levu"
+    ],
+    "a": 3,
+    "why": "The tall sand dunes stand beside the sea on Fiji's island of Viti Levu.",
+    "f": 0
+   },
+   {
+    "q": "Which three things helped gather and shape the sand?",
+    "opts": [
+     "Rain, earthquakes, and wind",
+     "River water, volcanoes, and tides",
+     "River water, ocean currents, and wind",
+     "Ocean currents, glaciers, and wind"
+    ],
+    "a": 2,
+    "why": "River water, ocean currents, and wind helped gather and shape the sand.",
+    "f": 1
+   },
+   {
+    "q": "What do the old pottery and stone tools help scientists learn about?",
+    "opts": [
+     "Dinosaurs of the islands",
+     "People who lived here long ago",
+     "How fast the dunes grow",
+     "Ships that sank nearby"
+    ],
+    "a": 1,
+    "why": "Pottery and stone tools found in the dunes teach scientists about people who lived here long ago.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué isla de Fiyi están las dunas de Sigatoka?",
+    "opts": [
+     "Vanua Levu",
+     "Taveuni",
+     "Kadavu",
+     "Viti Levu"
+    ],
+    "a": 3,
+    "why": "Las altas dunas de arena están junto al mar, en la isla fiyiana de Viti Levu.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué tres cosas ayudaron a juntar y dar forma a la arena?",
+    "opts": [
+     "Lluvia, terremotos y viento",
+     "Agua de río, volcanes y mareas",
+     "Agua de río, corrientes del océano y viento",
+     "Corrientes del océano, glaciares y viento"
+    ],
+    "a": 2,
+    "why": "El agua de río, las corrientes del océano y el viento ayudaron a juntar y dar forma a la arena.",
+    "f": 1
+   },
+   {
+    "q": "¿Sobre qué ayudan a aprender a los científicos la cerámica y las herramientas de piedra antiguas?",
+    "opts": [
+     "Los dinosaurios de las islas",
+     "Las personas que vivieron aquí hace mucho",
+     "Qué tan rápido crecen las dunas",
+     "Los barcos que se hundieron cerca"
+    ],
+    "a": 1,
+    "why": "La cerámica y las herramientas de piedra de las dunas enseñan a los científicos sobre las personas que vivieron aquí hace mucho.",
+    "f": 2
+   }
+  ]
+ },
+ "jellyfish-lake": {
+  "en": [
+   {
+    "q": "What kind of water fills Jellyfish Lake?",
+    "opts": [
+     "Fresh rainwater",
+     "Salty seawater",
+     "Melted ice",
+     "Hot spring water"
+    ],
+    "a": 1,
+    "why": "This island lake contains salty seawater and a special kind of golden jellyfish.",
+    "f": 0
+   },
+   {
+    "q": "What do the tiny algae inside the jellyfish share with them?",
+    "opts": [
+     "Food they make using sunlight",
+     "Light to glow in the dark",
+     "Warm water to swim in",
+     "Protection from fish"
+    ],
+    "a": 0,
+    "why": "Tiny algae live inside the jellyfish and share food they make using sunlight.",
+    "f": 1
+   },
+   {
+    "q": "What do the jellyfish do on sunny days?",
+    "opts": [
+     "Hide at the bottom",
+     "Float still in the middle",
+     "Swim out to the sea",
+     "Move across the lake"
+    ],
+    "a": 3,
+    "why": "On sunny days the jellyfish move across the lake, helping their algae get enough light.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué tipo de agua llena el lago de las Medusas?",
+    "opts": [
+     "Agua de lluvia dulce",
+     "Agua de mar salada",
+     "Hielo derretido",
+     "Agua de manantial caliente"
+    ],
+    "a": 1,
+    "why": "Este lago de la isla tiene agua de mar salada y un tipo especial de medusa dorada.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué comparten con las medusas las algas diminutas que viven dentro de ellas?",
+    "opts": [
+     "Comida que hacen con la luz del Sol",
+     "Luz para brillar en la oscuridad",
+     "Agua tibia para nadar",
+     "Protección contra los peces"
+    ],
+    "a": 0,
+    "why": "Algas diminutas viven dentro de las medusas y comparten la comida que hacen con la luz del Sol.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué hacen las medusas en los días soleados?",
+    "opts": [
+     "Se esconden en el fondo",
+     "Flotan quietas en el centro",
+     "Nadan hacia el mar",
+     "Se mueven por el lago"
+    ],
+    "a": 3,
+    "why": "En días soleados las medusas se mueven por el lago, y así sus algas reciben suficiente luz.",
+    "f": 2
+   }
+  ]
+ },
+ "bay-of-fundy": {
+  "en": [
+   {
+    "q": "The Bay of Fundy has some of Earth's biggest what?",
+    "opts": [
+     "Waves in storms",
+     "Whirlpools",
+     "Changes between low and high tide",
+     "Icebergs"
+    ],
+    "a": 2,
+    "why": "The Bay of Fundy has some of Earth's biggest changes between low tide and high tide.",
+    "f": 0
+   },
+   {
+    "q": "Near Fundy National Park, about how much can the water rise?",
+    "opts": [
+     "About 4 feet",
+     "About 14 feet",
+     "About 40 feet or more",
+     "About 400 feet"
+    ],
+    "a": 2,
+    "why": "Near Fundy National Park, water can rise about 40 feet or more between low and high tide.",
+    "f": 1
+   },
+   {
+    "q": "What appears when the tide goes out?",
+    "opts": [
+     "A long sandy island",
+     "A huge stretch of sea floor",
+     "A giant whirlpool",
+     "A frozen road"
+    ],
+    "a": 1,
+    "why": "When the tide goes out, a huge stretch of sea floor appears. Later, the water covers it again.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué tiene la bahía de Fundy que figura entre lo más grande de la Tierra?",
+    "opts": [
+     "Olas en las tormentas",
+     "Remolinos",
+     "Cambios entre marea baja y marea alta",
+     "Icebergs"
+    ],
+    "a": 2,
+    "why": "La bahía de Fundy tiene algunos de los mayores cambios de la Tierra entre marea baja y marea alta.",
+    "f": 0
+   },
+   {
+    "q": "Cerca del parque nacional de Fundy, ¿cuánto puede subir el agua?",
+    "opts": [
+     "Unos 4 pies",
+     "Unos 14 pies",
+     "Unos 40 pies o más",
+     "Unos 400 pies"
+    ],
+    "a": 2,
+    "why": "Cerca del parque nacional de Fundy, el agua puede subir unos 40 pies o más entre la marea baja y la alta.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué aparece cuando la marea se retira?",
+    "opts": [
+     "Una larga isla de arena",
+     "Un enorme tramo del fondo del mar",
+     "Un remolino gigante",
+     "Un camino congelado"
+    ],
+    "a": 1,
+    "why": "Cuando la marea se retira, aparece un enorme tramo del fondo del mar. Después, el agua lo vuelve a cubrir.",
+    "f": 2
+   }
+  ]
+ },
+ "chichen-itza": {
+  "en": [
+   {
+    "q": "In which part of Mexico do Chichen Itza's stone buildings stand?",
+    "opts": [
+     "The Yucatán Peninsula",
+     "Baja California",
+     "The Sierra Madre",
+     "The Gulf plains"
+    ],
+    "a": 0,
+    "why": "Chichen Itza's stone buildings still stand on Mexico's Yucatán Peninsula.",
+    "f": 0
+   },
+   {
+    "q": "What is El Castillo?",
+    "opts": [
+     "A water-filled hole",
+     "A building for studying the sky",
+     "A court for ball games",
+     "A pyramid with stairs up its sides"
+    ],
+    "a": 3,
+    "why": "El Castillo is a famous pyramid with stairs rising up its sides.",
+    "f": 1
+   },
+   {
+    "q": "What was another building in Chichen Itza used for?",
+    "opts": [
+     "Storing water",
+     "Growing corn",
+     "Making stone tools",
+     "Studying the sky"
+    ],
+    "a": 3,
+    "why": "The city grew near cenotes, and another building was used to study the sky.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿En qué parte de México están los edificios de piedra de Chichén Itzá?",
+    "opts": [
+     "La península de Yucatán",
+     "Baja California",
+     "La Sierra Madre",
+     "Las llanuras del Golfo"
+    ],
+    "a": 0,
+    "why": "Los edificios de piedra de Chichén Itzá siguen en pie en la península de Yucatán, en México.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué es El Castillo?",
+    "opts": [
+     "Un hoyo lleno de agua",
+     "Un edificio para estudiar el cielo",
+     "Una cancha de juegos de pelota",
+     "Una pirámide con escaleras en sus lados"
+    ],
+    "a": 3,
+    "why": "El Castillo es una famosa pirámide con escaleras que suben por sus lados.",
+    "f": 1
+   },
+   {
+    "q": "¿Para qué se usaba otro de los edificios de Chichén Itzá?",
+    "opts": [
+     "Para guardar agua",
+     "Para cultivar maíz",
+     "Para hacer herramientas de piedra",
+     "Para estudiar el cielo"
+    ],
+    "a": 3,
+    "why": "La ciudad creció cerca de cenotes, y otro edificio se usaba para estudiar el cielo.",
+    "f": 2
+   }
+  ]
+ },
+ "monteverde": {
+  "en": [
+   {
+    "q": "How do the clouds and mist help the mountain forest's plants?",
+    "opts": [
+     "They keep them warm",
+     "They keep them dry",
+     "They keep them damp",
+     "They carry in seeds"
+    ],
+    "a": 2,
+    "why": "Clouds and mist wrap around this mountain forest, keeping many plants damp.",
+    "f": 0
+   },
+   {
+    "q": "Where do orchids, mosses, and ferns grow in this forest?",
+    "opts": [
+     "Under the ground",
+     "On tree branches",
+     "In the streams",
+     "On bare rocks"
+    ],
+    "a": 1,
+    "why": "Orchids, mosses, and ferns grow on tree branches, using them like high-up homes.",
+    "f": 1
+   },
+   {
+    "q": "What are quetzals?",
+    "opts": [
+     "Bright birds",
+     "Tiny frogs",
+     "Climbing plants",
+     "Forest cats"
+    ],
+    "a": 0,
+    "why": "Quetzals are bright birds, and the forest shelters many other animals too.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo ayudan las nubes y la neblina a las plantas del bosque de montaña?",
+    "opts": [
+     "Las mantienen calientes",
+     "Las mantienen secas",
+     "Las mantienen húmedas",
+     "Traen semillas"
+    ],
+    "a": 2,
+    "why": "Las nubes y la neblina envuelven este bosque de montaña y mantienen húmedas a muchas plantas.",
+    "f": 0
+   },
+   {
+    "q": "¿Dónde crecen las orquídeas, los musgos y los helechos en este bosque?",
+    "opts": [
+     "Bajo la tierra",
+     "En las ramas de los árboles",
+     "En los arroyos",
+     "Sobre rocas desnudas"
+    ],
+    "a": 1,
+    "why": "Las orquídeas, los musgos y los helechos crecen en las ramas de los árboles, como si fueran casas en las alturas.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué son los quetzales?",
+    "opts": [
+     "Aves de colores brillantes",
+     "Ranas diminutas",
+     "Plantas trepadoras",
+     "Gatos del bosque"
+    ],
+    "a": 0,
+    "why": "Los quetzales son aves de colores brillantes, y el bosque también protege a muchos otros animales.",
+    "f": 2
+   }
+  ]
+ },
+ "panama-canal": {
+  "en": [
+   {
+    "q": "The Panama Canal is a shortcut between which two oceans?",
+    "opts": [
+     "The Atlantic and the Pacific",
+     "The Atlantic and the Indian",
+     "The Pacific and the Arctic",
+     "The Pacific and the Indian"
+    ],
+    "a": 0,
+    "why": "The canal gives ships a shortcut between the Atlantic and Pacific oceans.",
+    "f": 0
+   },
+   {
+    "q": "What makes water flow from the lake into the locks?",
+    "opts": [
+     "Giant pumps",
+     "Wind",
+     "Tides",
+     "Gravity"
+    ],
+    "a": 3,
+    "why": "Water flows from a lake into the locks by gravity.",
+    "f": 2
+   },
+   {
+    "q": "What lifts a floating ship inside a lock?",
+    "opts": [
+     "Giant cranes",
+     "A moving floor",
+     "Rising water",
+     "Strong engines"
+    ],
+    "a": 2,
+    "why": "As water flows into the lock, the rising water lifts the floating ship.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Entre qué dos océanos es un atajo el canal de Panamá?",
+    "opts": [
+     "El Atlántico y el Pacífico",
+     "El Atlántico y el Índico",
+     "El Pacífico y el Ártico",
+     "El Pacífico y el Índico"
+    ],
+    "a": 0,
+    "why": "El canal les da a los barcos un atajo entre los océanos Atlántico y Pacífico.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué hace que el agua fluya del lago a las esclusas?",
+    "opts": [
+     "Bombas gigantes",
+     "El viento",
+     "Las mareas",
+     "La gravedad"
+    ],
+    "a": 3,
+    "why": "El agua fluye del lago a las esclusas por gravedad.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué levanta a un barco que flota dentro de una esclusa?",
+    "opts": [
+     "Grúas gigantes",
+     "Un piso que se mueve",
+     "El agua que sube",
+     "Motores potentes"
+    ],
+    "a": 2,
+    "why": "Cuando entra agua a la esclusa, el agua que sube levanta al barco que flota.",
+    "f": 2
+   }
+  ]
+ },
+ "lencois": {
+  "en": [
+   {
+    "q": "Where are the wide fields of pale sand dunes?",
+    "opts": [
+     "Deep in a rainforest",
+     "Beside Brazil's coast",
+     "High in the mountains",
+     "Around a big lake"
+    ],
+    "a": 1,
+    "why": "Lençóis Maranhenses has wide fields of pale sand dunes beside Brazil's coast.",
+    "f": 0
+   },
+   {
+    "q": "When does rainwater collect between the dunes to make lagoons?",
+    "opts": [
+     "In the snowy season",
+     "In the rainy season",
+     "When the tide comes in",
+     "In the driest season"
+    ],
+    "a": 1,
+    "why": "During the rainy season, fresh rainwater collects between the dunes and makes lagoons.",
+    "f": 1
+   },
+   {
+    "q": "What happens to many pools when the weather gets drier?",
+    "opts": [
+     "They shrink",
+     "They turn salty",
+     "They freeze",
+     "They fill with sand"
+    ],
+    "a": 0,
+    "why": "It looks like a desert, but it has a rainy season. Many pools shrink when the weather becomes drier.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde están los amplios campos de dunas de arena clara?",
+    "opts": [
+     "En lo profundo de una selva",
+     "Junto a la costa de Brasil",
+     "En lo alto de las montañas",
+     "Alrededor de un gran lago"
+    ],
+    "a": 1,
+    "why": "Lençóis Maranhenses tiene amplios campos de dunas de arena clara junto a la costa de Brasil.",
+    "f": 0
+   },
+   {
+    "q": "¿Cuándo se junta la lluvia entre las dunas y forma lagunas?",
+    "opts": [
+     "En la temporada de nieve",
+     "En la temporada de lluvias",
+     "Cuando sube la marea",
+     "En la temporada más seca"
+    ],
+    "a": 1,
+    "why": "Durante la temporada de lluvias, el agua dulce de lluvia se junta entre las dunas y forma lagunas.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué les pasa a muchas piscinas naturales cuando el clima se vuelve más seco?",
+    "opts": [
+     "Se encogen",
+     "Se vuelven saladas",
+     "Se congelan",
+     "Se llenan de arena"
+    ],
+    "a": 0,
+    "why": "Parece un desierto, pero tiene temporada de lluvias. Muchas piscinas se encogen cuando el clima se seca.",
+    "f": 2
+   }
+  ]
+ },
+ "machu-picchu": {
+  "en": [
+   {
+    "q": "Where did the Inca builders make Machu Picchu?",
+    "opts": [
+     "On a sandy coast",
+     "On a wide valley floor",
+     "On a rocky island",
+     "On a steep mountain ridge"
+    ],
+    "a": 3,
+    "why": "Inca builders made Machu Picchu on a steep mountain ridge hundreds of years ago.",
+    "f": 0
+   },
+   {
+    "q": "What were some of the stone terraces used for?",
+    "opts": [
+     "Keeping animals",
+     "Collecting rainwater",
+     "Growing crops",
+     "Playing games"
+    ],
+    "a": 2,
+    "why": "Stone terraces form giant steps. Some gave flat places for growing crops.",
+    "f": 1
+   },
+   {
+    "q": "About how high above sea level does Machu Picchu stand?",
+    "opts": [
+     "About 800 feet",
+     "About 3,000 feet",
+     "About 8,000 feet",
+     "About 18,000 feet"
+    ],
+    "a": 2,
+    "why": "The site stands about 8,000 feet above sea level, surrounded by mountains and forest.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Dónde construyeron los incas Machu Picchu?",
+    "opts": [
+     "En una costa de arena",
+     "En el piso de un valle ancho",
+     "En una isla rocosa",
+     "En una cresta empinada de montaña"
+    ],
+    "a": 3,
+    "why": "Los constructores incas hicieron Machu Picchu en una cresta empinada de montaña hace cientos de años.",
+    "f": 0
+   },
+   {
+    "q": "¿Para qué se usaban algunas de las terrazas de piedra?",
+    "opts": [
+     "Para guardar animales",
+     "Para juntar agua de lluvia",
+     "Para cultivar alimentos",
+     "Para jugar"
+    ],
+    "a": 2,
+    "why": "Las terrazas de piedra forman escalones gigantes. Algunas daban lugares planos para cultivar alimentos.",
+    "f": 1
+   },
+   {
+    "q": "¿A qué altura sobre el nivel del mar está Machu Picchu?",
+    "opts": [
+     "A unos 800 pies",
+     "A unos 3,000 pies",
+     "A unos 8,000 pies",
+     "A unos 18,000 pies"
+    ],
+    "a": 2,
+    "why": "El sitio está a unos 8,000 pies sobre el nivel del mar, rodeado de montañas y bosque.",
+    "f": 2
+   }
+  ]
+ },
+ "atacama": {
+  "en": [
+   {
+    "q": "Why do scientists build powerful telescopes in the high Atacama Desert?",
+    "opts": [
+     "It is very cold",
+     "It is very dry",
+     "The nights are longest",
+     "Nobody lives there"
+    ],
+    "a": 1,
+    "why": "High parts of the Atacama are so dry that scientists build powerful telescopes there.",
+    "f": 0
+   },
+   {
+    "q": "What shape are ALMA's antennas?",
+    "opts": [
+     "Dish-shaped",
+     "Tower-shaped",
+     "Ring-shaped",
+     "Star-shaped"
+    ],
+    "a": 0,
+    "why": "ALMA uses a group of giant dish-shaped antennas that work together.",
+    "f": 1
+   },
+   {
+    "q": "What kind of light do ALMA's antennas study?",
+    "opts": [
+     "Only bright sunlight",
+     "Light from city lamps",
+     "Only moonlight",
+     "Light our eyes cannot see"
+    ],
+    "a": 3,
+    "why": "The antennas study light our eyes cannot see, including clues from very cold objects in space.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Por qué construyen los científicos telescopios potentes en las partes altas del desierto de Atacama?",
+    "opts": [
+     "Hace mucho frío",
+     "Es muy seco",
+     "Las noches son larguísimas",
+     "Nadie vive allí"
+    ],
+    "a": 1,
+    "why": "Las partes altas del Atacama son tan secas que los científicos construyen allí telescopios potentes.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué forma tienen las antenas de ALMA?",
+    "opts": [
+     "De plato",
+     "De torre",
+     "De anillo",
+     "De estrella"
+    ],
+    "a": 0,
+    "why": "ALMA usa un grupo de antenas gigantes con forma de plato que trabajan juntas.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué tipo de luz estudian las antenas de ALMA?",
+    "opts": [
+     "Solo luz brillante del Sol",
+     "Luz de las lámparas de la ciudad",
+     "Solo luz de la Luna",
+     "Luz que nuestros ojos no pueden ver"
+    ],
+    "a": 3,
+    "why": "Las antenas estudian luz que nuestros ojos no pueden ver, con pistas de objetos muy fríos del espacio.",
+    "f": 2
+   }
+  ]
+ },
+ "perito-moreno": {
+  "en": [
+   {
+    "q": "From which mountains does this glacier carry ice downhill?",
+    "opts": [
+     "The Alps",
+     "The Rockies",
+     "The Himalayas",
+     "The Andes"
+    ],
+    "a": 3,
+    "why": "The glacier carries ice downhill from a great icefield in the Andes mountains.",
+    "f": 0
+   },
+   {
+    "q": "What is the lake at the glacier's front called?",
+    "opts": [
+     "Lago Moreno",
+     "Lago Perito",
+     "Lago Argentino",
+     "Lago Andes"
+    ],
+    "a": 2,
+    "why": "The glacier's front reaches the waters of a lake called Lago Argentino.",
+    "f": 1
+   },
+   {
+    "q": "What do the big pieces that break off the glacier become?",
+    "opts": [
+     "New glaciers",
+     "Floating chunks of ice",
+     "Mountain snow",
+     "Waterfall mist"
+    ],
+    "a": 1,
+    "why": "Big pieces can break from the front and fall into the lake, becoming floating chunks of ice.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿De qué montañas baja el hielo que lleva este glaciar?",
+    "opts": [
+     "Los Alpes",
+     "Las Montañas Rocosas",
+     "El Himalaya",
+     "Los Andes"
+    ],
+    "a": 3,
+    "why": "El glaciar lleva hielo cuesta abajo desde un gran campo de hielo en los Andes.",
+    "f": 0
+   },
+   {
+    "q": "¿Cómo se llama el lago que está frente al glaciar?",
+    "opts": [
+     "Lago Moreno",
+     "Lago Perito",
+     "Lago Argentino",
+     "Lago Andes"
+    ],
+    "a": 2,
+    "why": "El frente del glaciar llega a las aguas de un lago llamado Lago Argentino.",
+    "f": 1
+   },
+   {
+    "q": "¿En qué se convierten los grandes trozos que se desprenden del glaciar?",
+    "opts": [
+     "En glaciares nuevos",
+     "En trozos de hielo flotantes",
+     "En nieve de montaña",
+     "En neblina de cascada"
+    ],
+    "a": 1,
+    "why": "Grandes trozos pueden desprenderse del frente y caer al lago, y se vuelven trozos de hielo flotantes.",
+    "f": 2
+   }
+  ]
+ },
+ "uyuni": {
+  "en": [
+   {
+    "q": "What is Salar de Uyuni?",
+    "opts": [
+     "A huge, flat area covered in salt",
+     "A giant lake of salty water",
+     "A mountain made of salt",
+     "A tunnel in a salt mine"
+    ],
+    "a": 0,
+    "why": "Salar de Uyuni is a huge, flat area covered in salt, high in Bolivia.",
+    "f": 0
+   },
+   {
+    "q": "How did the salt end up on this land?",
+    "opts": [
+     "Lakes dried up and left salt",
+     "Ocean waves washed it in",
+     "Wind carried it from a beach",
+     "People poured it out"
+    ],
+    "a": 0,
+    "why": "Long ago, lakes covered this land. As their water disappeared, salt was left behind.",
+    "f": 1
+   },
+   {
+    "q": "What happens when a thin layer of still rainwater covers part of the salt?",
+    "opts": [
+     "It turns into a salty lake",
+     "It melts the salt away forever",
+     "It turns bright pink",
+     "It reflects the sky like a mirror"
+    ],
+    "a": 3,
+    "why": "A thin layer of still rainwater can turn part of the salt flat into a giant sky mirror.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué es el Salar de Uyuni?",
+    "opts": [
+     "Una enorme zona plana cubierta de sal",
+     "Un lago gigante de agua salada",
+     "Una montaña hecha de sal",
+     "Un túnel en una mina de sal"
+    ],
+    "a": 0,
+    "why": "El Salar de Uyuni es una enorme zona plana cubierta de sal, en lo alto de Bolivia.",
+    "f": 0
+   },
+   {
+    "q": "¿Cómo llegó la sal a esta tierra?",
+    "opts": [
+     "Unos lagos se secaron y dejaron sal",
+     "Las olas del mar la trajeron",
+     "El viento la llevó desde una playa",
+     "La gente la echó ahí"
+    ],
+    "a": 0,
+    "why": "Hace mucho, lagos cubrían esta tierra. Cuando su agua desapareció, quedó la sal.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué pasa cuando una capa delgada de agua de lluvia quieta cubre parte de la sal?",
+    "opts": [
+     "Se vuelve un lago salado",
+     "Disuelve la sal para siempre",
+     "Se pone de color rosa brillante",
+     "Refleja el cielo como un espejo"
+    ],
+    "a": 3,
+    "why": "Una capa delgada de agua de lluvia quieta puede convertir parte del salar en un espejo gigante del cielo.",
+    "f": 2
+   }
+  ]
+ },
+ "blue-hole": {
+  "en": [
+   {
+    "q": "What shape is the reef around the Great Blue Hole?",
+    "opts": [
+     "A straight line",
+     "A heart",
+     "A ring",
+     "A triangle"
+    ],
+    "a": 2,
+    "why": "The Great Blue Hole is a giant underwater sinkhole inside a ring-shaped reef.",
+    "f": 0
+   },
+   {
+    "q": "When did a cave form here above the water?",
+    "opts": [
+     "When sea level was higher",
+     "When sea level was lower",
+     "When a volcano erupted",
+     "When ice covered the reef"
+    ],
+    "a": 1,
+    "why": "When sea level was lower, a cave formed here above the water.",
+    "f": 1
+   },
+   {
+    "q": "What grew inside the cave and is still there, deep underwater?",
+    "opts": [
+     "Coral towers",
+     "Stalactites",
+     "Tree roots",
+     "Sea sponges"
+    ],
+    "a": 1,
+    "why": "Stone shapes called stalactites grew inside the cave. They are still there, now deep underwater.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué forma tiene el arrecife que rodea al Gran Agujero Azul?",
+    "opts": [
+     "Una línea recta",
+     "Un corazón",
+     "Un anillo",
+     "Un triángulo"
+    ],
+    "a": 2,
+    "why": "El Gran Agujero Azul es un enorme sumidero submarino dentro de un arrecife con forma de anillo.",
+    "f": 0
+   },
+   {
+    "q": "¿Cuándo se formó aquí una cueva por encima del agua?",
+    "opts": [
+     "Cuando el nivel del mar era más alto",
+     "Cuando el nivel del mar era más bajo",
+     "Cuando erupcionó un volcán",
+     "Cuando el hielo cubría el arrecife"
+    ],
+    "a": 1,
+    "why": "Cuando el nivel del mar era más bajo, aquí se formó una cueva por encima del agua.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué creció dentro de la cueva y sigue ahí, muy hondo bajo el agua?",
+    "opts": [
+     "Torres de coral",
+     "Estalactitas",
+     "Raíces de árboles",
+     "Esponjas de mar"
+    ],
+    "a": 1,
+    "why": "Dentro de la cueva crecieron formas de piedra llamadas estalactitas. Siguen ahí, ahora muy hondo bajo el agua.",
+    "f": 2
+   }
+  ]
+ },
+ "tikal": {
+  "en": [
+   {
+    "q": "What still rises above Tikal's forest?",
+    "opts": [
+     "Tall stone temples",
+     "Giant statues",
+     "Wooden towers",
+     "Glass pyramids"
+    ],
+    "a": 0,
+    "why": "Tikal was a great Maya city, and tall stone temples still rise above its forest.",
+    "f": 0
+   },
+   {
+    "q": "What did the ancient city have courts for?",
+    "opts": [
+     "Selling food",
+     "Raising animals",
+     "Holding boat races",
+     "Playing ball games"
+    ],
+    "a": 3,
+    "why": "The ancient city had palaces, plazas, walkways, and courts for playing ball games.",
+    "f": 1
+   },
+   {
+    "q": "Which animals does the park protect?",
+    "opts": [
+     "Gorillas, jaguars, and many birds",
+     "Howler monkeys, lions, and many birds",
+     "Howler monkeys, jaguars, and many birds",
+     "Jaguars, zebras, and many birds"
+    ],
+    "a": 2,
+    "why": "The park protects howler monkeys, jaguars, and hundreds of kinds of birds.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué sigue elevándose sobre el bosque de Tikal?",
+    "opts": [
+     "Altos templos de piedra",
+     "Estatuas gigantes",
+     "Torres de madera",
+     "Pirámides de vidrio"
+    ],
+    "a": 0,
+    "why": "Tikal fue una gran ciudad maya, y altos templos de piedra siguen elevándose sobre su bosque.",
+    "f": 0
+   },
+   {
+    "q": "¿Para qué tenía canchas la antigua ciudad?",
+    "opts": [
+     "Para vender comida",
+     "Para criar animales",
+     "Para hacer carreras de botes",
+     "Para jugar juegos de pelota"
+    ],
+    "a": 3,
+    "why": "La antigua ciudad tenía palacios, plazas, calzadas y canchas para jugar juegos de pelota.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué animales protege el parque?",
+    "opts": [
+     "Gorilas, jaguares y muchas aves",
+     "Monos aulladores, leones y muchas aves",
+     "Monos aulladores, jaguares y muchas aves",
+     "Jaguares, cebras y muchas aves"
+    ],
+    "a": 2,
+    "why": "El parque protege monos aulladores, jaguares y cientos de tipos de aves.",
+    "f": 2
+   }
+  ]
+ },
+ "yellowstone": {
+  "en": [
+   {
+    "q": "What are the pools of hot water at Yellowstone called?",
+    "opts": [
+     "Geysers",
+     "Cenotes",
+     "Hot springs",
+     "Lagoons"
+    ],
+    "a": 2,
+    "why": "Pools are called hot springs. Natural fountains that shoot hot water and steam are called geysers.",
+    "f": 0
+   },
+   {
+    "q": "What warms the water in Yellowstone's volcanic landscape?",
+    "opts": [
+     "Sunlight on dark rocks",
+     "Heat from deep underground",
+     "Hot desert winds",
+     "Burning forests"
+    ],
+    "a": 1,
+    "why": "Heat from deep underground warms the water in this volcanic landscape.",
+    "f": 1
+   },
+   {
+    "q": "What makes some of the bright colors around hot springs?",
+    "opts": [
+     "Tiny living things called microbes",
+     "Tiny colorful fish",
+     "Glowing rocks",
+     "Painted steam"
+    ],
+    "a": 0,
+    "why": "Tiny living things called microbes make some of the bright colors. The pools are too hot to touch.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Cómo se llaman las piscinas de agua caliente de Yellowstone?",
+    "opts": [
+     "Géiseres",
+     "Cenotes",
+     "Aguas termales",
+     "Lagunas"
+    ],
+    "a": 2,
+    "why": "Las piscinas se llaman aguas termales. Las fuentes naturales que lanzan agua caliente y vapor se llaman géiseres.",
+    "f": 0
+   },
+   {
+    "q": "¿Qué calienta el agua en el paisaje volcánico de Yellowstone?",
+    "opts": [
+     "La luz del Sol sobre rocas oscuras",
+     "El calor de muy adentro de la tierra",
+     "Vientos calientes del desierto",
+     "Bosques que se queman"
+    ],
+    "a": 1,
+    "why": "El calor de muy adentro de la tierra calienta el agua en este paisaje volcánico.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué crea algunos de los colores brillantes alrededor de las aguas termales?",
+    "opts": [
+     "Seres vivos diminutos llamados microbios",
+     "Pececitos de colores",
+     "Rocas que brillan",
+     "Vapor pintado"
+    ],
+    "a": 0,
+    "why": "Seres vivos diminutos llamados microbios crean algunos de los colores brillantes. Las piscinas están demasiado calientes para tocarlas.",
+    "f": 2
+   }
+  ]
+ },
+ "quito": {
+  "en": [
+   {
+    "q": "What in Quito is protected as a UNESCO World Heritage Site?",
+    "opts": [
+     "The whole Andes range",
+     "Its airport",
+     "Its main river",
+     "Its historic center"
+    ],
+    "a": 3,
+    "why": "Quito's historic center, with old plazas, churches and streets, is protected as a UNESCO World Heritage Site.",
+    "f": 2
+   },
+   {
+    "q": "Which things are in Quito's historic center?",
+    "opts": [
+     "Old castles, docks, and bridges",
+     "Pyramids, plazas, and ball courts",
+     "Glaciers, churches, and streets",
+     "Old plazas, churches, and streets"
+    ],
+    "a": 3,
+    "why": "The historic center has old plazas, churches and streets.",
+    "f": 2
+   },
+   {
+    "q": "Which words describe where Quito is?",
+    "opts": [
+     "On the coast, near the equator",
+     "High in mountains, near the South Pole",
+     "High in mountains, near the equator",
+     "In a desert, near the equator"
+    ],
+    "a": 2,
+    "why": "Quito sits high in the Andes mountains and is near the equator.",
+    "f": 0
+   }
+  ],
+  "es": [
+   {
+    "q": "¿Qué parte de Quito está protegida como Patrimonio Mundial de la UNESCO?",
+    "opts": [
+     "Toda la cordillera de los Andes",
+     "Su aeropuerto",
+     "Su río principal",
+     "Su centro histórico"
+    ],
+    "a": 3,
+    "why": "El centro histórico de Quito, con plazas, iglesias y calles antiguas, está protegido como Patrimonio Mundial de la UNESCO.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué cosas hay en el centro histórico de Quito?",
+    "opts": [
+     "Castillos, muelles y puentes antiguos",
+     "Pirámides, plazas y canchas de pelota",
+     "Glaciares, iglesias y calles",
+     "Plazas, iglesias y calles antiguas"
+    ],
+    "a": 3,
+    "why": "El centro histórico tiene plazas, iglesias y calles antiguas.",
+    "f": 2
+   },
+   {
+    "q": "¿Qué palabras describen dónde está Quito?",
+    "opts": [
+     "En la costa, cerca del ecuador",
+     "En lo alto de las montañas, cerca del Polo Sur",
+     "En lo alto de las montañas, cerca del ecuador",
+     "En un desierto, cerca del ecuador"
+    ],
+    "a": 2,
+    "why": "Quito está en lo alto de los Andes y cerca del ecuador.",
+    "f": 0
+   }
+  ]
+ },
+ "lima": {
+  "en": [
+   {
+    "q": "What are the balconies on some old buildings in Lima's historic center made of?",
+    "opts": [
+     "Stone",
+     "Wood",
+     "Iron",
+     "Glass"
+    ],
+    "a": 1,
+    "why": "Some old buildings have wooden balconies that stick out over the street.",
+    "f": 1
+   },
+   {
+    "q": "What is Huaca Pucllana?",
+    "opts": [
+     "An ancient ceremonial site with a pyramid",
+     "A busy fishing harbor",
+     "A church with wooden balconies",
+     "A modern shopping street"
+    ],
+    "a": 0,
+    "why": "Huaca Pucllana is an ancient ceremonial site in Lima with a pyramid of small adobe bricks.",
+    "f": 2
+   },
+   {
+    "q": "Where do the wooden balconies stick out?",
+    "opts": [
+     "Over the street",
+     "Over the ocean",
+     "Into a courtyard",
+     "Over a river"
+    ],
+    "a": 0,
+    "why": "In Lima's historic center, wooden balconies stick out over the street.",
+    "f": 1
+   }
+  ],
+  "es": [
+   {
+    "q": "¿De qué están hechos los balcones de algunos edificios antiguos del centro histórico de Lima?",
+    "opts": [
+     "Piedra",
+     "Madera",
+     "Hierro",
+     "Vidrio"
+    ],
+    "a": 1,
+    "why": "Algunos edificios antiguos tienen balcones de madera que sobresalen sobre la calle.",
+    "f": 1
+   },
+   {
+    "q": "¿Qué es Huaca Pucllana?",
+    "opts": [
+     "Un sitio ceremonial antiguo con una pirámide",
+     "Un puerto pesquero muy activo",
+     "Una iglesia con balcones de madera",
+     "Una calle comercial moderna"
+    ],
+    "a": 0,
+    "why": "Huaca Pucllana es un sitio ceremonial antiguo de Lima con una pirámide de pequeños ladrillos de adobe.",
+    "f": 2
+   },
+   {
+    "q": "¿Hacia dónde sobresalen los balcones de madera?",
+    "opts": [
+     "Sobre la calle",
+     "Sobre el océano",
+     "Hacia un patio",
+     "Sobre un río"
+    ],
+    "a": 0,
+    "why": "En el centro histórico de Lima, los balcones de madera sobresalen sobre la calle.",
+    "f": 1
+   }
+  ]
+ },
+ "buenos-aires": {
+  "en": [
+   {
+    "q": "What helps tell this city's story, according to the hook?",
+    "opts": [
+     "Tall glaciers and snow",
+     "Old castles and moats",
+     "Surf beaches and reefs",
+     "Colorful houses and tango music"
+    ],
+    "a": 3,
+    "why": "Colorful houses and tango music help Buenos Aires tell its story.",
+    "f": -1
+   },
+   {
+    "q": "In which neighborhood is the colorful street museum Caminito?",
+    "opts": [
+     "Recoleta",
+     "Palermo",
+     "La Boca",
+     "San Telmo"
+    ],
+    "a": 2,
+    "why": "Caminito is a colorful street museum in the La Boca neighborhood.",
+    "f": 1
+   },
+   {
+    "q": "When was the Obelisk built?",
+    "opts": [
+     "In 1836",
+     "In 1936",
+     "In 1986",
+     "In 2006"
+    ],
+    "a": 1,
+    "why": "The Obelisk, a tall, pointed city landmark, was built in 1936.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "Según la frase de inicio, ¿qué ayuda a contar la historia de esta ciudad?",
+    "opts": [
+     "Glaciares altos y nieve",
+     "Castillos antiguos y fosos",
+     "Playas de surf y arrecifes",
+     "Casas de colores y música de tango"
+    ],
+    "a": 3,
+    "why": "Las casas de colores y el tango ayudan a Buenos Aires a contar su historia.",
+    "f": -1
+   },
+   {
+    "q": "¿En qué barrio está Caminito, el museo callejero lleno de color?",
+    "opts": [
+     "Recoleta",
+     "Palermo",
+     "La Boca",
+     "San Telmo"
+    ],
+    "a": 2,
+    "why": "Caminito es un museo callejero lleno de color en el barrio de La Boca.",
+    "f": 1
+   },
+   {
+    "q": "¿Cuándo se construyó el Obelisco?",
+    "opts": [
+     "En 1836",
+     "En 1936",
+     "En 1986",
+     "En 2006"
+    ],
+    "a": 1,
+    "why": "El Obelisco, un alto monumento puntiagudo de la ciudad, se construyó en 1936.",
+    "f": 2
+   }
+  ]
+ },
+ "rio-de-janeiro": {
+  "en": [
+   {
+    "q": "Along with trails, what does the forest in Tijuca National Park have?",
+    "opts": [
+     "Hot springs",
+     "Waterfalls",
+     "Sand dunes",
+     "Glaciers"
+    ],
+    "a": 1,
+    "why": "Tijuca National Park protects a forest within the city, with trails and waterfalls.",
+    "f": 1
+   },
+   {
+    "q": "Where is Tijuca National Park's forest?",
+    "opts": [
+     "Within the city",
+     "Far out at sea",
+     "Beyond the mountains",
+     "On a small island"
+    ],
+    "a": 0,
+    "why": "Tijuca National Park protects a forest within the city.",
+    "f": 1
+   },
+   {
+    "q": "Corcovado is a mountain inside which park?",
+    "opts": [
+     "Sugarloaf National Park",
+     "Copacabana National Park",
+     "Ipanema National Park",
+     "Tijuca National Park"
+    ],
+    "a": 3,
+    "why": "The Christ the Redeemer statue stands on Corcovado, a mountain in Tijuca National Park.",
+    "f": 2
+   }
+  ],
+  "es": [
+   {
+    "q": "Además de senderos, ¿qué tiene el bosque del parque nacional de Tijuca?",
+    "opts": [
+     "Aguas termales",
+     "Cascadas",
+     "Dunas de arena",
+     "Glaciares"
+    ],
+    "a": 1,
+    "why": "El parque nacional de Tijuca protege un bosque dentro de la ciudad, con senderos y cascadas.",
+    "f": 1
+   },
+   {
+    "q": "¿Dónde está el bosque del parque nacional de Tijuca?",
+    "opts": [
+     "Dentro de la ciudad",
+     "Lejos, en el mar",
+     "Más allá de las montañas",
+     "En una isla pequeña"
+    ],
+    "a": 0,
+    "why": "El parque nacional de Tijuca protege un bosque dentro de la ciudad.",
+    "f": 1
+   },
+   {
+    "q": "¿Dentro de qué parque está Corcovado, una montaña?",
+    "opts": [
+     "El parque nacional Pan de Azúcar",
+     "El parque nacional de Copacabana",
+     "El parque nacional de Ipanema",
+     "El parque nacional de Tijuca"
+    ],
+    "a": 3,
+    "why": "La estatua del Cristo Redentor está en el Corcovado, una montaña del parque nacional de Tijuca.",
+    "f": 2
+   }
+  ]
+ }
+}

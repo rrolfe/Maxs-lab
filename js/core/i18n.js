@@ -39,6 +39,7 @@ addStrings({
     nudge: 'You have played for {n} minutes. Great work!',
     chestFull: 'Pearl chest is full for today. Keep playing just for fun!',
     notFound: 'That page floated away.', creditsLink: 'Photo credits',
+    plusN: '+{n} pearls', minusN: '−{n} pearls', announcerName: 'The Announcer', askGrownup: 'Ask a grown-up to enter the passcode',
   },
   es: {
     appName: 'El Laboratorio de Max',
@@ -63,5 +64,6 @@ addStrings({
     nudge: 'Has jugado {n} minutos. ¡Buen trabajo!',
     chestFull: 'El cofre de perlas está lleno por hoy. ¡Sigue jugando por diversión!',
     notFound: 'Esa página se fue flotando.', creditsLink: 'Créditos de fotos',
+    plusN: '+{n} perlas', minusN: '−{n} perlas', announcerName: 'El Locutor', askGrownup: 'Pide a un adulto que ingrese el código',
   },
 });

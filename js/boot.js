@@ -1,8 +1,8 @@
-import { initStore, S, subscribe, save, setLang, weekView, S as _S, storageHealthy, minutesToday, day, flush } from './core/store.js';
+import { initStore, S, subscribe, save, setLang, weekView, S as _S, storageHealthy, minutesToday, day, flush, onMilestone } from './core/store.js';
 import { h, $, toast } from './core/dom.js';
 import { icons, logo } from './core/icons.js';
 import { t } from './core/i18n.js';
-import { sfx, stopSpeaking } from './core/audio.js';
+import { sfx, stopSpeaking, announceMilestone } from './core/audio.js';
 import { route, startRouter, go, currentPath, setBeforeEach } from './core/router.js';
 
 function applyTheme() {
@@ -95,6 +95,14 @@ async function main() {
   refreshHud();
   if (!storageHealthy()) toast(t('storageWarn'), 7000);
   setBeforeEach(() => { stopSpeaking(); });
+  // "You can afford a game!" - bell fanfare + announcer, at most once per milestone per day, only right after a tap
+  onMilestone(() => announceMilestone());
+  document.addEventListener('lab:announcer', (e) => {
+    document.querySelector('.announcer')?.remove();
+    const el = h('div', { class: 'announcer', role: 'status' }, h('small', {}, t('announcerName')), e.detail.text);
+    document.body.append(el); setTimeout(() => el.remove(), 9000);
+    el.addEventListener('click', () => el.remove());
+  });
   startRouter($('#screen'));
   setInterval(checkLimits, 30000);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

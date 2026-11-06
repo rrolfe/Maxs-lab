@@ -4,6 +4,7 @@ import { S, TOPICS, levelOf, today, day, save, dateKey } from '../core/store.js'
 import { shuffle, rng, hashStr, clamp } from '../core/dom.js';
 import { makeMath } from './math.js';
 import { MISSIONS } from './missions.js';
+import { REWARD, payFor, penaltyFor } from '../core/economy.js';
 
 const INTEREST = new Set(['sharks', 'dinosaurs', 'space', 'ocean', 'baseball']);
 let bankCache = {};
@@ -102,12 +103,16 @@ export function prepare(q) {
   return { ...q };
 }
 
-const BASE_POINTS = { easy: 3, at: 5, boss: 10 };
-export function pointsFor(q, { attempts, hinted }) {
-  const base = BASE_POINTS[q.slot] ?? 5;
-  if (attempts === 0) return 0;
-  return Math.floor(base * (attempts === 1 && !hinted ? 1 : 0.5));
+const BASE_POINTS = REWARD.quiz;
+export const basePoints = (q) => BASE_POINTS[q.slot] ?? BASE_POINTS.at;
+export const optionCount = (q) => (q.type === 'choice' ? q.opts.length : 4);
+/** Pearls for a right answer: full on the first try, half on a second try (never on a 2-option question), half again with a hint. */
+export function pointsFor(q, { wrong = 0, hinted = false }) {
+  const pay = payFor(optionCount(q), basePoints(q), wrong);
+  return hinted ? Math.floor(pay / 2) : pay;
 }
+/** Pearls lost for one wrong pick: small enough to forgive a slip, big enough that guessing loses on average. */
+export const penaltyOf = (q) => penaltyFor(optionCount(q), basePoints(q));
 
 /** Update the topic skill (logistic expectation, shrinking learning rate). success: 1 | 0.6 | 0 */
 export function recordAnswer(q, success, { ms = 5000 } = {}) {

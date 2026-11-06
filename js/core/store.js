@@ -2,9 +2,10 @@
 // Keys are prefixed because every page under rrolfe.github.io shares one origin.
 const PFX = 'mll2:v1:';
 const KEY = PFX + 'state';
-export const SCHEMA = 1;
+export const SCHEMA = 2;
 export const TOPICS = ['math', 'reading', 'words', 'science', 'world', 'logic'];
-export const DAILY_PEARL_CAP = 300;
+import { DAILY_SOFT, DAILY_HARD, crossed } from './economy.js';
+export const DAILY_PEARL_CAP = DAILY_HARD;
 
 const fresh = () => ({
   schema: SCHEMA,
@@ -21,12 +22,14 @@ const fresh = () => ({
   log: [],               // [{t, topic, lvl, ok, id}] newest last (capped)
   recent: [],            // last question ids shown
   days: {},              // 'YYYY-MM-DD' -> {sec, q, ok, pearls, missions}
-  unlocked: { lemonade: false, icecream: false, pizza: false },
+  unlocked: { lemonade: false, snack: false, icecream: false, pizza: false },
   stands: {},            // per-stand saves
   words: { solved: {}, wins: { hm: 0, ws: 0 }, tier: { hm: 1, ws: 1 }, streak: { hm: 0, ws: 0 } },
   passport: { stamps: {}, people: {}, badges: {} },
-  settings: { pinHash: null, pinSalt: null, dailyLimit: 30, bedtime: '19:30', offset: 0, home: null, mapKey: '', familyNotes: {}, customQs: [], lastBackup: 0 },
+  settings: { pinHash: null, pinSalt: null, voice: { en: '', es: '' }, extraMin: { day: '', min: 0 }, dailyLimit: 30, bedtime: '19:30', offset: 0, home: null, mapKey: '', familyNotes: {}, customQs: [], lastBackup: 0 },
   mission: { lastDay: '', done: 0 },
+  baseball: { games: 0, wins: 0, bestRuns: 0, hr: 0, hits: 0, k: 0, last: null },
+  mil: {},              // milestone id -> last day the announcer played
 });
 
 export let S = fresh();
@@ -61,6 +64,14 @@ function merge(base, saved) {
   return base;
 }
 
+/** Older saves keep working: new keys come from fresh(); stand saves get season tickets. */
+function migrate() {
+  if ((S.schema || 1) < 2) {
+    for (const id of ['lemonade', 'icecream']) if (S.unlocked[id] && S.stands[id] && S.stands[id].tickets == null) S.stands[id].tickets = 1;
+  }
+  S.schema = SCHEMA;
+}
+
 export async function initStore() {
   idb = await openIDB();
   let raw = lsGet();
@@ -68,6 +79,7 @@ export async function initStore() {
   if (!raw) { raw = await idbGet(KEY); from = 'idb'; }
   if (raw) {
     try { S = merge(fresh(), typeof raw === 'string' ? JSON.parse(raw) : raw); } catch (e) { console.warn('Bad save, starting fresh', e); S = fresh(); }
+    migrate();
     if (from === 'idb') lsSet(JSON.stringify(S));
   }
   try { if (navigator.storage?.persist) navigator.storage.persist(); } catch { /* optional */ }
@@ -105,14 +117,34 @@ export function weekView() {
 export const daysPlayedThisWeek = () => weekView().filter((d) => d.played).length;
 
 // ---------- pearls ----------
+// Earned-today (day().pearls) drives a gentle ceiling: full rate to DAILY_SOFT, half rate to DAILY_HARD.
+// Spending never changes it. (Old bug: a flat 300/day cap on EARNED pearls blocked earning after a stand purchase.)
+let milestoneHook = null;
+export const onMilestone = (fn) => { milestoneHook = fn; };
 export function addPearls(n) {
   n = Math.max(0, Math.round(n));
   const d = day();
-  const room = Math.max(0, DAILY_PEARL_CAP - d.pearls);
-  const got = Math.min(n, room);
+  const before = S.pearls.balance;
+  const fullRoom = Math.max(0, DAILY_SOFT - d.pearls);
+  const full = Math.min(n, fullRoom);
+  const rest = n - full;
+  const halfRoom = Math.max(0, DAILY_HARD - Math.max(d.pearls, DAILY_SOFT));
+  const half = Math.min(Math.floor(rest / 2), halfRoom);
+  const got = full + half;
   S.pearls.balance += got; S.pearls.earned += got; d.pearls += got;
   save();
-  return { got, capped: got < n, full: d.pearls >= DAILY_PEARL_CAP };
+  const m = got ? crossed(S, before, S.pearls.balance) : null;
+  if (m && milestoneHook && S.mil[m.id] !== today()) { S.mil[m.id] = today(); try { milestoneHook(m); } catch (e) { console.error(e); } }
+  return { got, capped: got < n, full: d.pearls >= DAILY_HARD };
+}
+/** A wrong answer. Pearls never go below zero and the day's earned total never goes below zero. */
+export function losePearls(n) {
+  n = Math.max(0, Math.round(n));
+  const lost = Math.min(n, S.pearls.balance);
+  const d = day();
+  S.pearls.balance -= lost; d.pearls = Math.max(0, d.pearls - lost);
+  save();
+  return lost;
 }
 export function spendPearls(n) {
   if (S.pearls.balance < n) return false;

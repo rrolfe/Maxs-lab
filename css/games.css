@@ -61,3 +61,8 @@
 .hmkey[disabled] { cursor: default; }
 .hmsecret { min-width: 300px; font: 400 40px var(--font-display); letter-spacing: .1em; padding: 6px 18px; border: 3px solid var(--ink); border-radius: 12px; background: var(--surface); text-transform: uppercase; min-height: 70px; display: flex; align-items: center; }
 .hmkeys.big { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.hp { opacity: 0; transition: opacity 180ms; }
+.hp.on { opacity: 1; animation: hpin 260ms ease-out; }
+@keyframes hpin { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .hp.on { animation: none; } }
+.hmscene .bubbles i { width: 22px; height: 22px; }

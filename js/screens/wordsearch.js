@@ -1,5 +1,6 @@
-import { S, save, today } from '../core/store.js';
-import { h, clear, shuffle, confetti, clamp } from '../core/dom.js';
+import { S, save, today, addPearls } from '../core/store.js';
+import { h, clear, shuffle, confetti, clamp, flyPoints } from '../core/dom.js';
+import { REWARD } from '../core/economy.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
 import { go } from '../core/router.js';
@@ -10,6 +11,7 @@ import { awardBadges } from '../core/badges.js';
 
 addStrings({
   en: {
+    wsFinishBonus: 'puzzle bonus +{n}', wsDailyNoPearls: 'Today’s puzzle already earned its pearls. Try a new theme for more!',
     wsTitle: 'Word Search', wsDaily: 'Today’s puzzle', wsDailyDone: 'Done today. Play again for fun!', wsPick: 'Pick a theme', wsTier: 'Size', wsPlayers: 'Players',
     solo: 'Just me', race: 'Race with Dad', tierEasy: 'Easy 8×8', tierMed: 'Medium 10×10', tierHard: 'Hard 12×12', suggested: 'Ready for this',
     wsTapFirst: 'Tap the FIRST letter of a word, or slide your finger across it.', wsTapLast: 'Now tap the LAST letter.', wsNope: 'Not one of our words yet. Try again!', wsAlready: 'You already found that one.',
@@ -18,6 +20,7 @@ addStrings({
     foundCount: '{a} of {b} found', wordsLeft: 'Words to find', sayIt: 'Say it',
   },
   es: {
+    wsFinishBonus: 'bono del rompecabezas +{n}', wsDailyNoPearls: 'El rompecabezas de hoy ya ganó sus perlas. ¡Prueba otro tema para ganar más!',
     wsTitle: 'Sopa de letras', wsDaily: 'El reto de hoy', wsDailyDone: '¡Listo por hoy! Juega otra vez por diversión.', wsPick: 'Elige un tema', wsTier: 'Tamaño', wsPlayers: 'Jugadores',
     solo: 'Solo yo', race: 'Carrera con Papá', tierEasy: 'Fácil 8×8', tierMed: 'Medio 10×10', tierHard: 'Difícil 12×12', suggested: 'Listo para esto',
     wsTapFirst: 'Toca la PRIMERA letra de una palabra, o desliza el dedo sobre ella.', wsTapLast: 'Ahora toca la ÚLTIMA letra.', wsNope: 'Todavía no es una de nuestras palabras. ¡Inténtalo otra vez!', wsAlready: 'Esa ya la encontraste.',
@@ -81,6 +84,10 @@ async function play(el, params) {
   const found = new Map();           // key -> {cells, color, player}
   let anchor = null, preview = [], turn = 0, over = false;
   const scores = [0, 0];
+  const earns = !(daily && S.words.daily?.date === today());
+  let earned = 0;
+  const earnChip = h('span', { class: 'chip', style: { gap: '6px' } }, h('span', { html: icons.pearl(26) }), h('b', {}, '0'));
+  const updateEarn = () => { earnChip.lastChild.textContent = earned; };
 
   const msg = h('div', { class: 'wsmsg', role: 'status', 'aria-live': 'polite' }, t('wsTapFirst'));
   const grid = h('div', { class: 'wsgrid', style: { '--n': N }, role: 'application', 'aria-label': t('wsTitle') });
@@ -95,7 +102,7 @@ async function play(el, params) {
       h('button', { class: 'btn ghost small', onclick: () => go('/words') }, t('otherTheme'))));
   const title = h('div', { class: 'screen-head' },
     h('button', { class: 'btn ghost icon', 'aria-label': t('back'), onclick: () => go('/words'), html: icons.back(34) }),
-    h('h1', {}, `${pack.icon} ${packName(pack)}`), h('span', { class: 'chip' }, t(TIER_KEYS[tier])));
+    h('h1', {}, `${pack.icon} ${packName(pack)}`), h('span', { class: 'chip' }, t(TIER_KEYS[tier])), earns ? earnChip : null);
   const fin = h('div', { class: 'wsfinish' });
   el.append(title, h('div', { class: 'wsplay' }, h('div', { class: 'wsleft' }, grid, msg), side), fin);
 
@@ -157,14 +164,16 @@ async function play(el, params) {
   function tryLine(a, b) {
     const line = lineCells(a, b, N);
     preview = [];
-    if (!line || line.length < 2) { msg.textContent = t('wsNope'); sfx.wrong(); paint(); return; }
+    if (!line || line.length < 2) { msg.textContent = t('wsNope'); sfx.soft(); paint(); return; }
     const text = line.map((i) => puzzle.grid[i]).join(''), rev = [...text].reverse().join('');
     const hit = puzzle.placed.find((p) => p.word.key === text || p.word.key === rev);
-    if (!hit) { msg.textContent = t('wsNope'); sfx.wrong(); paint(); return; }
+    if (!hit) { msg.textContent = t('wsNope'); sfx.soft(); paint(); return; }
     if (found.has(hit.word.key)) { msg.textContent = t('wsAlready'); paint(); return; }
     const f = { cells: hit.cells, color: colorOf(found.size), player: nPlayers === 2 ? turn : null };
     found.set(hit.word.key, f);
     if (nPlayers === 2) { scores[turn]++; }
+    // pearls for Max's words (in a race only his turns count; today's puzzle pays once a day so it can't be farmed)
+    if (earns && (nPlayers === 1 || turn === 0)) { const r = addPearls(REWARD.ws.word[tier]); earned += r.got; if (r.got) flyPoints(cells[hit.cells[hit.cells.length - 1]], r.got); updateEarn(); }
     sfx.found(); msg.textContent = t('wsFound', { w: hit.word.w });
     msg.classList.add('good'); setTimeout(() => msg.classList.remove('good'), 1200);
     if (nPlayers === 2) turn = 1 - turn;
@@ -187,11 +196,14 @@ async function play(el, params) {
     let promoted = false;
     if (nPlayers === 2) line = scores[0] === scores[1] ? t('tie') : t('wins', { p: scores[0] > scores[1] ? t('maxP') : t('dadP') });
     if (nPlayers === 1 || scores[0] >= scores[1]) promoted = recordWin('ws', tier);
+    let bonus = 0;
+    if (earns && (nPlayers === 1 || scores[0] >= scores[1])) { const r = addPearls(REWARD.ws.finish[tier]); bonus = r.got; earned += r.got; updateEarn(); }
     if (daily) S.words.daily = { date: today(), done: true };
     save();
     const badges = awardBadges();
     fin.replaceChildren(h('div', { class: 'card summary' },
       h('div', { html: icons.trophy(72) }), h('h1', {}, line),
+      earns ? h('p', { class: 'big' }, h('span', { html: icons.pearl(36) }), ' ', t('plusN', { n: earned }), bonus ? h('small', { class: 'muted' }, ' · ' + t('wsFinishBonus', { n: bonus })) : null) : h('p', { class: 'muted' }, t('wsDailyNoPearls')),
       promoted ? h('p', { class: 'levelup' }, h('span', { html: icons.star(30) }), t('wsPromoted')) : null,
       badges.map((b) => h('p', { class: 'levelup' }, h('span', { html: icons.trophy(30) }), b)),
       h('h3', {}, t('factsHead')),
