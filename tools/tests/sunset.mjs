@@ -1,0 +1,31 @@
+import { open, shot } from './lib.mjs';
+const lang = process.argv[2] || 'en';
+const { page, browser, errors } = await open({ lang, device: process.argv[3] || 'ipad-land' });
+let fails = 0; const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
+const w = (ms) => page.waitForTimeout(ms);
+const nav = async (h) => { await page.evaluate((h) => { location.hash = h; }, h); await w(500); };
+const keys = async (code) => { for (const d of code) await page.locator('.pinpad .key', { hasText: new RegExp('^' + d + '$') }).click(); await page.locator('.pinpad .key.go').click(); await w(300); };
+ok(await page.evaluate(async () => (await import('./js/core/store.js')).S.settings.dailyLimit) === 30, 'default daily limit is 30 minutes');
+await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.day().sec = 1810; });
+await nav('#/quiz');
+ok(!!(await page.$('.overlay .dialog')), 'sunset screen appears at 30 minutes');
+await shot(page, 'sunset-' + lang);
+await page.locator('.overlay .btn.ghost.small').click(); await w(300);
+ok((await page.textContent('.overlay .qmsg')).length > 20, 'no passcode set: message says a grown-up must set one, no bypass');
+ok(!!(await page.$('.overlay .dialog')), 'sunset stays up');
+// done -> home, then try to go back to a game: sunset again
+await page.locator('.overlay .btn:not(.ghost)').click(); await w(300); await nav('#/words'); 
+ok(!!(await page.$('.overlay .dialog')), 'pressing Done does not let him continue (sunset returns on a game screen)');
+// set a 5-digit passcode
+await page.evaluate(async () => { const st = await import('./js/core/store.js'); const enc = async (x) => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(x)))].map((b) => b.toString(16).padStart(2, '0')).join(''); st.S.settings.pinSalt = 'abc'; st.S.settings.pinHash = await enc('abc' + '24680'); });
+await page.locator('.overlay .btn.ghost.small').click(); await w(300);
+await keys('1111');
+ok(!!(await page.$('.pinpad .qmsg')) && (await page.textContent('.pinpad .qmsg')).length > 3, 'wrong passcode is refused');
+await keys('24680'); await w(300);
+ok(!(await page.$('.overlay')), 'right 5-digit passcode removes the sunset (15 more minutes)');
+await nav('#/words'); ok(!(await page.$('.overlay')), 'can play during the extra time');
+const end = await page.evaluate(async () => (await import('./js/core/store.js')).S.settings.extraMin.end);
+ok(end === 30 + 15 || end === 31 + 15 || end === 30 + 16 || end === 45 || end === 46, `extra time ends at minute ${end}`);
+await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.day().sec = (st.S.settings.extraMin.end + 1) * 60; });
+await nav('#/hangman'); ok(!!(await page.$('.overlay .dialog')), 'sunset returns after the extra 15 minutes');
+console.log('errors', errors); await browser.close(); process.exit(fails ? 1 : 0);

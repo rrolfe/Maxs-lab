@@ -63,26 +63,39 @@ export function refreshHud() {
   document.title = t('appName');
 }
 
-// ---------- gentle limits: nudge at 20 min, sunset at the limit, bedtime wind-down ----------
-let sunsetShown = false, nudged = false, lastRest = 0;
-function checkLimits() {
+// ---------- gentle limits: nudge at 20 min, sunset at the limit (30 min by default), bedtime wind-down ----------
+let nudged = false, lastRest = 0, sunsetEl = null;
+const ALLOW = ['/home', '/grownup', '/passport', '/credits'];
+function pastBedtime() {
+  const [bh, bm] = (S.settings.bedtime || '19:30').split(':').map(Number);
+  const now = new Date(); return !!S.settings.bedtime && now.getHours() * 60 + now.getMinutes() >= bh * 60 + bm && now.getHours() >= 12;
+}
+/** True when play should stop. A grown-up's passcode grants 15 more active minutes (overrides limit and bedtime). */
+export function limitReached() {
+  const m = minutesToday(), lim = S.settings.dailyLimit || 0, g = S.settings.extraMin;
+  if (g && g.day === dateKeyToday() && typeof g.end === 'number') return m >= g.end;
+  return (lim && m >= lim) || (pastBedtime() && m > 0);
+}
+const dateKeyToday = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+function checkLimits(routeKey) {
   const m = minutesToday();
   const lim = S.settings.dailyLimit || 0;
   if (m >= 20 && !nudged && (!lim || m < lim)) { nudged = true; toast(t('nudge', { n: m })); }
   if (m - lastRest >= 20 && m > 0) { lastRest = m; toast(t('eyeRest'), 5000); }
-  const [bh, bm] = (S.settings.bedtime || '19:30').split(':').map(Number);
-  const now = new Date(); const past = now.getHours() * 60 + now.getMinutes() >= bh * 60 + bm && now.getHours() < 22 + 8;
-  const allow = ['/home', '/grownup', '/passport', '/credits'];
-  if (((lim && m >= lim) || (S.settings.bedtime && past && m > 0)) && !sunsetShown && !allow.includes(currentPath())) showSunset();
+  if (limitReached() && !sunsetEl && !ALLOW.includes(routeKey || currentPath())) showSunset();
 }
 function showSunset() {
-  sunsetShown = true;
-  const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true' },
+  const msg = h('p', { class: 'qmsg', role: 'status' });
+  const ask = h('button', { class: 'btn ghost small', onclick: async () => {
+    if (!S.settings.pinHash) { msg.textContent = t('sunsetNoPin'); return; }
+    const { askGate } = await import('./screens/grownup.js');
+    if (await askGate(t('gPin'))) { S.settings.extraMin = { day: dateKeyToday(), end: minutesToday() + 15 }; save(); sunsetEl.remove(); sunsetEl = null; toast(t('sunsetGranted')); }
+  } }, t('askGrownup'));
+  sunsetEl = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true' },
     h('div', { class: 'dialog center' }, h('div', { html: logo(96) }), h('h2', {}, t('appName')), h('p', {}, t('sunset')),
       h('div', { class: 'row', style: { justifyContent: 'center' } },
-        h('button', { class: 'btn', onclick: () => { ov.remove(); go('/home'); } }, t('done')),
-        h('button', { class: 'btn ghost small', onclick: async () => { const { askGate } = await import('./screens/grownup.js'); if (await askGate()) { S.settings.dailyLimit += 15; save(); ov.remove(); sunsetShown = false; } } }, t('sunsetKeep')))));
-  document.body.append(ov);
+        h('button', { class: 'btn', onclick: () => { sunsetEl.remove(); sunsetEl = null; go('/home'); } }, t('done')), ask), msg));
+  document.body.append(sunsetEl);
 }
 
 async function main() {
@@ -94,7 +107,7 @@ async function main() {
   subscribe(() => refreshHud());
   refreshHud();
   if (!storageHealthy()) toast(t('storageWarn'), 7000);
-  setBeforeEach(() => { stopSpeaking(); });
+  setBeforeEach((key) => { stopSpeaking(); if (limitReached() && !sunsetEl && !ALLOW.includes(key)) setTimeout(showSunset, 0); });
   // "You can afford a game!" - bell fanfare + announcer, at most once per milestone per day, only right after a tap
   onMilestone(() => announceMilestone());
   document.addEventListener('lab:announcer', (e) => {

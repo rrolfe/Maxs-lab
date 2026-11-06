@@ -1,15 +1,18 @@
 // Grown-up corner: progress, limits, map key, family notes, your own questions, backup. Everything stays on this device.
-import { S, save, flush, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll } from '../core/store.js';
+import { S, save, flush, minutesToday, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll } from '../core/store.js';
 import { h, toast, clamp } from '../core/dom.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { TOPIC_META } from '../quiz/missions.js';
+import { speak, stopSpeaking, listVoices, pickVoice, voiceQuality, setVoice } from '../core/audio.js';
 
 addStrings({
   en: {
     gTitle: 'Grown-up corner', gPrivacy: 'Everything here stays on this device. Nothing is sent anywhere.',
-    gPin: 'Enter the 4-digit PIN', gPinWrong: 'That PIN did not match.', gUnlock: 'Unlock',
+    gPin: 'Enter the grown-up passcode', gPinWrong: 'That passcode did not match.', gUnlock: 'Unlock', gEnter: 'Enter',
+    gVoice: 'Reading voice', gVoiceNote: 'Pick the voice Max hears. The iPad can only use voices installed on it. For the most natural voice: Settings → Accessibility → Spoken Content → Voices, pick English (or Spanish), and download an Enhanced or Premium voice such as Ava or Samantha (Spanish: Paulina, or a Siri voice). Then come back here and choose it.', gVoiceNone: 'Best available (automatic)', gPreview: 'Hear it', gVoiceSample: 'Hi Max! Did you know a shark can lose thousands of teeth in its life, and they grow right back?', gVoiceCount: '{n} voices found on this device', gVoiceNoVoices: 'This device is not listing any voices yet. Try again in a moment.', gVoicePrem: 'Premium', gVoiceEnh: 'Enhanced', gVoiceSiri: 'Siri', gVoiceStd: 'Standard',
+    gPinTip: '5-digit codes work great: pick any 4 to 6 digits you will remember. Max can’t see it, and you can change it any time.',
     gOverview: 'This week', gToday: 'Today', gMin: '{n} min', gAnswered: 'Questions answered', gAccuracy: 'Right answers', gSubjects: 'Subjects', gLevel: 'Level {n}', gNeeds: 'Most practice helps in: {s}', gNoData: 'No answers yet. Check back after a few missions!',
     gDifficulty: 'Question difficulty', gEasier: 'Easier', gJust: 'Just right', gHarder: 'Harder', gDiffNote: 'Shifts every subject by one level. The app also adjusts on its own to keep about 8 in 10 answers right.',
     gLimits: 'Time and comfort', gDaily: 'Daily play limit', gNone: 'No limit', gBed: 'Bedtime wind-down starts', gBig: 'Bigger text', gOn: 'On', gOff: 'Off',
@@ -19,12 +22,14 @@ addStrings({
     gQs: 'Your own questions', gQsNote: 'These mix into Max’s missions now and then. Add one right answer and up to three wrong ones.', gQ: 'Question', gRight: 'Right answer', gW1: 'Wrong answer', gW2: 'Another wrong answer (optional)', gW3: 'One more (optional)', gWhy: 'Why it is right (optional)', gAdd: 'Add question', gDelete: 'Delete', gQNeed: 'Add a question, a right answer and one wrong answer.', gQAdded: 'Added!',
     gBackup: 'Backup and reset', gBackupNote: 'Save a copy so progress is safe if the browser is cleared or you switch iPads.', gExport: 'Save a backup file', gImportB: 'Restore from a backup file', gLast: 'Last backup: {d}', gNever: 'never', gImported: 'Backup restored.', gImportBad: 'That file did not work.', gMerge: 'Combine with current progress', gReplace: 'Replace current progress',
     gReset: 'Erase all progress', gResetAsk: 'This erases pearls, stamps, levels and settings on this device. Type ERASE to confirm.', gErased: 'Everything was erased.',
-    gSecurity: 'PIN and about', gSetPin: 'Set a PIN', gChangePin: 'Change PIN', gRemovePin: 'Remove PIN', gPinNew: 'New 4-digit PIN', gPinSet: 'PIN saved.', gPinRemoved: 'PIN removed.', gPinNote: 'Optional. Without a PIN, pressing and holding the gear for 3 seconds is the only gate.',
+    gSecurity: 'PIN and about', gSetPin: 'Set a passcode', gChangePin: 'Change passcode', gRemovePin: 'Remove passcode', gPinNew: 'New passcode (4 to 6 digits)', gPinSet: 'Passcode saved.', gPinRemoved: 'Passcode removed.', gPinNote: 'Optional. Without a PIN, pressing and holding the gear for 3 seconds is the only gate.',
     gCredits: 'Photo and map credits', gVersion: 'Max’s Lab · version 1.0',
   },
   es: {
     gTitle: 'Rincón de adultos', gPrivacy: 'Todo lo que ves aquí se queda en este dispositivo. No se envía a ningún lado.',
-    gPin: 'Escribe el PIN de 4 dígitos', gPinWrong: 'Ese PIN no coincide.', gUnlock: 'Abrir',
+    gPin: 'Escribe el código de adulto', gPinWrong: 'Ese código no coincide.', gUnlock: 'Abrir', gEnter: 'Entrar',
+    gVoice: 'Voz de lectura', gVoiceNote: 'Elige la voz que escucha Max. El iPad solo puede usar las voces instaladas en él. Para la voz más natural: Ajustes → Accesibilidad → Contenido leído → Voces, elige Español (o Inglés) y descarga una voz Mejorada o Premium, como Paulina o una voz de Siri (en inglés: Ava o Samantha). Luego vuelve aquí y elígela.', gVoiceNone: 'La mejor disponible (automática)', gPreview: 'Escúchala', gVoiceSample: '¡Hola Max! ¿Sabías que un tiburón puede perder miles de dientes en su vida y le vuelven a crecer?', gVoiceCount: '{n} voces encontradas en este dispositivo', gVoiceNoVoices: 'Este dispositivo todavía no muestra voces. Inténtalo de nuevo en un momento.', gVoicePrem: 'Premium', gVoiceEnh: 'Mejorada', gVoiceSiri: 'Siri', gVoiceStd: 'Estándar',
+    gPinTip: 'Un código de 5 dígitos funciona muy bien: elige de 4 a 6 dígitos que recuerdes. Max no lo ve y puedes cambiarlo cuando quieras.',
     gOverview: 'Esta semana', gToday: 'Hoy', gMin: '{n} min', gAnswered: 'Preguntas respondidas', gAccuracy: 'Respuestas correctas', gSubjects: 'Materias', gLevel: 'Nivel {n}', gNeeds: 'Más práctica ayudaría en: {s}', gNoData: 'Todavía no hay respuestas. ¡Vuelve después de algunas misiones!',
     gDifficulty: 'Dificultad de las preguntas', gEasier: 'Más fácil', gJust: 'Justo', gHarder: 'Más difícil', gDiffNote: 'Cambia todas las materias un nivel. La app también se ajusta sola para que unas 8 de cada 10 respuestas sean correctas.',
     gLimits: 'Tiempo y comodidad', gDaily: 'Límite diario de juego', gNone: 'Sin límite', gBed: 'La calma de la hora de dormir empieza', gBig: 'Texto más grande', gOn: 'Sí', gOff: 'No',
@@ -34,7 +39,7 @@ addStrings({
     gQs: 'Tus propias preguntas', gQsNote: 'Se mezclan de vez en cuando en las misiones de Max. Agrega una respuesta correcta y hasta tres incorrectas.', gQ: 'Pregunta', gRight: 'Respuesta correcta', gW1: 'Respuesta incorrecta', gW2: 'Otra incorrecta (opcional)', gW3: 'Una más (opcional)', gWhy: 'Por qué es correcta (opcional)', gAdd: 'Agregar pregunta', gDelete: 'Borrar', gQNeed: 'Agrega una pregunta, una respuesta correcta y una incorrecta.', gQAdded: '¡Agregada!',
     gBackup: 'Copia de seguridad y borrado', gBackupNote: 'Guarda una copia para no perder el progreso si se borra el navegador o cambias de iPad.', gExport: 'Guardar archivo de respaldo', gImportB: 'Restaurar desde un archivo', gLast: 'Última copia: {d}', gNever: 'nunca', gImported: 'Copia restaurada.', gImportBad: 'Ese archivo no funcionó.', gMerge: 'Combinar con el progreso actual', gReplace: 'Reemplazar el progreso actual',
     gReset: 'Borrar todo el progreso', gResetAsk: 'Esto borra perlas, sellos, niveles y ajustes en este dispositivo. Escribe BORRAR para confirmar.', gErased: 'Se borró todo.',
-    gSecurity: 'PIN e información', gSetPin: 'Crear un PIN', gChangePin: 'Cambiar PIN', gRemovePin: 'Quitar PIN', gPinNew: 'Nuevo PIN de 4 dígitos', gPinSet: 'PIN guardado.', gPinRemoved: 'PIN eliminado.', gPinNote: 'Opcional. Sin PIN, mantener presionado el engranaje 3 segundos es la única puerta.',
+    gSecurity: 'PIN e información', gSetPin: 'Crear un código', gChangePin: 'Cambiar código', gRemovePin: 'Quitar código', gPinNew: 'Nuevo código (4 a 6 dígitos)', gPinSet: 'Código guardado.', gPinRemoved: 'Código eliminado.', gPinNote: 'Opcional. Sin PIN, mantener presionado el engranaje 3 segundos es la única puerta.',
     gCredits: 'Créditos de fotos y mapas', gVersion: 'El Laboratorio de Max · versión 1.0',
   },
 });
@@ -47,22 +52,24 @@ async function sha(text) {
 async function pinOk(pin) { return (await sha((S.settings.pinSalt || '') + pin)) === S.settings.pinHash; }
 
 /** Resolves true when the grown-up passes the PIN check (or when no PIN is set). */
-export function askGate() {
-  if (!S.settings.pinHash) return Promise.resolve(true);
+export function askGate(title) {
+  if (!S.settings.pinHash) return Promise.resolve(false);   // no passcode yet: nobody can skip the limit
   return new Promise((resolve) => {
-    const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true' });
-    ov.append(pad(t('gPin'), (ok) => { ov.remove(); resolve(ok); }, () => { ov.remove(); resolve(false); }));
+    const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true', style: { zIndex: 120 } });
+    ov.append(pad(title || t('gPin'), (ok) => { ov.remove(); resolve(ok); }, () => { ov.remove(); resolve(false); }));
     document.body.append(ov);
   });
 }
+/** PIN pad: 4 to 6 digits, press the check key to enter. */
 function pad(title, done, cancel) {
   let val = ''; const dots = h('div', { class: 'pdots', 'aria-hidden': 'true' }), msg = h('p', { class: 'qmsg', role: 'status' });
-  const draw = () => dots.replaceChildren(...[0, 1, 2, 3].map((i) => h('i', { class: i < val.length ? 'on' : '' })));
-  const press = async (d) => {
-    if (val.length >= 4) return; val += d; draw();
-    if (val.length === 4) { if (await pinOk(val)) { unlocked = true; done(true); } else { msg.textContent = t('gPinWrong'); val = ''; draw(); } }
+  const draw = () => dots.replaceChildren(...Array.from({ length: Math.max(4, val.length) }, (_, i) => h('i', { class: i < val.length ? 'on' : '' })));
+  const submit = async () => {
+    if (val.length < 4) return;
+    if (await pinOk(val)) done(true); else { msg.textContent = t('gPinWrong'); val = ''; draw(); }
   };
-  const keys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', '⌫'].map((k) => k === '' ? h('span') : h('button', { class: 'key', onclick: () => { if (k === '⌫') { val = val.slice(0, -1); draw(); } else press(k); } }, k));
+  const press = (d) => { if (val.length >= 6) return; val += d; draw(); msg.textContent = ''; };
+  const keys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '⌫', '0', '✓'].map((k) => h('button', { class: 'key' + (k === '✓' ? ' go' : ''), 'aria-label': k === '✓' ? t('gEnter') : k === '⌫' ? 'Delete' : k, onclick: () => { if (k === '⌫') { val = val.slice(0, -1); draw(); } else if (k === '✓') submit(); else press(k); } }, k));
   draw();
   return h('div', { class: 'dialog center pinpad' }, h('h2', {}, title), dots, msg, h('div', { class: 'keys' }, keys), cancel ? h('button', { class: 'btn ghost small', onclick: cancel }, t('cancel')) : null);
 }
@@ -70,7 +77,7 @@ function pad(title, done, cancel) {
 export async function mount(el) {
   const root = h('div', { class: 'grownup' }); el.append(root);
   if (S.settings.pinHash && !unlocked) {
-    root.append(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle'))), pad(t('gPin'), () => { root.replaceChildren(); build(root); }, () => go('/home')));
+    root.append(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle'))), pad(t('gPin'), () => { unlocked = true; root.replaceChildren(); build(root); }, () => go('/home')));
     return () => {};
   }
   build(root);
@@ -110,6 +117,21 @@ async function build(root) {
   const bed = textin({ type: 'time', value: S.settings.bedtime || '19:30', onchange: (e) => { S.settings.bedtime = e.target.value; save(); } });
   const big = h('div', { class: 'seg2' }, [[false, 'gOff'], [true, 'gOn']].map(([v, k]) => h('button', { 'aria-pressed': String(!!S.bigText === v), onclick: (e) => { S.bigText = v; save(); document.documentElement.dataset.big = v ? '1' : '0'; e.currentTarget.parentNode.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === e.currentTarget))); } }, t(k))));
   const limits = section(t('gLimits'), field(t('gDaily'), limSel), field(t('gBed'), bed), field(t('gBig'), big));
+
+  // ----- voice
+  const voiceSel = h('select', { class: 'textin', 'aria-label': t('gVoice'), onchange: (e) => { setVoice(S.lang, e.target.value); } });
+  const voiceInfo = h('small', { class: 'muted' });
+  const fillVoices = () => {
+    const list = listVoices(S.lang), cur = S.settings.voice?.[S.lang] || '', best = pickVoice(S.lang);
+    const q = { premium: t('gVoicePrem'), enhanced: t('gVoiceEnh'), siri: t('gVoiceSiri'), standard: t('gVoiceStd') };
+    voiceSel.replaceChildren(h('option', { value: '', selected: !cur }, t('gVoiceNone') + (best && !cur ? ' → ' + best.name : '')),
+      ...list.map((v) => h('option', { value: v.name, selected: v.name === cur }, `${v.name} · ${q[voiceQuality(v)]}`)));
+    voiceInfo.textContent = list.length ? t('gVoiceCount', { n: list.length }) : t('gVoiceNoVoices');
+  };
+  fillVoices(); [600, 1800, 4000].forEach((ms) => setTimeout(fillVoices, ms));
+  try { speechSynthesis.addEventListener('voiceschanged', fillVoices); } catch { /* unsupported */ }
+  const voiceSec = section(t('gVoice'), h('p', { class: 'muted small' }, t('gVoiceNote')), field(t('gVoice'), voiceSel), voiceInfo,
+    h('div', { class: 'row' }, h('button', { class: 'btn gold small', onclick: () => speak(t('gVoiceSample')) }, h('span', { html: icons.speaker(28) }), t('gPreview')), h('button', { class: 'btn ghost small', onclick: () => stopSpeaking() }, t('close'))));
 
   // ----- map
   const key = textin({ type: 'text', value: S.settings.mapKey || '', placeholder: 'AAPK…', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', onchange: (e) => { S.settings.mapKey = e.target.value.trim(); save(); toast(t('gLocSaved')); } });
@@ -170,14 +192,14 @@ async function build(root) {
     h('div', { class: 'row' }, h('button', { class: 'btn ghost small danger', onclick: reset }, t('gReset'))));
 
   // ----- pin + about
-  const pinIn = textin({ type: 'password', inputmode: 'numeric', maxlength: 4, pattern: '[0-9]*', placeholder: '••••', autocomplete: 'off' });
+  const pinIn = textin({ type: 'password', inputmode: 'numeric', maxlength: 6, pattern: '[0-9]*', placeholder: '•••••', autocomplete: 'off' });
   const setPin = async () => {
-    if (!/^\d{4}$/.test(pinIn.value)) return;
+    if (!/^\d{4,6}$/.test(pinIn.value)) { toast(t('gPinNew')); return; }
     const salt = Math.random().toString(36).slice(2); S.settings.pinSalt = salt; S.settings.pinHash = await sha(salt + pinIn.value); save(); pinIn.value = ''; toast(t('gPinSet')); unlocked = true;
   };
-  const sec = section(t('gSecurity'), h('p', { class: 'muted small' }, t('gPinNote')), field(t('gPinNew'), pinIn), h('div', { class: 'row' }, h('button', { class: 'btn small', onclick: setPin }, S.settings.pinHash ? t('gChangePin') : t('gSetPin')),
+  const sec = section(t('gSecurity'), h('p', { class: 'muted small' }, t('gPinNote')), h('p', { class: 'chip on' }, t('gPinTip')), field(t('gPinNew'), pinIn), h('div', { class: 'row' }, h('button', { class: 'btn small', onclick: setPin }, S.settings.pinHash ? t('gChangePin') : t('gSetPin')),
     S.settings.pinHash ? h('button', { class: 'btn ghost small', onclick: () => { S.settings.pinHash = null; S.settings.pinSalt = null; save(); toast(t('gPinRemoved')); } }, t('gRemovePin')) : null),
     h('p', {}, h('a', { href: '#/credits' }, t('gCredits'))), h('small', { class: 'muted' }, t('gVersion')));
 
-  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, limits, mapSec, famSec, qSec, bSec, sec);
+  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, limits, voiceSec, mapSec, famSec, qSec, bSec, sec);
 }
