@@ -110,12 +110,17 @@ async function main() {
   if (!storageHealthy()) toast(t('storageWarn'), 7000);
   setBeforeEach((key) => { stopSpeaking(); if (limitReached() && !sunsetEl && !ALLOW.includes(key)) setTimeout(showSunset, 0); });
   // "You can afford a game!" - bell fanfare + announcer, at most once per milestone per day, only right after a tap
-  onMilestone(() => announceMilestone());
+  onMilestone((m) => announceMilestone(m));
   document.addEventListener('lab:announcer', (e) => {
     document.querySelector('.announcer')?.remove();
-    const el = h('div', { class: 'announcer', role: 'status' }, h('small', {}, t('announcerName')), e.detail.text);
-    document.body.append(el); setTimeout(() => el.remove(), 9000);
-    el.addEventListener('click', () => el.remove());
+    const el = h('div', { class: 'announcer', role: 'status', 'aria-live': 'polite' },
+      h('small', {}, t('announcerName')), h('strong', {}, e.detail.head), h('p', {}, e.detail.text),
+      h('span', { class: 'annx' }, t('tapToClose')));
+    document.body.append(el);
+    const gone = setTimeout(() => el.remove(), e.detail.hold || 20000);
+    const end = () => { clearTimeout(gone); el.remove(); document.removeEventListener('lab:announcer-end', end); };
+    document.addEventListener('lab:announcer-end', end);
+    el.addEventListener('click', () => { stopSpeaking(true); end(); });
   });
   startRouter($('#screen'));
   setInterval(checkLimits, 30000);

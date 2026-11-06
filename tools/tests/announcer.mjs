@@ -1,0 +1,15 @@
+import { open, shot } from './lib.mjs';
+const lang = process.argv[2] || 'en';
+const { page, browser, errors } = await open({ lang });
+let fails = 0; const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
+await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.S.pearls = { balance: 95, earned: 95, spent: 0 }; st.S.settings.dailyLimit = 0; st.S.settings.bedtime = ''; st.S.sound = true; st.addPearls(10); });
+await page.waitForTimeout(2600);
+ok(!!(await page.$('.announcer')), 'announcer appears');
+const head = await page.locator('.announcer strong').innerText(); console.log('  head:', head);
+await shot(page, `announcer-${lang}`);
+await page.waitForTimeout(11000);
+ok(!!(await page.$('.announcer')), 'still on screen 13s later (old version vanished at 9s)');
+await page.locator('.announcer').click(); await page.waitForTimeout(300);
+ok(!(await page.$('.announcer')), 'tap skips it');
+ok(errors.length === 0, 'console clean ' + errors.join('/'));
+await browser.close(); process.exit(fails ? 1 : 0);

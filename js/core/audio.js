@@ -147,8 +147,10 @@ function primeSpeech() {
 }
 
 /** Speak sentence by sentence with small pauses. Must be called from a tap on iOS. */
-export function speak(text, lang = S.lang, { rate = 0.9, pitch = 1.05, voice = null, gap = 260, onend = null } = {}) {
+let annUntil = 0;   // while the announcer is talking, nothing else may cut it off
+export function speak(text, lang = S.lang, { rate = 0.9, pitch = 1.05, voice = null, gap = 260, onend = null, announcer = false } = {}) {
   if (!('speechSynthesis' in window)) return false;
+  if (!announcer && Date.now() < annUntil) return false;
   try {
     speechSynthesis.cancel();
     const token = ++speakToken;
@@ -170,7 +172,7 @@ export function speak(text, lang = S.lang, { rate = 0.9, pitch = 1.05, voice = n
     return true;
   } catch { return false; }
 }
-export const stopSpeaking = () => { speakToken++; try { speechSynthesis.cancel(); } catch { /* ignore */ } };
+export const stopSpeaking = (force = false) => { if (!force && Date.now() < annUntil) return; speakToken++; try { speechSynthesis.cancel(); } catch { /* ignore */ } };
 
 // ---------- the funny announcer ----------
 addStrings({
@@ -199,17 +201,32 @@ function announcerVoice(lang) {
   return cands.find((v) => MALE.test(v.name.toLowerCase())) || cands[Math.floor(Math.random() * cands.length)] || main;
 }
 let annIdx = -1;
-/** Five-six bells, then the announcer (spoken + captioned). Call right after a tap. Muted = no bells, no voice. */
-export function announceMilestone(lang = S.lang) {
+const ANN_BELLS = () => { [N.C5, N.E5, N.G5, N.C6, N.E6, N.G6, N.C6, N.E6, N.G6, N.C6].forEach((n, i) => bell(n, i * 0.16, { dur: 0.9, gain: 0.2 })); };
+/** Winning bells, then a clear voice says what he can afford, then the funny announcer. Stays on screen until the talking is done (plus a moment). */
+export function announceMilestone(m, lang = S.lang) {
   const lines = t('annLines');
   annIdx = (annIdx + 1 + Math.floor(Math.random() * (lines.length - 1))) % lines.length;
   if (S.lastAnn == null) annIdx = 0;                          // the very first time is always Rob's line
   S.lastAnn = annIdx;
   const line = lines[annIdx];
-  sfx.fanfare();
-  const caption = () => document.dispatchEvent(new CustomEvent('lab:announcer', { detail: { text: line } }));
+  const kind = (m?.id || '').split(':')[0], what = (m?.id || '').split(':')[1];
+  const name = what && t('sn_' + what) !== 'sn_' + what ? t('sn_' + what) : '';
+  const head = kind === 'unlock' && name ? t('annEnoughOpen', { n: name }) : kind === 'season' && name ? t('annEnoughSeason', { n: name }) : kind === 'baseball' ? t('annEnoughBall') : t('annEnough');
+  ANN_BELLS();
+  const words = (head + ' ' + line).split(/\s+/).length;
+  const hold = Math.max(14000, words * 520 + 5000);           // long enough to hear all of it, even without a voice
+  annUntil = Date.now() + hold + 1500;
+  let doneTimer = 0;
+  const shownAt = Date.now() + 1900, minHold = Math.max(12000, words * 380);   // even if the voice fails or is muted, he gets time to read it
+  const finish = () => { clearTimeout(doneTimer); doneTimer = setTimeout(() => { annUntil = 0; document.dispatchEvent(new CustomEvent('lab:announcer-end')); }, Math.max(0, shownAt + minHold - Date.now()) + 3500); };
   setTimeout(() => {
-    caption();
-    if (S.sound && 'speechSynthesis' in window) speak(line, lang, { rate: 1.18, pitch: 1.55, voice: announcerVoice(lang), gap: 120 });
-  }, 1250);
+    document.dispatchEvent(new CustomEvent('lab:announcer', { detail: { head, text: line, hold: hold + 4000 } }));
+    if (S.sound && 'speechSynthesis' in window) {
+      const ok = speak(head, lang, { rate: 0.92, pitch: 1.1, announcer: true, gap: 200, onend: () => {
+        setTimeout(() => { if (!speak(line, lang, { rate: 1.1, pitch: 1.5, voice: announcerVoice(lang), gap: 120, announcer: true, onend: finish })) finish(); }, 500);
+      } });
+      if (!ok) finish();
+    } else finish();
+  }, 1900);
+  setTimeout(() => { if (annUntil && Date.now() > annUntil - 200) annUntil = 0; }, hold + 2000);
 }

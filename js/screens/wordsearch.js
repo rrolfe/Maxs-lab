@@ -1,6 +1,6 @@
 import { S, save, today, addPearls } from '../core/store.js';
 import { h, clear, shuffle, confetti, clamp, flyPoints } from '../core/dom.js';
-import { REWARD } from '../core/economy.js';
+import { REWARD, wsFinish } from '../core/economy.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
 import { go } from '../core/router.js';
@@ -13,7 +13,7 @@ addStrings({
   en: {
     wsFinishBonus: 'puzzle bonus +{n}', wsDailyNoPearls: 'Today’s puzzle already earned its pearls. Try a new theme for more!',
     wsTitle: 'Word Search', wsDaily: 'Today’s puzzle', wsDailyDone: 'Done today. Play again for fun!', wsPick: 'Pick a theme', wsTier: 'Size', wsPlayers: 'Players',
-    solo: 'Just me', race: 'Race with Dad', tierEasy: 'Easy 8×8', tierMed: 'Medium 10×10', tierHard: 'Hard 12×12', suggested: 'Ready for this',
+    solo: 'Just me', race: 'Race with Dad', tierEasy: 'Small 8×8', tierMed: 'Medium 10×10', tierHard: 'Big 12×12', wsDiff: 'Difficulty', diff1: 'Easy', diff1s: 'Words go across and down', diff2: 'Medium', diff2s: 'Across, down and diagonal', diff3: 'Tricky', diff3s: 'Backwards too! Extra pearls', extraTag: 'Extra pearls', suggested: 'Ready for this',
     wsTapFirst: 'Tap the FIRST letter of a word, or slide your finger across it.', wsTapLast: 'Now tap the LAST letter.', wsNope: 'Not one of our words yet. Try again!', wsAlready: 'You already found that one.',
     wsFound: 'Found {w}!', wsAllFound: 'You found every word!', wsPeek: 'Peek', newPuzzle: 'New puzzle', otherTheme: 'Other theme', letters: '{n} letters', mystery: 'Mystery word',
     turn: '{p}’s turn', maxP: 'Max', dadP: 'Dad', wins: '{p} wins!', tie: 'It’s a tie!', wsPromoted: 'Bigger puzzles are ready for you next time!', factsHead: 'Cool facts from this puzzle',
@@ -22,7 +22,7 @@ addStrings({
   es: {
     wsFinishBonus: 'bono del rompecabezas +{n}', wsDailyNoPearls: 'El rompecabezas de hoy ya ganó sus perlas. ¡Prueba otro tema para ganar más!',
     wsTitle: 'Sopa de letras', wsDaily: 'El reto de hoy', wsDailyDone: '¡Listo por hoy! Juega otra vez por diversión.', wsPick: 'Elige un tema', wsTier: 'Tamaño', wsPlayers: 'Jugadores',
-    solo: 'Solo yo', race: 'Carrera con Papá', tierEasy: 'Fácil 8×8', tierMed: 'Medio 10×10', tierHard: 'Difícil 12×12', suggested: 'Listo para esto',
+    solo: 'Solo yo', race: 'Carrera con Papá', tierEasy: 'Chica 8×8', tierMed: 'Mediana 10×10', tierHard: 'Grande 12×12', wsDiff: 'Dificultad', diff1: 'Fácil', diff1s: 'Palabras de lado y hacia abajo', diff2: 'Medio', diff2s: 'De lado, abajo y en diagonal', diff3: 'Difícil', diff3s: '¡También al revés! Más perlas', extraTag: 'Más perlas', suggested: 'Listo para esto',
     wsTapFirst: 'Toca la PRIMERA letra de una palabra, o desliza el dedo sobre ella.', wsTapLast: 'Ahora toca la ÚLTIMA letra.', wsNope: 'Todavía no es una de nuestras palabras. ¡Inténtalo otra vez!', wsAlready: 'Esa ya la encontraste.',
     wsFound: '¡Encontraste {w}!', wsAllFound: '¡Encontraste todas las palabras!', wsPeek: 'Pista', newPuzzle: 'Nueva sopa', otherTheme: 'Otro tema', letters: '{n} letras', mystery: 'Palabra misteriosa',
     turn: 'Turno de {p}', maxP: 'Max', dadP: 'Papá', wins: '¡{p} gana!', tie: '¡Empate!', wsPromoted: '¡La próxima vez te esperan sopas más grandes!', factsHead: 'Datos curiosos de esta sopa',
@@ -31,7 +31,8 @@ addStrings({
 });
 
 const TIER_KEYS = { 1: 'tierEasy', 2: 'tierMed', 3: 'tierHard' };
-const opt = { tier: null, players: 1 };
+const opt = { size: 2, diff: null, players: 1 };
+const DIFF_KEYS = { 1: 'diff1', 2: 'diff2', 3: 'diff3' };
 
 export async function mount(el, { parts, params }) {
   if (parts[0] === 'play') return play(el, params);
@@ -39,7 +40,7 @@ export async function mount(el, { parts, params }) {
 }
 
 async function menu(el) {
-  if (opt.tier == null) opt.tier = S.words.tier.ws || 1;
+  if (opt.diff == null) { opt.diff = S.words.tier.ws || 1; opt.size = 2; }
   const packs = await loadPacks();
   const daily = S.words.daily?.date === today();
   const seed = dailySeed(); const dp = packs[seed % packs.length];
@@ -49,14 +50,15 @@ async function menu(el) {
     const sug = S.words.tier.ws || 1;
     root.replaceChildren(
       h('div', { class: 'screen-head' }, h('h1', {}, t('wsTitle'))),
-      h('a', { class: 'continue', href: '#/words/play?daily=1&tier=2', style: { marginBottom: '22px' } },
+      h('a', { class: 'continue', href: '#/words/play?daily=1&size=2&diff=2', style: { marginBottom: '22px' } },
         h('div', { class: 'ci', style: { fontSize: '44px' } }, dp.icon), h('div', { class: 'ct' }, h('small', {}, t('wsDaily')), h('strong', {}, packName(dp)), h('small', {}, daily ? t('wsDailyDone') : '')),
         h('span', { class: 'btn gold' }, t('play'))),
       h('div', { class: 'optrow' },
-        h('div', {}, h('h3', {}, t('wsTier')), h('div', { class: 'row' }, [1, 2, 3].map((n) => h('button', { class: 'chip big' + (opt.tier === n ? ' on' : ''), 'aria-pressed': String(opt.tier === n), onclick: () => { opt.tier = n; draw(); } }, t(TIER_KEYS[n]), n === sug && sug > 1 ? h('span', { class: 'tag' }, t('suggested')) : null)))),
+        h('div', {}, h('h3', {}, t('wsTier')), h('div', { class: 'row' }, [1, 2, 3].map((n) => h('button', { class: 'chip big' + (opt.size === n ? ' on' : ''), 'aria-pressed': String(opt.size === n), onclick: () => { opt.size = n; draw(); } }, t(TIER_KEYS[n]))))),
+        h('div', {}, h('h3', {}, t('wsDiff')), h('div', { class: 'row' }, [1, 2, 3].map((n) => h('button', { class: 'chip big diffbtn' + (opt.diff === n ? ' on' : ''), 'aria-pressed': String(opt.diff === n), onclick: () => { opt.diff = n; draw(); } }, h('strong', {}, t(DIFF_KEYS[n])), h('small', {}, t(DIFF_KEYS[n] + 's')), n === 3 ? h('span', { class: 'tag' }, '★ ' + t('extraTag')) : null)))),
         h('div', {}, h('h3', {}, t('wsPlayers')), h('div', { class: 'row' }, [[1, 'solo'], [2, 'race']].map(([n, k]) => h('button', { class: 'chip big' + (opt.players === n ? ' on' : ''), 'aria-pressed': String(opt.players === n), onclick: () => { opt.players = n; draw(); } }, t(k)))))),
       h('h2', { style: { marginTop: '22px' } }, t('wsPick')),
-      h('div', { class: 'packs' }, packs.map((p) => h('a', { class: 'pack', href: `#/words/play?pack=${p.id}&tier=${opt.tier}&p=${opt.players}` }, h('span', { class: 'pe' }, p.icon), h('strong', {}, packName(p))))));
+      h('div', { class: 'packs' }, packs.map((p) => h('a', { class: 'pack', href: `#/words/play?pack=${p.id}&size=${opt.size}&diff=${opt.diff}&p=${opt.players}` }, h('span', { class: 'pe' }, p.icon), h('strong', {}, packName(p))))));
   }
   draw();
 }
@@ -64,22 +66,23 @@ async function menu(el) {
 async function play(el, params) {
   const packs = await loadPacks();
   const daily = params.daily === '1';
-  const tier = clamp(parseInt(params.tier || '1', 10), 1, 3);
+  const legacy = clamp(parseInt(params.tier || '1', 10), 1, 3);
+  const size = clamp(parseInt(params.size || legacy, 10), 1, 3), tier = clamp(parseInt(params.diff || legacy, 10), 1, 3);   // tier = difficulty
   const nPlayers = params.p === '2' ? 2 : 1;
   const seedBase = daily ? dailySeed() : Math.floor(Math.random() * 1e9);
   const pack = daily ? packs[seedBase % packs.length] : packs.find((p) => p.id === params.pack) || packs[0];
-  const cfg = SIZE_BY_TIER[tier];
+  const cfg = SIZE_BY_TIER[size];
   const words = packWords(pack);
   let puzzle = null, chosen = [];
   for (let k = 0; k < 60 && !puzzle; k++) {
     const r = rng(seedBase + k * 7919);
-    chosen = pickWords(words, cfg.words, { tiers: tier === 1 ? [1] : tier === 2 ? [2] : [2, 3], r, maxLen: tier === 1 ? 6 : tier === 2 ? 8 : 11, useHistory: !daily });
+    chosen = pickWords(words, cfg.words, { tiers: tier === 1 ? [1] : tier === 2 ? [2] : [2, 3], r, maxLen: Math.min(cfg.size - 1, tier === 1 ? 6 : tier === 2 ? 8 : 11), useHistory: !daily });
     if (chosen.length < cfg.words) chosen = pickWords(words, cfg.words, { tiers: [1, 2, 3], r, maxLen: cfg.size - 1, useHistory: false });
     puzzle = generate(chosen, { size: cfg.size, dirs: DIRS_BY_TIER[tier], r, lang: S.lang });
   }
   if (!puzzle) { el.append(h('p', {}, 'Could not make a puzzle. ', h('a', { href: '#/words' }, t('back')))); return; }
   const N = cfg.size;
-  const mysteryCount = tier === 3 ? 3 : 0;
+  const mysteryCount = tier === 3 && size > 1 ? size : 0;
   const mysteryKeys = new Set(puzzle.placed.filter((p) => p.word.len >= 6).slice(0, mysteryCount).map((p) => p.word.key));
   const found = new Map();           // key -> {cells, color, player}
   let anchor = null, preview = [], turn = 0, over = false;
@@ -102,7 +105,7 @@ async function play(el, params) {
       h('button', { class: 'btn ghost small', onclick: () => go('/words') }, t('otherTheme'))));
   const title = h('div', { class: 'screen-head' },
     h('button', { class: 'btn ghost icon', 'aria-label': t('back'), onclick: () => go('/words'), html: icons.back(34) }),
-    h('h1', {}, `${pack.icon} ${packName(pack)}`), h('span', { class: 'chip' }, t(TIER_KEYS[tier])), earns ? earnChip : null);
+    h('h1', {}, `${pack.icon} ${packName(pack)}`), h('span', { class: 'chip' }, t(TIER_KEYS[size]) + ' · ' + t(DIFF_KEYS[tier]) + (tier === 3 ? ' ★' : '')), earns ? earnChip : null);
   const fin = h('div', { class: 'wsfinish' });
   el.append(title, h('div', { class: 'wsplay' }, h('div', { class: 'wsleft' }, grid, msg), side), fin);
 
@@ -197,7 +200,7 @@ async function play(el, params) {
     if (nPlayers === 2) line = scores[0] === scores[1] ? t('tie') : t('wins', { p: scores[0] > scores[1] ? t('maxP') : t('dadP') });
     if (nPlayers === 1 || scores[0] >= scores[1]) promoted = recordWin('ws', tier);
     let bonus = 0;
-    if (earns && (nPlayers === 1 || scores[0] >= scores[1])) { const r = addPearls(REWARD.ws.finish[tier]); bonus = r.got; earned += r.got; updateEarn(); }
+    if (earns && (nPlayers === 1 || scores[0] >= scores[1])) { const r = addPearls(wsFinish(size, tier)); bonus = r.got; earned += r.got; updateEarn(); }
     if (daily) S.words.daily = { date: today(), done: true };
     save();
     const badges = awardBadges();

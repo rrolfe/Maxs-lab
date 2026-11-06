@@ -4,7 +4,7 @@ const PFX = 'mll2:v1:';
 const KEY = PFX + 'state';
 export const SCHEMA = 2;
 export const TOPICS = ['math', 'reading', 'words', 'science', 'world', 'logic'];
-import { DAILY_SOFT, DAILY_HARD, crossed } from './economy.js';
+import { DAILY_SOFT, DAILY_HARD, DAILY_LOSS_CAP, crossed } from './economy.js';
 export const DAILY_PEARL_CAP = DAILY_HARD;
 
 const fresh = () => ({
@@ -140,9 +140,11 @@ export function addPearls(n) {
 /** A wrong answer. Pearls never go below zero and the day's earned total never goes below zero. */
 export function losePearls(n) {
   n = Math.max(0, Math.round(n));
-  const lost = Math.min(n, S.pearls.balance);
   const d = day();
-  S.pearls.balance -= lost; d.pearls = Math.max(0, d.pearls - lost);
+  // gentle: never more than a quarter of what he holds in one miss (at least 1), and a small daily ceiling on losses
+  const room = Math.max(0, DAILY_LOSS_CAP - (d.lost || 0));
+  const lost = Math.min(n, room, S.pearls.balance, Math.max(1, Math.floor(S.pearls.balance / 4)));
+  S.pearls.balance -= lost; d.pearls = Math.max(0, d.pearls - lost); d.lost = (d.lost || 0) + lost;
   save();
   return lost;
 }

@@ -8,9 +8,13 @@ export const REWARD = {
   quiz: { easy: 3, at: 5, boss: 10, missionDone: 5, missionPerfect: 5, firstMissionToday: 15 },
   map: { right: 6, second: 3, stamp: 6, findRight: 3, findBonus: 5 },
   hero: { stamp: 6 },
-  ws: { word: { 1: 3, 2: 4, 3: 5 }, finish: { 1: 10, 2: 15, 3: 20 } },
+  // Word search: pay per word depends on DIFFICULTY (1 forward, 2 diagonals, 3 backwards too); the finish bonus on size and difficulty.
+  ws: { word: { 1: 3, 2: 4, 3: 6 }, finishBase: { 1: 8, 2: 12, 3: 16 }, finishMult: { 1: 1, 2: 1.25, 3: 1.75 } },
   hm: { win: { 1: 10, 2: 15, 3: 20 }, flawless: 5, loss: 3 },
 };
+
+/** Finish bonus for a word search of a given size (1-3) and difficulty (1-3). 8,12,16 / 10,15,20 / 14,21,28. */
+export const wsFinish = (size, diff) => Math.round(REWARD.ws.finishBase[size] * REWARD.ws.finishMult[diff]);
 
 // What things cost. unlock = one-time; season = a new season after the first (the unlock includes season 1).
 export const COST = {
@@ -29,9 +33,11 @@ export const DAILY_SOFT = 400;
 export const DAILY_HARD = 600;
 
 /** Guessing must lose: wrong picks cost pearls; second tries pay half. (EV of blind guessing is negative for 2, 3 and 4 options.) */
+export const MAX_MISS = 2;        // most pearls one wrong pick on a 3-4 choice question can cost
+export const DAILY_LOSS_CAP = 10; // most pearls Max can lose to wrong picks in one day (Rob: losing everything felt awful)
 export function penaltyFor(nOptions, base) {
   const n = nOptions || 4;
-  return n <= 2 ? Math.ceil(base * 1.2) : Math.ceil(base * 0.6);
+  return n <= 2 ? Math.min(base, 4) : Math.min(Math.ceil(base * 0.6), MAX_MISS);
 }
 /** Pearls for a correct answer after `wrong` misses. A 2-option question pays nothing on a second try (it is a sure thing). */
 export function payFor(nOptions, base, wrong) {

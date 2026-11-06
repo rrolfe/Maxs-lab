@@ -26,7 +26,7 @@ const goto = async (h) => { await page.evaluate(() => { location.hash = '#/home'
     st.S.pearls = { balance: 3, earned: 3, spent: 0 }; st.day().pearls = 3;
     const lost = st.losePearls(10); return { lost, bal: st.S.pearls.balance, d: st.day().pearls };
   });
-  ok(r.lost === 3 && r.bal === 0 && r.d === 0, `loss floors at zero (${JSON.stringify(r)})`);
+  ok(r.lost === 1 && r.bal === 2 && r.d === 2, `a miss costs at most a quarter of the balance (min 1) (${JSON.stringify(r)})`);
   await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.S.pearls = { balance: 0, earned: 0, spent: 0 }; st.day().pearls = 0; });
 }
 
@@ -67,7 +67,9 @@ const answerQ = async (wrongOnPurpose = false) => {
   const after = await pearls(page);
   ok(after < before, `wrong pick subtracts (${type}: ${before} -> ${after})`);
   await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.losePearls(100000); });
-  ok((await pearls(page)) === 0, 'balance cannot go negative');
+  for (let i = 0; i < 30; i++) await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.losePearls(100000); });
+  ok((await pearls(page)) >= 0, 'balance cannot go negative');
+  { const lostToday = await page.evaluate(async () => { const st = await import('./js/core/store.js'); return st.day().lost; }); ok(lostToday <= 10, 'daily loss cap holds (' + lostToday + ')'); }
 }
 // 3. word search: solve every word via tap-tap
 {
