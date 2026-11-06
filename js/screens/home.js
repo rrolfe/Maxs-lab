@@ -30,6 +30,7 @@ export function mount(el) {
     ['hangman', 'hangman', t('tileHangman'), t('tileHangmanSub'), '/hangman'],
     ['quiz', 'quiz', t('tileQuiz'), t('tileQuizSub'), '/quiz'],
     ['stands', 'stands', t('tileStands'), t('tileStandsSub'), '/stands', open ? t('standsBadge', { n: open }) : ''],
+    ['ball', 'ballpark', t('tileBall'), t('tileBallSub'), '/baseball'],
     ['world', 'world', t('tileWorld'), t('tileWorldSub'), '/world'],
     ['passport', 'passport', t('tilePassport'), t('tilePassportSub'), '/passport', stampCount() ? t('stampsBadge', { n: stampCount() }) : ''],
   ].map(([k, ic, title, sub, to, badge]) =>

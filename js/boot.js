@@ -16,6 +16,7 @@ route('/home', () => import('./screens/home.js'));
 route('/quiz', () => import('./screens/quiz.js'));
 route('/words', () => import('./screens/wordsearch.js'));
 route('/hangman', () => import('./screens/hangman.js'));
+route('/baseball', () => import('./screens/baseball.js'));
 route('/stands', () => import('./screens/stands.js'));
 route('/world', () => import('./screens/world.js'));
 route('/passport', () => import('./screens/passport.js'));

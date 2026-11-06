@@ -1,0 +1,55 @@
+/* ---------- Max's Ballpark ---------- */
+.bb { max-width: 1180px; margin: 0 auto; }
+.bbmenu { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; align-items: start; }
+@media (orientation: portrait) { .bbmenu { grid-template-columns: 1fr; } }
+.oppgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 8px; }
+.oppcard { all: unset; box-sizing: border-box; cursor: pointer; min-height: 96px; padding: 10px 12px; border: 3px solid var(--ink); border-radius: 12px; background: var(--surface); box-shadow: 0 4px 0 var(--ink); display: flex; flex-direction: column; gap: 4px; font-weight: 700; font-size: 20px; }
+.oppcard small { font-weight: 600; color: var(--muted); font-size: 16px; }
+.oppcard.on { background: var(--gold); color: #10303B; } .oppcard.on small { color: #10303B; }
+.oppcard:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+.how { margin: 8px 0 0; padding-left: 26px; font-size: 21px; line-height: 1.4; }
+.gstats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.gstats > div { flex: 1 1 90px; text-align: center; background: var(--panel); border: 2.5px solid var(--ink); border-radius: 10px; padding: 6px 8px; }
+.gstats small { display: block; font-size: 15px; color: var(--muted); } .gstats b { font-size: 26px; }
+.scoreboard { padding: 8px 14px; margin-bottom: 14px; overflow-x: auto; }
+.scoreboard table { border-collapse: collapse; width: 100%; font-size: 20px; text-align: center; }
+.scoreboard th, .scoreboard td { padding: 4px 8px; border-bottom: 1.5px solid var(--line); }
+.scoreboard th:first-child, .scoreboard td:first-child { text-align: left; font-weight: 800; }
+.scoreboard .tot { font-weight: 800; background: var(--panel); }
+.bbgrid { display: grid; grid-template-columns: minmax(300px, 5fr) 6fr; gap: 18px; align-items: start; }
+@media (orientation: portrait) { .bbgrid { grid-template-columns: 1fr; } }
+.bbleft { display: flex; flex-direction: column; gap: 10px; }
+.bbfield { position: relative; border: 3px solid var(--ink); border-radius: 12px; overflow: hidden; background: #BFE6C3; box-shadow: 0 4px 0 var(--ink); }
+:root[data-theme="night"] .bbfield { filter: brightness(.7); }
+.bbfield svg { display: block; width: 100%; height: auto; max-height: 52vh; }
+@media (orientation: portrait) { .bbfield svg { max-height: 32vh; } }
+.bbbanner { position: absolute; inset: 0; display: grid; place-items: center; font: 400 56px/1 var(--font-display); color: #10303B; text-shadow: 0 3px 0 #FFD166, 0 -2px 0 #fff; pointer-events: none; text-align: center; }
+.bbinfo { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.bbinfo .ib b { font-size: 24px; display: block; } .bbinfo small { font-size: 17px; }
+.counts { display: flex; gap: 16px; } .counts > div { display: flex; flex-direction: column; gap: 2px; } .counts span { display: inline-flex; gap: 5px; }
+.dot { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid var(--ink); background: var(--surface); display: inline-block; }
+.dot.ball.on { background: #2F6FDB; } .dot.strike.on { background: var(--coral); } .dot.out.on { background: #10303B; }
+:root[data-theme="night"] .dot.out.on { background: #fff; }
+.bbright { display: flex; flex-direction: column; gap: 12px; }
+.bbmsg { min-height: 52px; font: 700 24px/1.25 var(--font); }
+.bbmsg.good { color: var(--success); } .bbmsg.bad { color: var(--try); }
+.bbpanel h3 { margin: 0 0 10px; font-size: 24px; }
+.swings { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 12px; }
+.swingbtn { all: unset; box-sizing: border-box; cursor: pointer; min-height: 84px; padding: 8px 14px; border: 3px solid var(--ink); border-radius: 12px; background: var(--surface); box-shadow: 0 4px 0 var(--ink); display: flex; flex-direction: column; justify-content: center; font-weight: 800; font-size: 24px; }
+.swingbtn small { font-weight: 600; font-size: 16px; color: var(--muted); }
+.swingbtn.s1 { background: #E1F3FF; } .swingbtn.s2 { background: #D9F5E5; } .swingbtn.s3 { background: #FFF1C4; } .swingbtn.s4 { background: #FFD9C8; }
+:root[data-theme="night"] .swingbtn { background: var(--surface); }
+.swingbtn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+.waitbtn { width: 100%; min-height: 72px; flex-direction: column; align-items: flex-start; }
+.bbopts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; }
+.bbopts.long { grid-template-columns: 1fr; }
+.bbopts .ans { min-height: 72px; font-size: 24px; }
+.bbopts .ans.right { background: color-mix(in srgb, var(--success) 25%, var(--surface)); }
+.bbopts .ans.try { background: color-mix(in srgb, var(--try) 22%, var(--surface)); opacity: .75; }
+.swingnow { width: 100%; min-height: 120px; font-size: 38px; }
+.ans[disabled] { cursor: default; }
+@media (orientation: landscape) and (max-height: 700px) { .bbfield svg { max-height: 46vh; } .bbmsg { font-size: 21px; min-height: 40px; } }
+.bbfield .ball-g { transition: none; }
+@media (prefers-reduced-motion: reduce) { .bbbanner { transition: none; } }
+.bbmenu .btn.go { width: 100%; justify-content: center; margin-top: 14px; }
+.bbmenu .muted.small { margin-top: 12px; }
