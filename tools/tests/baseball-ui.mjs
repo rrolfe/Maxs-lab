@@ -35,6 +35,7 @@ while (guard++ < 1500) {
   if (await sn.count()) { if (!shotDone.s) { await w(500); await shot(page, `bb-swing-${lang}-${device}-${theme}`); shotDone.s = 1; await w(350); } else await w(850); await sn.click().catch(() => {}); await w(300); continue; }
   const nx = page.locator('.bbpanel .btn.gold:not(.swingnow), .bbpanel .btn.alt');
   if (await nx.count()) { if (!shotDone.r) { await shot(page, `bb-result-${lang}-${device}-${theme}`); shotDone.r = 1; } await nx.first().click(); await w(300); continue; }
+  if (guard % 40 === 0) console.log('idle', guard, (await page.locator('.bb').innerText()).replace(/\n/g,' | ').slice(-250));
   await w(300);
 }
 if (!(await page.$('.summary'))) console.log((await page.locator('.bbpanel').innerText()).slice(0,300), JSON.stringify(await page.evaluate(() => window.__lab.S.baseball.cur)).slice(0,400));
