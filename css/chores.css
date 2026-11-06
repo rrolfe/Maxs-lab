@@ -1,0 +1,19 @@
+/* ---------- Home Jobs ---------- */
+.chores { max-width: 1100px; margin: 0 auto; }
+.chgrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 14px 0; }
+@media (orientation: portrait) { .chgrid { grid-template-columns: 1fr; } }
+.chcard { all: unset; box-sizing: border-box; cursor: pointer; display: grid; grid-template-columns: 64px 1fr auto; align-items: center; gap: 14px; min-height: 96px; padding: 12px 18px; border: 3px solid var(--ink); border-radius: 14px; background: var(--surface); box-shadow: 0 4px 0 var(--ink); font: 700 23px/1.25 var(--font); }
+.chcard:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+.chcard .che { font-size: 44px; text-align: center; }
+.chpts { font: 400 30px var(--font-display); background: var(--gold); color: #10303B; border: 2.5px solid var(--ink); border-radius: 99px; padding: 4px 16px; white-space: nowrap; }
+.chcard.done { opacity: .6; box-shadow: none; cursor: default; }
+.chcard.done .chpts { background: var(--panel); color: var(--ink); font-size: 20px; }
+.chdetail { max-width: 720px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: stretch; }
+.chdetail .che.big { font-size: 72px; }
+.chdetail h2 { margin: 0; font-size: 30px; }
+.chbig { font: 400 36px var(--font-display); margin: 0; }
+.chdetail .btn.go { min-height: 88px; font-size: 28px; }
+.edrow { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1.5px solid var(--line); }
+.edrow .chname { flex: 1; font-weight: 700; font-size: 20px; }
+.edrow b { min-width: 36px; text-align: center; font-size: 24px; }
+:root[data-theme="night"] .chpts { color: #1A1330; }

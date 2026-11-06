@@ -25,12 +25,14 @@ export function mount(el) {
     h('span', { class: 'btn gold' }, t('startMission')));
 
   const open = Object.values(S.unlocked).filter(Boolean).length;
+  const choreBadge = 0;
   const tiles = [
     ['words', 'wordsearch', t('tileWords'), t('tileWordsSub'), '/words'],
     ['hangman', 'hangman', t('tileHangman'), t('tileHangmanSub'), '/hangman'],
     ['quiz', 'quiz', t('tileQuiz'), t('tileQuizSub'), '/quiz'],
     ['stands', 'stands', t('tileStands'), t('tileStandsSub'), '/stands', open ? t('standsBadge', { n: open }) : ''],
     ['ball', 'ballpark', t('tileBall'), t('tileBallSub'), '/baseball'],
+    ['chores', 'chores', t('tileChores'), t('tileChoresSub'), '/chores', choreBadge ? t('choreBadge', { n: choreBadge }) : ''],
     ['world', 'world', t('tileWorld'), t('tileWorldSub'), '/world'],
     ['passport', 'passport', t('tilePassport'), t('tilePassportSub'), '/passport', stampCount() ? t('stampsBadge', { n: stampCount() }) : ''],
   ].map(([k, ic, title, sub, to, badge]) =>

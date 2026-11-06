@@ -17,6 +17,7 @@ route('/quiz', () => import('./screens/quiz.js'));
 route('/words', () => import('./screens/wordsearch.js'));
 route('/hangman', () => import('./screens/hangman.js'));
 route('/baseball', () => import('./screens/baseball.js'));
+route('/chores', () => import('./screens/chores.js'));
 route('/stands', () => import('./screens/stands.js'));
 route('/world', () => import('./screens/world.js'));
 route('/passport', () => import('./screens/passport.js'));
@@ -66,7 +67,7 @@ export function refreshHud() {
 
 // ---------- gentle limits: nudge at 20 min, sunset at the limit (30 min by default), bedtime wind-down ----------
 let nudged = false, lastRest = 0, sunsetEl = null;
-const ALLOW = ['/home', '/grownup', '/passport', '/credits'];
+const ALLOW = ['/home', '/grownup', '/passport', '/credits', '/chores'];
 function pastBedtime() {
   const [bh, bm] = (S.settings.bedtime || '19:30').split(':').map(Number);
   const now = new Date(); return !!S.settings.bedtime && now.getHours() * 60 + now.getMinutes() >= bh * 60 + bm && now.getHours() >= 12;

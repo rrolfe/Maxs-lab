@@ -102,7 +102,7 @@ a { color: var(--teal); }
 .continue .ct small { display: block; opacity: .8; font-size: 18px; }
 .continue .ct strong { font: 400 28px/1.2 var(--font-display); display: block; }
 .hub { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-@media (orientation: portrait) { .hub { grid-template-columns: repeat(2, 1fr); } .tile[data-k="ball"] { grid-column: 1 / -1; } }
+@media (orientation: portrait) { .hub { grid-template-columns: repeat(2, 1fr); } }
 .tile {
   all: unset; box-sizing: border-box; cursor: pointer; position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap: 4px;
   min-height: 200px; padding: 112px 20px 20px; border: 3px solid var(--ink); border-radius: 14px; background: var(--surface); box-shadow: 0 5px 0 var(--ink);
@@ -115,7 +115,7 @@ a { color: var(--teal); }
 .tile strong { position: relative; font: 400 28px/1.15 var(--font-display); }
 .tile span.sub { position: relative; color: var(--muted); font-size: 19px; line-height: 1.3; }
 .tile[data-k="words"] { --tc: #CFE8FF; } .tile[data-k="hangman"] { --tc: #E3DAFF; } .tile[data-k="quiz"] { --tc: #FFE6A8; }
-.tile[data-k="stands"] { --tc: #FFD2BF; } .tile[data-k="ball"] { --tc: #C9F0C0; } .tile[data-k="world"] { --tc: #BFE9E2; } .tile[data-k="passport"] { --tc: #D9D4C8; }
+.tile[data-k="stands"] { --tc: #FFD2BF; } .tile[data-k="ball"] { --tc: #C9F0C0; } .tile[data-k="chores"] { --tc: #F7D6E6; } .tile[data-k="world"] { --tc: #BFE9E2; } .tile[data-k="passport"] { --tc: #D9D4C8; }
 :root[data-theme="night"] .tile::before { filter: saturate(.6) brightness(.55); }
 .gear { position: fixed; right: calc(var(--sar) + 14px); bottom: calc(var(--sab) + 14px); z-index: 15; width: 72px; height: 72px; border-radius: 50%; border: 3px solid var(--ink); background: var(--surface); display: grid; place-items: center; cursor: pointer; box-shadow: 0 3px 0 var(--ink); opacity: .85; }
 .gear .ico { width: 40px; height: 40px; }

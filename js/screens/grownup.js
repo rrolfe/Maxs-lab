@@ -22,7 +22,7 @@ addStrings({
     gQs: 'Your own questions', gQsNote: 'These mix into Max’s missions now and then. Add one right answer and up to three wrong ones.', gQ: 'Question', gRight: 'Right answer', gW1: 'Wrong answer', gW2: 'Another wrong answer (optional)', gW3: 'One more (optional)', gWhy: 'Why it is right (optional)', gAdd: 'Add question', gDelete: 'Delete', gQNeed: 'Add a question, a right answer and one wrong answer.', gQAdded: 'Added!',
     gBackup: 'Backup and reset', gBackupNote: 'Save a copy so progress is safe if the browser is cleared or you switch iPads.', gExport: 'Save a backup file', gImportB: 'Restore from a backup file', gLast: 'Last backup: {d}', gNever: 'never', gImported: 'Backup restored.', gImportBad: 'That file did not work.', gMerge: 'Combine with current progress', gReplace: 'Replace current progress',
     gReset: 'Erase all progress', gResetAsk: 'This erases pearls, stamps, levels and settings on this device. Type ERASE to confirm.', gErased: 'Everything was erased.',
-    gSecurity: 'PIN and about', gSetPin: 'Set a passcode', gChangePin: 'Change passcode', gRemovePin: 'Remove passcode', gPinNew: 'New passcode (4 to 6 digits)', gPinSet: 'Passcode saved.', gPinRemoved: 'Passcode removed.', gPinNote: 'Optional. Without a PIN, pressing and holding the gear for 3 seconds is the only gate.',
+    gChoreCode: 'Chore code (grown-ups type this to approve chores)', gChoreSet: 'Save chore code', gChoreSaved: 'Chore code saved.', gSecurity: 'PIN and about', gSetPin: 'Set a passcode', gChangePin: 'Change passcode', gRemovePin: 'Remove passcode', gPinNew: 'New passcode (4 to 6 digits)', gPinSet: 'Passcode saved.', gPinRemoved: 'Passcode removed.', gPinNote: 'Optional. Without a PIN, pressing and holding the gear for 3 seconds is the only gate.',
     gCredits: 'Photo and map credits', gVersion: 'Max’s Lab · version 1.0',
   },
   es: {
@@ -39,7 +39,7 @@ addStrings({
     gQs: 'Tus propias preguntas', gQsNote: 'Se mezclan de vez en cuando en las misiones de Max. Agrega una respuesta correcta y hasta tres incorrectas.', gQ: 'Pregunta', gRight: 'Respuesta correcta', gW1: 'Respuesta incorrecta', gW2: 'Otra incorrecta (opcional)', gW3: 'Una más (opcional)', gWhy: 'Por qué es correcta (opcional)', gAdd: 'Agregar pregunta', gDelete: 'Borrar', gQNeed: 'Agrega una pregunta, una respuesta correcta y una incorrecta.', gQAdded: '¡Agregada!',
     gBackup: 'Copia de seguridad y borrado', gBackupNote: 'Guarda una copia para no perder el progreso si se borra el navegador o cambias de iPad.', gExport: 'Guardar archivo de respaldo', gImportB: 'Restaurar desde un archivo', gLast: 'Última copia: {d}', gNever: 'nunca', gImported: 'Copia restaurada.', gImportBad: 'Ese archivo no funcionó.', gMerge: 'Combinar con el progreso actual', gReplace: 'Reemplazar el progreso actual',
     gReset: 'Borrar todo el progreso', gResetAsk: 'Esto borra perlas, sellos, niveles y ajustes en este dispositivo. Escribe BORRAR para confirmar.', gErased: 'Se borró todo.',
-    gSecurity: 'PIN e información', gSetPin: 'Crear un código', gChangePin: 'Cambiar código', gRemovePin: 'Quitar código', gPinNew: 'Nuevo código (4 a 6 dígitos)', gPinSet: 'Código guardado.', gPinRemoved: 'Código eliminado.', gPinNote: 'Opcional. Sin PIN, mantener presionado el engranaje 3 segundos es la única puerta.',
+    gChoreCode: 'Código de quehaceres (los adultos lo escriben para aprobar)', gChoreSet: 'Guardar código', gChoreSaved: 'Código guardado.', gSecurity: 'PIN e información', gSetPin: 'Crear un código', gChangePin: 'Cambiar código', gRemovePin: 'Quitar código', gPinNew: 'Nuevo código (4 a 6 dígitos)', gPinSet: 'Código guardado.', gPinRemoved: 'Código eliminado.', gPinNote: 'Opcional. Sin PIN, mantener presionado el engranaje 3 segundos es la única puerta.',
     gCredits: 'Créditos de fotos y mapas', gVersion: 'El Laboratorio de Max · versión 1.0',
   },
 });
@@ -60,13 +60,23 @@ export function askGate(title) {
     document.body.append(ov);
   });
 }
+export const CHORE_CODE_DEFAULT = '1234';   // Rob asked for an easy chore code; changeable in the Grown-up corner
+const choreOk = async (v) => v === (S.settings.choreCode || CHORE_CODE_DEFAULT) || (!!S.settings.pinHash && (await pinOk(v)));
+/** The chore check: a grown-up types the chore code (or their passcode). Resolves true / false. */
+export function askChoreCode(title) {
+  return new Promise((resolve) => {
+    const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true', style: { zIndex: 120 } });
+    ov.append(pad(title, (ok) => { ov.remove(); resolve(ok); }, () => { ov.remove(); resolve(false); }, choreOk));
+    document.body.append(ov);
+  });
+}
 /** PIN pad: 4 to 6 digits, press the check key to enter. */
-function pad(title, done, cancel) {
+function pad(title, done, cancel, check = pinOk) {
   let val = ''; const dots = h('div', { class: 'pdots', 'aria-hidden': 'true' }), msg = h('p', { class: 'qmsg', role: 'status' });
   const draw = () => dots.replaceChildren(...Array.from({ length: Math.max(4, val.length) }, (_, i) => h('i', { class: i < val.length ? 'on' : '' })));
   const submit = async () => {
     if (val.length < 4) return;
-    if (await pinOk(val)) done(true); else { msg.textContent = t('gPinWrong'); val = ''; draw(); }
+    if (await check(val)) done(true); else { msg.textContent = t('gPinWrong'); val = ''; draw(); }
   };
   const press = (d) => { if (val.length >= 6) return; val += d; draw(); msg.textContent = ''; };
   const keys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '⌫', '0', '✓'].map((k) => h('button', { class: 'key' + (k === '✓' ? ' go' : ''), 'aria-label': k === '✓' ? t('gEnter') : k === '⌫' ? 'Delete' : k, onclick: () => { if (k === '⌫') { val = val.slice(0, -1); draw(); } else if (k === '✓') submit(); else press(k); } }, k));
@@ -197,7 +207,9 @@ async function build(root) {
     if (!/^\d{4,6}$/.test(pinIn.value)) { toast(t('gPinNew')); return; }
     const salt = Math.random().toString(36).slice(2); S.settings.pinSalt = salt; S.settings.pinHash = await sha(salt + pinIn.value); save(); pinIn.value = ''; toast(t('gPinSet')); unlocked = true;
   };
-  const sec = section(t('gSecurity'), h('p', { class: 'muted small' }, t('gPinNote')), h('p', { class: 'chip on' }, t('gPinTip')), field(t('gPinNew'), pinIn), h('div', { class: 'row' }, h('button', { class: 'btn small', onclick: setPin }, S.settings.pinHash ? t('gChangePin') : t('gSetPin')),
+  const choreIn = textin({ type: 'text', inputmode: 'numeric', maxlength: 6, pattern: '[0-9]*', placeholder: S.settings.choreCode || CHORE_CODE_DEFAULT, autocomplete: 'off' });
+  const setChore = () => { if (!/^\d{4,6}$/.test(choreIn.value)) { toast(t('gPinNew')); return; } S.settings.choreCode = choreIn.value; save(); choreIn.value = ''; toast(t('gChoreSaved')); };
+  const sec = section(t('gSecurity'), field(t('gChoreCode'), choreIn), h('div', { class: 'row' }, h('button', { class: 'btn small', onclick: setChore }, t('gChoreSet'))), h('p', { class: 'muted small' }, t('gPinNote')), h('p', { class: 'chip on' }, t('gPinTip')), field(t('gPinNew'), pinIn), h('div', { class: 'row' }, h('button', { class: 'btn small', onclick: setPin }, S.settings.pinHash ? t('gChangePin') : t('gSetPin')),
     S.settings.pinHash ? h('button', { class: 'btn ghost small', onclick: () => { S.settings.pinHash = null; S.settings.pinSalt = null; save(); toast(t('gPinRemoved')); } }, t('gRemovePin')) : null),
     h('p', {}, h('a', { href: '#/credits' }, t('gCredits'))), h('small', { class: 'muted' }, t('gVersion')));
 

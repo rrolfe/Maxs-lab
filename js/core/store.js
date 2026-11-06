@@ -29,6 +29,7 @@ const fresh = () => ({
   settings: { pinHash: null, pinSalt: null, voice: { en: '', es: '' }, extraMin: { day: '', min: 0 }, dailyLimit: 30, bedtime: '19:30', offset: 0, home: null, mapKey: '', familyNotes: {}, customQs: [], lastBackup: 0 },
   mission: { lastDay: '', done: 0 },
   baseball: { games: 0, wins: 0, bestRuns: 0, hr: 0, hits: 0, k: 0, last: null },
+  chores: { done: {}, pts: {}, hidden: {}, custom: [], total: 0 },   // done[day][id]=times; pts overrides; hidden = removed built-ins
   mil: {},              // milestone id -> last day the announcer played
 });
 
@@ -136,6 +137,16 @@ export function addPearls(n) {
   const m = got ? crossed(S, before, S.pearls.balance) : null;
   if (m && milestoneHook && S.mil[m.id] !== today()) { S.mil[m.id] = today(); try { milestoneHook(m); } catch (e) { console.error(e); } }
   return { got, capped: got < n, full: d.pearls >= DAILY_HARD };
+}
+/** Pearls for a real-life chore a grown-up has approved. Not subject to the daily taper (it is not screen time). */
+export function awardChore(n) {
+  n = Math.max(0, Math.round(n));
+  const before = S.pearls.balance, d = day();
+  S.pearls.balance += n; S.pearls.earned += n; d.chore = (d.chore || 0) + n; S.chores.total = (S.chores.total || 0) + n;
+  save();
+  const m = n ? crossed(S, before, S.pearls.balance) : null;
+  if (m && milestoneHook && S.mil[m.id] !== today()) { S.mil[m.id] = today(); try { milestoneHook(m); } catch (e) { console.error(e); } }
+  return n;
 }
 /** A wrong answer. Pearls never go below zero and the day's earned total never goes below zero. */
 export function losePearls(n) {

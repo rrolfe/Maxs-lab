@@ -96,7 +96,7 @@ const answerQ = async (wrongOnPurpose = false) => {
   for (const hit of sol) { if (!hit) continue; for (const i of hit) { await page.locator(`.wcell[data-i="${i}"]`).click(); } n++; await wait(120); }
   await wait(500);
   const bal = await pearls(page);
-  ok(n >= 4 && bal >= n * 3 + 10, `word search pays per word + bonus (${n} words, ${bal} pearls)`);
+  ok(n >= 4 && bal >= n * 3 + 8, `word search pays per word + bonus (${n} words, ${bal} pearls)`);
 }
 // 4. hangman, every pack: lose one word on purpose and check pearls; win one
 {

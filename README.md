@@ -37,11 +37,12 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | New place stamp | +6 |
 | Find-it right / bonus for 4+ right | 3 / +5 |
 | Hero question stamp | 6 |
-| Word Search per word (levels 1-3) | 3 / 4 / 5, plus finish bonus 10 / 15 / 20 |
+| Word Search: choose size (8, 10, 12) and difficulty (Easy: across/down, Medium: + diagonals, Tricky: backwards too) | per word 3 / 4 / 6; finish bonus 8-16 (Easy), 10-20 (Medium), 14-28 (Tricky) by size |
+| Home Jobs (real chores, a grown-up types the chore code) | Feed Perla 3, toys 5, poop 10, clothes 5, flowers 5; once a day each; not limited by the daily cap |
 | Hangman win (levels 1-3) | 10 / 15 / 20, +5 flawless; a loss still gives 3 |
 | Baseball questions | none (they power the swing) |
 
-**Wrong picks cost pearls:** about 0.6 of the question's value (1.2 on two-choice questions). Pearls never drop below 0. A short buzzer plays; a gentle note plays for word-search and find-it misses. This was Rob's choice; child-development educators generally advise against point loss for this age.
+**Wrong picks cost pearls, gently:** at most 2 per miss on 3-4 choice questions (up to 4 on true/false), never more than a quarter of what Max holds at that moment (minimum 1), and at most 10 lost per day in total. Pearls never drop below 0. A short buzzer plays; a gentle note plays for word-search and find-it misses. This was Rob's choice; child-development educators generally advise against point loss for this age.
 
 **Daily taper:** full rate until 400 pearls earned in a day, half rate to 600, then nothing more. It counts earned pearls, so spending never re-opens it.
 
@@ -55,6 +56,10 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | Baseball, 3 innings / 6 innings | 150 / 270 | ~12 / ~22 |
 
 Stands run 10-day seasons with upgrade trees. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
+
+## Home Jobs code
+
+The chore check uses the code **1234** by default (Rob's choice, for easy approval while he is nearby). Change it in the Grown-up corner under *PIN and about*. The grown-up passcode, if set, also works. A grown-up can add, remove or re-price jobs from the Home Jobs screen.
 
 ## Grown-up passcode and limits
 
