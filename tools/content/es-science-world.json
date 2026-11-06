@@ -1,0 +1,2514 @@
+[
+ {
+  "id": "cie-1-001",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cómo respiran los tiburones bajo el agua?",
+  "opts": [
+   "Con branquias",
+   "Con pulmones",
+   "Con la nariz"
+  ],
+  "a": 0,
+  "why": "Las branquias sacan el oxígeno que hay en el agua. Los delfines sí usan pulmones y suben a respirar aire.",
+  "hint": "Piensa en cómo respiran los peces.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-002",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Los dinosaurios nacían de huevos.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los dinosaurios ponían huevos, igual que las aves de hoy, que son sus parientes.",
+  "hint": "Piensa en cómo nace una gallina.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-003",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena estos planetas, del más cercano al Sol al más lejano.",
+  "opts": [
+   "Tierra",
+   "Marte",
+   "Júpiter"
+  ],
+  "why": "Primero está nuestro planeta, luego Marte y después Júpiter, un gigante que queda mucho más lejos del Sol.",
+  "hint": "Empieza por el planeta donde vives.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-004",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos animales marinos es un mamífero?",
+  "opts": [
+   "El pulpo",
+   "El delfín",
+   "El tiburón"
+  ],
+  "a": 1,
+  "why": "Los delfines respiran aire y alimentan a sus crías con leche. Los tiburones y los pulpos no.",
+  "hint": "Los mamíferos toman leche cuando son bebés.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-005",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "El corazón es un músculo que bombea sangre por todo tu cuerpo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Cada latido empuja la sangre a todas partes. Es un músculo que trabaja día y noche.",
+  "hint": "Ponte la mano en el pecho y siente los latidos.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NIH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-006",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué parte de una planta absorbe el agua del suelo?",
+  "opts": [
+   "Las hojas",
+   "Las flores",
+   "Las raíces"
+  ],
+  "a": 2,
+  "why": "Las raíces beben el agua que hay en la tierra. Las hojas, en cambio, atrapan la luz del Sol.",
+  "hint": "Es la parte que crece bajo la tierra.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-LS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-007",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Un jugador lanza una pelota de béisbol hacia arriba. ¿Qué fuerza la hace caer?",
+  "opts": [
+   "El viento",
+   "La gravedad",
+   "El sonido"
+  ],
+  "a": 1,
+  "why": "La gravedad jala todo hacia el centro de la Tierra. El viento puede mover la pelota, pero no siempre la hace caer.",
+  "hint": "Es la fuerza que te mantiene pegado al suelo.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS K-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-008",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "El Sol es un planeta.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "El Sol es una estrella. Los planetas, como la Tierra, no producen su propia luz.",
+  "hint": "Piensa en lo que brilla solo, como las estrellas de noche.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-009",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos animales marinos tiene ocho brazos?",
+  "opts": [
+   "El pulpo",
+   "El delfín",
+   "La tortuga marina"
+  ],
+  "a": 0,
+  "why": "El pulpo tiene ocho brazos con ventosas. Los delfines y las tortugas marinas nadan con aletas.",
+  "hint": "Imagina cada animal y cuenta cuántos brazos tiene.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-1-010",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena cómo crece una mariposa, de primero a último.",
+  "opts": [
+   "Huevo",
+   "Oruga",
+   "Crisálida",
+   "Mariposa"
+  ],
+  "why": "Del huevo sale una oruga que come y crece. Luego se encierra en una crisálida y sale convertida en mariposa.",
+  "hint": "Una oruga no vuela; una mariposa sí.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-001",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estos tiburones es enorme, pero se alimenta filtrando plancton diminuto?",
+  "opts": [
+   "El tiburón blanco",
+   "El tiburón martillo",
+   "El tiburón ballena"
+  ],
+  "a": 2,
+  "why": "Abre su enorme boca y filtra plancton. El tiburón blanco, en cambio, usa sus dientes para atrapar presas.",
+  "hint": "Pregúntate cuál de ellos no necesita dientes grandes para comer.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-002",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "El Tyrannosaurus rex vivió en la misma época que las primeras personas.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Los dinosaurios (menos las aves) desaparecieron hace unos 66 millones de años. Las personas aparecieron muchísimo después.",
+  "hint": "Piensa en cuánto tiempo hace que no hay dinosaurios.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-003",
+  "topic": "science",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena estos animales marinos del más pequeño al más grande.",
+  "opts": [
+   "Sardina",
+   "Tiburón blanco",
+   "Ballena azul"
+  ],
+  "why": "Una sardina cabe en tu mano. El tiburón blanco mide varios metros, pero la ballena azul es muchísimo más grande.",
+  "hint": "Piensa en cuál cabe en tu mano.",
+  "tags": [
+   "ocean",
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-004",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estos cambios se puede deshacer enfriando?",
+  "opts": [
+   "Un pan que se tostó",
+   "Un hielo que se derritió",
+   "Un huevo que se cocinó"
+  ],
+  "a": 1,
+  "why": "Al enfriar el agua, vuelve a ser hielo. Un pan tostado o un huevo cocinado no vuelven a ser como antes.",
+  "hint": "Piensa en cuál puedes volver a poner en el congelador.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 2-PS1-4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-005",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Los huesos de tu cuerpo están vivos.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los huesos son tejido vivo: crecen y se reparan solos cuando se rompen.",
+  "hint": "Piensa en qué pasa cuando se cura un hueso roto.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NIH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-006",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Cuando el bate golpea una pelota de béisbol, ¿qué cambia en la pelota?",
+  "opts": [
+   "Su dirección y su rapidez",
+   "Su peso y su color",
+   "Su tamaño y su material"
+  ],
+  "a": 0,
+  "why": "Un golpe es un empujón fuerte que cambia cómo se mueve la pelota. Su peso y su tamaño siguen igual.",
+  "hint": "Piensa en cómo se mueve la pelota antes y después.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS K-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-007",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué planeta se conoce como 'el planeta rojo'?",
+  "opts": [
+   "Venus",
+   "Júpiter",
+   "Marte"
+  ],
+  "a": 2,
+  "why": "El suelo de Marte tiene óxido de hierro, como el hierro oxidado, y por eso se ve rojizo.",
+  "hint": "Piensa en el color del polvo en ese planeta.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-008",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Un imán puede atraer una cuchara de madera.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Los imanes atraen el hierro y algunos otros metales, pero no la madera.",
+  "hint": "Piensa de qué material son las cosas que se pegan a un imán.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2-3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-009",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estos animales es un reptil?",
+  "opts": [
+   "La rana",
+   "La tortuga marina",
+   "El delfín"
+  ],
+  "a": 1,
+  "why": "Los reptiles tienen escamas o caparazón y respiran aire. La rana es un anfibio y el delfín es un mamífero.",
+  "hint": "Los reptiles respiran aire y tienen la piel seca.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-2-010",
+  "topic": "science",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena cómo crece una planta con flores, de primero a último.",
+  "opts": [
+   "Semilla",
+   "Brote",
+   "Planta con flores",
+   "Fruto con semillas nuevas"
+  ],
+  "why": "De la semilla sale un brote, crece la planta, da flores y los frutos guardan semillas nuevas.",
+  "hint": "Todo empieza con algo pequeño bajo la tierra.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 3-LS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-001",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "¿De qué está hecho el esqueleto de un tiburón?",
+  "opts": [
+   "Cartílago flexible",
+   "Hueso duro",
+   "Concha de calcio",
+   "Escamas de piel"
+  ],
+  "a": 0,
+  "why": "El cartílago es más liviano y flexible que el hueso. Tú tienes cartílago en la nariz y en las orejas.",
+  "hint": "Toca la punta de tu nariz: ¿se dobla?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-002",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Algunos dinosaurios tenían plumas.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Se han encontrado fósiles de dinosaurios con plumas. Las aves de hoy descienden de ellos.",
+  "hint": "Piensa en qué animales vivos se parecen a los dinosaurios.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-003",
+  "topic": "science",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena las capas de la Tierra, de la superficie al centro.",
+  "opts": [
+   "Corteza",
+   "Manto",
+   "Núcleo externo",
+   "Núcleo interno"
+  ],
+  "why": "La corteza es la capa delgada donde vivimos. Más abajo está el manto y, en el centro, el núcleo.",
+  "hint": "Piensa en las capas de una cebolla, de afuera hacia adentro.",
+  "tags": [],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-004",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué animal marino debe subir a la superficie para respirar aire?",
+  "opts": [
+   "El pulpo",
+   "La ballena",
+   "La raya",
+   "El caballito de mar"
+  ],
+  "a": 1,
+  "why": "Las ballenas son mamíferos y respiran aire con pulmones. Los peces y los pulpos usan branquias.",
+  "hint": "Piensa en el chorro de agua que sale de su cabeza.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-005",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué instrumento usan los científicos para medir cuánta lluvia cayó?",
+  "opts": [
+   "Termómetro",
+   "Brújula",
+   "Pluviómetro",
+   "Cronómetro"
+  ],
+  "a": 2,
+  "why": "El pluviómetro recoge el agua de lluvia en un tubo con marcas. El termómetro mide la temperatura.",
+  "hint": "La palabra 'pluvial' tiene que ver con la lluvia.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-006",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Cuando corres, tu corazón late más despacio.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Al correr, tus músculos necesitan más oxígeno. Por eso el corazón late más rápido y lleva más sangre.",
+  "hint": "Piensa en lo que sientes en el pecho después de correr.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NIH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-007",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Una pelota de béisbol rueda por pasto largo y se detiene antes que sobre pasto corto. ¿Qué fuerza la frena más?",
+  "opts": [
+   "El magnetismo",
+   "La gravedad",
+   "La electricidad",
+   "La fricción"
+  ],
+  "a": 3,
+  "why": "El pasto largo roza más la pelota y le quita rapidez. La gravedad la jala hacia abajo, pero no la frena.",
+  "hint": "Es la fuerza que aparece cuando dos superficies se rozan.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-008",
+  "topic": "science",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena el recorrido del agua, de primero a último.",
+  "opts": [
+   "El agua se evapora",
+   "El vapor forma nubes",
+   "La lluvia cae al suelo"
+  ],
+  "why": "El Sol calienta el agua y la convierte en vapor. Arriba el vapor se enfría, forma nubes y después llueve.",
+  "hint": "Empieza por lo que hace el Sol con el agua.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-009",
+  "topic": "science",
+  "level": 3,
+  "type": "number",
+  "q": "Un insecto tiene 6 patas. ¿Cuántas patas tienen 4 insectos en total?",
+  "a": 24,
+  "why": "Cuatro grupos de seis patas son 24 patas. Las arañas tienen 8 patas y no son insectos.",
+  "hint": "Piensa en cuatro grupos de seis.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-3-010",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Por qué vemos las fases de la Luna?",
+  "opts": [
+   "La sombra de la Tierra la va tapando",
+   "Vemos distintas partes de su lado iluminado",
+   "La Luna se encoge y luego crece",
+   "Las nubes la van cubriendo cada noche"
+  ],
+  "a": 1,
+  "why": "El Sol siempre ilumina la mitad de la Luna; nosotros vemos más o menos de esa mitad. La sombra de la Tierra causa los eclipses.",
+  "hint": "Piensa en cómo cambia lo que ves de una pelota iluminada si te mueves.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-001",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Los tiburones tienen unos poros en el hocico llamados ampollas de Lorenzini. ¿Para qué les sirven?",
+  "opts": [
+   "Para respirar mientras duermen",
+   "Para oír sonidos muy lejanos",
+   "Para detectar la electricidad de las presas",
+   "Para ver en la oscuridad"
+  ],
+  "a": 2,
+  "why": "Detectan los diminutos campos eléctricos que producen los animales escondidos. Respirar es trabajo de las branquias.",
+  "hint": "Es un sentido extra que nosotros no tenemos.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-002",
+  "topic": "science",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena los periodos de la era de los dinosaurios, del más antiguo al más reciente.",
+  "opts": [
+   "Triásico",
+   "Jurásico",
+   "Cretácico"
+  ],
+  "why": "Primero vino el Triásico, luego el Jurásico y al final el Cretácico, cuando vivió el Tyrannosaurus rex.",
+  "hint": "El Tyrannosaurus rex vivió casi al final.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-003",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "El sonido viaja más rápido en el agua que en el aire.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Las partículas del agua están más juntas y pasan la vibración con más rapidez. Por eso las ballenas se oyen desde lejos.",
+  "hint": "Piensa en lo que se oye cuando metes la cabeza bajo el agua.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-004",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Qué causa el día y la noche en la Tierra?",
+  "opts": [
+   "La Tierra gira sobre sí misma",
+   "El Sol da vueltas alrededor de la Tierra",
+   "La Luna tapa al Sol cada día",
+   "La Tierra se acerca y aleja del Sol"
+  ],
+  "a": 0,
+  "why": "La Tierra da una vuelta sobre sí misma cada 24 horas. El lado que mira al Sol tiene día.",
+  "hint": "Piensa en un trompo que gira.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NGSS 1-ESS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-005",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Una pelota de béisbol vuela por el aire después del golpe. ¿Qué energía tiene por estar en movimiento?",
+  "opts": [
+   "Energía de la luz",
+   "Energía del sonido",
+   "Energía de los alimentos",
+   "Energía de movimiento"
+  ],
+  "a": 3,
+  "why": "Todo lo que se mueve tiene energía de movimiento, también llamada cinética. Mientras más rápido va, más tiene.",
+  "hint": "Piensa en lo que tiene un objeto que se mueve.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 4-PS3-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-006",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Un pulpo tiene tres corazones.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Dos corazones envían sangre a las branquias y el tercero la manda al resto del cuerpo.",
+  "hint": "Los pulpos son muy distintos a nosotros por dentro.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-007",
+  "topic": "science",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena el camino de un bocado de comida por tu cuerpo.",
+  "opts": [
+   "Boca",
+   "Esófago",
+   "Estómago",
+   "Intestino delgado"
+  ],
+  "why": "Masticas en la boca, el esófago baja la comida, el estómago la mezcla y el intestino delgado absorbe los nutrientes.",
+  "hint": "Empieza por donde entra la comida.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NIH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-008",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Un río arrastra tierra y piedritas de un lugar a otro. ¿Cómo se llama este proceso?",
+  "opts": [
+   "Erosión",
+   "Evaporación",
+   "Condensación",
+   "Hibernación"
+  ],
+  "a": 0,
+  "why": "La erosión ocurre cuando el agua, el viento o el hielo desgastan y arrastran la tierra. La evaporación solo convierte agua en vapor.",
+  "hint": "Piensa en cómo los ríos van cambiando el paisaje.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-ESS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-009",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Para subir una caja a la misma altura, una rampa más larga necesita más fuerza que una más corta.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Una rampa larga reparte el esfuerzo en más distancia. Necesitas menos fuerza, pero debes empujar más lejos.",
+  "hint": "Piensa en subir una loma por un camino largo o por uno empinado.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-4-010",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Para saber si la luz ayuda a crecer a una planta, pones una al sol y otra en un clóset oscuro. ¿Qué debe ser igual en ambas?",
+  "opts": [
+   "La cantidad de luz",
+   "El lugar donde está cada planta",
+   "La cantidad de agua",
+   "Nada: pueden recibir cosas distintas"
+  ],
+  "a": 2,
+  "why": "En una prueba justa solo cambias una cosa: la luz. Todo lo demás, como el agua, debe ser igual.",
+  "hint": "Solo debes cambiar una cosa a la vez.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1-3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-001",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Todos los tiburones deben nadar sin parar para poder respirar.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "El tiburón nodriza bombea agua por sus branquias y descansa quieto en el fondo. Otros, como el blanco, sí deben nadar.",
+  "hint": "La palabra 'todos' es fuerte: busca una excepción.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-002",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿En qué tipo de roca es más probable encontrar un fósil de dinosaurio?",
+  "opts": [
+   "Ígnea",
+   "Sedimentaria",
+   "Metamórfica",
+   "En todas por igual"
+  ],
+  "a": 1,
+  "why": "Los huesos se entierran bajo capas de sedimento que se endurecen. El calor del magma destruiría un fósil.",
+  "hint": "Piensa en capas de arena y barro que se endurecen.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-003",
+  "topic": "science",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena estos planetas por tamaño, del más pequeño al más grande.",
+  "opts": [
+   "Mercurio",
+   "Marte",
+   "Tierra",
+   "Saturno",
+   "Júpiter"
+  ],
+  "why": "Mercurio y Marte son pequeños y la Tierra es mayor. Saturno y Júpiter son gigantes, y Júpiter es el más grande.",
+  "hint": "Los gigantes gaseosos son los más grandes.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-004",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "En la playa, durante el día suele soplar la brisa del mar hacia la tierra. ¿Por qué?",
+  "opts": [
+   "Las olas empujan el aire hacia la costa",
+   "La Luna jala el aire del mar",
+   "El mar se calienta antes que la arena",
+   "El aire caliente sobre la tierra sube"
+  ],
+  "a": 3,
+  "why": "La arena se calienta más rápido que el agua. Su aire sube y el aire fresco del mar entra a ocupar su lugar.",
+  "hint": "Fíjate en qué se pone más caliente al sol: la arena o el agua.",
+  "tags": [
+   "weather",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-005",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Mercurio está más cerca del Sol, pero Venus es más caliente en su superficie.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La atmósfera espesa de Venus atrapa el calor como una cobija gruesa. Mercurio casi no tiene atmósfera.",
+  "hint": "Piensa en qué hace una atmósfera gruesa con el calor.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-006",
+  "topic": "science",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena las zonas del océano, desde la superficie hasta el fondo.",
+  "opts": [
+   "Zona de luz solar",
+   "Zona crepuscular",
+   "Zona de medianoche",
+   "El abismo"
+  ],
+  "why": "Cada zona es más profunda y oscura que la anterior, hasta llegar al abismo, donde no llega nada de luz.",
+  "hint": "Piensa en hasta dónde llega la luz del Sol.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-007",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Por qué el cielo se ve azul durante el día?",
+  "opts": [
+   "El aire dispersa más la luz azul",
+   "El cielo refleja el color de los océanos",
+   "Las moléculas del aire son de color azul",
+   "El Sol emite solamente luz de color azul"
+  ],
+  "a": 0,
+  "why": "La luz del Sol mezcla todos los colores. El aire esparce la azul en todas direcciones, y la vemos en todo el cielo.",
+  "hint": "La luz blanca está hecha de todos los colores del arcoíris.",
+  "tags": [],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-008",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Lanzas una pelota de béisbol hacia arriba. ¿En qué momento su rapidez es cero, aunque sea solo un instante?",
+  "opts": [
+   "Justo al salir de tu mano",
+   "A mitad de camino al subir",
+   "Nunca llega a ser cero",
+   "En el punto más alto"
+  ],
+  "a": 3,
+  "why": "La gravedad la frena mientras sube, hasta que se detiene un instante arriba. Después empieza a caer.",
+  "hint": "Piensa en el momento en que cambia de subir a bajar.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-009",
+  "topic": "science",
+  "level": 5,
+  "type": "number",
+  "q": "A las 6 a. m., un termómetro marca 4 grados bajo cero (-4 °C). Al mediodía sube 9 grados. ¿Cuántos °C marca al mediodía?",
+  "a": 5,
+  "why": "Desde -4 subes 4 grados para llegar a 0 y 5 más: llegas a 5 °C.",
+  "hint": "Cuenta hacia arriba desde -4, pasando por el cero.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-5-010",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Qué hacen los glóbulos rojos de la sangre?",
+  "opts": [
+   "Combaten los microbios",
+   "Ayudan a que la sangre se coagule",
+   "Llevan oxígeno a todo el cuerpo",
+   "Digieren los alimentos"
+  ],
+  "a": 2,
+  "why": "Los glóbulos rojos transportan oxígeno. Los glóbulos blancos combaten microbios y las plaquetas ayudan a cerrar las heridas.",
+  "hint": "Piensa en el trabajo de transporte de la sangre.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NIH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-001",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Con cuál de estos animales actuales tiene un parentesco más cercano el Tyrannosaurus rex?",
+  "opts": [
+   "Con un cocodrilo",
+   "Con una gallina",
+   "Con una lagartija",
+   "Con una tortuga"
+  ],
+  "a": 1,
+  "why": "Las aves descienden de dinosaurios terópodos, el grupo del T. rex. Los cocodrilos y las lagartijas son parientes más lejanos.",
+  "hint": "Piensa en qué animales de hoy descienden de los dinosaurios.",
+  "tags": [
+   "dinosaurs",
+   "animals"
+  ],
+  "fun": true,
+  "src": "AMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-002",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Sin aire, un martillo y una pluma caen a la misma rapidez.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Sin aire no hay resistencia. En la Luna, un astronauta soltó un martillo y una pluma y tocaron el suelo a la vez.",
+  "hint": "Piensa en qué frena a una pluma cuando cae.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-003",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Quito está casi sobre el ecuador, pero sus noches son frescas. ¿Cuál es la razón principal?",
+  "opts": [
+   "El Sol brilla menos allí",
+   "Está rodeada de selva",
+   "Está a gran altura sobre el mar",
+   "Está cerca de una corriente fría"
+  ],
+  "a": 2,
+  "why": "En las montañas altas el aire es más frío, incluso sobre el ecuador.",
+  "hint": "Piensa en qué pasa con el aire cuando subes una montaña.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-004",
+  "topic": "science",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena esta cadena alimentaria del mar, empezando por quien produce su propio alimento.",
+  "opts": [
+   "Fitoplancton",
+   "Zooplancton",
+   "Sardina",
+   "Tiburón"
+  ],
+  "why": "El fitoplancton hace su alimento con luz solar. El zooplancton se lo come, la sardina come zooplancton y el tiburón come sardinas.",
+  "hint": "La energía empieza en lo que usa la luz del Sol.",
+  "tags": [
+   "ocean",
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-005",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Los músculos solo pueden jalar, no empujar. Entonces, ¿cómo estiras el codo después de doblarlo?",
+  "opts": [
+   "El bíceps también puede empujar el hueso",
+   "Otro músculo jala en sentido contrario",
+   "Los huesos del brazo se estiran solos",
+   "La sangre empuja el brazo hacia afuera"
+  ],
+  "a": 1,
+  "why": "Los músculos trabajan en pares: el bíceps dobla el codo y el tríceps lo estira.",
+  "hint": "Un músculo jala hacia un lado y otro jala hacia el contrario.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NIH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-006",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Los tiburones y los delfines tienen cuerpos de forma parecida, aunque no son parientes cercanos. ¿Por qué?",
+  "opts": [
+   "Los delfines descienden de los tiburones",
+   "Los dos son peces cartilaginosos",
+   "Los dos respiran con branquias",
+   "Esa forma les ayuda a nadar rápido"
+  ],
+  "a": 3,
+  "why": "Animales de grupos distintos pueden desarrollar formas parecidas si viven de modo parecido. El delfín es mamífero y respira con pulmones.",
+  "hint": "Piensa en qué forma sirve para moverse bien en el agua.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-007",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Como se venden más helados cuando hay más encuentros con tiburones, los helados atraen a los tiburones.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Ambas cosas aumentan en verano porque hay más gente en la playa. Que dos cosas ocurran juntas no prueba que una cause la otra.",
+  "hint": "Pregúntate qué otra cosa podría explicar las dos.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-008",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "Un satélite tarda 90 minutos en dar una vuelta completa a la Tierra. ¿Cuántas vueltas completas da en 6 horas?",
+  "a": 4,
+  "why": "6 horas son 360 minutos, y 360 ÷ 90 = 4. Primero hay que usar la misma unidad.",
+  "hint": "Convierte las horas a minutos primero.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-009",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "La luz del Sol tarda unos 8 minutos en llegar a la Tierra. Si el Sol desapareciera de repente, ¿cuándo dejaríamos de ver su luz?",
+  "opts": [
+   "Unos 8 minutos después",
+   "En ese mismo instante",
+   "Unas 8 horas después",
+   "Al día siguiente"
+  ],
+  "a": 0,
+  "why": "La luz que ya salió sigue viajando 8 minutos. Vemos el Sol como era hace 8 minutos.",
+  "hint": "La luz viaja muy rápido, pero no es instantánea.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "cie-6-010",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Un cubo de hielo flota en un vaso con agua. ¿Cuál es la mejor explicación?",
+  "opts": [
+   "El hielo pesa menos que todo el vaso",
+   "Todo lo frío flota en el agua",
+   "Las burbujas de aire dentro lo sostienen",
+   "El hielo es menos denso que el agua"
+  ],
+  "a": 3,
+  "why": "Al congelarse, el agua ocupa más espacio y se vuelve menos densa, por eso flota. Así flotan los icebergs.",
+  "hint": "Compara cuánta masa cabe en el mismo espacio.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-001",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "La Antártida es un continente muy frío, cubierto de hielo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La Antártida está en el polo sur y casi toda está cubierta de hielo. Allí viven pingüinos y focas.",
+  "hint": "Piensa en dónde queda el polo sur.",
+  "tags": [
+   "maps",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NSF",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-002",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿En qué continente está Ecuador?",
+  "opts": [
+   "África",
+   "Asia",
+   "América del Sur"
+  ],
+  "a": 2,
+  "why": "Ecuador está en el noroeste de América del Sur, junto al océano Pacífico.",
+  "hint": "Piensa en el continente donde está la selva del Amazonas.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-003",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "California y Ecuador tienen costa en el mismo océano. ¿Cuál es?",
+  "opts": [
+   "El Pacífico",
+   "El Atlántico",
+   "El Índico"
+  ],
+  "a": 0,
+  "why": "Los dos están en la costa oeste de América, frente al océano Pacífico.",
+  "hint": "Mira la costa oeste de América en un mapa.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-004",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena de lo más pequeño a lo más grande.",
+  "opts": [
+   "Tu casa",
+   "Tu ciudad",
+   "Un continente",
+   "La Tierra"
+  ],
+  "why": "Tu casa está dentro de tu ciudad, tu ciudad dentro de un continente y los continentes están en la Tierra.",
+  "hint": "Cada lugar cabe dentro del siguiente.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "C3 Framework",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-005",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estas cosas es una necesidad?",
+  "opts": [
+   "Un videojuego",
+   "Una bicicleta nueva",
+   "Agua para beber"
+  ],
+  "a": 2,
+  "why": "Una necesidad es algo que debes tener para vivir. Un videojuego es algo que quieres, pero puedes vivir sin él.",
+  "hint": "Pregúntate: ¿puedo vivir sin esto?",
+  "tags": [],
+  "fun": false,
+  "src": "C3 Framework",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-006",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "La mayor parte de la superficie de la Tierra es tierra firme, no agua.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Más de dos tercios de la Tierra están cubiertos por océanos. Por eso se le llama el planeta azul.",
+  "hint": "Piensa en cuánto azul ves en un globo terráqueo.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-007",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "En un mapa, ¿qué dibujo te dice dónde queda el norte?",
+  "opts": [
+   "El título",
+   "La rosa de los vientos",
+   "La leyenda"
+  ],
+  "a": 1,
+  "why": "La rosa de los vientos marca el norte, el sur, el este y el oeste. La leyenda explica los símbolos.",
+  "hint": "Su nombre parece el de una flor.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-008",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué animal gigante es famoso en las islas Galápagos?",
+  "opts": [
+   "La tortuga gigante",
+   "El elefante",
+   "El oso polar"
+  ],
+  "a": 0,
+  "why": "El nombre Galápagos viene de 'galápago', una palabra antigua del español para tortuga.",
+  "hint": "Piensa en un animal lento con caparazón.",
+  "tags": [
+   "animals",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Charles Darwin Foundation",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-009",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "En un desierto llueve casi todos los días.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Un desierto recibe muy poca lluvia. Las selvas tropicales son las que reciben muchísima.",
+  "hint": "Piensa en un lugar con cactus y arena.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-1-010",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Una isla es un pedazo de tierra rodeado de…",
+  "opts": [
+   "Montañas",
+   "Desierto",
+   "Agua"
+  ],
+  "a": 2,
+  "why": "Las islas están rodeadas de agua por todos lados, como las islas de Hawái o las Bahamas.",
+  "hint": "Piensa en cómo llegas a Hawái.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-001",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estos nombres es un continente y no un océano?",
+  "opts": [
+   "África",
+   "Pacífico",
+   "Índico"
+  ],
+  "a": 0,
+  "why": "África es una gran masa de tierra. El Pacífico y el Índico son océanos, extensiones enormes de agua salada.",
+  "hint": "Busca el nombre que es tierra y no agua.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-002",
+  "topic": "world",
+  "level": 2,
+  "type": "order",
+  "q": "Un bateador pega un jonrón. Ordena las bases que pisa, desde que sale del home.",
+  "opts": [
+   "Primera base",
+   "Segunda base",
+   "Tercera base",
+   "Home otra vez"
+  ],
+  "why": "Los corredores recorren el cuadro en sentido contrario a las agujas del reloj, hasta volver al home.",
+  "hint": "Gira a la izquierda en cada base.",
+  "tags": [
+   "baseball",
+   "maps"
+  ],
+  "fun": false,
+  "src": "Reglas oficiales del béisbol",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-003",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Las islas de Hawái se formaron por volcanes que crecieron desde el fondo del océano.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La lava se fue acumulando capa tras capa bajo el agua hasta llegar a la superficie y formar islas.",
+  "hint": "Piensa en lo que sale de un volcán.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-004",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Miras hacia el norte y das un cuarto de vuelta a la derecha. ¿Hacia dónde miras ahora?",
+  "opts": [
+   "Hacia el oeste",
+   "Hacia el este",
+   "Hacia el sur"
+  ],
+  "a": 1,
+  "why": "Con el norte al frente, el este queda a tu derecha y el oeste a tu izquierda.",
+  "hint": "Dibuja la rosa de los vientos y gira con el dedo.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-005",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Dónde hace más calor durante todo el año?",
+  "opts": [
+   "Cerca del ecuador",
+   "Cerca del polo norte",
+   "Cerca del polo sur"
+  ],
+  "a": 0,
+  "why": "Cerca del ecuador los rayos del Sol llegan más directos. El país Ecuador se llama así por esa línea.",
+  "hint": "Un país de América del Sur lleva el nombre de esta línea.",
+  "tags": [
+   "maps",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-006",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Cuando amanece, el Sol sale por el oeste.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "El Sol sale por el este y se oculta por el oeste, porque la Tierra gira hacia el este.",
+  "hint": "En español, el lugar donde sale el Sol se llama oriente.",
+  "tags": [
+   "space",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-007",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "En Galápagos viven iguanas que nadan en el mar. ¿Qué comen bajo el agua?",
+  "opts": [
+   "Peces pequeños",
+   "Algas",
+   "Cangrejos"
+  ],
+  "a": 1,
+  "why": "Las iguanas marinas se sumergen para comer algas pegadas a las rocas. Solo viven en las islas Galápagos.",
+  "hint": "Piensa en lo que crece pegado a las rocas bajo el agua.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "Britannica",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-008",
+  "topic": "world",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena de lo más antiguo a lo más nuevo.",
+  "opts": [
+   "Los dinosaurios",
+   "Las pirámides de Egipto",
+   "Los teléfonos celulares"
+  ],
+  "why": "Los dinosaurios vivieron hace millones de años. Las pirámides tienen miles de años y los celulares son muy recientes.",
+  "hint": "Pregúntate qué existía antes de que hubiera personas.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-009",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Machu Picchu, la antigua ciudad de piedra de los incas, está en las montañas de…",
+  "opts": [
+   "Los Alpes",
+   "El Himalaya",
+   "Los Andes"
+  ],
+  "a": 2,
+  "why": "Los Andes cruzan América del Sur, incluso Ecuador. Los Alpes están en Europa y el Himalaya, en Asia.",
+  "hint": "Esta cordillera también pasa por Ecuador.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "UNESCO",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-2-010",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estas cosas es un deseo y no una necesidad?",
+  "opts": [
+   "Un helado de chocolate",
+   "Un lugar donde dormir",
+   "Ropa para el frío"
+  ],
+  "a": 0,
+  "why": "Un deseo es algo que quieres, pero puedes vivir sin él. Un hogar y la ropa de abrigo son necesidades.",
+  "hint": "Un deseo es algo bonito de tener, pero no indispensable.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "C3 Framework",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-001",
+  "topic": "world",
+  "level": 3,
+  "type": "number",
+  "q": "Un puesto compra pelotas de béisbol a $3 cada una y las vende a $5 cada una. ¿Cuántos dólares de ganancia obtiene al vender 4 pelotas?",
+  "a": 8,
+  "why": "Gana $2 por pelota: 5 - 3 = 2. Con 4 pelotas, 4 × 2 = $8.",
+  "hint": "Primero calcula cuánto gana por una sola pelota.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Common Core 3.OA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-002",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Para qué sirve la escala de un mapa?",
+  "opts": [
+   "Para saber dónde queda el norte",
+   "Para calcular distancias reales",
+   "Para saber qué significan los símbolos",
+   "Para saber cuándo se hizo el mapa"
+  ],
+  "a": 1,
+  "why": "La escala compara la distancia en el mapa con la distancia real. El norte lo muestra la rosa de los vientos.",
+  "hint": "Piensa en '1 cm del mapa = cuántos km reales'.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-003",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "En la Antártida viven osos polares.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Los osos polares viven en el Ártico, cerca del polo norte. En la Antártida viven pingüinos y focas.",
+  "hint": "El Ártico y la Antártida están en polos opuestos.",
+  "tags": [
+   "animals",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NSF",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-004",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Las Bahamas son islas de aguas cristalinas. ¿En qué océano están?",
+  "opts": [
+   "Atlántico",
+   "Pacífico",
+   "Índico",
+   "Ártico"
+  ],
+  "a": 0,
+  "why": "Las Bahamas están en el océano Atlántico, al este de Florida. El Pacífico queda al otro lado de América.",
+  "hint": "Piensa en qué océano baña la costa este de Estados Unidos.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-005",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Ahorrar dinero significa…",
+  "opts": [
+   "Gastar todo el dinero hoy mismo",
+   "Prestar todo tu dinero a un amigo",
+   "Guardar parte del dinero para después",
+   "Cambiar billetes por monedas pequeñas"
+  ],
+  "a": 2,
+  "why": "Ahorrar es guardar dinero hoy para comprar algo más adelante. Gastar es usarlo ahora mismo.",
+  "hint": "Piensa en lo que se guarda en una alcancía.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "C3 Framework",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-006",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena estos cuatro océanos del más pequeño al más grande.",
+  "opts": [
+   "Ártico",
+   "Índico",
+   "Atlántico",
+   "Pacífico"
+  ],
+  "why": "El Ártico es el más pequeño de estos cuatro y el Pacífico, el más grande de todo el planeta.",
+  "hint": "Empieza por el océano que está cerca del polo norte.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-007",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué lugar es cálido, muy lluvioso y está lleno de plantas todo el año?",
+  "opts": [
+   "Un desierto",
+   "Una selva tropical",
+   "La tundra",
+   "Una pradera seca"
+  ],
+  "a": 1,
+  "why": "En la selva tropical hace calor y llueve casi todos los días. La tundra es fría y el desierto, muy seco.",
+  "hint": "Piensa en la selva del Amazonas.",
+  "tags": [
+   "weather",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-008",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "En el noroeste del Pacífico, los salmones nadan desde el mar hasta los ríos para poner sus huevos.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Muchos salmones nacen en un río, viven años en el océano y regresan a su río para reproducirse.",
+  "hint": "Piensa en peces que nadan contra la corriente de un río.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-009",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Hace siglos, los marineros se guiaban con un instrumento de aguja que apunta al norte. ¿Cómo se llama?",
+  "opts": [
+   "Termómetro",
+   "Telescopio",
+   "Brújula",
+   "Reloj de sol"
+  ],
+  "a": 2,
+  "why": "La aguja magnética de la brújula se alinea con el campo magnético de la Tierra y apunta hacia el norte.",
+  "hint": "Su aguja se mueve sola, sin que la toques.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-3-010",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Además del español, en los Andes de Ecuador se habla una lengua de los pueblos originarios. ¿Cuál?",
+  "opts": [
+   "El kichwa",
+   "El maorí",
+   "El suajili",
+   "El japonés"
+  ],
+  "a": 0,
+  "why": "El kichwa es una lengua de los pueblos originarios de los Andes y se sigue hablando hoy.",
+  "hint": "Es una lengua de las montañas andinas.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "UNESCO",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-001",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Cerca de las islas Galápagos se pueden ver grandes grupos de tiburones martillo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Cerca de las islas Darwin y Wolf, en ciertas épocas se reúnen grupos de cientos de tiburones martillo.",
+  "hint": "Piensa en un archipiélago famoso por su vida marina.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Galápagos Conservancy",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-002",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Cuando es verano en el hemisferio norte, ¿qué estación hay en el hemisferio sur?",
+  "opts": [
+   "Verano",
+   "Primavera",
+   "Otoño",
+   "Invierno"
+  ],
+  "a": 3,
+  "why": "La Tierra está inclinada: cuando el hemisferio norte recibe más luz solar directa, el sur recibe menos.",
+  "hint": "Cuando un hemisferio se inclina hacia el Sol, el otro se aleja.",
+  "tags": [
+   "weather",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-003",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Quedan pocas entradas para un partido de béisbol muy esperado y mucha gente quiere ir. ¿Qué suele pasar con el precio?",
+  "opts": [
+   "Suele bajar",
+   "Suele subir",
+   "No cambia nunca",
+   "Baja solo para los niños"
+  ],
+  "a": 1,
+  "why": "Cuando algo escasea y mucha gente lo quiere, el precio suele subir. Se llama oferta y demanda.",
+  "hint": "Piensa en lo que pasa cuando hay pocas y muchos las quieren.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "C3 Framework",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-004",
+  "topic": "world",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena el recorrido de un río, desde su nacimiento hasta el final.",
+  "opts": [
+   "Nace en un manantial de la montaña",
+   "Baja como arroyo",
+   "Se ensancha como río",
+   "Desemboca en el mar"
+  ],
+  "why": "El agua baja de las montañas, junta más agua y se vuelve más ancha hasta llegar al mar.",
+  "hint": "Piensa en hacia dónde fluye siempre el agua.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-005",
+  "topic": "world",
+  "level": 4,
+  "type": "number",
+  "q": "En un mapa, 1 cm representa 5 km. Dos ciudades están a 6 cm en el mapa. ¿Cuántos km hay entre ellas?",
+  "a": 30,
+  "why": "Cada centímetro vale 5 km, así que 6 cm son 6 × 5 = 30 km.",
+  "hint": "Multiplica los centímetros por lo que vale cada uno.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Common Core 4.MD",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-006",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Una península es un pedazo de tierra rodeado de agua por todos sus lados.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Eso describe una isla. Una península está unida al continente por un lado y rodeada de agua por los demás.",
+  "hint": "Piensa en la diferencia entre una isla y Baja California.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-007",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cómo se llama la zona climática del planeta donde hace calor casi todo el año?",
+  "opts": [
+   "La zona templada",
+   "La zona polar",
+   "La zona ártica",
+   "La zona tropical"
+  ],
+  "a": 3,
+  "why": "La zona tropical es la más cálida y queda en el centro del planeta. La templada y la polar están más lejos.",
+  "hint": "Piensa en las selvas y las playas más calurosas.",
+  "tags": [
+   "weather",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-008",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Los incas construyeron una gran red de caminos de piedra que cruzaba los Andes.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El Qhapaq Ñan, o camino inca, atravesaba montañas de varios países de América del Sur, incluido Ecuador.",
+  "hint": "Piensa en cómo conectaban los incas sus ciudades en las montañas.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "UNESCO",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-009",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "El monumento de la Mitad del Mundo, cerca de Quito, se construyó para señalar una línea imaginaria. ¿Cuál?",
+  "opts": [
+   "El trópico de Cáncer",
+   "El trópico de Capricornio",
+   "El ecuador",
+   "El círculo polar ártico"
+  ],
+  "a": 2,
+  "why": "El ecuador está a 0° de latitud y divide la Tierra en hemisferio norte y hemisferio sur.",
+  "hint": "Piensa en el nombre del país donde está el monumento.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-4-010",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Una familia hace un presupuesto. ¿Qué es un presupuesto?",
+  "opts": [
+   "Un plan para gastar y ahorrar",
+   "Una lista de todo lo que quieres comprar",
+   "El dinero que sobra a fin de mes",
+   "El precio más bajo de un producto"
+  ],
+  "a": 0,
+  "why": "Un presupuesto reparte el dinero entre gastos y ahorros. Una lista de deseos no dice cuánto dinero hay.",
+  "hint": "Un presupuesto ayuda a decidir antes de gastar.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "C3 Framework",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-001",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "La Gran Muralla China se puede ver a simple vista desde la Luna.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Los astronautas dicen que no se ve a simple vista desde la Luna. Es larguísima, pero muy angosta.",
+  "hint": "Piensa en lo lejos que está la Luna.",
+  "tags": [
+   "space",
+   "maps"
+  ],
+  "fun": true,
+  "src": "Britannica",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-002",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Cuando son las 3:00 p. m. en Los Ángeles, son las 6:00 p. m. en Nueva York. Si en Nueva York son las 9:00 p. m., ¿qué hora es en Los Ángeles?",
+  "opts": [
+   "12:00 a. m.",
+   "9:00 p. m.",
+   "6:00 p. m.",
+   "3:00 p. m."
+  ],
+  "a": 2,
+  "why": "Los Ángeles va 3 horas detrás de Nueva York. Entonces, a las 9:00 p. m. allá, aquí son las 6:00 p. m.",
+  "hint": "Resta tres horas: Los Ángeles queda más al oeste.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NIST",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-003",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Qué tipo de mapa usarías para ver las montañas, los ríos y los desiertos de un lugar?",
+  "opts": [
+   "Un mapa de carreteras",
+   "Un mapa del tiempo",
+   "Un mapa de husos horarios",
+   "Un mapa físico"
+  ],
+  "a": 3,
+  "why": "Un mapa físico muestra el relieve: montañas, ríos y desiertos. Un mapa de carreteras muestra rutas, no el terreno.",
+  "hint": "Piensa en el aspecto natural de la Tierra.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-004",
+  "topic": "world",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena estas ciudades de la más cercana al ecuador a la más lejana.",
+  "opts": [
+   "Quito",
+   "Los Ángeles",
+   "Seattle",
+   "Anchorage"
+  ],
+  "why": "Quito está casi sobre el ecuador (0°). Los Ángeles queda a unos 34° norte, Seattle a unos 48° y Anchorage a unos 61°.",
+  "hint": "Piensa en cuál está más al norte en un mapa.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-005",
+  "topic": "world",
+  "level": 5,
+  "type": "number",
+  "q": "Una tienda compra cada camiseta en $8 y la vende en $12. Vende 5 camisetas y paga $15 de alquiler. ¿Cuántos dólares de ganancia le quedan?",
+  "a": 5,
+  "why": "Gana 12 - 8 = $4 por camiseta; con 5 son $20. Al pagar $15 de alquiler le quedan $5.",
+  "hint": "Calcula primero la ganancia de las 5 camisetas.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Common Core 4.OA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-006",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Los navegantes polinesios cruzaron miles de kilómetros de océano en canoas hasta llegar a Hawái. ¿Cómo se orientaban?",
+  "opts": [
+   "Con una brújula magnética",
+   "Con las estrellas y el oleaje",
+   "Con mapas dibujados en papel",
+   "Con luces de faros en las islas"
+  ],
+  "a": 1,
+  "why": "Leían el cielo y el mar: estrellas, oleaje, vientos y vuelo de las aves. No usaban brújula ni mapas escritos.",
+  "hint": "Piensa en lo que se ve en el cielo de noche y en el mar.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-007",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "La Antártida es técnicamente un desierto, aunque esté cubierta de hielo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Un desierto se define por recibir muy poca lluvia o nieve, no por el calor. En la Antártida cae muy poca.",
+  "hint": "Piensa en cuánta nieve cae allí cada año.",
+  "tags": [
+   "maps",
+   "weather"
+  ],
+  "fun": true,
+  "src": "NSF",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-008",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "La isla Isabela, en Galápagos, está cruzada por el ecuador, así que parte de ella está en cada hemisferio.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El ecuador cruza la isla por los volcanes Wolf y Ecuador. Un trozo está en el hemisferio norte y el resto en el sur.",
+  "hint": "Piensa en la línea que divide el hemisferio norte del sur.",
+  "tags": [
+   "maps",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Galápagos Conservancy",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-009",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Con $10 puedes comprar una pelota de béisbol o un libro, pero no los dos. A lo que renuncias al elegir se le llama…",
+  "opts": [
+   "Costo de oportunidad",
+   "Ganancia",
+   "Ahorro",
+   "Impuesto"
+  ],
+  "a": 0,
+  "why": "Elegir una cosa significa renunciar a otra. El valor de lo que dejas de tener se llama costo de oportunidad.",
+  "hint": "Piensa en lo que pierdes al elegir una opción.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "C3 Framework",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-5-010",
+  "topic": "world",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena estos hechos, del más antiguo al más reciente.",
+  "opts": [
+   "Se construyen las pirámides de Egipto",
+   "Gutenberg usa su imprenta en Europa",
+   "Los hermanos Wright hacen su primer vuelo",
+   "Personas caminan sobre la Luna"
+  ],
+  "why": "Pirámides: hace unos 4 500 años. Imprenta: hacia 1450. Primer vuelo de los Wright: 1903. Luna: 1969.",
+  "hint": "Piensa en lo que necesita más tecnología.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-001",
+  "topic": "world",
+  "level": 6,
+  "type": "number",
+  "q": "La Tierra da una vuelta completa de 360° en 24 horas. En promedio, ¿cuántos grados de longitud tiene cada huso horario?",
+  "a": 15,
+  "why": "360 ÷ 24 = 15. Cada hora de diferencia equivale a unos 15 grados de longitud.",
+  "hint": "Divide los grados de una vuelta entre las horas de un día.",
+  "tags": [
+   "space",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-002",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Qué línea imaginaria se usa como 0° de longitud?",
+  "opts": [
+   "El ecuador",
+   "El trópico de Capricornio",
+   "El meridiano de Greenwich",
+   "La línea de cambio de fecha"
+  ],
+  "a": 2,
+  "why": "El meridiano de Greenwich es el 0° de longitud. El ecuador es el 0° de latitud, otra medida distinta.",
+  "hint": "La longitud se mide de este a oeste, no de norte a sur.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-003",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Las estaciones del año ocurren porque la Tierra se acerca y se aleja del Sol.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Se deben a la inclinación del eje terrestre. Incluso estamos más cerca del Sol en enero, en pleno invierno del norte.",
+  "hint": "Piensa en por qué hay verano en un hemisferio e invierno en el otro.",
+  "tags": [
+   "space",
+   "weather"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-004",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena estas ciudades de oeste a este.",
+  "opts": [
+   "Honolulu",
+   "Los Ángeles",
+   "Quito",
+   "Nueva York",
+   "Londres"
+  ],
+  "why": "Honolulu está en el Pacífico, al oeste de todas. Quito queda un poco al oeste de Nueva York y Londres está cerca del meridiano 0°.",
+  "hint": "Imagina un mapamundi: el Pacífico queda a la izquierda.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-005",
+  "topic": "world",
+  "level": 6,
+  "type": "number",
+  "q": "Un banco paga $5 de interés al año por cada $100 ahorrados. Si ahorras $200 durante un año, ¿cuántos dólares tendrás al final?",
+  "a": 210,
+  "why": "Por cada $100 ganas $5, así que por $200 ganas $10. Tu ahorro pasa de $200 a $210.",
+  "hint": "Calcula primero el interés de los $200.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Common Core 5.NBT",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-006",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "El Niño es un cambio en el océano Pacífico. ¿Qué pasa con el agua cerca de las costas de Ecuador y Perú cuando ocurre?",
+  "opts": [
+   "Se congela en la superficie",
+   "Se vuelve mucho más salada",
+   "Se hace menos profunda",
+   "Se calienta más de lo normal"
+  ],
+  "a": 3,
+  "why": "Durante El Niño el agua superficial se calienta, y eso cambia la lluvia y la pesca en muchos lugares del mundo.",
+  "hint": "Piensa en qué cambia en la temperatura del agua.",
+  "tags": [
+   "ocean",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-007",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Una brújula apunta siempre al polo norte geográfico, el punto más al norte de la Tierra.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "La brújula apunta al norte magnético, que está cerca del polo norte geográfico, pero no es el mismo lugar.",
+  "hint": "Piensa en qué atrae la aguja de una brújula.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-008",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras del español viene del quechua, la lengua de los Andes?",
+  "opts": [
+   "Papa",
+   "Naranja",
+   "Azúcar",
+   "Zanahoria"
+  ],
+  "a": 0,
+  "why": "Papa viene del quechua. Naranja, azúcar y zanahoria llegaron del árabe, otra lengua que enriqueció al español.",
+  "hint": "Piensa en dónde nació cada alimento.",
+  "tags": [
+   "food"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-009",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Las islas Galápagos están sobre el ecuador, pero allí vive un pingüino. ¿Qué hace posible que viva en un lugar tan cálido?",
+  "opts": [
+   "La nieve que cubre las islas",
+   "Las corrientes frías del océano",
+   "El hielo que llega desde la Antártida",
+   "Los vientos helados del polo norte"
+  ],
+  "a": 1,
+  "why": "Las corrientes frías de Humboldt y Cromwell enfrían el agua y traen peces. Sin ellas, los pingüinos no sobrevivirían allí.",
+  "hint": "Piensa en qué enfría el mar, no la tierra.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "Charles Darwin Foundation",
+  "ver": "2026-11"
+ },
+ {
+  "id": "mun-6-010",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena estas construcciones de la más antigua a la más reciente.",
+  "opts": [
+   "Pirámides de Giza",
+   "Coliseo de Roma",
+   "Machu Picchu",
+   "Torre Eiffel"
+  ],
+  "why": "Giza: hace unos 4 500 años. Coliseo: hacia el año 80. Machu Picchu: hacia 1450. Torre Eiffel: 1889.",
+  "hint": "Separa las de la Antigüedad de las de la época moderna.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "UNESCO",
+  "ver": "2026-11"
+ }
+]

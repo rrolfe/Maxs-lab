@@ -1,0 +1,1388 @@
+[
+ {
+  "id": "log-en-1-001",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "What comes next? 🦈 🐟 🦈 🐟 🦈 ❓",
+  "opts": [
+   "🦈",
+   "🐟",
+   "🐙"
+  ],
+  "a": 1,
+  "why": "The pattern is shark, fish, shark, fish. After a shark comes a fish.",
+  "hint": "Say the pattern out loud. Which two repeat?",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-002",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Bat, mitt and snorkel: which one is NOT used to play baseball?",
+  "opts": [
+   "Bat",
+   "Mitt",
+   "Snorkel"
+  ],
+  "a": 2,
+  "why": "A bat hits the ball and a mitt catches it. A snorkel is for swimming.",
+  "hint": "Think about what players use on the field.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-003",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "🪐 ⭐ 🪐 ⭐ 🪐 ⭐ 🪐 ⭐  How many ⭐ are in the row?",
+  "a": 4,
+  "why": "Count only the stars. They sit between the planets: 1, 2, 3, 4.",
+  "hint": "Touch each ⭐ and count. Skip the 🪐.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-004",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "What comes next? 🔴 🔴 🟦 🔴 🔴 ❓",
+  "opts": [
+   "🟦",
+   "🔴",
+   "🟢"
+  ],
+  "a": 0,
+  "why": "The pattern is two reds, then one blue. We just had two reds, so blue is next.",
+  "hint": "Look for the group that keeps repeating.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-005",
+  "topic": "logic",
+  "level": 1,
+  "type": "order",
+  "q": "Put these sea animals in order from smallest to biggest.",
+  "opts": [
+   "Shrimp",
+   "Sea turtle",
+   "Great white shark",
+   "Blue whale"
+  ],
+  "why": "A shrimp fits in your hand. A turtle is bigger, a great white is bigger still, and a blue whale is giant.",
+  "hint": "Start with the one you could hold.",
+  "tags": [
+   "ocean",
+   "sharks"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-006",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Counting by 2s should go 2, 4, 6, 8, 10. Here is a row: 2, 4, 6, 7, 10. Which number is a mistake?",
+  "opts": [
+   "4",
+   "7",
+   "10"
+  ],
+  "a": 1,
+  "why": "After 6 we add 2 and get 8, not 7. The 7 broke the pattern.",
+  "hint": "Add 2 each time and see where it goes wrong.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-007",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "True or false: after 🔺 🔵 🔺 🔵 🔺 🔵 the next shape is 🔺.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The pattern is triangle, circle, triangle, circle. The row ended on a circle, so a triangle is next.",
+  "hint": "See which shape the row ended on.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-008",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "A baseball team has 9 players on the field. 3 of them are in the outfield. How many are NOT in the outfield?",
+  "a": 6,
+  "why": "9 take away 3 leaves 6 players. They are the pitcher, catcher and infielders.",
+  "hint": "Start at 9 and count back 3.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-009",
+  "topic": "logic",
+  "level": 1,
+  "type": "order",
+  "q": "Put a baby dinosaur's life in order, first to last.",
+  "opts": [
+   "Egg",
+   "Hatchling",
+   "Young dinosaur",
+   "Grown-up dinosaur"
+  ],
+  "why": "Dinosaurs started in an egg. They hatched, grew up, and then could lay eggs of their own.",
+  "hint": "What comes before hatching?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-010",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "🦈 🦈 🦈 🐬 🦈  Which place is the odd one out?",
+  "opts": [
+   "2nd",
+   "3rd",
+   "4th"
+  ],
+  "a": 2,
+  "why": "Four animals are sharks and one is a dolphin. The dolphin is in the 4th spot.",
+  "hint": "Find the one that is different, then count from the left.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-011",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "A rocket countdown goes 5, 4, 3, ❓, 1. What number is missing?",
+  "a": 2,
+  "why": "Count backward by 1 each time. After 3 comes 2, and then 1.",
+  "hint": "Count backward one step at a time.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-1-012",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "A whale is bigger than a crab. A crab is bigger than a shrimp. Which one is the smallest?",
+  "opts": [
+   "Whale",
+   "Crab",
+   "Shrimp"
+  ],
+  "a": 2,
+  "why": "The shrimp is smaller than the crab, and the crab is smaller than the whale. So shrimp is smallest.",
+  "hint": "Line them up from big to small.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-001",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "A rocket counts down by 2s: 30, 28, 26, 24, ❓. What number comes next?",
+  "a": 22,
+  "why": "Each number is 2 less than the one before. 24 minus 2 is 22.",
+  "hint": "Find how much each number drops.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-002",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "A dino dig numbers its bones: 3, 8, 13, 18, ❓. What number comes next?",
+  "opts": [
+   "21",
+   "23",
+   "24"
+  ],
+  "a": 1,
+  "why": "The numbers go up by 5 each time. 18 plus 5 is 23.",
+  "hint": "Subtract neighbors to find the jump.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-003",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Shark A shows 15 teeth. Shark B shows 51 teeth. Which shark shows MORE teeth?",
+  "opts": [
+   "They are the same",
+   "Shark A: 15 teeth",
+   "Shark B: 51 teeth"
+  ],
+  "a": 2,
+  "why": "51 has 5 tens and 15 has only 1 ten. The tens digit decides.",
+  "hint": "Compare the tens digits first.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-004",
+  "topic": "logic",
+  "level": 2,
+  "type": "order",
+  "q": "Home runs hit by four players: 18, 9, 31, 24. Put them from fewest to most.",
+  "opts": [
+   "9",
+   "18",
+   "24",
+   "31"
+  ],
+  "why": "Compare the tens first: 9 is the smallest, then 18, then 24, then 31.",
+  "hint": "Find the smallest first, then the next.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-005",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "The fins box holds a shark, a tuna and an eagle. Which one is in the wrong box?",
+  "opts": [
+   "Eagle",
+   "Shark",
+   "Tuna"
+  ],
+  "a": 0,
+  "why": "Sharks and tuna are fish with fins. An eagle has wings, so it belongs in a different box.",
+  "hint": "Ask which animal has no fins.",
+  "tags": [
+   "sharks",
+   "animals"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-006",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "A star pattern grows: group 1 has 1 star, group 2 has 3 stars, group 3 has 5 stars. How many stars are in group 5?",
+  "a": 9,
+  "why": "Each group adds 2 stars: 1, 3, 5, 7, 9. Group 5 has 9 stars.",
+  "hint": "Find how many stars each group adds.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-007",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "The even box holds 4, 8 and 12. Which number also belongs in the even box?",
+  "opts": [
+   "18",
+   "15",
+   "21"
+  ],
+  "a": 0,
+  "why": "Even numbers split into two equal groups. 18 does, but 15 and 21 leave one extra.",
+  "hint": "Even numbers end in 0, 2, 4, 6 or 8.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-008",
+  "topic": "logic",
+  "level": 2,
+  "type": "order",
+  "q": "Sam throws faster than Lee. Lee throws faster than Ty. Put the pitchers from slowest to fastest.",
+  "opts": [
+   "Ty",
+   "Lee",
+   "Sam"
+  ],
+  "why": "Ty is slower than Lee and Lee is slower than Sam. So the order is Ty, Lee, Sam.",
+  "hint": "Find who is slower than everyone.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-009",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Four of these numbers are even and one is not: 12, 14, 16, 19, 20. Which does NOT belong?",
+  "opts": [
+   "12",
+   "20",
+   "19"
+  ],
+  "a": 2,
+  "why": "12, 14, 16 and 20 are all even. 19 is odd, so it is the one left out.",
+  "hint": "Check the last digit of each number.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-010",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "True or false: if you count by 5s from 5 (5, 10, 15, 20...), you will say the number 18.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Counting by 5s lands on numbers ending in 5 or 0. 18 ends in 8, so you skip it.",
+  "hint": "Look at the last digit each time.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-011",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "The Rangers scored 6 runs. The Waves scored 4 more runs than the Rangers. How many runs did the Waves score?",
+  "a": 10,
+  "why": "4 more than 6 is 10. The Waves scored 10 runs.",
+  "hint": "Start at 6 and count up 4.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-2-012",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Which shape goes in the empty spot? Row 1: 🔺 🔷 🔺. Row 2: 🔷 🔺 🔷. Row 3: 🔺 🔷 ❓",
+  "opts": [
+   "🔷",
+   "🔺",
+   "🟢"
+  ],
+  "a": 1,
+  "why": "Every row and column swaps between triangle and diamond. After 🔺 🔷 comes 🔺.",
+  "hint": "Look at what is above the empty spot.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-001",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "A moon rover finds this many rocks each day: 2, 5, 8, 11. If the pattern keeps going, how many on day 5?",
+  "opts": [
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "a": 1,
+  "why": "The pattern adds 3 each day. 11 plus 3 is 14.",
+  "hint": "Check how much it grows from day to day.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-002",
+  "topic": "logic",
+  "level": 3,
+  "type": "order",
+  "q": "Jo is taller than Kai. Lee is shorter than Kai. Mo is taller than Jo. Put the four players from shortest to tallest.",
+  "opts": [
+   "Lee",
+   "Kai",
+   "Jo",
+   "Mo"
+  ],
+  "why": "Lee is below Kai, Kai is below Jo, and Jo is below Mo. Chain them together.",
+  "hint": "Draw a line and place one player at a time.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-003",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "A fossil hunter's boxes hold 4, 7, 10, 13 bones, and so on. How many bones are in the 7th box?",
+  "a": 22,
+  "why": "Each box holds 3 more. After 13 comes 16, 19, then 22 in the 7th box.",
+  "hint": "Keep adding the same number, box by box.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-004",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Each row and column has one 🦈, one 🐙 and one 🐢. Row 1: 🦈 🐙 🐢. Row 2: 🐙 🐢 🦈. Row 3: 🐢 ❓ 🐙. What goes in ❓?",
+  "opts": [
+   "🐬",
+   "🐙",
+   "🐢",
+   "🦈"
+  ],
+  "a": 3,
+  "why": "Row 3 already has 🐢 and 🐙, so it needs 🦈. Column 2 agrees.",
+  "hint": "Which animal is missing from Row 3?",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-005",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "The pattern 🪐 ⭐ ⭐ repeats over and over. Among the first 10 items, how many are ⭐?",
+  "a": 6,
+  "why": "Items 1 to 10 are 🪐⭐⭐ 🪐⭐⭐ 🪐⭐⭐ 🪐. That is three groups of 2 stars.",
+  "hint": "Write out all 10 items and count.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-006",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "In a dino parade, Stegosaurus walks behind Triceratops. T. rex walks in front of Triceratops. Who walks last?",
+  "opts": [
+   "T. rex",
+   "Triceratops",
+   "Stegosaurus",
+   "Can't tell"
+  ],
+  "a": 2,
+  "why": "The line is T. rex, Triceratops, Stegosaurus. The one behind everybody is last.",
+  "hint": "Put the three dinos in a line.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-007",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "True or false: in the pattern 20, 17, 14, 11, the next number is 8.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Each number is 3 less than the one before. 11 minus 3 is 8.",
+  "hint": "Find how much each number drops.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-008",
+  "topic": "logic",
+  "level": 3,
+  "type": "order",
+  "q": "Work out each sum, then put them from least to greatest.",
+  "opts": [
+   "4 + 4",
+   "3 + 7",
+   "2 + 9",
+   "5 + 8"
+  ],
+  "why": "The sums are 8, 10, 11 and 13. Order the answers, not the first numbers.",
+  "hint": "Add first, then compare the answers.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-009",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "A skip pattern goes 6, 9, 12, 16, 18. Which number is the mistake?",
+  "opts": [
+   "16",
+   "9",
+   "12",
+   "18"
+  ],
+  "a": 0,
+  "why": "Adding 3 each time gives 6, 9, 12, 15, 18. The 16 should be 15.",
+  "hint": "Add the same jump each time to find the break.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-010",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "In each row of a number grid, the three numbers add up to 12. Row 1: 5, 4, 3. Row 2: 6, ❓, 2. What number is ❓?",
+  "a": 4,
+  "why": "6 plus 2 is 8. To reach 12 you need 4 more.",
+  "hint": "First add the two numbers you can see.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-011",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Three of these are sharks. Which one is NOT a shark?",
+  "opts": [
+   "Orca",
+   "Hammerhead",
+   "Great white",
+   "Whale shark"
+  ],
+  "a": 0,
+  "why": "Hammerheads, great whites and whale sharks are fish. An orca is really a dolphin, a mammal that breathes air.",
+  "hint": "Think about which are fish and which breathe air.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-3-012",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "The letters follow a pattern: A B A C A D A ❓. What comes next?",
+  "opts": [
+   "B",
+   "D",
+   "A",
+   "E"
+  ],
+  "a": 3,
+  "why": "Every other letter is A. The letters in between go B, C, D, so E is next.",
+  "hint": "Look at the letters between the A's.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-001",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Mystery number: it is more than 20, less than 30, a multiple of 7, and odd. What is it?",
+  "a": 21,
+  "why": "The multiples of 7 between 20 and 30 are 21 and 28. Only 21 is odd.",
+  "hint": "List the multiples of 7 near 20 first.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-002",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "A pitcher's jersey number has two digits. The digits add up to 9, and the tens digit is double the ones digit. What is the number?",
+  "a": 63,
+  "why": "Try 6 and 3. They add to 9, and 6 is double 3. So the number is 63.",
+  "hint": "Try pairs of digits that add to 9.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-003",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Every shark in an aquarium is gray. Mia sees a gray fish and says it must be a shark. What is wrong with her thinking?",
+  "opts": [
+   "Other kinds of fish can be gray too",
+   "Sharks are never gray",
+   "Fish cannot be gray",
+   "Nothing is wrong"
+  ],
+  "a": 0,
+  "why": "The clue says sharks are gray, not that every gray fish is a shark.",
+  "hint": "Does the clue work backward too?",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-004",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Leo has 3 boxes with 4 stickers in each. He says 3 + 4 = 7 stickers. How many stickers does he really have?",
+  "a": 12,
+  "why": "Each box has 4, and there are 3 boxes: 4 + 4 + 4 = 12. He added the wrong numbers.",
+  "hint": "Add the stickers box by box.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-005",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Nia, Omar and Pia each love a different thing: sharks, dinosaurs or space. Nia loves neither sharks nor dinosaurs. Omar does not love sharks. Who loves sharks?",
+  "opts": [
+   "Nia",
+   "Omar",
+   "Can't tell",
+   "Pia"
+  ],
+  "a": 3,
+  "why": "Nia must love space. Omar does not love sharks, so he loves dinosaurs. That leaves Pia with sharks.",
+  "hint": "Start with the kid who has the most clues.",
+  "tags": [
+   "sharks",
+   "dinosaurs",
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-006",
+  "topic": "logic",
+  "level": 4,
+  "type": "order",
+  "q": "Four dinosaurs race. Yan finishes right after Zed. Wes finishes before Zed. Xia finishes after Yan. Put them in finishing order, first to last.",
+  "opts": [
+   "Wes",
+   "Zed",
+   "Yan",
+   "Xia"
+  ],
+  "why": "Wes comes before Zed, Yan is right after Zed, and Xia is after Yan. That makes Wes, Zed, Yan, Xia.",
+  "hint": "Place the one with a 'before' clue first.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-007",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "A crab walks from A to B, moving only right or down. B is 2 steps right and 2 steps down from A. How many different shortest paths can it take?",
+  "a": 6,
+  "why": "List them: RRDD, RDRD, RDDR, DRRD, DRDR, DDRR. That is 6 paths.",
+  "hint": "List the paths in an organized way.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-008",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "True or false: All sharks are fish, and a hammerhead is a shark. So a hammerhead must be a fish.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "A hammerhead is a shark, and every shark is a fish. So the conclusion must be true.",
+  "hint": "Follow the chain one link at a time.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-009",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Which number fits ALL the clues? It is between 40 and 60. It is a multiple of 5. The tens digit is 5. The ones digit is odd.",
+  "opts": [
+   "50",
+   "45",
+   "60",
+   "55"
+  ],
+  "a": 3,
+  "why": "Multiples of 5 with a tens digit of 5 are 50 and 55. Only 55 has an odd ones digit.",
+  "hint": "Cross out numbers one clue at a time.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-010",
+  "topic": "logic",
+  "level": 4,
+  "type": "order",
+  "q": "Four fans leave a baseball game after 1/8, 1/4, 1/2 and 3/4 of it is done. Put them from the first to leave to the last.",
+  "opts": [
+   "1/8",
+   "1/4",
+   "1/2",
+   "3/4"
+  ],
+  "why": "Eighths are the smallest pieces, then fourths, then halves. 3/4 is the biggest, so that fan leaves last.",
+  "hint": "Picture a pizza cut into pieces.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-011",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Today is Wednesday. A rocket launches in 10 days. What day of the week is the launch?",
+  "opts": [
+   "Friday",
+   "Saturday",
+   "Sunday",
+   "Monday"
+  ],
+  "a": 1,
+  "why": "7 days later is Wednesday again, and 3 more days is Saturday.",
+  "hint": "Count a full week first, then the extra days.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-4-012",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "A coach says: 'We lost our last 3 games, so we will lose the next one.' What is wrong with that thinking?",
+  "opts": [
+   "Teams cannot lose 3 in a row",
+   "He should say they will win",
+   "Nothing is wrong",
+   "Past games do not decide the next one"
+  ],
+  "a": 3,
+  "why": "The next game is a new game. Earlier losses cannot force a result.",
+  "hint": "Does the past control what happens next?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-001",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "If it rains, the baseball game is canceled. The game was NOT canceled. What must be true?",
+  "opts": [
+   "It rained",
+   "We cannot tell",
+   "Rain started late",
+   "It did not rain"
+  ],
+  "a": 3,
+  "why": "If rain always cancels the game, then no cancellation means there was no rain.",
+  "hint": "Test it: what would rain have done to the game?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-002",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "A toy shark balances 3 toy fish on a scale. One toy fish balances 2 toy crabs. How many toy crabs balance one toy shark?",
+  "a": 6,
+  "why": "One shark equals 3 fish. Each fish equals 2 crabs. So 3 groups of 2 make 6 crabs.",
+  "hint": "Turn the shark into fish first.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-003",
+  "topic": "logic",
+  "level": 5,
+  "type": "order",
+  "q": "Moon rocks on a balance scale: A is heavier than B. C is lighter than B. D is heavier than A. Order them from lightest to heaviest.",
+  "opts": [
+   "C",
+   "B",
+   "A",
+   "D"
+  ],
+  "why": "C is below B, B is below A, and A is below D. Chain the clues together.",
+  "hint": "Build a line one clue at a time.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-004",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "What number comes next in this pattern? 2, 3, 6, 7, 14, 15, ❓",
+  "opts": [
+   "30",
+   "16",
+   "28",
+   "31"
+  ],
+  "a": 0,
+  "why": "The steps take turns: add 1, then double. 15 doubled is 30.",
+  "hint": "Two different steps take turns.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-005",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "A fossil hunter doubled her bones, then found 5 more. Now she has 21 bones. How many did she start with?",
+  "a": 8,
+  "why": "Work backward: 21 minus 5 is 16. Half of 16 is 8.",
+  "hint": "Undo the steps in reverse order.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-006",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "If it rains, the game is canceled. The game was canceled. Did it rain?",
+  "opts": [
+   "Yes, it must have rained",
+   "No, it did not rain",
+   "Yes, but only a little",
+   "We cannot tell for sure"
+  ],
+  "a": 3,
+  "why": "Rain causes cancellation, but other things could cancel a game too, such as lightning or a broken field.",
+  "hint": "Could anything else cancel a game?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-007",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "In a class of 20 kids, 12 like sharks and 10 like dinosaurs. Every kid likes at least one. How many like both?",
+  "a": 2,
+  "why": "12 + 10 = 22, which is 2 more than 20 kids. Those 2 were counted twice.",
+  "hint": "Add the groups, then compare with the class size.",
+  "tags": [
+   "sharks",
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-008",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "A toy starfish and 2 marbles balance 5 marbles on a scale. How many marbles balance one toy starfish?",
+  "opts": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "a": 1,
+  "why": "Take 2 marbles from each side. The starfish balances the 3 marbles left.",
+  "hint": "Remove the same thing from both sides.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-009",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "True or false: If a shape is a square, it has 4 sides. This shape has 4 sides, so it must be a square.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Rectangles and diamonds have 4 sides too. Square leads to 4 sides, but 4 sides does not lead to square.",
+  "hint": "Can you draw a 4-sided shape that is not a square?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-010",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "A pattern grows: ⚾ 🧢 ⚾⚾ 🧢 ⚾⚾⚾ 🧢 and so on. Counting from 1, in which spot is the 5th 🧢?",
+  "a": 20,
+  "why": "Caps sit after groups of 1, 2, 3, 4 and 5 balls. That is 15 balls and 5 caps, so spot 20.",
+  "hint": "Keep writing the pattern out and count each spot.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-011",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Sam thinks of a number, adds 6, then halves the result. He gets 7. What was his number?",
+  "opts": [
+   "14",
+   "20",
+   "8",
+   "10"
+  ],
+  "a": 2,
+  "why": "Undo halving: 7 doubled is 14. Undo adding 6: 14 minus 6 is 8.",
+  "hint": "Undo the last step first.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-5-012",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "A space show ended at 4:10 PM after running 2 hours and 25 minutes. When did it start?",
+  "opts": [
+   "1:35 PM",
+   "1:45 PM",
+   "2:15 PM",
+   "1:55 PM"
+  ],
+  "a": 1,
+  "why": "Back up 2 hours to 2:10. Then back up 25 minutes to 1:45 PM.",
+  "hint": "Go back one hour piece, then the minutes.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-001",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "A toy bat and a toy ball cost $1.10 together. The bat costs $1 more than the ball. How many cents does the ball cost?",
+  "a": 5,
+  "why": "Try 5 cents: the bat is $1.05 and the total is $1.10. A 10-cent ball makes the total $1.20.",
+  "hint": "Test your first guess by adding both prices.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-002",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Two coins add up to 30 cents. One of them is not a nickel. Which two coins are they?",
+  "opts": [
+   "A dime and a nickel",
+   "A quarter and a nickel",
+   "Two dimes",
+   "A quarter and a dime"
+  ],
+  "a": 1,
+  "why": "The quarter is the one that is not a nickel. The other coin IS a nickel. 25 + 5 = 30.",
+  "hint": "Read 'one of them' very carefully.",
+  "tags": [
+   "money"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-003",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Finn and Gill are sharks in a riddle. Each always tells the truth or always lies. Finn says: 'At least one of us is a liar.' Who is who?",
+  "opts": [
+   "Both always tell the truth",
+   "Both always lie",
+   "Finn lies and Gill tells the truth",
+   "Finn tells the truth and Gill lies"
+  ],
+  "a": 3,
+  "why": "If Finn were a liar, his sentence would be true. That is impossible. So Finn is honest, and Gill is the liar.",
+  "hint": "Test what happens if Finn is a liar.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-004",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "6 baseball players shake hands after a game. Every player shakes hands with every other player exactly once. How many handshakes happen?",
+  "a": 15,
+  "why": "Each of 6 players shakes 5 hands, which counts every handshake twice: 30 divided by 2 is 15.",
+  "hint": "Count one player's handshakes, then fix the double counting.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-005",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "A cube net has four squares in a row: A, B, C, D. Square E is above B and square F is below B. Folded into a cube, which square is opposite B?",
+  "opts": [
+   "A",
+   "C",
+   "F",
+   "D"
+  ],
+  "a": 3,
+  "why": "A, B, C, D wrap around the cube like a belt. Squares two steps apart are opposite, so D faces B.",
+  "hint": "Picture the row of four wrapping around a box.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-006",
+  "topic": "logic",
+  "level": 6,
+  "type": "order",
+  "q": "Five players bat in order. Rae bats last. Sol bats right before Rae. Pat bats before Quinn. Tia bats before Pat. Put them in batting order, first to last.",
+  "opts": [
+   "Tia",
+   "Pat",
+   "Quinn",
+   "Sol",
+   "Rae"
+  ],
+  "why": "Rae is 5th and Sol is 4th. Tia, Pat, Quinn fill spots 1 to 3, with Tia before Pat before Quinn.",
+  "hint": "Place the sure spots first, then fill the gaps.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-007",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "A 3 by 3 by 3 cube is painted red on the outside, then cut into 27 small cubes. How many small cubes have exactly 2 red faces?",
+  "a": 12,
+  "why": "Those are the edge cubes, one in the middle of each of the 12 edges. Corners show 3 red faces.",
+  "hint": "Where do two painted faces meet?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-008",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "A museum has 17 dinosaur skeletons. All but 9 of them are moved to a new hall. How many skeletons did NOT move?",
+  "opts": [
+   "9",
+   "8",
+   "17",
+   "26"
+  ],
+  "a": 0,
+  "why": "'All but 9' means 9 stayed behind. The other 8 moved. The 17 is a distraction.",
+  "hint": "Which ones did NOT move?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-009",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Algae in a tide pool doubles every day. On day 12 it covers the whole pool. On which day was the pool half covered?",
+  "a": 11,
+  "why": "One doubling later it fills the pool. So half-covered was one day earlier, on day 11.",
+  "hint": "Doubling goes forward. What does half do backward?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-010",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "A dark drawer holds 10 red baseball socks and 10 blue ones, all mixed up. What is the fewest socks you must grab to be SURE of a matching pair?",
+  "opts": [
+   "2",
+   "3",
+   "4",
+   "11"
+  ],
+  "a": 1,
+  "why": "Two socks might be one of each color. The third sock must match one of the first two.",
+  "hint": "What is the worst luck you could have?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-011",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "True or false: A fair coin lands heads 5 times in a row. On the next flip, tails is more likely.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Each flip is separate. The coin does not remember, so heads and tails are still equally likely.",
+  "hint": "Does a coin remember its past flips?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-en-6-012",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "8 space rocks look identical, but one is heavier. What is the fewest weighings on a balance scale that is guaranteed to find the heavy one?",
+  "a": 2,
+  "why": "Weigh 3 against 3. Balanced means it's in the other 2; otherwise it's in the heavier 3. One more weighing finishes.",
+  "hint": "One weighing has 3 outcomes: left, right, balanced.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ }
+]

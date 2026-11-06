@@ -1,0 +1,2411 @@
+[
+ {
+  "id": "rea-1-001",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "The blue whale is huge. Which word means almost the same as huge?",
+  "opts": [
+   "very big",
+   "very small",
+   "very fast"
+  ],
+  "a": 0,
+  "why": "Huge means very big. Small is the opposite, and fast is about speed, not size.",
+  "hint": "Picture the biggest animal in the sea.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-002",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Sam put on his coat, hat, and gloves. Then he ran outside to play in the snow. What was the weather like?",
+  "opts": [
+   "hot",
+   "cold",
+   "warm and dry"
+  ],
+  "a": 1,
+  "why": "Coats, gloves, and snow are clues for cold weather. A hot day would not need them.",
+  "hint": "Think about why someone wears gloves.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "Common Core RL.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-003",
+  "topic": "reading",
+  "level": 1,
+  "type": "order",
+  "q": "Put the story in order.",
+  "opts": [
+   "Mia picked up her bat.",
+   "She swung at the ball.",
+   "The ball flew over the fence.",
+   "Everyone cheered."
+  ],
+  "why": "She must pick up the bat first. Then she swings, the ball flies, and the crowd cheers.",
+  "hint": "What must happen before she can swing?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-004",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "'Quiet' and 'loud' mean almost the same thing.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Quiet means making little sound, and loud means making a lot. They are opposites.",
+  "hint": "Picture a library and a loud drum.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-005",
+  "topic": "reading",
+  "level": 1,
+  "type": "number",
+  "q": "An octopus has three hearts. Two hearts help its gills. One heart helps the rest of its body. How many hearts does an octopus have?",
+  "a": 3,
+  "why": "The first sentence says it directly. Two hearts work with the gills and one works for the body.",
+  "hint": "Reread the first sentence.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-006",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Ben dropped his ice cream on the ground. Tears filled his eyes. How did Ben feel?",
+  "opts": [
+   "proud",
+   "sleepy",
+   "sad"
+  ],
+  "a": 2,
+  "why": "Tears and a dropped treat are clues. Ben is sad, not proud.",
+  "hint": "What do tears usually show?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RL.1.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-007",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Which sentence is a fact, something that can be proven?",
+  "opts": [
+   "A baseball has red stitches.",
+   "Baseball is the best game ever.",
+   "Hot dogs at games taste yummy."
+  ],
+  "a": 0,
+  "why": "You can check stitches by looking. Best and yummy are feelings, so they are opinions.",
+  "hint": "Can you check it by looking?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RI.2.8",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-008",
+  "topic": "reading",
+  "level": 1,
+  "type": "order",
+  "q": "Put these words in order from quietest to loudest.",
+  "opts": [
+   "whisper",
+   "talk",
+   "shout"
+  ],
+  "why": "A whisper is very soft, talking is in the middle, and shouting is very loud.",
+  "hint": "Which one would you use in a library?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-009",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A shark has rows of teeth. When one falls out, a new one grows in. What is this mostly about?",
+  "opts": [
+   "baby sharks",
+   "shark teeth",
+   "shark food"
+  ],
+  "a": 1,
+  "why": "Every sentence talks about teeth, so teeth is the main idea.",
+  "hint": "What do all the sentences talk about?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RI.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-1-010",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "The word 'unfair' means 'not fair.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The prefix un- means not. So unfair means not fair.",
+  "hint": "What does un- at the start of a word do?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.1.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-001",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "The shark glided through the water without a splash. What does glided mean?",
+  "opts": [
+   "splashed around loudly",
+   "turned and bumped hard",
+   "moved smoothly"
+  ],
+  "a": 2,
+  "why": "The clue is 'without a splash.' Gliding is smooth and easy, not bumpy or noisy.",
+  "hint": "Use the clue 'without a splash.'",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-002",
+  "topic": "reading",
+  "level": 2,
+  "type": "order",
+  "q": "Put the rocket story in order.",
+  "opts": [
+   "The rocket sat on the launch pad.",
+   "The countdown began.",
+   "The rocket blasted off.",
+   "It circled high above Earth."
+  ],
+  "why": "A rocket waits ready, counts down, launches, and then travels around Earth.",
+  "hint": "What happens right before blast-off?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core RL.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-003",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Before the big game, Ava's hands shook. She kept checking her glove. How did she feel?",
+  "opts": [
+   "nervous",
+   "bored",
+   "relaxed"
+  ],
+  "a": 0,
+  "why": "Shaky hands and checking her glove are clues she was worried, not bored or relaxed.",
+  "hint": "What do shaky hands often show?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.2.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-004",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "A crab that scurried across the sand moved slowly.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Scurry means to run fast with quick little steps. A slow mover would plod or creep.",
+  "hint": "Picture a crab running away from a wave.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-005",
+  "topic": "reading",
+  "level": 2,
+  "type": "number",
+  "q": "How many sentences are in this passage? The whale dove deep. It stayed under for a long time. Then it rose to breathe.",
+  "a": 3,
+  "why": "Each sentence ends with a period: dove deep, long time, and breathe.",
+  "hint": "Count the periods.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-006",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Some dinosaurs ate plants. Others ate meat. What is the main idea?",
+  "opts": [
+   "All dinosaurs ate only plants.",
+   "Dinosaurs ate different foods.",
+   "Meat tasted better than plants."
+  ],
+  "a": 1,
+  "why": "Both sentences tell what dinosaurs ate. Only one answer covers plants and meat.",
+  "hint": "Which answer fits both sentences?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core RI.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-007",
+  "topic": "reading",
+  "level": 2,
+  "type": "order",
+  "q": "Put these words in order from slowest to fastest.",
+  "opts": [
+   "crept",
+   "walked",
+   "jogged",
+   "sprinted"
+  ],
+  "why": "Crept is very slow and sprinted is full speed. Walked and jogged fall in between.",
+  "hint": "Which one is full speed?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-008",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "A shark's skin is covered with tiny scales shaped like teeth. What are the tiny scales shaped like?",
+  "opts": [
+   "stars",
+   "leaves",
+   "teeth"
+  ],
+  "a": 2,
+  "why": "They are called denticles, which means 'little teeth.' They make shark skin feel rough.",
+  "hint": "Read the first sentence again.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "NOAA Fisheries",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-009",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "'The Moon is the prettiest thing in the sky' is an opinion.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Prettiest is a feeling, and people can disagree. A fact can be checked.",
+  "hint": "Can everyone prove it, or can people disagree?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core RI.2.8",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-2-010",
+  "topic": "reading",
+  "level": 2,
+  "type": "number",
+  "q": "At the aquarium, Kai saw hammerhead sharks, nurse sharks, and a whale shark. How many different kinds of shark did he see?",
+  "a": 3,
+  "why": "Hammerhead, nurse, and whale shark are three kinds. Count the kinds, not each animal.",
+  "hint": "Count the kinds, not the sharks.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RI.2.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-001",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The octopus camouflaged itself against the rocks. Hungry sharks swam right past it. What does camouflaged mean?",
+  "opts": [
+   "blended in with the rocks",
+   "swam off at top speed",
+   "squirted ink all over",
+   "grew larger to look scary"
+  ],
+  "a": 0,
+  "why": "Camouflaged means hidden by looking like the background. That is why the sharks swam right past.",
+  "hint": "Why did the sharks not notice the octopus?",
+  "tags": [
+   "ocean",
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-002",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The huge dinosaur ____ through the thick mud. Which word shows it moved slowly and heavily?",
+  "opts": [
+   "skipped",
+   "trudged",
+   "pranced",
+   "zipped"
+  ],
+  "a": 1,
+  "why": "Trudged means walking with slow, heavy steps. Skipped, pranced, and zipped are light or quick.",
+  "hint": "Think about walking in sticky mud.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-003",
+  "topic": "reading",
+  "level": 3,
+  "type": "order",
+  "q": "Put the fossil story in order.",
+  "opts": [
+   "A dinosaur died near a muddy river.",
+   "Mud covered its bones.",
+   "Over millions of years, the bones turned to rock.",
+   "A scientist dug up the fossil."
+  ],
+  "why": "Fossils form slowly: burial first, then rock forming over time, and only later can people dig them up.",
+  "hint": "Which step needs the most time?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "NPS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-004",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The coach let the pitcher rest because his arm was sore. What was the cause of the rest?",
+  "opts": [
+   "The other team scored a run",
+   "The ball got lost in the grass",
+   "His arm was sore",
+   "The umpire called a time-out"
+  ],
+  "a": 2,
+  "why": "The word because points to the cause. His sore arm made the coach give him a rest.",
+  "hint": "Find the word because.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-005",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Read: Sharks breathe underwater with gills. Dolphins come up to breathe air. True or false: Dolphins breathe with gills.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Dolphins are mammals and breathe air at the surface. Sharks are the ones with gills.",
+  "hint": "Reread what the text says dolphins do.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-006",
+  "topic": "reading",
+  "level": 3,
+  "type": "number",
+  "q": "Read: (1) The Sun is a star. (2) The Sun is the prettiest star. (3) The Sun gives Earth light and heat. How many sentences are facts?",
+  "a": 2,
+  "why": "Sentences 1 and 3 can be checked. 'Prettiest' is an opinion because people can disagree.",
+  "hint": "Which sentence can people disagree about?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.8",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-007",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The suffix -less means 'without.' What does fearless mean?",
+  "opts": [
+   "full of fear",
+   "fear again",
+   "afraid of fear",
+   "without fear"
+  ],
+  "a": 3,
+  "why": "-less means without. Do not mix it up with -ful, which means full of.",
+  "hint": "Swap -less for the word without.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-008",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Which of these is a real English word?",
+  "opts": [
+   "kerfuffle",
+   "blorptic",
+   "zimbrel",
+   "quantiffle"
+  ],
+  "a": 0,
+  "why": "Kerfuffle means a fuss or commotion, and it is in dictionaries. The other three are made up.",
+  "hint": "One of these sounds silly but is in dictionaries.",
+  "tags": [],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-009",
+  "topic": "reading",
+  "level": 3,
+  "type": "number",
+  "q": "In Triceratops, tri- means 'three' and ceratops means 'horned face.' How many horns did a Triceratops have?",
+  "a": 3,
+  "why": "Two long brow horns plus one nose horn make three, matching the tri- in its name.",
+  "hint": "Use the meaning of tri-.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-3-010",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "A predator hunts other animals. Prey are the animals that get hunted. True or false: A seal can be prey for a shark.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Some sharks hunt seals, so a seal is prey in that case. Predator and prey are jobs in a food chain.",
+  "hint": "Ask yourself who is hunting whom.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-001",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "After her perfect science talk, the teacher said Mia hit it out of the park. What does that mean?",
+  "opts": [
+   "She threw a ball very far",
+   "She did an excellent job",
+   "She left school early",
+   "She broke a window"
+  ],
+  "a": 1,
+  "why": "A home run that leaves the park is a huge success, so the idiom means doing something extremely well.",
+  "hint": "A home run is the best hit in baseball.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-002",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Hundreds of small fish suddenly turned together and darted away. A large, dark shape glided past. What most likely made the fish flee?",
+  "opts": [
+   "a sudden thunderstorm rolling in",
+   "a sudden drop in water temperature",
+   "a bigger animal hunting nearby",
+   "a swarm of tiny glowing plankton"
+  ],
+  "a": 2,
+  "why": "A large shape gliding past is the clue. Small fish flee together when a predator comes near.",
+  "hint": "What does a large dark shape suggest?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-003",
+  "topic": "reading",
+  "level": 4,
+  "type": "number",
+  "q": "Mara said, 'I'm so hungry I could eat a horse!' How many horses will Mara really eat?",
+  "a": 0,
+  "why": "This is hyperbole, a big exaggeration. She just means she is very hungry.",
+  "hint": "Is she telling the exact truth?",
+  "tags": [
+   "food"
+  ],
+  "fun": true,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-004",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "In the words 'dehydrate' and 'hydrant,' the root hydr- means water.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Hydr- comes from the Greek word for water. Dehydrate means to lose water, and a hydrant supplies it.",
+  "hint": "Think about what a fire hydrant holds.",
+  "tags": [],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-005",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "On Earth, Zoe's spacesuit felt heavy. On the Moon, the same suit felt light and she bounced when she walked. What best explains this?",
+  "opts": [
+   "The Moon has much thicker air",
+   "Her suit shrank during the trip",
+   "The Moon is much warmer than Earth",
+   "The Moon's gravity is weaker"
+  ],
+  "a": 3,
+  "why": "The Moon pulls less strongly than Earth, so things weigh less there. Air and warmth do not change weight.",
+  "hint": "What force pulls things toward a planet?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-006",
+  "topic": "reading",
+  "level": 4,
+  "type": "order",
+  "q": "Put the sea turtle's life story in order.",
+  "opts": [
+   "A mother turtle lays eggs on the beach.",
+   "The baby turtles hatch.",
+   "They crawl to the sea.",
+   "They grow up in the ocean."
+  ],
+  "why": "Eggs come first, then hatching, then the trip to the water, and growing up at sea.",
+  "hint": "What must happen before babies can crawl?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-007",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "A baseball glove has a deep pocket to catch the ball and long fingers to reach it. A leather web helps scoop it up. What is the main idea?",
+  "opts": [
+   "how gloves catch baseballs",
+   "how pitchers throw curveballs",
+   "why leather is expensive",
+   "when baseball first began"
+  ],
+  "a": 0,
+  "why": "Every sentence describes a glove part that helps catch. The other choices are never discussed.",
+  "hint": "What do all three sentences have in common?",
+  "tags": [
+   "baseball",
+   "machines"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-008",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "The word astronaut comes from Greek words meaning 'star' and 'sailor.' What does astronaut literally mean?",
+  "opts": [
+   "moon walker",
+   "star sailor",
+   "sky builder",
+   "rocket driver"
+  ],
+  "a": 1,
+  "why": "Astro means star and naut means sailor, so an astronaut is a 'star sailor.'",
+  "hint": "Combine the two Greek meanings.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-009",
+  "topic": "reading",
+  "level": 4,
+  "type": "number",
+  "q": "The prefix bi- means two and tri- means three. How many wheels do a bicycle and a tricycle have in all?",
+  "a": 5,
+  "why": "A bicycle has two wheels (bi-) and a tricycle has three (tri-). Two plus three is five.",
+  "hint": "Find each prefix, then add.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-4-010",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "'It's raining cats and dogs' means that pets are falling from the sky.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "It is an idiom. It means rain is falling very hard, not that animals are falling.",
+  "hint": "Idioms do not mean exactly what the words say.",
+  "tags": [
+   "weather",
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-001",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Tele- means 'far.' Phone means 'sound,' and vis- means 'see.' What does the word television literally mean?",
+  "opts": [
+   "sound from far away",
+   "light from a faraway star",
+   "sight from far away",
+   "a long, flat screen"
+  ],
+  "a": 2,
+  "why": "Tele- (far) plus vis- (see) means seeing from far away. Sound from far away would be a telephone.",
+  "hint": "Match each root to its meaning.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-002",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "'The Moon was a silver coin in the dark sky' is a simile.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "A simile uses like or as. This sentence says the Moon was a coin, with no like or as, so it is a metaphor.",
+  "hint": "Look for the words like or as.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-003",
+  "topic": "reading",
+  "level": 5,
+  "type": "order",
+  "q": "Put these words in order from the smallest amount of water to the largest.",
+  "opts": [
+   "drop",
+   "trickle",
+   "stream",
+   "torrent"
+  ],
+  "why": "A drop is one bead. A trickle is a thin flow, a stream is steady, and a torrent is a rushing flood.",
+  "hint": "Which word sounds like a flood?",
+  "tags": [
+   "ocean",
+   "weather"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-004",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Scientists found seashell fossils on a high mountain. Long ago, that rock lay on a sea floor. Slow movements of Earth's crust pushed it upward. What lifted the shells?",
+  "opts": [
+   "Giant waves tossing them up there",
+   "Ancient people carried them up",
+   "Seabirds dropping them from above",
+   "Slow movements of the crust"
+  ],
+  "a": 3,
+  "why": "The passage names the cause: the crust slowly pushed the rock upward. Nothing in the text mentions waves or people.",
+  "hint": "Find the sentence that says what pushed the rock.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-005",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Which sentence is an opinion instead of a fact?",
+  "opts": [
+   "The seventh-inning stretch is the best part.",
+   "A regulation baseball weighs about five ounces.",
+   "A pitcher throws from a raised mound.",
+   "A regular game has nine innings."
+  ],
+  "a": 0,
+  "why": "Best is a feeling that people can disagree about. The other three can be checked in a rule book.",
+  "hint": "Which one has a judgment word like best?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RI.4.8",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-006",
+  "topic": "reading",
+  "level": 5,
+  "type": "number",
+  "q": "The root bio- means 'life.' How many of these words contain it: biology, bicycle, biome, antibiotic, biography?",
+  "a": 4,
+  "why": "Biology, biome, antibiotic, and biography all have bio-. Bicycle only has bi-, which means two.",
+  "hint": "Look for the exact letters b-i-o.",
+  "tags": [],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-007",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "The word dinosaur comes from two Greek words. Deinos means 'terrible' and sauros means 'lizard.' What does dinosaur mean?",
+  "opts": [
+   "thunder lizard from the sky",
+   "terrible lizard",
+   "giant swimming reptile",
+   "fierce prehistoric bird"
+  ],
+  "a": 1,
+  "why": "Putting the roots together gives 'terrible lizard.' Thunder lizard is the meaning of brontosaurus, a different name.",
+  "hint": "Combine the two Greek meanings in order.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-008",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "The shortstop was on thin ice with his coach after missing three practices. What does on thin ice mean?",
+  "opts": [
+   "playing very well",
+   "standing in cold air",
+   "in a risky spot",
+   "ready to be promoted"
+  ],
+  "a": 2,
+  "why": "On thin ice means close to getting in trouble. Missing practice puts him in a risky spot.",
+  "hint": "Why might a coach be unhappy?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-009",
+  "topic": "reading",
+  "level": 5,
+  "type": "order",
+  "q": "Put these sentences in the order a hurricane forms.",
+  "opts": [
+   "Warm ocean water heats the air above it.",
+   "The warm air rises, and winds begin to spin.",
+   "The spinning storm grows stronger.",
+   "The hurricane reaches land."
+  ],
+  "why": "Heat from the ocean comes first. Rising air starts the spin, the storm strengthens, and only later does it arrive.",
+  "hint": "What gives a hurricane its energy at the start?",
+  "tags": [
+   "weather",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-5-010",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Jada trained all spring for the big game. When the coach read the lineup, her name was missing. Her shoulders sagged and she stared at the floor. How does Jada feel?",
+  "opts": [
+   "thrilled and proud",
+   "angry enough to yell",
+   "relieved and calm",
+   "disappointed"
+  ],
+  "a": 3,
+  "why": "Sagging shoulders and staring down are clues of sadness over a letdown, not joy, relief, or loud anger.",
+  "hint": "Which clue shows her body language?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.4.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-001",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "The word planet comes from a Greek word meaning what?",
+  "opts": [
+   "wanderer",
+   "ball of fire",
+   "sky shepherd",
+   "night lantern"
+  ],
+  "a": 0,
+  "why": "Ancient watchers saw planets slowly move against the fixed stars, so the Greeks called them wanderers.",
+  "hint": "Think about how planets move across the sky.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-002",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "A coach praises a pitcher who keeps working hard after losing. Which word gives the most positive feeling? 'He is a ____ player.'",
+  "opts": [
+   "stubborn",
+   "determined",
+   "pigheaded",
+   "bullheaded"
+  ],
+  "a": 1,
+  "why": "All four words describe someone who will not give up, but only determined sounds like praise. The others sound like complaints.",
+  "hint": "Which word would you like to hear about yourself?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-003",
+  "topic": "reading",
+  "level": 6,
+  "type": "number",
+  "q": "How many of these words begin with a prefix meaning 'not': unlucky, impossible, dishonest, review, incorrect?",
+  "a": 4,
+  "why": "Un-, im-, dis-, and in- can all mean not. Re- in review means again, so it does not count.",
+  "hint": "Check what each beginning part means.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-004",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "The word quarantine comes from an old Italian word for 'forty,' because ships once waited about forty days before landing.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Quaranta giorni means forty days in Italian. Port cities made ships wait before sailors could come ashore.",
+  "hint": "Think of an old number word.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-005",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Researchers found three fossil bones. The lead scientist said, 'This is only the tip of the iceberg.' What does she mean?",
+  "opts": [
+   "The bones came from frozen ground",
+   "The dig is almost finished for the year",
+   "There is much more still hidden",
+   "The find is not very important"
+  ],
+  "a": 2,
+  "why": "Most of an iceberg is underwater. The idiom means you see only a small part of something much bigger.",
+  "hint": "Most of an iceberg is below the water.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-006",
+  "topic": "reading",
+  "level": 6,
+  "type": "number",
+  "q": "Read: (1) Saturn has rings. (2) Saturn's rings are gorgeous. (3) Saturn is a gas giant. (4) Everyone should see Saturn. How many sentences are facts?",
+  "a": 2,
+  "why": "Sentences 1 and 3 can be checked by scientists. Gorgeous and should are judgments, so those are opinions.",
+  "hint": "Ask which sentences could be tested or measured.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-007",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Paleo- means 'ancient' and -ology means 'study of.' A paleontologist is a scientist who studies what?",
+  "opts": [
+   "old books",
+   "ancient buildings",
+   "the oldest stars",
+   "ancient life"
+  ],
+  "a": 3,
+  "why": "Paleontologists study fossils of ancient plants and animals. Ancient buildings are studied by archaeologists.",
+  "hint": "Build the meaning from the roots.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-008",
+  "topic": "reading",
+  "level": 6,
+  "type": "order",
+  "q": "Put these words in order from least sure to most sure.",
+  "opts": [
+   "maybe",
+   "probably",
+   "definitely"
+  ],
+  "why": "Maybe means it might happen. Probably means it likely will, and definitely means there is no doubt.",
+  "hint": "Which word leaves no doubt?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-009",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Scientists found fossil footprints: many small tracks beside a few large ones, all heading the same way. Which inference is best supported by this clue?",
+  "opts": [
+   "Different sizes may have traveled as a herd",
+   "The small dinosaurs were hunting the big ones",
+   "A sudden flood forced them all to run",
+   "One giant dinosaur made every track"
+  ],
+  "a": 0,
+  "why": "Tracks of different sizes going the same direction suggest a group. The clue does not show hunting or a flood.",
+  "hint": "Which answer fits only what the clue shows?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core RL.5.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "rea-6-010",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Bamboozle is a real English word that means to trick or confuse someone.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Bamboozle is in dictionaries. It has been used in English for centuries to mean fool or puzzle someone.",
+  "hint": "It sounds silly, but check the meaning.",
+  "tags": [],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-001",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Which spelling is right for the fish with a big fin and sharp teeth?",
+  "opts": [
+   "shark",
+   "sherk",
+   "shurk"
+  ],
+  "a": 0,
+  "why": "The sound 'ar' in shark is spelled with the letters a and r, like car and park.",
+  "hint": "Think of the word park.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-002",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "One crab is on the rock. Now there are two. Which word tells about two?",
+  "opts": [
+   "crabes",
+   "crabs",
+   "craby"
+  ],
+  "a": 1,
+  "why": "Most words add an s to mean more than one. Crab becomes crabs.",
+  "hint": "What small letter do we add for more than one?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-003",
+  "topic": "words",
+  "level": 1,
+  "type": "number",
+  "q": "How many syllables (claps) are in the word 'octopus'?",
+  "a": 3,
+  "why": "Clap it out: oc-to-pus. That is three claps, so three syllables.",
+  "hint": "Clap once for each beat in the word.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RF.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-004",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Which word needs a capital letter? 'Today my friend sam hit a home run.'",
+  "opts": [
+   "friend",
+   "home",
+   "sam"
+  ],
+  "a": 2,
+  "why": "Names of people start with a capital letter. Friend and home are common words.",
+  "hint": "Which word is somebody's name?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-005",
+  "topic": "words",
+  "level": 1,
+  "type": "order",
+  "q": "Put these sea animals in ABC order.",
+  "opts": [
+   "crab",
+   "eel",
+   "seal",
+   "whale"
+  ],
+  "why": "ABC order follows the alphabet by first letter: c, e, s, w.",
+  "hint": "Say the alphabet and find each first letter.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-006",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "The words 'sun' and 'son' sound the same but have different meanings.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Words that sound alike but mean different things are called homophones.",
+  "hint": "Say both words out loud.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-007",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Which word is a compound word, made from two small words?",
+  "opts": [
+   "starfish",
+   "elephant",
+   "dinosaur"
+  ],
+  "a": 0,
+  "why": "Starfish is star plus fish. Elephant and dinosaur are not made from two smaller words.",
+  "hint": "Look for two small words inside.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-008",
+  "topic": "words",
+  "level": 1,
+  "type": "number",
+  "q": "How many letters are in the word 'baseball'?",
+  "a": 8,
+  "why": "Count each letter: b-a-s-e-b-a-l-l. That makes eight.",
+  "hint": "Touch each letter as you count.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RF.1.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-009",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Yesterday, the whale ____ out of the water. Which spelling is right?",
+  "opts": [
+   "jumpted",
+   "jumped",
+   "jumpd"
+  ],
+  "a": 1,
+  "why": "We write the past with -ed, even when it sounds like a t.",
+  "hint": "Think about how we spell the past.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-1-010",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "'Tooths' is the right way to say more than one tooth.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Tooth is an irregular word. We say teeth, not tooths, when there is more than one.",
+  "hint": "Say 'one tooth, two ___.'",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-001",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Which is the right spelling for the smart sea animal that clicks and squeaks?",
+  "opts": [
+   "dolfin",
+   "dolphen",
+   "dolphin"
+  ],
+  "a": 2,
+  "why": "The sound f in dolphin is spelled ph, like in phone. The ending is -in.",
+  "hint": "Think of phone for the f sound.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-002",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The shark's ____ swished from side to side. Which word fits?",
+  "opts": [
+   "tail",
+   "tale",
+   "tayl"
+  ],
+  "a": 0,
+  "why": "Tail is the part at the end of an animal. A tale is a story.",
+  "hint": "Which word is about a body part?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-003",
+  "topic": "words",
+  "level": 2,
+  "type": "number",
+  "q": "How many words are in this sentence? The big shark swam fast.",
+  "a": 5,
+  "why": "Count each word: The, big, shark, swam, fast. That makes five.",
+  "hint": "Point to each word as you count.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-004",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Yesterday, the pitcher ____ the ball hard. Which word is correct?",
+  "opts": [
+   "throwed",
+   "threw",
+   "thrown"
+  ],
+  "a": 1,
+  "why": "Throw is an irregular verb. Its past is threw, not throwed.",
+  "hint": "Say it out loud: 'Yesterday I ___.'",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-005",
+  "topic": "words",
+  "level": 2,
+  "type": "order",
+  "q": "Put these in ABC order.",
+  "opts": [
+   "Mars",
+   "Mercury",
+   "meteor",
+   "moon"
+  ],
+  "why": "All start with m, so check the second letter: a, e, e, o. Then the third: r before t.",
+  "hint": "They all start with the same letter.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-006",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "What is the short way to write 'do not'?",
+  "opts": [
+   "dont",
+   "do'nt",
+   "don't"
+  ],
+  "a": 2,
+  "why": "A contraction squeezes two words into one. The apostrophe takes the place of the missing o.",
+  "hint": "Where did the letter o go?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-007",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "You can call more than one fish just 'fish.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Fish is a special plural. We say 'two fish' when we mean several of the same kind.",
+  "hint": "Say 'one fish, two ___.'",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-008",
+  "topic": "words",
+  "level": 2,
+  "type": "order",
+  "q": "Put the sentences in story order.",
+  "opts": [
+   "A mother dinosaur laid an egg.",
+   "The egg sat in a warm nest.",
+   "The egg cracked open.",
+   "A baby dinosaur peeped out."
+  ],
+  "why": "An egg is laid first, then it waits, then it cracks, and only then can a baby peep out.",
+  "hint": "What must happen before an egg can crack?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core RL.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-009",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Which word needs a capital letter? 'We sailed near alaska to see whales.'",
+  "opts": [
+   "alaska",
+   "sailed",
+   "whales"
+  ],
+  "a": 0,
+  "why": "Names of places start with a capital letter. Sailed and whales are common words.",
+  "hint": "Which word names a place?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-2-010",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The words 'know' and 'no' sound the same but have different meanings.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Know means to understand. No means not any. They are homophones, and know starts with a silent k.",
+  "hint": "Say both words out loud.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-001",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Which is the right spelling for a giant reptile that lived long ago?",
+  "opts": [
+   "dinasaur",
+   "dinosaur",
+   "dinosore",
+   "dynosaur"
+  ],
+  "a": 1,
+  "why": "Dinosaur comes from Greek roots: dino plus saur. It ends in -aur, not -ore.",
+  "hint": "The ending sounds like 'sore' but is spelled -saur.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-002",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "We can ____ the stars tonight. Which word fits?",
+  "opts": [
+   "sea",
+   "seem",
+   "see",
+   "seen"
+  ],
+  "a": 2,
+  "why": "See means to look with your eyes. A sea is a big body of salt water.",
+  "hint": "Which word is about using your eyes?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-003",
+  "topic": "words",
+  "level": 3,
+  "type": "number",
+  "q": "How many syllables are in the word 'stegosaurus'?",
+  "a": 4,
+  "why": "Clap it out: ste-go-sau-rus. That is four parts.",
+  "hint": "Clap once for each beat.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core RF.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-004",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Yesterday, the shark ____ a fish. Which word is correct?",
+  "opts": [
+   "eated",
+   "eaten",
+   "eat",
+   "ate"
+  ],
+  "a": 3,
+  "why": "Eat is an irregular verb. Its simple past is ate. Eaten needs a helper like has or had.",
+  "hint": "Say 'Yesterday I ___ lunch.'",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-005",
+  "topic": "words",
+  "level": 3,
+  "type": "order",
+  "q": "Put these words in ABC order.",
+  "opts": [
+   "shark",
+   "shell",
+   "ship",
+   "shore"
+  ],
+  "why": "All start with sh, so look at the third letter: a, e, i, o.",
+  "hint": "Check the third letter.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-006",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Which phrase shows that the glove belongs to Mia?",
+  "opts": [
+   "Mia's glove",
+   "Mias glove",
+   "Mias' glove",
+   "Mia glove's"
+  ],
+  "a": 0,
+  "why": "Add an apostrophe and s to a single owner's name to show it owns something.",
+  "hint": "Where does the apostrophe go for one owner?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-007",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Add -ing to 'glide.' Which spelling is correct?",
+  "opts": [
+   "glideing",
+   "gliding",
+   "glidding",
+   "glydeing"
+  ],
+  "a": 1,
+  "why": "When a word ends in silent e, drop the e before adding -ing.",
+  "hint": "What happens to the silent e?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-008",
+  "topic": "words",
+  "level": 3,
+  "type": "order",
+  "q": "Put these word parts in order to spell a shark with a wide, flat head.",
+  "opts": [
+   "ham",
+   "mer",
+   "head"
+  ],
+  "why": "The parts ham, mer, and head spell hammerhead, a shark with eyes at the sides of its wide head.",
+  "hint": "Say the word slowly, one part at a time.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RF.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-009",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The word 'jumped' has two syllables.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Jumped has only one syllable. The -ed ending does not add a beat unless the word ends in t or d.",
+  "hint": "Clap it: how many beats?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RF.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-3-010",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Which sentence is punctuated correctly?",
+  "opts": [
+   "Do sharks ever stop swimming.",
+   "Do sharks ever stop swimming,",
+   "Do sharks ever stop swimming?",
+   "Do sharks ever stop swimming"
+  ],
+  "a": 2,
+  "why": "A question needs a question mark at the end. A period or comma does not fit a question.",
+  "hint": "What does a question end with?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-001",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The whale lifted ____ tail out of the water. Which word fits?",
+  "opts": [
+   "it's",
+   "its'",
+   "it",
+   "its"
+  ],
+  "a": 3,
+  "why": "Its with no apostrophe shows belonging. It's always means it is or it has.",
+  "hint": "Try saying 'it is tail.' Does that work?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-002",
+  "topic": "words",
+  "level": 4,
+  "type": "number",
+  "q": "How many vowel letters (a, e, i, o, u) are in the word 'astronaut'?",
+  "a": 4,
+  "why": "The vowels are a, o, a, and u. The other letters are consonants.",
+  "hint": "Go through the word one letter at a time.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-003",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The shark has ____ across the bay many times. Which word is correct?",
+  "opts": [
+   "swum",
+   "swam",
+   "swimmed",
+   "swimmen"
+  ],
+  "a": 0,
+  "why": "After has, have, or had, use swum. Swam is for the simple past, like 'yesterday it swam.'",
+  "hint": "Does the sentence have the helper word has?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-004",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The baseball team celebrated ____ best season ever. Which word fits?",
+  "opts": [
+   "there",
+   "their",
+   "they're",
+   "thare"
+  ],
+  "a": 1,
+  "why": "Their shows that something belongs to them. There means a place, and they're means they are.",
+  "hint": "Whose best season was it?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-005",
+  "topic": "words",
+  "level": 4,
+  "type": "order",
+  "q": "Put these space words in order from the fewest syllables to the most.",
+  "opts": [
+   "star",
+   "planet",
+   "asteroid",
+   "constellation"
+  ],
+  "why": "Star has one beat, plan-et two, as-ter-oid three, and con-stel-la-tion four.",
+  "hint": "Clap out each word.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core RF.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-006",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Which is the correct spelling of the word that means 'to spell wrongly'?",
+  "opts": [
+   "mispell",
+   "misspel",
+   "misspell",
+   "misspelle"
+  ],
+  "a": 2,
+  "why": "The prefix mis- is added to the whole word spell, so there are two s letters in a row and two l's.",
+  "hint": "Add mis- to the word spell without dropping a letter.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-007",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "In the contraction 'doesn't,' the apostrophe takes the place of the letter e.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Does not becomes doesn't. The missing letter is the o in not.",
+  "hint": "Which word lost a letter, does or not?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-008",
+  "topic": "words",
+  "level": 4,
+  "type": "number",
+  "q": "How many of these words end with a suffix meaning 'without': fearless, careless, helpful, endless, joyful?",
+  "a": 3,
+  "why": "Fearless, careless, and endless end in -less, which means without. Helpful and joyful end in -ful, which means full of.",
+  "hint": "Look at the last four letters of each.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-009",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Three players each have a glove. Which sentence is correct?",
+  "opts": [
+   "The player's gloves are on the bench.",
+   "The players gloves are on the bench.",
+   "The players's gloves are on the bench.",
+   "The players' gloves are on the bench."
+  ],
+  "a": 3,
+  "why": "For a plural that already ends in s, add just an apostrophe after the s to show owning.",
+  "hint": "There is more than one owner.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-4-010",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Which sentence has the correct punctuation?",
+  "opts": [
+   "Wow, that comet is bright!",
+   "Wow that comet is bright!",
+   "Wow, that comet is bright?",
+   "Wow. that comet is bright!"
+  ],
+  "a": 0,
+  "why": "Put a comma after an interjection like wow. End a strong statement with an exclamation mark.",
+  "hint": "Where does a short pause belong?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-001",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "The Moon's pull has a strong ____ on ocean tides. Which word fits?",
+  "opts": [
+   "affect",
+   "effect",
+   "affekt",
+   "efect"
+  ],
+  "a": 1,
+  "why": "Effect is usually the noun, meaning a result. Affect is usually the verb meaning to change something.",
+  "hint": "Is the missing word a thing or an action?",
+  "tags": [
+   "space",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-002",
+  "topic": "words",
+  "level": 5,
+  "type": "number",
+  "q": "How many syllables are in the word 'carnivorous'?",
+  "a": 4,
+  "why": "Clap it out: car-niv-o-rous. That is four syllables.",
+  "hint": "Clap once for each beat.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core RF.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-003",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Sharks have many senses, ____ smell. Which spelling is correct?",
+  "opts": [
+   "expecially",
+   "especialy",
+   "especially",
+   "especally"
+  ],
+  "a": 2,
+  "why": "Especially starts with es, not ex, and ends with -ally, since the base word is especial.",
+  "hint": "It begins like the word escape.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-004",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Which sentence is in the past tense?",
+  "opts": [
+   "The comet streaks across the sky.",
+   "The comet will streak across the sky.",
+   "The comet is streaking across the sky.",
+   "The comet streaked across the sky."
+  ],
+  "a": 3,
+  "why": "Streaked tells about something that already happened. The other sentences are present or future.",
+  "hint": "Which sentence tells about something already over?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-005",
+  "topic": "words",
+  "level": 5,
+  "type": "number",
+  "q": "How many of these words are spelled correctly: friend, freind, believe, beleive, receive?",
+  "a": 3,
+  "why": "Friend, believe, and receive are right. The rule: i before e, except after c, as in receive.",
+  "hint": "Remember i before e, except after c.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-006",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "'Swimming in the deep sea.' is a complete sentence.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "It has no subject telling who is swimming, so it is a fragment. 'Sharks are swimming in the deep sea' is complete.",
+  "hint": "A sentence needs someone doing something.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-007",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Which sentence uses they're, their, and there correctly?",
+  "opts": [
+   "They're hoping their team wins.",
+   "Their hoping they're team wins.",
+   "There hoping their team wins.",
+   "They're hoping there team wins."
+  ],
+  "a": 0,
+  "why": "They're means they are, and their shows belonging. There names a place.",
+  "hint": "Replace each with 'they are' to test.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-008",
+  "topic": "words",
+  "level": 5,
+  "type": "order",
+  "q": "These four ocean animals all start with st. Put them in ABC order.",
+  "opts": [
+   "starfish",
+   "stingray",
+   "stonefish",
+   "sturgeon"
+  ],
+  "why": "All begin with st, so check the third letter: a, i, o, u.",
+  "hint": "The first two letters match, so look at the third.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-009",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Add -ly to 'hungry' to tell how the shark ate. Which spelling is right?",
+  "opts": [
+   "hungryly",
+   "hungrily",
+   "hungrly",
+   "hungryily"
+  ],
+  "a": 1,
+  "why": "When a word ends in y after a consonant, change the y to i before adding -ly.",
+  "hint": "What happens to the y?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-5-010",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "The plural of 'moose' is 'moose.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Moose does not change. Deer, sheep, and fish also keep the same form for one or many.",
+  "hint": "Think about 'one moose, two ___.'",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-001",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Which is the correct spelling of the word that means 'needed'?",
+  "opts": [
+   "neccessary",
+   "necesary",
+   "necessary",
+   "neccesary"
+  ],
+  "a": 2,
+  "why": "Remember: one collar (c) and two sleeves (ss). Necessary has one c and two s's.",
+  "hint": "One collar, two sleeves.",
+  "tags": [],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-002",
+  "topic": "words",
+  "level": 6,
+  "type": "order",
+  "q": "Put these word parts in order to spell the scientist who studies stars.",
+  "opts": [
+   "as",
+   "tron",
+   "o",
+   "mer"
+  ],
+  "why": "Astronomer comes from Greek words for star and law: as-tron-o-mer.",
+  "hint": "Say the word slowly and listen to each part.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-003",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "A loud crowd can ____ a pitcher's focus. Which word fits?",
+  "opts": [
+   "effect",
+   "affact",
+   "effekt",
+   "affect"
+  ],
+  "a": 3,
+  "why": "Affect is usually the verb, meaning to change. Effect is usually the noun, meaning a result.",
+  "hint": "Is the missing word an action?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-004",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Which sentence uses who's and whose correctly?",
+  "opts": [
+   "Who's the player whose bat broke?",
+   "Whose the player who's bat broke?",
+   "Who's the player who's bat broke?",
+   "Whose the player whose bat broke?"
+  ],
+  "a": 0,
+  "why": "Who's means who is. Whose shows belonging. Test: 'Who is the player?' works, and 'who is bat' does not.",
+  "hint": "Try replacing each with 'who is.'",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-005",
+  "topic": "words",
+  "level": 6,
+  "type": "number",
+  "q": "How many letters are in the word 'tyrannosaurus'?",
+  "a": 13,
+  "why": "Count carefully: t-y-r-a-n-n-o-s-a-u-r-u-s. It has two n's and thirteen letters in all.",
+  "hint": "Write the letters down and count them.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-006",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The word 'conscience' has the whole word 'science' hiding inside it.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Look at the letters: con-SCIENCE. The word science is spelled right there in the second half.",
+  "hint": "Read the last seven letters.",
+  "tags": [],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-007",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Which spelling is correct for the word meaning 'without a doubt'?",
+  "opts": [
+   "definately",
+   "definitely",
+   "definitly",
+   "defanitely"
+  ],
+  "a": 1,
+  "why": "Definitely has the word finite hiding inside it: de-FINITE-ly. It is never spelled with 'ately.'",
+  "hint": "Look for the word finite inside.",
+  "tags": [],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-008",
+  "topic": "words",
+  "level": 6,
+  "type": "order",
+  "q": "These words share their first letters. Put them in ABC order, checking each letter in turn.",
+  "opts": [
+   "comet",
+   "comma",
+   "command",
+   "commit"
+  ],
+  "why": "Comet comes first (e before m). Comma is a shorter version of command, so it comes first. Then commit (a before i).",
+  "hint": "Compare letter by letter. A shorter word comes first.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-009",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Which spelling is right for 'to keep things apart'?",
+  "opts": [
+   "seperate",
+   "separete",
+   "separate",
+   "seperete"
+  ],
+  "a": 2,
+  "why": "Separate has a rat in the middle: sepARATe. That helps you remember the a.",
+  "hint": "Look for a small animal hiding in the middle.",
+  "tags": [],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wds-6-010",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Which sentence uses commas correctly?",
+  "opts": [
+   "The hammerhead a shark, eats rays.",
+   "The hammerhead, a shark eats rays.",
+   "The, hammerhead a shark, eats rays.",
+   "The hammerhead, a shark, eats rays."
+  ],
+  "a": 3,
+  "why": "Extra information in the middle of a sentence is set off by a comma before and after it.",
+  "hint": "The extra phrase needs a comma on both sides.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.2",
+  "ver": "2026-11"
+ }
+]

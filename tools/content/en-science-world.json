@@ -1,0 +1,2523 @@
+[
+ {
+  "id": "sci-1-001",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Sharks are what kind of animal?",
+  "opts": [
+   "A bird",
+   "A mammal",
+   "A fish"
+  ],
+  "a": 2,
+  "why": "Sharks breathe underwater with gills, like other fish. Whales and dolphins breathe air, so they are mammals.",
+  "hint": "Think about how a shark breathes underwater.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-002",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Put the butterfly's life in order, from the very start.",
+  "opts": [
+   "Egg",
+   "Caterpillar",
+   "Chrysalis",
+   "Butterfly"
+  ],
+  "why": "A butterfly changes shape completely. It hatches as a caterpillar and grows before it turns into a butterfly.",
+  "hint": "A butterfly begins very small.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS3-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-003",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "What is the Sun?",
+  "opts": [
+   "A star",
+   "A moon",
+   "A planet"
+  ],
+  "a": 0,
+  "why": "The Sun is a star, a giant ball of hot glowing gas. Planets and moons only shine by reflecting light.",
+  "hint": "It makes its own light.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-004",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Dinosaurs like T. rex lived at the same time as people.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Big dinosaurs like T. rex died out about 66 million years ago, long before the first people.",
+  "hint": "Think about how old fossils are.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian NMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-005",
+  "topic": "science",
+  "level": 1,
+  "type": "number",
+  "q": "How many hearts does an octopus have?",
+  "a": 3,
+  "why": "An octopus has three hearts: two pump blood to the gills and one pumps blood to the body.",
+  "hint": "It is more than you have, but fewer than five.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-006",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "What job do roots do for a plant?",
+  "opts": [
+   "Make the seeds for new plants",
+   "Drink water from the soil",
+   "Attract bees to the flower"
+  ],
+  "a": 1,
+  "why": "Roots drink water from the soil and hold the plant in place. Flowers make seeds and attract bees.",
+  "hint": "Roots grow underground.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-LS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-007",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which of these is a PULL?",
+  "opts": [
+   "Opening a drawer",
+   "Hitting a baseball",
+   "Kicking a ball"
+  ],
+  "a": 0,
+  "why": "A pull moves something toward you. Kicking and hitting push things away.",
+  "hint": "A pull brings something closer to you.",
+  "tags": [
+   "machines",
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS K-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-008",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Put these animals in order from smallest to biggest.",
+  "opts": [
+   "Ant",
+   "Cat",
+   "Horse",
+   "Blue whale"
+  ],
+  "why": "Each animal is bigger than the one before. A blue whale is longer than two school buses.",
+  "hint": "Think about how much space each one takes up.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-009",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "The Moon makes its own light.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "The Moon shines because it bounces back light from the Sun. Only stars make their own light.",
+  "hint": "What lights up the Moon at night?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-1-010",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Put the life of a plant in order, from the start.",
+  "opts": [
+   "Seed",
+   "Sprout",
+   "Small plant",
+   "Flower"
+  ],
+  "why": "A seed sprouts roots and a stem, grows into a small plant, and then makes flowers.",
+  "hint": "Everything begins as a seed.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-LS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-001",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which part of a shark's body sweeps side to side to push it forward?",
+  "opts": [
+   "Sharp teeth",
+   "The gills",
+   "Tail fin"
+  ],
+  "a": 2,
+  "why": "The tail fin swishes back and forth and drives the shark through the water. Gills are for breathing.",
+  "hint": "Think about what pushes a swimming fish forward.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-002",
+  "topic": "science",
+  "level": 2,
+  "type": "order",
+  "q": "Put the water cycle in order, starting with the Sun heating the sea.",
+  "opts": [
+   "Sun heats the water",
+   "Water vapor rises",
+   "Vapor cools into clouds",
+   "Rain falls"
+  ],
+  "why": "Heat turns sea water into invisible vapor. High up it cools into cloud drops, and rain returns the water.",
+  "hint": "What happens first: warming or cooling?",
+  "tags": [
+   "weather",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NGSS 2-ESS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-003",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Triceratops was a herbivore. What did it eat?",
+  "opts": [
+   "Other dinosaurs",
+   "Plants",
+   "Fish"
+  ],
+  "a": 1,
+  "why": "Herbivores eat only plants. Tyrannosaurus rex was a carnivore and ate meat.",
+  "hint": "Herb- sounds like herbs and plants.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian NMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-004",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Sound is made when something vibrates, or wiggles back and forth very fast.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Pluck a rubber band and you can see it wiggle. Those fast wiggles make the sound you hear.",
+  "hint": "Touch your throat while you hum.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-005",
+  "topic": "science",
+  "level": 2,
+  "type": "number",
+  "q": "How many legs does an insect have?",
+  "a": 6,
+  "why": "All insects have six legs. Spiders have eight legs, so they are not insects.",
+  "hint": "Count the legs on an ant.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 2-LS4-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-006",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Why is it dark at night?",
+  "opts": [
+   "Our side of Earth turns from the Sun",
+   "The Sun gets switched off until morning",
+   "The Moon moves in front of the Sun"
+  ],
+  "a": 0,
+  "why": "Earth spins like a top. When your part turns away from the Sun, it is night.",
+  "hint": "Earth keeps turning around.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NGSS 1-ESS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-007",
+  "topic": "science",
+  "level": 2,
+  "type": "order",
+  "q": "Put these planets in order, starting closest to the Sun.",
+  "opts": [
+   "Mercury",
+   "Venus",
+   "Earth",
+   "Mars"
+  ],
+  "why": "A memory trick: My Very Eager Mother. Mercury, Venus, Earth, Mars come first.",
+  "hint": "Mercury is the closest.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-008",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Friction slows down a baseball that rolls across the grass.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Friction is rubbing between two things. The grass rubs the ball and slows it until it stops.",
+  "hint": "Why does a rolling ball stop?",
+  "tags": [
+   "baseball",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-009",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which body part pumps blood around your body?",
+  "opts": [
+   "Stomach",
+   "Lungs",
+   "Heart"
+  ],
+  "a": 2,
+  "why": "The heart is a strong muscle that pumps blood. Lungs bring in air and the stomach breaks down food.",
+  "hint": "Put your hand on your chest.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1-2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-2-010",
+  "topic": "science",
+  "level": 2,
+  "type": "order",
+  "q": "Put a frog's life in order, from the start.",
+  "opts": [
+   "Egg",
+   "Tadpole",
+   "Tadpole with legs",
+   "Adult frog"
+  ],
+  "why": "Tadpoles breathe with gills, then grow legs and lungs and change into frogs.",
+  "hint": "Tadpoles live in water.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 2-LS4-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-001",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A shark's skin feels like sandpaper. What covers it?",
+  "opts": [
+   "Thick layers of fur",
+   "Hard shell plates",
+   "Tooth-like scales",
+   "Soft, fluffy feathers"
+  ],
+  "a": 2,
+  "why": "Shark skin is covered with tiny scales shaped like teeth. They help water flow smoothly past the shark.",
+  "hint": "Think rough, not soft.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Smithsonian Ocean",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-002",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "What is a fossil?",
+  "opts": [
+   "A trace of ancient life in rock",
+   "A rock made from cooled lava",
+   "A seashell that washed up this year",
+   "A plant that grows deep in caves"
+  ],
+  "a": 0,
+  "why": "Fossils are bones, shells, footprints or other traces of living things preserved in rock for a very long time.",
+  "hint": "Fossils show us living things from long ago.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS4-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-003",
+  "topic": "science",
+  "level": 3,
+  "type": "order",
+  "q": "Put these giant planets in order, starting closest to the Sun.",
+  "opts": [
+   "Jupiter",
+   "Saturn",
+   "Uranus",
+   "Neptune"
+  ],
+  "why": "The four giant planets lie beyond Mars and the asteroid belt. Jupiter is nearest the Sun and Neptune is farthest.",
+  "hint": "They all come after Mars.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-004",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A seesaw is an example of which simple machine?",
+  "opts": [
+   "Wedge",
+   "Lever",
+   "Pulley",
+   "Screw"
+  ],
+  "a": 1,
+  "why": "A lever is a bar that turns around a point called a fulcrum. A seesaw turns on its middle.",
+  "hint": "It tips back and forth on a middle point.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-005",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "In a fair test, you change only one thing at a time.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "If you change two things, you cannot tell which one caused the result.",
+  "hint": "Think about testing two paper airplanes.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS Science Practices",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-006",
+  "topic": "science",
+  "level": 3,
+  "type": "number",
+  "q": "Water boils at about how many degrees Celsius at sea level?",
+  "a": 100,
+  "why": "Water boils at 100 degrees Celsius and freezes at 0. That is 212 and 32 degrees Fahrenheit.",
+  "hint": "It is a nice round number.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NIST",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-007",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Coral reefs are built by tiny animals. What are they called?",
+  "opts": [
+   "Jellyfish",
+   "Sea stars",
+   "Sponges",
+   "Coral polyps"
+  ],
+  "a": 3,
+  "why": "Coral polyps build hard skeletons around themselves. Over a very long time, many polyps build a reef.",
+  "hint": "They are tiny and stay in one place.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-008",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Sharks have hard bones inside their bodies.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "A shark's skeleton is made of cartilage, the bendy stuff in your ears and nose, not bone.",
+  "hint": "Feel the end of your nose.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-009",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Why does the Moon seem to change shape each night?",
+  "opts": [
+   "We see changing amounts of its lit half",
+   "Earth's shadow covers different parts of it",
+   "Clouds in space cover different parts of it",
+   "It melts and regrows every single month"
+  ],
+  "a": 0,
+  "why": "The Moon is always half lit by the Sun. As it orbits Earth, we see more or less of that lit half.",
+  "hint": "The Moon itself never changes shape.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NGSS 5-ESS1-2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-3-010",
+  "topic": "science",
+  "level": 3,
+  "type": "order",
+  "q": "Put this ocean food chain in order, starting with the energy source.",
+  "opts": [
+   "Sunlight",
+   "Seaweed",
+   "Small fish",
+   "Shark"
+  ],
+  "why": "Seaweed uses sunlight to make food, small fish eat the seaweed, and sharks eat the fish.",
+  "hint": "Where does all the energy start?",
+  "tags": [
+   "ocean",
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NGSS 5-LS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-001",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "A shark loses a tooth while biting. What happens next?",
+  "opts": [
+   "A new tooth grows back in one day",
+   "A spare tooth moves up to replace it",
+   "Nothing happens; sharks keep all teeth",
+   "It stops eating until the tooth regrows"
+  ],
+  "a": 1,
+  "why": "Sharks have rows of spare teeth behind the front ones. They move forward like a conveyor belt.",
+  "hint": "Sharks have many rows of teeth.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-002",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Long lines of fossil dinosaur footprints can show scientists what?",
+  "opts": [
+   "What it ate for its last lunch",
+   "What sounds it made when it roared",
+   "How it moved and how big it was",
+   "What color its skin and eyes were"
+  ],
+  "a": 2,
+  "why": "Footprints are trace fossils. Their spacing shows how fast the dinosaur walked, and their size hints at its body.",
+  "hint": "Footprints record movement, not color.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian NMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-003",
+  "topic": "science",
+  "level": 4,
+  "type": "order",
+  "q": "Put Earth's layers in order, starting at the outside.",
+  "opts": [
+   "Crust",
+   "Mantle",
+   "Outer core",
+   "Inner core"
+  ],
+  "why": "We live on the thin crust. Below it are the thick mantle, the liquid outer core and the solid inner core.",
+  "hint": "Go from where we live down to the center.",
+  "tags": [],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-004",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "A hit baseball flies, slows down, then falls. Which forces act on it in the air?",
+  "opts": [
+   "Magnetism and gravity",
+   "Only gravity",
+   "Gravity and a lasting push from the bat",
+   "Gravity and air resistance"
+  ],
+  "a": 3,
+  "why": "Gravity pulls the ball down and air pushes against it. The bat's push ends the moment they separate.",
+  "hint": "Think about what pushes back as the ball moves.",
+  "tags": [
+   "baseball",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-005",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "On the Moon, a hammer and a feather dropped together land at the same time.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The Moon has no air to slow the feather. Apollo 15 astronaut David Scott showed this in 1971.",
+  "hint": "What would slow the feather on Earth?",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-006",
+  "topic": "science",
+  "level": 4,
+  "type": "number",
+  "q": "How many chambers (rooms) does a human heart have?",
+  "a": 4,
+  "why": "Two small chambers on top take in blood. Two strong chambers on the bottom pump it out.",
+  "hint": "Two on top, two on the bottom.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1-2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-007",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "What mainly causes ocean tides?",
+  "opts": [
+   "The pull of the Moon's gravity",
+   "Strong winds over the sea",
+   "Rivers pushing water out to sea",
+   "Whales swimming in groups"
+  ],
+  "a": 0,
+  "why": "The Moon's gravity tugs on the ocean and makes the water bulge. The Sun adds a smaller pull.",
+  "hint": "Something far away in space is pulling.",
+  "tags": [
+   "ocean",
+   "space"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-008",
+  "topic": "science",
+  "level": 4,
+  "type": "order",
+  "q": "Put the ocean zones in order, from the surface down.",
+  "opts": [
+   "Sunlit zone",
+   "Twilight zone",
+   "Midnight zone",
+   "Abyss"
+  ],
+  "why": "Light fades with depth. Below about 1,000 meters it is completely dark, and the water is near freezing.",
+  "hint": "The sunlit zone is the one near the top.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-009",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Sound travels faster through water than through air.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Water's tiny particles are packed closer together, so sound passes along them faster. That helps whales call far away.",
+  "hint": "Think about how whales communicate.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-4-010",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "You see wet footprints by a pool and say, \"Someone just swam here.\" What is that?",
+  "opts": [
+   "A measurement",
+   "An observation",
+   "An inference",
+   "A prediction"
+  ],
+  "a": 2,
+  "why": "An observation is what you sense, like wet footprints. An inference is a smart explanation based on it.",
+  "hint": "Is it what you saw, or what you figured out?",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS Science Practices",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-001",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A nurse shark can rest on the sea floor without swimming. How does it still breathe?",
+  "opts": [
+   "It breathes through its skin",
+   "It pumps water over its gills",
+   "It uses a blowhole like a whale",
+   "It gulps air at the surface"
+  ],
+  "a": 1,
+  "why": "Some sharks can use their mouth and throat to pump water over the gills. Others must swim to keep water flowing.",
+  "hint": "Gills need a steady flow of water.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-002",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Which living animals are the closest relatives of Tyrannosaurus rex?",
+  "opts": [
+   "Elephants",
+   "Sharks",
+   "Lizards",
+   "Birds"
+  ],
+  "a": 3,
+  "why": "Fossils show many meat-eating dinosaurs had feathers and wishbones. Birds are their living descendants.",
+  "hint": "Think feathers and wishbones.",
+  "tags": [
+   "dinosaurs",
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian NMNH",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-003",
+  "topic": "science",
+  "level": 5,
+  "type": "order",
+  "q": "Put these planets in order from smallest to largest.",
+  "opts": [
+   "Mercury",
+   "Mars",
+   "Earth",
+   "Neptune",
+   "Jupiter"
+  ],
+  "why": "Mercury and Mars are small and rocky. Earth is bigger, and Neptune and Jupiter are giant planets.",
+  "hint": "Rocky planets are smaller than giant planets.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-004",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A bat hits a baseball and the ball speeds up. Where did its extra motion energy come from?",
+  "opts": [
+   "The ball's own weight",
+   "The swinging bat",
+   "The air around it",
+   "The noise of the crowd"
+  ],
+  "a": 1,
+  "why": "Energy passes from the moving bat to the ball. That is why a faster swing sends the ball farther.",
+  "hint": "What was moving before they touched?",
+  "tags": [
+   "baseball",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 4-PS3-3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-005",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Earth has seasons because it moves closer to and farther from the Sun.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Seasons come from Earth's tilt. When your part of Earth leans toward the Sun, it gets stronger sunlight and summer.",
+  "hint": "Think about Earth's tilt.",
+  "tags": [
+   "space",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-006",
+  "topic": "science",
+  "level": 5,
+  "type": "number",
+  "q": "A pitch travels 18 meters in half a second. How many meters does it travel each second at that speed?",
+  "a": 36,
+  "why": "Half a second goes into one second twice, so double the distance: 18 times 2 is 36 meters.",
+  "hint": "Double the distance.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2-2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-007",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Why does ocean water taste salty?",
+  "opts": [
+   "Fish give off salt as they swim",
+   "Waves mix in salt from the sea air",
+   "Rivers wash rock salts into the sea",
+   "The Sun bakes salt into the sea water"
+  ],
+  "a": 2,
+  "why": "Water evaporates from the sea but the salts stay behind, so over millions of years the ocean got salty.",
+  "hint": "Salt comes from rocks.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-008",
+  "topic": "science",
+  "level": 5,
+  "type": "order",
+  "q": "Put these in order from smallest to largest.",
+  "opts": [
+   "Cell",
+   "Tissue",
+   "Organ",
+   "Body system",
+   "Whole body"
+  ],
+  "why": "Cells join to make tissues, tissues make organs, and organs work together in systems of the body.",
+  "hint": "Start with the tiniest building block.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1-1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-009",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Sound can travel through outer space just like it travels through air.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Space is almost empty, so there is nothing to carry the vibrations. In space, no one can hear a rocket roar.",
+  "hint": "Sound needs something to wiggle.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-5-010",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "You test whether warm water melts ice faster. Which should stay the SAME in every cup?",
+  "opts": [
+   "The size of the ice cubes",
+   "Which cup you pick",
+   "The water temperature",
+   "The time it takes to melt"
+  ],
+  "a": 0,
+  "why": "The thing you change is the water temperature. The ice size must be the same so the test is fair.",
+  "hint": "Keep everything the same except one thing.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1-3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-001",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Sharks have jelly-filled pores on their snouts called ampullae of Lorenzini. What do they sense?",
+  "opts": [
+   "Faint light from deep in the water",
+   "How salty the water around it is",
+   "Sound waves coming from far away",
+   "Faint electric signals from prey"
+  ],
+  "a": 3,
+  "why": "Living animals give off a faint electric field. Sharks can feel it, even when the prey is hidden in sand.",
+  "hint": "It is a sense humans do not have.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-002",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Similar dinosaur fossils are found on continents now far apart. What helps explain this?",
+  "opts": [
+   "Dinosaurs swam across oceans each year",
+   "Wind blew bones across the sea",
+   "Those lands were once joined together",
+   "Fossils form in the same way everywhere"
+  ],
+  "a": 2,
+  "why": "Continents slowly drift on moving plates. Long ago many lands were connected, so animals could walk between them.",
+  "hint": "Think about plate tectonics.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-003",
+  "topic": "science",
+  "level": 6,
+  "type": "order",
+  "q": "Put the Moon's phases in order, starting at new moon.",
+  "opts": [
+   "New moon",
+   "Waxing crescent",
+   "First quarter",
+   "Full moon",
+   "Last quarter"
+  ],
+  "why": "The lit part grows to a full moon in about two weeks, then shrinks through last quarter back to new.",
+  "hint": "The lit part grows first, then shrinks.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-004",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A curveball curves in flight. What makes it curve?",
+  "opts": [
+   "Gravity pulls harder on spinning balls",
+   "Spin changes air pressure around it",
+   "One side of the ball gets much heavier",
+   "Strong wind always pushes it sideways"
+  ],
+  "a": 1,
+  "why": "Spin drags air around the ball, so the pressure is unequal on its sides. The higher pressure pushes it sideways.",
+  "hint": "Think about the ball's spin.",
+  "tags": [
+   "baseball",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NASA Glenn",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-005",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Mercury's year (one trip around the Sun) is longer than Earth's year.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Mercury is the closest planet to the Sun, so it travels a shorter path much faster. Its year is only about 88 days.",
+  "hint": "Closer planets orbit faster.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-006",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "Sound travels about 340 meters each second in air. You hear thunder 3 seconds after you see lightning. About how many meters away was the lightning?",
+  "a": 1020,
+  "why": "You see lightning almost instantly, so the delay is the sound's trip. 340 times 3 equals 1,020 meters.",
+  "hint": "Multiply the speed by the time.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-007",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "The deeper you dive in the ocean, the more the water presses on you. Why?",
+  "opts": [
+   "Sea creatures push you down",
+   "The water gets saltier and sticky",
+   "Deep water is always colder",
+   "More water is stacked above you"
+  ],
+  "a": 3,
+  "why": "The water above you has weight, and the deeper you go, the more of it you carry. Divers feel pressure in their ears.",
+  "hint": "Think about a pile of books on you.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-008",
+  "topic": "science",
+  "level": 6,
+  "type": "order",
+  "q": "Put the life of a star like our Sun in order.",
+  "opts": [
+   "Cloud of gas and dust",
+   "Steady star like our Sun",
+   "Red giant",
+   "White dwarf"
+  ],
+  "why": "A star forms from a cloud, shines steadily for billions of years, swells into a red giant, then shrinks to a white dwarf.",
+  "hint": "Stars are born in clouds.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-009",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Salt water freezes at a lower temperature than fresh water.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Salt gets in the way of ice crystals forming. The ocean must be colder than 0 degrees Celsius to freeze.",
+  "hint": "Why do we put salt on icy roads?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "sci-6-010",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A student grows one bean plant in sun and one in the dark and decides light helps beans grow. What would make the test more trustworthy?",
+  "opts": [
+   "Test several plants in each place",
+   "Water only the sunny plant",
+   "Use a bigger pot for the sunny plant",
+   "Keep only the best-looking plant"
+  ],
+  "a": 0,
+  "why": "One plant could grow badly by chance. Using many plants in each place makes the pattern easier to trust.",
+  "hint": "One try could be luck.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1-3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-001",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "A whale swims north. Which way is the opposite direction?",
+  "opts": [
+   "West",
+   "South",
+   "East"
+  ],
+  "a": 1,
+  "why": "North and south are opposites, and so are east and west.",
+  "hint": "Picture a compass: what is across from north?",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-002",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Which of these is a NEED, not just a want?",
+  "opts": [
+   "A video game",
+   "A toy",
+   "Food"
+  ],
+  "a": 2,
+  "why": "Needs are things people must have to live, like food, water and shelter. Wants are nice extras.",
+  "hint": "What do you need to stay alive?",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-003",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Put these places in order from smallest to biggest.",
+  "opts": [
+   "Your room",
+   "Your house",
+   "Your city",
+   "Your country"
+  ],
+  "why": "Maps zoom out like this: a room sits inside a house, a house in a city, and a city in a country.",
+  "hint": "Each place fits inside the next one.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-004",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Penguins live at the North Pole.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Penguins live in the Southern Hemisphere, like Antarctica. Polar bears are the ones that live near the North Pole.",
+  "hint": "Which pole is in the far south?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-005",
+  "topic": "world",
+  "level": 1,
+  "type": "number",
+  "q": "Most maps used in the United States show how many continents?",
+  "a": 7,
+  "why": "The seven continents are Africa, Antarctica, Asia, Australia, Europe, North America and South America.",
+  "hint": "Count them on a globe.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-006",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "The Great Pyramids were built long ago in the desert of which continent?",
+  "opts": [
+   "Africa",
+   "Antarctica",
+   "South America"
+  ],
+  "a": 0,
+  "why": "The Great Pyramids stand in Egypt, in northern Africa. Ancient Egyptians built them as tombs for their kings.",
+  "hint": "Egypt is next to the Sahara.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-007",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Giant tortoises live on the Galápagos Islands. Which ocean are the islands in?",
+  "opts": [
+   "Arctic Ocean",
+   "Pacific Ocean",
+   "Atlantic Ocean"
+  ],
+  "a": 1,
+  "why": "The Galápagos Islands sit in the Pacific Ocean, off the west coast of South America.",
+  "hint": "They are west of South America.",
+  "tags": [
+   "ocean",
+   "animals",
+   "maps"
+  ],
+  "fun": false,
+  "src": "Galápagos Conservancy",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-008",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Put the compass directions in order going clockwise, starting at north.",
+  "opts": [
+   "North",
+   "East",
+   "South",
+   "West"
+  ],
+  "why": "Clockwise is the way clock hands move. A trick: Never Eat Soggy Waffles.",
+  "hint": "Think of a clock face.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-009",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "In Spanish, the word \"tiburón\" means which animal?",
+  "opts": [
+   "Turtle",
+   "Whale",
+   "Shark"
+  ],
+  "a": 2,
+  "why": "Tiburón is Spanish for shark. Ballena means whale and tortuga means turtle.",
+  "hint": "Think of a fin sticking out of the water.",
+  "tags": [
+   "sharks",
+   "animals"
+  ],
+  "fun": false,
+  "src": "Merriam-Webster Spanish-English",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-1-010",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Put these steps in order for buying a baseball glove.",
+  "opts": [
+   "Earn some money",
+   "Save it up",
+   "Buy the glove"
+  ],
+  "why": "You need to earn money first, then save it until you have enough, and then spend it.",
+  "hint": "You cannot spend money you do not have.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-001",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Emperor penguins raise their chicks on which icy continent?",
+  "opts": [
+   "North America",
+   "Antarctica",
+   "Australia"
+  ],
+  "a": 1,
+  "why": "Antarctica is a cold continent at the bottom of the world, where emperor penguins gather to raise chicks.",
+  "hint": "It is at the South Pole.",
+  "tags": [
+   "ocean",
+   "animals",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-002",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "What does a compass rose on a map show?",
+  "opts": [
+   "Directions",
+   "Mountain heights",
+   "Store prices"
+  ],
+  "a": 0,
+  "why": "The compass rose points out north, south, east and west so you can read the map.",
+  "hint": "It looks like a star with letters.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-003",
+  "topic": "world",
+  "level": 2,
+  "type": "order",
+  "q": "Put these four oceans in order from largest to smallest.",
+  "opts": [
+   "Pacific Ocean",
+   "Atlantic Ocean",
+   "Indian Ocean",
+   "Arctic Ocean"
+  ],
+  "why": "The Pacific covers about a third of Earth. The Arctic Ocean is the smallest of these four.",
+  "hint": "The Pacific is biggest, the Arctic coldest and smallest.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-004",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "The country Ecuador is named after a line around the middle of Earth. What is it?",
+  "opts": [
+   "The Date Line",
+   "The Equator",
+   "The Prime Meridian"
+  ],
+  "a": 1,
+  "why": "Ecuador is the Spanish word for equator. The country sits right on that line.",
+  "hint": "Spanish: ecuador. English: ...",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-005",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "The Hawaiian Islands are in the Pacific Ocean.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Hawaii is a chain of islands in the middle of the Pacific Ocean, far from any continent.",
+  "hint": "Think of surfing and volcanoes.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-006",
+  "topic": "world",
+  "level": 2,
+  "type": "number",
+  "q": "On a map legend, 1 tree symbol means 10 real trees. A forest shows 3 tree symbols. How many real trees are there?",
+  "a": 30,
+  "why": "A map legend explains what symbols mean. Three symbols times 10 trees each is 30 trees.",
+  "hint": "Count by tens.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Common Core 2.MD",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-007",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Which famous tower is in Paris, France?",
+  "opts": [
+   "Big Ben",
+   "The Leaning Tower",
+   "The Eiffel Tower"
+  ],
+  "a": 2,
+  "why": "The Eiffel Tower stands in Paris. The Leaning Tower is in Pisa, Italy, and Big Ben is in London.",
+  "hint": "It is made of iron lattice.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-008",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "The Bahamas are famous for being made of many what?",
+  "opts": [
+   "Islands",
+   "Deserts",
+   "Volcanoes"
+  ],
+  "a": 0,
+  "why": "The Bahamas are a chain of hundreds of islands in the Atlantic Ocean, with warm, clear water around them.",
+  "hint": "Picture palm trees and beaches with turquoise water.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-009",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "All deserts are hot and sandy.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "A desert is a place with very little rain. Antarctica is a cold desert covered in ice.",
+  "hint": "Deserts are about rain, not heat.",
+  "tags": [
+   "maps"
+  ],
+  "fun": true,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-2-010",
+  "topic": "world",
+  "level": 2,
+  "type": "order",
+  "q": "Put the steps of running a lemonade stand in order.",
+  "opts": [
+   "Buy lemons",
+   "Make lemonade",
+   "Sell cups",
+   "Count your money"
+  ],
+  "why": "You pay for supplies first (your cost), then make and sell the product, and finally count what you earned.",
+  "hint": "You make it before you sell it.",
+  "tags": [
+   "money",
+   "food"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-001",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "The Galápagos Islands are part of which country?",
+  "opts": [
+   "Peru",
+   "Chile",
+   "Ecuador",
+   "Colombia"
+  ],
+  "a": 2,
+  "why": "The Galápagos belong to Ecuador, even though they are about 1,000 kilometers out in the Pacific Ocean.",
+  "hint": "They sit in the Pacific, west of South America.",
+  "tags": [
+   "ocean",
+   "animals",
+   "maps"
+  ],
+  "fun": false,
+  "src": "Galápagos Conservancy",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-002",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "What does a map scale help you find out?",
+  "opts": [
+   "Which way is north on the map",
+   "How tall the mountains are",
+   "The names of all the countries",
+   "Real distances between places"
+  ],
+  "a": 3,
+  "why": "A scale like 1 cm = 10 km turns map distances into real distances. A compass rose shows direction.",
+  "hint": "It looks like a little ruler.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-003",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Put these buildings in order from oldest to newest.",
+  "opts": [
+   "Great Pyramid of Giza",
+   "Parthenon in Athens",
+   "Colosseum in Rome",
+   "Eiffel Tower in Paris"
+  ],
+  "why": "The Great Pyramid is about 4,500 years old. The Eiffel Tower was finished in 1889, so it is the newest.",
+  "hint": "Ancient builders came before iron towers.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-004",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Profit is the money you have left after you...",
+  "opts": [
+   "Spend it all",
+   "Pay your costs",
+   "Raise your price",
+   "Borrow more"
+  ],
+  "a": 1,
+  "why": "A lemonade stand earns $12 and spent $5 on supplies, so the profit is $7. Profit is earnings minus costs.",
+  "hint": "Earnings minus what you spent.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-005",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "The Equator is a line that runs from the North Pole to the South Pole.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "The Equator runs around the middle of Earth, east to west. Lines from pole to pole are called meridians.",
+  "hint": "Does it circle the middle or go up and down?",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-006",
+  "topic": "world",
+  "level": 3,
+  "type": "number",
+  "q": "You buy a used baseball glove for $12 and sell it for $20. How many dollars of profit do you make?",
+  "a": 8,
+  "why": "Profit is what you sell for minus what you paid: 20 minus 12 equals 8.",
+  "hint": "Subtract the cost from the price.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-007",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "The Great Barrier Reef, a huge coral reef, is off the coast of which continent?",
+  "opts": [
+   "Australia",
+   "Africa",
+   "South America",
+   "Europe"
+  ],
+  "a": 0,
+  "why": "The Great Barrier Reef lies off the northeast coast of Australia in the Coral Sea.",
+  "hint": "It is also called the Land Down Under.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-008",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Put these cities in order from north to south.",
+  "opts": [
+   "Vancouver, Canada",
+   "Seattle",
+   "Portland",
+   "San Francisco"
+  ],
+  "why": "This is the Pacific coast of North America. Each city is a little farther south than the one before.",
+  "hint": "Canada is the farthest north.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-009",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "The Hawaiian Islands were built by volcanoes rising from the sea floor.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Lava built up from the ocean floor over millions of years until it poked above the surface as islands.",
+  "hint": "Think of Kilauea.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": true,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-3-010",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Put these cities in order from west to east.",
+  "opts": [
+   "Honolulu",
+   "Los Angeles",
+   "Denver",
+   "New York City"
+  ],
+  "why": "Honolulu is out in the Pacific Ocean. Heading east you reach the Pacific coast, the Rocky Mountains and the Atlantic coast.",
+  "hint": "Start in the Pacific Ocean.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-001",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "The Equator divides Earth into which two halves?",
+  "opts": [
+   "A land half and a water half",
+   "The day side and the night side",
+   "Eastern and Western halves",
+   "Northern and Southern halves"
+  ],
+  "a": 3,
+  "why": "The Equator splits Earth into the Northern and Southern Hemispheres. The Prime Meridian splits east from west.",
+  "hint": "The Equator is the halfway line between the poles.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-002",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Mount Rainier, a snowy volcano near Seattle, belongs to which mountain range?",
+  "opts": [
+   "Appalachian Mountains",
+   "Cascade Range",
+   "Sierra Nevada",
+   "Rocky Mountains"
+  ],
+  "a": 1,
+  "why": "The Cascades run from Canada through Washington and Oregon. The Rockies are farther east, and the Appalachians are on the other side of the country.",
+  "hint": "This range is in the Pacific Northwest.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-003",
+  "topic": "world",
+  "level": 4,
+  "type": "order",
+  "q": "Put these climate zones in order, from the Equator toward the North Pole.",
+  "opts": [
+   "Tropical zone",
+   "Temperate zone",
+   "Polar zone"
+  ],
+  "why": "It gets cooler as you travel away from the Equator. Tropical is warmest, temperate is in between, and polar is coldest.",
+  "hint": "Start where it is warmest.",
+  "tags": [
+   "maps",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-004",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Only 5 rare baseball cards are for sale, but 50 kids want one. What will probably happen to the price?",
+  "opts": [
+   "It goes up",
+   "It goes down",
+   "It stays the same",
+   "The cards become free"
+  ],
+  "a": 0,
+  "why": "When a lot of people want something that is in short supply, sellers can ask for more money.",
+  "hint": "Think about how many cards there are compared to kids.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-005",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "The Equator passes through the Galápagos Islands.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The line crosses Isabela Island, so the Galápagos lie in both the Northern and Southern Hemispheres.",
+  "hint": "Think about which country the islands belong to.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": true,
+  "src": "Galápagos Conservancy",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-006",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Florida is a peninsula. What does that mean?",
+  "opts": [
+   "It has no coast or beaches",
+   "It stands on top of a mountain",
+   "Water touches it on three sides",
+   "Water surrounds it on every side"
+  ],
+  "a": 2,
+  "why": "A peninsula is land that sticks out into the water. An island is surrounded by water on every side.",
+  "hint": "Look at Florida on a map.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-007",
+  "topic": "world",
+  "level": 4,
+  "type": "number",
+  "q": "A map scale says 1 cm = 5 km. A tagged shark's path is 4 cm long on the map. How many kilometers did it swim?",
+  "a": 20,
+  "why": "Every centimeter on the map stands for 5 real kilometers. Four centimeters is 4 times 5.",
+  "hint": "Multiply the map distance by the scale.",
+  "tags": [
+   "sharks",
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "Common Core 3.OA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-008",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Long ago, sailors steered at night by one star in the northern sky that hardly seems to move. What is it called?",
+  "opts": [
+   "The Evening Star",
+   "The Morning Star",
+   "The Dog Star",
+   "The North Star"
+  ],
+  "a": 3,
+  "why": "The North Star, Polaris, sits almost straight above the North Pole. Sailors knew it showed them north.",
+  "hint": "Its name tells you which way it points.",
+  "tags": [
+   "space",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-009",
+  "topic": "world",
+  "level": 4,
+  "type": "order",
+  "q": "Put these steps in order for how bread reaches a store.",
+  "opts": [
+   "Farmers grow wheat",
+   "Mill grinds wheat into flour",
+   "Bakery bakes the bread",
+   "Store sells the bread"
+  ],
+  "why": "Goods pass through many workers before you buy them. Each step needs the one before it.",
+  "hint": "The wheat has to exist first.",
+  "tags": [
+   "food",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-4-010",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "A bank pays you a little extra money for keeping your savings there. What is that extra money called?",
+  "opts": [
+   "Profit from selling",
+   "Interest",
+   "A tax",
+   "A price tag"
+  ],
+  "a": 1,
+  "why": "Interest is a small reward for letting the bank use your savings. The longer you save, the more it can grow.",
+  "hint": "It is money that your money earns.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-001",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Which imaginary lines run east to west and tell you how far north or south a place is?",
+  "opts": [
+   "Lines of longitude",
+   "Lines of scale",
+   "Lines of latitude",
+   "Lines of elevation"
+  ],
+  "a": 2,
+  "why": "Latitude lines are like the rungs of a ladder. Longitude lines run from pole to pole.",
+  "hint": "Picture the rungs of a ladder.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-002",
+  "topic": "world",
+  "level": 5,
+  "type": "number",
+  "q": "A baseball game in New York starts at 7:00 PM New York time. New York is 3 hours ahead of Los Angeles. What hour is it in Los Angeles then?",
+  "a": 4,
+  "why": "Places farther west have earlier clock times, because the Sun reaches the east first. Subtract 3 hours from 7.",
+  "hint": "Which way do you go on the clock?",
+  "tags": [
+   "baseball",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-003",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "You have $10 and choose a baseball cap instead of a book. What is the book called in this choice?",
+  "opts": [
+   "The opportunity cost",
+   "The interest you earn",
+   "The profit you earn",
+   "The budget you set"
+  ],
+  "a": 0,
+  "why": "Opportunity cost is the next best thing you give up when you choose. It is not the money, but the lost choice.",
+  "hint": "It is what you gave up.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-004",
+  "topic": "world",
+  "level": 5,
+  "type": "order",
+  "q": "Put these cities in order, from nearest to farthest from the Equator.",
+  "opts": [
+   "Quito, Ecuador",
+   "Miami",
+   "Seattle",
+   "Anchorage, Alaska"
+  ],
+  "why": "Quito is almost on the Equator. Each city after it is farther north.",
+  "hint": "One of them sits almost on the Equator.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-005",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "If a storm destroys many orange crops, orange juice will probably cost more.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Fewer oranges means a smaller supply. When something becomes scarce, sellers can charge a higher price.",
+  "hint": "Think about supply and price.",
+  "tags": [
+   "food",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-006",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Why are river deltas, where a river reaches the sea, often good for farming?",
+  "opts": [
+   "The land is high and rocky",
+   "Rivers drop rich soil there",
+   "It never rains in deltas",
+   "Volcanoes heat the ground there"
+  ],
+  "a": 1,
+  "why": "Rivers carry bits of soil downstream. At the delta the water slows and drops it, making soil full of nutrients.",
+  "hint": "Think about what a slow river drops.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-007",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "The Pacific, Atlantic and Indian Oceans all touch a cold ocean that circles Antarctica. What is it called?",
+  "opts": [
+   "Mediterranean Sea",
+   "Arctic Ocean",
+   "Caribbean Sea",
+   "Southern Ocean"
+  ],
+  "a": 3,
+  "why": "The Southern Ocean wraps around Antarctica. The Arctic Ocean is near the North Pole.",
+  "hint": "Its name tells you its direction.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-008",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "The Prime Meridian is the line of 0 degrees longitude.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Longitude is measured east and west from the Prime Meridian. It passes through Greenwich, near London.",
+  "hint": "It is the starting line for longitude.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-009",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Why are the polar regions cold all year?",
+  "opts": [
+   "They are the closest places to the Sun",
+   "Cold winds from space cool them",
+   "Sunlight arrives at a low slant",
+   "The Sun never shines on them at all"
+  ],
+  "a": 2,
+  "why": "Near the poles the Sun's rays hit at a low angle and cover a larger area, so each spot gets less heat.",
+  "hint": "Think about a flashlight shining at a slant.",
+  "tags": [
+   "weather",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-5-010",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Ancient Egyptian builders used ramps and levers to help move heavy stones. A ramp is which simple machine?",
+  "opts": [
+   "Inclined plane",
+   "Pulley",
+   "Wheel and axle",
+   "Screw"
+  ],
+  "a": 0,
+  "why": "An inclined plane is a slanted surface. It lets you raise a load with less push over a longer distance.",
+  "hint": "It is a slanted surface.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-001",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Quito, Ecuador, sits almost on the Equator but has cool, spring-like weather. Why?",
+  "opts": [
+   "Cold ocean water surrounds it",
+   "It sits farther from the Sun",
+   "It sits high in the Andes",
+   "Snow falls on it all year long"
+  ],
+  "a": 2,
+  "why": "Air gets colder as elevation rises. Quito is about 2,850 meters up, so the Equator's heat is cooled by the altitude.",
+  "hint": "Think about how it feels at the top of a tall mountain.",
+  "tags": [
+   "maps",
+   "weather"
+  ],
+  "fun": true,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-002",
+  "topic": "world",
+  "level": 6,
+  "type": "number",
+  "q": "Each time zone is about 15 degrees of longitude wide. Earth is 360 degrees around. About how many time zones fit around the whole Earth?",
+  "a": 24,
+  "why": "360 divided by 15 is 24. That matches the 24 hours in a day, because Earth turns once a day.",
+  "hint": "Divide 360 by 15.",
+  "tags": [
+   "maps",
+   "space"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-003",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Seattle gets lots of rain, but the land just east of the Cascade Mountains is dry. Why?",
+  "opts": [
+   "Mountains squeeze rain from the air",
+   "The ocean is much colder east of them",
+   "Rain only ever falls near the coast",
+   "Dry winds blow in from the Atlantic"
+  ],
+  "a": 0,
+  "why": "Moist Pacific air rises up the mountains, cools and drops rain. The air that descends the other side is dry.",
+  "hint": "What happens to air as it rises over a mountain?",
+  "tags": [
+   "weather",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-004",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Put these ways of finding direction at sea in order, from oldest to newest.",
+  "opts": [
+   "Watching the stars",
+   "Magnetic compass",
+   "Sextant",
+   "Satellite GPS"
+  ],
+  "why": "Sailors used stars first. Then they added the compass, and the sextant measured star angles. GPS satellites came last.",
+  "hint": "Satellites are the newest invention here.",
+  "tags": [
+   "maps",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-005",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "A place at 30 degrees South latitude and 120 degrees West longitude is in both the Southern and Western Hemispheres.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "South latitude means south of the Equator. West longitude means west of the Prime Meridian.",
+  "hint": "Read the directions in each number.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-006",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Why did people invent money instead of only trading goods (barter)?",
+  "opts": [
+   "Goods were always too heavy to carry",
+   "Rulers made direct trading illegal",
+   "Only rich people were allowed to trade",
+   "Both must want what the other has"
+  ],
+  "a": 3,
+  "why": "If you have fish and want wheat, the wheat seller must also want fish. Money works for everyone.",
+  "hint": "Think about finding someone who wants your fish.",
+  "tags": [
+   "money",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-007",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Why do islands far from any continent, like the Galápagos, often have animals found nowhere else?",
+  "opts": [
+   "Volcanoes there create new animals",
+   "Isolated animals slowly change",
+   "Ocean water changes their bodies",
+   "Islands have no predators or diseases"
+  ],
+  "a": 1,
+  "why": "Few animals reach distant islands. Those that do live apart from their relatives and slowly change.",
+  "hint": "Think about being cut off from the mainland.",
+  "tags": [
+   "ocean",
+   "animals",
+   "maps"
+  ],
+  "fun": false,
+  "src": "Galápagos Conservancy",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-008",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Put these US time zones in order, from where the Sun rises first to where it rises last.",
+  "opts": [
+   "Eastern",
+   "Central",
+   "Mountain",
+   "Pacific"
+  ],
+  "why": "Earth turns from west to east, so the Sun reaches the east first. Noon comes to Eastern first and Pacific last.",
+  "hint": "The Sun rises in the east.",
+  "tags": [
+   "maps",
+   "space"
+  ],
+  "fun": false,
+  "src": "NCSS Geography",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-009",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Antarctic scientists study air bubbles trapped in very old ice. What can the bubbles tell them?",
+  "opts": [
+   "What the air was like long ago",
+   "Which animals once lived on the ice",
+   "How deep the ocean is below it",
+   "Which ships have sailed nearby"
+  ],
+  "a": 0,
+  "why": "Falling snow squeezes air into ice layers. Deeper layers hold older air, like pages in a very old book.",
+  "hint": "Older ice holds older air.",
+  "tags": [
+   "weather",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wor-6-010",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "A bakery raises the price of its cookies and fewer people buy them. Which idea does this show?",
+  "opts": [
+   "Profit is always the same as price",
+   "Supply always exactly matches demand",
+   "Demand often falls when prices rise",
+   "Bakeries never pay for ingredients"
+  ],
+  "a": 2,
+  "why": "When something costs more, fewer people want to buy it at that price. That is how demand usually works.",
+  "hint": "Think about how shoppers react to a higher price.",
+  "tags": [
+   "money",
+   "food"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ }
+]

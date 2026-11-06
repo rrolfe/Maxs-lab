@@ -1,0 +1,1365 @@
+[
+ {
+  "id": "log-es-1-001",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué sigue? 🦈 🦈 🐟 🦈 🦈 ❓",
+  "opts": [
+   "🐟",
+   "🦈",
+   "🐙"
+  ],
+  "a": 0,
+  "why": "El patrón es dos tiburones y un pez. Ya hay dos tiburones, así que sigue el pez.",
+  "hint": "Busca el grupo que se repite.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-002",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Tres de estos animales viven en el mar. ¿Cuál NO vive en el mar?",
+  "opts": [
+   "Pulpo",
+   "Jirafa",
+   "Estrella de mar"
+  ],
+  "a": 1,
+  "why": "El pulpo y la estrella de mar viven en el mar. La jirafa vive en la tierra.",
+  "hint": "Piensa dónde vive cada animal.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-003",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "🌙 ⭐ ⭐ 🌙 ⭐ ⭐ 🌙 ⭐ ⭐  ¿Cuántas ⭐ hay en la fila?",
+  "a": 6,
+  "why": "Hay tres grupos de dos estrellas: 2 + 2 + 2 = 6. Las lunas no se cuentan.",
+  "hint": "Cuenta solo las estrellas, de dos en dos.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-004",
+  "topic": "logic",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena estas pelotas de la más pequeña a la más grande.",
+  "opts": [
+   "Pelota de golf",
+   "Pelota de béisbol",
+   "Pelota de básquetbol"
+  ],
+  "why": "La de golf cabe en tu mano con espacio de sobra. La de béisbol es mayor, y la de básquetbol es la más grande.",
+  "hint": "Empieza con la que podrías esconder en el puño.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-005",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué color sigue? 🟥 🟦 🟦 🟥 🟦 🟦 🟥 ❓",
+  "opts": [
+   "🟦",
+   "🟥",
+   "🟩"
+  ],
+  "a": 0,
+  "why": "El patrón es un rojo y dos azules. Después del rojo vienen dos azules, así que sigue un azul.",
+  "hint": "Fíjate cuántos azules van después de cada rojo.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-006",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Verdadero o falso: después de 🔺 🔺 🔵 🔺 🔺 🔵 sigue otro 🔵.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "El patrón es dos triángulos y un círculo. La fila terminó en círculo, así que sigue un triángulo.",
+  "hint": "Mira cómo terminó la fila.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-007",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "Cuenta de 5 en 5: 5, 10, ❓, 20. ¿Qué número falta?",
+  "a": 15,
+  "why": "Cada número es 5 más que el anterior. Después de 10 sigue 15 y luego 20.",
+  "hint": "Suma 5 cada vez.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-008",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "En un equipo de béisbol, Luna es más alta que Teo. Teo es más alto que Iván. ¿Quién es la persona más baja?",
+  "opts": [
+   "Teo",
+   "Iván",
+   "Luna"
+  ],
+  "a": 1,
+  "why": "Luna es la más alta, Teo queda en medio e Iván es el más bajo.",
+  "hint": "Ordénalos en una fila de alto a bajo.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-009",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "🦖 🦖 🦈 🦖  ¿Qué lugar ocupa el intruso?",
+  "opts": [
+   "El 1.º",
+   "El 3.º",
+   "El 4.º"
+  ],
+  "a": 1,
+  "why": "Tres son dinosaurios y uno es tiburón. El tiburón está en el tercer lugar.",
+  "hint": "Busca el que es diferente y cuenta desde la izquierda.",
+  "tags": [
+   "dinosaurs",
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-010",
+  "topic": "logic",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena lo que pasa con un cohete, del primer paso al último.",
+  "opts": [
+   "Cuenta regresiva",
+   "Despegue",
+   "Viaje por el espacio",
+   "Aterrizaje"
+  ],
+  "why": "Primero se cuenta hacia atrás, luego despega, viaja por el espacio y al final aterriza.",
+  "hint": "Piensa qué debe pasar antes de despegar.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-011",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué número sigue? 2, 4, 2, 4, 2, ❓",
+  "opts": [
+   "2",
+   "6",
+   "4"
+  ],
+  "a": 2,
+  "why": "El patrón alterna 2 y 4. Como el último fue 2, sigue el 4.",
+  "hint": "Fíjate en el último número y en cuál le toca.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-1-012",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "En el mar hay 5 delfines. Llegan 3 delfines más. ¿Cuántos delfines hay ahora?",
+  "a": 8,
+  "why": "5 y 3 más son 8: cuenta 6, 7, 8 desde el 5.",
+  "hint": "Empieza en 5 y cuenta 3 más.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-001",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Cuenta hacia atrás: 50, 45, 40, 35, ❓. ¿Qué número sigue?",
+  "a": 30,
+  "why": "Cada número es 5 menos que el anterior. 35 menos 5 es 30.",
+  "hint": "Mira cuánto baja cada vez.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-002",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Un paleontólogo numera los huesos de un fósil: 7, 12, 17, 22, ❓. ¿Qué número sigue?",
+  "opts": [
+   "27",
+   "26",
+   "29"
+  ],
+  "a": 0,
+  "why": "Los números suben de 5 en 5. 22 más 5 es 27.",
+  "hint": "Resta dos números vecinos para ver el salto.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-003",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "El tiburón A muestra 28 dientes. El tiburón B muestra 82 dientes. ¿Cuál muestra MENOS dientes?",
+  "opts": [
+   "El tiburón A",
+   "Tienen la misma cantidad",
+   "El tiburón B"
+  ],
+  "a": 0,
+  "why": "28 tiene 2 decenas y 82 tiene 8 decenas. Menos decenas significa menos dientes.",
+  "hint": "Compara primero las decenas.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-004",
+  "topic": "logic",
+  "level": 2,
+  "type": "order",
+  "q": "Cuatro cohetes llevan estos números: 46, 64, 38 y 83. Ordénalos de mayor a menor.",
+  "opts": [
+   "83",
+   "64",
+   "46",
+   "38"
+  ],
+  "why": "Compara las decenas: 8 es más que 6, 6 es más que 4 y 4 es más que 3. Entre 64 y 46 gana 64.",
+  "hint": "Busca primero el número más grande.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-005",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "La caja azul tiene los números impares 3, 7 y 11. ¿Qué otro número va en la caja azul?",
+  "opts": [
+   "14",
+   "15",
+   "18"
+  ],
+  "a": 1,
+  "why": "Los impares terminan en 1, 3, 5, 7 o 9. El 15 termina en 5, así que es impar.",
+  "hint": "Fíjate en el último dígito.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-006",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Verdadero o falso: si cuentas de 2 en 2 (2, 4, 6, 8…), dirás el número 15.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Contando de 2 en 2 solo dices números pares. El 15 es impar, así que nunca lo dices.",
+  "hint": "Piensa si 15 es par o impar.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-007",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Los Tigres anotaron 8 carreras. Los Leones anotaron 3 menos que los Tigres. ¿Cuántas carreras anotaron los dos equipos juntos?",
+  "a": 13,
+  "why": "Los Leones anotaron 8 − 3 = 5. Juntos suman 8 + 5 = 13 carreras.",
+  "hint": "Primero averigua cuántas anotaron los Leones.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-008",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Fila 1: ⭐ 🌙 ⭐. Fila 2: 🌙 ⭐ 🌙. Fila 3: ⭐ 🌙 ❓. ¿Qué va en el espacio vacío?",
+  "opts": [
+   "⭐",
+   "🌙",
+   "☀️"
+  ],
+  "a": 0,
+  "why": "Cada fila y cada columna alterna entre estrella y luna. Después de ⭐ 🌙 sigue ⭐.",
+  "hint": "Mira qué hay justo arriba del espacio vacío.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-009",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Contamos de 5 en 5: 5, 10, 15, 22, 25. ¿Qué número NO pertenece?",
+  "opts": [
+   "10",
+   "25",
+   "22"
+  ],
+  "a": 2,
+  "why": "Contando de 5 en 5 solo dices números que terminan en 0 o 5. El 22 termina en 2.",
+  "hint": "Revisa el último dígito de cada número.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-010",
+  "topic": "logic",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena estos dinosaurios del más pequeño al más grande.",
+  "opts": [
+   "Compsognathus",
+   "Velociraptor",
+   "Triceratops",
+   "Braquiosaurio"
+  ],
+  "why": "El Compsognathus era como un pollo, el Velociraptor como un pavo. El Triceratops era enorme y el Braquiosaurio todavía más.",
+  "hint": "Piensa en cuál cabría en tus brazos.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-011",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué número es MAYOR que 58 y MENOR que 61?",
+  "opts": [
+   "57",
+   "62",
+   "59"
+  ],
+  "a": 2,
+  "why": "59 viene después de 58 y antes de 60 y 61. El 57 y el 62 quedan fuera.",
+  "hint": "Cuenta desde 58 hacia arriba.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-2-012",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Cada pulpo tiene 8 brazos. Hay 2 pulpos. ¿Cuántos brazos hay en total?",
+  "a": 16,
+  "why": "8 + 8 = 16 brazos. Dos grupos de 8 hacen 16.",
+  "hint": "Suma los brazos de un pulpo con los del otro.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-001",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Un robot en Marte recoge rocas: 3, 7, 11, 15. Si sigue el patrón, ¿cuántas rocas recoge el día 5?",
+  "opts": [
+   "17",
+   "18",
+   "19",
+   "20"
+  ],
+  "a": 2,
+  "why": "El patrón suma 4 cada día. 15 más 4 es 19.",
+  "hint": "Mira cuánto crece de un día al siguiente.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-002",
+  "topic": "logic",
+  "level": 3,
+  "type": "order",
+  "q": "Colmillo es más largo que Rayo. Tito es más corto que Rayo. Dientón es más largo que Colmillo. Ordena estos tiburones del más corto al más largo.",
+  "opts": [
+   "Tito",
+   "Rayo",
+   "Colmillo",
+   "Dientón"
+  ],
+  "why": "Tito queda debajo de Rayo, Rayo debajo de Colmillo y Colmillo debajo de Dientón. Une las pistas.",
+  "hint": "Dibuja una línea y coloca un tiburón a la vez.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-003",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "Un pulpo guarda perlas en cajas: 5, 9, 13, 17 y así sigue. ¿Cuántas perlas hay en la caja 6?",
+  "a": 25,
+  "why": "Cada caja tiene 4 perlas más. Después de 17 vienen 21 y luego 25.",
+  "hint": "Sigue sumando el mismo número, caja por caja.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-004",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Cada fila y cada columna tiene un 🚀, una 🪐 y un ☄️. Fila 1: 🚀 🪐 ☄️. Fila 2: ☄️ 🚀 🪐. Fila 3: 🪐 ❓ 🚀. ¿Qué va en ❓?",
+  "opts": [
+   "🚀",
+   "🪐",
+   "⭐",
+   "☄️"
+  ],
+  "a": 3,
+  "why": "La fila 3 ya tiene 🪐 y 🚀, así que falta ☄️. La columna 2 también lo pide.",
+  "hint": "¿Qué dibujo le falta a la fila 3?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-005",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "El patrón ⚾ 🧢 🧢 se repite una y otra vez. Entre los primeros 12 dibujos, ¿cuántos son 🧢?",
+  "a": 8,
+  "why": "12 dibujos son 4 grupos de 3. Cada grupo tiene 2 gorras: 4 × 2 = 8.",
+  "hint": "Cuenta cuántos grupos completos caben.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-006",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "En un desfile de dinosaurios, el Estegosaurio camina detrás del Triceratops. El T. rex camina delante del Triceratops. ¿Quién camina en medio?",
+  "opts": [
+   "T. rex",
+   "Estegosaurio",
+   "No se puede saber",
+   "Triceratops"
+  ],
+  "a": 3,
+  "why": "La fila es T. rex, Triceratops, Estegosaurio. El Triceratops queda entre los otros dos.",
+  "hint": "Pon los tres dinosaurios en una fila.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-007",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Verdadero o falso: en el patrón 40, 35, 30, 25, el siguiente número es 15.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Cada número baja 5. 25 menos 5 es 20, no 15.",
+  "hint": "Calcula cuánto baja cada número.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-008",
+  "topic": "logic",
+  "level": 3,
+  "type": "order",
+  "q": "Resuelve cada operación y ordena los resultados de menor a mayor.",
+  "opts": [
+   "20 − 9",
+   "15 − 3",
+   "9 + 5",
+   "8 + 8"
+  ],
+  "why": "Los resultados son 11, 12, 14 y 16. Ordena las respuestas, no los primeros números.",
+  "hint": "Resuelve primero y compara después.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-009",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Contamos de 4 en 4: 4, 8, 12, 17, 20, 24. ¿Qué número es el error?",
+  "opts": [
+   "17",
+   "8",
+   "20",
+   "24"
+  ],
+  "a": 0,
+  "why": "Sumando 4 cada vez da 4, 8, 12, 16, 20, 24. El 17 debería ser 16.",
+  "hint": "Suma 4 a cada número y mira dónde falla.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-010",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "En una tabla, cada fila suma 20. Fila 1: 9, 6, 5. Fila 2: 8, ❓, 7. ¿Qué número es ❓?",
+  "a": 5,
+  "why": "8 + 7 = 15. Para llegar a 20 faltan 5.",
+  "hint": "Primero suma los dos números que ves.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-011",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Tres de estos animales son mamíferos que respiran aire. ¿Cuál NO lo es?",
+  "opts": [
+   "Delfín",
+   "Ballena jorobada",
+   "Manatí",
+   "Tiburón ballena"
+  ],
+  "a": 3,
+  "why": "Delfines, ballenas y manatíes respiran aire. El tiburón ballena es un pez y respira con branquias.",
+  "hint": "Piensa cuáles son peces y cuáles no.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-3-012",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué número sigue? 1, 2, 4, 7, 11, ❓",
+  "opts": [
+   "15",
+   "16",
+   "17",
+   "18"
+  ],
+  "a": 1,
+  "why": "Los saltos crecen: +1, +2, +3, +4. El siguiente salto es +5, y 11 + 5 = 16.",
+  "hint": "Mira cuánto sube cada vez. ¿Es siempre igual?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-001",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Número misterioso: es mayor que 40, menor que 60, y es múltiplo de 4 y también múltiplo de 6. ¿Cuál es?",
+  "a": 48,
+  "why": "48 = 4 × 12 y 48 = 6 × 8. Entre 40 y 60 ningún otro número sirve para ambos.",
+  "hint": "Busca múltiplos de 6 y revisa cuáles también son de 4.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-002",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Lu vio 3 gaviotas en la playa y las 3 eran blancas. Dice: «Todas las gaviotas del mundo son blancas.» ¿Qué falla?",
+  "opts": [
+   "Las gaviotas siempre son negras",
+   "Tres es un número imposible",
+   "Vio muy pocas para estar segura",
+   "No falla nada"
+  ],
+  "a": 2,
+  "why": "Tres gaviotas no muestran cómo son todas. Puede haber otras de otro color.",
+  "hint": "¿Alcanzan 3 ejemplos para hablar de todas?",
+  "tags": [
+   "animals",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-003",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Un jugador de béisbol tiene un número de camiseta de dos dígitos. Sus dígitos suman 10 y el de las decenas es 4 más que el de las unidades. ¿Qué número es?",
+  "a": 73,
+  "why": "Con 7 y 3: 7 + 3 = 10 y 7 es 4 más que 3. El número es 73.",
+  "hint": "Prueba parejas de dígitos que sumen 10.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-004",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Valeria, Mateo y Camila aman cosas distintas: tiburones, dinosaurios o planetas. Valeria no ama tiburones ni dinosaurios. Mateo no ama tiburones. ¿Quién ama los tiburones?",
+  "opts": [
+   "Valeria",
+   "Mateo",
+   "Camila",
+   "No se puede saber"
+  ],
+  "a": 2,
+  "why": "Valeria ama los planetas. Mateo no ama tiburones, así que ama dinosaurios. A Camila le tocan los tiburones.",
+  "hint": "Empieza por quien tiene más pistas.",
+  "tags": [
+   "sharks",
+   "dinosaurs",
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-005",
+  "topic": "logic",
+  "level": 4,
+  "type": "order",
+  "q": "Cuatro tortugas marinas corren. Nico llega último. Luz llega justo después de Ona. Mía llega antes que Ona. Ordénalas de la primera a la última.",
+  "opts": [
+   "Mía",
+   "Ona",
+   "Luz",
+   "Nico"
+  ],
+  "why": "Nico es cuarto. Mía va antes que Ona, y Luz va justo después de Ona: Mía, Ona, Luz, Nico.",
+  "hint": "Coloca primero a la que tiene un lugar seguro.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-006",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Un cangrejo camina de A a B solo hacia la derecha o hacia abajo. B está 1 paso a la derecha y 3 pasos hacia abajo. ¿Cuántos caminos cortos distintos puede tomar?",
+  "a": 4,
+  "why": "El paso a la derecha puede ser el 1.º, 2.º, 3.º o 4.º. Hay 4 caminos.",
+  "hint": "¿En qué momento da el paso a la derecha?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-007",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Verdadero o falso: todos los jugadores del equipo Rojo usan casco. Pedro usa casco, así que juega en el equipo Rojo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Jugadores de otros equipos también usan casco. La regla va del equipo Rojo al casco, no al revés.",
+  "hint": "¿Solo el equipo Rojo usa casco?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-008",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Qué número cumple TODAS las pistas? Está entre 50 y 70. Es múltiplo de 5. Sus dígitos suman más de 10.",
+  "opts": [
+   "55",
+   "60",
+   "70",
+   "65"
+  ],
+  "a": 3,
+  "why": "Los múltiplos de 5 son 55, 60 y 65. Solo 6 + 5 = 11 suma más de 10.",
+  "hint": "Tacha números, una pista a la vez.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-009",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Un cohete va de la Tierra a una estación y luego a la Luna. Hay 3 rutas hasta la estación y 4 desde ella hasta la Luna. ¿Cuántas rutas hay en total?",
+  "a": 12,
+  "why": "Cada ruta de las 3 se combina con 4 rutas. 3 × 4 = 12.",
+  "hint": "Para cada primera ruta, cuenta las segundas.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-010",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Sofía dice: «7 + 5 = 13, porque 7 + 3 = 10 y 10 + 3 = 13.» ¿Dónde está su error?",
+  "opts": [
+   "7 + 3 no es 10",
+   "Empezó con el número equivocado",
+   "No hay ningún error",
+   "Sumó 3 otra vez en lugar de 2"
+  ],
+  "a": 3,
+  "why": "Para sumar 5 se usa 3 + 2. Entonces 7 + 3 = 10 y 10 + 2 = 12.",
+  "hint": "¿Cuánto falta después de sumar 3?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-011",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Hoy es martes. El cohete despega dentro de 12 días. ¿Qué día de la semana despega?",
+  "opts": [
+   "Sábado",
+   "Domingo",
+   "Lunes",
+   "Viernes"
+  ],
+  "a": 1,
+  "why": "Pasan 7 días y vuelve a ser martes. Faltan 5 días más: domingo.",
+  "hint": "Cuenta primero una semana completa.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-4-012",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Hay 12 pelotas de béisbol repartidas en 3 cajas iguales. Luego se ponen 2 pelotas más en cada caja. ¿Cuántas pelotas hay ahora en cada caja?",
+  "a": 6,
+  "why": "12 pelotas entre 3 cajas son 4 en cada una. Con 2 más, quedan 6.",
+  "hint": "Primero averigua cuántas había en cada caja.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-001",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Regla del entrenador: si hay tormenta, no hay práctica. Hoy SÍ hubo práctica. ¿Qué es seguro?",
+  "opts": [
+   "Hubo tormenta",
+   "No hubo tormenta",
+   "Hubo mucho sol",
+   "No se puede saber"
+  ],
+  "a": 1,
+  "why": "Si hubiera habido tormenta, no habría práctica. Como hubo práctica, no hubo tormenta.",
+  "hint": "Prueba: ¿qué habría pasado con una tormenta?",
+  "tags": [
+   "baseball",
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-002",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Una pelota de béisbol pesa lo mismo que 2 canicas grandes. Una canica grande pesa lo mismo que 3 canicas pequeñas. ¿Cuántas canicas pequeñas pesan lo mismo que 4 pelotas?",
+  "a": 24,
+  "why": "Una pelota son 2 grandes, y cada grande son 3 pequeñas: 6 pequeñas. Cuatro pelotas: 4 × 6 = 24.",
+  "hint": "Convierte una pelota a canicas pequeñas primero.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-003",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Regla: si Lola termina la tarea, juega afuera. Lola está jugando afuera. ¿Terminó la tarea?",
+  "opts": [
+   "No se puede saber",
+   "Sí, seguro",
+   "No, seguro que no",
+   "Terminó solo la mitad"
+  ],
+  "a": 0,
+  "why": "La regla dice qué pasa si termina, no que sea la única razón para jugar afuera.",
+  "hint": "¿Puede haber otra razón para estar afuera?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-004",
+  "topic": "logic",
+  "level": 5,
+  "type": "order",
+  "q": "En una balanza, el meteorito A pesa menos que B. C pesa más que B. D pesa menos que A. Ordénalos del más liviano al más pesado.",
+  "opts": [
+   "D",
+   "A",
+   "B",
+   "C"
+  ],
+  "why": "D es menor que A, A menor que B y B menor que C. Une las pistas en una sola fila.",
+  "hint": "Construye la fila con una pista a la vez.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-005",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Qué número sigue? 3, 6, 5, 10, 9, 18, ❓",
+  "opts": [
+   "16",
+   "17",
+   "19",
+   "36"
+  ],
+  "a": 1,
+  "why": "Los pasos se turnan: doblar y restar 1. El último paso fue doblar (9 a 18), así que ahora restamos 1: 17.",
+  "hint": "Dos pasos distintos se turnan.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-006",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Pedro piensa un número, lo multiplica por 3 y luego le resta 4. Obtiene 17. ¿En qué número pensó?",
+  "a": 7,
+  "why": "Deshaz los pasos al revés: 17 + 4 = 21, y 21 ÷ 3 = 7.",
+  "hint": "Deshaz el último paso primero.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-007",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Repetimos A B C A B C A B C… sin parar. ¿Qué letra queda en el lugar 20?",
+  "opts": [
+   "A",
+   "C",
+   "D",
+   "B"
+  ],
+  "a": 3,
+  "why": "El 18 termina en C porque es múltiplo de 3. Luego el 19 es A y el 20 es B.",
+  "hint": "Usa los múltiplos de 3 para acercarte al 20.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-008",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "En un club de 20 niños, 14 aman los tiburones y 9 aman el espacio. Todos aman al menos una de las dos cosas. ¿Cuántos aman SOLO los tiburones?",
+  "a": 11,
+  "why": "14 + 9 = 23, que son 3 más que 20: esos 3 aman ambas. Solo tiburones: 14 − 3 = 11.",
+  "hint": "Averigua primero cuántos aman las dos cosas.",
+  "tags": [
+   "sharks",
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-009",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Verdadero o falso: en el patrón 2, 6, 4, 8, 6, 10 el siguiente número es 8.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los pasos se turnan: +4, −2, +4, −2, +4. Ahora toca −2: 10 − 2 = 8.",
+  "hint": "Fíjate en cómo cambian los números, uno por uno.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-010",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Mía repartió sus cromos de dinosaurios: dio la mitad a Luis, luego 3 a Ana, y le quedaron 5. ¿Cuántos cromos tenía al principio?",
+  "a": 16,
+  "why": "Al revés: 5 + 3 = 8 era lo que le quedó tras dar la mitad. Si 8 es la mitad, había 16.",
+  "hint": "Retrocede desde lo que le quedó.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-011",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Un partido de béisbol empezó a la 1:50 p. m. y terminó a las 4:15 p. m. ¿Cuánto duró?",
+  "opts": [
+   "2 h 15 min",
+   "2 h 35 min",
+   "3 h 25 min",
+   "2 h 25 min"
+  ],
+  "a": 3,
+  "why": "De 1:50 a 2:00 son 10 min, hasta las 4:00 son 2 h, y hasta las 4:15 son 15 min más.",
+  "hint": "Salta de hora en hora, no de minuto en minuto.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-5-012",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Tres conchas parecen iguales, pero una pesa más. Con una balanza de dos platillos, ¿cuántas veces debes pesar como mínimo para estar seguro de cuál es?",
+  "a": 1,
+  "why": "Pesa dos conchas. Si una baja, es esa; si se equilibran, es la tercera. Basta una pesada.",
+  "hint": "¿Qué pasa si los dos platillos quedan parejos?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-001",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Unas aletas y un snorkel cuestan $13 juntos. Las aletas cuestan $11 más que el snorkel. ¿Cuántos dólares cuesta el snorkel?",
+  "a": 1,
+  "why": "Si el snorkel cuesta $1, las aletas cuestan $12: suman $13 y difieren en $11. Con $2 no funciona.",
+  "hint": "Prueba tu primera idea y comprueba las dos pistas.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-002",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Alma y Beto, dos tiburones de cuento, o siempre dicen la verdad o siempre mienten. Alma dice: «Beto miente.» Beto dice: «Los dos decimos la verdad.» ¿Quién dice la verdad?",
+  "opts": [
+   "Los dos",
+   "Solo Beto",
+   "Ninguno de los dos",
+   "Solo Alma"
+  ],
+  "a": 3,
+  "why": "Si Beto dijera la verdad, Alma también, y entonces Beto mentiría. Imposible. Beto miente y Alma acierta.",
+  "hint": "Prueba suponer que Beto dice la verdad.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-003",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "En un torneo de béisbol, 7 equipos juegan contra todos los demás exactamente una vez. ¿Cuántos partidos se juegan en total?",
+  "a": 21,
+  "why": "Cada equipo juega 6 partidos: 7 × 6 = 42. Cada partido cuenta dos veces, así que 42 ÷ 2 = 21.",
+  "hint": "Cada partido involucra a dos equipos.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-004",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Tres cajas dicen «pelotas», «guantes» y «mezcla» (pelotas y guantes juntos). TODAS las etiquetas están mal. Sacas una pelota de la caja «mezcla». ¿Qué hay en la caja «guantes»?",
+  "opts": [
+   "Solo guantes",
+   "Solo pelotas",
+   "Una mezcla",
+   "No se puede saber"
+  ],
+  "a": 2,
+  "why": "La caja «mezcla» tiene solo pelotas. La caja «guantes» no puede ser de guantes, así que es la mezcla.",
+  "hint": "Si la etiqueta está mal, ¿qué puede haber dentro?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-005",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "En un dado normal, las caras opuestas suman 7. Ves tres caras: 1, 2 y 3. ¿Cuánto suman las tres caras que NO ves?",
+  "a": 15,
+  "why": "Las caras ocultas son las opuestas: 6, 5 y 4. 6 + 5 + 4 = 15.",
+  "hint": "Halla la cara opuesta de cada número que ves.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-006",
+  "topic": "logic",
+  "level": 6,
+  "type": "order",
+  "q": "Cinco astronautas hacen fila para subir al cohete. Hugo va primero. Kai va último. Ian va justo detrás de Ela. Jade va antes que Ela. Ordénalos de primero a último.",
+  "opts": [
+   "Hugo",
+   "Jade",
+   "Ela",
+   "Ian",
+   "Kai"
+  ],
+  "why": "Hugo es 1.º y Kai 5.º. Jade debe ir antes que Ela, y Ian justo después: Jade, Ela, Ian.",
+  "hint": "Coloca primero los lugares seguros.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-007",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Dos padres y dos hijos van a pescar. Cada persona pesca un pez, y en total pescan 3 peces. ¿Cuántas personas hay?",
+  "opts": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "a": 1,
+  "why": "Son abuelo, padre y nieto: el padre es padre e hijo a la vez. Así hay 2 padres y 2 hijos.",
+  "hint": "¿Puede una persona ser padre e hijo a la vez?",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-008",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Un cangrejo sube una roca de 7 pasos. De día sube 3 pasos y de noche resbala 2. ¿En qué día llega a la cima?",
+  "a": 5,
+  "why": "Cada día completo gana 1 paso. Tras 4 días está en el paso 4; el día 5 sube 3 y llega al 7.",
+  "hint": "Revisa qué pasa en el último día, sin resbalar.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-009",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Verdadero o falso: si hoy es domingo, dentro de 100 días será martes.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "100 días son 14 semanas completas más 2 días. Domingo más 2 días es martes.",
+  "hint": "Quita las semanas completas de 7 días.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-010",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Tomás tiene el triple de la edad de su hermana Ana. Ana tiene 4 años. ¿Cuántos años tendrá Tomás cuando Ana tenga 10?",
+  "a": 18,
+  "why": "Tomás tiene 12 y le lleva 8 años a Ana. Cuando ella tenga 10, él tendrá 18.",
+  "hint": "La diferencia de edad nunca cambia.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-011",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Un cubo de 3 × 3 × 3 cubitos se pinta de rojo por fuera y luego se separa en 27 cubitos. ¿Cuántos cubitos tienen exactamente 1 cara roja?",
+  "opts": [
+   "6",
+   "8",
+   "12",
+   "24"
+  ],
+  "a": 0,
+  "why": "Son los cubitos del centro de cada cara. El cubo tiene 6 caras, así que hay 6.",
+  "hint": "¿Cuáles tocan una sola cara del cubo?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "log-es-6-012",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuántos cuadrados de cualquier tamaño hay en una cuadrícula de 3 × 3 casillas, contando el grande?",
+  "opts": [
+   "9",
+   "13",
+   "14",
+   "16"
+  ],
+  "a": 2,
+  "why": "Hay 9 cuadrados pequeños, 4 de 2 × 2 y 1 grande: 9 + 4 + 1 = 14.",
+  "hint": "Cuenta por tamaños: pequeños, medianos y el grande.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ }
+]
