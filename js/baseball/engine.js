@@ -74,7 +74,7 @@ export function swing(s, { want, answer, timing }, r = Math.random) {
     if (answer === 'second') hit = Math.max(1, want - 1);        // a second try still helps, just not as much
     if (timing === 'good') hit = Math.max(1, hit - 1);
     // fielders catch some balls: solid-but-not-perfect contact and second-try swings are caught more often
-    const caught = (timing === 'perfect' ? CFG.caught.perfect : CFG.caught.good) + (answer === 'second' ? 0.08 : 0) + (hit >= 3 ? 0 : 0);
+    const caught = (timing === 'perfect' ? CFG.caught.perfect : CFG.caught.good) + 0.04 * (hit - 1);
     outcome = r() < caught ? 'out' : hit;
   }
   if (outcome === 'foul') { if (s.strikes < 2) s.strikes++; return { kind: 'foul', runs: 0 }; }
