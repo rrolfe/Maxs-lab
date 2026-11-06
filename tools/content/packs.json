@@ -530,7 +530,7 @@
      {
       "w": "EXTINCT",
       "clue": "No longer living anywhere on Earth",
-      "fact": "Most dinosaurs died out about 66 million years ago, but birds survived.",
+      "fact": "Most dinosaurs disappeared about 66 million years ago, but birds survived.",
       "tier": 2
      },
      {
@@ -2296,7 +2296,7 @@
      {
       "w": "HIPPO",
       "clue": "Huge, round African animal that spends the day in water",
-      "fact": "Hippos make a reddish, oily liquid that works like sunscreen.",
+      "fact": "Hippos make a reddish, oily liquid that helps protect their skin from the sun.",
       "tier": 1
      },
      {
@@ -3563,6 +3563,1790 @@
       "w": "AGUACERO",
       "clue": "Lluvia fuerte y repentina que dura poco",
       "fact": "En muchos lugares tropicales llueve fuerte casi todas las tardes.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "world-landmarks",
+   "icon": "🗺️",
+   "name": {
+    "en": "World Landmarks",
+    "es": "Lugares del mundo"
+   },
+   "words": {
+    "en": [
+     {
+      "w": "PEAK",
+      "clue": "Pointed top of a mountain",
+      "fact": "The air gets thinner near a high peak, so climbers sometimes carry extra oxygen.",
+      "tier": 1
+     },
+     {
+      "w": "CAVE",
+      "clue": "Big hollow room inside a hillside or under the ground",
+      "fact": "Some caves have rivers and lakes deep inside, where sunlight never reaches.",
+      "tier": 1
+     },
+     {
+      "w": "LAKE",
+      "clue": "Large body of water surrounded by land",
+      "fact": "Some lakes were made by glaciers digging out huge basins in the ground.",
+      "tier": 1
+     },
+     {
+      "w": "DUNE",
+      "clue": "Hill of sand piled up by the wind",
+      "fact": "Sand dunes slowly travel as wind pushes grains up one side and over the top.",
+      "tier": 1
+     },
+     {
+      "w": "ARCH",
+      "clue": "Curved opening that holds up a bridge or doorway",
+      "fact": "Natural rock arches are carved by wind and water over thousands of years.",
+      "tier": 1
+     },
+     {
+      "w": "OASIS",
+      "clue": "Green spot with water in the middle of a desert",
+      "fact": "Palm trees grow at an oasis, where water rises from underground.",
+      "tier": 1
+     },
+     {
+      "w": "DELTA",
+      "clue": "Fan-shaped land where a river meets the sea",
+      "fact": "River deltas are named for a Greek letter shaped like a triangle.",
+      "tier": 1
+     },
+     {
+      "w": "FJORD",
+      "clue": "Long, narrow sea inlet between steep cliffs",
+      "fact": "Fjords were carved by glaciers, then filled by the sea when the ice melted.",
+      "tier": 1
+     },
+     {
+      "w": "GORGE",
+      "clue": "Deep, narrow valley with steep rocky walls",
+      "fact": "A river often cuts a gorge by slowly wearing away rock over many years.",
+      "tier": 1
+     },
+     {
+      "w": "TOWER",
+      "clue": "Very tall, narrow building or structure",
+      "fact": "Paris's famous iron tower grows taller in summer because metal expands in heat.",
+      "tier": 1
+     },
+     {
+      "w": "CANAL",
+      "clue": "Waterway dug by people to move boats",
+      "fact": "The Panama Canal lifts ships up and down with giant water-filled locks.",
+      "tier": 1
+     },
+     {
+      "w": "CLIFF",
+      "clue": "Steep rocky wall at the edge of land or sea",
+      "fact": "Some sea cliffs rise higher than a thousand feet.",
+      "tier": 1
+     },
+     {
+      "w": "CASTLE",
+      "clue": "Stone fortress with towers where a king or queen lived",
+      "fact": "Many castles were built on hills so people could see far across the land.",
+      "tier": 2
+     },
+     {
+      "w": "TUNNEL",
+      "clue": "Underground passage dug through a mountain or under water",
+      "fact": "The Channel Tunnel connects England and France beneath the sea.",
+      "tier": 2
+     },
+     {
+      "w": "BRIDGE",
+      "clue": "Structure that lets people or cars cross a river",
+      "fact": "Some bridges are built to sway a little in the wind so they do not break.",
+      "tier": 2
+     },
+     {
+      "w": "DESERT",
+      "clue": "Land that gets very little rain",
+      "fact": "Not every desert is hot; Antarctica is a very cold desert.",
+      "tier": 2
+     },
+     {
+      "w": "PALACE",
+      "clue": "Fancy home of a king, queen or leader",
+      "fact": "Some palaces have hundreds of rooms.",
+      "tier": 2
+     },
+     {
+      "w": "STATUE",
+      "clue": "Carved or cast figure of a person or animal",
+      "fact": "The Statue of Liberty is made of thin copper sheets that turned green over time.",
+      "tier": 2
+     },
+     {
+      "w": "TUNDRA",
+      "clue": "Cold, treeless plain where the ground stays frozen underneath",
+      "fact": "The frozen soil under the Arctic tundra is called permafrost.",
+      "tier": 2
+     },
+     {
+      "w": "VOLCANO",
+      "clue": "Mountain that can erupt with melted rock and ash",
+      "fact": "Many volcanoes sit in a ring around the Pacific Ocean.",
+      "tier": 2
+     },
+     {
+      "w": "GLACIER",
+      "clue": "River of ice that moves very slowly downhill",
+      "fact": "Glaciers move too slowly to watch, but over time they carve out whole valleys.",
+      "tier": 2
+     },
+     {
+      "w": "CANYON",
+      "clue": "Deep valley with steep sides, carved by a river",
+      "fact": "Canyon walls show layers of rock like pages in a giant book.",
+      "tier": 2
+     },
+     {
+      "w": "PLATEAU",
+      "clue": "High, flat stretch of land",
+      "fact": "The Tibetan Plateau is so high that it is called the roof of the world.",
+      "tier": 2
+     },
+     {
+      "w": "PYRAMID",
+      "clue": "Ancient stone building with triangle sides meeting at a point",
+      "fact": "The Great Pyramid in Egypt is built from over two million stone blocks.",
+      "tier": 2
+     },
+     {
+      "w": "SAVANNA",
+      "clue": "Warm grassland with scattered trees where zebras and lions roam",
+      "fact": "Savannas have a rainy season and a dry season, and the grass turns golden when dry.",
+      "tier": 2
+     },
+     {
+      "w": "LAGOON",
+      "clue": "Shallow calm water separated from the sea by sand or coral",
+      "fact": "Atolls are rings of coral islands that surround a calm lagoon.",
+      "tier": 2
+     },
+     {
+      "w": "LIGHTHOUSE",
+      "clue": "Tower with a bright beam to guide ships",
+      "fact": "Lighthouse lenses turn lamplight into a strong beam that can be seen from miles away.",
+      "tier": 3
+     },
+     {
+      "w": "RAINFOREST",
+      "clue": "Thick, warm forest that gets lots of rain",
+      "fact": "Rainforests are home to more kinds of plants and animals than any other land habitat.",
+      "tier": 3
+     },
+     {
+      "w": "WATERFALL",
+      "clue": "Stream of water dropping off a high cliff",
+      "fact": "Waterfalls slowly wear away rock and creep upstream over many years.",
+      "tier": 3
+     },
+     {
+      "w": "MONUMENT",
+      "clue": "Statue or building made to remember something important",
+      "fact": "A ring of huge standing stones in England has stood for over 4,000 years.",
+      "tier": 3
+     },
+     {
+      "w": "FOUNTAIN",
+      "clue": "Jet of water shooting up into the air for show",
+      "fact": "Old fountains used gravity: water flowed downhill through pipes and shot up at the end.",
+      "tier": 3
+     },
+     {
+      "w": "MOUNTAIN",
+      "clue": "Very high landform that rises far above the land around it",
+      "fact": "Mountains form when pieces of Earth's crust push together and crumple upward.",
+      "tier": 3
+     },
+     {
+      "w": "SKYSCRAPER",
+      "clue": "Super tall building with many floors",
+      "fact": "Tall skyscrapers sway a little in strong wind, and some have heavy weights to steady them.",
+      "tier": 3
+     },
+     {
+      "w": "OBSERVATORY",
+      "clue": "Building with a big telescope for studying the stars",
+      "fact": "Many observatories are built on high mountains where the air is thin and clear.",
+      "tier": 3
+     },
+     {
+      "w": "AQUEDUCT",
+      "clue": "Bridge-like channel that carries water over long distances",
+      "fact": "Ancient Romans built stone aqueducts that carried water to cities using gentle slopes.",
+      "tier": 3
+     },
+     {
+      "w": "FORTRESS",
+      "clue": "Strong walled stronghold built to protect a town",
+      "fact": "Some fortresses were built on islands or hills so they were hard to reach.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "FARO",
+      "clue": "Torre con una luz potente que guía a los barcos",
+      "fact": "Las lámparas de los faros usan lentes especiales para lanzar un rayo que se ve desde lejos.",
+      "tier": 1
+     },
+     {
+      "w": "LAGO",
+      "clue": "Gran extensión de agua rodeada de tierra",
+      "fact": "Algunos lagos nacen cuando un glaciar excava un enorme hueco en la tierra.",
+      "tier": 1
+     },
+     {
+      "w": "TORRE",
+      "clue": "Construcción muy alta y angosta",
+      "fact": "La torre de hierro de París crece unos 15 centímetros con el calor del verano.",
+      "tier": 1
+     },
+     {
+      "w": "CERRO",
+      "clue": "Montaña pequeña o colina alta, de cima redondeada",
+      "fact": "La ciudad de Quito está rodeada de cerros y volcanes.",
+      "tier": 1
+     },
+     {
+      "w": "VALLE",
+      "clue": "Terreno bajo entre dos montañas",
+      "fact": "Un valle puede formarse cuando un río o un glaciar va tallando la tierra.",
+      "tier": 1
+     },
+     {
+      "w": "DUNA",
+      "clue": "Colina de arena amontonada por el viento",
+      "fact": "Las dunas se desplazan lentamente cuando el viento empuja la arena por un lado.",
+      "tier": 1
+     },
+     {
+      "w": "OASIS",
+      "clue": "Lugar verde con agua en medio del desierto",
+      "fact": "En un oasis crecen palmeras porque el agua sube desde bajo la tierra.",
+      "tier": 1
+     },
+     {
+      "w": "CIMA",
+      "clue": "La parte más alta de una montaña",
+      "fact": "Cerca de las cimas más altas el aire es tan delgado que cuesta respirar.",
+      "tier": 1
+     },
+     {
+      "w": "COSTA",
+      "clue": "Zona de tierra que está junto al mar",
+      "fact": "Ecuador tiene cuatro regiones: Costa, Sierra, Amazonía y Galápagos.",
+      "tier": 1
+     },
+     {
+      "w": "CANAL",
+      "clue": "Camino de agua hecho por personas para que pasen barcos",
+      "fact": "El Canal de Panamá sube y baja a los barcos con grandes cámaras llenas de agua.",
+      "tier": 1
+     },
+     {
+      "w": "ARCO",
+      "clue": "Estructura curva que sostiene un puente o una puerta",
+      "fact": "Los arcos naturales de roca los tallan el viento y el agua durante miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "SELVA",
+      "clue": "Bosque tropical muy espeso y húmedo con árboles altísimos",
+      "fact": "La selva amazónica de Ecuador es una de las más ricas en especies del mundo.",
+      "tier": 1
+     },
+     {
+      "w": "PUENTE",
+      "clue": "Construcción que permite cruzar un río",
+      "fact": "Algunos puentes se mueven un poco con el viento para no romperse.",
+      "tier": 2
+     },
+     {
+      "w": "PALACIO",
+      "clue": "Casa enorme y lujosa de un rey o una reina",
+      "fact": "Algunos palacios tienen cientos de habitaciones.",
+      "tier": 2
+     },
+     {
+      "w": "ESTATUA",
+      "clue": "Figura tallada en piedra o metal que representa a alguien",
+      "fact": "La Estatua de la Libertad es de láminas de cobre que se pusieron verdes con el tiempo.",
+      "tier": 2
+     },
+     {
+      "w": "VOLCÁN",
+      "clue": "Montaña que puede lanzar lava y ceniza",
+      "fact": "Ecuador forma parte del Cinturón de Fuego del Pacífico, por eso tiene muchos volcanes.",
+      "tier": 2
+     },
+     {
+      "w": "GLACIAR",
+      "clue": "Río de hielo que baja muy despacio por la montaña",
+      "fact": "Los glaciares se mueven tan despacio que no se ven, pero tallan valles enteros.",
+      "tier": 2
+     },
+     {
+      "w": "MESETA",
+      "clue": "Terreno alto y plano",
+      "fact": "La meseta del Tíbet es tan alta que la llaman el techo del mundo.",
+      "tier": 2
+     },
+     {
+      "w": "SABANA",
+      "clue": "Pradera cálida con árboles dispersos donde viven cebras y leones",
+      "fact": "En la sabana hay una época de lluvias y otra de sequía, y los pastos se ponen dorados.",
+      "tier": 2
+     },
+     {
+      "w": "LAGUNA",
+      "clue": "Lago pequeño y poco profundo",
+      "fact": "Ecuador tiene lagunas dentro de cráteres de volcanes, como la de Quilotoa.",
+      "tier": 2
+     },
+     {
+      "w": "TUNDRA",
+      "clue": "Llanura fría sin árboles con el suelo helado por debajo",
+      "fact": "Bajo la tundra el suelo está helado todo el año y se llama permafrost.",
+      "tier": 2
+     },
+     {
+      "w": "CASCADA",
+      "clue": "Chorro de agua que cae desde lo alto de una roca",
+      "fact": "Las cascadas van desgastando la roca y, con los años, se desplazan río arriba.",
+      "tier": 2
+     },
+     {
+      "w": "FIORDO",
+      "clue": "Entrada larga y angosta del mar entre montañas altas",
+      "fact": "Los glaciares tallaron los fiordos y luego el mar los llenó al derretirse el hielo.",
+      "tier": 2
+     },
+     {
+      "w": "MURALLA",
+      "clue": "Pared gruesa que rodea y protege una ciudad",
+      "fact": "La Gran Muralla china está hecha de muchos muros construidos durante siglos.",
+      "tier": 2
+     },
+     {
+      "w": "MIRADOR",
+      "clue": "Lugar alto desde donde se contempla un paisaje",
+      "fact": "Quito tiene miradores desde donde se ven volcanes nevados en días despejados.",
+      "tier": 2
+     },
+     {
+      "w": "MONTAÑA",
+      "clue": "Elevación enorme de terreno, mucho más alta que lo que la rodea",
+      "fact": "Las montañas nacen cuando las placas de la Tierra se empujan y el suelo se arruga hacia arriba.",
+      "tier": 2
+     },
+     {
+      "w": "PIRÁMIDE",
+      "clue": "Construcción antigua con caras triangulares que terminan en punta",
+      "fact": "La Gran Pirámide de Egipto tiene más de dos millones de bloques de piedra.",
+      "tier": 3
+     },
+     {
+      "w": "CASTILLO",
+      "clue": "Fortaleza de piedra con torres donde vivía un rey",
+      "fact": "Muchos castillos se construían en lo alto de cerros para ver a lo lejos.",
+      "tier": 3
+     },
+     {
+      "w": "DESIERTO",
+      "clue": "Tierra donde llueve muy poco",
+      "fact": "No todos los desiertos son calientes: la Antártida es un desierto helado.",
+      "tier": 3
+     },
+     {
+      "w": "RASCACIELOS",
+      "clue": "Edificio altísimo con muchos pisos",
+      "fact": "Los rascacielos se mecen un poco con el viento fuerte, y algunos tienen pesas para estabilizarse.",
+      "tier": 3
+     },
+     {
+      "w": "ACUEDUCTO",
+      "clue": "Canal elevado que lleva agua a lo largo de grandes distancias",
+      "fact": "Los romanos construyeron acueductos de piedra que llevaban agua a las ciudades por suaves pendientes.",
+      "tier": 3
+     },
+     {
+      "w": "FORTALEZA",
+      "clue": "Construcción fuerte con murallas gruesas que protege una ciudad",
+      "fact": "Algunas fortalezas se construyeron en islas o cerros para que fueran difíciles de alcanzar.",
+      "tier": 3
+     },
+     {
+      "w": "MONUMENTO",
+      "clue": "Estatua o edificio hecho para recordar algo importante",
+      "fact": "Un círculo de enormes piedras en Inglaterra lleva más de 4000 años en pie.",
+      "tier": 3
+     },
+     {
+      "w": "PENÍNSULA",
+      "clue": "Tierra rodeada de agua por todos lados menos uno",
+      "fact": "Italia es una península con forma de bota.",
+      "tier": 3
+     },
+     {
+      "w": "CORDILLERA",
+      "clue": "Larga cadena de montañas, como los Andes",
+      "fact": "Los Andes cruzan siete países de Sudamérica, incluido Ecuador.",
+      "tier": 3
+     },
+     {
+      "w": "CATARATAS",
+      "clue": "Enormes caídas de agua, más grandes que una cascada",
+      "fact": "En las cataratas del Iguazú caen cientos de saltos de agua entre Argentina y Brasil.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "inventions-and-machines",
+   "icon": "⚙️",
+   "name": {
+    "en": "Inventions and Machines",
+    "es": "Inventos y máquinas"
+   },
+   "words": {
+    "en": [
+     {
+      "w": "GEAR",
+      "clue": "Toothed wheel that fits into another to pass on motion",
+      "fact": "Gears of different sizes can make a machine turn faster or push harder.",
+      "tier": 1
+     },
+     {
+      "w": "WHEEL",
+      "clue": "Round part that rolls and makes moving heavy things easier",
+      "fact": "A wheel on an axle lets people move heavy loads with much less effort.",
+      "tier": 1
+     },
+     {
+      "w": "LEVER",
+      "clue": "Bar that pivots on a point to help lift heavy things",
+      "fact": "A seesaw is a lever with the pivot point in the middle.",
+      "tier": 1
+     },
+     {
+      "w": "ROBOT",
+      "clue": "Machine that can be programmed to do tasks by itself",
+      "fact": "The word robot comes from a Czech word meaning \"hard work.\"",
+      "tier": 1
+     },
+     {
+      "w": "CLOCK",
+      "clue": "Machine that shows what time it is",
+      "fact": "Pendulum clocks keep time because each swing takes almost exactly the same time.",
+      "tier": 1
+     },
+     {
+      "w": "RADIO",
+      "clue": "Device that picks up sound sent through the air",
+      "fact": "Radio waves travel at the speed of light.",
+      "tier": 1
+     },
+     {
+      "w": "LASER",
+      "clue": "Super-narrow, focused beam of light",
+      "fact": "Scientists used a laser beam to measure the distance to the Moon.",
+      "tier": 1
+     },
+     {
+      "w": "MOTOR",
+      "clue": "Machine part that makes things spin using electricity or fuel",
+      "fact": "Electric motors use magnets and electricity to make things spin.",
+      "tier": 1
+     },
+     {
+      "w": "RAMP",
+      "clue": "Slanted surface that makes it easier to go up",
+      "fact": "A ramp lets you lift something heavy with less push by making the trip longer.",
+      "tier": 1
+     },
+     {
+      "w": "AXLE",
+      "clue": "Rod that a wheel turns on",
+      "fact": "A car's axle is a strong rod that lets the wheels spin while holding up the car.",
+      "tier": 1
+     },
+     {
+      "w": "CRANE",
+      "clue": "Tall machine that lifts heavy loads at building sites",
+      "fact": "Tower cranes can build themselves taller by lifting new sections of their own tower.",
+      "tier": 1
+     },
+     {
+      "w": "LENS",
+      "clue": "Curved glass that bends light, found in cameras and glasses",
+      "fact": "A lens can bend light to make faraway or tiny things look bigger.",
+      "tier": 1
+     },
+     {
+      "w": "PULLEY",
+      "clue": "Wheel with a rope that helps lift heavy things",
+      "fact": "Using more pulley wheels in a set lets you lift a load with less pull.",
+      "tier": 2
+     },
+     {
+      "w": "CAMERA",
+      "clue": "Device that captures pictures with light",
+      "fact": "The word camera comes from a Latin word for \"room\"; early cameras were whole dark rooms.",
+      "tier": 2
+     },
+     {
+      "w": "ENGINE",
+      "clue": "Machine that burns fuel to make power",
+      "fact": "Steam engines used burning coal and boiling water to move trains and ships.",
+      "tier": 2
+     },
+     {
+      "w": "BATTERY",
+      "clue": "Stores chemical energy and gives electricity to toys",
+      "fact": "A battery makes electricity through a chemical reaction between its parts.",
+      "tier": 2
+     },
+     {
+      "w": "MAGNET",
+      "clue": "Object that pulls on iron and sticks to a fridge door",
+      "fact": "Earth acts like a giant magnet, which is why compass needles point north.",
+      "tier": 2
+     },
+     {
+      "w": "COMPASS",
+      "clue": "Tool with a needle that points north",
+      "fact": "Compasses were invented long ago in China, and sailors used them to find their way.",
+      "tier": 2
+     },
+     {
+      "w": "PRINTER",
+      "clue": "Machine that puts words and pictures onto paper",
+      "fact": "Some 3D printers build objects out of melted plastic, one thin layer at a time.",
+      "tier": 2
+     },
+     {
+      "w": "TRACTOR",
+      "clue": "Strong farm vehicle with huge back wheels",
+      "fact": "Tractor tires have deep tread to grip soft, muddy fields.",
+      "tier": 2
+     },
+     {
+      "w": "BALLOON",
+      "clue": "Floating bag of gas",
+      "fact": "Hot-air balloons float because heated air is lighter than cool air.",
+      "tier": 2
+     },
+     {
+      "w": "HAMMER",
+      "clue": "Tool with a heavy head for pounding nails",
+      "fact": "Early humans used stones as hammers long before people had metal.",
+      "tier": 2
+     },
+     {
+      "w": "WRENCH",
+      "clue": "Tool that grips and turns nuts and bolts",
+      "fact": "A long wrench handle works like a lever, so a stuck bolt is easier to turn.",
+      "tier": 2
+     },
+     {
+      "w": "SPRING",
+      "clue": "Coiled metal that squishes and bounces back",
+      "fact": "A spring stores energy when squeezed and releases it when it bounces back.",
+      "tier": 2
+     },
+     {
+      "w": "TURBINE",
+      "clue": "Wheel with blades that spins from wind, water or steam",
+      "fact": "Wind turbines turn the motion of the wind into electricity.",
+      "tier": 2
+     },
+     {
+      "w": "BICYCLE",
+      "clue": "Two-wheeled ride that you pedal",
+      "fact": "Riding a bicycle takes less energy per mile than walking.",
+      "tier": 2
+     },
+     {
+      "w": "HELICOPTER",
+      "clue": "Aircraft with spinning blades on top that can hover",
+      "fact": "A helicopter's spinning blades work like wings, lifting it straight up.",
+      "tier": 3
+     },
+     {
+      "w": "MICROSCOPE",
+      "clue": "Tool that makes tiny things look huge",
+      "fact": "Microscopes revealed tiny living things swimming in a drop of pond water.",
+      "tier": 3
+     },
+     {
+      "w": "PARACHUTE",
+      "clue": "Big fabric canopy that slows a fall",
+      "fact": "Some spacecraft use huge parachutes to slow down before landing.",
+      "tier": 3
+     },
+     {
+      "w": "COMPUTER",
+      "clue": "Electronic machine that follows instructions to handle information",
+      "fact": "Early computers filled whole rooms; today's can fit in your pocket.",
+      "tier": 3
+     },
+     {
+      "w": "ELEVATOR",
+      "clue": "Box that carries people up and down in tall buildings",
+      "fact": "An elevator has safety brakes that grab the rails if the cable ever fails.",
+      "tier": 3
+     },
+     {
+      "w": "TELEPHONE",
+      "clue": "Invention that lets you talk to someone far away",
+      "fact": "Early telephones sent voices over wires as changing electrical signals.",
+      "tier": 3
+     },
+     {
+      "w": "CALCULATOR",
+      "clue": "Pocket gadget that does math with buttons",
+      "fact": "The abacus, a counting frame with beads, is an ancient calculator still in use.",
+      "tier": 3
+     },
+     {
+      "w": "BULLDOZER",
+      "clue": "Heavy machine with a huge front blade for pushing dirt",
+      "fact": "Bulldozers use wide metal tracks so they do not sink in soft ground.",
+      "tier": 3
+     },
+     {
+      "w": "SKATEBOARD",
+      "clue": "Board with four wheels that you ride standing up",
+      "fact": "The first skateboards were made by attaching roller skate wheels to wooden boards.",
+      "tier": 3
+     },
+     {
+      "w": "LIGHTBULB",
+      "clue": "Glass bulb that glows when electricity flows through",
+      "fact": "Modern LED bulbs use far less electricity than old glowing-filament bulbs.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "RUEDA",
+      "clue": "Pieza redonda que gira y facilita mover cosas pesadas",
+      "fact": "Una rueda con eje permite mover cargas pesadas con mucho menos esfuerzo.",
+      "tier": 1
+     },
+     {
+      "w": "POLEA",
+      "clue": "Rueda con una cuerda que ayuda a subir cosas pesadas",
+      "fact": "Con varias poleas juntas puedes levantar una carga haciendo menos fuerza.",
+      "tier": 1
+     },
+     {
+      "w": "ROBOT",
+      "clue": "Máquina programada para hacer tareas sola",
+      "fact": "La palabra robot viene de una palabra checa que significa trabajo duro.",
+      "tier": 1
+     },
+     {
+      "w": "RELOJ",
+      "clue": "Aparato que marca la hora",
+      "fact": "Los relojes de péndulo funcionan porque cada vaivén dura casi lo mismo.",
+      "tier": 1
+     },
+     {
+      "w": "RADIO",
+      "clue": "Aparato que recibe sonidos enviados por el aire",
+      "fact": "Las ondas de radio viajan a la velocidad de la luz.",
+      "tier": 1
+     },
+     {
+      "w": "LÁSER",
+      "clue": "Rayo de luz muy fino y concentrado",
+      "fact": "Con un láser se midió la distancia a la Luna con increíble precisión.",
+      "tier": 1
+     },
+     {
+      "w": "MOTOR",
+      "clue": "Parte que hace girar y mover una máquina",
+      "fact": "Los motores eléctricos usan imanes y electricidad para hacer girar cosas.",
+      "tier": 1
+     },
+     {
+      "w": "RAMPA",
+      "clue": "Superficie inclinada que facilita subir cosas",
+      "fact": "Una rampa permite subir algo pesado con menos esfuerzo, aunque el camino sea más largo.",
+      "tier": 1
+     },
+     {
+      "w": "GRÚA",
+      "clue": "Máquina alta que levanta cargas pesadas en las obras",
+      "fact": "Las grúas torre pueden subir solas, agregando secciones nuevas a su propia torre.",
+      "tier": 1
+     },
+     {
+      "w": "LENTE",
+      "clue": "Vidrio curvo que desvía la luz, como en unas gafas",
+      "fact": "Un lente puede hacer que lo lejano o lo diminuto se vea más grande.",
+      "tier": 1
+     },
+     {
+      "w": "PILA",
+      "clue": "Pequeño aparato que guarda energía para juguetes",
+      "fact": "Una pila produce electricidad con una reacción química en su interior.",
+      "tier": 1
+     },
+     {
+      "w": "FOCO",
+      "clue": "Bulbo de vidrio que alumbra cuando pasa electricidad",
+      "fact": "Las luces LED gastan mucha menos electricidad que los focos antiguos.",
+      "tier": 1
+     },
+     {
+      "w": "PALANCA",
+      "clue": "Barra que gira sobre un punto y ayuda a levantar cosas",
+      "fact": "Un subibaja es una palanca con el punto de apoyo en el medio.",
+      "tier": 2
+     },
+     {
+      "w": "CÁMARA",
+      "clue": "Aparato que captura imágenes con luz",
+      "fact": "La palabra cámara viene del latín y significa cuarto; las primeras eran habitaciones oscuras.",
+      "tier": 2
+     },
+     {
+      "w": "BRÚJULA",
+      "clue": "Instrumento con una aguja que siempre señala el norte",
+      "fact": "La Tierra funciona como un imán gigante, por eso la aguja apunta al norte.",
+      "tier": 2
+     },
+     {
+      "w": "TRACTOR",
+      "clue": "Vehículo fuerte de granja con enormes ruedas traseras",
+      "fact": "Las llantas de los tractores tienen surcos profundos para agarrarse al barro.",
+      "tier": 2
+     },
+     {
+      "w": "TURBINA",
+      "clue": "Rueda con aspas que gira con viento, agua o vapor",
+      "fact": "Las turbinas de viento convierten el movimiento del aire en electricidad.",
+      "tier": 2
+     },
+     {
+      "w": "RESORTE",
+      "clue": "Alambre enroscado que se aprieta y vuelve a su forma",
+      "fact": "Un resorte guarda energía al apretarlo y la suelta al estirarse de nuevo.",
+      "tier": 2
+     },
+     {
+      "w": "HÉLICE",
+      "clue": "Aspas que giran para empujar un barco o un avión",
+      "fact": "Una hélice empuja el aire o el agua hacia atrás y así avanza el vehículo.",
+      "tier": 2
+     },
+     {
+      "w": "TIJERAS",
+      "clue": "Herramienta de dos hojas que corta papel",
+      "fact": "Las tijeras son dos palancas unidas por un tornillo en el medio.",
+      "tier": 2
+     },
+     {
+      "w": "BATERÍA",
+      "clue": "Guarda energía y le da electricidad al celular",
+      "fact": "Las baterías recargables pueden usarse muchas veces si se vuelven a cargar.",
+      "tier": 2
+     },
+     {
+      "w": "CAMIÓN",
+      "clue": "Vehículo grande que transporta cargas pesadas por carretera",
+      "fact": "Algunos camiones grandes tienen dieciocho ruedas.",
+      "tier": 2
+     },
+     {
+      "w": "MOLINO",
+      "clue": "Construcción con aspas que gira con el viento para moler granos",
+      "fact": "Los molinos de viento se usaron durante siglos para moler grano y sacar agua.",
+      "tier": 2
+     },
+     {
+      "w": "MÁQUINA",
+      "clue": "Aparato con piezas que trabajan juntas para facilitar un trabajo",
+      "fact": "Una máquina simple, como una palanca o una rampa, tiene muy pocas piezas.",
+      "tier": 2
+     },
+     {
+      "w": "ENGRANE",
+      "clue": "Rueda con dientes que encaja con otra para transmitir movimiento",
+      "fact": "Los engranes de distintos tamaños hacen que una máquina gire más rápido o con más fuerza.",
+      "tier": 2
+     },
+     {
+      "w": "ANTENA",
+      "clue": "Varilla o plato que recibe señales de radio o de televisión",
+      "fact": "Las antenas captan ondas invisibles que viajan por el aire.",
+      "tier": 2
+     },
+     {
+      "w": "HELICÓPTERO",
+      "clue": "Aeronave con aspas arriba que puede quedarse quieta en el aire",
+      "fact": "Las aspas de un helicóptero funcionan como alas que lo levantan hacia arriba.",
+      "tier": 3
+     },
+     {
+      "w": "MICROSCOPIO",
+      "clue": "Instrumento que hace ver enormes las cosas diminutas",
+      "fact": "Con el microscopio se descubrieron seres vivos diminutos en una gota de agua de estanque.",
+      "tier": 3
+     },
+     {
+      "w": "PARACAÍDAS",
+      "clue": "Gran tela que frena la caída de una persona",
+      "fact": "Algunas naves espaciales usan paracaídas gigantes para frenar antes de aterrizar.",
+      "tier": 3
+     },
+     {
+      "w": "COMPUTADORA",
+      "clue": "Máquina electrónica que sigue instrucciones para manejar información",
+      "fact": "Las primeras computadoras llenaban salas enteras; las de hoy caben en el bolsillo.",
+      "tier": 3
+     },
+     {
+      "w": "ASCENSOR",
+      "clue": "Cabina que sube y baja a las personas en edificios altos",
+      "fact": "Un ascensor tiene frenos de seguridad que sujetan los rieles si el cable falla.",
+      "tier": 3
+     },
+     {
+      "w": "TELÉFONO",
+      "clue": "Invento que permite hablar con alguien que está lejos",
+      "fact": "Los primeros teléfonos enviaban la voz por cables como señales eléctricas.",
+      "tier": 3
+     },
+     {
+      "w": "CALCULADORA",
+      "clue": "Aparato de bolsillo que hace cuentas con botones",
+      "fact": "El ábaco, un marco con cuentas, es una calculadora antigua que aún se usa.",
+      "tier": 3
+     },
+     {
+      "w": "EXCAVADORA",
+      "clue": "Máquina con brazo y pala grande que cava la tierra",
+      "fact": "Algunas excavadoras tienen orugas anchas para no hundirse en el suelo blando.",
+      "tier": 3
+     },
+     {
+      "w": "BICICLETA",
+      "clue": "Vehículo de dos ruedas que se mueve con pedales",
+      "fact": "Ir en bicicleta gasta menos energía por kilómetro que caminar.",
+      "tier": 3
+     },
+     {
+      "w": "PATINETA",
+      "clue": "Tabla con cuatro ruedas sobre la que te paras para deslizarte",
+      "fact": "Las primeras patinetas se hicieron con ruedas de patines clavadas a tablas.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "human-body",
+   "icon": "🫀",
+   "name": {
+    "en": "Human Body",
+    "es": "Cuerpo humano"
+   },
+   "words": {
+    "en": [
+     {
+      "w": "HEART",
+      "clue": "Muscle that pumps blood around your body",
+      "fact": "Your heart beats about 100,000 times every day.",
+      "tier": 1
+     },
+     {
+      "w": "LUNG",
+      "clue": "Spongy bag in your chest that fills with air",
+      "fact": "Your left lung is a bit smaller than your right to make room for your heart.",
+      "tier": 1
+     },
+     {
+      "w": "BONE",
+      "clue": "Hard white part of your skeleton",
+      "fact": "Bone is living tissue that can heal itself when it breaks.",
+      "tier": 1
+     },
+     {
+      "w": "SKIN",
+      "clue": "Your body's stretchy outer covering",
+      "fact": "Your skin is the largest organ of your body.",
+      "tier": 1
+     },
+     {
+      "w": "BRAIN",
+      "clue": "Control center inside your head that thinks and remembers",
+      "fact": "Your brain uses about one fifth of your body's energy, even though it is small.",
+      "tier": 1
+     },
+     {
+      "w": "NOSE",
+      "clue": "Face part you smell and breathe with",
+      "fact": "Tiny hairs in your nose help trap dust before it reaches your lungs.",
+      "tier": 1
+     },
+     {
+      "w": "TOOTH",
+      "clue": "Hard white chewing part in your mouth",
+      "fact": "Tooth enamel is the hardest substance in your whole body.",
+      "tier": 1
+     },
+     {
+      "w": "KNEE",
+      "clue": "Joint in the middle of your leg that bends",
+      "fact": "Your kneecap protects the knee joint and helps your leg bend and straighten.",
+      "tier": 1
+     },
+     {
+      "w": "SKULL",
+      "clue": "Bony helmet that protects your brain",
+      "fact": "Your skull is made of several bones joined together like a puzzle.",
+      "tier": 1
+     },
+     {
+      "w": "BLOOD",
+      "clue": "Red liquid that your heart pumps through your body",
+      "fact": "Blood travels all the way around your body in about a minute.",
+      "tier": 1
+     },
+     {
+      "w": "SPINE",
+      "clue": "Chain of bones running down your back",
+      "fact": "Your spine is made of small bones stacked like building blocks.",
+      "tier": 1
+     },
+     {
+      "w": "PULSE",
+      "clue": "Throbbing you can feel in your wrist from the heartbeat",
+      "fact": "You can feel your pulse on your wrist or neck, where arteries are near the skin.",
+      "tier": 1
+     },
+     {
+      "w": "MUSCLE",
+      "clue": "Stretchy body part that pulls your bones to make you move",
+      "fact": "Your body has more than 600 muscles.",
+      "tier": 2
+     },
+     {
+      "w": "TONGUE",
+      "clue": "Wiggly body part that tastes and helps you talk",
+      "fact": "Taste buds sit on bumps on your tongue and get replaced every couple of weeks.",
+      "tier": 2
+     },
+     {
+      "w": "STOMACH",
+      "clue": "Stretchy bag that mixes up the food you swallow",
+      "fact": "A coating of mucus protects your stomach from its own strong acid.",
+      "tier": 2
+     },
+     {
+      "w": "KIDNEY",
+      "clue": "Bean-shaped organ that filters your blood",
+      "fact": "Your kidneys filter all of your blood many times a day.",
+      "tier": 2
+     },
+     {
+      "w": "FINGER",
+      "clue": "One of the long bendy parts of a hand",
+      "fact": "Fingers have no muscles; tendons pulled by muscles in your hand and arm move them.",
+      "tier": 2
+     },
+     {
+      "w": "BREATHE",
+      "clue": "Take air in and out of your lungs",
+      "fact": "You breathe in and out about twenty thousand times a day.",
+      "tier": 2
+     },
+     {
+      "w": "DIGEST",
+      "clue": "Break down food so your body can use it",
+      "fact": "Digestion starts in your mouth, where saliva begins breaking food down.",
+      "tier": 2
+     },
+     {
+      "w": "RETINA",
+      "clue": "Light-sensing layer at the back of your eye",
+      "fact": "Your retina sees the world upside down, and your brain flips the picture.",
+      "tier": 2
+     },
+     {
+      "w": "HICCUP",
+      "clue": "Sudden jump of your diaphragm that makes a \"hic\" sound",
+      "fact": "A hiccup happens when your diaphragm twitches and your throat snaps shut.",
+      "tier": 2
+     },
+     {
+      "w": "SNEEZE",
+      "clue": "Sudden burst of air out of your nose and mouth",
+      "fact": "A sneeze helps clear dust and germs out of your nose.",
+      "tier": 2
+     },
+     {
+      "w": "TENDON",
+      "clue": "Tough cord that joins a muscle to a bone",
+      "fact": "Tendons work like ropes, letting muscles pull on bones to move them.",
+      "tier": 2
+     },
+     {
+      "w": "EYEBROW",
+      "clue": "Curved line of hair above your eye",
+      "fact": "Eyebrows help keep sweat and rain from dripping into your eyes.",
+      "tier": 2
+     },
+     {
+      "w": "SALIVA",
+      "clue": "Watery liquid in your mouth that begins digesting food",
+      "fact": "Your mouth makes this liquid all day long to help you chew, swallow and taste.",
+      "tier": 2
+     },
+     {
+      "w": "NEURON",
+      "clue": "Tiny nerve cell that sends messages to your brain",
+      "fact": "Your brain has billions of neurons, all sending tiny electrical signals.",
+      "tier": 2
+     },
+     {
+      "w": "SKELETON",
+      "clue": "All the bones in your body, put together",
+      "fact": "An adult has 206 bones, but babies have about 300 smaller ones that join together.",
+      "tier": 3
+     },
+     {
+      "w": "SHOULDER",
+      "clue": "Joint where your arm meets your body",
+      "fact": "The shoulder is one of the most flexible joints in your body.",
+      "tier": 3
+     },
+     {
+      "w": "INTESTINE",
+      "clue": "Long coiled tube where food is absorbed after your stomach",
+      "fact": "Your intestines would be about 25 feet long if you stretched them out.",
+      "tier": 3
+     },
+     {
+      "w": "VERTEBRA",
+      "clue": "One of the small bones that stack to make your backbone",
+      "fact": "A giraffe has the same number of neck vertebrae as you: seven.",
+      "tier": 3
+     },
+     {
+      "w": "WINDPIPE",
+      "clue": "Tube that carries air from your throat to your lungs",
+      "fact": "A flap called the epiglottis covers your windpipe when you swallow food.",
+      "tier": 3
+     },
+     {
+      "w": "FINGERNAIL",
+      "clue": "Hard protective plate at the tip of a finger",
+      "fact": "Fingernails grow faster than toenails.",
+      "tier": 3
+     },
+     {
+      "w": "HEARTBEAT",
+      "clue": "The thump you hear when you listen to a chest",
+      "fact": "A newborn's heart beats faster than a grown-up's.",
+      "tier": 3
+     },
+     {
+      "w": "FINGERPRINT",
+      "clue": "Swirly pattern on a fingertip that is unique to you",
+      "fact": "No two people, not even identical twins, have the same fingerprints.",
+      "tier": 3
+     },
+     {
+      "w": "BACTERIA",
+      "clue": "Tiny one-celled living things; some help digestion, some cause illness",
+      "fact": "Trillions of helpful bacteria live in your gut.",
+      "tier": 3
+     },
+     {
+      "w": "EXERCISE",
+      "clue": "Active movement like running to keep your body healthy",
+      "fact": "Exercise makes your heart stronger, just like lifting makes arm muscles stronger.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "OJO",
+      "clue": "Órgano de tu cara con el que ves",
+      "fact": "El ojo ve el mundo al revés, y tu cerebro endereza la imagen.",
+      "tier": 1
+     },
+     {
+      "w": "OREJA",
+      "clue": "Parte a cada lado de tu cabeza que capta sonidos",
+      "fact": "Tus orejas están hechas de cartílago, por eso se doblan.",
+      "tier": 1
+     },
+     {
+      "w": "NARIZ",
+      "clue": "Parte de la cara con la que hueles y respiras",
+      "fact": "Los pelitos de la nariz atrapan el polvo antes de que llegue a los pulmones.",
+      "tier": 1
+     },
+     {
+      "w": "BOCA",
+      "clue": "Parte de la cara por donde comes y hablas",
+      "fact": "Tu boca produce saliva todo el día para ayudarte a masticar y tragar.",
+      "tier": 1
+     },
+     {
+      "w": "PIEL",
+      "clue": "La cubierta flexible de todo tu cuerpo",
+      "fact": "La piel es el órgano más grande del cuerpo.",
+      "tier": 1
+     },
+     {
+      "w": "HUESO",
+      "clue": "Parte dura y blanca de tu esqueleto",
+      "fact": "El hueso es un tejido vivo y puede repararse solo cuando se rompe.",
+      "tier": 1
+     },
+     {
+      "w": "MANO",
+      "clue": "Tiene cinco dedos y sirve para agarrar cosas",
+      "fact": "En cada mano tienes 27 huesos.",
+      "tier": 1
+     },
+     {
+      "w": "CODO",
+      "clue": "Articulación en medio del brazo que se dobla",
+      "fact": "El codo funciona como una bisagra y permite doblar el brazo.",
+      "tier": 1
+     },
+     {
+      "w": "VENA",
+      "clue": "Tubito que lleva la sangre de vuelta al corazón",
+      "fact": "Muchas venas tienen válvulas diminutas que evitan que la sangre se devuelva.",
+      "tier": 1
+     },
+     {
+      "w": "DEDO",
+      "clue": "Cada una de las partes largas de la mano o del pie",
+      "fact": "Los dedos no tienen músculos: los mueven tendones jalados desde la mano y el brazo.",
+      "tier": 1
+     },
+     {
+      "w": "BRAZO",
+      "clue": "Parte del cuerpo entre el hombro y la mano",
+      "fact": "Tu brazo tiene tres huesos grandes: el húmero, el radio y el cúbito.",
+      "tier": 1
+     },
+     {
+      "w": "PULSO",
+      "clue": "Latido que sientes con los dedos en la muñeca",
+      "fact": "Puedes sentir tu pulso en la muñeca o el cuello, donde las arterias están cerca de la piel.",
+      "tier": 1
+     },
+     {
+      "w": "CORAZÓN",
+      "clue": "Músculo que bombea la sangre por todo tu cuerpo",
+      "fact": "Tu corazón late unas 100 000 veces al día.",
+      "tier": 2
+     },
+     {
+      "w": "PULMÓN",
+      "clue": "Bolsa esponjosa en tu pecho que se llena de aire",
+      "fact": "El pulmón izquierdo es un poco más pequeño para dejarle espacio al corazón.",
+      "tier": 2
+     },
+     {
+      "w": "CEREBRO",
+      "clue": "Centro de control dentro de tu cabeza, donde piensas y recuerdas",
+      "fact": "Tu cerebro usa casi una quinta parte de la energía de tu cuerpo.",
+      "tier": 2
+     },
+     {
+      "w": "SANGRE",
+      "clue": "Líquido rojo que el corazón bombea por tu cuerpo",
+      "fact": "La sangre recorre todo tu cuerpo en aproximadamente un minuto.",
+      "tier": 2
+     },
+     {
+      "w": "DIENTE",
+      "clue": "Pieza dura y blanca de la boca para masticar",
+      "fact": "El esmalte del diente es la sustancia más dura de tu cuerpo.",
+      "tier": 2
+     },
+     {
+      "w": "LENGUA",
+      "clue": "Parte blanda de la boca que saborea y ayuda a hablar",
+      "fact": "Los botones del gusto están en bultitos de la lengua y se renuevan cada dos semanas.",
+      "tier": 2
+     },
+     {
+      "w": "RODILLA",
+      "clue": "Articulación en medio de la pierna que se dobla",
+      "fact": "La rótula protege la rodilla y ayuda a doblar y estirar la pierna.",
+      "tier": 2
+     },
+     {
+      "w": "ESPALDA",
+      "clue": "Parte de atrás del cuerpo, entre los hombros y la cintura",
+      "fact": "La columna vertebral está formada por huesitos apilados como bloques.",
+      "tier": 2
+     },
+     {
+      "w": "MÚSCULO",
+      "clue": "Parte elástica del cuerpo que jala los huesos para que te muevas",
+      "fact": "Tu cuerpo tiene más de 600 músculos.",
+      "tier": 2
+     },
+     {
+      "w": "NERVIO",
+      "clue": "Cable delgado que lleva mensajes entre el cerebro y el cuerpo",
+      "fact": "Algunos nervios mandan mensajes al cerebro a más de 100 metros por segundo.",
+      "tier": 2
+     },
+     {
+      "w": "LATIDO",
+      "clue": "Cada golpecito rítmico del corazón",
+      "fact": "El corazón de un recién nacido late más rápido que el de un adulto.",
+      "tier": 2
+     },
+     {
+      "w": "HÍGADO",
+      "clue": "Órgano grande del lado derecho que ayuda a limpiar la sangre",
+      "fact": "El hígado puede volver a crecer si pierde una parte.",
+      "tier": 2
+     },
+     {
+      "w": "TOBILLO",
+      "clue": "Articulación que une el pie con la pierna",
+      "fact": "Cada tobillo está formado por tres huesos que trabajan juntos.",
+      "tier": 2
+     },
+     {
+      "w": "PESTAÑA",
+      "clue": "Cada pelito curvo del borde del párpado",
+      "fact": "Las pestañas protegen los ojos del polvo y del sol.",
+      "tier": 2
+     },
+     {
+      "w": "ESQUELETO",
+      "clue": "Todos los huesos de tu cuerpo juntos",
+      "fact": "Un adulto tiene 206 huesos, pero un bebé nace con unos 300 huesitos que luego se unen.",
+      "tier": 3
+     },
+     {
+      "w": "ESTÓMAGO",
+      "clue": "Bolsa elástica que mezcla la comida que tragas",
+      "fact": "El estómago tiene una capa de moco que lo protege de su propio ácido.",
+      "tier": 3
+     },
+     {
+      "w": "INTESTINO",
+      "clue": "Tubo largo y enrollado donde se absorbe la comida",
+      "fact": "Estirados, tus intestinos medirían unos siete metros.",
+      "tier": 3
+     },
+     {
+      "w": "ESTORNUDO",
+      "clue": "Salida repentina y fuerte de aire por la nariz y la boca",
+      "fact": "Un estornudo ayuda a sacar polvo y gérmenes de tu nariz.",
+      "tier": 3
+     },
+     {
+      "w": "COSTILLA",
+      "clue": "Hueso curvo del pecho que protege el corazón y los pulmones",
+      "fact": "Las personas suelen tener doce pares de costillas.",
+      "tier": 3
+     },
+     {
+      "w": "GARGANTA",
+      "clue": "Zona del cuello por donde pasan el aire y la comida",
+      "fact": "Una tapita llamada epiglotis cierra el paso del aire cuando tragas.",
+      "tier": 3
+     },
+     {
+      "w": "RESPIRAR",
+      "clue": "Meter y sacar aire de los pulmones",
+      "fact": "Respiras unas veinte mil veces al día sin pensarlo.",
+      "tier": 3
+     },
+     {
+      "w": "EJERCICIO",
+      "clue": "Movimiento activo, como correr, que mantiene el cuerpo sano",
+      "fact": "El ejercicio fortalece el corazón, igual que levantar pesas fortalece los músculos.",
+      "tier": 3
+     },
+     {
+      "w": "MANDÍBULA",
+      "clue": "Hueso de abajo de la cara que mueves al masticar",
+      "fact": "La mandíbula es el hueso de la cara que más se mueve.",
+      "tier": 3
+     },
+     {
+      "w": "CIRCULACIÓN",
+      "clue": "Recorrido de la sangre por el corazón y los vasos del cuerpo",
+      "fact": "Las arterias llevan la sangre desde el corazón y las venas la traen de vuelta.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "maps-and-geography",
+   "icon": "🧭",
+   "name": {
+    "en": "Maps and Geography",
+    "es": "Mapas y geografía"
+   },
+   "words": {
+    "en": [
+     {
+      "w": "MAP",
+      "clue": "Flat picture of places seen from above",
+      "fact": "Most maps put north at the top, but that is only a custom.",
+      "tier": 1
+     },
+     {
+      "w": "ATLAS",
+      "clue": "Book full of maps",
+      "fact": "The first modern atlas was printed more than 450 years ago.",
+      "tier": 1
+     },
+     {
+      "w": "GLOBE",
+      "clue": "Round model of the whole Earth",
+      "fact": "Earth is not a perfect ball; it bulges a little around the middle.",
+      "tier": 1
+     },
+     {
+      "w": "NORTH",
+      "clue": "Direction at the top of most maps",
+      "fact": "Polaris, the North Star, stays almost still in the sky while other stars move.",
+      "tier": 1
+     },
+     {
+      "w": "SOUTH",
+      "clue": "Direction opposite of north",
+      "fact": "In the southern half of the world, summer happens in December and January.",
+      "tier": 1
+     },
+     {
+      "w": "EAST",
+      "clue": "Direction where the Sun rises",
+      "fact": "The Sun rises in the east because Earth spins toward the east.",
+      "tier": 1
+     },
+     {
+      "w": "WEST",
+      "clue": "Direction where the Sun sets",
+      "fact": "Sunsets look orange because sunlight passes through more air when the Sun is low.",
+      "tier": 1
+     },
+     {
+      "w": "POLE",
+      "clue": "Either the northernmost or southernmost point of Earth",
+      "fact": "The poles get less heat because sunlight hits them at a slant.",
+      "tier": 1
+     },
+     {
+      "w": "CAPE",
+      "clue": "Pointy part of land that sticks out into the sea",
+      "fact": "Cape Horn, at the tip of South America, is famous for rough seas.",
+      "tier": 1
+     },
+     {
+      "w": "RIVER",
+      "clue": "Long stream of water that flows toward the sea",
+      "fact": "Most rivers begin as tiny streams high in hills or mountains.",
+      "tier": 1
+     },
+     {
+      "w": "SCALE",
+      "clue": "Part of a map that shows how distances are shrunk",
+      "fact": "On many maps one inch can stand for many miles of real distance.",
+      "tier": 1
+     },
+     {
+      "w": "GRID",
+      "clue": "Pattern of crossing lines on a map to help find places",
+      "fact": "Map grids let you name any place with a letter and a number, like B4.",
+      "tier": 1
+     },
+     {
+      "w": "LEGEND",
+      "clue": "Box on a map that explains the symbols",
+      "fact": "A legend is also called a key, because it unlocks what the symbols mean.",
+      "tier": 2
+     },
+     {
+      "w": "BORDER",
+      "clue": "Line that separates one country or state from another",
+      "fact": "Some borders follow rivers or mountains, while others are straight lines.",
+      "tier": 2
+     },
+     {
+      "w": "COUNTRY",
+      "clue": "Land with its own flag and borders",
+      "fact": "A country can be as big as a continent or as small as a city.",
+      "tier": 2
+     },
+     {
+      "w": "EQUATOR",
+      "clue": "Imaginary line around the middle of Earth",
+      "fact": "Ecuador is named for the equator, which runs through the country.",
+      "tier": 2
+     },
+     {
+      "w": "CAPITAL",
+      "clue": "City where a country's government meets",
+      "fact": "A country's capital is not always its biggest city.",
+      "tier": 2
+     },
+     {
+      "w": "STRAIT",
+      "clue": "Narrow stretch of water linking two bigger seas",
+      "fact": "Some straits are so narrow that you can see across to the other side.",
+      "tier": 2
+     },
+     {
+      "w": "ARCTIC",
+      "clue": "Frozen area around the North Pole",
+      "fact": "The Arctic is mostly floating sea ice over an ocean, not land.",
+      "tier": 2
+     },
+     {
+      "w": "TROPICS",
+      "clue": "Warm region near the equator",
+      "fact": "The tropics stay warm all year because the Sun is high in the sky.",
+      "tier": 2
+     },
+     {
+      "w": "TERRAIN",
+      "clue": "Shape and features of the land, like hills and valleys",
+      "fact": "Hikers check a map to see how steep the terrain will be.",
+      "tier": 2
+     },
+     {
+      "w": "HORIZON",
+      "clue": "Line where the sky seems to meet the land or sea",
+      "fact": "On a clear day at the beach, the horizon is about three miles away.",
+      "tier": 2
+     },
+     {
+      "w": "JOURNEY",
+      "clue": "A long trip from one place to another",
+      "fact": "Arctic terns fly from the Arctic to Antarctica and back each year.",
+      "tier": 2
+     },
+     {
+      "w": "VOYAGE",
+      "clue": "Long trip by sea or through space",
+      "fact": "Sailors long ago steered by the stars on a voyage across the ocean.",
+      "tier": 2
+     },
+     {
+      "w": "REGION",
+      "clue": "Large area that shares features, like a desert or coast",
+      "fact": "Ecuador has four natural regions: coast, mountains, Amazon rainforest and the Galápagos.",
+      "tier": 2
+     },
+     {
+      "w": "ISTHMUS",
+      "clue": "Narrow strip of land linking two larger land areas",
+      "fact": "The Isthmus of Panama joins North America and South America.",
+      "tier": 2
+     },
+     {
+      "w": "CONTINENT",
+      "clue": "One of Earth's seven huge land areas",
+      "fact": "Long ago, all the continents were joined in one giant landmass.",
+      "tier": 3
+     },
+     {
+      "w": "HEMISPHERE",
+      "clue": "Half of Earth, like the northern half or western half",
+      "fact": "Ecuador lies right on the equator, so it has land in both hemispheres.",
+      "tier": 3
+     },
+     {
+      "w": "LATITUDE",
+      "clue": "Distance north or south of the equator, measured in degrees",
+      "fact": "Lines of latitude run east to west and are parallel to the equator.",
+      "tier": 3
+     },
+     {
+      "w": "LONGITUDE",
+      "clue": "Measurement of how far east or west a place is",
+      "fact": "Lines of longitude run from the North Pole to the South Pole.",
+      "tier": 3
+     },
+     {
+      "w": "PENINSULA",
+      "clue": "Land surrounded by water on three sides",
+      "fact": "Florida is a peninsula that sticks out into the sea.",
+      "tier": 3
+     },
+     {
+      "w": "COORDINATE",
+      "clue": "Pair of numbers that gives the exact spot of a place",
+      "fact": "Coordinates let a ship or a phone find any spot on Earth.",
+      "tier": 3
+     },
+     {
+      "w": "COASTLINE",
+      "clue": "Edge where land meets the sea",
+      "fact": "A coastline measures longer when you trace around every tiny bay and rock.",
+      "tier": 3
+     },
+     {
+      "w": "ELEVATION",
+      "clue": "How high a place is above sea level",
+      "fact": "Quito sits high in the Andes, about 2,800 meters above sea level.",
+      "tier": 3
+     },
+     {
+      "w": "NAVIGATION",
+      "clue": "Finding your way from one place to another",
+      "fact": "Long ago, sailors used stars, and later compasses and maps, for navigation.",
+      "tier": 3
+     },
+     {
+      "w": "PASSPORT",
+      "clue": "Small booklet that lets you travel to other countries",
+      "fact": "A passport has a photo and stamps that show where you have traveled.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "MAPA",
+      "clue": "Dibujo plano que muestra dónde están los lugares",
+      "fact": "Casi todos los mapas ponen el norte arriba, pero es solo una costumbre.",
+      "tier": 1
+     },
+     {
+      "w": "ATLAS",
+      "clue": "Libro lleno de mapas",
+      "fact": "El primer atlas moderno se imprimió hace más de 450 años.",
+      "tier": 1
+     },
+     {
+      "w": "NORTE",
+      "clue": "Punto cardinal que casi siempre está arriba en los mapas",
+      "fact": "La Estrella Polar casi no se mueve en el cielo y siempre indica el norte.",
+      "tier": 1
+     },
+     {
+      "w": "SUR",
+      "clue": "Punto cardinal opuesto al norte",
+      "fact": "En la mitad sur del mundo, el verano llega en diciembre y enero.",
+      "tier": 1
+     },
+     {
+      "w": "ESTE",
+      "clue": "Punto cardinal por donde sale el Sol",
+      "fact": "El Sol sale por el este porque la Tierra gira hacia el este.",
+      "tier": 1
+     },
+     {
+      "w": "OESTE",
+      "clue": "Punto cardinal por donde se oculta el Sol",
+      "fact": "Los atardeceres se ven naranjas porque la luz atraviesa más aire cuando el Sol está bajo.",
+      "tier": 1
+     },
+     {
+      "w": "POLO",
+      "clue": "Cada uno de los dos extremos de la Tierra",
+      "fact": "Los polos reciben menos calor porque los rayos del Sol llegan muy inclinados.",
+      "tier": 1
+     },
+     {
+      "w": "CABO",
+      "clue": "Punta de tierra que se adentra en el mar",
+      "fact": "El Cabo de Hornos, en la punta de Sudamérica, es famoso por su mar agitado.",
+      "tier": 1
+     },
+     {
+      "w": "PAÍS",
+      "clue": "Territorio con su propio gobierno, bandera y fronteras",
+      "fact": "Un país puede ser tan grande como un continente o tan pequeño como una ciudad.",
+      "tier": 1
+     },
+     {
+      "w": "RUTA",
+      "clue": "Camino que sigues para ir de un lugar a otro",
+      "fact": "Las aves migratorias repiten cada año la misma ruta por el cielo.",
+      "tier": 1
+     },
+     {
+      "w": "GOLFO",
+      "clue": "Gran entrada de mar rodeada de tierra",
+      "fact": "Muchos puertos importantes están en golfos porque el agua allí está más protegida.",
+      "tier": 1
+     },
+     {
+      "w": "VIAJE",
+      "clue": "Ir de un lugar a otro, a veces muy lejos",
+      "fact": "Un charrán ártico viaja del Ártico a la Antártida y regresa cada año.",
+      "tier": 1
+     },
+     {
+      "w": "CIUDAD",
+      "clue": "Lugar grande con muchas casas, calles y edificios",
+      "fact": "Muchas ciudades antiguas nacieron junto a ríos o puertos porque allí había agua y comercio.",
+      "tier": 2
+     },
+     {
+      "w": "PUEBLO",
+      "clue": "Lugar pequeño con pocas casas y calles",
+      "fact": "Muchos pueblos se formaron cerca de ríos o fuentes de agua.",
+      "tier": 2
+     },
+     {
+      "w": "CAPITAL",
+      "clue": "Ciudad donde se reúne el gobierno de un país",
+      "fact": "La capital de un país no siempre es su ciudad más grande.",
+      "tier": 2
+     },
+     {
+      "w": "ECUADOR",
+      "clue": "Línea imaginaria que divide la Tierra en dos mitades",
+      "fact": "El país Ecuador se llama así porque la línea del ecuador pasa por su territorio.",
+      "tier": 2
+     },
+     {
+      "w": "TRÓPICO",
+      "clue": "Zona cálida de la Tierra cerca del ecuador",
+      "fact": "En el trópico hace calor todo el año porque el Sol está alto en el cielo.",
+      "tier": 2
+     },
+     {
+      "w": "ÁRTICO",
+      "clue": "Región helada alrededor del Polo Norte",
+      "fact": "El Ártico es hielo flotando sobre un océano, no tierra firme.",
+      "tier": 2
+     },
+     {
+      "w": "LEYENDA",
+      "clue": "Recuadro del mapa que explica el significado de los símbolos",
+      "fact": "La leyenda también se llama clave, porque te ayuda a abrir el significado del mapa.",
+      "tier": 2
+     },
+     {
+      "w": "TERRENO",
+      "clue": "Forma de la tierra: colinas, valles y llanuras",
+      "fact": "Los excursionistas usan mapas con curvas de nivel para saber qué tan empinado es el terreno.",
+      "tier": 2
+     },
+     {
+      "w": "REGIÓN",
+      "clue": "Zona grande con rasgos propios, como la costa o la selva",
+      "fact": "Ecuador tiene cuatro regiones naturales: Costa, Sierra, Amazonía y Galápagos.",
+      "tier": 2
+     },
+     {
+      "w": "ALTURA",
+      "clue": "Qué tan alto está un lugar sobre el nivel del mar",
+      "fact": "Quito está a unos 2800 metros de altura, en plena cordillera de los Andes.",
+      "tier": 2
+     },
+     {
+      "w": "SENDERO",
+      "clue": "Caminito angosto para recorrer a pie la naturaleza",
+      "fact": "Los senderos tienen señales para que los excursionistas no se pierdan.",
+      "tier": 2
+     },
+     {
+      "w": "LATITUD",
+      "clue": "Distancia al norte o al sur del ecuador, medida en grados",
+      "fact": "Las líneas de latitud son paralelas al ecuador y van de este a oeste.",
+      "tier": 2
+     },
+     {
+      "w": "CAMINO",
+      "clue": "Franja de tierra por donde se puede andar",
+      "fact": "Los incas construyeron una red de caminos de miles de kilómetros por los Andes.",
+      "tier": 2
+     },
+     {
+      "w": "NAVEGAR",
+      "clue": "Viajar por el agua en un barco",
+      "fact": "Hace siglos, los marineros navegaban guiándose por las estrellas.",
+      "tier": 2
+     },
+     {
+      "w": "CONTINENTE",
+      "clue": "Una de las siete grandes masas de tierra de la Tierra",
+      "fact": "Hace millones de años todos los continentes estaban unidos en una sola masa de tierra.",
+      "tier": 3
+     },
+     {
+      "w": "HEMISFERIO",
+      "clue": "Mitad de la Tierra, como la del norte o la del sur",
+      "fact": "Ecuador está sobre la línea del ecuador, así que tiene territorio en los dos hemisferios.",
+      "tier": 3
+     },
+     {
+      "w": "LONGITUD",
+      "clue": "Medida de qué tan al este o al oeste está un lugar",
+      "fact": "Las líneas de longitud van del Polo Norte al Polo Sur.",
+      "tier": 3
+     },
+     {
+      "w": "COORDENADA",
+      "clue": "Par de números que da la posición exacta de un lugar",
+      "fact": "Con las coordenadas, un barco o un teléfono puede encontrar cualquier punto de la Tierra.",
+      "tier": 3
+     },
+     {
+      "w": "FRONTERA",
+      "clue": "Línea que separa un país de otro",
+      "fact": "Algunas fronteras siguen ríos o montañas, y otras son líneas rectas.",
+      "tier": 3
+     },
+     {
+      "w": "ESTRECHO",
+      "clue": "Franja angosta de mar que une dos mares más grandes",
+      "fact": "En algunos estrechos se puede ver la otra orilla a simple vista.",
+      "tier": 3
+     },
+     {
+      "w": "HORIZONTE",
+      "clue": "Línea donde parece que el cielo toca la tierra o el mar",
+      "fact": "En un día despejado en la playa, el horizonte está a unos cinco kilómetros.",
+      "tier": 3
+     },
+     {
+      "w": "PASAPORTE",
+      "clue": "Libreta con tu foto que sirve para viajar a otros países",
+      "fact": "En un pasaporte se estampan sellos de los países que visitaste.",
+      "tier": 3
+     },
+     {
+      "w": "EXPLORADOR",
+      "clue": "Persona que viaja a lugares poco conocidos para descubrirlos",
+      "fact": "Hace mucho, los exploradores dibujaban mapas de los lugares nuevos que encontraban.",
+      "tier": 3
+     },
+     {
+      "w": "GEOGRAFÍA",
+      "clue": "Ciencia que estudia la Tierra, sus paisajes y sus países",
+      "fact": "La palabra geografía viene del griego y significa descripción de la Tierra.",
       "tier": 3
      }
     ]
