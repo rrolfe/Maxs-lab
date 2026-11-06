@@ -24,6 +24,46 @@ Tap the small gear on the home screen (or press and hold it for 3 seconds if no 
 
 Everything Max does is stored on his device only. Nothing is sent anywhere.
 
+## Pearls and pace
+
+Design target: about **12 pearls per minute** of real play. The tables below are the numbers in `js/core/economy.js`.
+
+| Activity | Pearls |
+|---|---|
+| Quiz question, first try (easy / at level / boss) | 3 / 5 / 10 |
+| Quiz second try | half (none on 2-choice questions) |
+| Mission finished / perfect / first mission of the day | +5 / +5 / +15 |
+| World map question, first try / second try | 6 / 3 (half if the facts were peeked) |
+| New place stamp | +6 |
+| Find-it right / bonus for 4+ right | 3 / +5 |
+| Hero question stamp | 6 |
+| Word Search per word (levels 1-3) | 3 / 4 / 5, plus finish bonus 10 / 15 / 20 |
+| Hangman win (levels 1-3) | 10 / 15 / 20, +5 flawless; a loss still gives 3 |
+| Baseball questions | none (they power the swing) |
+
+**Wrong picks cost pearls:** about 0.6 of the question's value (1.2 on two-choice questions). Pearls never drop below 0. A short buzzer plays; a gentle note plays for word-search and find-it misses. This was Rob's choice; child-development educators generally advise against point loss for this age.
+
+**Daily taper:** full rate until 400 pearls earned in a day, half rate to 600, then nothing more. It counts earned pearls, so spending never re-opens it.
+
+| Unlock | Cost | Minutes at 12/min |
+|---|---|---|
+| Lemonade stand (includes season 1) | 100 | ~8 |
+| Snack Shack | 300 | ~25 |
+| Ice cream stand | 500 | ~42 |
+| Pizza stand | 700 | ~58 (two days because of the daily ceiling) |
+| New season: lemonade / snack / ice cream | 75 / 110 / 130 | ~6 / 9 / 11 |
+| Baseball, 3 innings / 6 innings | 150 / 270 | ~12 / ~22 |
+
+Stands run 10-day seasons with upgrade trees. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
+
+## Grown-up passcode and limits
+
+No passcode is stored in the repository. Set your own (4-6 digits) in the Grown-up corner. With no passcode set, the daily limit cannot be bypassed. With one set, a grown-up can grant 15 extra minutes. The Grown-up corner also has a voice chooser for read-aloud, since quality depends on the voices installed on the device.
+
+## Tests
+
+Start a static server in the repo (`python3 -m http.server 8767`) and run the scripts in `tools/tests/` with node (Playwright installed globally), for example `node tools/tests/baseball-ui.mjs es ipad-port night`. Rebuild generated data with `python3 tools/build_data.py` and `python3 tools/build_placeqs.py`; validate banks with `python3 tools/validate.py` and `python3 tools/validate_placeqs.py`.
+
 ## Maps
 
 Google Maps' terms don't allow it on children's sites, so the map uses free satellite sources and falls back to a built-in outline map when offline. See **Photo and map credits** in the Grown-up corner for every attribution.
