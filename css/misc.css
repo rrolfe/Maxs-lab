@@ -59,3 +59,13 @@ select.textin { appearance: auto; }
 /* credits */
 .credlist { padding-left: 20px; display: grid; gap: 6px; font-size: 17px; -webkit-user-select: text; user-select: text; } .credlist a, .grownup a { word-break: break-word; }
 [data-screen="credits"] section { margin-bottom: 14px; } [data-screen="credits"] { -webkit-user-select: text; user-select: text; }
+/* ---------- Weekly check-in ---------- */
+.checkin { max-width: 920px; margin: 0 auto; }
+.ciprog { height: 14px; border: 2.5px solid var(--ink); border-radius: 99px; background: var(--surface); margin-bottom: 14px; overflow: hidden; }
+.ciprog i { display: block; height: 100%; background: var(--teal); transition: width .3s; }
+.ciopts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+@media (orientation: portrait) { .ciopts { grid-template-columns: 1fr; } }
+.ciopts .ans.chosen { background: color-mix(in srgb, var(--gold) 55%, var(--surface)); }
+.cires { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 12px 0; }
+.cires > div { background: var(--panel); border: 2.5px solid var(--ink); border-radius: 10px; padding: 8px; } .cires small { display: block; } .cires b { font-size: 24px; }
+.ciBanner { margin-top: 16px; }

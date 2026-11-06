@@ -9,7 +9,7 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { awardBadges } from '../core/badges.js';
 import { COST } from '../core/economy.js';
-import { SIMS, WEATHER, rollDay, SEASON_DAYS, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, parProfit } from './sims.js';
+import { SIMS, WEATHER, rollDay, SEASON_DAYS, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
 import { UP_TEXT } from './upgrade-text.js';
 
 addStrings({
@@ -34,7 +34,7 @@ addStrings({
     stSeasonWait: 'Your next season is ready when you are.', stUpgradesOwned: '{n} upgrades so far', stBackStands: 'Back to My Stands', stPause: 'Season in progress. Your stand is saved.',
     stMenu: 'Menu for today', stPortions: 'portions', stLevel: 'Price level', lvl_cheap: 'Cheap', lvl_normal: 'Normal', lvl_fancy: 'Fancy', lvl_cheap_s: 'Almost everyone buys', lvl_normal_s: 'Fair price', lvl_fancy_s: 'Bigger profit, fewer buyers',
     stEach: '{c} each → sells for {p}', stSnackCost: 'Cost to stock the menu', stSoldBy: 'Sold by item', stRanOut: 'Ran out of {x}',
-    m_hotdog: 'Hot dog', m_drink: 'Drink', m_chips: 'Chips', m_burger: 'Burger', m_fries: 'Fries', m_icecream: 'Ice cream', m_popcandy: 'Popping candy', m_choc: 'Chocolate bar',
+    m_hotdog: 'Hot dog', m_drink: 'Drink', m_chips: 'Chips', m_burger: 'Burger', m_fries: 'Fries', m_icecream: 'Ice cream scoop', m_popcandy: 'Popping candy', m_choc: 'Chocolate bar', m_cone: 'Ice cream cone', m_slush: 'Frosty slush', m_froslem: 'Frozen lemonade',
   },
   es: {
     stLemonade: 'Puesto de limonada', stIcecream: 'Puesto de helados', stSnack: 'Puesto de botanas del estadio', stBank: 'Tu dinero', stForecast: 'Pronóstico de hoy',
@@ -57,7 +57,7 @@ addStrings({
     stSeasonWait: 'Tu próxima temporada está lista cuando tú quieras.', stUpgradesOwned: '{n} mejoras hasta ahora', stBackStands: 'Volver a Mis puestos', stPause: 'Temporada en curso. Tu puesto está guardado.',
     stMenu: 'Menú de hoy', stPortions: 'porciones', stLevel: 'Nivel de precios', lvl_cheap: 'Barato', lvl_normal: 'Normal', lvl_fancy: 'Elegante', lvl_cheap_s: 'Casi todos compran', lvl_normal_s: 'Precio justo', lvl_fancy_s: 'Más ganancia, menos compradores',
     stEach: '{c} cada uno → se vende a {p}', stSnackCost: 'Costo de surtir el menú', stSoldBy: 'Vendido por producto', stRanOut: 'Se acabó: {x}',
-    m_hotdog: 'Hot dog', m_drink: 'Bebida', m_chips: 'Papitas', m_burger: 'Hamburguesa', m_fries: 'Papas fritas', m_icecream: 'Helado', m_popcandy: 'Dulce explosivo', m_choc: 'Barra de chocolate',
+    m_hotdog: 'Hot dog', m_drink: 'Bebida', m_chips: 'Papitas', m_burger: 'Hamburguesa', m_fries: 'Papas fritas', m_icecream: 'Bola de helado', m_popcandy: 'Dulce explosivo', m_choc: 'Barra de chocolate', m_cone: 'Cono de helado', m_slush: 'Granizado helado', m_froslem: 'Limonada congelada',
   },
 });
 
@@ -71,7 +71,7 @@ const CFG = {
   icecream: { title: 'stIcecream', unit: 'stTubs', per: 'stPerScoop', icon: 'icecream' },
   snack: { title: 'stSnack', unit: 'stPortions', per: 'stPerCup', icon: 'ballpark' },
 };
-const MENU_EMOJI = { hotdog: '🌭', drink: '🥤', chips: '🥔', burger: '🍔', fries: '🍟', icecream: '🍦', popcandy: '🍬', choc: '🍫' };
+const MENU_EMOJI = { hotdog: '🌭', drink: '🥤', chips: '🥔', burger: '🍔', fries: '🍟', icecream: '🍨', popcandy: '🍬', choc: '🍫', cone: '🍦', slush: '🧊', froslem: '🍋' };
 
 export function standState(id) {
   const sim = SIMS[id];
@@ -121,6 +121,8 @@ export function mount(el, { id }) {
   function plan() {
     clearTimeout(timer);
     const ctxBase = st.next, { weather, event } = ctxBase;
+    // first-time stock for a new menu item scales with the crowd (more ball fields = more food), so a big stand does not start nearly empty
+    const startStock = (id) => { const ctx = { weather: 'sunny', event: null, up: st.up }, w = snackWeights(ctx), tot = w.reduce((a, b) => a + b.k, 0), me = w.find((x) => x.id === id); const step = SNACK.stockStep(st.up); return Math.max(10, Math.round((SNACK.trafficOf(ctx) * 1.1 * (me ? me.k / tot : 0.1)) / step) * step); };
     const stockUnitMin = isSnack ? 0 : sim.costOf(sim.stockStep(st.up), st.up);
     let loan = 0;
     if (!isSnack && st.bank < stockUnitMin) { loan = sim.startBank - st.bank; st.bank = sim.startBank; save(); }
@@ -132,7 +134,7 @@ export function mount(el, { id }) {
       st.stock = Math.max(0, st.stock);
     } else {
       const avail = menuAvail(st.up).map((m) => m.id);
-      for (const m of MENU) if (!avail.includes(m.id)) st.mstock[m.id] = 0; else st.mstock[m.id] = clamp(st.mstock[m.id] ?? 10, 0, SNACK.stockMax(st.up));
+      for (const m of MENU) if (!avail.includes(m.id)) st.mstock[m.id] = 0; else st.mstock[m.id] = clamp(st.mstock[m.id] ?? startStock(m.id), 0, SNACK.stockMax(st.up));
       while (snackCost() > st.bank) { const top = Object.entries(st.mstock).sort((a, b) => b[1] - a[1])[0]; if (!top || !top[1]) break; st.mstock[top[0]] = Math.max(0, top[1] - 5); }
     }
     const last = st.last;
@@ -181,7 +183,7 @@ export function mount(el, { id }) {
         const val = h('output', { class: 'mval' });
         const redraw = () => { val.textContent = st.mstock[m.id] || 0; };
         const bump = (d) => () => {
-          sfx.tap(); const next = clamp((st.mstock[m.id] || 0) + d * 5, 0, SNACK.stockMax(st.up));
+          sfx.tap(); const next = clamp((st.mstock[m.id] || 0) + d * SNACK.stockStep(st.up), 0, SNACK.stockMax(st.up));
           const before = st.mstock[m.id]; st.mstock[m.id] = next;
           if (snackCost() > st.bank) { st.mstock[m.id] = before; toast(t('stNoMoney')); return; }
           save(); redraw(); updateCost();
@@ -241,13 +243,20 @@ export function mount(el, { id }) {
         res.busy || ctx.up.helper || ctx.up.cook || ctx.up.window2 ? h('div', { class: 'tl' }, '⏳ ' + t('stBusy'), nums.busy) : null),
       h('div', { class: 'center' }, skip));
     // big crowds: count fast, show only the last few sprites
-    const gap = clamp(5200 / Math.max(res.customers.length, 1), 40, 240);
+    const per = Math.max(1, Math.ceil(res.customers.length / 130));     // huge crowds (many ball fields): count in batches
+    const gap = clamp(5200 / Math.max(res.customers.length / per, 1), 40, 240);
     let i = 0;
     function tick() {
       if (!alive) return;
       if (i >= res.customers.length) { timer = setTimeout(finish, 500); return; }
-      const c = res.customers[i++];
-      const showSprite = res.customers.length <= 40 || i % Math.ceil(res.customers.length / 40) === 0 || c.res === 'buy' && i % 3 === 0;
+      let c = null;
+      for (let b = 0; b < per && i < res.customers.length; b++) {
+        c = res.customers[i++];
+        tally.seen++;
+        if (c.res === 'buy') { tally.sold++; tally.cash += c.paid; if (i % 3 === 0 && b === 0) sfx.coin(); }
+        else if (c.res === 'pricey') tally.pricey++; else if (c.res === 'busy') tally.busy++; else tally.soldout++;
+      }
+      const showSprite = res.customers.length <= 40 || per > 1 || i % Math.ceil(res.customers.length / 40) === 0 || c.res === 'buy' && i % 3 === 0;
       if (showSprite) {
         const face = pick(FACES[id]);
         const bubble = c.res === 'buy' ? '+' + money(c.paid).replace('.00', '') : c.res === 'pricey' ? '💭' : c.res === 'busy' ? '⏳' : '🙁';
@@ -256,9 +265,6 @@ export function mount(el, { id }) {
         requestAnimationFrame(() => requestAnimationFrame(() => cust.classList.add('arrive')));
         while (lane.children.length > 6) lane.firstChild.remove();
       }
-      tally.seen++;
-      if (c.res === 'buy') { tally.sold++; tally.cash += c.paid; if (i % 3 === 0) sfx.coin(); }
-      else if (c.res === 'pricey') tally.pricey++; else if (c.res === 'busy') tally.busy++; else tally.soldout++;
       nums.seen.textContent = tally.seen; nums.sold.textContent = tally.sold; nums.pricey.textContent = tally.pricey; nums.soldout.textContent = tally.soldout; nums.busy.textContent = tally.busy; nums.cash.textContent = money(tally.cash);
       timer = setTimeout(tick, reduceMotion() ? 5 : gap);
     }

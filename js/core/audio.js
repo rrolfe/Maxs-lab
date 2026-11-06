@@ -201,6 +201,19 @@ function announcerVoice(lang) {
   return cands.find((v) => MALE.test(v.name.toLowerCase())) || cands[Math.floor(Math.random() * cands.length)] || main;
 }
 let annIdx = -1;
+/** Plays audio/announcer/<file> if it exists. Resolves the Audio element once it is really playing, or null (missing file, blocked, or no clip given). */
+function playClip(url) {
+  if (!url) return Promise.resolve(null);
+  return new Promise((resolve) => {
+    try {
+      const a = new Audio(url); let settled = false;
+      const done = (v) => { if (!settled) { settled = true; resolve(v); } };
+      a.addEventListener('error', () => done(null));
+      a.play().then(() => done(a)).catch(() => done(null));
+      setTimeout(() => done(null), 1500);
+    } catch { resolve(null); }
+  });
+}
 const ANN_BELLS = () => { [N.C5, N.E5, N.G5, N.C6, N.E6, N.G6, N.C6, N.E6, N.G6, N.C6].forEach((n, i) => bell(n, i * 0.16, { dur: 0.9, gain: 0.2 })); };
 /** Winning bells, then a clear voice says what he can afford, then the funny announcer. Stays on screen until the talking is done (plus a moment). */
 export function announceMilestone(m, lang = S.lang) {
@@ -221,12 +234,17 @@ export function announceMilestone(m, lang = S.lang) {
   const finish = () => { clearTimeout(doneTimer); doneTimer = setTimeout(() => { annUntil = 0; document.dispatchEvent(new CustomEvent('lab:announcer-end')); }, Math.max(0, shownAt + minHold - Date.now()) + 3500); };
   setTimeout(() => {
     document.dispatchEvent(new CustomEvent('lab:announcer', { detail: { head, text: line, hold: hold + 4000 } }));
-    if (S.sound && 'speechSynthesis' in window) {
-      const ok = speak(head, lang, { rate: 0.92, pitch: 1.1, announcer: true, gap: 200, onend: () => {
-        setTimeout(() => { if (!speak(line, lang, { rate: 1.1, pitch: 1.5, voice: announcerVoice(lang), gap: 120, announcer: true, onend: finish })) finish(); }, 500);
-      } });
-      if (!ok) finish();
-    } else finish();
+    if (!S.sound) { finish(); return; }
+    // Same natural voice Max normally hears (the one picked in the Grown-up corner), at a normal pitch.
+    // A recorded clip in audio/announcer/ (if you add one) is played instead of the device voice.
+    const say = (txt, clip, after) => {
+      playClip(clip).then((played) => {
+        if (played) { played.onended = after; played.onerror = after; return; }
+        if (!('speechSynthesis' in window) || !speak(txt, lang, { rate: 0.98, pitch: 1.0, announcer: true, gap: 220, onend: after })) after();
+      });
+    };
+    const generic = kind !== 'unlock' && kind !== 'season' && kind !== 'baseball';
+    say(head, generic ? `audio/announcer/${lang}-enough.mp3` : null, () => setTimeout(() => say(line, `audio/announcer/${lang}-line${annIdx + 1}.mp3`, finish), 450));
   }, 1900);
   setTimeout(() => { if (annUntil && Date.now() > annUntil - 200) annUntil = 0; }, hold + 2000);
 }

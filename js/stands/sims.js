@@ -78,7 +78,15 @@ export const UPGRADES = {
     { id: 'grill', tier: 1, price: 120, fx: { serve: 12 }, unlock: ['burger'] },
     { id: 'fryer', tier: 1, price: 90, fx: {}, unlock: ['fries'] },
     { id: 'cooler', tier: 2, price: 140, fx: { stock: 20 }, unlock: ['icecream'] },
-    { id: 'candy', tier: 2, price: 140, fx: { flat: 2 }, unlock: ['popcandy', 'choc'] },
+    { id: 'candy', tier: 1, price: 100, fx: { flat: 2 }, unlock: ['popcandy', 'choc'] },
+    { id: 'cones', tier: 2, price: 160, fx: {}, unlock: ['cone'] },
+    { id: 'slush', tier: 2, price: 220, fx: { hot: 0.1 }, unlock: ['slush', 'froslem'] },
+    // More ball fields: each one DOUBLES the crowd (and brings its own windows and storage). Prices 300, 600, 1200, 2400, 4800.
+    { id: 'field2', tier: 1, price: 300, fx: { crowd: 2, serve: 40, stock: 40 } },
+    { id: 'field3', tier: 2, price: 600, req: ['field2'], fx: { crowd: 2, serve: 80, stock: 80 } },
+    { id: 'field4', tier: 3, price: 1200, req: ['field3'], fx: { crowd: 2, serve: 160, stock: 160 } },
+    { id: 'field5', tier: 4, price: 2400, req: ['field4'], fx: { crowd: 2, serve: 320, stock: 320 } },
+    { id: 'field6', tier: 5, price: 4800, req: ['field5'], fx: { crowd: 2, serve: 640, stock: 640 } },
     { id: 'jerseys', tier: 2, price: 110, fx: { ptol: 0.12 } },
     { id: 'window2', tier: 3, price: 240, fx: { serve: 40, traffic: 0.25 } },
     { id: 'cook', tier: 3, price: 200, fx: { serve: 40, cost: 0.9 } },
@@ -89,9 +97,9 @@ export const UPGRADES = {
 export const upgradeList = (stand) => UPGRADES[stand] || [];
 /** Adds up everything the owned upgrades do. */
 export function effects(stand, up = {}) {
-  const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, stock: 0, cost: 1, hot: 0, rain: 0, unlock: new Set() };
+  const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, stock: 0, cost: 1, crowd: 1, hot: 0, rain: 0, unlock: new Set() };
   for (const u of upgradeList(stand)) if (up[u.id]) {
-    for (const [k, v] of Object.entries(u.fx)) { if (k === 'cost') e.cost *= v; else e[k] += v; }
+    for (const [k, v] of Object.entries(u.fx)) { if (k === 'cost') e.cost *= v; else if (k === 'crowd') e.crowd *= v; else e[k] += v; }
     (u.unlock || []).forEach((x) => e.unlock.add(x));
   }
   return e;
@@ -171,13 +179,16 @@ export const MENU = [
   { id: 'icecream', cost: 1, price: 3.5, base: 0.9 },
   { id: 'popcandy', cost: 0.5, price: 1.5, base: 0.8 },
   { id: 'choc', cost: 0.6, price: 2, base: 0.9 },
+  { id: 'cone', cost: 0.7, price: 3, base: 1.0 },
+  { id: 'slush', cost: 0.4, price: 3, base: 1.0 },
+  { id: 'froslem', cost: 0.45, price: 3, base: 0.8 },
 ];
 export const PRICE_LEVELS = { cheap: { mult: 0.8, accept: 0.97 }, normal: { mult: 1, accept: 0.85 }, fancy: { mult: 1.3, accept: 0.6 } };
 // what the day's story does to traffic and to what people crave
 export const SNACK_STORY = {
   closeGame: { traffic: 1.25, w: { hotdog: 1.2, drink: 1.1 } },
-  homeRun: { traffic: 1.15, w: { popcandy: 1.8, choc: 1.6, chips: 1.2 } },
-  rainDelay: { traffic: 0.8, w: { hotdog: 1.5, fries: 1.5, burger: 1.3, icecream: 0.5 } },
+  homeRun: { traffic: 1.15, w: { popcandy: 1.8, choc: 1.6, chips: 1.2, slush: 1.3 } },
+  rainDelay: { traffic: 0.8, w: { hotdog: 1.5, fries: 1.5, burger: 1.3, icecream: 0.5, cone: 0.5 } },
   bigCrowd: { traffic: 1.5, w: {} },
 };
 export const menuAvail = (up) => { const e = effects('snack', up); return MENU.filter((m) => m.start || e.unlock.has(m.id)); };
@@ -185,21 +196,21 @@ export function snackWeights(ctx) {
   const w = WEATHER[ctx.weather], e = effects('snack', ctx.up), story = SNACK_STORY[ctx.event]?.w || {};
   return menuAvail(ctx.up).map((m) => {
     let k = m.base * (story[m.id] || 1);
-    if (w.hot) { if (m.id === 'drink') k *= 2; if (m.id === 'icecream') k *= 2.2; if (m.id === 'hotdog') k *= 0.8; }
-    else if (ctx.weather === 'rainy') { if (m.id === 'icecream') k *= 0.4; if (m.id === 'hotdog' || m.id === 'fries') k *= 1.4; }
+    if (w.hot) { if (m.id === 'drink') k *= 2; if (m.id === 'icecream' || m.id === 'cone') k *= 2.2; if (m.id === 'slush' || m.id === 'froslem') k *= 2.6; if (m.id === 'hotdog') k *= 0.8; }
+    else if (ctx.weather === 'rainy') { if (m.id === 'icecream' || m.id === 'cone' || m.id === 'slush' || m.id === 'froslem') k *= 0.4; if (m.id === 'hotdog' || m.id === 'fries') k *= 1.4; }
     else if (ctx.weather === 'cloudy' && (m.id === 'hotdog' || m.id === 'fries')) k *= 1.25;
     return { ...m, k };
   });
 }
 export const SNACK = {
-  id: 'snack', unit: 'portions', startBank: 40, stockStep: 5,
+  id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = 40 + effects('snack', up || {}).stock; return m >= 300 ? 25 : m >= 120 ? 10 : 5; },
   stockMax: (up) => 40 + effects('snack', up).stock,
   unitCostOf: (m, up) => m.cost * effects('snack', up).cost,
   costOf(plan, up) { return Object.entries(plan.stock).reduce((a, [id, n]) => a + n * MENU.find((m) => m.id === id).cost * effects('snack', up).cost, 0); },
   trafficOf(ctx) {
     const e = effects('snack', ctx.up), w = WEATHER[ctx.weather];
     const st = SNACK_STORY[ctx.event]?.traffic || 1;
-    return w.base.snack * st * (1 + e.traffic) + e.flat;
+    return (w.base.snack * st * (1 + e.traffic) + e.flat) * e.crowd;
   },
   serveCap: (up) => 40 + effects('snack', up).serve,
   sim(plan, ctx, r = Math.random) {

@@ -29,6 +29,7 @@ const fresh = () => ({
   settings: { pinHash: null, pinSalt: null, voice: { en: '', es: '' }, extraMin: { day: '', min: 0 }, dailyLimit: 30, bedtime: '19:30', offset: 0, home: null, mapKey: '', familyNotes: {}, customQs: [], lastBackup: 0 },
   mission: { lastDay: '', done: 0 },
   baseball: { games: 0, wins: 0, bestRuns: 0, hr: 0, hits: 0, k: 0, last: null },
+  checkins: { list: [], seen: [], school: [] },   // weekly check-in results; seen = question ids used; school = percentile scores a grown-up enters
   chores: { done: {}, pts: {}, hidden: {}, custom: [], total: 0 },   // done[day][id]=times; pts overrides; hidden = removed built-ins
   mil: {},              // milestone id -> last day the announcer played
 });
@@ -105,7 +106,7 @@ export const storageHealthy = () => storageOk;
 // ---------- dates ----------
 export const dateKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 export const today = () => dateKey();
-export function day(k = today()) { return (S.days[k] ||= { sec: 0, q: 0, ok: 0, pearls: 0, missions: 0, topics: {} }); }
+export function day(k = today()) { return (S.days[k] ||= { sec: 0, q: 0, ok: 0, pearls: 0, missions: 0, topics: {}, prog: {} }); }
 /** Monday-start week, newest data only: returns [{key, played, isToday}] */
 export function weekView() {
   const now = new Date(); const dow = (now.getDay() + 6) % 7;
@@ -179,8 +180,10 @@ let lastInput = Date.now();
 ['pointerdown', 'keydown', 'touchstart'].forEach((ev) => addEventListener(ev, () => { lastInput = Date.now(); }, { passive: true, capture: true }));
 setInterval(() => {
   if (document.visibilityState !== 'visible' || Date.now() - lastInput > 45000) return;
-  day().sec += 5; emit();
-  if ((day().sec % 30) < 5) save();
+  const d = day(); d.sec += 5;
+  const pk = (location.hash.split('?')[0].split('/')[1] || 'home'); if (pk !== 'grownup') { d.prog ||= {}; d.prog[pk] = (d.prog[pk] || 0) + 5; }   // seconds per program
+  emit();
+  if ((d.sec % 30) < 5) save();
 }, 5000);
 export const minutesToday = () => Math.floor(day().sec / 60);
 
