@@ -24,13 +24,14 @@ const fresh = () => ({
   days: {},              // 'YYYY-MM-DD' -> {sec, q, ok, pearls, missions}
   unlocked: { lemonade: false, snack: false, icecream: false, pizza: false },
   stands: {},            // per-stand saves
-  words: { solved: {}, wins: { hm: 0, ws: 0 }, tier: { hm: 1, ws: 1 }, streak: { hm: 0, ws: 0 } },
+  words: { solved: {}, served: {}, wins: { hm: 0, ws: 0 }, tier: { hm: 1, ws: 1 }, streak: { hm: 0, ws: 0 } },
   passport: { stamps: {}, people: {}, badges: {} },
   settings: { pinHash: null, pinSalt: null, voice: { en: '', es: '' }, extraMin: { day: '', min: 0 }, dailyLimit: 30, bedtime: '19:30', offset: 0, home: null, mapKey: '', familyNotes: {}, customQs: [], lastBackup: 0 },
   mission: { lastDay: '', done: 0 },
   baseball: { games: 0, wins: 0, bestRuns: 0, hr: 0, hits: 0, k: 0, last: null },
   checkins: { list: [], seen: [], school: [] },   // weekly check-in results; seen = question ids used; school = percentile scores a grown-up enters
   chores: { done: {}, pts: {}, hidden: {}, custom: [], total: 0 },   // done[day][id]=times; pts overrides; hidden = removed built-ins
+  recentMath: [],       // texts of the last generated math questions, so the same sum never comes twice in a row
   mil: {},              // milestone id -> last day the announcer played
 });
 
@@ -57,6 +58,33 @@ function openIDB() {
 function idbGet(k) { return new Promise((res) => { if (!idb) return res(null); try { const q = idb.transaction('kv').objectStore('kv').get(k); q.onsuccess = () => res(q.result ?? null); q.onerror = () => res(null); } catch { res(null); } }); }
 function idbSet(k, v) { if (!idb) return; try { idb.transaction('kv', 'readwrite').objectStore('kv').put(v, k); } catch { /* best effort */ } }
 
+// ---------- automatic safety copies ----------
+// A copy of Max's save is kept in IndexedDB (its own, large quota) at the first visit each day and just before
+// any update changes the save format, so a mistake in an update can always be undone from the Grown-up corner.
+const SNAP_MAX = 8, SNAP_EVERY = 20 * 3600e3, SNAP_INDEX = 'snaps';
+function idbDel(k) { if (!idb) return; try { idb.transaction('kv', 'readwrite').objectStore('kv').delete(k); } catch { /* best effort */ } }
+const digest = (s) => ({ earned: s?.pearls?.earned || 0, balance: s?.pearls?.balance || 0, stamps: Object.keys(s?.passport?.stamps || {}).length, days: Object.keys(s?.days || {}).length });
+const hasProgress = (s) => { const d = digest(s); return d.earned > 0 || d.days > 0 || d.stamps > 0; };
+async function snapIndex() { const i = await idbGet(SNAP_INDEX); return Array.isArray(i) ? i : []; }
+async function takeSnapshot(text, saved, why) {
+  if (!idb || !hasProgress(saved)) return;
+  const idx = await snapIndex();
+  if (why !== 'update' && why !== 'before-restore' && idx.length && Date.now() - idx[0].t < SNAP_EVERY) return;
+  const t = Date.now();
+  idbSet('snap:' + t, text);
+  idx.unshift({ t, why, d: digest(saved) });
+  for (const old of idx.splice(SNAP_MAX)) idbDel('snap:' + old.t);
+  idbSet(SNAP_INDEX, idx);
+}
+export const listSnapshots = snapIndex;
+export async function restoreSnapshot(t) {
+  const raw = await idbGet('snap:' + t); if (!raw) throw new Error('That copy is gone.');
+  const saved = JSON.parse(typeof raw === 'string' ? raw : JSON.stringify(raw));
+  await takeSnapshot(JSON.stringify(S), S, 'before-restore');
+  S = merge(fresh(), saved); migrate();
+  document.documentElement.lang = S.lang; save(); flush();
+}
+
 function merge(base, saved) {
   // Keep new default keys when an older save is loaded.
   for (const k of Object.keys(saved)) {
@@ -71,6 +99,9 @@ function migrate() {
   if ((S.schema || 1) < 2) {
     for (const id of ['lemonade', 'icecream']) if (S.unlocked[id] && S.stands[id] && S.stands[id].tickets == null) S.stands[id].tickets = 1;
   }
+  // generated math questions can never come back, so their records are only clutter (they would grow the save forever)
+  const gen = Object.keys(S.seen || {}).filter((k) => /^m\d:/.test(k));
+  if (gen.length > 300) for (const k of gen) delete S.seen[k];
   S.schema = SCHEMA;
 }
 
@@ -80,9 +111,20 @@ export async function initStore() {
   let from = 'ls';
   if (!raw) { raw = await idbGet(KEY); from = 'idb'; }
   if (raw) {
-    try { S = merge(fresh(), typeof raw === 'string' ? JSON.parse(raw) : raw); } catch (e) { console.warn('Bad save, starting fresh', e); S = fresh(); }
-    migrate();
-    if (from === 'idb') lsSet(JSON.stringify(S));
+    const text = typeof raw === 'string' ? raw : JSON.stringify(raw);
+    let saved = null;
+    try { saved = JSON.parse(text); } catch (e) {
+      console.warn('Save unreadable, trying the backup copy', e);
+      idbSet('unreadable:' + Date.now(), text);          // never throw an unreadable save away
+      const alt = await idbGet(KEY);
+      try { saved = JSON.parse(typeof alt === 'string' ? alt : JSON.stringify(alt)); from = 'idb'; } catch { saved = null; }
+    }
+    if (saved) {
+      try { await takeSnapshot(text, saved, (saved.schema || 1) < SCHEMA ? 'update' : 'daily'); } catch { /* optional */ }
+      S = merge(fresh(), saved);
+      migrate();
+      if (from === 'idb') lsSet(JSON.stringify(S));
+    }
   }
   try { if (navigator.storage?.persist) navigator.storage.persist(); } catch { /* optional */ }
   document.documentElement.lang = S.lang;

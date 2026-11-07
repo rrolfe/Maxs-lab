@@ -40,16 +40,20 @@ export async function buildRound({ mission = 'mix', topic = null, lang = S.lang,
   const bank = await loadBank(lang);
   const filter = topic ? { topics: [topic] } : MISSIONS[mission]?.filter || {};
   const r = Math.random;
-  const pool = bank.filter((q) => matches(q, filter));
+  const todayK = today();
+  // A question Max has already seen is never asked again, except one he MISSED once its review day has come.
+  const eligible = (q) => { const sn = S.seen[q.id]; return !sn || (sn.due && sn.due <= todayK); };
+  const pool = bank.filter((q) => matches(q, filter) && eligible(q));
   const wantsMath = !topic ? (!filter.topics && !filter.tags) || filter.topics?.includes('math') : topic === 'math';
   const recent = new Set(S.recent.slice(-60));
-  const todayK = today();
 
   // Generated math: ~14 fresh candidates across the levels near Max's math level.
   const lm = levelOf('math');
   const mathPool = [];
   if (wantsMath) for (let l = Math.max(1, lm - 1); l <= Math.min(6, lm + 1); l++) for (let k = 0; k < 8; k++) mathPool.push(makeMath(l, r, lang));
-  const all = [...pool, ...mathPool];
+  const seenMath = new Set(S.recentMath || []);
+  const mathFresh = mathPool.filter((q, i, a) => !seenMath.has(q.q) && a.findIndex((x) => x.q === q.q) === i);
+  const all = [...pool, ...mathFresh];
   const lvlOf = (q) => levelOf(q.topic);
   const rel = (q) => q.level - lvlOf(q);
 
@@ -83,7 +87,7 @@ export async function buildRound({ mission = 'mix', topic = null, lang = S.lang,
     picked.push(choice); used.add(choice.id);
   }
   // A parent's custom question sneaks into slot 3 when there is one.
-  const dad = customItems(lang);
+  const dad = customItems(lang).filter(eligible);
   if (dad.length && picked.length > 4) { const d = dad[Math.floor(r() * dad.length)]; picked[2] = { ...d, slot: 'at', rel: 0 }; }
   return picked;
 }
@@ -123,9 +127,12 @@ export function recordAnswer(q, success, { ms = 5000 } = {}) {
   S.log.push({ t: Date.now(), topic: q.topic, lvl: q.level, ok: success, id: q.id });
   if (S.log.length > 400) S.log.splice(0, S.log.length - 400);
   S.recent.push(q.id); if (S.recent.length > 80) S.recent.splice(0, S.recent.length - 80);
-  const sn = (S.seen[q.id] ||= { n: 0, ok: 0, last: 0 });
-  sn.n++; sn.last = Date.now(); if (success >= 0.99) sn.ok++;
-  if (success === 0) { const t = new Date(); t.setDate(t.getDate() + 1); sn.due = dateKey(t); } else if (success >= 0.99) delete sn.due;
+  if (q.gen) { (S.recentMath ||= []).push(q.q); if (S.recentMath.length > 200) S.recentMath.splice(0, S.recentMath.length - 200); }
+  else {
+    const sn = (S.seen[q.id] ||= { n: 0, ok: 0, last: 0 });
+    sn.n++; sn.last = Date.now(); if (success >= 0.99) sn.ok++;
+    if (success === 0) { const t = new Date(); t.setDate(t.getDate() + 1); sn.due = dateKey(t); } else delete sn.due;
+  }
   if (!topic) { save(); return null; }
 
   const R = S.skill[topic], D = q.level;
@@ -150,4 +157,11 @@ export function topicSummary() {
 }
 export function mostMissed(limit = 5) {
   return Object.entries(S.seen).filter(([, v]) => v.n - v.ok >= 1).sort((a, b) => (b[1].n - b[1].ok) - (a[1].n - a[1].ok)).slice(0, limit).map(([id, v]) => ({ id, miss: v.n - v.ok, n: v.n }));
+}
+
+/** How many questions are still new to Max, per topic (for the Grown-up corner and "time to load more" warnings). */
+export async function questionsLeft(lang = S.lang) {
+  const bank = await loadBank(lang); const out = {}; const t0 = today();
+  for (const q of bank) { const sn = S.seen[q.id]; const left = !sn || (sn.due && sn.due <= t0); const o = (out[q.topic] ||= { total: 0, left: 0 }); o.total++; if (left) o.left++; }
+  return out;
 }

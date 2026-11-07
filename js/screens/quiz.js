@@ -6,6 +6,7 @@ import { go } from '../core/router.js';
 import { sfx, speak, canSpeak, stopSpeaking } from '../core/audio.js';
 import { dailyMissions, MISSIONS, TOPIC_META } from '../quiz/missions.js';
 import { buildRound, prepare, pointsFor, penaltyOf, recordAnswer } from '../quiz/engine.js';
+import { allDoneCard } from '../games/common.js';
 import { REWARD } from '../core/economy.js';
 import { awardBadges } from '../core/badges.js';
 
@@ -19,7 +20,7 @@ addStrings({
     yourOrder: 'Your order', clear: 'Undo', qOf: '{i} of {n}', roundDone: 'Mission complete!', stars: '{n} of 3 stars', newPearls: '+{n} pearls',
     bonusFinish: 'Mission bonus', bonusPerfect: 'Perfect bonus', bonusDive: 'First mission today', levelUp: 'New level: {topic} → Level {n}!',
     levelUpNote: 'These questions are harder now. Some will stump you, and that’s the point.', another: 'Another mission', playGame: 'Play a game', doneToday: 'Done for today',
-    loadingQ: 'Finding great questions…', trueL: 'True', falseL: 'False', quitQ: 'Leave mission', typeAnswer: 'Type your answer', noQuestions: 'No questions found. Try another mission.',
+    loadingQ: 'Finding great questions…', trueL: 'True', falseL: 'False', quitQ: 'Leave mission', typeAnswer: 'Type your answer', noQuestions: 'No questions found. Try another mission.', allDoneQs: 'You have answered every question in this mission! Try another mission, or tell Dad you need MORE questions to keep going!',
     rightOf: '{a} of {b} on the first try',
   },
   es: {
@@ -31,7 +32,7 @@ addStrings({
     yourOrder: 'Tu orden', clear: 'Deshacer', qOf: '{i} de {n}', roundDone: '¡Misión cumplida!', stars: '{n} de 3 estrellas', newPearls: '+{n} perlas',
     bonusFinish: 'Bono de misión', bonusPerfect: 'Bono perfecto', bonusDive: 'Primera misión de hoy', levelUp: 'Nuevo nivel: {topic} → Nivel {n}.',
     levelUpNote: 'Ahora las preguntas son más difíciles. Algunas te harán pensar mucho, y de eso se trata.', another: 'Otra misión', playGame: 'Jugar un juego', doneToday: 'Listo por hoy',
-    loadingQ: 'Buscando buenas preguntas…', trueL: 'Verdadero', falseL: 'Falso', quitQ: 'Salir de la misión', typeAnswer: 'Escribe tu respuesta', noQuestions: 'No hay preguntas. Prueba otra misión.',
+    loadingQ: 'Buscando buenas preguntas…', trueL: 'Verdadero', falseL: 'Falso', quitQ: 'Salir de la misión', typeAnswer: 'Escribe tu respuesta', noQuestions: 'No hay preguntas. Prueba otra misión.', allDoneQs: '¡Ya respondiste todas las preguntas de esta misión! Prueba otra misión, o dile a papá que necesitas MÁS preguntas para seguir.',
     rightOf: '{a} de {b} al primer intento',
   },
 });
@@ -75,7 +76,7 @@ async function runRound(el, { mission, topic }) {
   try { items = await buildRound({ mission, topic }); } catch (e) { console.error(e); items = []; }
   if (dead) return;
   clear(el);
-  if (!items.length) { el.append(h('p', {}, t('noQuestions')), h('a', { class: 'btn', href: '#/quiz' }, t('back'))); return; }
+  if (!items.length) { el.append(allDoneCard('allDoneQs', '#/quiz')); return; }
 
   const startLevels = Object.fromEntries(TOPICS.map((tp) => [tp, levelOf(tp)]));
   let i = 0, roundPts = 0, firstTry = 0, answered = 0;
@@ -195,7 +196,7 @@ async function runRound(el, { mission, topic }) {
       if (answerUI.isRight()) {
         st.over = true;
         answerUI.markRight();
-        const pts = pointsFor(q, { wrong: st.attempts - 1, hinted: st.hinted > 0 });
+        const pts = (S.seen[q.id]?.ok || 0) >= 1 ? 0 : pointsFor(q, { wrong: st.attempts - 1, hinted: st.hinted > 0 });   // never pay twice for the same question
         const success = st.attempts === 1 && !st.hinted ? 1 : 0.6;
         if (success === 1) firstTry++;
         answered++;

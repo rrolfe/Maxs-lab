@@ -93,6 +93,7 @@ export async function mount(el) {
         return asChoice(m);
       }
       let pool = bank.filter((q) => q.topic === tp && q.level === lvl && q.type === 'choice' && !used.has(q.id));
+      const unseen = pool.filter((q) => !S.seen[q.id]); if (unseen.length) pool = unseen;
       const fresh = pool.filter((q) => !recent.has(q.id)); if (fresh.length) pool = fresh;
       const base = pool.filter((q) => q.tags?.includes('baseball'));
       if (base.length && Math.random() < 0.4) pool = base;

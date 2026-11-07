@@ -5,7 +5,7 @@ import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { sfx, speak, canSpeak } from '../core/audio.js';
-import { loadPacks, packName, packWords, pickWords, markSolved, recordWin, recordLoss, TIER_NAMES, dailySeed, rng } from '../games/common.js';
+import { loadPacks, packName, packWords, pickWords, markSolved, markServed, allDoneCard, recordWin, recordLoss, TIER_NAMES, dailySeed, rng } from '../games/common.js';
 import { generate, lineCells, snapEnd, DIRS_BY_TIER, SIZE_BY_TIER } from '../games/wsgen.js';
 import { awardBadges } from '../core/badges.js';
 
@@ -77,10 +77,15 @@ async function play(el, params) {
   for (let k = 0; k < 60 && !puzzle; k++) {
     const r = rng(seedBase + k * 7919);
     chosen = pickWords(words, cfg.words, { tiers: tier === 1 ? [1] : tier === 2 ? [2] : [2, 3], r, maxLen: Math.min(cfg.size - 1, tier === 1 ? 6 : tier === 2 ? 8 : 11), useHistory: !daily });
-    if (chosen.length < cfg.words) chosen = pickWords(words, cfg.words, { tiers: [1, 2, 3], r, maxLen: cfg.size - 1, useHistory: false });
+    if (!daily && chosen.length < cfg.words) chosen = pickWords(words, cfg.words, { tiers: [1, 2, 3], r, maxLen: cfg.size - 1, useHistory: true });
+    if (daily && chosen.length < cfg.words) chosen = pickWords(words, cfg.words, { tiers: [1, 2, 3], r, maxLen: cfg.size - 1, useHistory: false });
+    if (!daily && chosen.length < Math.min(4, cfg.words)) break;   // nothing new left in this pack
     puzzle = generate(chosen, { size: cfg.size, dirs: DIRS_BY_TIER[tier], r, lang: S.lang });
   }
-  if (!puzzle) { el.append(h('p', {}, 'Could not make a puzzle. ', h('a', { href: '#/words' }, t('back')))); return; }
+  if (!puzzle) { el.append(allDoneCard('allDoneWords', '#/words')); return; }
+  // words Max has found before pay nothing again (the daily puzzle can reuse words); fresh ones pay in full
+  const newKeys = new Set(puzzle.placed.filter((p) => !S.words.solved[`ws:${S.lang}:${p.word.key}`]).map((p) => p.word.key));
+  if (!daily) { puzzle.placed.forEach((p) => markServed('ws', p.word.key)); save(); }
   const N = cfg.size;
   const mysteryCount = tier === 3 && size > 1 ? size : 0;
   const mysteryKeys = new Set(puzzle.placed.filter((p) => p.word.len >= 6).slice(0, mysteryCount).map((p) => p.word.key));
@@ -176,7 +181,7 @@ async function play(el, params) {
     found.set(hit.word.key, f);
     if (nPlayers === 2) { scores[turn]++; }
     // pearls for Max's words (in a race only his turns count; today's puzzle pays once a day so it can't be farmed)
-    if (earns && (nPlayers === 1 || turn === 0)) { const r = addPearls(REWARD.ws.word[tier]); earned += r.got; if (r.got) flyPoints(cells[hit.cells[hit.cells.length - 1]], r.got); updateEarn(); }
+    if (earns && newKeys.has(hit.word.key) && (nPlayers === 1 || turn === 0)) { const r = addPearls(REWARD.ws.word[tier]); earned += r.got; if (r.got) flyPoints(cells[hit.cells[hit.cells.length - 1]], r.got); updateEarn(); }
     sfx.found(); msg.textContent = t('wsFound', { w: hit.word.w });
     msg.classList.add('good'); setTimeout(() => msg.classList.remove('good'), 1200);
     if (nPlayers === 2) turn = 1 - turn;
@@ -200,7 +205,7 @@ async function play(el, params) {
     if (nPlayers === 2) line = scores[0] === scores[1] ? t('tie') : t('wins', { p: scores[0] > scores[1] ? t('maxP') : t('dadP') });
     if (nPlayers === 1 || scores[0] >= scores[1]) promoted = recordWin('ws', tier);
     let bonus = 0;
-    if (earns && (nPlayers === 1 || scores[0] >= scores[1])) { const r = addPearls(wsFinish(size, tier)); bonus = r.got; earned += r.got; updateEarn(); }
+    if (earns && newKeys.size >= Math.ceil(puzzle.placed.length / 2) && (nPlayers === 1 || scores[0] >= scores[1])) { const r = addPearls(wsFinish(size, tier)); bonus = r.got; earned += r.got; updateEarn(); }
     if (daily) S.words.daily = { date: today(), done: true };
     save();
     const badges = awardBadges();

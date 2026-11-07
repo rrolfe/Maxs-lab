@@ -20,4 +20,5 @@ export async function open({ device = 'ipad-land', lang = 'en', theme = 'day', s
   return { browser, page, errors, ctx };
 }
 export const pearls = (page) => page.evaluate(() => window.__lab.S.pearls.balance);
-export const shot = (page, name) => page.screenshot({ path: `/tmp/claude-0/-home-claude/2f17bed4-bec3-54e2-a1c6-817904baf255/scratchpad/${name}.png` });
+import { tmpdir } from 'os';
+export const shot = (page, name) => page.screenshot({ path: `${process.env.SHOT_DIR || tmpdir()}/${name}.png` });

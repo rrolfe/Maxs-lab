@@ -11,7 +11,7 @@ import { TileMap, distKm } from '../world/tilemap.js';
 
 addStrings({
   en: {
-    wReadIt: 'I read it! Quiz me', wReadFirst: 'Read the facts first…', wPeek: 'Peek at the facts (half points)', wClosedBook: 'The facts are tucked away. What do you remember?', wBackToFacts: 'Facts', wWrongCost: 'Not quite. A wrong pick costs a few pearls.', wRotate: 'New question each visit',
+    wReadIt: 'I read it! Quiz me', wReadFirst: 'Read the facts first…', wPeek: 'Peek at the facts (half points)', wClosedBook: 'The facts are tucked away. What do you remember?', wBackToFacts: 'Facts', wWrongCost: 'Not quite. A wrong pick costs a few pearls.', wRotate: 'New question each visit', wAllPlaceQs: 'You answered every question about this place! More are coming. Tell Dad you need MORE questions.',
     wTitle: 'World Map', wAll: 'Everything', wFam: 'Family', wCities: 'Cities', wWild: 'Wild', wHist: 'History', wSci: 'Science',
     wMap: 'Map', wList: 'List', wFind: 'Find it!', wZoomIn: 'Zoom in', wZoomOut: 'Zoom out', wWhole: 'Whole world', wStamps: '{n} of {m} stamps',
     wSat: 'Satellite view', wSimple: 'Simple map (no internet pictures)', wLoadingSat: 'Loading satellite pictures…',
@@ -22,7 +22,7 @@ addStrings({
     wPrefer: 'This map needs the internet to show satellite pictures.', wNoPlaces: 'No places match.', wOf: '{a} · {b}',
   },
   es: {
-    wReadIt: '¡Ya lo leí! Pregúntame', wReadFirst: 'Primero lee los datos…', wPeek: 'Mirar los datos (la mitad de puntos)', wClosedBook: 'Los datos están guardados. ¿Qué recuerdas?', wBackToFacts: 'Datos', wWrongCost: 'Casi. Una respuesta equivocada cuesta unas perlas.', wRotate: 'Una pregunta nueva en cada visita',
+    wReadIt: '¡Ya lo leí! Pregúntame', wReadFirst: 'Primero lee los datos…', wPeek: 'Mirar los datos (la mitad de puntos)', wClosedBook: 'Los datos están guardados. ¿Qué recuerdas?', wBackToFacts: 'Datos', wWrongCost: 'Casi. Una respuesta equivocada cuesta unas perlas.', wRotate: 'Una pregunta nueva en cada visita', wAllPlaceQs: '¡Respondiste todas las preguntas de este lugar! Vienen más. Dile a papá que necesitas MÁS preguntas.',
     wTitle: 'Mapa del mundo', wAll: 'Todo', wFam: 'Familia', wCities: 'Ciudades', wWild: 'Naturaleza', wHist: 'Historia', wSci: 'Ciencia',
     wMap: 'Mapa', wList: 'Lista', wFind: '¡Encuéntralo!', wZoomIn: 'Acercar', wZoomOut: 'Alejar', wWhole: 'Todo el mundo', wStamps: '{n} de {m} sellos',
     wSat: 'Vista de satélite', wSimple: 'Mapa simple (sin imágenes de internet)', wLoadingSat: 'Cargando imágenes de satélite…',
@@ -140,7 +140,7 @@ export async function mount(el, { parts }) {
       const qs = bankFor(p); if (!qs.length) return;
       const pq = ((S.settings.placeQ ||= {})[id] ||= { ok: [], last: -1 });
       let cand = qs.map((_, i) => i).filter((i) => !pq.ok.includes(i) && i !== pq.last);
-      if (!cand.length) { pq.ok = []; cand = qs.map((_, i) => i).filter((i) => i !== pq.last); }   // all learned: cycle again
+      if (!cand.length) { quizArea.replaceChildren(h('p', { class: 'chip on' }, t('wAllPlaceQs'))); return; }   // every question here is learned: no repeats, no more pearls
       const qi = cand[0]; pq.last = qi; save();
       const q = qs[qi];
       const order = shuffle(q.opts.map((o, i) => ({ o, i })));

@@ -1,5 +1,5 @@
 // Grown-up corner: progress, limits, map key, family notes, your own questions, backup. Everything stays on this device.
-import { S, save, flush, minutesToday, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll } from '../core/store.js';
+import { S, save, flush, minutesToday, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll, listSnapshots, restoreSnapshot } from '../core/store.js';
 import { h, toast, clamp } from '../core/dom.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
@@ -20,7 +20,7 @@ addStrings({
     gHome: 'Home location (for “miles from home”)', gLat: 'Latitude', gLon: 'Longitude', gUseLoc: 'Use this device’s location', gClearLoc: 'Clear', gLocSaved: 'Saved on this device only.', gLocFail: 'Could not get the location. You can type it instead.',
     gFamily: 'Family notes', gFamNote: 'Add a short note to each family place. It shows on Max’s place card and is stored only on this device.', gImport: 'Load notes from a file', gNotesLoaded: 'Notes loaded.',
     gQs: 'Your own questions', gQsNote: 'These mix into Max’s missions now and then. Add one right answer and up to three wrong ones.', gQ: 'Question', gRight: 'Right answer', gW1: 'Wrong answer', gW2: 'Another wrong answer (optional)', gW3: 'One more (optional)', gWhy: 'Why it is right (optional)', gAdd: 'Add question', gDelete: 'Delete', gQNeed: 'Add a question, a right answer and one wrong answer.', gQAdded: 'Added!',
-    gBackup: 'Backup and reset', gBackupNote: 'Save a copy so progress is safe if the browser is cleared or you switch iPads.', gExport: 'Save a backup file', gImportB: 'Restore from a backup file', gLast: 'Last backup: {d}', gNever: 'never', gImported: 'Backup restored.', gImportBad: 'That file did not work.', gMerge: 'Combine with current progress', gReplace: 'Replace current progress',
+    gBackup: 'Backup and reset', gSnap: 'Automatic safety copies', gSnapNote: 'The lab keeps a copy of Max’s progress at his first visit each day and before any update that changes how progress is saved. If anything ever looks wrong after an update, restore a copy here. Copies stay on this iPad.', gSnapNone: 'No copies yet. The first one is made the next time the lab opens.', gSnapRestore: 'Restore', gSnapAsk: 'Restore this copy? Max’s current progress is saved as a copy first, so you can switch back.', gSnapDone: 'Copy restored.', gSnapLine: '{p} pearls earned · {s} stamps · {n} days played', gSnapDaily: 'Daily copy', gSnapUpdate: 'Before an update', gSnapBefore: 'Before a restore', gBackupNote: 'Save a copy so progress is safe if the browser is cleared or you switch iPads.', gExport: 'Save a backup file', gImportB: 'Restore from a backup file', gLast: 'Last backup: {d}', gNever: 'never', gImported: 'Backup restored.', gImportBad: 'That file did not work.', gMerge: 'Combine with current progress', gReplace: 'Replace current progress',
     gReset: 'Erase all progress', gResetAsk: 'This erases pearls, stamps, levels and settings on this device. Type ERASE to confirm.', gErased: 'Everything was erased.',
     gChoreCode: 'Chore code (grown-ups type this to approve chores)', gChoreSet: 'Save chore code', gChoreSaved: 'Chore code saved.', gSecurity: 'PIN and about', gSetPin: 'Set a passcode', gChangePin: 'Change passcode', gRemovePin: 'Remove passcode', gPinNew: 'New passcode (4 to 6 digits)', gPinSet: 'Passcode saved.', gPinRemoved: 'Passcode removed.', gPinNote: 'Optional. Without a PIN, pressing and holding the gear for 3 seconds is the only gate.',
     gCredits: 'Photo and map credits', gVersion: 'Max’s Lab · version 1.0',
@@ -37,7 +37,7 @@ addStrings({
     gHome: 'Ubicación de casa (para “millas desde casa”)', gLat: 'Latitud', gLon: 'Longitud', gUseLoc: 'Usar la ubicación del dispositivo', gClearLoc: 'Borrar', gLocSaved: 'Guardada solo en este dispositivo.', gLocFail: 'No se pudo obtener la ubicación. Puedes escribirla.',
     gFamily: 'Notas de la familia', gFamNote: 'Agrega una nota corta a cada lugar de la familia. Se muestra en la tarjeta del lugar y solo se guarda en este dispositivo.', gImport: 'Cargar notas de un archivo', gNotesLoaded: 'Notas cargadas.',
     gQs: 'Tus propias preguntas', gQsNote: 'Se mezclan de vez en cuando en las misiones de Max. Agrega una respuesta correcta y hasta tres incorrectas.', gQ: 'Pregunta', gRight: 'Respuesta correcta', gW1: 'Respuesta incorrecta', gW2: 'Otra incorrecta (opcional)', gW3: 'Una más (opcional)', gWhy: 'Por qué es correcta (opcional)', gAdd: 'Agregar pregunta', gDelete: 'Borrar', gQNeed: 'Agrega una pregunta, una respuesta correcta y una incorrecta.', gQAdded: '¡Agregada!',
-    gBackup: 'Copia de seguridad y borrado', gBackupNote: 'Guarda una copia para no perder el progreso si se borra el navegador o cambias de iPad.', gExport: 'Guardar archivo de respaldo', gImportB: 'Restaurar desde un archivo', gLast: 'Última copia: {d}', gNever: 'nunca', gImported: 'Copia restaurada.', gImportBad: 'Ese archivo no funcionó.', gMerge: 'Combinar con el progreso actual', gReplace: 'Reemplazar el progreso actual',
+    gBackup: 'Copia de seguridad y borrado', gSnap: 'Copias de seguridad automáticas', gSnapNote: 'El laboratorio guarda una copia del progreso de Max en su primera visita de cada día y antes de cualquier actualización que cambie cómo se guarda el progreso. Si algo se ve mal después de una actualización, restaura una copia aquí. Las copias se quedan en este iPad.', gSnapNone: 'Todavía no hay copias. La primera se hace la próxima vez que se abra el laboratorio.', gSnapRestore: 'Restaurar', gSnapAsk: '¿Restaurar esta copia? Primero se guarda el progreso actual de Max como una copia, para que puedas volver.', gSnapDone: 'Copia restaurada.', gSnapLine: '{p} perlas ganadas · {s} sellos · {n} días jugados', gSnapDaily: 'Copia diaria', gSnapUpdate: 'Antes de una actualización', gSnapBefore: 'Antes de restaurar', gBackupNote: 'Guarda una copia para no perder el progreso si se borra el navegador o cambias de iPad.', gExport: 'Guardar archivo de respaldo', gImportB: 'Restaurar desde un archivo', gLast: 'Última copia: {d}', gNever: 'nunca', gImported: 'Copia restaurada.', gImportBad: 'Ese archivo no funcionó.', gMerge: 'Combinar con el progreso actual', gReplace: 'Reemplazar el progreso actual',
     gReset: 'Borrar todo el progreso', gResetAsk: 'Esto borra perlas, sellos, niveles y ajustes en este dispositivo. Escribe BORRAR para confirmar.', gErased: 'Se borró todo.',
     gChoreCode: 'Código de quehaceres (los adultos lo escriben para aprobar)', gChoreSet: 'Guardar código', gChoreSaved: 'Código guardado.', gSecurity: 'PIN e información', gSetPin: 'Crear un código', gChangePin: 'Cambiar código', gRemovePin: 'Quitar código', gPinNew: 'Nuevo código (4 a 6 dígitos)', gPinSet: 'Código guardado.', gPinRemoved: 'Código eliminado.', gPinNote: 'Opcional. Sin PIN, mantener presionado el engranaje 3 segundos es la única puerta.',
     gCredits: 'Créditos de fotos y mapas', gVersion: 'El Laboratorio de Max · versión 1.0',
@@ -201,6 +201,25 @@ async function build(root) {
     h('button', { class: 'btn ghost small', onclick: () => { mode = 'merge'; bfile.click(); } }, t('gImportB') + ' · ' + t('gMerge')), h('button', { class: 'btn ghost small', onclick: () => { mode = 'replace'; bfile.click(); } }, t('gReplace'))), bfile, lastEl,
     h('div', { class: 'row' }, h('button', { class: 'btn ghost small danger', onclick: reset }, t('gReset'))));
 
+
+  // ----- automatic safety copies
+  const snapList = h('div', { class: 'qlist' });
+  const whyKey = { daily: 'gSnapDaily', update: 'gSnapUpdate', 'before-restore': 'gSnapBefore' };
+  const askRestore = (e) => {
+    const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true' }, h('div', { class: 'dialog' }, h('h2', {}, t('gSnapRestore')), h('p', {}, t('gSnapAsk')),
+      h('div', { class: 'row' }, h('button', { class: 'btn small', onclick: async () => { try { await restoreSnapshot(e.t); ov.remove(); toast(t('gSnapDone')); root.replaceChildren(); build(root); } catch (err) { ov.remove(); toast(t('gImportBad')); } } }, t('gSnapRestore')), h('button', { class: 'btn ghost small', onclick: () => ov.remove() }, t('cancel')))));
+    document.body.append(ov);
+  };
+  const drawSnaps = async () => {
+    const idx = await listSnapshots().catch(() => []);
+    snapList.replaceChildren(...(idx.length ? idx.map((e) => h('div', { class: 'qrow card flat' },
+      h('div', {}, h('strong', {}, new Date(e.t).toLocaleString(S.lang === 'es' ? 'es-US' : 'en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' · ' + t(whyKey[e.why] || 'gSnapDaily')),
+        h('small', {}, t('gSnapLine', { p: e.d.earned.toLocaleString(), s: e.d.stamps, n: e.d.days }))),
+      h('button', { class: 'btn ghost small', onclick: () => askRestore(e) }, t('gSnapRestore')))) : [h('p', { class: 'muted small' }, t('gSnapNone'))]));
+  };
+  drawSnaps();
+  const snapSec = section(t('gSnap'), h('p', { class: 'muted small' }, t('gSnapNote')), snapList);
+
   // ----- pin + about
   const pinIn = textin({ type: 'password', inputmode: 'numeric', maxlength: 6, pattern: '[0-9]*', placeholder: '•••••', autocomplete: 'off' });
   const setPin = async () => {
@@ -213,5 +232,5 @@ async function build(root) {
     S.settings.pinHash ? h('button', { class: 'btn ghost small', onclick: () => { S.settings.pinHash = null; S.settings.pinSalt = null; save(); toast(t('gPinRemoved')); } }, t('gRemovePin')) : null),
     h('p', {}, h('a', { href: '#/credits' }, t('gCredits'))), h('small', { class: 'muted' }, t('gVersion')));
 
-  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, limits, voiceSec, mapSec, famSec, qSec, bSec, sec);
+  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, limits, voiceSec, mapSec, famSec, qSec, bSec, snapSec, sec);
 }

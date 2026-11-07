@@ -5,7 +5,7 @@ import { icons } from '../core/icons.js';
 import { t, addStrings } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { sfx, speak, canSpeak } from '../core/audio.js';
-import { loadPacks, packName, packWords, pickWords, markSolved, recordWin, recordLoss } from '../games/common.js';
+import { loadPacks, packName, packWords, pickWords, markSolved, markServed, recordWin, recordLoss, allDoneCard } from '../games/common.js';
 import { awardBadges } from '../core/badges.js';
 
 addStrings({
@@ -130,13 +130,14 @@ async function play(el, params) {
   const tier = clamp(parseInt(params.tier || '1', 10), 1, 3);
   const all = packWords(pack);
   const tiers = tier === 1 ? [1] : tier === 2 ? [1, 2] : [2, 3];
-  const words = pickWords(all, 6, { tiers, prefix: 'hm', maxLen: tier === 1 ? 6 : 11 });
+  const words = pickWords(all, 9999, { tiers, prefix: 'hm', maxLen: tier === 1 ? 6 : 11 });   // only words Max has never been shown
   let idx = 0;
   const wrap = h('div'); el.append(wrap);
   const head = () => h('div', { class: 'screen-head' }, h('button', { class: 'btn ghost icon', 'aria-label': t('back'), onclick: () => go('/hangman'), html: icons.back(34) }), h('h1', {}, `${pack.icon} ${packName(pack)}`), h('span', { class: 'chip' }, t(TIER_LABEL[tier]).split(':')[0]));
   function round() {
     clear(wrap);
-    const w = words[idx % words.length];
+    if (idx >= words.length) { wrap.append(head(), allDoneCard('allDoneWords', '#/hangman')); return; }
+    const w = words[idx]; markServed('hm', w.key); save();
     wrap.append(head());
     board(wrap, { word: w.w, clue: w.clue, fact: w.fact, lives: LIVES[tier], freeFirst: tier === 1,
       onEnd(won, msg, misses) {

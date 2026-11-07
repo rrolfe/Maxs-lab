@@ -1,7 +1,7 @@
 // Shared helpers for Word Search and Hangman.
 import { S, today } from '../core/store.js';
-import { fold, shuffle, rng, hashStr } from '../core/dom.js';
-import { L } from '../core/i18n.js';
+import { fold, shuffle, rng, hashStr, h } from '../core/dom.js';
+import { L, t, addStrings } from '../core/i18n.js';
 
 let packsCache = null;
 export async function loadPacks() {
@@ -11,15 +11,27 @@ export async function loadPacks() {
 export const packName = (p) => L(p.name);
 export const packWords = (p, lang = S.lang) => (p.words[lang] || p.words.en).map((w) => ({ ...w, key: fold(w.w), len: [...fold(w.w)].length }));
 
-/** Prefer words Max has not solved yet (per language), then random. */
+/** Words Max has not met yet, in random order. With useHistory (the normal case) a word Max has already been shown or solved is NEVER
+ *  offered again, so nothing repeats and nothing pays twice. When the pool is empty the caller shows the "all done" card. */
 export function pickWords(words, n, { tiers = [1, 2, 3], r = Math.random, maxLen = 12, prefix = 'ws', useHistory = true } = {}) {
-  const solved = S.words.solved;
+  const { solved, served } = S.words;
   const pool = words.filter((w) => tiers.includes(w.tier) && w.len <= maxLen && w.len >= 3);
-  const fresh = useHistory ? pool.filter((w) => !solved[`${prefix}:${S.lang}:${w.key}`]) : pool;
-  const ordered = [...shuffle(fresh, r), ...shuffle(pool.filter((w) => !fresh.includes(w)), r)];
-  return ordered.slice(0, n);
+  const used = (w) => solved[`${prefix}:${S.lang}:${w.key}`] || (served && served[`${prefix}:${S.lang}:${w.key}`]);
+  const fresh = useHistory ? pool.filter((w) => !used(w)) : pool;
+  return shuffle(fresh, r).slice(0, n);
 }
 export function markSolved(prefix, key) { S.words.solved[`${prefix}:${S.lang}:${key}`] = 1; }
+export function markServed(prefix, key) { (S.words.served ||= {})[`${prefix}:${S.lang}:${key}`] = 1; }
+
+addStrings({
+  en: { allDoneTitle: 'GAME OVER… you won!', allDoneWords: 'You have met every word here at this level. Try another pack or level, or tell Dad you need MORE words to keep going!', allDoneGo: 'Pick something else' },
+  es: { allDoneTitle: '¡FIN DEL JUEGO… ganaste!', allDoneWords: 'Ya conociste todas las palabras de aquí en este nivel. Prueba otro paquete u otro nivel, o dile a papá que necesitas MÁS palabras para seguir.', allDoneGo: 'Elegir otra cosa' },
+});
+/** The friendly "you finished everything" card. `msgKey` is an i18n key for the body; `href` where the button goes. */
+export function allDoneCard(msgKey, href) {
+  return h('div', { class: 'card alldone center', style: { maxWidth: '640px', margin: '24px auto', textAlign: 'center' } },
+    h('div', { style: { fontSize: '64px' } }, '🏆'), h('h2', {}, t('allDoneTitle')), h('p', {}, t(msgKey)), h('a', { class: 'btn gold', href }, t('allDoneGo')));
+}
 
 export const TIER_NAMES = { 1: { en: 'Easy', es: 'Fácil' }, 2: { en: 'Medium', es: 'Medio' }, 3: { en: 'Hard', es: 'Difícil' } };
 
