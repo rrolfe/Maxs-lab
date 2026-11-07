@@ -33,7 +33,21 @@ const fresh = () => ({
   chores: { done: {}, pts: {}, hidden: {}, custom: [], total: 0 },   // done[day][id]=times; pts overrides; hidden = removed built-ins
   recentMath: [],       // texts of the last generated math questions, so the same sum never comes twice in a row
   mil: {},              // milestone id -> last day the announcer played
+  gifts: {},            // one-time grown-up gifts already given on this device (id -> pearls)
 });
+
+// One-time gifts from a grown-up, delivered with an update. Each id is given once per device, to a save that already
+// has progress (never to a brand-new one), straight into the balance: no pop-up, and the daily taper is not touched.
+const GIFTS = [
+  { id: '2026-11-07-rob-200', pearls: 200 },
+];
+function applyGifts() {
+  for (const g of GIFTS) {
+    if (S.gifts[g.id]) continue;
+    S.gifts[g.id] = g.pearls;
+    S.pearls.balance += g.pearls; S.pearls.earned += g.pearls; S.pearls.gift = (S.pearls.gift || 0) + g.pearls;
+  }
+}
 
 export let S = fresh();
 const subs = new Set();
@@ -123,7 +137,8 @@ export async function initStore() {
       try { await takeSnapshot(text, saved, (saved.schema || 1) < SCHEMA ? 'update' : 'daily'); } catch { /* optional */ }
       S = merge(fresh(), saved);
       migrate();
-      if (from === 'idb') lsSet(JSON.stringify(S));
+      if (hasProgress(saved)) applyGifts();
+      lsSet(JSON.stringify(S)); idbSet(KEY, JSON.stringify(S));
     }
   }
   try { if (navigator.storage?.persist) navigator.storage.persist(); } catch { /* optional */ }
