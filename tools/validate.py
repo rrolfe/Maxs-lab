@@ -1,4 +1,4 @@
-import json, sys, collections
+import json, sys, collections, glob, os
 f = sys.argv[1]
 errs = []
 try:
@@ -45,6 +45,19 @@ for i, x in enumerate(data):
     if any(tg in ('sharks','dinosaurs','space','ocean','baseball') for tg in x.get('tags', [])): tagged += 1
     fun += 1 if x.get('fun') else 0
     counts[(x.get('topic'), x.get('level'))] += 1
+# cross-file check: no id or question text may already exist in another bank of the same language
+HERE = os.path.dirname(os.path.abspath(__file__)); lang = os.path.basename(f)[:2]
+other_ids, other_qs = {}, {}
+for g in glob.glob(os.path.join(HERE, 'content', lang + '-*.json')) + glob.glob(os.path.join(HERE, 'content', 'add', lang + '-*.json')):
+    if os.path.abspath(g) == os.path.abspath(f): continue
+    try:
+        for y in json.load(open(g, encoding='utf-8')):
+            other_ids[y['id']] = os.path.basename(g); other_qs[' '.join(y['q'].lower().split())] = os.path.basename(g)
+    except Exception: pass
+for i, x in enumerate(data):
+    if x.get('id') in other_ids: errs.append(f'#{i} {x.get("id")}: id already used in {other_ids[x["id"]]}')
+    k = ' '.join(str(x.get('q', '')).lower().split())
+    if k in other_qs: errs.append(f'#{i} {x.get("id")}: same question text as one in {other_qs[k]}')
 for e in errs[:60]: print('ERR', e)
 print('counts by topic/level:')
 for k in sorted(counts, key=lambda k: (str(k[0]), k[1] or 0)): print(' ', k, counts[k])
