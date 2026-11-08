@@ -1,0 +1,2038 @@
+{
+ "packs": [
+  {
+   "id": "food-and-cooking",
+   "words": {
+    "en": [
+     {
+      "w": "SOUP",
+      "clue": "Hot liquid meal you eat with a spoon",
+      "fact": "People have been making soup for thousands of years, ever since they had pots.",
+      "tier": 1
+     },
+     {
+      "w": "CAKE",
+      "clue": "Sweet baked treat topped with candles on birthdays",
+      "fact": "Long ago, cakes were more like sweet bread made with honey.",
+      "tier": 1
+     },
+     {
+      "w": "EGG",
+      "clue": "Oval food a hen lays, with a yellow center",
+      "fact": "A hen's eggshell has thousands of tiny holes so the chick inside can breathe.",
+      "tier": 1
+     },
+     {
+      "w": "MILK",
+      "clue": "White drink from cows that goes well with cookies",
+      "fact": "Milk can be turned into cheese, butter, yogurt and ice cream.",
+      "tier": 1
+     },
+     {
+      "w": "PEAR",
+      "clue": "Sweet fruit that is wide at the bottom and narrow on top",
+      "fact": "Pears ripen best after they are picked, not while hanging on the tree.",
+      "tier": 1
+     },
+     {
+      "w": "PLUM",
+      "clue": "Smooth purple fruit with one hard pit; dried, it becomes a prune",
+      "fact": "Plums, peaches and cherries all belong to the same big plant family.",
+      "tier": 1
+     },
+     {
+      "w": "LIME",
+      "clue": "Small green citrus fruit that is very sour",
+      "fact": "Sailors once ate limes on long voyages to stay healthy.",
+      "tier": 1
+     },
+     {
+      "w": "PEACH",
+      "clue": "Fuzzy fruit with orange-pink flesh and a big pit",
+      "fact": "Peach trees first grew in China many thousands of years ago.",
+      "tier": 1
+     },
+     {
+      "w": "APPLE",
+      "clue": "Crunchy red or green fruit, often baked in a pie",
+      "fact": "Apples float in water because about a quarter of each one is air.",
+      "tier": 1
+     },
+     {
+      "w": "GRAPE",
+      "clue": "Small juicy fruit that grows in bunches on a vine",
+      "fact": "Grapes dried in the sun become raisins.",
+      "tier": 1
+     },
+     {
+      "w": "ONION",
+      "clue": "Round, layered vegetable that can make your eyes water",
+      "fact": "Cutting an onion releases a gas that stings your eyes, so tears wash it away.",
+      "tier": 1
+     },
+     {
+      "w": "SYRUP",
+      "clue": "Thick sweet sauce poured on pancakes, often from maple trees",
+      "fact": "It takes about forty buckets of maple sap to make one bucket of syrup.",
+      "tier": 1
+     },
+     {
+      "w": "SALT",
+      "clue": "White crystals shaken on fries; the sea is full of it",
+      "fact": "People can make salt by letting ocean water dry in the sun.",
+      "tier": 1
+     },
+     {
+      "w": "SUGAR",
+      "clue": "Sweet white crystals stirred into drinks and baked into cookies",
+      "fact": "Sugar comes from two plants: sugar cane and sugar beets.",
+      "tier": 1
+     },
+     {
+      "w": "TOAST",
+      "clue": "Bread browned until crisp, great with butter or jam",
+      "fact": "Heat dries out the outside of bread and turns it brown and crunchy.",
+      "tier": 1
+     },
+     {
+      "w": "PIZZA",
+      "clue": "Round baked dish with cheese and sauce, cut into slices",
+      "fact": "Modern pizza began in Naples, Italy, where flat bread was topped with tomatoes.",
+      "tier": 1
+     },
+     {
+      "w": "BAGEL",
+      "clue": "Chewy bread ring with a hole, spread with cream cheese",
+      "fact": "Bagels are boiled briefly in water before baking, which gives them a chewy crust.",
+      "tier": 1
+     },
+     {
+      "w": "SALAD",
+      "clue": "Bowl of mixed raw veggies with dressing",
+      "fact": "The word salad comes from an old word meaning salted, because greens were served with salt.",
+      "tier": 1
+     },
+     {
+      "w": "BOIL",
+      "clue": "Heat water until it bubbles wildly and makes steam",
+      "fact": "Water boils at a lower temperature on a tall mountain, so food cooks slowly there.",
+      "tier": 1
+     },
+     {
+      "w": "WHISK",
+      "clue": "Wire kitchen tool for beating eggs and cream",
+      "fact": "Whisking cream adds tiny air bubbles that make it light and fluffy.",
+      "tier": 1
+     },
+     {
+      "w": "OVEN",
+      "clue": "Hot kitchen box where bread and cookies bake",
+      "fact": "Ancient bakers cooked flat breads in ovens made of clay.",
+      "tier": 1
+     },
+     {
+      "w": "TONGS",
+      "clue": "Tool with two arms for grabbing hot food",
+      "fact": "Tongs work like extra-long fingers so cooks can keep their hands away from heat.",
+      "tier": 1
+     },
+     {
+      "w": "TACO",
+      "clue": "Folded tortilla filled with meat, beans or veggies",
+      "fact": "Tacos come from Mexico, where people have eaten corn tortillas for centuries.",
+      "tier": 1
+     },
+     {
+      "w": "DOUGH",
+      "clue": "Soft, stretchy mix of flour and water before baking",
+      "fact": "Yeast makes dough rise by giving off tiny bubbles of gas.",
+      "tier": 1
+     },
+     {
+      "w": "CRUST",
+      "clue": "Hard brown outside of a loaf of bread",
+      "fact": "Bread turns brown in the oven because heat changes its sugars and proteins.",
+      "tier": 1
+     },
+     {
+      "w": "SAUCE",
+      "clue": "Thick liquid poured over spaghetti or dipped with nuggets",
+      "fact": "Cooks around the world have invented hundreds of different sauces.",
+      "tier": 1
+     },
+     {
+      "w": "OLIVE",
+      "clue": "Small salty fruit that is pressed to make a golden oil",
+      "fact": "Some olive trees are still growing after more than a thousand years.",
+      "tier": 1
+     },
+     {
+      "w": "YOLK",
+      "clue": "Yellow center of an egg",
+      "fact": "A yolk gives a growing chick the food it needs inside the egg.",
+      "tier": 1
+     },
+     {
+      "w": "CARROT",
+      "clue": "Crunchy orange root that grows underground",
+      "fact": "Carrots used to be purple or yellow before orange ones became popular.",
+      "tier": 2
+     },
+     {
+      "w": "LETTUCE",
+      "clue": "Crunchy pale-green leaves piled into salads and burgers",
+      "fact": "Lettuce leaves are mostly water, which is why they feel crisp and cool.",
+      "tier": 2
+     },
+     {
+      "w": "SPINACH",
+      "clue": "Soft dark-green leaves that shrink to almost nothing in a hot pan",
+      "fact": "Spinach shrinks a lot when cooked because it loses most of its water.",
+      "tier": 2
+     },
+     {
+      "w": "GARLIC",
+      "clue": "Smelly white bulb made of small sections called cloves",
+      "fact": "Garlic is a close cousin of onions, leeks and chives.",
+      "tier": 2
+     },
+     {
+      "w": "GINGER",
+      "clue": "Knobby, spicy underground part of a plant used in tea and cookies",
+      "fact": "Ginger is really an underground stem, not a root.",
+      "tier": 2
+     },
+     {
+      "w": "PEANUT",
+      "clue": "Ballpark snack in a shell that grows underground",
+      "fact": "Peanuts are not true nuts; they are legumes, relatives of beans and peas.",
+      "tier": 2
+     },
+     {
+      "w": "ALMOND",
+      "clue": "Smooth oval nut used to make a plant-based milk",
+      "fact": "An almond is the seed of a tree that is related to peach trees.",
+      "tier": 2
+     },
+     {
+      "w": "CHERRY",
+      "clue": "Small round red fruit with a long stem, atop a sundae",
+      "fact": "Cherry trees are famous for their pink and white blossoms in spring.",
+      "tier": 2
+     },
+     {
+      "w": "BANANA",
+      "clue": "Curved yellow fruit with a peel you remove",
+      "fact": "Bananas grow in bunches called hands, and each banana is called a finger.",
+      "tier": 2
+     },
+     {
+      "w": "ORANGE",
+      "clue": "Round citrus fruit squeezed for breakfast juice",
+      "fact": "Orange peels hold tiny pockets of oil that squirt a fine spray when bent.",
+      "tier": 2
+     },
+     {
+      "w": "PANCAKE",
+      "clue": "Flat round breakfast treat flipped in a hot pan",
+      "fact": "Bubbles on the top of pancake batter tell a cook it is time to flip.",
+      "tier": 2
+     },
+     {
+      "w": "WAFFLE",
+      "clue": "Breakfast food with a grid of squares to hold syrup",
+      "fact": "Waffle irons press a grid of squares into batter, making little pockets for syrup.",
+      "tier": 2
+     },
+     {
+      "w": "COOKIE",
+      "clue": "Small sweet baked treat, often with chocolate chips",
+      "fact": "The word cookie comes from a Dutch word meaning little cake.",
+      "tier": 2
+     },
+     {
+      "w": "CELERY",
+      "clue": "Crunchy, stringy green stalk, great with peanut butter",
+      "fact": "Celery stalks have long stringy fibers that run from the bottom to the top.",
+      "tier": 2
+     },
+     {
+      "w": "CEREAL",
+      "clue": "Crunchy breakfast food poured into a bowl with milk",
+      "fact": "Many cereals are made from grains such as corn, wheat, rice or oats.",
+      "tier": 2
+     },
+     {
+      "w": "YOGURT",
+      "clue": "Thick, tangy, spoonable food made from milk, often with fruit",
+      "fact": "Yogurt forms when friendly bacteria turn milk thick and tangy.",
+      "tier": 2
+     },
+     {
+      "w": "SAUSAGE",
+      "clue": "Seasoned ground meat packed into a tube and grilled at cookouts",
+      "fact": "People have been making sausages for thousands of years.",
+      "tier": 2
+     },
+     {
+      "w": "PICKLE",
+      "clue": "Sour, crunchy green slice on a burger, once a cucumber",
+      "fact": "Pickling food in salty or sour liquid keeps it from spoiling for a long time.",
+      "tier": 2
+     },
+     {
+      "w": "BLENDER",
+      "clue": "Machine with spinning blades in a jug that mixes smoothies",
+      "fact": "Blender blades spin so fast they can turn ice into tiny crushed pieces.",
+      "tier": 2
+     },
+     {
+      "w": "TOASTER",
+      "clue": "Slotted machine that pops up crisp, brown slices of bread",
+      "fact": "The first electric toasters browned only one side, so you flipped the bread by hand.",
+      "tier": 2
+     },
+     {
+      "w": "FREEZER",
+      "clue": "Super-cold compartment where ice cream and popsicles stay hard",
+      "fact": "Freezing puts germs that spoil food to sleep, so frozen food lasts a long time.",
+      "tier": 2
+     },
+     {
+      "w": "KITCHEN",
+      "clue": "Room in a home or restaurant where cooks prepare meals",
+      "fact": "Big restaurant kitchens are split into stations, and each cook handles one job.",
+      "tier": 2
+     },
+     {
+      "w": "RECIPE",
+      "clue": "List of ingredients and steps for making a dish",
+      "fact": "Some of the oldest known recipes were written on clay tablets thousands of years ago.",
+      "tier": 2
+     },
+     {
+      "w": "SKILLET",
+      "clue": "Heavy flat pan with a long handle for frying",
+      "fact": "A cast iron skillet can last for generations if it is cared for.",
+      "tier": 2
+     },
+     {
+      "w": "CUPCAKE",
+      "clue": "Small frosted dessert baked in a paper wrapper, one per person",
+      "fact": "Some say cupcakes got their name because the recipe used cups to measure.",
+      "tier": 2
+     },
+     {
+      "w": "RAISIN",
+      "clue": "Wrinkly, chewy sweet snack that used to be a grape",
+      "fact": "It takes about four pounds of fresh grapes to make one pound of raisins.",
+      "tier": 2
+     },
+     {
+      "w": "MUSTARD",
+      "clue": "Tangy yellow sauce squirted on hot dogs and pretzels",
+      "fact": "Mustard is made from the ground-up seeds of the mustard plant.",
+      "tier": 2
+     },
+     {
+      "w": "PANTRY",
+      "clue": "Small closet where cans, boxes and dry foods are stored",
+      "fact": "The word pantry comes from an old word for bread, because bread was kept there.",
+      "tier": 2
+     },
+     {
+      "w": "CASHEW",
+      "clue": "Curved nut that grows hanging below a fruit",
+      "fact": "Cashews grow hanging from the bottom of a fruit called a cashew apple.",
+      "tier": 2
+     },
+     {
+      "w": "OATMEAL",
+      "clue": "Warm breakfast porridge made from rolled grain",
+      "fact": "Oats are a kind of grass grown for its seeds.",
+      "tier": 2
+     },
+     {
+      "w": "NUTMEG",
+      "clue": "Brown spice grated from a hard seed, used in eggnog and pies",
+      "fact": "Nutmeg is the seed of a tropical tree, and its covering becomes another spice, mace.",
+      "tier": 2
+     },
+     {
+      "w": "KERNEL",
+      "clue": "Single hard seed of corn, sitting on a cob",
+      "fact": "A popcorn kernel pops because water inside turns to steam and bursts the shell.",
+      "tier": 2
+     },
+     {
+      "w": "SANDWICH",
+      "clue": "Two slices of bread with a filling in the middle",
+      "fact": "The sandwich is named after the Earl of Sandwich, an English nobleman long ago.",
+      "tier": 3
+     },
+     {
+      "w": "SPRINKLES",
+      "clue": "Tiny colorful sugar bits scattered on cupcakes and ice cream",
+      "fact": "In Britain, sprinkles are often called hundreds and thousands.",
+      "tier": 3
+     },
+     {
+      "w": "LEMONADE",
+      "clue": "Sweet-and-sour cold drink sold at summer kids' stands",
+      "fact": "Lemonade tastes sour because citrus fruits are full of citric acid.",
+      "tier": 3
+     },
+     {
+      "w": "BLUEBERRY",
+      "clue": "Round berry the color of the sky, baked into muffins",
+      "fact": "Blueberries have a tiny star-shaped crown on one end.",
+      "tier": 3
+     },
+     {
+      "w": "RASPBERRY",
+      "clue": "Soft red berry that leaves a hollow when picked off its stem",
+      "fact": "Each raspberry is made of many tiny bumps, and every bump has its own seed.",
+      "tier": 3
+     },
+     {
+      "w": "CAULIFLOWER",
+      "clue": "White head of tiny clustered buds, a cousin of broccoli",
+      "fact": "Cauliflower, broccoli and cabbage all come from the same wild plant.",
+      "tier": 3
+     },
+     {
+      "w": "ZUCCHINI",
+      "clue": "Long green squash that grows fast in summer gardens",
+      "fact": "Zucchini is a fruit, because it grows from a flower and holds seeds.",
+      "tier": 3
+     },
+     {
+      "w": "MUSHROOM",
+      "clue": "Cap-and-stem food that pops up in damp, shady spots",
+      "fact": "Mushrooms are not plants; they belong to a separate group called fungi.",
+      "tier": 3
+     },
+     {
+      "w": "MEATBALL",
+      "clue": "Round lump of seasoned ground meat, often served on spaghetti",
+      "fact": "Meatballs are made in many countries, from Italy to Sweden.",
+      "tier": 3
+     },
+     {
+      "w": "MACARONI",
+      "clue": "Short, curvy pasta tubes used in a cheesy dinner",
+      "fact": "Macaroni is made from wheat flour and water, pushed through machines to make hollow shapes.",
+      "tier": 3
+     },
+     {
+      "w": "DUMPLING",
+      "clue": "Soft dough pocket stuffed with filling, steamed or boiled",
+      "fact": "Almost every food culture in the world has its own kind of dumpling.",
+      "tier": 3
+     },
+     {
+      "w": "BREAKFAST",
+      "clue": "First meal of the day, eaten in the morning",
+      "fact": "The word means breaking your fast, since you have not eaten all night.",
+      "tier": 3
+     },
+     {
+      "w": "SAUCEPAN",
+      "clue": "Deep pot with one long handle for heating soup",
+      "fact": "Copper pots are favorites of chefs because copper heats up and cools down quickly.",
+      "tier": 3
+     },
+     {
+      "w": "COLANDER",
+      "clue": "Bowl full of holes for draining pasta",
+      "fact": "The word colander comes from an old Latin word meaning to strain.",
+      "tier": 3
+     },
+     {
+      "w": "CHEESECAKE",
+      "clue": "Creamy dessert on a crumbly cookie crust",
+      "fact": "Some cheesecakes are baked in a pan of hot water so they do not crack.",
+      "tier": 3
+     },
+     {
+      "w": "TEASPOON",
+      "clue": "Small spoon that measures a little bit of a baking ingredient",
+      "fact": "Three teaspoons of liquid make exactly one tablespoon.",
+      "tier": 3
+     },
+     {
+      "w": "MARSHMALLOW",
+      "clue": "Fluffy white sweet toasted over a campfire for s'mores",
+      "fact": "The first marshmallows were made from a plant that grows in wet marshes.",
+      "tier": 3
+     },
+     {
+      "w": "PEPPERONI",
+      "clue": "Spicy red sausage circles scattered on a pizza",
+      "fact": "Pepperoni was invented in America, not in Italy, despite its Italian-sounding name.",
+      "tier": 3
+     },
+     {
+      "w": "ARTICHOKE",
+      "clue": "Round green vegetable with tough, pointy leaves and a tender heart",
+      "fact": "An artichoke is the unopened flower bud of a thistle plant.",
+      "tier": 3
+     },
+     {
+      "w": "GUACAMOLE",
+      "clue": "Mashed green dip for tortilla chips, made of avocados",
+      "fact": "The word guacamole comes from an Aztec word meaning avocado sauce.",
+      "tier": 3
+     },
+     {
+      "w": "HAMBURGER",
+      "clue": "Ground-beef patty served in a round bun",
+      "fact": "Hamburgers have no ham in them; the name comes from Hamburg, a city in Germany.",
+      "tier": 3
+     },
+     {
+      "w": "VEGETABLE",
+      "clue": "Plant food like a carrot or broccoli that is good for you",
+      "fact": "Cooks call a tomato a vegetable, but scientists say it is a fruit.",
+      "tier": 3
+     },
+     {
+      "w": "SMOOTHIE",
+      "clue": "Thick fruity drink whirled up in a blender",
+      "fact": "Frozen fruit makes a smoothie thick and cold without needing much ice.",
+      "tier": 3
+     },
+     {
+      "w": "CHOPSTICKS",
+      "clue": "Pair of slim eating sticks held in one hand in East Asia",
+      "fact": "Chopsticks have been used in China for thousands of years.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "FLAN",
+      "clue": "Postre suave y tembloroso con caramelo líquido encima",
+      "fact": "El flan se cocina dentro de un recipiente con agua caliente alrededor, llamado baño María.",
+      "tier": 1
+     },
+     {
+      "w": "POLLO",
+      "clue": "Carne blanca de un ave de corral, asada o frita",
+      "fact": "Los pollos son parientes lejanos de los dinosaurios.",
+      "tier": 1
+     },
+     {
+      "w": "CARNE",
+      "clue": "Parte musculosa de un animal que se cocina para comer",
+      "fact": "La carne tiene proteínas que ayudan a que los músculos crezcan.",
+      "tier": 1
+     },
+     {
+      "w": "PERA",
+      "clue": "Fruta dulce más ancha abajo y angosta arriba",
+      "fact": "Las peras y las manzanas son primas: pertenecen a la misma familia de plantas.",
+      "tier": 1
+     },
+     {
+      "w": "UVA",
+      "clue": "Fruta pequeña y jugosa que crece en racimos",
+      "fact": "Las uvas secadas al sol se convierten en pasas.",
+      "tier": 1
+     },
+     {
+      "w": "LIMÓN",
+      "clue": "Cítrico amarillo y muy ácido que se exprime en el agua",
+      "fact": "Con un limón y dos metales se puede hacer una pila que enciende una lucecita.",
+      "tier": 1
+     },
+     {
+      "w": "PIÑA",
+      "clue": "Fruta tropical de piel áspera y una corona de hojas",
+      "fact": "Cada piña se forma de muchas florecitas que crecieron juntas.",
+      "tier": 1
+     },
+     {
+      "w": "FRESA",
+      "clue": "Fruta roja con corazón dulce y semillitas por fuera",
+      "fact": "La fresa es de las pocas frutas que llevan las semillas por fuera.",
+      "tier": 1
+     },
+     {
+      "w": "MANGO",
+      "clue": "Fruta tropical dulce, de pulpa naranja y hueso grande",
+      "fact": "Un árbol de mango puede seguir dando frutos por más de cien años.",
+      "tier": 1
+     },
+     {
+      "w": "COCO",
+      "clue": "Fruto peludo y duro de las playas que guarda agua dulce",
+      "fact": "Los cocos pueden flotar en el mar y llegar a otras islas.",
+      "tier": 1
+     },
+     {
+      "w": "NUEZ",
+      "clue": "Fruto seco de cáscara dura que se parte con un cascanueces",
+      "fact": "La nuez tiene una forma parecida a un cerebro en miniatura.",
+      "tier": 1
+     },
+     {
+      "w": "LECHE",
+      "clue": "Bebida blanca que dan las vacas",
+      "fact": "Con leche se hacen queso, mantequilla, yogur y helado.",
+      "tier": 1
+     },
+     {
+      "w": "JUGO",
+      "clue": "Líquido que sale al exprimir una naranja",
+      "fact": "En algunos países se dice jugo y en otros zumo.",
+      "tier": 1
+     },
+     {
+      "w": "PIZZA",
+      "clue": "Masa redonda con salsa y queso, cortada en triángulos",
+      "fact": "La pizza moderna nació en Nápoles, Italia.",
+      "tier": 1
+     },
+     {
+      "w": "PASTA",
+      "clue": "Comida italiana de masa seca, como los fideos o los macarrones",
+      "fact": "Hay cientos de formas de pasta, como tubos, moños, conchas y espirales.",
+      "tier": 1
+     },
+     {
+      "w": "CACAO",
+      "clue": "Semillas de un árbol tropical con las que se hace el chocolate",
+      "fact": "Los antiguos mayas y aztecas tomaban el cacao como una bebida espumosa.",
+      "tier": 1
+     },
+     {
+      "w": "SABOR",
+      "clue": "Lo que sientes en la lengua cuando pruebas una comida",
+      "fact": "Gran parte del sabor viene del olfato: con la nariz tapada, todo sabe menos.",
+      "tier": 1
+     },
+     {
+      "w": "SALSA",
+      "clue": "Mezcla espesa y sabrosa para bañar o mojar la comida",
+      "fact": "Muchas salsas llevan tomate, una fruta que viajó desde América al resto del mundo.",
+      "tier": 1
+     },
+     {
+      "w": "TAMAL",
+      "clue": "Masa de maíz con relleno, envuelta en hojas y cocida al vapor",
+      "fact": "Las hojas que envuelven al tamal sirven para cocinarlo, pero no se comen.",
+      "tier": 1
+     },
+     {
+      "w": "AREPA",
+      "clue": "Disco de masa de maíz, típico de Colombia y Venezuela",
+      "fact": "Una arepa se abre como un sándwich y se rellena con queso o carne.",
+      "tier": 1
+     },
+     {
+      "w": "ASAR",
+      "clue": "Cocinar carne sobre brasas o en una parrilla",
+      "fact": "Al asar, el calor seco dora la comida por fuera y la deja jugosa por dentro.",
+      "tier": 1
+     },
+     {
+      "w": "FREÍR",
+      "clue": "Cocinar papas o huevos en aceite muy caliente",
+      "fact": "Al freír, el aceite caliente hace que la comida quede crujiente por fuera.",
+      "tier": 1
+     },
+     {
+      "w": "OLLA",
+      "clue": "Recipiente hondo con asas donde se hierve la sopa",
+      "fact": "Hace miles de años las ollas se hacían de barro cocido.",
+      "tier": 1
+     },
+     {
+      "w": "TAZA",
+      "clue": "Recipiente con asa para tomar bebidas calientes",
+      "fact": "La porcelana, con la que se hacen muchas tazas, se inventó en China hace más de mil años.",
+      "tier": 1
+     },
+     {
+      "w": "VASO",
+      "clue": "Recipiente de vidrio o plástico para beber agua o jugo",
+      "fact": "El vidrio se hace calentando arena hasta que se derrite.",
+      "tier": 1
+     },
+     {
+      "w": "PLATO",
+      "clue": "Recipiente plano y redondo donde se sirve la comida",
+      "fact": "La palabra plato también nombra cada comida de un menú, como el plato fuerte.",
+      "tier": 1
+     },
+     {
+      "w": "HABA",
+      "clue": "Semilla grande, aplanada y verde, que crece en una vaina",
+      "fact": "Las habas están entre los cultivos más antiguos: se siembran desde hace miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "AJÍ",
+      "clue": "Fruto pequeño que pica mucho y da sabor a las salsas",
+      "fact": "El picante del ají viene de una sustancia llamada capsaicina.",
+      "tier": 1
+     },
+     {
+      "w": "CEREZA",
+      "clue": "Fruta pequeña, roja y redonda con rabito, encima de un helado",
+      "fact": "El cerezo es famoso por sus flores rosadas y blancas en primavera.",
+      "tier": 2
+     },
+     {
+      "w": "DURAZNO",
+      "clue": "Fruta de piel aterciopelada, pulpa naranja y un solo hueso duro",
+      "fact": "El durazno nació en China y llegó a América con los españoles.",
+      "tier": 2
+     },
+     {
+      "w": "NARANJA",
+      "clue": "Cítrico redondo con gajos jugosos que se exprime para el desayuno",
+      "fact": "La cáscara de la naranja tiene bolsitas de aceite que sueltan un rocío al doblarla.",
+      "tier": 2
+     },
+     {
+      "w": "MANZANA",
+      "clue": "Fruta crujiente roja, verde o amarilla que crece en árboles",
+      "fact": "Las manzanas flotan en el agua porque una cuarta parte de su volumen es aire.",
+      "tier": 2
+     },
+     {
+      "w": "PAPAYA",
+      "clue": "Fruta tropical grande, de pulpa naranja y muchas semillitas negras",
+      "fact": "El árbol de la papaya crece rápido y da frutos en menos de dos años.",
+      "tier": 2
+     },
+     {
+      "w": "GUAYABA",
+      "clue": "Fruta tropical redonda de aroma fuerte, con pulpa rosada y semillitas",
+      "fact": "La guayaba tiene mucha más vitamina C que una naranja.",
+      "tier": 2
+     },
+     {
+      "w": "LENTEJA",
+      "clue": "Semilla pequeña y aplanada como un disco que se cocina en guisos",
+      "fact": "Las lentejas están entre los cultivos más antiguos de la humanidad.",
+      "tier": 2
+     },
+     {
+      "w": "ARVEJA",
+      "clue": "Bolitas verdes que viven en fila dentro de una vaina",
+      "fact": "Un científico estudió arvejas para descubrir cómo se heredan los rasgos de padres a hijos.",
+      "tier": 2
+     },
+     {
+      "w": "ACEITE",
+      "clue": "Líquido grasoso y dorado para freír, que no se mezcla con agua",
+      "fact": "El aceite flota sobre el agua porque es más ligero y no se mezcla con ella.",
+      "tier": 2
+     },
+     {
+      "w": "CANELA",
+      "clue": "Especia marrón y dulce que sale de la corteza de un árbol",
+      "fact": "Al secarse, la corteza de canela se enrolla sola formando tubitos.",
+      "tier": 2
+     },
+     {
+      "w": "COCINA",
+      "clue": "Habitación de la casa donde se preparan las comidas",
+      "fact": "En los restaurantes grandes, cada cocinero se encarga de una tarea distinta.",
+      "tier": 2
+     },
+     {
+      "w": "CUCHARA",
+      "clue": "Cubierto con la parte honda para tomar sopa",
+      "fact": "Las primeras cucharas se hacían de madera, conchas o hueso.",
+      "tier": 2
+     },
+     {
+      "w": "GALLETA",
+      "clue": "Dulce horneado, delgado y crujiente, que va muy bien con leche",
+      "fact": "Los marineros llevaban galletas duras porque duraban meses sin dañarse.",
+      "tier": 2
+     },
+     {
+      "w": "CEREAL",
+      "clue": "Granos crujientes que se comen con leche en el desayuno",
+      "fact": "Muchos cereales se hacen con maíz, trigo, arroz o avena.",
+      "tier": 2
+     },
+     {
+      "w": "LECHUGA",
+      "clue": "Hojas verdes y crujientes que van en las ensaladas",
+      "fact": "La lechuga es casi toda agua, por eso se siente fresca y crujiente.",
+      "tier": 2
+     },
+     {
+      "w": "PEPINO",
+      "clue": "Verdura verde, larga y fresca que se corta en rodajas",
+      "fact": "El pepino es casi todo agua y es pariente de la sandía y la calabaza.",
+      "tier": 2
+     },
+     {
+      "w": "HELADO",
+      "clue": "Postre frío y cremoso que se derrite al sol",
+      "fact": "El helado se bate mientras se congela para que no se formen cristales grandes de hielo.",
+      "tier": 2
+     },
+     {
+      "w": "PALETA",
+      "clue": "Helado congelado en un palito que se lame",
+      "fact": "En México es común vender paletas de fruta de muchísimos sabores.",
+      "tier": 2
+     },
+     {
+      "w": "CHURRO",
+      "clue": "Barra de masa frita y estriada, cubierta de azúcar",
+      "fact": "Los churros salen estriados porque la masa pasa por una boquilla con forma de estrella.",
+      "tier": 2
+     },
+     {
+      "w": "PUPUSA",
+      "clue": "Tortilla gruesa de maíz rellena de queso, típica de El Salvador",
+      "fact": "Las pupusas se rellenan antes de cocinarlas, con queso, frijoles o chicharrón.",
+      "tier": 2
+     },
+     {
+      "w": "POZOLE",
+      "clue": "Sopa mexicana de granos grandes y blancos de maíz con carne",
+      "fact": "El pozole se sirve con rábanos, lechuga y limón por encima.",
+      "tier": 2
+     },
+     {
+      "w": "COLADOR",
+      "clue": "Utensilio con agujeritos para separar el líquido de la pasta cocida",
+      "fact": "Hay coladores tan finos que atrapan hasta las hojitas del té.",
+      "tier": 2
+     },
+     {
+      "w": "MEZCLAR",
+      "clue": "Juntar ingredientes distintos en un tazón hasta formar una sola cosa",
+      "fact": "Al mezclar harina con agua se forma una masa gracias a unas proteínas llamadas gluten.",
+      "tier": 2
+     },
+     {
+      "w": "AMASAR",
+      "clue": "Apretar y estirar la masa del pan con las manos",
+      "fact": "Al amasar el pan se forman hilos de gluten que lo hacen esponjoso.",
+      "tier": 2
+     },
+     {
+      "w": "CORTAR",
+      "clue": "Partir una cebolla o una zanahoria en pedazos con un cuchillo",
+      "fact": "Los chefs cortan los ingredientes del mismo tamaño para que se cocinen parejo.",
+      "tier": 2
+     },
+     {
+      "w": "FRIJOL",
+      "clue": "Semilla negra, roja o café que se cocina en caldo con arroz",
+      "fact": "Los pueblos de América cultivan el frijol desde hace miles de años.",
+      "tier": 2
+     },
+     {
+      "w": "ESPECIA",
+      "clue": "Polvo o semilla aromática que da sabor, como la pimienta",
+      "fact": "Hace siglos, algunas especias valían tanto como el oro.",
+      "tier": 2
+     },
+     {
+      "w": "BATIDO",
+      "clue": "Bebida espesa de fruta y leche mezcladas en licuadora",
+      "fact": "Las frutas congeladas hacen que el batido quede espeso y frío.",
+      "tier": 2
+     },
+     {
+      "w": "BUÑUELO",
+      "clue": "Bola de masa frita, hueca y dorada, con azúcar o miel",
+      "fact": "Los buñuelos se hinchan al freírse porque el agua de la masa se vuelve vapor.",
+      "tier": 2
+     },
+     {
+      "w": "REPOLLO",
+      "clue": "Verdura redonda de hojas apretadas, verde o morada",
+      "fact": "El repollo morado cambia de color según lo ácido que sea el líquido que le eches.",
+      "tier": 2
+     },
+     {
+      "w": "PEREJIL",
+      "clue": "Hierba de hojitas verdes que se pica para dar sabor y adorno",
+      "fact": "El perejil es de la misma familia de plantas que la zanahoria.",
+      "tier": 2
+     },
+     {
+      "w": "ORÉGANO",
+      "clue": "Hierba aromática seca que se echa sobre la pizza",
+      "fact": "Al secarse, el orégano suele tener un sabor más fuerte que cuando está fresco.",
+      "tier": 2
+     },
+     {
+      "w": "TORTILLA",
+      "clue": "Disco plano de masa de maíz que se asa en una plancha",
+      "fact": "En México se hacen tortillas de maíz desde hace miles de años.",
+      "tier": 3
+     },
+     {
+      "w": "ALMENDRA",
+      "clue": "Fruto seco ovalado, de cáscara dura, que da una leche vegetal",
+      "fact": "El almendro es pariente del durazno y del cerezo.",
+      "tier": 3
+     },
+     {
+      "w": "CALABAZA",
+      "clue": "Fruto grande, redondo y de cáscara dura, de pulpa naranja",
+      "fact": "Las calabazas son frutas, aunque se cocinan como verduras.",
+      "tier": 3
+     },
+     {
+      "w": "BERENJENA",
+      "clue": "Verdura alargada de piel morada y brillante",
+      "fact": "La berenjena es pariente cercana del tomate y de la papa.",
+      "tier": 3
+     },
+     {
+      "w": "SALCHICHA",
+      "clue": "Tubo de carne molida y sazonada que se come en pan",
+      "fact": "En los partidos de béisbol de Estados Unidos es típico comer salchicha en pan.",
+      "tier": 3
+     },
+     {
+      "w": "QUESADILLA",
+      "clue": "Tortilla doblada por la mitad y calentada con relleno derretido",
+      "fact": "En México algunas quesadillas llevan flor de calabaza como relleno.",
+      "tier": 3
+     },
+     {
+      "w": "LICUADORA",
+      "clue": "Aparato con cuchillas giratorias para hacer jugos y batidos",
+      "fact": "Las cuchillas de una licuadora giran tan rápido que convierten fruta entera en líquido.",
+      "tier": 3
+     },
+     {
+      "w": "TOSTADORA",
+      "clue": "Aparato con ranuras donde el pan se dora con electricidad",
+      "fact": "Las primeras tostadoras eléctricas tostaban solo un lado del pan.",
+      "tier": 3
+     },
+     {
+      "w": "MERIENDA",
+      "clue": "Comida ligera de la tarde, entre el almuerzo y la cena",
+      "fact": "En muchos países los niños comen una merienda al salir de la escuela.",
+      "tier": 3
+     },
+     {
+      "w": "CUCHARÓN",
+      "clue": "Utensilio hondo de mango largo para servir sopa de la olla",
+      "fact": "Un cucharón puede servir varias cucharadas de sopa de una sola vez.",
+      "tier": 3
+     },
+     {
+      "w": "REBANADA",
+      "clue": "Pedazo delgado y plano cortado de un pan o un queso",
+      "fact": "El pan ya rebanado se vendió por primera vez hace casi cien años.",
+      "tier": 3
+     },
+     {
+      "w": "ESPAGUETI",
+      "clue": "Pasta larga, delgada y redonda como cuerdas",
+      "fact": "La palabra espagueti viene de una palabra italiana que significa cordelitos.",
+      "tier": 3
+     },
+     {
+      "w": "HAMBURGUESA",
+      "clue": "Carne molida redonda dentro de un pan, con queso y lechuga",
+      "fact": "La hamburguesa no lleva jamón: su nombre viene de la ciudad alemana de Hamburgo.",
+      "tier": 3
+     },
+     {
+      "w": "FRAMBUESA",
+      "clue": "Baya roja y suave formada por muchas bolitas, con un hueco adentro",
+      "fact": "Cada frambuesa está hecha de muchas bolitas, y cada bolita tiene su semilla.",
+      "tier": 3
+     },
+     {
+      "w": "ARÁNDANO",
+      "clue": "Baya redonda de color azul oscuro, muy usada en jugos y postres",
+      "fact": "Los arándanos tienen una pequeña corona en forma de estrella en la punta.",
+      "tier": 3
+     },
+     {
+      "w": "ALBAHACA",
+      "clue": "Hierba de hojas verdes y aroma fuerte, típica de las salsas italianas",
+      "fact": "La albahaca es de la misma familia de plantas que la menta.",
+      "tier": 3
+     },
+     {
+      "w": "GELATINA",
+      "clue": "Postre transparente y tembloroso que se endurece en un molde",
+      "fact": "Si le pones piña cruda, la gelatina no cuaja, porque la fruta tiene una sustancia que la deshace.",
+      "tier": 3
+     },
+     {
+      "w": "CHAMPIÑÓN",
+      "clue": "Hongo blanco y redondo que se come, con sombrerito y tallo",
+      "fact": "Los hongos no son plantas: forman un grupo aparte de seres vivos.",
+      "tier": 3
+     },
+     {
+      "w": "COLIFLOR",
+      "clue": "Verdura blanca de cabeza apretada, prima del brócoli",
+      "fact": "La coliflor, el brócoli y el repollo vienen de la misma planta silvestre.",
+      "tier": 3
+     },
+     {
+      "w": "CACEROLA",
+      "clue": "Olla ancha, poco profunda y con dos asas para guisar",
+      "fact": "Las cacerolas de cobre calientan muy rápido porque el cobre conduce bien el calor.",
+      "tier": 3
+     },
+     {
+      "w": "DESAYUNO",
+      "clue": "Primera comida del día, que se toma por la mañana",
+      "fact": "La palabra desayuno significa dejar el ayuno, o sea, dejar de pasar tiempo sin comer.",
+      "tier": 3
+     },
+     {
+      "w": "ALMUERZO",
+      "clue": "Comida de la mitad del día",
+      "fact": "En muchos países de América Latina el almuerzo es la comida más grande del día.",
+      "tier": 3
+     },
+     {
+      "w": "PANADERÍA",
+      "clue": "Tienda con olor a recién horneado donde venden panes y bollos",
+      "fact": "Los panaderos empiezan a trabajar de madrugada para que el pan esté fresco por la mañana.",
+      "tier": 3
+     },
+     {
+      "w": "RESTAURANTE",
+      "clue": "Lugar donde pagas por una comida que otros preparan",
+      "fact": "La palabra restaurante viene de un verbo francés que significa devolver las fuerzas.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "weather-and-earth",
+   "words": {
+    "en": [
+     {
+      "w": "SUN",
+      "clue": "Our closest star, giving Earth light and heat",
+      "fact": "More than a million Earths could fit inside the Sun.",
+      "tier": 1
+     },
+     {
+      "w": "ICE",
+      "clue": "Water that has frozen solid and feels very cold",
+      "fact": "Ice floats because frozen water takes up more space than liquid water.",
+      "tier": 1
+     },
+     {
+      "w": "DEW",
+      "clue": "Tiny drops of water on grass early in the morning",
+      "fact": "Dew forms when the air cools overnight and water vapor turns into drops.",
+      "tier": 1
+     },
+     {
+      "w": "SKY",
+      "clue": "Blue space above us where clouds and birds float",
+      "fact": "The sky looks blue because air scatters blue sunlight more than other colors.",
+      "tier": 1
+     },
+     {
+      "w": "SLEET",
+      "clue": "Icy mix of rain and snow that falls in winter",
+      "fact": "Sleet forms when raindrops freeze into ice pellets on their way down.",
+      "tier": 1
+     },
+     {
+      "w": "FLOOD",
+      "clue": "Too much water covering land that is usually dry",
+      "fact": "Floodwaters can leave rich mud that helps farmers grow crops.",
+      "tier": 1
+     },
+     {
+      "w": "ROCK",
+      "clue": "Hard, solid lump of stone that mountains are made of",
+      "fact": "Some rocks are made from melted lava that cooled and hardened.",
+      "tier": 1
+     },
+     {
+      "w": "SAND",
+      "clue": "Tiny grains of crushed rock found on beaches and deserts",
+      "fact": "Sand is made of tiny pieces of rock and shell worn down over time.",
+      "tier": 1
+     },
+     {
+      "w": "SOIL",
+      "clue": "Brown top layer of ground where plants put down roots",
+      "fact": "A teaspoon of healthy soil holds billions of tiny living things.",
+      "tier": 1
+     },
+     {
+      "w": "CLAY",
+      "clue": "Sticky, smooth earth that potters mold into bowls",
+      "fact": "Clay turns hard as rock when it is heated in a very hot furnace called a kiln.",
+      "tier": 1
+     },
+     {
+      "w": "COAL",
+      "clue": "Black rock that people burn for heat",
+      "fact": "Most coal comes from swampy forests that grew about 300 million years ago, before dinosaurs.",
+      "tier": 1
+     },
+     {
+      "w": "DUNE",
+      "clue": "Hill of sand shaped by the wind",
+      "fact": "Some desert dunes slowly creep across the land as the wind pushes their sand.",
+      "tier": 1
+     },
+     {
+      "w": "CAVE",
+      "clue": "Large natural hollow in a hillside where bats like to sleep",
+      "fact": "Deep caves stay about the same cool temperature all year long.",
+      "tier": 1
+     },
+     {
+      "w": "HILL",
+      "clue": "Rounded rise of land, smaller than a mountain",
+      "fact": "There is no exact rule for when a hill becomes a mountain.",
+      "tier": 1
+     },
+     {
+      "w": "PEAK",
+      "clue": "Pointed very top of a mountain",
+      "fact": "Peaks high up stay snowy even in summer because the air is so cold.",
+      "tier": 1
+     },
+     {
+      "w": "RIVER",
+      "clue": "Long stream of water flowing across land to the sea",
+      "fact": "Over many years, a river can carve a deep canyon through solid rock.",
+      "tier": 1
+     },
+     {
+      "w": "WAVE",
+      "clue": "Rolling ridge of water that crashes on a beach",
+      "fact": "Most ocean waves are made by wind blowing across the water.",
+      "tier": 1
+     },
+     {
+      "w": "TIDE",
+      "clue": "Daily rise and fall of the sea along the shore",
+      "fact": "Tides are caused mostly by the Moon's pull on the oceans.",
+      "tier": 1
+     },
+     {
+      "w": "LAKE",
+      "clue": "Large body of water with land all around it",
+      "fact": "Some lakes are so big that they have waves and sandy beaches like the ocean.",
+      "tier": 1
+     },
+     {
+      "w": "STEAM",
+      "clue": "Hot white cloud that puffs from a boiling kettle",
+      "fact": "Steam power made the first trains and factory machines run.",
+      "tier": 1
+     },
+     {
+      "w": "GALE",
+      "clue": "Very strong wind that bends trees",
+      "fact": "A gale can snap branches off trees and make it hard to walk.",
+      "tier": 1
+     },
+     {
+      "w": "GUST",
+      "clue": "Sudden short blast of wind",
+      "fact": "Gusts happen when air moves in uneven bursts instead of a steady flow.",
+      "tier": 1
+     },
+     {
+      "w": "FAULT",
+      "clue": "Crack in the ground where earthquakes often begin",
+      "fact": "Earthquakes happen when rock suddenly slips along a fault.",
+      "tier": 1
+     },
+     {
+      "w": "CRUST",
+      "clue": "Thin rocky outer shell of the Earth that we walk on",
+      "fact": "Compared to the whole planet, Earth's crust is about as thin as an apple's skin.",
+      "tier": 1
+     },
+     {
+      "w": "CLIFF",
+      "clue": "Tall steep rock wall where land drops straight down",
+      "fact": "Many seabirds nest on sea cliffs, safe from animals that cannot climb.",
+      "tier": 1
+     },
+     {
+      "w": "SMOG",
+      "clue": "Dirty yellow-gray haze that hangs over a busy city",
+      "fact": "The word smog was made by mashing together smoke and fog.",
+      "tier": 1
+     },
+     {
+      "w": "ASH",
+      "clue": "Gray powder left over after wood burns",
+      "fact": "Volcanic ash is made of tiny bits of rock and glass.",
+      "tier": 1
+     },
+     {
+      "w": "DELTA",
+      "clue": "Triangle of muddy land where a river reaches the sea",
+      "fact": "Rivers drop mud where they slow down, building a delta that grows over time.",
+      "tier": 1
+     },
+     {
+      "w": "VOLCANO",
+      "clue": "Mountain with an opening that can erupt hot lava",
+      "fact": "Some volcanoes built whole islands, like the ones that make up Hawaii.",
+      "tier": 2
+     },
+     {
+      "w": "FOSSIL",
+      "clue": "Stone-like remains of something that lived millions of years ago",
+      "fact": "Most fossils form when buried bones slowly turn into stone over millions of years.",
+      "tier": 2
+     },
+     {
+      "w": "ISLAND",
+      "clue": "Land completely surrounded by water",
+      "fact": "Greenland is the largest island in the world, yet it is smaller than any continent.",
+      "tier": 2
+     },
+     {
+      "w": "DESERT",
+      "clue": "Dry land that gets very little rain",
+      "fact": "Antarctica is a desert, because very little snow or rain falls there.",
+      "tier": 2
+     },
+     {
+      "w": "CANYON",
+      "clue": "Deep valley with steep sides carved by a river",
+      "fact": "The Grand Canyon was carved by the Colorado River over millions of years.",
+      "tier": 2
+     },
+     {
+      "w": "GLACIER",
+      "clue": "Huge river of ice that creeps downhill",
+      "fact": "A glacier is so heavy that it slowly flows downhill like a very slow river.",
+      "tier": 2
+     },
+     {
+      "w": "ICICLE",
+      "clue": "Pointy spike of ice hanging from a roof edge",
+      "fact": "Icicles grow when melting snow drips down and freezes again.",
+      "tier": 2
+     },
+     {
+      "w": "SUNSET",
+      "clue": "When the sun drops out of sight in the evening",
+      "fact": "Sunsets look orange and red because sunlight travels through more air to reach you.",
+      "tier": 2
+     },
+     {
+      "w": "SUNRISE",
+      "clue": "Moment in the morning when the sun first peeks up",
+      "fact": "The sun seems to rise because Earth is spinning toward it.",
+      "tier": 2
+     },
+     {
+      "w": "SHOWER",
+      "clue": "Short burst of rain from a passing cloud",
+      "fact": "One street can get a rain shower while the next street stays dry.",
+      "tier": 2
+     },
+     {
+      "w": "DRIZZLE",
+      "clue": "Very light rain with tiny drops",
+      "fact": "Drizzle drops are so small they seem to float in the air.",
+      "tier": 2
+     },
+     {
+      "w": "WEATHER",
+      "clue": "Sunny, rainy, windy or snowy: what it is like outside today",
+      "fact": "Weather changes from day to day, but climate is the usual pattern over many years.",
+      "tier": 2
+     },
+     {
+      "w": "PUDDLE",
+      "clue": "Small pool of rainwater on the road, fun to jump in",
+      "fact": "Puddles disappear as the sun warms the water and it evaporates into the air.",
+      "tier": 2
+     },
+     {
+      "w": "GRAVEL",
+      "clue": "Crunchy small stones spread on driveways and paths",
+      "fact": "Gravel is often made by crushing bigger rocks into small pieces.",
+      "tier": 2
+     },
+     {
+      "w": "PEBBLE",
+      "clue": "Small, smooth, rounded stone worn by water",
+      "fact": "Pebbles are smooth because moving water has rolled them around for years.",
+      "tier": 2
+     },
+     {
+      "w": "BOULDER",
+      "clue": "Giant rock, bigger than a person",
+      "fact": "Glaciers can carry huge boulders for miles and then drop them far from home.",
+      "tier": 2
+     },
+     {
+      "w": "MEADOW",
+      "clue": "Grassy field full of wildflowers",
+      "fact": "Bees and butterflies visit meadows to sip sweet nectar from flowers.",
+      "tier": 2
+     },
+     {
+      "w": "VALLEY",
+      "clue": "Low land between mountains or hills",
+      "fact": "Many valleys were carved by rivers or glaciers over thousands of years.",
+      "tier": 2
+     },
+     {
+      "w": "PLATEAU",
+      "clue": "High flat land that rises sharply above the land around it",
+      "fact": "The Tibetan Plateau is so high it is nicknamed the roof of the world.",
+      "tier": 2
+     },
+     {
+      "w": "LAGOON",
+      "clue": "Calm shallow pool of seawater cut off by sand or a reef",
+      "fact": "Many islands ringed by coral reefs have a calm, shallow lagoon in the middle.",
+      "tier": 2
+     },
+     {
+      "w": "EQUATOR",
+      "clue": "Imaginary line around Earth's middle, halfway between the poles",
+      "fact": "Near the equator, day and night stay about twelve hours long all year.",
+      "tier": 2
+     },
+     {
+      "w": "OXYGEN",
+      "clue": "Invisible gas in the air that living things need to breathe",
+      "fact": "About one fifth of the air around us is oxygen.",
+      "tier": 2
+     },
+     {
+      "w": "GRANITE",
+      "clue": "Hard speckled rock used for countertops and statues",
+      "fact": "Granite forms slowly when melted rock cools deep underground.",
+      "tier": 2
+     },
+     {
+      "w": "QUARTZ",
+      "clue": "Hard clear or milky crystal common in rocks",
+      "fact": "Much of the sand on beaches is made mostly of tiny bits of quartz.",
+      "tier": 2
+     },
+     {
+      "w": "DIAMOND",
+      "clue": "Sparkling gem that is the hardest natural material known",
+      "fact": "Diamonds are made of carbon, the same element found in pencil lead.",
+      "tier": 2
+     },
+     {
+      "w": "SUMMER",
+      "clue": "Warmest season, with long days and school vacation",
+      "fact": "It is summer when your part of Earth is tilted toward the Sun.",
+      "tier": 2
+     },
+     {
+      "w": "WINTER",
+      "clue": "Coldest season of the year, when days are short",
+      "fact": "Winter days are short because the Sun stays low in the sky.",
+      "tier": 2
+     },
+     {
+      "w": "AUTUMN",
+      "clue": "Cool season when leaves turn orange and drop off trees",
+      "fact": "Leaves change color when green chlorophyll fades and reveals yellow and orange underneath.",
+      "tier": 2
+     },
+     {
+      "w": "FREEZE",
+      "clue": "Turn solid from being very cold, like water into ice",
+      "fact": "Water is unusual because it takes up more space when it freezes.",
+      "tier": 2
+     },
+     {
+      "w": "CRATER",
+      "clue": "Bowl-shaped hole made by a volcano or a space rock",
+      "fact": "Many craters on Earth were made by space rocks crashing down long ago.",
+      "tier": 2
+     },
+     {
+      "w": "HORIZON",
+      "clue": "Far-off line where earth and sky seem to meet",
+      "fact": "On a flat sea, the horizon is only a few miles away.",
+      "tier": 2
+     },
+     {
+      "w": "TUNDRA",
+      "clue": "Freezing flat land with no trees and frozen ground",
+      "fact": "In the tundra, the ground just below the surface stays frozen all year.",
+      "tier": 2
+     },
+     {
+      "w": "ATMOSPHERE",
+      "clue": "Blanket of gases that surrounds our planet",
+      "fact": "The atmosphere burns up most small space rocks before they can reach the ground.",
+      "tier": 3
+     },
+     {
+      "w": "WATERFALL",
+      "clue": "River that tumbles over a high drop",
+      "fact": "Waterfalls keep wearing away rock at the edge, so they slowly move upstream.",
+      "tier": 3
+     },
+     {
+      "w": "LANDSLIDE",
+      "clue": "Rocks and dirt suddenly sliding down a steep hillside",
+      "fact": "Heavy rain can soak a hillside until the loose soil slides down.",
+      "tier": 3
+     },
+     {
+      "w": "SANDSTORM",
+      "clue": "Desert wind that whips up thick clouds of grit",
+      "fact": "Dust from the Sahara desert can blow all the way across the Atlantic Ocean.",
+      "tier": 3
+     },
+     {
+      "w": "MOUNTAIN",
+      "clue": "Huge natural rise of land, taller than any hill",
+      "fact": "Mountains form when huge slabs of Earth's crust push together and crumple upward.",
+      "tier": 3
+     },
+     {
+      "w": "FORECAST",
+      "clue": "Prediction of what the sky will do tomorrow",
+      "fact": "Forecasters use satellites, weather balloons and computers to predict tomorrow's weather.",
+      "tier": 3
+     },
+     {
+      "w": "RAINDROP",
+      "clue": "Tiny ball of water falling from a cloud",
+      "fact": "Each raindrop forms around a tiny speck of dust floating in a cloud.",
+      "tier": 3
+     },
+     {
+      "w": "LIMESTONE",
+      "clue": "Pale rock made long ago from sea shells and coral",
+      "fact": "Much limestone is made of the tiny shells and bones of ancient sea creatures.",
+      "tier": 3
+     },
+     {
+      "w": "OBSIDIAN",
+      "clue": "Shiny black volcanic glass",
+      "fact": "Obsidian forms when lava cools so fast that crystals have no time to grow.",
+      "tier": 3
+     },
+     {
+      "w": "STALAGMITE",
+      "clue": "Pointy rock spike rising up from a cave floor",
+      "fact": "Stalagmites grow very slowly, often less than a millimeter in a year.",
+      "tier": 3
+     },
+     {
+      "w": "HEMISPHERE",
+      "clue": "Half of the Earth, like north or south",
+      "fact": "When it is summer in the northern hemisphere, it is winter in the southern.",
+      "tier": 3
+     },
+     {
+      "w": "CONTINENT",
+      "clue": "Huge body of land such as Asia or Africa",
+      "fact": "Long ago, all the continents were joined in one giant landmass called Pangaea.",
+      "tier": 3
+     },
+     {
+      "w": "PENINSULA",
+      "clue": "Strip of land with water on three sides",
+      "fact": "Florida is a famous peninsula, with ocean on three sides.",
+      "tier": 3
+     },
+     {
+      "w": "WILDFIRE",
+      "clue": "Huge uncontrolled fire racing through a dry forest",
+      "fact": "Some trees need the heat of a wildfire to open their cones and release seeds.",
+      "tier": 3
+     },
+     {
+      "w": "RAINFOREST",
+      "clue": "Warm, damp, thick jungle packed with towering trees",
+      "fact": "Rainforest treetops form a leafy roof called a canopy where many animals live.",
+      "tier": 3
+     },
+     {
+      "w": "BAROMETER",
+      "clue": "Instrument that measures the push of the air to predict storms",
+      "fact": "Falling air pressure on a barometer often means a storm is coming.",
+      "tier": 3
+     },
+     {
+      "w": "WINDMILL",
+      "clue": "Tall machine with big spinning blades turned by moving air",
+      "fact": "Windmills have been used for hundreds of years to grind grain and pump water.",
+      "tier": 3
+     },
+     {
+      "w": "SEISMOGRAPH",
+      "clue": "Machine that draws wiggly lines when the ground shakes",
+      "fact": "Seismographs can detect shaking from earthquakes on the other side of the planet.",
+      "tier": 3
+     },
+     {
+      "w": "WEATHERVANE",
+      "clue": "Spinning rooftop pointer, often a rooster, showing wind direction",
+      "fact": "A weather vane points toward the direction the wind is coming from.",
+      "tier": 3
+     },
+     {
+      "w": "TEMPERATURE",
+      "clue": "How hot or cold something is, measured in degrees",
+      "fact": "It gets colder the higher you climb up a mountain.",
+      "tier": 3
+     },
+     {
+      "w": "OVERCAST",
+      "clue": "Gray, cloud-covered sky with no blue showing",
+      "fact": "Even on an overcast day, rays from the Sun can still cause sunburn.",
+      "tier": 3
+     },
+     {
+      "w": "SEDIMENT",
+      "clue": "Sand, mud and pebbles that settle at the bottom of water",
+      "fact": "Layers of sediment can squeeze together over millions of years and become rock.",
+      "tier": 3
+     },
+     {
+      "w": "GEOLOGIST",
+      "clue": "Scientist who studies rocks, volcanoes and fossils",
+      "fact": "Geologists read layers of rock like pages in a very old history book.",
+      "tier": 3
+     },
+     {
+      "w": "SUNSHINE",
+      "clue": "Warm light from our nearest star on a clear day",
+      "fact": "Sunlight takes about eight minutes to travel from the Sun to Earth.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "SOL",
+      "clue": "Estrella más cercana a la Tierra, que nos da luz y calor",
+      "fact": "En el Sol cabrían más de un millón de planetas como la Tierra.",
+      "tier": 1
+     },
+     {
+      "w": "RÍO",
+      "clue": "Corriente larga de agua dulce que baja hasta el mar",
+      "fact": "Con los años, un río puede abrir un cañón profundo en la roca.",
+      "tier": 1
+     },
+     {
+      "w": "MAR",
+      "clue": "Enorme extensión de agua salada donde van a parar los ríos",
+      "fact": "El mar es salado porque los ríos arrastran sales de las rocas hasta él.",
+      "tier": 1
+     },
+     {
+      "w": "LAGO",
+      "clue": "Gran masa de agua rodeada de tierra",
+      "fact": "Algunos lagos son tan grandes que tienen olas y playas como el mar.",
+      "tier": 1
+     },
+     {
+      "w": "ISLA",
+      "clue": "Tierra rodeada de agua por todas partes",
+      "fact": "Groenlandia es la isla más grande del mundo, pero es más pequeña que un continente.",
+      "tier": 1
+     },
+     {
+      "w": "DUNA",
+      "clue": "Colina de arena que forma el viento",
+      "fact": "Algunas dunas avanzan despacio, empujadas por el viento.",
+      "tier": 1
+     },
+     {
+      "w": "ARENA",
+      "clue": "Granitos de roca que cubren playas y desiertos",
+      "fact": "La arena está hecha de rocas y conchas muy desgastadas por el agua y el viento.",
+      "tier": 1
+     },
+     {
+      "w": "BARRO",
+      "clue": "Mezcla blanda y pegajosa de tierra con agua, donde se hunden botas",
+      "fact": "Con barro se han construido casas durante miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "DELTA",
+      "clue": "Terreno en forma de triángulo donde un río llega al mar",
+      "fact": "Los ríos sueltan lodo donde se frenan y así forman un delta que crece con el tiempo.",
+      "tier": 1
+     },
+     {
+      "w": "CERRO",
+      "clue": "Elevación de tierra más pequeña que una montaña",
+      "fact": "No existe una regla exacta para decir cuándo un cerro se vuelve montaña.",
+      "tier": 1
+     },
+     {
+      "w": "VALLE",
+      "clue": "Terreno bajo entre dos montañas o cerros",
+      "fact": "Muchos valles fueron cavados por ríos o glaciares durante miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "OLA",
+      "clue": "Cresta de agua que se mueve y se rompe en la playa",
+      "fact": "La mayoría de las olas del mar las produce el viento al soplar sobre el agua.",
+      "tier": 1
+     },
+     {
+      "w": "MAREA",
+      "clue": "Subida y bajada del nivel del mar durante el día",
+      "fact": "Las mareas se deben sobre todo a la atracción de la Luna sobre los océanos.",
+      "tier": 1
+     },
+     {
+      "w": "CALOR",
+      "clue": "Lo que sientes al mediodía en pleno verano y te hace sudar",
+      "fact": "Cuando sudas, el agua de tu piel se evapora y te refresca.",
+      "tier": 1
+     },
+     {
+      "w": "FRÍO",
+      "clue": "Lo que sientes en la nieve que te hace temblar y abrigarte",
+      "fact": "Cuando tienes frío, tus músculos tiemblan para producir calor.",
+      "tier": 1
+     },
+     {
+      "w": "ROCÍO",
+      "clue": "Gotitas de agua que aparecen sobre el pasto al amanecer",
+      "fact": "El rocío se forma cuando el aire se enfría de noche y el vapor se vuelve gotitas.",
+      "tier": 1
+     },
+     {
+      "w": "HUMO",
+      "clue": "Nube gris que sube cuando algo se quema",
+      "fact": "El humo es una mezcla de gases y partículas diminutas que flotan en el aire.",
+      "tier": 1
+     },
+     {
+      "w": "GOTA",
+      "clue": "Pedacito redondo de agua que cae del cielo o de un grifo",
+      "fact": "Las gotas de lluvia se forman alrededor de una partícula minúscula de polvo.",
+      "tier": 1
+     },
+     {
+      "w": "CIMA",
+      "clue": "Punto más alto de una montaña",
+      "fact": "En la cima de las montañas altas hay nieve casi todo el año.",
+      "tier": 1
+     },
+     {
+      "w": "SELVA",
+      "clue": "Bosque tropical espeso donde llueve casi todos los días",
+      "fact": "Los árboles de la selva forman un techo de hojas donde viven muchísimos animales.",
+      "tier": 1
+     },
+     {
+      "w": "PLAYA",
+      "clue": "Orilla de arena junto al mar",
+      "fact": "Hay playas de arena blanca, dorada, negra y hasta rosada.",
+      "tier": 1
+     },
+     {
+      "w": "FÓSIL",
+      "clue": "Huella o resto de un ser vivo antiguo, convertido en piedra",
+      "fact": "La mayoría de los fósiles se forman cuando huesos enterrados se vuelven piedra durante millones de años.",
+      "tier": 1
+     },
+     {
+      "w": "CAÑÓN",
+      "clue": "Valle profundo de paredes verticales que abrió un río",
+      "fact": "El Gran Cañón del Colorado fue excavado por un río durante millones de años.",
+      "tier": 1
+     },
+     {
+      "w": "LUNA",
+      "clue": "Satélite natural de la Tierra que brilla de noche",
+      "fact": "La Luna se aleja de la Tierra unos centímetros cada año.",
+      "tier": 1
+     },
+     {
+      "w": "CIELO",
+      "clue": "Espacio azul sobre nosotros donde flotan las nubes y vuelan las aves",
+      "fact": "El cielo se ve azul porque el aire dispersa más la luz azul del Sol que otros colores.",
+      "tier": 1
+     },
+     {
+      "w": "AIRE",
+      "clue": "Mezcla invisible de gases que respiramos",
+      "fact": "Aunque no lo veas, el aire pesa y ocupa espacio; por eso puedes inflar un globo.",
+      "tier": 1
+     },
+     {
+      "w": "GEMA",
+      "clue": "Piedra preciosa y brillante que se usa en joyas",
+      "fact": "Muchas gemas se forman muy adentro de la Tierra, con calor y presión durante millones de años.",
+      "tier": 1
+     },
+     {
+      "w": "POLVO",
+      "clue": "Partículas finísimas de tierra seca que flotan y ensucian los muebles",
+      "fact": "El viento puede llevar polvo del desierto del Sahara hasta América.",
+      "tier": 1
+     },
+     {
+      "w": "VOLCÁN",
+      "clue": "Montaña con un hueco por donde puede salir lava",
+      "fact": "Algunas islas, como las de Hawái, nacieron de volcanes que brotaron del fondo del mar.",
+      "tier": 2
+     },
+     {
+      "w": "CRÁTER",
+      "clue": "Hueco en forma de tazón dejado por un volcán o un meteorito",
+      "fact": "Muchos cráteres de la Tierra los hicieron rocas del espacio que chocaron hace mucho tiempo.",
+      "tier": 2
+     },
+     {
+      "w": "ABISMO",
+      "clue": "Hueco muy hondo en la tierra o en el fondo del mar",
+      "fact": "La Fosa de las Marianas, en el océano, es más honda de lo que el Everest es alto.",
+      "tier": 2
+     },
+     {
+      "w": "LAGUNA",
+      "clue": "Lago pequeño de aguas tranquilas y poco hondas",
+      "fact": "Algunas lagunas se secan en verano y vuelven a llenarse cuando llueve.",
+      "tier": 2
+     },
+     {
+      "w": "SIERRA",
+      "clue": "Cadena de montañas con picos en fila",
+      "fact": "Se llama sierra porque sus picos se parecen a los dientes de una sierra de cortar.",
+      "tier": 2
+     },
+     {
+      "w": "GRIETA",
+      "clue": "Abertura larga y estrecha en el suelo o en una roca",
+      "fact": "Las grietas aparecen cuando la tierra se seca o se mueve en un temblor.",
+      "tier": 2
+     },
+     {
+      "w": "BOSQUE",
+      "clue": "Terreno grande lleno de árboles",
+      "fact": "Un bosque da hogar a miles de animales, insectos y hongos.",
+      "tier": 2
+     },
+     {
+      "w": "CHARCO",
+      "clue": "Pequeña poza de agua de lluvia en la calle",
+      "fact": "Los charcos desaparecen porque el sol calienta el agua y esta se evapora.",
+      "tier": 2
+     },
+     {
+      "w": "CENIZA",
+      "clue": "Polvo gris que queda después de quemar madera",
+      "fact": "La ceniza de un volcán está hecha de pedacitos diminutos de roca y vidrio.",
+      "tier": 2
+     },
+     {
+      "w": "ARCILLA",
+      "clue": "Tierra suave y pegajosa que se moldea para hacer vasijas",
+      "fact": "La arcilla se endurece como piedra cuando se calienta en un horno muy caliente.",
+      "tier": 2
+     },
+     {
+      "w": "CARBÓN",
+      "clue": "Roca negra que se quema para dar calor",
+      "fact": "Gran parte del carbón se formó de bosques pantanosos que existieron antes de los dinosaurios.",
+      "tier": 2
+     },
+     {
+      "w": "GLACIAR",
+      "clue": "Enorme río de hielo que avanza muy despacio",
+      "fact": "Un glaciar pesa tanto que baja despacito por la montaña como un río muy lento.",
+      "tier": 2
+     },
+     {
+      "w": "CASCADA",
+      "clue": "Agua de un río que cae desde un lugar muy alto",
+      "fact": "Las cascadas desgastan la roca del borde y por eso se van moviendo río arriba.",
+      "tier": 2
+     },
+     {
+      "w": "TUNDRA",
+      "clue": "Llanura helada sin árboles, con el suelo congelado",
+      "fact": "En la tundra, el suelo a poca profundidad está congelado todo el año.",
+      "tier": 2
+     },
+     {
+      "w": "MESETA",
+      "clue": "Terreno plano y elevado que se alza sobre sus alrededores",
+      "fact": "La meseta del Tíbet es tan alta que la llaman el techo del mundo.",
+      "tier": 2
+     },
+     {
+      "w": "OXÍGENO",
+      "clue": "Gas invisible del aire que los seres vivos necesitan para respirar",
+      "fact": "Las plantas y las algas del mar producen casi todo el oxígeno del aire.",
+      "tier": 2
+     },
+     {
+      "w": "GRANITO",
+      "clue": "Roca dura y moteada que se usa en encimeras de cocina",
+      "fact": "El granito se forma cuando roca derretida se enfría despacio, muy adentro de la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "CUARZO",
+      "clue": "Cristal duro, transparente o lechoso, común en las rocas",
+      "fact": "Los relojes de cuarzo funcionan con un cristalito que vibra cuando le llega electricidad.",
+      "tier": 2
+     },
+     {
+      "w": "VERANO",
+      "clue": "Estación más calurosa del año, con días largos",
+      "fact": "Es verano cuando tu parte de la Tierra está inclinada hacia el Sol.",
+      "tier": 2
+     },
+     {
+      "w": "BASALTO",
+      "clue": "Roca oscura que se forma cuando la lava se enfría",
+      "fact": "Gran parte del fondo del océano está hecha de basalto.",
+      "tier": 2
+     },
+     {
+      "w": "ECUADOR",
+      "clue": "Línea imaginaria que rodea la Tierra por la mitad, entre los polos",
+      "fact": "Cerca del ecuador, el día y la noche duran casi doce horas todo el año.",
+      "tier": 2
+     },
+     {
+      "w": "MONTAÑA",
+      "clue": "Gran elevación de terreno, más alta que cualquier cerro",
+      "fact": "Las montañas se forman cuando enormes placas de la corteza terrestre se empujan y se arrugan hacia arriba.",
+      "tier": 2
+     },
+     {
+      "w": "LLANURA",
+      "clue": "Terreno muy extenso y plano, sin montañas",
+      "fact": "Las llanuras son buenas para sembrar porque son planas y su suelo suele ser fértil.",
+      "tier": 2
+     },
+     {
+      "w": "RÁFAGA",
+      "clue": "Golpe de viento fuerte que dura un instante",
+      "fact": "Las ráfagas ocurren porque el aire se mueve a golpes desiguales y no de forma pareja.",
+      "tier": 2
+     },
+     {
+      "w": "ISLOTE",
+      "clue": "Isla muy pequeña, a veces solo un montón de rocas",
+      "fact": "Algunos islotes son el hogar de miles de aves marinas.",
+      "tier": 2
+     },
+     {
+      "w": "ARROYO",
+      "clue": "Río muy pequeño y poco profundo que se cruza saltando entre piedras",
+      "fact": "Muchos arroyos pequeños se juntan para formar un río grande.",
+      "tier": 2
+     },
+     {
+      "w": "MANGLAR",
+      "clue": "Bosque de árboles con raíces dentro del agua salada de la costa",
+      "fact": "Las raíces de los manglares protegen la costa de la fuerza de las olas.",
+      "tier": 2
+     },
+     {
+      "w": "PLANETA",
+      "clue": "Mundo enorme y redondo que gira alrededor de una estrella",
+      "fact": "La Tierra es el único planeta del Sistema Solar con océanos de agua líquida.",
+      "tier": 2
+     },
+     {
+      "w": "CALIZA",
+      "clue": "Roca clara hecha de conchas y esqueletos de animales marinos antiguos",
+      "fact": "Muchas cuevas se forman cuando el agua de lluvia va disolviendo la caliza poco a poco.",
+      "tier": 2
+     },
+     {
+      "w": "AURORA",
+      "clue": "Luces verdes y rosadas que bailan en el cielo polar",
+      "fact": "Las auroras aparecen cuando partículas del Sol chocan con el aire de la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "MÁRMOL",
+      "clue": "Roca lisa y brillante que se usa para esculturas y pisos",
+      "fact": "El mármol es caliza que cambió por mucho calor y presión bajo la tierra.",
+      "tier": 2
+     },
+     {
+      "w": "TRÓPICO",
+      "clue": "Zona cálida de la Tierra cercana al ecuador",
+      "fact": "La región tropical recibe luz solar fuerte casi todo el año.",
+      "tier": 2
+     },
+     {
+      "w": "DESIERTO",
+      "clue": "Tierra muy seca donde casi nunca llueve",
+      "fact": "La Antártida es un desierto: allí cae muy poca nieve y lluvia.",
+      "tier": 3
+     },
+     {
+      "w": "DIAMANTE",
+      "clue": "Gema transparente que brilla y es el material natural más duro",
+      "fact": "Al campo de béisbol también le dicen diamante, por la forma que tiene.",
+      "tier": 3
+     },
+     {
+      "w": "INVIERNO",
+      "clue": "Estación más fría del año, de días cortos",
+      "fact": "En invierno los días son cortos porque el Sol sube poco en el cielo.",
+      "tier": 3
+     },
+     {
+      "w": "PRIMAVERA",
+      "clue": "Estación de flores y brotes nuevos, después del invierno",
+      "fact": "Al comenzar la primavera, el día y la noche duran casi lo mismo.",
+      "tier": 3
+     },
+     {
+      "w": "ATARDECER",
+      "clue": "Momento en que el Sol baja y el cielo se pone naranja",
+      "fact": "Los atardeceres se ven rojizos porque la luz del Sol atraviesa más aire para llegar a ti.",
+      "tier": 3
+     },
+     {
+      "w": "AMANECER",
+      "clue": "Momento en que sale el sol y termina la noche",
+      "fact": "El Sol parece salir porque la Tierra gira sobre sí misma.",
+      "tier": 3
+     },
+     {
+      "w": "ESTACIÓN",
+      "clue": "Cada una de las cuatro épocas del año, como el verano",
+      "fact": "Hay estaciones porque la Tierra está inclinada mientras da la vuelta al Sol.",
+      "tier": 3
+     },
+     {
+      "w": "ARRECIFE",
+      "clue": "Muro de coral o roca cerca de la superficie del mar",
+      "fact": "Los arrecifes de coral ocupan muy poco del océano, pero dan hogar a muchísimos peces.",
+      "tier": 3
+     },
+     {
+      "w": "PARARRAYOS",
+      "clue": "Barra metálica sobre un techo que atrae las descargas de las nubes",
+      "fact": "Un pararrayos lleva la electricidad de la descarga por un cable hasta la tierra sin dañar el edificio.",
+      "tier": 3
+     },
+     {
+      "w": "PENÍNSULA",
+      "clue": "Tierra rodeada de agua por tres lados",
+      "fact": "Baja California es una larga península con el mar a ambos lados.",
+      "tier": 3
+     },
+     {
+      "w": "CORDILLERA",
+      "clue": "Cadena enorme de montañas, como los Andes",
+      "fact": "Los Andes son la cordillera más larga de la Tierra, con más de siete mil kilómetros.",
+      "tier": 3
+     },
+     {
+      "w": "MANANTIAL",
+      "clue": "Lugar donde el agua brota de la tierra",
+      "fact": "El agua de un manantial viene de lluvia que se filtró bajo la tierra hace tiempo.",
+      "tier": 3
+     },
+     {
+      "w": "HORIZONTE",
+      "clue": "Línea lejana donde parecen juntarse el cielo y el mar",
+      "fact": "Sobre un mar plano, el horizonte está a pocos kilómetros de distancia.",
+      "tier": 3
+     },
+     {
+      "w": "ATMÓSFERA",
+      "clue": "Capa de aire que envuelve la Tierra",
+      "fact": "La atmósfera quema la mayoría de las rocas pequeñas del espacio antes de que lleguen al suelo.",
+      "tier": 3
+     },
+     {
+      "w": "OBSIDIANA",
+      "clue": "Vidrio negro y brillante formado cuando la lava se enfría rápido",
+      "fact": "Los pueblos antiguos de América hacían espejos y herramientas con obsidiana.",
+      "tier": 3
+     },
+     {
+      "w": "NUBARRÓN",
+      "clue": "Nube grande y oscura que anuncia lluvia",
+      "fact": "Las nubes oscuras tienen tantas gotas que casi no dejan pasar la luz.",
+      "tier": 3
+     },
+     {
+      "w": "CONTINENTE",
+      "clue": "Enorme masa de tierra, como África o Asia",
+      "fact": "Hace mucho tiempo todos los continentes estaban unidos en uno solo, llamado Pangea.",
+      "tier": 3
+     },
+     {
+      "w": "HEMISFERIO",
+      "clue": "Mitad de la Tierra, como el norte o el sur",
+      "fact": "Cuando es verano en el hemisferio norte, es invierno en el sur.",
+      "tier": 3
+     },
+     {
+      "w": "ESTALAGMITA",
+      "clue": "Roca puntiaguda que crece hacia arriba desde el piso de una cueva",
+      "fact": "Las estalagmitas crecen muy despacio, a veces menos de un milímetro por año.",
+      "tier": 3
+     },
+     {
+      "w": "INUNDACIÓN",
+      "clue": "Cuando mucha agua cubre tierra que suele estar seca",
+      "fact": "Las crecidas del río Nilo dejaban lodo fértil donde los agricultores sembraban.",
+      "tier": 3
+     },
+     {
+      "w": "DERRUMBE",
+      "clue": "Caída de rocas y tierra por una ladera empinada",
+      "fact": "La lluvia fuerte puede empapar una ladera hasta que la tierra suelta se deslice.",
+      "tier": 3
+     },
+     {
+      "w": "TEMPERATURA",
+      "clue": "Qué tan caliente o frío está algo, medido en grados",
+      "fact": "Mientras más subes una montaña, más baja la temperatura.",
+      "tier": 3
+     },
+     {
+      "w": "PRONÓSTICO",
+      "clue": "Anuncio de cómo estará el tiempo en los próximos días",
+      "fact": "Los meteorólogos usan satélites, globos y computadoras para hacer el pronóstico.",
+      "tier": 3
+     },
+     {
+      "w": "BARÓMETRO",
+      "clue": "Aparato que mide la presión del aire y ayuda a anunciar tormentas",
+      "fact": "Cuando la presión baja en un barómetro, a menudo viene una tormenta.",
+      "tier": 3
+     }
+    ]
+   }
+  }
+ ]
+}
