@@ -1,0 +1,2038 @@
+{
+ "packs": [
+  {
+   "id": "baseball",
+   "words": {
+    "en": [
+     {
+      "w": "OUT",
+      "clue": "Three of these end a team's turn at bat",
+      "fact": "Three outs end each half-inning, so nine full innings means 27 outs per team.",
+      "tier": 1
+     },
+     {
+      "w": "RUN",
+      "clue": "A point scored when a player touches home plate safely",
+      "fact": "A home run with the bases loaded scores four runs at once.",
+      "tier": 1
+     },
+     {
+      "w": "HIT",
+      "clue": "A batter earns this by smacking the ball and reaching base safely",
+      "fact": "A hitter who gets a hit in three of every ten tries is considered excellent.",
+      "tier": 1
+     },
+     {
+      "w": "TEAM",
+      "clue": "Group of players who wear the same uniform and play together",
+      "fact": "A baseball team puts nine players on the field when it is on defense.",
+      "tier": 1
+     },
+     {
+      "w": "FAN",
+      "clue": "Someone who cheers from the stands for a favorite team",
+      "fact": "Fans in the stands who catch a foul ball usually get to keep it.",
+      "tier": 1
+     },
+     {
+      "w": "TAG",
+      "clue": "Touch a runner with the ball to get an out",
+      "fact": "A fielder can tag a runner with the ball held in a glove.",
+      "tier": 1
+     },
+     {
+      "w": "SAFE",
+      "clue": "What the umpire calls when a runner reaches the base in time",
+      "fact": "Umpires show a safe call by spreading both arms wide with palms down.",
+      "tier": 1
+     },
+     {
+      "w": "LEAD",
+      "clue": "Distance a runner steps off the base before the pitch",
+      "fact": "Runners take a lead to get a head start, but stray too far and get tagged.",
+      "tier": 1
+     },
+     {
+      "w": "FLY",
+      "clue": "Birds do this, and so does a ball hit very high",
+      "fact": "A fly ball caught before it touches the ground is an out.",
+      "tier": 1
+     },
+     {
+      "w": "SLIDE",
+      "clue": "Drop low and skid along the dirt to reach a base",
+      "fact": "Players slide feet first or head first to dodge the tag.",
+      "tier": 1
+     },
+     {
+      "w": "PITCH",
+      "clue": "The throw sent from the mound toward the batter",
+      "fact": "From the pitcher's rubber to home plate is exactly 60 feet, 6 inches.",
+      "tier": 1
+     },
+     {
+      "w": "CATCH",
+      "clue": "Grab a flying ball out of the air with a glove",
+      "fact": "Outfielders sometimes leap high against the wall to rob a hitter of a home run.",
+      "tier": 1
+     },
+     {
+      "w": "NINE",
+      "clue": "The number of innings in a regular game, spelled out",
+      "fact": "A team has nine players on defense, and a regular game lasts nine innings.",
+      "tier": 1
+     },
+     {
+      "w": "CLEAT",
+      "clue": "Shoe with bumps or spikes on the bottom for gripping dirt",
+      "fact": "Cleats help players dig into the dirt and take off fast without slipping.",
+      "tier": 1
+     },
+     {
+      "w": "TURF",
+      "clue": "Fake grass that covers the field in some stadiums",
+      "fact": "Some indoor ballparks use turf because real grass cannot grow well under a roof.",
+      "tier": 1
+     },
+     {
+      "w": "DIRT",
+      "clue": "Brown stuff that coats a uniform after sliding into a base",
+      "fact": "Infield dirt is a mix of clay and sand, raked smooth before games.",
+      "tier": 1
+     },
+     {
+      "w": "ACE",
+      "clue": "A team's very best starting pitcher",
+      "fact": "Teams usually give their ace the ball for the most important games.",
+      "tier": 1
+     },
+     {
+      "w": "SEAM",
+      "clue": "The stitched line on a baseball where the leather pieces meet",
+      "fact": "A baseball has 108 red stitches holding its leather cover together.",
+      "tier": 1
+     },
+     {
+      "w": "ROOT",
+      "clue": "Cheer for a team, or the underground part of a plant",
+      "fact": "A famous baseball song says to root, root, root for the home team.",
+      "tier": 1
+     },
+     {
+      "w": "SCORE",
+      "clue": "The count of runs each team has, shown on the big board",
+      "fact": "Baseball scores are often low, like 3 to 2, unlike many other sports.",
+      "tier": 1
+     },
+     {
+      "w": "ERROR",
+      "clue": "A fielder's mistake, like dropping an easy ball",
+      "fact": "Official scorers record errors, and an error does not count as a hit for the batter.",
+      "tier": 1
+     },
+     {
+      "w": "CAGE",
+      "clue": "Net-covered tunnel where hitters practice swinging",
+      "fact": "The net around a batting cage keeps practice balls from flying all over the place.",
+      "tier": 1
+     },
+     {
+      "w": "TEE",
+      "clue": "Short post that holds a ball still for young kids to hit",
+      "fact": "T-ball players hit off a tee before they learn to hit real pitches.",
+      "tier": 1
+     },
+     {
+      "w": "NET",
+      "clue": "Mesh wall behind home plate that protects fans from fast balls",
+      "fact": "Foul balls can fly faster than 100 miles per hour, so many parks use a net.",
+      "tier": 1
+     },
+     {
+      "w": "ARM",
+      "clue": "Strong body part an outfielder uses to throw the ball far",
+      "fact": "A strong throwing arm lets an outfielder fire the ball in to stop runners.",
+      "tier": 1
+     },
+     {
+      "w": "COACH",
+      "clue": "Adult who teaches players and waves runners on from near a base",
+      "fact": "Base coaches stand in small marked boxes near first base and third base.",
+      "tier": 1
+     },
+     {
+      "w": "HOMER",
+      "clue": "Nickname for a hit that sails over the outfield wall",
+      "fact": "A ball hit over the fence in fair territory is a home run, and runners can jog.",
+      "tier": 1
+     },
+     {
+      "w": "CROWD",
+      "clue": "Thousands of fans packed together in the stands",
+      "fact": "A loud crowd can make a ballpark so noisy that players cannot hear each other.",
+      "tier": 1
+     },
+     {
+      "w": "SEASON",
+      "clue": "Spring to fall, the stretch of months when teams play games",
+      "fact": "Pro teams play well over a hundred games in a single season.",
+      "tier": 2
+     },
+     {
+      "w": "LEAGUE",
+      "clue": "A big group of teams that play against each other",
+      "fact": "Professional baseball leagues began in America in the 1800s.",
+      "tier": 2
+     },
+     {
+      "w": "PENNANT",
+      "clue": "Triangle-shaped flag, also the prize for winning a league",
+      "fact": "Pennants are triangle flags that sailors used on ships long before baseball existed.",
+      "tier": 2
+     },
+     {
+      "w": "MASCOT",
+      "clue": "Costumed character who dances and entertains the crowd",
+      "fact": "Mascots wear giant furry costumes and dance, race or cheer in the stands.",
+      "tier": 2
+     },
+     {
+      "w": "ROOKIE",
+      "clue": "A player in his very first big-league year",
+      "fact": "Many famous stars were rookies once, learning the game from older teammates.",
+      "tier": 2
+     },
+     {
+      "w": "WINDUP",
+      "clue": "Pitcher's turning, arm-swinging motion before letting go of the ball",
+      "fact": "Some pitchers skip the big windup when runners are on base so they can throw faster.",
+      "tier": 2
+     },
+     {
+      "w": "ROSTER",
+      "clue": "The list of all the players on a team",
+      "fact": "Teams change their roster during the year by adding and removing players.",
+      "tier": 2
+     },
+     {
+      "w": "LINEUP",
+      "clue": "List that says which player bats first, second, third and so on",
+      "fact": "The manager picks the lineup and writes it on a card before the game.",
+      "tier": 2
+     },
+     {
+      "w": "MANAGER",
+      "clue": "Leader who picks the lineup and decides when to change pitchers",
+      "fact": "Managers wear the same kind of uniform as their players.",
+      "tier": 2
+     },
+     {
+      "w": "SLUGGER",
+      "clue": "Player famous for hitting the ball very hard and far",
+      "fact": "A slugger's long home runs can travel more than 400 feet.",
+      "tier": 2
+     },
+     {
+      "w": "STADIUM",
+      "clue": "Huge building with thousands of seats where fans watch games",
+      "fact": "The word stadium comes from an ancient Greek running track about 600 feet long.",
+      "tier": 2
+     },
+     {
+      "w": "STRETCH",
+      "clue": "In the seventh inning, fans stand up and do this",
+      "fact": "The seventh-inning stretch is a baseball tradition more than a hundred years old.",
+      "tier": 2
+     },
+     {
+      "w": "DEFENSE",
+      "clue": "What the team in the field plays while the other team bats",
+      "fact": "In baseball, the defense is the team that holds the ball, unlike most sports.",
+      "tier": 2
+     },
+     {
+      "w": "OFFENSE",
+      "clue": "What the team at bat plays while trying to score runs",
+      "fact": "The offense sends hitters to the plate in a set batting order, over and over.",
+      "tier": 2
+     },
+     {
+      "w": "RUNNER",
+      "clue": "Player on a base trying to make it all the way around",
+      "fact": "Runners must touch each base in order: first, second, third, then home.",
+      "tier": 2
+     },
+     {
+      "w": "FIELDER",
+      "clue": "Defensive player who gathers hit balls out on the grass",
+      "fact": "Fielders wear gloves, and first basemen and catchers use special glove shapes.",
+      "tier": 2
+     },
+     {
+      "w": "UNIFORM",
+      "clue": "Matching outfit that all teammates wear to play",
+      "fact": "Many teams wear white uniforms at home and gray uniforms on the road.",
+      "tier": 2
+     },
+     {
+      "w": "JERSEY",
+      "clue": "Shirt with the team name and a number on the back",
+      "fact": "Numbers on the back of a jersey help fans tell players apart.",
+      "tier": 2
+     },
+     {
+      "w": "BATTERY",
+      "clue": "Name for the pitcher and catcher working together as a pair",
+      "fact": "A pitcher and catcher agree on every pitch using secret hand signals.",
+      "tier": 2
+     },
+     {
+      "w": "SIGNAL",
+      "clue": "Secret hand motion that tells a player what to do",
+      "fact": "Catchers flash finger signals to tell the pitcher which pitch to throw next.",
+      "tier": 2
+     },
+     {
+      "w": "CLOSER",
+      "clue": "Pitcher brought in near the end to protect a lead",
+      "fact": "A closer often pitches for just one inning, the last one.",
+      "tier": 2
+     },
+     {
+      "w": "REPLAY",
+      "clue": "Video that umpires can watch again to check a call",
+      "fact": "Video replay lets umpires look again at close plays to get the call right.",
+      "tier": 2
+     },
+     {
+      "w": "TICKET",
+      "clue": "Paper or phone pass you need to get into the game",
+      "fact": "Fans often keep old ticket stubs as souvenirs of games they saw.",
+      "tier": 2
+     },
+     {
+      "w": "PEANUT",
+      "clue": "Salty snack in a shell sold by vendors in the stands",
+      "fact": "Peanuts are not true nuts; they grow underground and are related to beans.",
+      "tier": 2
+     },
+     {
+      "w": "POPCORN",
+      "clue": "Fluffy white snack that pops from heated kernels",
+      "fact": "Popcorn kernels pop because the water inside turns to steam and bursts the shell.",
+      "tier": 2
+     },
+     {
+      "w": "LEATHER",
+      "clue": "Cow skin used to make gloves and to cover baseballs",
+      "fact": "A baseball's cover is two pieces of leather shaped like figure eights.",
+      "tier": 2
+     },
+     {
+      "w": "PLAYOFF",
+      "clue": "Extra games after the season to decide who is champion",
+      "fact": "Only the best teams from the season get to play in the playoffs.",
+      "tier": 2
+     },
+     {
+      "w": "RAINOUT",
+      "clue": "A game canceled because clouds are dropping water",
+      "fact": "Some stadiums have roofs that close so weather cannot stop the game.",
+      "tier": 2
+     },
+     {
+      "w": "SPRING",
+      "clue": "The warm season when teams practice before real games start",
+      "fact": "Many teams train in warm states like Florida and Arizona before the season begins.",
+      "tier": 2
+     },
+     {
+      "w": "SINKER",
+      "clue": "Pitch that dips downward, falling toward the dirt as it arrives",
+      "fact": "A sinker tricks batters into hitting the ball into the ground instead of the air.",
+      "tier": 2
+     },
+     {
+      "w": "SLIDER",
+      "clue": "Pitch that darts sideways as it reaches the batter",
+      "fact": "A slider is thrown a little slower than a fastball but breaks sideways.",
+      "tier": 2
+     },
+     {
+      "w": "SHUTOUT",
+      "clue": "When one team stops the other from scoring any runs at all",
+      "fact": "In a shutout, the losing team goes the whole game without a single run.",
+      "tier": 2
+     },
+     {
+      "w": "INFIELDER",
+      "clue": "Defender who guards first, second or third near the dirt diamond",
+      "fact": "Infielders must throw fast and accurately because runners sprint toward the bag.",
+      "tier": 3
+     },
+     {
+      "w": "OUTFIELDER",
+      "clue": "Defender who stands deep on the grass, far from the dirt diamond",
+      "fact": "Baseball has three outfielders: left, center and right.",
+      "tier": 3
+     },
+     {
+      "w": "GROUNDER",
+      "clue": "Ball that rolls and skips across the dirt after being hit",
+      "fact": "Infielders charge a slow grounder, running toward the ball to throw out the runner.",
+      "tier": 3
+     },
+     {
+      "w": "COMEBACK",
+      "clue": "Winning even though your team was losing by a lot",
+      "fact": "Because baseball has no clock, a team is never out of it until the final out.",
+      "tier": 3
+     },
+     {
+      "w": "RELIEVER",
+      "clue": "Pitcher who replaces the tired starter during the game",
+      "fact": "Relievers wait in the bullpen until the manager calls them to the mound.",
+      "tier": 3
+     },
+     {
+      "w": "CHANGEUP",
+      "clue": "A slow pitch thrown with the same motion as a fast one",
+      "fact": "A changeup fools hitters because they swing early at the slow pitch.",
+      "tier": 3
+     },
+     {
+      "w": "KNUCKLEBALL",
+      "clue": "Floating pitch with almost no spin that wobbles unpredictably",
+      "fact": "A knuckleball hardly spins, so the air makes it flutter and dance.",
+      "tier": 3
+     },
+     {
+      "w": "CHAMPION",
+      "clue": "Winner of the final series at the end of the year",
+      "fact": "Teams that win it all receive special championship rings.",
+      "tier": 3
+     },
+     {
+      "w": "SOFTBALL",
+      "clue": "Game like baseball but with a larger ball and underhand pitches",
+      "fact": "In softball, pitchers throw underhand, swinging their arm in a low circle.",
+      "tier": 3
+     },
+     {
+      "w": "TEAMMATE",
+      "clue": "A player who wears the same colors and plays on your side",
+      "fact": "Teammates give high fives and fist bumps after good plays.",
+      "tier": 3
+     },
+     {
+      "w": "AUTOGRAPH",
+      "clue": "A famous player's name written by hand, a prized souvenir",
+      "fact": "Players sign baseballs, cards and bats for fans who wait by the dugout.",
+      "tier": 3
+     },
+     {
+      "w": "SOUVENIR",
+      "clue": "Item you keep to remember a game, like a ball you caught",
+      "fact": "Fans who catch a foul ball or home run in the stands can keep it.",
+      "tier": 3
+     },
+     {
+      "w": "PRACTICE",
+      "clue": "What players do before games to get better, like batting drills",
+      "fact": "Players take batting practice before games, hitting pitches tossed by a coach.",
+      "tier": 3
+     },
+     {
+      "w": "SCOREKEEPER",
+      "clue": "Person who notes each hit, out and run in a notebook",
+      "fact": "Some fans keep score by hand, marking each play with special symbols.",
+      "tier": 3
+     },
+     {
+      "w": "BASEPATH",
+      "clue": "Dirt lane that runners follow between the bases",
+      "fact": "A runner who leaves the baseline to dodge a tag can be called out.",
+      "tier": 3
+     },
+     {
+      "w": "STATISTICS",
+      "clue": "Numbers that track every player's hits, runs and catches",
+      "fact": "Baseball fans love statistics, and some track dozens of numbers for each player.",
+      "tier": 3
+     },
+     {
+      "w": "STRATEGY",
+      "clue": "A plan for how to win, like when to bunt or steal",
+      "fact": "Managers plan which pitchers face which batters, using strategy based on past games.",
+      "tier": 3
+     },
+     {
+      "w": "CELEBRATE",
+      "clue": "Jump, cheer and hug after winning a big game",
+      "fact": "After a big win, teams often gather on the field to celebrate together.",
+      "tier": 3
+     },
+     {
+      "w": "FIREWORKS",
+      "clue": "Colorful explosions in the night sky launched after some games",
+      "fact": "Some ballparks launch fireworks after games on special nights like holidays.",
+      "tier": 3
+     },
+     {
+      "w": "SCREWBALL",
+      "clue": "Rare pitch that curves the opposite way from a curveball",
+      "fact": "A screwball breaks the opposite direction of a curveball, so it surprises hitters.",
+      "tier": 3
+     },
+     {
+      "w": "SCHEDULE",
+      "clue": "Calendar listing when and where a team will play",
+      "fact": "A baseball schedule is long because teams play almost every day in summer.",
+      "tier": 3
+     },
+     {
+      "w": "BACKSTOP",
+      "clue": "Tall fence behind the catcher that stops balls that get past",
+      "fact": "A backstop keeps missed pitches and foul balls from rolling far away.",
+      "tier": 3
+     },
+     {
+      "w": "SPECTATOR",
+      "clue": "Person who watches a game without playing in it",
+      "fact": "Spectators in the stands might catch a foul ball hit their way.",
+      "tier": 3
+     },
+     {
+      "w": "ANNOUNCER",
+      "clue": "Voice on the radio or loudspeaker telling you what is happening",
+      "fact": "Radio announcers describe every pitch so listeners can picture the game.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "BOLA",
+      "clue": "Lanzamiento fuera de la zona; con cuatro, el bateador camina a primera",
+      "fact": "Con cuatro bolas, el bateador camina a primera base sin tener que batear.",
+      "tier": 1
+     },
+     {
+      "w": "OUT",
+      "clue": "Tres de estos terminan la media entrada",
+      "fact": "Cada equipo tiene 27 outs en un juego completo de nueve entradas.",
+      "tier": 1
+     },
+     {
+      "w": "HOME",
+      "clue": "La última base, donde el corredor anota su carrera",
+      "fact": "El plato de home tiene cinco lados y forma de casita.",
+      "tier": 1
+     },
+     {
+      "w": "SAFE",
+      "clue": "Lo que grita el árbitro cuando el corredor llega a tiempo",
+      "fact": "Los árbitros señalan safe abriendo los dos brazos hacia los lados.",
+      "tier": 1
+     },
+     {
+      "w": "HIT",
+      "clue": "Golpe del bateador que lo deja llegar salvo a una base",
+      "fact": "Un bateador que conecta tres hits cada diez turnos es considerado excelente.",
+      "tier": 1
+     },
+     {
+      "w": "ZONA",
+      "clue": "Espacio imaginario sobre el plato por donde debe pasar un buen lanzamiento",
+      "fact": "La zona de strike va, más o menos, de las rodillas al pecho del bateador.",
+      "tier": 1
+     },
+     {
+      "w": "SERIE",
+      "clue": "Varios juegos seguidos entre los mismos dos equipos",
+      "fact": "Los equipos suelen jugar tres o cuatro juegos seguidos contra el mismo rival.",
+      "tier": 1
+     },
+     {
+      "w": "RED",
+      "clue": "Malla detrás del plato que protege a los fanáticos",
+      "fact": "Las pelotas de foul pueden volar a más de 160 kilómetros por hora.",
+      "tier": 1
+     },
+     {
+      "w": "CAL",
+      "clue": "Polvo blanco con el que se marcan las líneas del campo",
+      "fact": "Las líneas de falta se pintan de blanco para que todos las vean bien.",
+      "tier": 1
+     },
+     {
+      "w": "ROBO",
+      "clue": "Cuando un corredor corre a la siguiente base mientras el lanzador tira",
+      "fact": "Un corredor veloz puede aprovechar un descuido del lanzador para robar una base.",
+      "tier": 1
+     },
+     {
+      "w": "POSTE",
+      "clue": "Palo muy alto al final de cada línea blanca del campo",
+      "fact": "Si la pelota pega en este poste de falta, cuenta como jonrón.",
+      "tier": 1
+     },
+     {
+      "w": "FOUL",
+      "clue": "Pelota bateada que cae fuera de las líneas blancas del campo",
+      "fact": "Un foul cuenta como strike, pero no como el tercero si el bateador ya tiene dos.",
+      "tier": 1
+     },
+     {
+      "w": "GANAR",
+      "clue": "Terminar el juego con más carreras que el rival",
+      "fact": "En el béisbol casi no hay empates: si hay igualdad, se juegan entradas extras.",
+      "tier": 1
+     },
+     {
+      "w": "LUCES",
+      "clue": "Torres altas que se encienden para jugar cuando oscurece",
+      "fact": "Gracias a estas luces del estadio, se puede jugar béisbol de noche.",
+      "tier": 1
+     },
+     {
+      "w": "PISAR",
+      "clue": "Tocar la base con el pie al llegar corriendo",
+      "fact": "Para anotar, un corredor debe pisar cada base en orden.",
+      "tier": 1
+     },
+     {
+      "w": "TURNO",
+      "clue": "Cada vez que un bateador se para en el plato a batear",
+      "fact": "Cada bateador espera su turno según el orden de bateo de su equipo.",
+      "tier": 1
+     },
+     {
+      "w": "BRAZO",
+      "clue": "Parte del cuerpo con la que se lanza la pelota",
+      "fact": "Un brazo fuerte permite a un jardinero mandar la pelota lejos y rápido.",
+      "tier": 1
+     },
+     {
+      "w": "MANO",
+      "clue": "Parte del cuerpo donde se pone el guante",
+      "fact": "Los zurdos lanzan con la mano izquierda y los derechos con la derecha.",
+      "tier": 1
+     },
+     {
+      "w": "PIE",
+      "clue": "Parte del cuerpo que toca la base al llegar",
+      "fact": "Un jugador veloz puede llegar de home a primera en unos cuatro segundos.",
+      "tier": 1
+     },
+     {
+      "w": "TACOS",
+      "clue": "Puntas de plástico o metal en la suela de los zapatos",
+      "fact": "Los tacos ayudan a los jugadores a no resbalar sobre el pasto y la tierra.",
+      "tier": 1
+     },
+     {
+      "w": "PASTO",
+      "clue": "Hierba corta y verde que cubre el fondo del campo",
+      "fact": "Las franjas del pasto se forman porque la podadora lo dobla en distintas direcciones.",
+      "tier": 1
+     },
+     {
+      "w": "NUEVE",
+      "clue": "Número de entradas de un juego normal, escrito con letras",
+      "fact": "Cada equipo pone nueve jugadores en el campo cuando defiende.",
+      "tier": 1
+     },
+     {
+      "w": "OLA",
+      "clue": "Movimiento en las gradas cuando los fanáticos se paran uno tras otro",
+      "fact": "La multitud hace esta figura levantando los brazos en orden alrededor de todo el estadio.",
+      "tier": 1
+     },
+     {
+      "w": "TRES",
+      "clue": "Cantidad de strikes que ponchan a un bateador, escrita con letras",
+      "fact": "Tres strikes ponchan al bateador, y tres outs terminan la media entrada.",
+      "tier": 1
+     },
+     {
+      "w": "FIRMA",
+      "clue": "El nombre de un jugador escrito por él mismo en una pelota",
+      "fact": "Muchos aficionados esperan horas para que un jugador les firme su pelota.",
+      "tier": 1
+     },
+     {
+      "w": "DEDO",
+      "clue": "Parte de la mano con que el receptor hace señas",
+      "fact": "El receptor usa sus dedos para decirle al lanzador qué lanzamiento tirar.",
+      "tier": 1
+     },
+     {
+      "w": "TECHO",
+      "clue": "Cubierta de algunos estadios que se cierra cuando llueve",
+      "fact": "Algunos estadios tienen techo que se abre y se cierra según el clima.",
+      "tier": 1
+     },
+     {
+      "w": "RECTA",
+      "clue": "Lanzamiento muy rápido que viaja derecho hacia el bateador",
+      "fact": "Los mejores lanzadores profesionales pueden tirar una recta a más de 150 kilómetros por hora.",
+      "tier": 1
+     },
+     {
+      "w": "ELEVADO",
+      "clue": "Pelota bateada muy alto que cae en el pasto del fondo",
+      "fact": "Si un jardinero atrapa un elevado antes de que toque el suelo, es out.",
+      "tier": 2
+     },
+     {
+      "w": "NOVATO",
+      "clue": "Jugador que está en su primer año en las ligas grandes",
+      "fact": "Muchos jugadores famosos fueron novatos y aprendieron de sus compañeros veteranos.",
+      "tier": 2
+     },
+     {
+      "w": "NOVENA",
+      "clue": "Nombre antiguo de un equipo de béisbol, por sus jugadores",
+      "fact": "Un equipo de béisbol pone nueve jugadores en el campo cuando defiende.",
+      "tier": 2
+     },
+     {
+      "w": "TROFEO",
+      "clue": "Copa o premio que recibe el equipo que gana todo",
+      "fact": "Los equipos campeones suelen recibir anillos y trofeos que muestran con orgullo.",
+      "tier": 2
+     },
+     {
+      "w": "CAMPEÓN",
+      "clue": "El equipo que gana la serie final del año",
+      "fact": "Los campeones suelen recibir anillos especiales para recordar su título.",
+      "tier": 2
+     },
+     {
+      "w": "ANOTAR",
+      "clue": "Hacer una carrera al tocar el plato final",
+      "fact": "Un corredor anota cuando toca el home después de pisar las otras tres bases.",
+      "tier": 2
+     },
+     {
+      "w": "TIERRA",
+      "clue": "Polvo marrón del cuadro con el que se ensucian los uniformes",
+      "fact": "La tierra del cuadro se riega y se rastrilla antes de cada juego.",
+      "tier": 2
+     },
+     {
+      "w": "CÉSPED",
+      "clue": "Hierba cuidada y cortada que cubre el campo de juego",
+      "fact": "Algunos estadios cerrados usan césped artificial porque el natural no crece sin sol.",
+      "tier": 2
+     },
+     {
+      "w": "AFICIÓN",
+      "clue": "Grupo de seguidores que apoya a su equipo",
+      "fact": "Los aficionados llevan camisetas, gorras y banderas con los colores de su equipo.",
+      "tier": 2
+     },
+     {
+      "w": "APLAUSO",
+      "clue": "Sonido de las manos chocando para felicitar una buena jugada",
+      "fact": "Una jugada espectacular suele recibir un aplauso de todo el público.",
+      "tier": 2
+     },
+     {
+      "w": "LANZAR",
+      "clue": "Mandar la pelota con fuerza hacia el bateador desde el montículo",
+      "fact": "De la goma del montículo al plato hay unos 18 metros de distancia.",
+      "tier": 2
+     },
+     {
+      "w": "ATRAPAR",
+      "clue": "Agarrar la pelota con el guante antes de que caiga",
+      "fact": "Los jardineros a veces saltan contra la pared para quitarle un jonrón al bateador.",
+      "tier": 2
+     },
+     {
+      "w": "CORRER",
+      "clue": "Mover las piernas muy rápido para llegar a la siguiente base",
+      "fact": "Entre una base y otra hay unos 27 metros de distancia.",
+      "tier": 2
+     },
+     {
+      "w": "BULLPEN",
+      "clue": "Zona donde calientan los lanzadores que van a entrar al juego",
+      "fact": "El bullpen suele estar junto al campo, y los relevistas calientan allí.",
+      "tier": 2
+     },
+     {
+      "w": "ABRIDOR",
+      "clue": "El lanzador que empieza el juego",
+      "fact": "El abridor suele lanzar durante varias entradas antes de salir del juego.",
+      "tier": 2
+     },
+     {
+      "w": "CAMISA",
+      "clue": "Prenda con el nombre del equipo y un número en la espalda",
+      "fact": "Los números en la espalda ayudan a distinguir a los jugadores.",
+      "tier": 2
+     },
+     {
+      "w": "BANDERA",
+      "clue": "Tela con los colores del equipo que ondea en el estadio",
+      "fact": "Las banderas de los estadios muestran de qué lado sopla el viento.",
+      "tier": 2
+     },
+     {
+      "w": "VIENTO",
+      "clue": "Aire en movimiento que puede empujar la pelota en pleno vuelo",
+      "fact": "Con viento a favor, un batazo puede volar más lejos.",
+      "tier": 2
+     },
+     {
+      "w": "LLUVIA",
+      "clue": "Agua que cae de las nubes y puede cancelar el juego",
+      "fact": "Algunos estadios tienen techo para que este clima no cancele el juego.",
+      "tier": 2
+     },
+     {
+      "w": "BOLETO",
+      "clue": "Papel o pase en el celular que necesitas para entrar al estadio",
+      "fact": "Muchos aficionados guardan el boleto de su primer juego como recuerdo.",
+      "tier": 2
+     },
+     {
+      "w": "CONTEO",
+      "clue": "El número de bolas y strikes que lleva el bateador",
+      "fact": "Con tres bolas y dos strikes se dice que la cuenta está llena.",
+      "tier": 2
+     },
+     {
+      "w": "DERROTA",
+      "clue": "Cuando tu equipo termina un juego con menos carreras que el rival",
+      "fact": "Hasta los mejores equipos tienen derrotas durante la temporada.",
+      "tier": 2
+     },
+     {
+      "w": "EMPATE",
+      "clue": "Cuando los dos equipos tienen las mismas carreras",
+      "fact": "En béisbol casi nunca terminan en empate porque se juegan entradas extras.",
+      "tier": 2
+     },
+     {
+      "w": "MÁNAGER",
+      "clue": "Líder que escoge la alineación y decide cuándo cambiar al lanzador",
+      "fact": "Los mánagers usan el mismo tipo de uniforme que sus jugadores.",
+      "tier": 2
+     },
+     {
+      "w": "BATEAR",
+      "clue": "Golpear la pelota con el palo de madera",
+      "fact": "Pegarle a una pelota que viene muy rápido es de lo más difícil del deporte.",
+      "tier": 2
+     },
+     {
+      "w": "DEFENSA",
+      "clue": "El equipo que está en el campo tratando de sacar outs",
+      "fact": "En el béisbol, el equipo que defiende es el que tiene la pelota.",
+      "tier": 2
+     },
+     {
+      "w": "JUGADA",
+      "clue": "Acción rápida del juego, como atrapar y tirar para sacar un out",
+      "fact": "Con una doble jugada, la defensa puede sacar dos outs en una sola acción.",
+      "tier": 2
+     },
+     {
+      "w": "PERDER",
+      "clue": "Terminar el juego con menos carreras que el rival",
+      "fact": "Hasta los mejores equipos del año pierden muchos juegos.",
+      "tier": 2
+     },
+     {
+      "w": "CUADRO",
+      "clue": "Parte del campo con forma de rombo, entre las cuatro bases",
+      "fact": "Cada lado del cuadro mide unos 27 metros.",
+      "tier": 2
+     },
+     {
+      "w": "JARDÍN",
+      "clue": "Zona de pasto al fondo del campo, más allá del cuadro",
+      "fact": "Cada equipo defiende con tres jardineros: izquierdo, central y derecho.",
+      "tier": 2
+     },
+     {
+      "w": "VISERA",
+      "clue": "Parte de la gorra que da sombra a los ojos",
+      "fact": "La visera de la gorra protege los ojos del sol cuando la pelota sube.",
+      "tier": 2
+     },
+     {
+      "w": "COSTURA",
+      "clue": "Hilo rojo que une las piezas de cuero de la pelota",
+      "fact": "Una pelota de béisbol tiene 108 puntadas rojas.",
+      "tier": 2
+     },
+     {
+      "w": "CORREDOR",
+      "clue": "Jugador parado en una base que intenta llegar hasta el home",
+      "fact": "Los corredores deben tocar las bases en orden: primera, segunda, tercera y home.",
+      "tier": 3
+     },
+     {
+      "w": "CERRADOR",
+      "clue": "Lanzador que entra al final para proteger una ventaja",
+      "fact": "Un cerrador suele lanzar solo una entrada, la última del juego.",
+      "tier": 3
+     },
+     {
+      "w": "RELEVISTA",
+      "clue": "Lanzador que sustituye al abridor cuando se cansa",
+      "fact": "Los relevistas esperan en el bullpen hasta que el mánager los llama.",
+      "tier": 3
+     },
+     {
+      "w": "UNIFORME",
+      "clue": "Ropa igual que usan todos los compañeros de un equipo",
+      "fact": "Muchos equipos usan uniforme blanco en casa y gris cuando juegan de visitantes.",
+      "tier": 3
+     },
+     {
+      "w": "PALOMITAS",
+      "clue": "Maíz inflado y crujiente que se vende en el estadio",
+      "fact": "Las palomitas revientan porque el agua dentro del grano se convierte en vapor.",
+      "tier": 3
+     },
+     {
+      "w": "VENDEDOR",
+      "clue": "Persona que pasea por las gradas ofreciendo comida y bebidas",
+      "fact": "Los vendedores caminan entre los asientos gritando lo que venden.",
+      "tier": 3
+     },
+     {
+      "w": "PELOTERO",
+      "clue": "Nombre que dan en el Caribe a un jugador de béisbol",
+      "fact": "En el Caribe llaman peloteros a los jugadores de béisbol.",
+      "tier": 3
+     },
+     {
+      "w": "DESLIZARSE",
+      "clue": "Tirarse al suelo para llegar a la base más rápido",
+      "fact": "Los jugadores se deslizan con los pies o con la cabeza por delante.",
+      "tier": 3
+     },
+     {
+      "w": "FANÁTICO",
+      "clue": "Persona que anima con mucha pasión a su equipo",
+      "fact": "Muchos fanáticos pintan su cara con los colores de su equipo.",
+      "tier": 3
+     },
+     {
+      "w": "VETERANO",
+      "clue": "Jugador con muchos años de experiencia",
+      "fact": "Los veteranos enseñan a los novatos los secretos del juego.",
+      "tier": 3
+     },
+     {
+      "w": "PRÁCTICA",
+      "clue": "Sesión de ejercicios antes del juego para mejorar",
+      "fact": "Antes del juego hay práctica de bateo, con pelotas lanzadas por un entrenador.",
+      "tier": 3
+     },
+     {
+      "w": "NARRADOR",
+      "clue": "Voz de la radio que cuenta cada jugada",
+      "fact": "Los narradores describen cada lanzamiento para que los oyentes imaginen el juego.",
+      "tier": 3
+     },
+     {
+      "w": "CALENDARIO",
+      "clue": "Lista de fechas con los juegos de un equipo",
+      "fact": "El calendario de béisbol es largo porque se juega casi todos los días en verano.",
+      "tier": 3
+     },
+     {
+      "w": "ESTADÍSTICA",
+      "clue": "Números que registran los hits y las carreras de cada jugador",
+      "fact": "A los fanáticos les encantan las estadísticas, y algunos anotan decenas de números por jugador.",
+      "tier": 3
+     },
+     {
+      "w": "ESTRATEGIA",
+      "clue": "Plan para ganar, como decidir cuándo tocar o robar una base",
+      "fact": "Los mánagers planean qué lanzador enfrenta a cada bateador usando datos de juegos pasados.",
+      "tier": 3
+     },
+     {
+      "w": "CELEBRAR",
+      "clue": "Saltar, gritar y abrazarse después de ganar un juego importante",
+      "fact": "Tras una gran victoria, los equipos suelen reunirse en el campo para celebrar juntos.",
+      "tier": 3
+     },
+     {
+      "w": "ESTRELLA",
+      "clue": "Jugador muy famoso y talentoso que todos admiran",
+      "fact": "Cada año, los mejores jugadores son invitados a un juego de estrellas.",
+      "tier": 3
+     },
+     {
+      "w": "COMPAÑERO",
+      "clue": "Jugador de tu mismo equipo",
+      "fact": "Los compañeros chocan las manos después de una buena jugada.",
+      "tier": 3
+     },
+     {
+      "w": "AUTÓGRAFO",
+      "clue": "Firma de un jugador famoso, un tesoro para los fanáticos",
+      "fact": "Los jugadores firman pelotas, tarjetas y bates para los fanáticos que esperan.",
+      "tier": 3
+     },
+     {
+      "w": "SUPLENTE",
+      "clue": "Jugador que espera en la banca y entra si lo necesitan",
+      "fact": "Los suplentes esperan en el banquillo hasta que el mánager los llama.",
+      "tier": 3
+     },
+     {
+      "w": "VICTORIA",
+      "clue": "Cuando tu equipo gana el juego",
+      "fact": "Después de una victoria, los jugadores suelen chocar las manos en fila.",
+      "tier": 3
+     },
+     {
+      "w": "ALINEACIÓN",
+      "clue": "Lista que dice quién batea primero, segundo, tercero y así sucesivamente",
+      "fact": "El mánager escribe la alineación en una tarjeta antes de cada juego.",
+      "tier": 3
+     },
+     {
+      "w": "TEMPORADA",
+      "clue": "Meses de primavera a otoño en que se juegan los partidos",
+      "fact": "Los equipos profesionales juegan más de cien partidos en una sola temporada.",
+      "tier": 3
+     },
+     {
+      "w": "OFENSIVA",
+      "clue": "Lo que hace el equipo que está bateando para anotar carreras",
+      "fact": "La ofensiva manda a sus bateadores al plato en un orden fijo.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "land-animals",
+   "words": {
+    "en": [
+     {
+      "w": "TIGER",
+      "clue": "Biggest wild cat, orange with black stripes",
+      "fact": "No two tigers have the same stripe pattern, much like human fingerprints.",
+      "tier": 1
+     },
+     {
+      "w": "FOX",
+      "clue": "Clever wild relative of dogs with a bushy tail and pointed ears",
+      "fact": "Foxes hear tiny sounds, so they can find a mouse hiding under snow.",
+      "tier": 1
+     },
+     {
+      "w": "HARE",
+      "clue": "Fast, long-eared cousin of the rabbit that lives above ground",
+      "fact": "Baby hares are born with fur and open eyes and can hop soon after birth.",
+      "tier": 1
+     },
+     {
+      "w": "GOAT",
+      "clue": "Hoofed farm animal with a beard that is great at climbing rocks",
+      "fact": "Goats have rectangular pupils, which give them a wide view of their surroundings.",
+      "tier": 1
+     },
+     {
+      "w": "YAK",
+      "clue": "Shaggy, long-haired ox that lives high in the Himalayas",
+      "fact": "Yaks have large lungs and hearts that help them breathe thin mountain air.",
+      "tier": 1
+     },
+     {
+      "w": "ELK",
+      "clue": "Large deer of North America with huge branching antlers",
+      "fact": "A male elk makes a loud whistling call called a bugle.",
+      "tier": 1
+     },
+     {
+      "w": "LYNX",
+      "clue": "Wild cat with ear tufts and a stubby tail",
+      "fact": "A lynx has big furry paws that work like built-in snowshoes.",
+      "tier": 1
+     },
+     {
+      "w": "MOLE",
+      "clue": "Small underground digger with velvety fur and tiny eyes",
+      "fact": "Moles dig long tunnels using big, shovel-shaped front paws.",
+      "tier": 1
+     },
+     {
+      "w": "BISON",
+      "clue": "Huge shaggy animal with a humped back that roams prairies",
+      "fact": "A bison can run about 35 miles per hour, much faster than most people.",
+      "tier": 1
+     },
+     {
+      "w": "HORSE",
+      "clue": "Animal people ride, with a flowing mane and hard hooves",
+      "fact": "Horses can sleep while standing up because their legs lock in place.",
+      "tier": 1
+     },
+     {
+      "w": "SNAKE",
+      "clue": "Long legless reptile that slithers along the ground",
+      "fact": "Snakes smell by flicking their forked tongues in and out.",
+      "tier": 1
+     },
+     {
+      "w": "GECKO",
+      "clue": "Small lizard that can climb walls and walk on ceilings",
+      "fact": "Gecko toes have millions of tiny hairs that help them stick to smooth surfaces.",
+      "tier": 1
+     },
+     {
+      "w": "OKAPI",
+      "clue": "Shy rainforest relative of the giraffe with striped legs",
+      "fact": "Okapis can lick their own ears and eyes with their very long tongues.",
+      "tier": 1
+     },
+     {
+      "w": "EMU",
+      "clue": "Tall flightless bird of Australia that runs very fast",
+      "fact": "An emu can run about 30 miles per hour on its long legs.",
+      "tier": 1
+     },
+     {
+      "w": "HYENA",
+      "clue": "Spotted African hunter famous for a giggly, laughing call",
+      "fact": "Hyena clans are led by females, who are bigger than the males.",
+      "tier": 1
+     },
+     {
+      "w": "LEMUR",
+      "clue": "Big-eyed primate with a long ringed tail from Madagascar",
+      "fact": "Wild lemurs live only on Madagascar and a few nearby islands.",
+      "tier": 1
+     },
+     {
+      "w": "DINGO",
+      "clue": "Wild dog of Australia with a sandy-yellow coat",
+      "fact": "Dingoes came to Australia thousands of years ago, likely on boats with travelers.",
+      "tier": 1
+     },
+     {
+      "w": "ANT",
+      "clue": "Tiny insect that marches in long lines back to its colony",
+      "fact": "An ant can lift something many times heavier than its own body.",
+      "tier": 1
+     },
+     {
+      "w": "TUSK",
+      "clue": "Long pointed tooth sticking out of an elephant's mouth",
+      "fact": "An elephant's tusks are really its two extra-long front teeth.",
+      "tier": 1
+     },
+     {
+      "w": "MANE",
+      "clue": "Thick hair around a male lion's head and neck",
+      "fact": "Only male lions grow a mane; females have none.",
+      "tier": 1
+     },
+     {
+      "w": "HORN",
+      "clue": "Hard, pointed bump on a rhino's snout",
+      "fact": "A rhino's horn is made of keratin, the same stuff as your fingernails.",
+      "tier": 1
+     },
+     {
+      "w": "PACK",
+      "clue": "Group of wolves that live and hunt together",
+      "fact": "A wolf pack is usually a family: a mother, a father and their young.",
+      "tier": 1
+     },
+     {
+      "w": "TRUNK",
+      "clue": "An elephant's long, bendy nose",
+      "fact": "An elephant's trunk has tens of thousands of muscles but no bones.",
+      "tier": 1
+     },
+     {
+      "w": "HUMP",
+      "clue": "Fatty bump on the back of a camel",
+      "fact": "A camel's hump stores fat, not water.",
+      "tier": 1
+     },
+     {
+      "w": "ROAR",
+      "clue": "Loud, deep sound a lion makes",
+      "fact": "A lion's roar can be heard from about five miles away.",
+      "tier": 1
+     },
+     {
+      "w": "HOWL",
+      "clue": "Long, loud cry that wolves send up into the night",
+      "fact": "Wolves howl to talk to pack members who are far away.",
+      "tier": 1
+     },
+     {
+      "w": "GRAZE",
+      "clue": "Eat grass in a field, like cows and zebras do",
+      "fact": "Cows spend many hours each day eating grass and chewing it again.",
+      "tier": 1
+     },
+     {
+      "w": "CLAW",
+      "clue": "Sharp curved nail on a cat's paw",
+      "fact": "Most cats can pull their claws in so they stay sharp.",
+      "tier": 1
+     },
+     {
+      "w": "TURTLE",
+      "clue": "Slow reptile that carries a hard shell on its back",
+      "fact": "A turtle's shell is part of its skeleton, so it can never take it off.",
+      "tier": 2
+     },
+     {
+      "w": "LIZARD",
+      "clue": "Scaly reptile with four legs and a long tail",
+      "fact": "Some lizards can drop their tails to escape, then grow new ones.",
+      "tier": 2
+     },
+     {
+      "w": "IGUANA",
+      "clue": "Large green tropical lizard with a row of spikes down its back",
+      "fact": "Iguanas bask in the sun because they need outside heat to warm their bodies.",
+      "tier": 2
+     },
+     {
+      "w": "RABBIT",
+      "clue": "Hopping animal with long ears and a twitchy nose",
+      "fact": "A rabbit's teeth never stop growing, so chewing keeps them worn down.",
+      "tier": 2
+     },
+     {
+      "w": "GAZELLE",
+      "clue": "Small graceful antelope that bounds across African grasslands",
+      "fact": "Some gazelles can sprint around 50 miles per hour in short bursts.",
+      "tier": 2
+     },
+     {
+      "w": "WARTHOG",
+      "clue": "African wild pig with curved tusks and bumps on its face",
+      "fact": "Warthogs often kneel on their front knees while they munch grass.",
+      "tier": 2
+     },
+     {
+      "w": "ANTLER",
+      "clue": "Branching bone that grows from a deer's head and falls off yearly",
+      "fact": "Most deer shed their antlers every year and grow a bigger set.",
+      "tier": 2
+     },
+     {
+      "w": "COUGAR",
+      "clue": "Big tan cat of the Americas, also called a mountain lion",
+      "fact": "Cougars cannot roar, but they can purr like pet cats.",
+      "tier": 2
+     },
+     {
+      "w": "WEASEL",
+      "clue": "Slim, quick hunter with a long body and short legs",
+      "fact": "Weasels are small enough to chase mice right into their tunnels.",
+      "tier": 2
+     },
+     {
+      "w": "OPOSSUM",
+      "clue": "Pouched animal that can play dead when scared",
+      "fact": "Baby opossums ride on their mother's back as she walks.",
+      "tier": 2
+     },
+     {
+      "w": "BOBCAT",
+      "clue": "Wild North American cat with tufted ears and a short, bobbed tail",
+      "fact": "Bobcats are strong swimmers and good climbers.",
+      "tier": 2
+     },
+     {
+      "w": "BUFFALO",
+      "clue": "Huge wild ox with heavy curved horns that wallows in mud",
+      "fact": "Water buffalo roll in mud to stay cool and keep insects away.",
+      "tier": 2
+     },
+     {
+      "w": "DONKEY",
+      "clue": "Gray farm animal like a small horse with long ears",
+      "fact": "A donkey's loud bray can be heard from miles away.",
+      "tier": 2
+     },
+     {
+      "w": "SPIDER",
+      "clue": "Eight-legged creature that spins silk webs",
+      "fact": "Spiders are not insects, because insects have six legs and spiders have eight.",
+      "tier": 2
+     },
+     {
+      "w": "BEETLE",
+      "clue": "Insect with hard wing covers like a shell",
+      "fact": "Scientists have named more kinds of beetles than any other group of animals.",
+      "tier": 2
+     },
+     {
+      "w": "MANTIS",
+      "clue": "Insect that folds its front legs as if praying",
+      "fact": "A praying mantis can turn its head to look over its own shoulder.",
+      "tier": 2
+     },
+     {
+      "w": "CRICKET",
+      "clue": "Insect that chirps by rubbing its wings together",
+      "fact": "Crickets have ears on their front legs, just below the knees.",
+      "tier": 2
+     },
+     {
+      "w": "KOMODO",
+      "clue": "The largest lizard in the world is this kind of dragon",
+      "fact": "Komodo dragons can smell food from miles away using their forked tongues.",
+      "tier": 2
+     },
+     {
+      "w": "PEACOCK",
+      "clue": "Male bird with a giant shimmering fan of tail feathers",
+      "fact": "A peacock spreads its tail feathers wide to show off to peahens.",
+      "tier": 2
+     },
+     {
+      "w": "BABOON",
+      "clue": "Large African monkey with a long, dog-like snout",
+      "fact": "Baboons live in big groups called troops and groom one another.",
+      "tier": 2
+     },
+     {
+      "w": "WALLABY",
+      "clue": "Small kangaroo relative that hops on strong back legs",
+      "fact": "Baby wallabies, called joeys, live in their mother's pouch.",
+      "tier": 2
+     },
+     {
+      "w": "ALPACA",
+      "clue": "Fluffy South American animal raised for its soft wool",
+      "fact": "Alpacas hum to each other.",
+      "tier": 2
+     },
+     {
+      "w": "JACKAL",
+      "clue": "Wild dog of Africa and Asia that is smaller than a wolf",
+      "fact": "Jackals call to each other with howls and yips to stay in touch.",
+      "tier": 2
+     },
+     {
+      "w": "OCELOT",
+      "clue": "Spotted wild cat of Central and South America",
+      "fact": "Ocelots hunt mostly at night and often nap in trees or thick brush.",
+      "tier": 2
+     },
+     {
+      "w": "BURROW",
+      "clue": "Underground tunnel or hole a rabbit digs to live in",
+      "fact": "Prairie dogs dig burrows with many rooms, like little underground houses.",
+      "tier": 2
+     },
+     {
+      "w": "HABITAT",
+      "clue": "The natural place where an animal finds food, water and shelter",
+      "fact": "A habitat can be a forest, a desert, a grassland or even a pond.",
+      "tier": 2
+     },
+     {
+      "w": "MIGRATE",
+      "clue": "Travel a long way each year to find food or warmth",
+      "fact": "Huge herds of wildebeest migrate across Africa following the rains.",
+      "tier": 2
+     },
+     {
+      "w": "STRIPES",
+      "clue": "Long bands of color on a tiger or a zebra",
+      "fact": "No two zebras have exactly the same pattern of stripes.",
+      "tier": 2
+     },
+     {
+      "w": "WHISKER",
+      "clue": "Long stiff hair on a cat's face that senses things nearby",
+      "fact": "A cat's whiskers are about as wide as its body, helping it judge tight gaps.",
+      "tier": 2
+     },
+     {
+      "w": "QUILLS",
+      "clue": "Sharp spines covering a porcupine's back",
+      "fact": "A porcupine cannot shoot its quills; they only stick when touched.",
+      "tier": 2
+     },
+     {
+      "w": "POUNCE",
+      "clue": "Leap suddenly onto prey, the way a cat does",
+      "fact": "Cats often wiggle their back ends before they pounce.",
+      "tier": 2
+     },
+     {
+      "w": "GIBBON",
+      "clue": "Small ape that swings through trees using very long arms",
+      "fact": "Gibbon pairs sing loud duets that echo through the forest.",
+      "tier": 2
+     },
+     {
+      "w": "SQUIRREL",
+      "clue": "Bushy-tailed climber that buries acorns",
+      "fact": "Squirrels forget where they bury many nuts, so new trees sprout from them.",
+      "tier": 3
+     },
+     {
+      "w": "CHIPMUNK",
+      "clue": "Small striped rodent that stuffs its cheeks with seeds",
+      "fact": "Chipmunks have stretchy cheek pouches that carry seeds back to their burrows.",
+      "tier": 3
+     },
+     {
+      "w": "ANTELOPE",
+      "clue": "Fast hoofed grazer of Africa with horns, like an impala",
+      "fact": "Antelopes keep their horns for life, unlike deer, which shed their antlers.",
+      "tier": 3
+     },
+     {
+      "w": "TORTOISE",
+      "clue": "Slow land reptile with a high, domed shell",
+      "fact": "Some giant tortoises live for well over a hundred years.",
+      "tier": 3
+     },
+     {
+      "w": "GROUNDHOG",
+      "clue": "Burrower famous for supposedly predicting spring each February",
+      "fact": "A groundhog's heartbeat drops a lot during its long winter sleep.",
+      "tier": 3
+     },
+     {
+      "w": "SCORPION",
+      "clue": "Desert creature with pincers and a curved tail with a stinger",
+      "fact": "Scorpions glow blue-green under ultraviolet light.",
+      "tier": 3
+     },
+     {
+      "w": "BUTTERFLY",
+      "clue": "Flying insect with big colorful wings that starts life as a caterpillar",
+      "fact": "Butterflies taste with their feet.",
+      "tier": 3
+     },
+     {
+      "w": "GRASSHOPPER",
+      "clue": "Green insect with powerful back legs that leaps through fields",
+      "fact": "A grasshopper can jump about twenty times the length of its own body.",
+      "tier": 3
+     },
+     {
+      "w": "CATERPILLAR",
+      "clue": "Wiggly, many-legged larva that becomes a butterfly or moth",
+      "fact": "Inside its chrysalis or cocoon, a caterpillar changes completely into a flying insect.",
+      "tier": 3
+     },
+     {
+      "w": "PLATYPUS",
+      "clue": "Australian mammal that lays eggs and has a duck-like bill",
+      "fact": "A platypus finds food underwater using sensors in its bill.",
+      "tier": 3
+     },
+     {
+      "w": "MONGOOSE",
+      "clue": "Slim, speedy close cousin of the meerkat found in Africa and Asia",
+      "fact": "Banded mongooses live in groups and take turns watching over the babies.",
+      "tier": 3
+     },
+     {
+      "w": "PANGOLIN",
+      "clue": "Scaly mammal that curls into a ball when frightened",
+      "fact": "Pangolins are the only mammals covered in hard scales.",
+      "tier": 3
+     },
+     {
+      "w": "CHINCHILLA",
+      "clue": "Fluffy South American rodent with super soft gray fur",
+      "fact": "Chinchillas take dust baths instead of water baths to keep their fur clean.",
+      "tier": 3
+     },
+     {
+      "w": "ALLIGATOR",
+      "clue": "Broad-snouted swamp reptile found in Florida and China",
+      "fact": "Alligator mothers gently carry their hatchlings to the water in their mouths.",
+      "tier": 3
+     },
+     {
+      "w": "AARDVARK",
+      "clue": "African night digger that licks up termites with a long, sticky tongue",
+      "fact": "Aardvark means earth pig in Afrikaans, a language of South Africa.",
+      "tier": 3
+     },
+     {
+      "w": "MANDRILL",
+      "clue": "Big monkey with a bright red and blue face",
+      "fact": "The mandrill is the largest kind of monkey in the world.",
+      "tier": 3
+     },
+     {
+      "w": "REINDEER",
+      "clue": "Cold-weather deer that migrates in huge herds across the Arctic",
+      "fact": "Reindeer are the only deer where both males and females grow antlers.",
+      "tier": 3
+     },
+     {
+      "w": "CAPYBARA",
+      "clue": "South American animal that is the biggest rodent in the world",
+      "fact": "Birds often perch on a capybara's back, and the capybara does not mind.",
+      "tier": 3
+     },
+     {
+      "w": "PREDATOR",
+      "clue": "Animal that hunts other animals for food",
+      "fact": "Predators usually have sharp teeth, keen eyes or strong claws for catching prey.",
+      "tier": 3
+     },
+     {
+      "w": "HERBIVORE",
+      "clue": "Animal that eats only plants",
+      "fact": "Elephants eat only plants but can munch over a hundred pounds a day.",
+      "tier": 3
+     },
+     {
+      "w": "CARNIVORE",
+      "clue": "Animal whose diet is mostly meat",
+      "fact": "Cats cannot taste sweetness, and they need meat in their diet to stay healthy.",
+      "tier": 3
+     },
+     {
+      "w": "NOCTURNAL",
+      "clue": "Active at night and asleep during the day",
+      "fact": "Owls, bats and many mice are busiest after dark.",
+      "tier": 3
+     },
+     {
+      "w": "HIBERNATE",
+      "clue": "Sleep deeply through the cold winter months",
+      "fact": "A sleeping bear's heartbeat drops way down to save energy all winter.",
+      "tier": 3
+     },
+     {
+      "w": "CAMOUFLAGE",
+      "clue": "Colors or patterns that help an animal blend in",
+      "fact": "A leopard's spots help it blend into leafy shadows.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "TIGRE",
+      "clue": "El felino más grande del mundo, naranja con rayas negras",
+      "fact": "Las rayas de cada tigre son únicas, como las huellas dactilares de las personas.",
+      "tier": 1
+     },
+     {
+      "w": "TOPO",
+      "clue": "Animal pequeño de pelaje suave que vive cavando túneles bajo tierra",
+      "fact": "Los topos cavan túneles largos con sus patas delanteras anchas, como palas.",
+      "tier": 1
+     },
+     {
+      "w": "RANA",
+      "clue": "Anfibio verde de piel lisa que salta y croa",
+      "fact": "Una rana atrapa insectos con una lengua pegajosa que sale en un instante.",
+      "tier": 1
+     },
+     {
+      "w": "SAPO",
+      "clue": "Primo de la rana, de piel rugosa, que vive más en tierra",
+      "fact": "Un sapo puede comer cientos de insectos en una sola noche.",
+      "tier": 1
+     },
+     {
+      "w": "GECO",
+      "clue": "Lagartija pequeña que trepa paredes y camina por el techo",
+      "fact": "Los dedos del geco tienen millones de pelitos que se pegan a las superficies lisas.",
+      "tier": 1
+     },
+     {
+      "w": "EMÚ",
+      "clue": "Ave alta de Australia que no vuela pero corre muy rápido",
+      "fact": "Un emú puede correr a unos 50 kilómetros por hora.",
+      "tier": 1
+     },
+     {
+      "w": "HIENA",
+      "clue": "Cazadora africana con manchas, famosa por su risa",
+      "fact": "Los clanes de hienas son dirigidos por hembras, que son más grandes que los machos.",
+      "tier": 1
+     },
+     {
+      "w": "LÉMUR",
+      "clue": "Primate de ojos grandes y cola con anillos, de Madagascar",
+      "fact": "Los lémures salvajes viven solo en Madagascar y en unas pocas islas cercanas.",
+      "tier": 1
+     },
+     {
+      "w": "DINGO",
+      "clue": "Perro salvaje de Australia, de pelaje amarillo arenoso",
+      "fact": "Los dingos llegaron a Australia hace miles de años, probablemente en barcos con viajeros.",
+      "tier": 1
+     },
+     {
+      "w": "KOALA",
+      "clue": "Animal australiano que duerme casi todo el día abrazado a un eucalipto",
+      "fact": "Los koalas duermen unas 18 horas al día porque las hojas de eucalipto dan poca energía.",
+      "tier": 1
+     },
+     {
+      "w": "ERIZO",
+      "clue": "Animal pequeño cubierto de espinas que se hace bolita",
+      "fact": "Cuando se asusta, un erizo se hace bolita y esconde su cara y sus patas.",
+      "tier": 1
+     },
+     {
+      "w": "COATÍ",
+      "clue": "Animal de nariz larga y cola con anillos, primo del mapache",
+      "fact": "Los coatíes usan su hocico largo para buscar insectos entre las hojas.",
+      "tier": 1
+     },
+     {
+      "w": "LORO",
+      "clue": "Ave de colores que repite palabras que escucha",
+      "fact": "Algunos loros pueden imitar la voz humana y aprender muchas palabras.",
+      "tier": 1
+     },
+     {
+      "w": "CABRA",
+      "clue": "Animal de granja con barba y cuernos que trepa rocas",
+      "fact": "Las cabras tienen pupilas rectangulares que les dan una vista muy amplia.",
+      "tier": 1
+     },
+     {
+      "w": "LINCE",
+      "clue": "Gato salvaje con mechones en las orejas y cola corta",
+      "fact": "Un lince tiene patas peludas y anchas que funcionan como raquetas de nieve.",
+      "tier": 1
+     },
+     {
+      "w": "TUCÁN",
+      "clue": "Ave tropical con un pico enorme y colorido",
+      "fact": "El enorme pico del tucán es ligero porque por dentro es casi hueco.",
+      "tier": 1
+     },
+     {
+      "w": "BOA",
+      "clue": "Serpiente grande y sin veneno que aprieta con su cuerpo",
+      "fact": "Las boas atrapan a sus presas apretándolas con su cuerpo, no con veneno.",
+      "tier": 1
+     },
+     {
+      "w": "OVEJA",
+      "clue": "Animal de granja cubierto de lana que dice bee",
+      "fact": "Con la lana de una oveja se hacen suéteres, bufandas y gorros.",
+      "tier": 1
+     },
+     {
+      "w": "GARRA",
+      "clue": "Uña fuerte, curva y afilada de un gato",
+      "fact": "La mayoría de los gatos pueden esconder sus garras para mantenerlas afiladas.",
+      "tier": 1
+     },
+     {
+      "w": "PÚAS",
+      "clue": "Espinas largas y duras que cubren a un erizo",
+      "fact": "Un erizo tiene miles de púas, y cada una es un pelo endurecido.",
+      "tier": 1
+     },
+     {
+      "w": "CRÍA",
+      "clue": "Bebé de un animal",
+      "fact": "Las crías de muchos mamíferos beben la leche de su mamá.",
+      "tier": 1
+     },
+     {
+      "w": "NIDO",
+      "clue": "Casita de ramitas y plumas donde un ave pone sus huevos",
+      "fact": "Algunas aves construyen su nido con ramitas, barro y hasta telarañas.",
+      "tier": 1
+     },
+     {
+      "w": "RUGIR",
+      "clue": "Hacer el sonido fuerte y profundo de un león",
+      "fact": "El rugido de un león puede oírse desde unos ocho kilómetros de distancia.",
+      "tier": 1
+     },
+     {
+      "w": "CUEVA",
+      "clue": "Hueco grande dentro de una montaña donde duermen osos y murciélagos",
+      "fact": "Los osos pueden pasar el invierno durmiendo dentro de una cueva.",
+      "tier": 1
+     },
+     {
+      "w": "SELVA",
+      "clue": "Bosque cálido y húmedo, lleno de árboles altos y animales",
+      "fact": "En la selva viven monos, jaguares, tucanes y muchísimos insectos.",
+      "tier": 1
+     },
+     {
+      "w": "CAZAR",
+      "clue": "Perseguir a otro animal para comérselo",
+      "fact": "Los leones suelen cazar en grupo, y las hembras hacen casi todo el trabajo.",
+      "tier": 1
+     },
+     {
+      "w": "PATA",
+      "clue": "Pie de un perro, un gato u otro animal",
+      "fact": "Las almohadillas de la pata de un gato le ayudan a caminar sin hacer ruido.",
+      "tier": 1
+     },
+     {
+      "w": "ARAÑA",
+      "clue": "Animal de ocho patas que teje telas de seda",
+      "fact": "Las arañas no son insectos: tienen ocho patas y los insectos tienen seis.",
+      "tier": 1
+     },
+     {
+      "w": "LIEBRE",
+      "clue": "Pariente veloz del conejo, de orejas muy largas",
+      "fact": "Las liebres nacen con pelo y ojos abiertos, y saltan poco después.",
+      "tier": 2
+     },
+     {
+      "w": "BISONTE",
+      "clue": "Animal enorme y peludo con joroba que recorre las praderas",
+      "fact": "Un bisonte puede correr a unos 55 kilómetros por hora.",
+      "tier": 2
+     },
+     {
+      "w": "CABALLO",
+      "clue": "Animal que se monta, con crin larga y cascos duros",
+      "fact": "Los caballos pueden dormir de pie porque sus patas se traban en su lugar.",
+      "tier": 2
+     },
+     {
+      "w": "TORTUGA",
+      "clue": "Reptil lento que lleva un caparazón duro en la espalda",
+      "fact": "El caparazón de una tortuga es parte de su esqueleto, así que no puede quitárselo.",
+      "tier": 2
+     },
+     {
+      "w": "LAGARTO",
+      "clue": "Reptil de piel con escamas, cuatro patas y cola larga",
+      "fact": "Algunos lagartos sueltan la cola para escapar y luego les crece otra.",
+      "tier": 2
+     },
+     {
+      "w": "IGUANA",
+      "clue": "Reptil verde tropical con una fila de púas en el lomo",
+      "fact": "Las iguanas toman el sol porque necesitan calor de afuera para calentar su cuerpo.",
+      "tier": 2
+     },
+     {
+      "w": "CAIMÁN",
+      "clue": "Reptil americano de hocico ancho que vive en ríos y pantanos",
+      "fact": "Las mamás caimán llevan a sus crías con cuidado en la boca hasta el agua.",
+      "tier": 2
+     },
+     {
+      "w": "CÓNDOR",
+      "clue": "Ave gigante de los Andes que planea muy alto",
+      "fact": "Los cóndores pueden planear durante horas casi sin mover las alas.",
+      "tier": 2
+     },
+     {
+      "w": "CHACAL",
+      "clue": "Perro salvaje de África y Asia, más pequeño que un lobo",
+      "fact": "Los chacales se llaman entre sí con aullidos para no perderse.",
+      "tier": 2
+     },
+     {
+      "w": "GACELA",
+      "clue": "Antílope pequeño y elegante que da saltos en la sabana",
+      "fact": "Algunas gacelas pueden correr a unos 80 kilómetros por hora en carreras cortas.",
+      "tier": 2
+     },
+     {
+      "w": "JABALÍ",
+      "clue": "Cerdo salvaje con colmillos y pelo duro",
+      "fact": "Los jabalíes usan el hocico para escarbar la tierra en busca de raíces.",
+      "tier": 2
+     },
+     {
+      "w": "BABUINO",
+      "clue": "Mono grande de África con hocico largo parecido al de un perro",
+      "fact": "Los babuinos viven en grupos grandes y se acicalan unos a otros.",
+      "tier": 2
+     },
+     {
+      "w": "MANDRIL",
+      "clue": "Mono grande de cara roja y azul muy brillante",
+      "fact": "El mandril es el mono más grande del mundo.",
+      "tier": 2
+     },
+     {
+      "w": "WOMBAT",
+      "clue": "Marsupial australiano rechoncho que cava túneles con sus fuertes garras",
+      "fact": "La caca de un wombat tiene forma de cubitos.",
+      "tier": 2
+     },
+     {
+      "w": "OCELOTE",
+      "clue": "Gato manchado de Centroamérica y Sudamérica",
+      "fact": "Los ocelotes cazan sobre todo de noche y suelen descansar en los árboles.",
+      "tier": 2
+     },
+     {
+      "w": "QUETZAL",
+      "clue": "Ave verde brillante de Centroamérica con una cola larguísima",
+      "fact": "Los quetzales machos tienen plumas de la cola más largas que su cuerpo.",
+      "tier": 2
+     },
+     {
+      "w": "ALACRÁN",
+      "clue": "Animal del desierto con pinzas y una cola curva con aguijón",
+      "fact": "Los alacranes brillan con color azul verdoso bajo luz ultravioleta.",
+      "tier": 2
+     },
+     {
+      "w": "GRILLO",
+      "clue": "Insecto que canta frotando sus alas",
+      "fact": "Los grillos tienen oídos en las patas delanteras.",
+      "tier": 2
+     },
+     {
+      "w": "MANADA",
+      "clue": "Grupo de lobos, leones o elefantes que viven juntos",
+      "fact": "Una manada de lobos suele ser una familia: mamá, papá y sus crías.",
+      "tier": 2
+     },
+     {
+      "w": "MELENA",
+      "clue": "Pelo largo y espeso alrededor de la cabeza de un león macho",
+      "fact": "Solo los leones machos tienen melena; las hembras no.",
+      "tier": 2
+     },
+     {
+      "w": "CUERNO",
+      "clue": "Parte dura y puntiaguda en la cabeza de un rinoceronte",
+      "fact": "El cuerno del rinoceronte está hecho de queratina, igual que tus uñas.",
+      "tier": 2
+     },
+     {
+      "w": "TROMPA",
+      "clue": "La larga nariz flexible de un elefante",
+      "fact": "La trompa de un elefante tiene decenas de miles de músculos y ningún hueso.",
+      "tier": 2
+     },
+     {
+      "w": "JOROBA",
+      "clue": "Bulto de grasa en el lomo de un camello",
+      "fact": "La joroba de un camello guarda grasa, no agua.",
+      "tier": 2
+     },
+     {
+      "w": "AULLAR",
+      "clue": "Dar un grito largo y fuerte, como hacen los lobos de noche",
+      "fact": "Los lobos aúllan para comunicarse con su manada cuando están lejos.",
+      "tier": 2
+     },
+     {
+      "w": "PASTAR",
+      "clue": "Comer hierba en el campo, como hacen las vacas y las cebras",
+      "fact": "Las vacas pasan muchas horas al día comiendo hierba y masticándola de nuevo.",
+      "tier": 2
+     },
+     {
+      "w": "GUARIDA",
+      "clue": "Refugio escondido donde vive un zorro o un lobo",
+      "fact": "Muchos animales salvajes cavan una guarida para proteger a sus crías.",
+      "tier": 2
+     },
+     {
+      "w": "HÁBITAT",
+      "clue": "El lugar natural donde un animal encuentra comida, agua y refugio",
+      "fact": "Un hábitat puede ser un bosque, un desierto, una pradera o hasta un estanque.",
+      "tier": 2
+     },
+     {
+      "w": "MIGRAR",
+      "clue": "Viajar muy lejos cada año para buscar comida o clima cálido",
+      "fact": "Enormes manadas de ñus migran por África siguiendo las lluvias.",
+      "tier": 2
+     },
+     {
+      "w": "BIGOTES",
+      "clue": "Pelos duros en la cara de un gato que sienten lo cercano",
+      "fact": "Los bigotes de un gato miden casi lo mismo que su cuerpo de ancho.",
+      "tier": 2
+     },
+     {
+      "w": "COLIBRÍ",
+      "clue": "Ave diminuta que bate sus alas muy rápido y chupa néctar",
+      "fact": "El colibrí es una de las pocas aves que puede volar hacia atrás.",
+      "tier": 2
+     },
+     {
+      "w": "TREPAR",
+      "clue": "Subir a un árbol agarrándose con manos y pies",
+      "fact": "Algunos monos usan su cola como una quinta mano para moverse entre las ramas.",
+      "tier": 2
+     },
+     {
+      "w": "ACECHAR",
+      "clue": "Observar escondido y en silencio antes de lanzarse a atrapar",
+      "fact": "Los gatos agachan el cuerpo y mueven el trasero antes de saltar sobre su presa.",
+      "tier": 2
+     },
+     {
+      "w": "SERPIENTE",
+      "clue": "Reptil largo sin patas que se desliza por el suelo",
+      "fact": "Las serpientes huelen sacando y metiendo su lengua partida en dos.",
+      "tier": 3
+     },
+     {
+      "w": "TARÁNTULA",
+      "clue": "Gran arácnido peludo de ocho patas, de los trópicos",
+      "fact": "Las tarántulas hembra pueden vivir más de veinte años.",
+      "tier": 3
+     },
+     {
+      "w": "MARIPOSA",
+      "clue": "Insecto de alas grandes y coloridas que antes fue oruga",
+      "fact": "Las mariposas saborean las cosas con las patas.",
+      "tier": 3
+     },
+     {
+      "w": "MURCIÉLAGO",
+      "clue": "Mamífero volador que duerme colgado cabeza abajo",
+      "fact": "El murciélago es el único mamífero que puede volar de verdad.",
+      "tier": 3
+     },
+     {
+      "w": "AVESTRUZ",
+      "clue": "El ave más grande del mundo; no vuela pero corre veloz",
+      "fact": "Los ojos de un avestruz son más grandes que su cerebro.",
+      "tier": 3
+     },
+     {
+      "w": "GUACAMAYO",
+      "clue": "Ave grande y muy colorida de la selva con cola larguísima",
+      "fact": "Los guacamayos pueden vivir más de cincuenta años.",
+      "tier": 3
+     },
+     {
+      "w": "CAPIBARA",
+      "clue": "El roedor más grande del mundo, al que le encanta el agua",
+      "fact": "Algunas aves se paran sobre un capibara y a él no le molesta.",
+      "tier": 3
+     },
+     {
+      "w": "TAMANDUÁ",
+      "clue": "Animal de lengua larguísima que come hormigas",
+      "fact": "Un tamanduá puede comer miles de hormigas y termitas en un solo día.",
+      "tier": 3
+     },
+     {
+      "w": "ZARIGÜEYA",
+      "clue": "Marsupial americano que se hace el muerto cuando se asusta",
+      "fact": "Las crías de la zarigüeya viajan agarradas a la espalda de su mamá.",
+      "tier": 3
+     },
+     {
+      "w": "SURICATA",
+      "clue": "Mamífero pequeño del desierto africano que vigila parado en dos patas",
+      "fact": "Las suricatas se turnan para vigilar mientras el resto busca comida.",
+      "tier": 3
+     },
+     {
+      "w": "PANGOLÍN",
+      "clue": "Mamífero cubierto de escamas que se enrolla en una bola",
+      "fact": "Los pangolines son los únicos mamíferos cubiertos de escamas duras.",
+      "tier": 3
+     },
+     {
+      "w": "ANTÍLOPE",
+      "clue": "Rápido animal de la sabana con cuernos largos, como el impala",
+      "fact": "Los antílopes conservan sus cuernos toda la vida, a diferencia de los ciervos.",
+      "tier": 3
+     },
+     {
+      "w": "COCODRILO",
+      "clue": "Gran reptil de hocico largo y dientes afilados de ríos cálidos",
+      "fact": "Los cocodrilos pueden tener miles de dientes en su vida porque les crecen nuevos.",
+      "tier": 3
+     },
+     {
+      "w": "ESCARABAJO",
+      "clue": "Insecto con alas duras que parecen un caparazón",
+      "fact": "Los científicos han descrito más tipos de escarabajos que de cualquier otro grupo animal.",
+      "tier": 3
+     },
+     {
+      "w": "LIBÉLULA",
+      "clue": "Insecto de cuatro alas transparentes que vuela sobre los estanques",
+      "fact": "Los antepasados de las libélulas ya volaban antes de que existieran los dinosaurios.",
+      "tier": 3
+     },
+     {
+      "w": "SALTAMONTES",
+      "clue": "Insecto verde de patas traseras fuertes que da grandes brincos",
+      "fact": "Un saltamontes puede saltar unas veinte veces el largo de su cuerpo.",
+      "tier": 3
+     },
+     {
+      "w": "HERBÍVORO",
+      "clue": "Animal que solo come plantas",
+      "fact": "Los elefantes solo comen plantas, pero pueden comer más de cuarenta kilos al día.",
+      "tier": 3
+     },
+     {
+      "w": "CARNÍVORO",
+      "clue": "Animal que se alimenta principalmente de carne",
+      "fact": "Los gatos no pueden saborear lo dulce y necesitan carne para estar sanos.",
+      "tier": 3
+     },
+     {
+      "w": "NOCTURNO",
+      "clue": "Que está despierto de noche y duerme de día",
+      "fact": "Los búhos, los murciélagos y muchos ratones están más activos cuando oscurece.",
+      "tier": 3
+     },
+     {
+      "w": "HIBERNAR",
+      "clue": "Dormir muy profundo durante los meses fríos del invierno",
+      "fact": "Cuando un oso duerme en invierno, su corazón late mucho más lento.",
+      "tier": 3
+     },
+     {
+      "w": "CAMUFLAJE",
+      "clue": "Colores o dibujos que ayudan a un animal a pasar desapercibido",
+      "fact": "Las manchas de un leopardo lo ayudan a confundirse entre las sombras de las hojas.",
+      "tier": 3
+     },
+     {
+      "w": "DEPREDADOR",
+      "clue": "Animal que caza a otros animales para alimentarse",
+      "fact": "Los depredadores suelen tener dientes afilados, buena vista o garras fuertes.",
+      "tier": 3
+     },
+     {
+      "w": "COLMILLO",
+      "clue": "Diente largo y puntiagudo que sobresale de la boca de un elefante",
+      "fact": "Los colmillos de un elefante son en realidad sus dientes delanteros muy largos.",
+      "tier": 3
+     },
+     {
+      "w": "MADRIGUERA",
+      "clue": "Túnel bajo tierra donde viven los conejos y los zorros",
+      "fact": "Los perritos de la pradera construyen madrigueras con muchas habitaciones.",
+      "tier": 3
+     }
+    ]
+   }
+  }
+ ]
+}
