@@ -9,7 +9,7 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { awardBadges } from '../core/badges.js';
 import { COST } from '../core/economy.js';
-import { SIMS, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
+import { SIMS, fieldsOwned, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
 import { UP_TEXT } from './upgrade-text.js';
 
 addStrings({
@@ -135,7 +135,10 @@ export function mount(el, { id }) {
       st.stock = Math.max(0, st.stock);
     } else {
       const avail = menuAvail(st.up).map((m) => m.id);
-      for (const m of MENU) if (!avail.includes(m.id)) st.mstock[m.id] = 0; else st.mstock[m.id] = clamp(st.mstock[m.id] ?? startStock(m.id), 0, SNACK.stockMax(st.up));
+      // buying another ball field means a bigger crowd, so lift the food to match (never lowers what he already set)
+      const nf = fieldsOwned(st.up), grew = nf > (st.fieldsSeen || 1);
+      for (const m of MENU) if (!avail.includes(m.id)) st.mstock[m.id] = 0; else st.mstock[m.id] = clamp(grew ? Math.max(st.mstock[m.id] || 0, startStock(m.id)) : (st.mstock[m.id] ?? startStock(m.id)), 0, SNACK.stockMax(st.up));
+      st.fieldsSeen = nf;
       while (snackCost() > st.bank) { const top = Object.entries(st.mstock).sort((a, b) => b[1] - a[1])[0]; if (!top || !top[1]) break; st.mstock[top[0]] = Math.max(0, top[1] - 5); }
     }
     const last = st.last;

@@ -82,7 +82,7 @@ export const UPGRADES = {
     { id: 'candy', tier: 1, price: 100, fx: { flat: 2 }, unlock: ['popcandy', 'choc'] },
     { id: 'cones', tier: 2, price: 160, fx: {}, unlock: ['cone'] },
     { id: 'slush', tier: 2, price: 220, fx: { hot: 0.1 }, unlock: ['slush', 'froslem'] },
-    // More ball fields: each one DOUBLES the crowd (and brings its own windows and storage). Prices 90, 220, 500, 1100, 2400 (Nov 8 2026: cut from 300-4800 because it took
+    // More ball fields: each one moves the crowd up a band (1 field 10-50 a day, 2: 50-100, 3: 100-200, 4: 200-400, 5: 400-800, 6: 800-1600; see CROWD_BANDS) (and brings its own windows and storage). Prices 90, 220, 500, 1100, 2400 (Nov 8 2026: cut from 300-4800 because it took
     // 12+ innings just to afford the first one; now a careful player has field 2 by about inning 5 and field 3 by about inning 10).
     { id: 'field2', tier: 1, price: 90, fx: { crowd: 2, serve: 40, stock: 40 } },
     { id: 'field3', tier: 1, price: 220, req: ['field2'], fx: { crowd: 2, serve: 80, stock: 80 } },
@@ -204,6 +204,9 @@ export function snackWeights(ctx) {
     return { ...m, k };
   });
 }
+const CROWD_BANDS = [[10, 50], [50, 100], [100, 200], [200, 400], [400, 800], [800, 1600]];
+export const fieldsOwned = (up = {}) => 1 + ['field2', 'field3', 'field4', 'field5', 'field6'].filter((id) => up[id]).length;
+export const crowdBand = (n) => CROWD_BANDS[Math.min(CROWD_BANDS.length, Math.max(1, n)) - 1];
 export const SNACK = {
   id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = 40 + effects('snack', up || {}).stock; return m >= 300 ? 25 : m >= 120 ? 10 : 5; },
   stockMax: (up) => 40 + effects('snack', up).stock,
@@ -212,7 +215,12 @@ export const SNACK = {
   trafficOf(ctx) {
     const e = effects('snack', ctx.up), w = WEATHER[ctx.weather];
     const st = SNACK_STORY[ctx.event]?.traffic || 1;
-    return (w.base.snack * st * (1 + e.traffic) + e.flat) * e.crowd;
+    // The crowd comes in bands that depend on how many ball fields he owns (Rob, Nov 8): 1 field 10-50 people a day, 2 fields 50-100,
+    // 3 fields 100-200, 4 fields 200-400, then 400-800 and 800-1600. Weather, game-day stories and the shop upgrades decide where in the band.
+    const score = w.base.snack * st * (1 + e.traffic) + e.flat;           // about 6 (rainy, bare stand) up to about 25 (hot game day, every upgrade bought)
+    const q = Math.max(0, Math.min(1.05, (score - 6) / 20));
+    const [lo, hi] = CROWD_BANDS[fieldsOwned(ctx.up) - 1];
+    return lo + (hi - lo) * q;
   },
   serveCap: (up) => 40 + effects('snack', up).serve,
   sim(plan, ctx, r = Math.random) {

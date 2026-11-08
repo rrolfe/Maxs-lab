@@ -63,7 +63,7 @@ The Grown-up corner now has *Time in the lab* (minutes per day and per program, 
 
 ## Snack Shack expansion
 
-Ball fields double the crowd: 2nd field $300, 3rd $600, 4th $1,200, 5th $2,400, ballpark complex $4,800. Each also adds serving capacity and storage, and starting stock for new menu items scales with the crowd. The Candy counter (season 1), cone machine and slush machine (frozen slush and frozen lemonade) add menu items.
+Ball fields set the size of the daily crowd: 1 field draws 10–50 fans a day, 2 fields 50–100, 3 fields 100–200, 4 fields 200–400, 5 fields 400–800, the ballpark complex 800–1,600 (weather, game days and shop upgrades decide where in the range). Prices: 2nd field $90, 3rd $220, 4th $500, 5th $1,100, ballpark complex $2,400; the 4th and later appear in later seasons and everything carries over. Each also adds serving capacity and storage, and starting stock for new menu items scales with the crowd. The Candy counter (season 1), cone machine and slush machine (frozen slush and frozen lemonade) add menu items.
 
 ## Recorded announcer clips
 
