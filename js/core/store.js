@@ -272,5 +272,32 @@ export function importData(text, mode = 'replace') {
   document.documentElement.lang = S.lang;
   save(); flush();
 }
+/** Grown-up gift or test pearls: goes straight into the balance and never counts toward the daily taper. */
+export function givePearls(n) {
+  n = Math.max(0, Math.min(5000, Math.round(+n || 0)));
+  S.pearls.balance += n; S.pearls.earned += n; S.pearls.gift = (S.pearls.gift || 0) + n; save(); flush(); return n;
+}
+export async function snapshotNow(why = 'before-restore') { await takeSnapshot(JSON.stringify(S), S, why); }
+const b64 = (u8) => { let s = ''; for (let i = 0; i < u8.length; i += 0x8000) s += String.fromCharCode(...u8.subarray(i, i + 0x8000)); return btoa(s); };
+/** One block of text that carries all of Max's progress from one copy of the lab to another (Safari <-> Home Screen icon). */
+export async function makeTransferCode() {
+  const text = JSON.stringify({ app: 'maxs-lab', schema: SCHEMA, exported: new Date().toISOString(), state: S });
+  try {
+    if (typeof CompressionStream !== 'undefined') {
+      const z = new Blob([text]).stream().pipeThrough(new CompressionStream('gzip'));
+      return 'MLAB1:' + b64(new Uint8Array(await new Response(z).arrayBuffer()));
+    }
+  } catch { /* fall through to the plain form */ }
+  return 'MLAB0:' + btoa(unescape(encodeURIComponent(text)));
+}
+export async function readTransferCode(code) {
+  const c = String(code || '').replace(/\s+/g, '');
+  if (c.startsWith('MLAB1:')) {
+    const bin = atob(c.slice(6)), u8 = Uint8Array.from(bin, (ch) => ch.charCodeAt(0));
+    return await new Response(new Blob([u8]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+  }
+  if (c.startsWith('MLAB0:')) return decodeURIComponent(escape(atob(c.slice(6))));
+  throw new Error('That is not a transfer code.');
+}
 export function resetAll() { S = fresh(); document.documentElement.lang = S.lang; save(); flush(); }
 export function setLang(l) { S.lang = l === 'es' ? 'es' : 'en'; document.documentElement.lang = S.lang; save(); }

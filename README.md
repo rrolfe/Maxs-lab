@@ -73,6 +73,10 @@ See `audio/announcer/README.md` to drop in natural recordings for the winner ann
 
 The chore check uses the code **1234** by default (Rob's choice, for easy approval while he is nearby). Change it in the Grown-up corner under *PIN and about*. The grown-up passcode, if set, also works. A grown-up can add, remove or re-price jobs from the Home Jobs screen.
 
+## Safari and the Home Screen icon do not share progress
+
+On an iPad, Safari and an app added to the Home Screen each keep their own saved data. A Home Screen icon added today starts at zero. Pick one place for Max to play. To move progress, open the Grown-up corner in the copy that has it, tap **Copy this copy's transfer code**, then paste it under **Paste a transfer code here** in the other copy. The same section shows the build number, and has +100 / +300 / +800 pearl buttons for testing or rewards. Updates load on the next open when online (code is fetched fresh, with the saved copy only as the offline fallback).
+
 ## Time warnings
 
 When the daily limit, a grown-up's extra time or bedtime is close, a pop-up appears at **10, 5 and 2 minutes left**. Max has to tap "OK, I understand" to close each one. Each warning shows once, never again after a reload, and a fresh set starts when a grown-up grants extra time. At zero the lab closes as before.

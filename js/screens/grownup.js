@@ -1,5 +1,6 @@
 // Grown-up corner: progress, limits, map key, family notes, your own questions, backup. Everything stays on this device.
-import { S, save, flush, minutesToday, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll, listSnapshots, restoreSnapshot } from '../core/store.js';
+import { S, save, flush, minutesToday, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll, listSnapshots, restoreSnapshot, givePearls, snapshotNow, makeTransferCode, readTransferCode } from '../core/store.js';
+import { APP_BUILD } from '../core/version.js';
 import { h, toast, clamp } from '../core/dom.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
@@ -19,6 +20,10 @@ addStrings({
     gLimits: 'Time and comfort', gDaily: 'Daily play limit', gNone: 'No limit', gBed: 'Bedtime wind-down starts', gBig: 'Bigger text', gOn: 'On', gOff: 'Off',
     gMap: 'Map and places', gKey: 'Esri API key (optional)', gKeyNote: 'The map shows satellite pictures from free sources by default. For sharper pictures, make a free key at developers.arcgis.com, restrict it to this website’s address, switch off pay-as-you-go, then paste it here. Google Maps cannot be used on a children’s site under Google’s terms.',
     gHome: 'Home location (for “miles from home”)', gLat: 'Latitude', gLon: 'Longitude', gUseLoc: 'Use this device’s location', gClearLoc: 'Clear', gLocSaved: 'Saved on this device only.', gLocFail: 'Could not get the location. You can type it instead.',
+    gMoveH: 'Move progress to another copy', gCopy: 'This copy of the lab', gBuild: 'Build {v}', gCopyNote: 'Safari and the Home Screen icon each keep their OWN copy of Max’s progress, and they never share. Pick one place for Max to play. To move progress from one to the other, use the transfer code below.',
+    gGive: 'Give pearls (testing or a reward)', gGaveN: '{n} pearls added.', gGiveNote: 'Added straight to the balance. They do not use up the daily limit.',
+    gMoveOut: 'Copy this copy’s transfer code', gMoveOutNote: 'Do this on the copy that has Max’s progress. Then open the other copy, open its Grown-up corner and paste the code below.', gCodeCopied: 'Code copied. Paste it into the other copy.', gCodeSelect: 'Press and hold the code, then tap Copy.',
+    gMoveIn: 'Paste a transfer code here', gMoveInBtn: 'Load it here', gMoveSure: 'Tap again to replace this copy', gMoveDone: 'Done! This copy now matches the other one.', gMoveBad: 'That code did not work. Copy it again from the other copy.', gMoveNote: 'This replaces everything in THIS copy. A safety copy of it is saved first.',
     gFamily: 'Family notes', gFamNote: 'Add a short note to each family place. It shows on Max’s place card and is stored only on this device.', gImport: 'Load notes from a file', gNotesLoaded: 'Notes loaded.',
     gQs: 'Your own questions', gQsNote: 'These mix into Max’s missions now and then. Add one right answer and up to three wrong ones.', gQ: 'Question', gRight: 'Right answer', gW1: 'Wrong answer', gW2: 'Another wrong answer (optional)', gW3: 'One more (optional)', gWhy: 'Why it is right (optional)', gAdd: 'Add question', gDelete: 'Delete', gQNeed: 'Add a question, a right answer and one wrong answer.', gQAdded: 'Added!',
     gBackup: 'Backup and reset', gSnap: 'Automatic safety copies', gSnapNote: 'The lab keeps a copy of Max’s progress at his first visit each day and before any update that changes how progress is saved. If anything ever looks wrong after an update, restore a copy here. Copies stay on this iPad.', gSnapNone: 'No copies yet. The first one is made the next time the lab opens.', gSnapRestore: 'Restore', gSnapAsk: 'Restore this copy? Max’s current progress is saved as a copy first, so you can switch back.', gSnapDone: 'Copy restored.', gSnapLine: '{p} pearls earned · {s} stamps · {n} days played', gSnapDaily: 'Daily copy', gSnapUpdate: 'Before an update', gSnapBefore: 'Before a restore', gBackupNote: 'Save a copy so progress is safe if the browser is cleared or you switch iPads.', gExport: 'Save a backup file', gImportB: 'Restore from a backup file', gLast: 'Last backup: {d}', gNever: 'never', gImported: 'Backup restored.', gImportBad: 'That file did not work.', gMerge: 'Combine with current progress', gReplace: 'Replace current progress',
@@ -36,6 +41,10 @@ addStrings({
     gLimits: 'Tiempo y comodidad', gDaily: 'Límite diario de juego', gNone: 'Sin límite', gBed: 'La calma de la hora de dormir empieza', gBig: 'Texto más grande', gOn: 'Sí', gOff: 'No',
     gMap: 'Mapa y lugares', gKey: 'Clave de API de Esri (opcional)', gKeyNote: 'El mapa muestra imágenes de satélite de fuentes gratuitas. Para imágenes más nítidas, crea una clave gratis en developers.arcgis.com, restríngela a la dirección de este sitio, desactiva el pago por uso y pégala aquí. Google Maps no se puede usar en un sitio para niños según sus términos.',
     gHome: 'Ubicación de casa (para “millas desde casa”)', gLat: 'Latitud', gLon: 'Longitud', gUseLoc: 'Usar la ubicación del dispositivo', gClearLoc: 'Borrar', gLocSaved: 'Guardada solo en este dispositivo.', gLocFail: 'No se pudo obtener la ubicación. Puedes escribirla.',
+    gMoveH: 'Pasar el progreso a otra copia', gCopy: 'Esta copia del laboratorio', gBuild: 'Versión {v}', gCopyNote: 'Safari y el ícono de la pantalla de inicio guardan CADA UNO su propia copia del progreso de Max, y nunca se comparten. Elige un solo lugar para que Max juegue. Para pasar el progreso de uno al otro, usa el código de transferencia de abajo.',
+    gGive: 'Dar perlas (pruebas o premio)', gGaveN: 'Se agregaron {n} perlas.', gGiveNote: 'Se suman directo al saldo. No gastan el límite diario.',
+    gMoveOut: 'Copiar el código de transferencia de esta copia', gMoveOutNote: 'Hazlo en la copia que tiene el progreso de Max. Luego abre la otra copia, entra a su Rincón de adultos y pega el código abajo.', gCodeCopied: 'Código copiado. Pégalo en la otra copia.', gCodeSelect: 'Mantén presionado el código y toca Copiar.',
+    gMoveIn: 'Pega aquí un código de transferencia', gMoveInBtn: 'Cargarlo aquí', gMoveSure: 'Toca otra vez para reemplazar esta copia', gMoveDone: '¡Listo! Esta copia ahora es igual a la otra.', gMoveBad: 'Ese código no funcionó. Cópialo de nuevo desde la otra copia.', gMoveNote: 'Esto reemplaza todo lo de ESTA copia. Antes se guarda una copia de seguridad.',
     gFamily: 'Notas de la familia', gFamNote: 'Agrega una nota corta a cada lugar de la familia. Se muestra en la tarjeta del lugar y solo se guarda en este dispositivo.', gImport: 'Cargar notas de un archivo', gNotesLoaded: 'Notas cargadas.',
     gQs: 'Tus propias preguntas', gQsNote: 'Se mezclan de vez en cuando en las misiones de Max. Agrega una respuesta correcta y hasta tres incorrectas.', gQ: 'Pregunta', gRight: 'Respuesta correcta', gW1: 'Respuesta incorrecta', gW2: 'Otra incorrecta (opcional)', gW3: 'Una más (opcional)', gWhy: 'Por qué es correcta (opcional)', gAdd: 'Agregar pregunta', gDelete: 'Borrar', gQNeed: 'Agrega una pregunta, una respuesta correcta y una incorrecta.', gQAdded: '¡Agregada!',
     gBackup: 'Copia de seguridad y borrado', gSnap: 'Copias de seguridad automáticas', gSnapNote: 'El laboratorio guarda una copia del progreso de Max en su primera visita de cada día y antes de cualquier actualización que cambie cómo se guarda el progreso. Si algo se ve mal después de una actualización, restaura una copia aquí. Las copias se quedan en este iPad.', gSnapNone: 'Todavía no hay copias. La primera se hace la próxima vez que se abra el laboratorio.', gSnapRestore: 'Restaurar', gSnapAsk: '¿Restaurar esta copia? Primero se guarda el progreso actual de Max como una copia, para que puedas volver.', gSnapDone: 'Copia restaurada.', gSnapLine: '{p} perlas ganadas · {s} sellos · {n} días jugados', gSnapDaily: 'Copia diaria', gSnapUpdate: 'Antes de una actualización', gSnapBefore: 'Antes de restaurar', gBackupNote: 'Guarda una copia para no perder el progreso si se borra el navegador o cambias de iPad.', gExport: 'Guardar archivo de respaldo', gImportB: 'Restaurar desde un archivo', gLast: 'Última copia: {d}', gNever: 'nunca', gImported: 'Copia restaurada.', gImportBad: 'Ese archivo no funcionó.', gMerge: 'Combinar con el progreso actual', gReplace: 'Reemplazar el progreso actual',
@@ -208,6 +217,28 @@ async function build(root) {
     h('div', { class: 'row' }, h('button', { class: 'btn ghost small danger', onclick: reset }, t('gReset'))));
 
 
+  // ----- this copy: version, give pearls, move progress between Safari and the Home Screen icon
+  const codeBox = h('textarea', { class: 'textin codebox', rows: 3, readonly: true, hidden: true, onclick: (e) => e.target.select() });
+  const codeNote = h('p', { class: 'muted small', hidden: true }, t('gCodeSelect'));
+  const outBtn = h('button', { class: 'btn gold small', onclick: async () => {
+    const code = await makeTransferCode(); codeBox.value = code; codeBox.hidden = false; codeNote.hidden = false; codeBox.select();
+    try { await navigator.clipboard.writeText(code); toast(t('gCodeCopied')); codeNote.hidden = true; } catch { /* the box is there to copy by hand */ }
+  } }, t('gMoveOut'));
+  const inBox = h('textarea', { class: 'textin codebox', rows: 3, placeholder: 'MLAB1:…', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
+  let armed = 0;
+  const inBtn = h('button', { class: 'btn ghost small', onclick: async () => {
+    if (!inBox.value.trim()) return;
+    if (!armed) { armed = setTimeout(() => { armed = 0; inBtn.textContent = t('gMoveInBtn'); }, 6000); inBtn.textContent = t('gMoveSure'); return; }
+    clearTimeout(armed); armed = 0; inBtn.textContent = t('gMoveInBtn');
+    try { const text = await readTransferCode(inBox.value); JSON.parse(text); await snapshotNow('before-restore'); importData(text, 'replace'); toast(t('gMoveDone')); root.replaceChildren(); build(root); }
+    catch (err) { toast(t('gMoveBad')); }
+  } }, t('gMoveInBtn'));
+  const giveBtn = (n) => h('button', { class: 'btn small', onclick: () => { givePearls(n); toast(t('gGaveN', { n })); } }, '+' + n);
+  const copySec = section(t('gCopy'), h('p', { class: 'chip on' }, t('gBuild', { v: APP_BUILD })), h('p', { class: 'muted small' }, t('gCopyNote')),
+    h('h3', {}, t('gGive')), h('div', { class: 'row' }, giveBtn(100), giveBtn(300), giveBtn(800)), h('p', { class: 'muted small' }, t('gGiveNote')),
+    h('h3', {}, t('gMoveH')), h('p', { class: 'muted small' }, t('gMoveOutNote')), outBtn, codeBox, codeNote,
+    h('h3', {}, t('gMoveIn')), inBox, h('div', { class: 'row' }, inBtn), h('p', { class: 'muted small' }, t('gMoveNote')));
+
   // ----- automatic safety copies
   const snapList = h('div', { class: 'qlist' });
   const whyKey = { daily: 'gSnapDaily', update: 'gSnapUpdate', 'before-restore': 'gSnapBefore' };
@@ -238,5 +269,5 @@ async function build(root) {
     S.settings.pinHash ? h('button', { class: 'btn ghost small', onclick: () => { S.settings.pinHash = null; S.settings.pinSalt = null; save(); toast(t('gPinRemoved')); } }, t('gRemovePin')) : null),
     h('p', {}, h('a', { href: '#/credits' }, t('gCredits'))), h('small', { class: 'muted' }, t('gVersion')));
 
-  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, timeSec, suggestSec, progressSec, limits, voiceSec, mapSec, famSec, qSec, bSec, snapSec, sec);
+  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, timeSec, suggestSec, progressSec, limits, voiceSec, mapSec, famSec, qSec, copySec, bSec, snapSec, sec);
 }
