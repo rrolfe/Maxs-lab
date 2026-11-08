@@ -1,0 +1,2038 @@
+{
+ "packs": [
+  {
+   "id": "sharks",
+   "words": {
+    "en": [
+     {
+      "w": "JAW",
+      "clue": "The movable frame that holds a shark's teeth",
+      "fact": "A shark's jaw is loosely attached to its skull, so it can swing forward when biting.",
+      "tier": 1
+     },
+     {
+      "w": "EYE",
+      "clue": "Body part you see with; you have two of them",
+      "fact": "Hammerhead sharks have their eyes at the far ends of their wide heads.",
+      "tier": 1
+     },
+     {
+      "w": "FISH",
+      "clue": "Animal with fins and gills that spends its whole life in water",
+      "fact": "There are more than 500 kinds of sharks, and every one is a fish.",
+      "tier": 1
+     },
+     {
+      "w": "REEF",
+      "clue": "Colorful ridge of coral just under the surface of the sea",
+      "fact": "Blacktip reef sharks often swim in water so shallow that their fins poke out.",
+      "tier": 1
+     },
+     {
+      "w": "SEAL",
+      "clue": "Whiskered ocean swimmer that barks and rests on rocks",
+      "fact": "Great whites can launch their whole bodies out of the water, and seals are a favorite meal.",
+      "tier": 1
+     },
+     {
+      "w": "TUNA",
+      "clue": "Speedy ocean fish often packed in cans for sandwiches",
+      "fact": "Mako sharks and tuna both keep their muscles warmer than the water around them.",
+      "tier": 1
+     },
+     {
+      "w": "SQUID",
+      "clue": "Ocean animal with ten limbs that sprays ink to escape",
+      "fact": "Squid can change color in a flash, but many sharks still hunt them.",
+      "tier": 1
+     },
+     {
+      "w": "KELP",
+      "clue": "Giant brown seaweed that grows in underwater forests",
+      "fact": "Leopard sharks and horn sharks hide and hunt in California's kelp forests.",
+      "tier": 1
+     },
+     {
+      "w": "CAGE",
+      "clue": "Strong metal bars that protect divers watching big sharks",
+      "fact": "Divers inside one can look right at a great white from a safe spot.",
+      "tier": 1
+     },
+     {
+      "w": "DIVE",
+      "clue": "What scuba swimmers do to go down deep underwater",
+      "fact": "Great white sharks can dive well over 1,000 feet down.",
+      "tier": 1
+     },
+     {
+      "w": "SWIM",
+      "clue": "Move through water by kicking or sweeping fins",
+      "fact": "Some sharks must keep swimming all the time so water flows over their gills.",
+      "tier": 1
+     },
+     {
+      "w": "DEEP",
+      "clue": "Far down below the surface; the opposite of shallow",
+      "fact": "Some sharks live in water more than a mile down, where it is dark and cold.",
+      "tier": 1
+     },
+     {
+      "w": "SALT",
+      "clue": "White crystals that make the sea taste yucky",
+      "fact": "Bull sharks can live in salty sea water and in fresh river water.",
+      "tier": 1
+     },
+     {
+      "w": "PREY",
+      "clue": "An animal that gets hunted and eaten by another",
+      "fact": "Hammerhead sharks use their wide heads to pin down stingrays hiding in sand.",
+      "tier": 1
+     },
+     {
+      "w": "LEMON",
+      "clue": "Sour yellow citrus fruit used in a sweet summer drink",
+      "fact": "A shark named for this fruit has yellow-brown skin that blends in with sandy sea floors.",
+      "tier": 1
+     },
+     {
+      "w": "BLUE",
+      "clue": "Color of a clear sky; a slim shark is named for it",
+      "fact": "Blue sharks sometimes swim all the way across the Atlantic Ocean.",
+      "tier": 1
+     },
+     {
+      "w": "SAND",
+      "clue": "Tiny grains of rock that cover a beach",
+      "fact": "Sand tiger sharks gulp air at the surface so they can float in place.",
+      "tier": 1
+     },
+     {
+      "w": "TAG",
+      "clue": "Scientists clip this onto a shark's fin to follow its travels",
+      "fact": "Tagged sharks have been tracked swimming thousands of miles across the ocean.",
+      "tier": 1
+     },
+     {
+      "w": "ZEBRA",
+      "clue": "Black-and-white striped animal of the African grasslands, like a horse",
+      "fact": "Zebra sharks have stripes as babies but grow spots as they get older.",
+      "tier": 1
+     },
+     {
+      "w": "GLOW",
+      "clue": "Shine softly in the dark, like a night-light",
+      "fact": "Some tiny deep-sea sharks make their own light and glow in the dark.",
+      "tier": 1
+     },
+     {
+      "w": "SONAR",
+      "clue": "Gadget that uses sound echoes to find things underwater",
+      "fact": "Sonar works like bat echoes: it sends out sound and listens for what bounces back.",
+      "tier": 1
+     },
+     {
+      "w": "RAY",
+      "clue": "Flat ocean fish that flaps its fins like wings; shark's cousin",
+      "fact": "Rays and sharks are cousins, and both have skeletons made of cartilage.",
+      "tier": 1
+     },
+     {
+      "w": "SNOUT",
+      "clue": "Pointy nose of a pig, a dog, or a shark",
+      "fact": "A sawshark's long snout has two whisker-like feelers that help it find food in sand.",
+      "tier": 1
+     },
+     {
+      "w": "LIVER",
+      "clue": "Big oily organ inside a shark that helps it float",
+      "fact": "Oil is lighter than water, so an oily liver helps keep a shark from sinking.",
+      "tier": 1
+     },
+     {
+      "w": "BAT",
+      "clue": "Wooden stick swung in baseball to hit the ball",
+      "fact": "A thresher shark swings its long tail like one to stun small fish.",
+      "tier": 1
+     },
+     {
+      "w": "DRONE",
+      "clue": "Small flying robot with spinning propellers, steered from the ground",
+      "fact": "Beach lifeguards and scientists use them to spot sharks from the sky.",
+      "tier": 1
+     },
+     {
+      "w": "SPEED",
+      "clue": "How fast something moves, such as miles per hour",
+      "fact": "A shortfin mako can swim faster than 30 miles an hour.",
+      "tier": 1
+     },
+     {
+      "w": "TIDE",
+      "clue": "Daily rise and fall of seawater at the beach",
+      "fact": "The Moon's pull makes the ocean rise and fall along the shore.",
+      "tier": 1
+     },
+     {
+      "w": "LEOPARD",
+      "clue": "Spotted big cat of Africa; one small shark wears its pattern",
+      "fact": "Leopard sharks swim in big groups in shallow bays, and they are not dangerous to people.",
+      "tier": 2
+     },
+     {
+      "w": "FRILLED",
+      "clue": "Collar-like gill edges give this eel-shaped deep-sea shark its name",
+      "fact": "A frilled shark has about 300 tiny three-pointed teeth, and it looks like an eel.",
+      "tier": 2
+     },
+     {
+      "w": "SANDBAR",
+      "clue": "Underwater ridge of loose grains piled up near the shore",
+      "fact": "Sandbar sharks have a very tall first fin, and their babies grow up in shallow bays.",
+      "tier": 2
+     },
+     {
+      "w": "STOMACH",
+      "clue": "Bag inside your belly where swallowed food goes",
+      "fact": "Some sharks can flip their stomach inside out to clean it.",
+      "tier": 2
+     },
+     {
+      "w": "SPIRAL",
+      "clue": "Shape of a curly staircase or a snail's shell",
+      "fact": "Inside a shark's short intestine is a corkscrew twist that gives food more surface to soak into.",
+      "tier": 2
+     },
+     {
+      "w": "HEARING",
+      "clue": "The sense you use your ears for",
+      "fact": "Sharks can hear low sounds, like a flapping fish, from very far away.",
+      "tier": 2
+     },
+     {
+      "w": "CAMERA",
+      "clue": "Gadget that snaps photos or video",
+      "fact": "Scientists clip tiny ones to sharks to see what a day in their life looks like.",
+      "tier": 2
+     },
+     {
+      "w": "SPECIES",
+      "clue": "One kind of living thing, such as a type of bird",
+      "fact": "There are more than 500 species of sharks, and the smallest is shorter than a ruler.",
+      "tier": 2
+     },
+     {
+      "w": "SALMON",
+      "clue": "Pink fish that swims upstream to lay its eggs",
+      "fact": "Salmon sharks live in cold northern seas but keep their bodies warmer than the water.",
+      "tier": 2
+     },
+     {
+      "w": "OCTOPUS",
+      "clue": "Sea animal with eight arms that squirts a cloud of ink",
+      "fact": "An octopus has three hearts and blue blood.",
+      "tier": 2
+     },
+     {
+      "w": "LOBSTER",
+      "clue": "Hard-shelled sea animal with two big claws, often boiled for dinner",
+      "fact": "Nurse sharks can crunch hard-shelled food like lobsters and crabs.",
+      "tier": 2
+     },
+     {
+      "w": "TURTLE",
+      "clue": "Shelled reptile that can swim in the sea",
+      "fact": "Tiger sharks have strong jaws that can crack open a sea turtle's shell.",
+      "tier": 2
+     },
+     {
+      "w": "DOLPHIN",
+      "clue": "Playful, smart sea mammal that clicks and whistles",
+      "fact": "Dolphins breathe air at the surface, but sharks breathe underwater with gills.",
+      "tier": 2
+     },
+     {
+      "w": "LAGOON",
+      "clue": "Calm, shallow water almost walled in by land or a reef",
+      "fact": "Many young reef sharks grow up in the calm, shallow water of lagoons.",
+      "tier": 2
+     },
+     {
+      "w": "ESTUARY",
+      "clue": "Where a river meets the sea and fresh and salt water mix",
+      "fact": "Bull sharks can swim into estuaries and even far up rivers.",
+      "tier": 2
+     },
+     {
+      "w": "NURSERY",
+      "clue": "Safe shallow spot where young sharks grow; also a room for babies",
+      "fact": "Young sharks stay in calm shallow places where big hungry animals rarely go.",
+      "tier": 2
+     },
+     {
+      "w": "SNORKEL",
+      "clue": "Breathing tube for swimming with your face in the water",
+      "fact": "Snorkelers can swim beside whale sharks, which are the biggest fish in the sea.",
+      "tier": 2
+     },
+     {
+      "w": "SHALLOW",
+      "clue": "Not deep; water that barely covers your knees",
+      "fact": "Many baby sharks grow up in this kind of water, away from big predators.",
+      "tier": 2
+     },
+     {
+      "w": "PATTERN",
+      "clue": "Repeating design, such as spots or stripes",
+      "fact": "Every whale shark has its own spot pattern, like a fingerprint.",
+      "tier": 2
+     },
+     {
+      "w": "OXYGEN",
+      "clue": "Gas in air and water that animals need to breathe",
+      "fact": "Water holds far less of it than air does, so gills have to work hard.",
+      "tier": 2
+     },
+     {
+      "w": "STRIKE",
+      "clue": "In baseball, three of these and the batter is out",
+      "fact": "A thresher shark's tail can be as long as the rest of its body.",
+      "tier": 2
+     },
+     {
+      "w": "GENTLE",
+      "clue": "Soft and kind, not rough",
+      "fact": "Whale sharks and basking sharks are gentle giants that eat tiny food.",
+      "tier": 2
+     },
+     {
+      "w": "SWIMMER",
+      "clue": "Athlete who races in a pool",
+      "fact": "Some racing swimsuits were designed to copy the tiny ridges on shark skin.",
+      "tier": 2
+     },
+     {
+      "w": "BALANCE",
+      "clue": "Staying steady without falling over",
+      "fact": "Sharks have tiny ear openings behind their eyes that help them hear and keep their balance.",
+      "tier": 2
+     },
+     {
+      "w": "CARPET",
+      "clue": "Soft covering for a living room floor",
+      "fact": "Carpet sharks like wobbegongs lie flat on the sea floor and look like rocks.",
+      "tier": 2
+     },
+     {
+      "w": "MIRROR",
+      "clue": "Shiny glass that shows your reflection",
+      "fact": "A shark's eye has a mirror-like layer that helps it see in dim water.",
+      "tier": 2
+     },
+     {
+      "w": "MEMORY",
+      "clue": "Your brain's ability to keep things from the past",
+      "fact": "Sharks in tests have learned tasks and still remembered them weeks later.",
+      "tier": 2
+     },
+     {
+      "w": "ARCTIC",
+      "clue": "Freezing ocean and ice region around the North Pole",
+      "fact": "Greenland sharks swim in near-freezing water and grow very slowly.",
+      "tier": 2
+     },
+     {
+      "w": "WEIGHT",
+      "clue": "How heavy something is, measured on a scale",
+      "fact": "A whale shark weighs more than a full-grown elephant.",
+      "tier": 2
+     },
+     {
+      "w": "NEEDLE",
+      "clue": "Thin metal pin used for sewing, with a hole at one end",
+      "fact": "A mako's teeth are long and thin like needles, perfect for catching slippery fish.",
+      "tier": 2
+     },
+     {
+      "w": "SPONGE",
+      "clue": "Soft, holey thing for scrubbing, once a sea animal",
+      "fact": "A sponge is an animal, even though it never moves from its spot.",
+      "tier": 2
+     },
+     {
+      "w": "PENGUIN",
+      "clue": "Black-and-white bird that cannot fly but swims fast",
+      "fact": "Penguins use their wings as flippers to zoom through the water.",
+      "tier": 2
+     },
+     {
+      "w": "GREENLAND",
+      "clue": "Huge icy island near Canada, name of a shark that lives centuries",
+      "fact": "Greenland sharks swim slowly in freezing water and may live for hundreds of years.",
+      "tier": 3
+     },
+     {
+      "w": "BLACKTIP",
+      "clue": "Shark whose fin tips look dipped in dark ink",
+      "fact": "Blacktip sharks can leap out of the water and spin while hunting fish.",
+      "tier": 3
+     },
+     {
+      "w": "WHITETIP",
+      "clue": "Open-ocean shark with bright pale tips on its fins",
+      "fact": "Oceanic whitetip sharks cruise far from land, with long, rounded fins.",
+      "tier": 3
+     },
+     {
+      "w": "SAWSHARK",
+      "clue": "Shark with a toothed snout like a carpenter's tool",
+      "fact": "Sawsharks look like sawfish, but they are true sharks and are much smaller.",
+      "tier": 3
+     },
+     {
+      "w": "DENTICLE",
+      "clue": "Tiny tooth-shaped scale; thousands cover a shark's skin",
+      "fact": "Denticles point backward, which helps water flow smoothly past a swimming shark.",
+      "tier": 3
+     },
+     {
+      "w": "SUBMARINE",
+      "clue": "Boat that travels deep under the water",
+      "fact": "Scientists use small research subs to film deep-sea sharks in the dark.",
+      "tier": 3
+     },
+     {
+      "w": "SATELLITE",
+      "clue": "Machine that circles Earth high above in space",
+      "fact": "Some shark tags send signals to one whenever the shark's fin breaks the surface.",
+      "tier": 3
+     },
+     {
+      "w": "STINGRAY",
+      "clue": "Flat sea fish with a whip-like tail that hides in sand",
+      "fact": "Stingrays have their eyes on top of their bodies and their mouths underneath.",
+      "tier": 3
+     },
+     {
+      "w": "MANGROVE",
+      "clue": "Tree whose tangled roots grow in salty shallow water",
+      "fact": "Baby lemon sharks hide among the roots of these trees to stay safe.",
+      "tier": 3
+     },
+     {
+      "w": "BONNETHEAD",
+      "clue": "Small hammerhead cousin with a rounded, shovel-shaped head",
+      "fact": "Unlike most sharks, bonnetheads eat lots of seagrass and can digest part of it.",
+      "tier": 3
+     },
+     {
+      "w": "SEAGRASS",
+      "clue": "Underwater plant that grows in green meadows on the sandy sea floor",
+      "fact": "It is a flowering plant that lives underwater, and sea turtles love to eat it.",
+      "tier": 3
+     },
+     {
+      "w": "AQUARIUM",
+      "clue": "Building with big tanks where you can watch fish and sea animals",
+      "fact": "Some have glass tunnels where visitors walk right under swimming sharks.",
+      "tier": 3
+     },
+     {
+      "w": "CAMOUFLAGE",
+      "clue": "Colors and patterns that help an animal blend in",
+      "fact": "A wobbegong's fringed skin flaps make it nearly invisible on the sea floor.",
+      "tier": 3
+     },
+     {
+      "w": "DARKNESS",
+      "clue": "What you see in a room with all the lights off",
+      "fact": "Below about 3,000 feet, sunlight never reaches the ocean, so deep-sea sharks live in the dark.",
+      "tier": 3
+     },
+     {
+      "w": "PRESSURE",
+      "clue": "Squeezing force of deep water on everything in it",
+      "fact": "Deep-sea pressure can shrink a foam cup to a tiny size, yet sharks live there.",
+      "tier": 3
+     },
+     {
+      "w": "SERRATED",
+      "clue": "Edged with tiny sharp points, like a steak knife",
+      "fact": "Tiger shark and great white teeth are like this, which helps them slice tough food.",
+      "tier": 3
+     },
+     {
+      "w": "TRIANGLE",
+      "clue": "Shape with three straight sides and three corners",
+      "fact": "A great white's teeth are shaped like tall triangles with sawlike edges.",
+      "tier": 3
+     },
+     {
+      "w": "SKELETON",
+      "clue": "All the bones in a body, standing together",
+      "fact": "Because shark skeletons are made of soft cartilage, mostly their teeth survive as fossils.",
+      "tier": 3
+     },
+     {
+      "w": "SCIENTIST",
+      "clue": "Person who studies nature by asking questions and running experiments",
+      "fact": "Scientists can tell the age of some sharks by counting rings in their backbones, like tree rings.",
+      "tier": 3
+     },
+     {
+      "w": "TROPICAL",
+      "clue": "Hot, wet climate near the equator",
+      "fact": "Many kinds of sharks prefer warm tropical seas, where lots of fish live.",
+      "tier": 3
+     },
+     {
+      "w": "JELLYFISH",
+      "clue": "Floaty sea animal with stinging tentacles and no brain",
+      "fact": "Jellyfish have been drifting in the sea for longer than sharks have.",
+      "tier": 3
+     },
+     {
+      "w": "SMALLEST",
+      "clue": "Least big of all; the opposite of largest",
+      "fact": "The dwarf lanternshark is one of the smallest sharks, shorter than a ruler, and it glows.",
+      "tier": 3
+     },
+     {
+      "w": "SHIPWRECK",
+      "clue": "Sunken boat resting on the sea floor",
+      "fact": "Sunken ships often become artificial reefs where fish gather, and sharks follow.",
+      "tier": 3
+     },
+     {
+      "w": "ENDANGERED",
+      "clue": "At risk of disappearing forever from the wild",
+      "fact": "Many shark kinds are in trouble because they grow slowly and have few pups.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "OJO",
+      "clue": "Con esto ves; tienes dos en la cara",
+      "fact": "Los tiburones martillo tienen los ojos en los extremos de su cabeza ancha.",
+      "tier": 1
+     },
+     {
+      "w": "FOCA",
+      "clue": "Animal de bigotes que ladra y descansa sobre las rocas",
+      "fact": "Los tiburones blancos pueden saltar enteros fuera del agua, y las focas son una de sus comidas favoritas.",
+      "tier": 1
+     },
+     {
+      "w": "ATÚN",
+      "clue": "Pez veloz del mar que se vende en latas",
+      "fact": "El tiburón mako y el atún mantienen sus músculos más calientes que el agua que los rodea.",
+      "tier": 1
+     },
+     {
+      "w": "ALGA",
+      "clue": "Planta del mar sin raíces ni flores, verde, café o roja",
+      "fact": "Los bosques de algas gigantes son refugio de muchos peces y pequeños tiburones.",
+      "tier": 1
+     },
+     {
+      "w": "JAULA",
+      "clue": "Barras de metal que protegen a los buzos que miran tiburones",
+      "fact": "Desde una jaula de metal, los buzos pueden mirar de cerca a un tiburón blanco.",
+      "tier": 1
+     },
+     {
+      "w": "NADAR",
+      "clue": "Moverse en el agua con brazos y piernas o con aletas",
+      "fact": "Algunos tiburones deben nadar siempre para que el agua les pase por las agallas.",
+      "tier": 1
+     },
+     {
+      "w": "SAL",
+      "clue": "Cristales blancos que le dan al mar su sabor",
+      "fact": "El tiburón toro puede vivir en agua salada y también en ríos de agua dulce.",
+      "tier": 1
+     },
+     {
+      "w": "PRESA",
+      "clue": "Animal al que otro animal caza para comer",
+      "fact": "Los tiburones martillo usan su cabeza ancha para sujetar mantarrayas escondidas en la arena.",
+      "tier": 1
+     },
+     {
+      "w": "AZUL",
+      "clue": "Color del cielo despejado; un tiburón delgado lleva ese nombre",
+      "fact": "El tiburón azul puede cruzar el océano Atlántico entero en sus viajes.",
+      "tier": 1
+     },
+     {
+      "w": "ARENA",
+      "clue": "Granitos de roca que cubren la playa",
+      "fact": "Los tiburones nodriza descansan sobre la arena del fondo del mar.",
+      "tier": 1
+     },
+     {
+      "w": "CEBRA",
+      "clue": "Animal africano de rayas negras y blancas, parecido a un caballo",
+      "fact": "Los tiburones cebra nacen con rayas, pero de adultos tienen manchas.",
+      "tier": 1
+     },
+     {
+      "w": "SONAR",
+      "clue": "Aparato que usa ecos de sonido para encontrar cosas bajo el agua",
+      "fact": "El sonar funciona como un murciélago: envía sonidos y escucha el eco.",
+      "tier": 1
+     },
+     {
+      "w": "BATE",
+      "clue": "Palo de madera con el que se golpea la pelota de béisbol",
+      "fact": "El tiburón zorro agita su larga cola como un bate para aturdir peces pequeños.",
+      "tier": 1
+     },
+     {
+      "w": "DRON",
+      "clue": "Pequeño robot volador con hélices, que se maneja desde lejos",
+      "fact": "Los salvavidas y los científicos usan drones para ver tiburones desde el cielo.",
+      "tier": 1
+     },
+     {
+      "w": "MAREA",
+      "clue": "Subida y bajada del agua del mar en la orilla",
+      "fact": "La atracción de la Luna hace que el mar suba y baje en la orilla.",
+      "tier": 1
+     },
+     {
+      "w": "NARIZ",
+      "clue": "Parte de la cara con la que hueles y respiras",
+      "fact": "Los tiburones tienen fosas nasales, pero solo las usan para oler, no para respirar.",
+      "tier": 1
+     },
+     {
+      "w": "BUZO",
+      "clue": "Persona que explora bajo el agua con un tanque de aire",
+      "fact": "Los buzos pueden nadar junto a los tiburones ballena, los peces más grandes del mundo.",
+      "tier": 1
+     },
+     {
+      "w": "BAHÍA",
+      "clue": "Entrada de mar en la costa, de aguas tranquilas",
+      "fact": "Muchos bebés tiburón crecen en bahías de aguas poco profundas y tranquilas.",
+      "tier": 1
+     },
+     {
+      "w": "PULPO",
+      "clue": "Animal marino de ocho brazos que suelta tinta",
+      "fact": "Un pulpo tiene tres corazones y sangre azul.",
+      "tier": 1
+     },
+     {
+      "w": "LENTO",
+      "clue": "Que se mueve poco a poco, sin prisa",
+      "fact": "El tiburón de Groenlandia nada muy despacio, pero puede vivir cientos de años.",
+      "tier": 1
+     },
+     {
+      "w": "GRIS",
+      "clue": "Color de las nubes antes de la lluvia",
+      "fact": "Muchos tiburones son grises arriba y blancos abajo, para esconderse mejor en el agua.",
+      "tier": 1
+     },
+     {
+      "w": "MANTA",
+      "clue": "Pariente plano y enorme del tiburón que nada como si volara",
+      "fact": "Una manta gigante puede medir más de cinco metros de ancho.",
+      "tier": 1
+     },
+     {
+      "w": "LUZ",
+      "clue": "Lo que dan el Sol y las lámparas y nos deja ver",
+      "fact": "La luz del Sol solo ilumina bien los primeros 200 metros del océano.",
+      "tier": 1
+     },
+     {
+      "w": "BARCO",
+      "clue": "Gran vehículo que flota y navega por el mar",
+      "fact": "Los científicos viajan en barcos de investigación para marcar y estudiar tiburones.",
+      "tier": 1
+     },
+     {
+      "w": "OLA",
+      "clue": "Montaña de agua que rueda hacia la playa y revienta",
+      "fact": "Los tiburones sienten el movimiento del agua con una línea de sensores a lo largo del cuerpo.",
+      "tier": 1
+     },
+     {
+      "w": "CUEVA",
+      "clue": "Hueco grande dentro de una montaña o bajo el mar",
+      "fact": "Algunos tiburones descansan quietos en cuevas submarinas mientras el agua les pasa por las agallas.",
+      "tier": 1
+     },
+     {
+      "w": "RÍO",
+      "clue": "Corriente larga de agua dulce que desemboca en el mar",
+      "fact": "Algunos tiburones toro nadan río arriba, muy lejos del mar.",
+      "tier": 1
+     },
+     {
+      "w": "VELOZ",
+      "clue": "Muy rápido",
+      "fact": "El tiburón mako puede nadar a más de 50 kilómetros por hora.",
+      "tier": 1
+     },
+     {
+      "w": "CALAMAR",
+      "clue": "Animal marino de diez extremidades que suelta tinta para escapar",
+      "fact": "Un calamar puede cambiar de color en un instante, aunque muchos tiburones igual lo cazan.",
+      "tier": 2
+     },
+     {
+      "w": "TORTUGA",
+      "clue": "Reptil con caparazón que puede nadar en el mar",
+      "fact": "Los tiburones tigre tienen mandíbulas tan fuertes que pueden romper el caparazón de una tortuga marina.",
+      "tier": 2
+     },
+     {
+      "w": "DELFÍN",
+      "clue": "Mamífero marino juguetón e inteligente que chilla y silba",
+      "fact": "Los delfines respiran aire en la superficie, pero los tiburones respiran bajo el agua con agallas.",
+      "tier": 2
+     },
+     {
+      "w": "LAGUNA",
+      "clue": "Agua tranquila y poco profunda, rodeada de tierra o de arrecife",
+      "fact": "Muchos tiburones jóvenes de arrecife crecen en las aguas tranquilas de las lagunas.",
+      "tier": 2
+     },
+     {
+      "w": "HÍGADO",
+      "clue": "Órgano grande y aceitoso que ayuda al tiburón a flotar",
+      "fact": "El aceite pesa menos que el agua, así que un hígado aceitoso evita que el tiburón se hunda.",
+      "tier": 2
+     },
+     {
+      "w": "OXÍGENO",
+      "clue": "Gas del aire y del agua que los animales necesitan para respirar",
+      "fact": "El agua tiene mucho menos oxígeno que el aire, así que las agallas deben trabajar duro.",
+      "tier": 2
+     },
+     {
+      "w": "ESPECIE",
+      "clue": "Tipo de ser vivo, como cada clase de tiburón",
+      "fact": "Hay más de 500 especies de tiburones, desde mares cálidos hasta aguas heladas.",
+      "tier": 2
+     },
+     {
+      "w": "SALMÓN",
+      "clue": "Pez rosado que nada río arriba para poner sus huevos",
+      "fact": "El tiburón salmón vive en mares fríos del norte, pero mantiene su cuerpo más caliente que el agua.",
+      "tier": 2
+     },
+     {
+      "w": "PEQUEÑO",
+      "clue": "De poco tamaño, no grande",
+      "fact": "Uno de los tiburones más pequeños, el linterna enano, mide menos que una regla.",
+      "tier": 2
+     },
+     {
+      "w": "GIGANTE",
+      "clue": "Enorme, mucho más grande de lo normal",
+      "fact": "El tiburón ballena es un gigante: el pez más grande del mundo, y come cosas diminutas.",
+      "tier": 2
+     },
+     {
+      "w": "BRILLAR",
+      "clue": "Dar luz propia o reflejarla, como una estrella",
+      "fact": "Algunos tiburones pequeños brillan en la oscuridad del mar profundo.",
+      "tier": 2
+     },
+     {
+      "w": "CÁMARA",
+      "clue": "Aparato que toma fotos o video",
+      "fact": "Los científicos pegan cámaras pequeñas a los tiburones para ver cómo es un día de su vida.",
+      "tier": 2
+     },
+     {
+      "w": "BUCEAR",
+      "clue": "Nadar bajo el agua con un tanque de aire",
+      "fact": "Los tiburones blancos pueden bucear a más de 300 metros de profundidad.",
+      "tier": 2
+     },
+     {
+      "w": "OCÉANO",
+      "clue": "Inmensa extensión de agua salada que cubre gran parte del planeta",
+      "fact": "Los tiburones viven en casi todos los océanos del mundo, desde aguas tibias hasta muy frías.",
+      "tier": 2
+     },
+     {
+      "w": "MANGLAR",
+      "clue": "Bosque de árboles que crecen con sus raíces en agua salada",
+      "fact": "Las crías de tiburón limón se esconden entre las raíces de los manglares.",
+      "tier": 2
+     },
+     {
+      "w": "CORAZÓN",
+      "clue": "Órgano que bombea tu sangre; late dentro de tu pecho",
+      "fact": "El corazón de un tiburón tiene forma de S y está cerca de sus agallas.",
+      "tier": 2
+     },
+     {
+      "w": "CEREBRO",
+      "clue": "Órgano dentro de la cabeza con el que piensas",
+      "fact": "El cerebro del tiburón dedica una parte grande a procesar los olores.",
+      "tier": 2
+     },
+     {
+      "w": "CARACOL",
+      "clue": "Animal blando con una concha en espiral sobre la espalda",
+      "fact": "Algunos tiburones de fondo tienen dientes planos para triturar caracoles y almejas.",
+      "tier": 2
+     },
+     {
+      "w": "MEDUSA",
+      "clue": "Animal marino blando y transparente con tentáculos que pican",
+      "fact": "Las medusas flotan en el mar desde antes de que existieran los tiburones.",
+      "tier": 2
+     },
+     {
+      "w": "ÁRTICO",
+      "clue": "Región helada alrededor del Polo Norte",
+      "fact": "El tiburón de Groenlandia vive en las aguas casi congeladas del Ártico.",
+      "tier": 2
+     },
+     {
+      "w": "ESPEJO",
+      "clue": "Vidrio brillante donde ves tu reflejo",
+      "fact": "Los ojos del tiburón tienen una capa como espejo que le ayuda a ver en agua oscura.",
+      "tier": 2
+     },
+     {
+      "w": "MEMORIA",
+      "clue": "Capacidad del cerebro para guardar lo que ya pasó",
+      "fact": "En pruebas, algunos tiburones aprendieron tareas y las recordaron semanas después.",
+      "tier": 2
+     },
+     {
+      "w": "PATRÓN",
+      "clue": "Diseño que se repite, como manchas o rayas",
+      "fact": "Cada tiburón ballena tiene un patrón de manchas único, como una huella digital.",
+      "tier": 2
+     },
+     {
+      "w": "ESPONJA",
+      "clue": "Cosa suave con agujeros para tallar; algunas son animales del mar",
+      "fact": "Una esponja de mar es un animal, aunque nunca se mueve de su lugar.",
+      "tier": 2
+     },
+     {
+      "w": "SARDINA",
+      "clue": "Pez pequeño y plateado que viaja en enormes grupos",
+      "fact": "Cada año, enormes bancos de sardinas viajan por la costa de Sudáfrica y atraen a tiburones y delfines.",
+      "tier": 2
+     },
+     {
+      "w": "HEMBRA",
+      "clue": "Animal que puede tener crías, lo contrario de macho",
+      "fact": "Las hembras de muchos tiburones son más grandes que los machos.",
+      "tier": 2
+     },
+     {
+      "w": "ORILLA",
+      "clue": "Borde del mar donde llegan las olas",
+      "fact": "Los tiburones punta negra de arrecife nadan en agua tan baja que sus aletas asoman.",
+      "tier": 2
+     },
+     {
+      "w": "COHETE",
+      "clue": "Vehículo que lanza satélites y astronautas al espacio",
+      "fact": "Los satélites que reciben señales de las marcas de tiburones viajan al espacio en cohetes.",
+      "tier": 2
+     },
+     {
+      "w": "PLANETA",
+      "clue": "Mundo enorme que gira alrededor de una estrella, como la Tierra",
+      "fact": "Más de dos tercios de nuestro planeta están cubiertos por el mar, hogar de los tiburones.",
+      "tier": 2
+     },
+     {
+      "w": "MORDER",
+      "clue": "Cortar o apretar algo con los dientes",
+      "fact": "Cuando un tiburón pierde un diente al morder, otro de atrás avanza para ocupar su lugar.",
+      "tier": 2
+     },
+     {
+      "w": "TAMAÑO",
+      "clue": "Qué tan grande o chico es algo",
+      "fact": "Los tiburones van desde el tamaño de una regla hasta el de un autobús grande.",
+      "tier": 2
+     },
+     {
+      "w": "HAMBRE",
+      "clue": "Ganas de comer",
+      "fact": "Algunos tiburones pueden pasar semanas sin comer después de una comida grande.",
+      "tier": 2
+     },
+     {
+      "w": "LEOPARDO",
+      "clue": "Felino manchado de África y Asia; un tiburón pequeño lleva su diseño",
+      "fact": "Los tiburones leopardo nadan en grupos en bahías poco profundas y no son peligrosos para las personas.",
+      "tier": 3
+     },
+     {
+      "w": "LANGOSTA",
+      "clue": "Animal marino de caparazón duro y dos pinzas grandes",
+      "fact": "Los tiburones nodriza pueden triturar presas de caparazón duro, como langostas y cangrejos.",
+      "tier": 3
+     },
+     {
+      "w": "ESTÓMAGO",
+      "clue": "Bolsa dentro de tu panza donde llega la comida que tragas",
+      "fact": "Algunos tiburones pueden voltear su estómago al revés para limpiarlo.",
+      "tier": 3
+     },
+     {
+      "w": "PINGÜINO",
+      "clue": "Ave blanca y negra que no vuela pero nada muy rápido",
+      "fact": "Los pingüinos usan sus alas como aletas para nadar a toda velocidad.",
+      "tier": 3
+     },
+     {
+      "w": "ESTUARIO",
+      "clue": "Donde un río llega al mar, mezclando agua dulce y salada",
+      "fact": "En los estuarios crían muchos animales marinos jóvenes, y también entran tiburones toro.",
+      "tier": 3
+     },
+     {
+      "w": "GUARDERÍA",
+      "clue": "Lugar seguro donde cuidan y crecen los bebés",
+      "fact": "Muchas crías de tiburón crecen en aguas tranquilas y poco profundas, lejos de los animales grandes.",
+      "tier": 3
+     },
+     {
+      "w": "LINTERNA",
+      "clue": "Aparato portátil con pila que da luz en la oscuridad",
+      "fact": "Las luces en la panza de los tiburones linterna quizá los esconden de quien mira desde abajo.",
+      "tier": 3
+     },
+     {
+      "w": "SUBMARINO",
+      "clue": "Barco que viaja bajo el agua",
+      "fact": "Los científicos usan submarinos pequeños para filmar tiburones en lo profundo del mar.",
+      "tier": 3
+     },
+     {
+      "w": "SATÉLITE",
+      "clue": "Máquina que gira alrededor de la Tierra, allá arriba en el espacio",
+      "fact": "Algunas marcas de tiburón mandan su ubicación a un satélite cuando la aleta sale del agua.",
+      "tier": 3
+     },
+     {
+      "w": "ARRECIFE",
+      "clue": "Cresta de coral cerca de la superficie del mar",
+      "fact": "Los arrecifes cubren muy poco del océano, pero en ellos vive muchísima vida marina.",
+      "tier": 3
+     },
+     {
+      "w": "CANGREJO",
+      "clue": "Animal marino de tenazas que camina de lado",
+      "fact": "Los cangrejos caminan de lado porque sus patas se doblan hacia los costados.",
+      "tier": 3
+     },
+     {
+      "w": "NAUFRAGIO",
+      "clue": "Restos de un barco hundido en el fondo del mar",
+      "fact": "Muchos barcos hundidos se convierten en arrecifes artificiales llenos de peces.",
+      "tier": 3
+     },
+     {
+      "w": "TROPICAL",
+      "clue": "Del clima caliente y húmedo cerca del ecuador",
+      "fact": "Muchos tiburones prefieren los mares tropicales, donde hay muchísimos peces.",
+      "tier": 3
+     },
+     {
+      "w": "CAMUFLAJE",
+      "clue": "Colores y dibujos que ayudan a un animal a confundirse",
+      "fact": "El tiburón alfombra tiene flecos en la cara que lo hacen parecer algas y rocas.",
+      "tier": 3
+     },
+     {
+      "w": "PROFUNDO",
+      "clue": "Que está muy abajo, muy hondo",
+      "fact": "Algunos tiburones viven a más de un kilómetro de profundidad, donde todo es oscuro.",
+      "tier": 3
+     },
+     {
+      "w": "TRIÁNGULO",
+      "clue": "Figura de tres lados rectos y tres esquinas",
+      "fact": "Los dientes del gran tiburón blanco tienen forma de triángulos con bordes de sierra.",
+      "tier": 3
+     },
+     {
+      "w": "CIENTÍFICO",
+      "clue": "Persona que estudia la naturaleza haciendo preguntas y experimentos",
+      "fact": "Los científicos calculan la edad de algunos tiburones contando los anillos de su columna, como en un árbol.",
+      "tier": 3
+     },
+     {
+      "w": "AMENAZADO",
+      "clue": "En riesgo de desaparecer para siempre",
+      "fact": "Muchos tiburones están amenazados porque crecen despacio y tienen pocas crías.",
+      "tier": 3
+     },
+     {
+      "w": "SUPERFICIE",
+      "clue": "La parte de arriba del agua, donde toca el aire",
+      "fact": "Algunos tiburones nadan tan cerca de la superficie que su aleta dorsal asoma del agua.",
+      "tier": 3
+     },
+     {
+      "w": "GUITARRA",
+      "clue": "Instrumento musical de seis cuerdas; también un pez plano parecido al tiburón",
+      "fact": "El pez guitarra es primo de los tiburones y las rayas, con esqueleto de cartílago.",
+      "tier": 3
+     },
+     {
+      "w": "ELEFANTE",
+      "clue": "Animal terrestre gigante con trompa y colmillos",
+      "fact": "Un tiburón ballena adulto pesa más que un elefante.",
+      "tier": 3
+     },
+     {
+      "w": "ASTRONAUTA",
+      "clue": "Persona que viaja al espacio en una nave",
+      "fact": "Los astronautas practican caminar en el espacio dentro de enormes piscinas de agua.",
+      "tier": 3
+     },
+     {
+      "w": "TORMENTA",
+      "clue": "Mal tiempo con lluvia, viento y truenos",
+      "fact": "Algunos tiburones se van a aguas más profundas antes de que llegue una tormenta fuerte.",
+      "tier": 3
+     },
+     {
+      "w": "PLATEADO",
+      "clue": "De color brillante, como una moneda de plata",
+      "fact": "Muchos peces del mar abierto son plateados porque sus escamas reflejan la luz del agua.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "dinosaurs",
+   "words": {
+    "en": [
+     {
+      "w": "REX",
+      "clue": "Latin word for \"king\" in a famous dinosaur's name",
+      "fact": "Tyrannosaurus rex means \"tyrant lizard king.\"",
+      "tier": 1
+     },
+     {
+      "w": "ROAR",
+      "clue": "Deep, loud animal sound that a lion makes",
+      "fact": "Scientists think dinosaurs may have made deep booming sounds, more like crocodiles and ostriches than movie roars.",
+      "tier": 1
+     },
+     {
+      "w": "NECK",
+      "clue": "Body part between head and shoulders; Brachiosaurus had a very long one",
+      "fact": "Long-necked dinosaurs could reach leaves at the tops of tall trees.",
+      "tier": 1
+     },
+     {
+      "w": "MEAT",
+      "clue": "Food from animals, like beef or chicken",
+      "fact": "Meat-eating dinosaurs walked on two legs and are called theropods.",
+      "tier": 1
+     },
+     {
+      "w": "BONE",
+      "clue": "Hard white part inside a body that fossil hunters dig up",
+      "fact": "Many meat-eating dinosaurs had hollow bones, like birds do, which kept them lighter.",
+      "tier": 1
+     },
+     {
+      "w": "DIG",
+      "clue": "What fossil hunters do with shovels and brushes to find bones",
+      "fact": "Paleontologists use tiny brushes and dental picks to uncover fossils without breaking them.",
+      "tier": 1
+     },
+     {
+      "w": "SKULL",
+      "clue": "Bony case that protects the brain",
+      "fact": "A Triceratops skull could be longer than a grown-up is tall.",
+      "tier": 1
+     },
+     {
+      "w": "BIRD",
+      "clue": "Modern feathered animal with wings that is a living dinosaur",
+      "fact": "Birds are living dinosaurs, descended from small feathered meat-eaters.",
+      "tier": 1
+     },
+     {
+      "w": "SAIL",
+      "clue": "Cloth that catches wind on a boat; Spinosaurus had a bony one",
+      "fact": "Spinosaurus had a tall sail on its back and probably hunted fish in rivers.",
+      "tier": 1
+     },
+     {
+      "w": "LAND",
+      "clue": "Dry ground, not the sea; where dinosaurs lived",
+      "fact": "Sea reptiles like plesiosaurs lived at the same time, but they were not dinosaurs.",
+      "tier": 1
+     },
+     {
+      "w": "FERN",
+      "clue": "Leafy plant with feathery fronds that grows in shady forests",
+      "fact": "Ferns carpeted the ground in dinosaur times, long before grass spread.",
+      "tier": 1
+     },
+     {
+      "w": "WING",
+      "clue": "Body part a pterosaur flapped to fly",
+      "fact": "Pterosaur wings were thin skin stretched from one very long finger.",
+      "tier": 1
+     },
+     {
+      "w": "DIET",
+      "clue": "Types of food an animal usually eats",
+      "fact": "Tooth shape tells scientists what a dinosaur ate: sharp for meat, flat for plants.",
+      "tier": 1
+     },
+     {
+      "w": "SPACE",
+      "clue": "The huge dark area beyond Earth's air, full of stars",
+      "fact": "The asteroid that hit Earth about 66 million years ago was roughly six miles wide.",
+      "tier": 1
+     },
+     {
+      "w": "GIANT",
+      "clue": "Very large being in a fairy tale who says \"fee-fi-fo-fum\"",
+      "fact": "Some long-necked dinosaurs may have been longer than a basketball court.",
+      "tier": 1
+     },
+     {
+      "w": "CHICK",
+      "clue": "Fluffy yellow baby that hatches from a hen's egg",
+      "fact": "Scientists found that proteins in T. rex bone were most like a chicken's.",
+      "tier": 1
+     },
+     {
+      "w": "STONE",
+      "clue": "Hard rock material that old bones turn into as fossils",
+      "fact": "Fossil bones turn to stone as minerals slowly replace them over millions of years.",
+      "tier": 1
+     },
+     {
+      "w": "MUD",
+      "clue": "Wet, sticky dirt that sticks to your boots",
+      "fact": "A dinosaur footprint pressed in soft mud can turn into rock if it gets covered quickly.",
+      "tier": 1
+     },
+     {
+      "w": "SMELL",
+      "clue": "Sense you use your nose for",
+      "fact": "T. rex had a very large smell center in its brain, so it probably smelled very well.",
+      "tier": 1
+     },
+     {
+      "w": "DUCK",
+      "clue": "Waterbird that says quack; one dinosaur group is named for its bill",
+      "fact": "Duck-billed dinosaurs had hundreds of tiny teeth packed together for grinding plants.",
+      "tier": 1
+     },
+     {
+      "w": "LEAF",
+      "clue": "Flat green part of a plant that catches sunlight",
+      "fact": "Many dinosaurs ate leaves from ginkgo trees, which still grow today.",
+      "tier": 1
+     },
+     {
+      "w": "FAST",
+      "clue": "Moving at high speed, like a cheetah",
+      "fact": "Gallimimus looked like an ostrich and probably ran about as fast as one.",
+      "tier": 1
+     },
+     {
+      "w": "BITE",
+      "clue": "Chomp down with your teeth",
+      "fact": "T. rex had one of the strongest bites of any land animal ever.",
+      "tier": 1
+     },
+     {
+      "w": "SPINE",
+      "clue": "Your backbone, or a sharp point on a cactus",
+      "fact": "Spinosaurus means \"spine lizard.\"",
+      "tier": 1
+     },
+     {
+      "w": "TOES",
+      "clue": "Five wiggly digits on each of your feet",
+      "fact": "Most meat-eating dinosaurs walked on three toes, leaving footprints like a bird's.",
+      "tier": 1
+     },
+     {
+      "w": "GRASS",
+      "clue": "Green blades that cover lawns and baseball fields",
+      "fact": "Early dinosaurs had no grass to eat, because grasslands spread much later.",
+      "tier": 1
+     },
+     {
+      "w": "TINY",
+      "clue": "Very, very small",
+      "fact": "Some feathered dinosaurs were only about as big as a pigeon.",
+      "tier": 1
+     },
+     {
+      "w": "LAVA",
+      "clue": "Red-hot melted rock that pours from a volcano",
+      "fact": "Huge lava eruptions in India happened around the time the dinosaurs died out.",
+      "tier": 1
+     },
+     {
+      "w": "RAPTOR",
+      "clue": "Small, fast, feathered hunter with a curved toe claw",
+      "fact": "Real Velociraptors were about as big as turkeys and covered in feathers.",
+      "tier": 2
+     },
+     {
+      "w": "VOLCANO",
+      "clue": "Mountain that can erupt with lava and ash",
+      "fact": "Volcanic ash sometimes buried dinosaurs quickly, which helped preserve their bones.",
+      "tier": 2
+     },
+     {
+      "w": "GINKGO",
+      "clue": "Tree with fan-shaped leaves that has barely changed in millions of years",
+      "fact": "Ginkgo trees grew in dinosaur times, so they are called living fossils.",
+      "tier": 2
+     },
+     {
+      "w": "JUNGLE",
+      "clue": "Thick, hot, wet forest full of vines",
+      "fact": "Dinosaurs even lived in forests near the poles, where winters were dark.",
+      "tier": 2
+     },
+     {
+      "w": "CLIMATE",
+      "clue": "Typical weather of a place over many years",
+      "fact": "Earth was much warmer in dinosaur times, with little or no ice at the poles.",
+      "tier": 2
+     },
+     {
+      "w": "GROWTH",
+      "clue": "The process of getting bigger over time",
+      "fact": "A teenage T. rex gained roughly five pounds every day.",
+      "tier": 2
+     },
+     {
+      "w": "SHOVEL",
+      "clue": "Digging tool with a flat blade and a long handle",
+      "fact": "Fossil hunters use shovels for the top dirt, then switch to tiny tools near the bones.",
+      "tier": 2
+     },
+     {
+      "w": "HAMMER",
+      "clue": "Tool for pounding nails; fossil hunters use small ones with chisels",
+      "fact": "Paleontologists tap rock gently with small hammers to free fossils.",
+      "tier": 2
+     },
+     {
+      "w": "JACKET",
+      "clue": "Warm coat for cold weather; also a plaster wrap around a fossil",
+      "fact": "Fossil hunters wrap bones in plaster jackets, like a cast on a broken arm.",
+      "tier": 2
+     },
+     {
+      "w": "DESERT",
+      "clue": "Dry, sandy region that gets very little rain",
+      "fact": "Many famous dinosaur fossils come from deserts, where wind uncovers old bones.",
+      "tier": 2
+     },
+     {
+      "w": "CANYON",
+      "clue": "Deep valley with steep rock walls",
+      "fact": "The rock layers in a canyon are like pages in a book about Earth's past.",
+      "tier": 2
+     },
+     {
+      "w": "PLANET",
+      "clue": "Large world circling a star, like Earth",
+      "fact": "Earth is the only planet where dinosaur fossils have ever been found.",
+      "tier": 2
+     },
+     {
+      "w": "IMPACT",
+      "clue": "A hard crash of one thing into another",
+      "fact": "The asteroid's impact threw so much dust into the sky that it blocked sunlight.",
+      "tier": 2
+     },
+     {
+      "w": "FINGER",
+      "clue": "One of the five digits on your hand",
+      "fact": "T. rex had only two fingers on each tiny arm.",
+      "tier": 2
+     },
+     {
+      "w": "OSTRICH",
+      "clue": "Giant flightless bird with long legs that runs very fast",
+      "fact": "Ostriches sprint on two legs, much like many dinosaurs did.",
+      "tier": 2
+     },
+     {
+      "w": "BEETLE",
+      "clue": "Insect with a hard shell-like back, like a ladybug",
+      "fact": "Beetles lived alongside dinosaurs, and today there are more kinds of beetles than of any other animal group.",
+      "tier": 2
+     },
+     {
+      "w": "HEIGHT",
+      "clue": "How tall something is, from bottom to top",
+      "fact": "Brachiosaurus stood about as tall as a four-story building.",
+      "tier": 2
+     },
+     {
+      "w": "STRIPES",
+      "clue": "Dark bands, like a tiger or a zebra has",
+      "fact": "Tiny pigment bits in fossils show that Sinosauropteryx had a striped tail.",
+      "tier": 2
+     },
+     {
+      "w": "PIGMENT",
+      "clue": "Natural coloring in skin, feathers, or fur",
+      "fact": "Scientists found tiny pigment structures in fossil feathers and figured out some dinosaurs' colors.",
+      "tier": 2
+     },
+     {
+      "w": "SCANNER",
+      "clue": "Machine that takes pictures of the inside of things",
+      "fact": "CT scanners let scientists look inside fossil skulls without breaking them open.",
+      "tier": 2
+     },
+     {
+      "w": "NESTING",
+      "clue": "Building a home for eggs and sitting on them",
+      "fact": "Oviraptor fossils have been found sitting on top of their eggs, like birds do.",
+      "tier": 2
+     },
+     {
+      "w": "EMBRYO",
+      "clue": "Tiny baby animal growing inside an egg",
+      "fact": "Scientists have found fossil dinosaur eggs with embryos still curled up inside.",
+      "tier": 2
+     },
+     {
+      "w": "DISPLAY",
+      "clue": "To show off for others to admire",
+      "fact": "Crests and horns may have been used to show off, like a peacock's tail.",
+      "tier": 2
+     },
+     {
+      "w": "GLIDER",
+      "clue": "Light aircraft with no engine that floats on the wind",
+      "fact": "Microraptor had feathers on its arms and legs and may have glided between trees.",
+      "tier": 2
+     },
+     {
+      "w": "GIRAFFE",
+      "clue": "Spotted African animal with a very long neck",
+      "fact": "Some long-necked dinosaurs had necks many times longer than a giraffe's.",
+      "tier": 2
+     },
+     {
+      "w": "DRAGON",
+      "clue": "Fire-breathing flying creature from fairy tales",
+      "fact": "Long ago, people who found dinosaur bones sometimes thought they were dragon bones.",
+      "tier": 2
+     },
+     {
+      "w": "FLOWERS",
+      "clue": "Colorful blooms on plants that bees visit",
+      "fact": "The very first flowers appeared while dinosaurs were alive.",
+      "tier": 2
+     },
+     {
+      "w": "HISTORY",
+      "clue": "Everything that happened in the past",
+      "fact": "Dinosaurs ruled Earth for over 160 million years, far longer than humans have existed.",
+      "tier": 2
+     },
+     {
+      "w": "MILLION",
+      "clue": "A thousand thousands",
+      "fact": "Dinosaurs died out about 66 million years ago.",
+      "tier": 2
+     },
+     {
+      "w": "REPLICA",
+      "clue": "A copy of the real thing, like a cast of a skull",
+      "fact": "Most museum skeletons are copies, because real fossil bones are heavy and fragile.",
+      "tier": 2
+     },
+     {
+      "w": "PUZZLE",
+      "clue": "Game of pieces you fit together",
+      "fact": "Fossil hunters often find bones scattered like puzzle pieces and fit them back together.",
+      "tier": 2
+     },
+     {
+      "w": "THUNDER",
+      "clue": "Loud rumble that follows lightning",
+      "fact": "Brontosaurus means \"thunder lizard.\"",
+      "tier": 2
+     },
+     {
+      "w": "WINGSPAN",
+      "clue": "Distance from one wingtip to the other",
+      "fact": "Quetzalcoatlus had a wingspan about as wide as a small airplane.",
+      "tier": 3
+     },
+     {
+      "w": "MICROSCOPE",
+      "clue": "Tool that makes tiny things look much bigger",
+      "fact": "Under a microscope, scientists can see growth rings in dinosaur bones that show how old it was.",
+      "tier": 3
+     },
+     {
+      "w": "COMPUTER",
+      "clue": "Machine with a screen and keyboard that runs programs and games",
+      "fact": "Scientists use computers to test how fast a dinosaur could have run, based on its bones.",
+      "tier": 3
+     },
+     {
+      "w": "HATCHLING",
+      "clue": "Newborn animal that has just come out of its egg",
+      "fact": "Even giant long-necked dinosaurs hatched from eggs much smaller than a beach ball.",
+      "tier": 3
+     },
+     {
+      "w": "OMNIVORE",
+      "clue": "Animal that eats both plants and meat",
+      "fact": "Scientists think some dinosaurs ate both plants and small animals.",
+      "tier": 3
+     },
+     {
+      "w": "CROCODILE",
+      "clue": "Big snouty reptile of African rivers, a living cousin of dinosaurs",
+      "fact": "Crocodiles and birds are the closest living relatives of dinosaurs.",
+      "tier": 3
+     },
+     {
+      "w": "ELEPHANT",
+      "clue": "Largest living land animal, with a trunk and tusks",
+      "fact": "The biggest long-necked dinosaurs weighed many times more than an elephant.",
+      "tier": 3
+     },
+     {
+      "w": "CONTINENT",
+      "clue": "One of Earth's seven giant land areas",
+      "fact": "Dinosaur fossils have been found on every continent, even Antarctica.",
+      "tier": 3
+     },
+     {
+      "w": "ANTARCTICA",
+      "clue": "Icy land at the bottom of the world",
+      "fact": "Dinosaurs once lived there, when it was warmer and covered in forests.",
+      "tier": 3
+     },
+     {
+      "w": "OVIRAPTOR",
+      "clue": "Feathered dinosaur whose name wrongly means \"egg thief\"",
+      "fact": "Oviraptor was named by mistake; it was really guarding its own nest.",
+      "tier": 3
+     },
+     {
+      "w": "ALLOSAURUS",
+      "clue": "Big meat-eater from the Jurassic, older cousin of T. rex",
+      "fact": "Allosaurus lived about 80 million years before T. rex.",
+      "tier": 3
+     },
+     {
+      "w": "DIPLODOCUS",
+      "clue": "Very long plant-eater whose name means \"double beam\"",
+      "fact": "Diplodocus was longer than two school buses, but its head was small.",
+      "tier": 3
+     },
+     {
+      "w": "SPINOSAURUS",
+      "clue": "Giant fish-eating dinosaur with a tall sail on its back",
+      "fact": "Spinosaurus may have been even longer than T. rex.",
+      "tier": 3
+     },
+     {
+      "w": "IGUANODON",
+      "clue": "Plant-eater with spiky thumbs, one of the first dinosaurs named",
+      "fact": "Iguanodon was named about 200 years ago, when people had only just begun finding dinosaurs.",
+      "tier": 3
+     },
+     {
+      "w": "PLESIOSAUR",
+      "clue": "Long-necked sea reptile with four flippers; not a dinosaur",
+      "fact": "Plesiosaurs flapped four flippers like wings to fly through the water.",
+      "tier": 3
+     },
+     {
+      "w": "MOSASAUR",
+      "clue": "Giant sea lizard of the late dinosaur age",
+      "fact": "Mosasaurs were giant sea reptiles related to today's snakes and lizards.",
+      "tier": 3
+     },
+     {
+      "w": "PTERANODON",
+      "clue": "Flying reptile with a pointed head crest and no teeth",
+      "fact": "Pteranodon had no teeth, so it probably swallowed fish whole.",
+      "tier": 3
+     },
+     {
+      "w": "COPROLITE",
+      "clue": "Rock-hard fossil of animal droppings",
+      "fact": "Coprolites show scientists what dinosaurs ate, sometimes even including bits of bone.",
+      "tier": 3
+     },
+     {
+      "w": "EXCAVATION",
+      "clue": "Careful digging to uncover things buried long ago",
+      "fact": "A big dinosaur dig can take many summers of careful work.",
+      "tier": 3
+     },
+     {
+      "w": "SEDIMENT",
+      "clue": "Sand and mud that settle and pile up in layers",
+      "fact": "Bones buried quickly in sediment have the best chance of becoming fossils.",
+      "tier": 3
+     },
+     {
+      "w": "EXTINCTION",
+      "clue": "When a whole kind of animal disappears forever",
+      "fact": "About three out of four kinds of living things died out when the dinosaurs did.",
+      "tier": 3
+     },
+     {
+      "w": "SURVIVOR",
+      "clue": "Someone who lives through something dangerous",
+      "fact": "Crocodiles, turtles, and birds all survived the event that ended the dinosaur age.",
+      "tier": 3
+     },
+     {
+      "w": "TRIASSIC",
+      "clue": "The first of three periods in the age of dinosaurs",
+      "fact": "The first dinosaurs appeared in the Triassic, about 230 million years ago.",
+      "tier": 3
+     },
+     {
+      "w": "JURASSIC",
+      "clue": "The middle period of the age of dinosaurs",
+      "fact": "Long-necked giants like Diplodocus lived in the Jurassic, which is named after the Jura Mountains.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "REY",
+      "clue": "Persona con corona que gobierna un reino",
+      "fact": "El nombre Tyrannosaurus rex significa \"rey de los lagartos tiranos\".",
+      "tier": 1
+     },
+     {
+      "w": "DIETA",
+      "clue": "Los alimentos que come normalmente un animal",
+      "fact": "La forma de los dientes muestra si un dinosaurio comía carne o plantas.",
+      "tier": 1
+     },
+     {
+      "w": "PATA",
+      "clue": "Pie y pierna de un animal, como la de un perro",
+      "fact": "Los dinosaurios caminaban con las patas debajo del cuerpo, no abiertas a los lados como un lagarto.",
+      "tier": 1
+     },
+     {
+      "w": "ALA",
+      "clue": "Parte del cuerpo con la que vuela un ave",
+      "fact": "Las alas de los pterosaurios eran de piel delgada, estirada desde un dedo larguísimo.",
+      "tier": 1
+     },
+     {
+      "w": "VOLAR",
+      "clue": "Moverse por el aire con alas",
+      "fact": "Los pterosaurios volaban sobre los dinosaurios, aunque no eran dinosaurios.",
+      "tier": 1
+     },
+     {
+      "w": "BARRO",
+      "clue": "Tierra mojada y pegajosa que se te pega en los zapatos",
+      "fact": "Una huella en barro blando puede volverse roca si algo la cubre rápido.",
+      "tier": 1
+     },
+     {
+      "w": "ROCA",
+      "clue": "Material duro de las montañas, en el que se forman los fósiles",
+      "fact": "Los fósiles se forman en capas de roca que antes fueron arena y lodo.",
+      "tier": 1
+     },
+     {
+      "w": "SOL",
+      "clue": "Estrella que da luz y calor a la Tierra",
+      "fact": "La luz del Sol tarda unos ocho minutos en llegar a la Tierra.",
+      "tier": 1
+     },
+     {
+      "w": "LAVA",
+      "clue": "Roca derretida y roja que sale de un volcán",
+      "fact": "Enormes erupciones de lava en la India ocurrieron más o menos cuando se extinguieron los dinosaurios.",
+      "tier": 1
+     },
+     {
+      "w": "POLLO",
+      "clue": "Ave de granja que se sirve frita o al horno",
+      "fact": "Los pollos son aves, y las aves son dinosaurios vivos.",
+      "tier": 1
+     },
+     {
+      "w": "PATO",
+      "clue": "Ave de pico plano que nada en lagunas y dice cuac",
+      "fact": "Los hadrosaurios, llamados dinosaurios de pico de pato, eran herbívoros.",
+      "tier": 1
+     },
+     {
+      "w": "DEDO",
+      "clue": "Cada una de las cinco partes móviles de tu mano",
+      "fact": "El T. rex tenía solo dos dedos en cada brazo diminuto.",
+      "tier": 1
+     },
+     {
+      "w": "BRAZO",
+      "clue": "Parte del cuerpo entre el hombro y la mano",
+      "fact": "Los brazos del T. rex eran cortos, pero tenían huesos gruesos y mucho músculo.",
+      "tier": 1
+     },
+     {
+      "w": "VELA",
+      "clue": "Tela grande que atrapa el viento en un barco",
+      "fact": "El espinosaurio tenía una gran vela en la espalda y probablemente cazaba peces en los ríos.",
+      "tier": 1
+     },
+     {
+      "w": "HOJA",
+      "clue": "Parte plana y verde de una planta que atrapa la luz",
+      "fact": "Los dinosaurios de cuello largo estiraban el cuello para alcanzar las hojas más altas de los árboles.",
+      "tier": 1
+     },
+     {
+      "w": "PASTO",
+      "clue": "Hierba verde y corta que cubre las canchas",
+      "fact": "Los primeros dinosaurios no tenían pasto para comer, porque los pastizales aparecieron mucho después.",
+      "tier": 1
+     },
+     {
+      "w": "SELVA",
+      "clue": "Bosque caliente y húmedo, lleno de plantas y lianas",
+      "fact": "Había dinosaurios en bosques cerca de los polos, donde los inviernos eran oscuros.",
+      "tier": 1
+     },
+     {
+      "w": "PALA",
+      "clue": "Herramienta de hoja plana para cavar",
+      "fact": "Los cazadores de fósiles usan palas para la tierra de arriba y pinceles pequeños cerca de los huesos.",
+      "tier": 1
+     },
+     {
+      "w": "YESO",
+      "clue": "Polvo blanco que, mojado, se endurece y protege un brazo roto",
+      "fact": "Los cazadores de fósiles envuelven los huesos en yeso para llevarlos sin romperlos.",
+      "tier": 1
+     },
+     {
+      "w": "LAGO",
+      "clue": "Gran cantidad de agua dulce rodeada de tierra",
+      "fact": "Muchos fósiles de dinosaurio aparecen donde antes había lagos y ríos, porque el lodo cubría los huesos.",
+      "tier": 1
+     },
+     {
+      "w": "ÁRBOL",
+      "clue": "Planta grande con tronco, ramas y hojas",
+      "fact": "Los árboles de ginkgo crecían en tiempos de los dinosaurios y todavía existen.",
+      "tier": 1
+     },
+     {
+      "w": "FLOR",
+      "clue": "Parte colorida de una planta que visitan las abejas",
+      "fact": "Las primeras flores aparecieron cuando todavía vivían los dinosaurios.",
+      "tier": 1
+     },
+     {
+      "w": "EDAD",
+      "clue": "Cuántos años tiene alguien o algo",
+      "fact": "Los T. rex más viejos que se conocen tenían unos 28 años.",
+      "tier": 1
+     },
+     {
+      "w": "POLVO",
+      "clue": "Tierra muy fina y seca que flota en el aire",
+      "fact": "El polvo que levantó el asteroide tapó la luz del Sol durante mucho tiempo.",
+      "tier": 1
+     },
+     {
+      "w": "HIELO",
+      "clue": "Agua congelada, dura y fría",
+      "fact": "Cuando vivían los dinosaurios casi no había hielo en los polos, porque el clima era más cálido.",
+      "tier": 1
+     },
+     {
+      "w": "ROBOT",
+      "clue": "Máquina que se mueve y trabaja sola",
+      "fact": "Algunos museos tienen dinosaurios robot que se mueven y hacen sonidos.",
+      "tier": 1
+     },
+     {
+      "w": "LUNA",
+      "clue": "Satélite natural que vemos brillar de noche",
+      "fact": "Los cráteres de la Luna se formaron por choques de asteroides, como el que acabó con los dinosaurios.",
+      "tier": 1
+     },
+     {
+      "w": "ISLA",
+      "clue": "Pedazo de tierra rodeado de agua por todos lados",
+      "fact": "Europasaurus, un dinosaurio de cuello largo, vivió en una isla y era pequeño.",
+      "tier": 1
+     },
+     {
+      "w": "DIENTE",
+      "clue": "Pieza dura de la boca que sirve para masticar",
+      "fact": "Algunos dientes de T. rex eran tan largos como un plátano.",
+      "tier": 2
+     },
+     {
+      "w": "HELECHO",
+      "clue": "Planta de hojas plumosas que crece en lugares sombríos",
+      "fact": "Los helechos cubrían el suelo en tiempos de los dinosaurios, mucho antes que el pasto.",
+      "tier": 2
+     },
+     {
+      "w": "PIEDRA",
+      "clue": "Trozo duro de roca que puedes levantar del suelo",
+      "fact": "Los huesos de dinosaurio se vuelven piedra cuando los minerales los reemplazan durante millones de años.",
+      "tier": 2
+     },
+     {
+      "w": "ESPACIO",
+      "clue": "El enorme vacío oscuro más allá del aire de la Tierra",
+      "fact": "El asteroide que chocó con la Tierra hace unos 66 millones de años medía unos diez kilómetros.",
+      "tier": 2
+     },
+     {
+      "w": "CRÁNEO",
+      "clue": "Hueso duro que protege el cerebro",
+      "fact": "El cráneo de un tricerátops podía medir más que un adulto de alto.",
+      "tier": 2
+     },
+     {
+      "w": "DRAGÓN",
+      "clue": "Criatura de cuentos que vuela y echa fuego",
+      "fact": "Hace mucho, quienes encontraban huesos de dinosaurio a veces creían que eran de dragón.",
+      "tier": 2
+     },
+     {
+      "w": "GALLINA",
+      "clue": "Ave de granja que pone huevos para el desayuno",
+      "fact": "Los científicos vieron que las proteínas del T. rex se parecían mucho a las de una gallina.",
+      "tier": 2
+     },
+     {
+      "w": "TIERRA",
+      "clue": "Nuestro planeta, el tercero desde el Sol",
+      "fact": "La Tierra tiene unos 4,500 millones de años, y los dinosaurios llegaron mucho después.",
+      "tier": 2
+     },
+     {
+      "w": "MORDIDA",
+      "clue": "Apretón fuerte que das con los dientes",
+      "fact": "La mordida del T. rex era de las más fuertes de cualquier animal terrestre.",
+      "tier": 2
+     },
+     {
+      "w": "PINCEL",
+      "clue": "Herramienta con cerdas para pintar o limpiar con suavidad",
+      "fact": "Los paleontólogos limpian los fósiles con pinceles pequeños para no romperlos.",
+      "tier": 2
+     },
+     {
+      "w": "VOLCÁN",
+      "clue": "Montaña que puede echar lava y ceniza",
+      "fact": "Un volcán puede lanzar ceniza a muchos kilómetros de altura.",
+      "tier": 2
+     },
+     {
+      "w": "IMPACTO",
+      "clue": "Choque fuerte de un objeto contra otro",
+      "fact": "El asteroide que chocó con la Tierra dejó un cráter de unos 180 kilómetros de ancho.",
+      "tier": 2
+     },
+     {
+      "w": "COMETA",
+      "clue": "Bola de hielo y polvo con una cola brillante en el espacio",
+      "fact": "Los cometas y los asteroides son sobras de cuando se formó el Sistema Solar.",
+      "tier": 2
+     },
+     {
+      "w": "JIRAFA",
+      "clue": "Animal africano de manchas y cuello larguísimo",
+      "fact": "Algunos dinosaurios de cuello largo tenían un cuello mucho más largo que el de una jirafa.",
+      "tier": 2
+     },
+     {
+      "w": "RAPTOR",
+      "clue": "Dinosaurio pequeño y veloz con una garra curva en el pie",
+      "fact": "Los velociraptores de verdad eran del tamaño de un pavo y tenían plumas.",
+      "tier": 2
+     },
+     {
+      "w": "EMBRIÓN",
+      "clue": "Bebé muy pequeño que crece dentro del huevo",
+      "fact": "Se han encontrado huevos fósiles de dinosaurio con embriones enroscados adentro.",
+      "tier": 2
+     },
+     {
+      "w": "CRECER",
+      "clue": "Hacerse más grande con el paso del tiempo",
+      "fact": "Un T. rex adolescente aumentaba unos dos kilos al día.",
+      "tier": 2
+     },
+     {
+      "w": "ALTURA",
+      "clue": "Qué tan alto es algo, de abajo hacia arriba",
+      "fact": "Un braquiosaurio era tan alto como un edificio de cuatro pisos.",
+      "tier": 2
+     },
+     {
+      "w": "ESCÁNER",
+      "clue": "Máquina que toma imágenes del interior de las cosas",
+      "fact": "Con escáneres, los científicos pueden ver dentro de un cráneo fósil sin romperlo.",
+      "tier": 2
+     },
+     {
+      "w": "PLANEAR",
+      "clue": "Volar sin batir las alas, dejándose llevar por el aire",
+      "fact": "El microraptor tenía plumas en brazos y piernas, y quizá planeaba entre los árboles.",
+      "tier": 2
+     },
+     {
+      "w": "MILLÓN",
+      "clue": "Mil veces mil",
+      "fact": "Los dinosaurios desaparecieron hace unos 66 millones de años.",
+      "tier": 2
+     },
+     {
+      "w": "RÉPLICA",
+      "clue": "Copia de algo real, como el molde de un cráneo",
+      "fact": "Muchos esqueletos de los museos son copias, porque los huesos de verdad son pesados y frágiles.",
+      "tier": 2
+     },
+     {
+      "w": "TRUENO",
+      "clue": "Ruido fuerte y grave que se oye después del rayo",
+      "fact": "Brontosaurio significa \"lagarto del trueno\".",
+      "tier": 2
+     },
+     {
+      "w": "MINERAL",
+      "clue": "Material duro natural, como el cuarzo, que se forma en las rocas",
+      "fact": "Un hueso se vuelve fósil cuando los minerales lo llenan y lo endurecen.",
+      "tier": 2
+     },
+     {
+      "w": "BOSQUE",
+      "clue": "Terreno con muchísimos árboles",
+      "fact": "Los bosques de la época de los dinosaurios tenían coníferas, helechos y plantas parecidas a palmeras.",
+      "tier": 2
+     },
+     {
+      "w": "PANTANO",
+      "clue": "Terreno bajo cubierto de agua poco profunda y lodo",
+      "fact": "Muchos fósiles se formaron en pantanos, donde el lodo cubría rápido los huesos.",
+      "tier": 2
+     },
+     {
+      "w": "DEFENSA",
+      "clue": "Forma en que un animal se protege de los ataques",
+      "fact": "El estegosaurio se defendía golpeando con su cola llena de púas.",
+      "tier": 2
+     },
+     {
+      "w": "CAMINAR",
+      "clue": "Moverse con los pies, paso a paso",
+      "fact": "Los científicos calculan qué tan rápido caminaba un dinosaurio midiendo la distancia entre sus huellas.",
+      "tier": 2
+     },
+     {
+      "w": "CORRER",
+      "clue": "Moverse a pie muy rápido, más que al caminar",
+      "fact": "Gallimimus se parecía a un avestruz y probablemente corría igual de rápido.",
+      "tier": 2
+     },
+     {
+      "w": "SONIDO",
+      "clue": "Lo que escuchas con tus oídos",
+      "fact": "Algunos dinosaurios con cresta quizá hacían sonidos graves al soplar por ella.",
+      "tier": 2
+     },
+     {
+      "w": "CENIZA",
+      "clue": "Polvo gris que queda de lo quemado y sale de los volcanes",
+      "fact": "La ceniza volcánica enterró a algunos animales rápido y ayudó a conservarlos.",
+      "tier": 2
+     },
+     {
+      "w": "CARBÓN",
+      "clue": "Roca negra que se quema, hecha de plantas antiguas",
+      "fact": "El carbón se formó con plantas enterradas hace cientos de millones de años.",
+      "tier": 2
+     },
+     {
+      "w": "DESIERTO",
+      "clue": "Región seca y arenosa donde casi no llueve",
+      "fact": "Muchos fósiles famosos de dinosaurio vienen de desiertos, donde el viento deja al descubierto huesos antiguos.",
+      "tier": 3
+     },
+     {
+      "w": "AVESTRUZ",
+      "clue": "Ave enorme que no vuela, de patas largas, y corre muy rápido",
+      "fact": "El avestruz es el ave viva más grande, y es pariente de los dinosaurios.",
+      "tier": 3
+     },
+     {
+      "w": "COCODRILO",
+      "clue": "Reptil grande de hocico largo y mandíbulas fuertes, pariente de los dinosaurios",
+      "fact": "Los cocodrilos y las aves son los parientes vivos más cercanos de los dinosaurios.",
+      "tier": 3
+     },
+     {
+      "w": "MICROSCOPIO",
+      "clue": "Aparato que hace ver enormes las cosas diminutas",
+      "fact": "Con un microscopio, los científicos ven cómo creció un hueso de dinosaurio, como los anillos de un árbol.",
+      "tier": 3
+     },
+     {
+      "w": "COMPUTADORA",
+      "clue": "Máquina con pantalla y teclado donde haces tareas y juegas",
+      "fact": "Los científicos usan computadoras para calcular qué tan rápido corría un dinosaurio según sus huesos.",
+      "tier": 3
+     },
+     {
+      "w": "PIGMENTO",
+      "clue": "Color natural de la piel, las plumas o el pelo",
+      "fact": "Se hallaron restos diminutos de pigmento en plumas fósiles y así se descubrieron los colores de algunos dinosaurios.",
+      "tier": 3
+     },
+     {
+      "w": "SOBREVIVIR",
+      "clue": "Seguir con vida después de un peligro",
+      "fact": "Cocodrilos, tortugas y aves sobrevivieron al suceso que acabó con los dinosaurios.",
+      "tier": 3
+     },
+     {
+      "w": "EXTINCIÓN",
+      "clue": "Cuando toda una clase de animales desaparece para siempre",
+      "fact": "Cuando murieron los dinosaurios, desapareció cerca de tres de cada cuatro tipos de seres vivos.",
+      "tier": 3
+     },
+     {
+      "w": "JURÁSICO",
+      "clue": "El periodo medio de la era de los dinosaurios",
+      "fact": "Muchos gigantes de cuello largo vivieron en el Jurásico, que lleva el nombre de las montañas del Jura.",
+      "tier": 3
+     },
+     {
+      "w": "TRIÁSICO",
+      "clue": "El primer periodo de la era de los dinosaurios",
+      "fact": "Los primeros dinosaurios aparecieron en el Triásico, hace unos 230 millones de años.",
+      "tier": 3
+     },
+     {
+      "w": "SEDIMENTO",
+      "clue": "Arena y lodo que se asientan y forman capas",
+      "fact": "Los huesos cubiertos rápido por sedimento tienen más posibilidades de volverse fósiles.",
+      "tier": 3
+     },
+     {
+      "w": "ENVERGADURA",
+      "clue": "Distancia de la punta de un ala a la otra",
+      "fact": "El Quetzalcoatlus tenía una envergadura tan ancha como la de un avión pequeño.",
+      "tier": 3
+     },
+     {
+      "w": "MANDÍBULA",
+      "clue": "Hueso que mueves al abrir y cerrar la boca",
+      "fact": "Algunos dinosaurios de pico de pato tenían cientos de dientes en las mandíbulas.",
+      "tier": 3
+     },
+     {
+      "w": "ALOSAURIO",
+      "clue": "Gran carnívoro del Jurásico, más antiguo que el T. rex",
+      "fact": "El alosaurio vivió unos 80 millones de años antes que el T. rex.",
+      "tier": 3
+     },
+     {
+      "w": "DIPLODOCUS",
+      "clue": "Herbívoro larguísimo cuyo nombre significa \"doble viga\"",
+      "fact": "Medía más que dos autobuses escolares, pero tenía la cabeza pequeña.",
+      "tier": 3
+     },
+     {
+      "w": "IGUANODONTE",
+      "clue": "Herbívoro con pulgares en forma de púa, de los primeros dinosaurios nombrados",
+      "fact": "Fue uno de los primeros dinosaurios con nombre, hace unos 200 años.",
+      "tier": 3
+     },
+     {
+      "w": "MOSASAURIO",
+      "clue": "Gran reptil marino del Cretácico, pariente de serpientes y lagartos",
+      "fact": "Los mosasaurios no eran dinosaurios: eran reptiles marinos gigantes.",
+      "tier": 3
+     },
+     {
+      "w": "OVIRAPTOR",
+      "clue": "Dinosaurio con plumas cuyo nombre significa por error \"ladrón de huevos\"",
+      "fact": "Lo llamaron así por error: en realidad cuidaba sus propios huevos.",
+      "tier": 3
+     },
+     {
+      "w": "COPROLITO",
+      "clue": "Fósil duro como piedra de excremento de animal",
+      "fact": "Los coprolitos muestran qué comían los dinosaurios, a veces con pedacitos de hueso.",
+      "tier": 3
+     },
+     {
+      "w": "EXCAVACIÓN",
+      "clue": "Cavar con cuidado para sacar cosas enterradas hace mucho",
+      "fact": "Una excavación grande de dinosaurios puede tardar muchos veranos de trabajo cuidadoso.",
+      "tier": 3
+     },
+     {
+      "w": "CONTINENTE",
+      "clue": "Una de las enormes masas de tierra del planeta",
+      "fact": "Se han encontrado fósiles de dinosaurio en todos los continentes, hasta en la Antártida.",
+      "tier": 3
+     },
+     {
+      "w": "ANTÁRTIDA",
+      "clue": "Tierra helada en el extremo sur del planeta",
+      "fact": "Hubo dinosaurios allí cuando era más cálida y tenía bosques.",
+      "tier": 3
+     },
+     {
+      "w": "MAMÍFERO",
+      "clue": "Animal con pelo que alimenta a sus crías con leche",
+      "fact": "Los primeros mamíferos eran pequeños y vivían junto a los dinosaurios.",
+      "tier": 3
+     },
+     {
+      "w": "CONÍFERA",
+      "clue": "Árbol como el pino, con hojas de aguja y piñas",
+      "fact": "Los dinosaurios de cuello largo probablemente comían coníferas, parientes de los pinos de hoy.",
+      "tier": 3
+     }
+    ]
+   }
+  }
+ ]
+}
