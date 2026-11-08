@@ -82,12 +82,13 @@ export const UPGRADES = {
     { id: 'candy', tier: 1, price: 100, fx: { flat: 2 }, unlock: ['popcandy', 'choc'] },
     { id: 'cones', tier: 2, price: 160, fx: {}, unlock: ['cone'] },
     { id: 'slush', tier: 2, price: 220, fx: { hot: 0.1 }, unlock: ['slush', 'froslem'] },
-    // More ball fields: each one DOUBLES the crowd (and brings its own windows and storage). Prices 300, 600, 1200, 2400, 4800.
-    { id: 'field2', tier: 1, price: 300, fx: { crowd: 2, serve: 40, stock: 40 } },
-    { id: 'field3', tier: 2, price: 600, req: ['field2'], fx: { crowd: 2, serve: 80, stock: 80 } },
-    { id: 'field4', tier: 3, price: 1200, req: ['field3'], fx: { crowd: 2, serve: 160, stock: 160 } },
-    { id: 'field5', tier: 4, price: 2400, req: ['field4'], fx: { crowd: 2, serve: 320, stock: 320 } },
-    { id: 'field6', tier: 5, price: 4800, req: ['field5'], fx: { crowd: 2, serve: 640, stock: 640 } },
+    // More ball fields: each one DOUBLES the crowd (and brings its own windows and storage). Prices 90, 220, 500, 1100, 2400 (Nov 8 2026: cut from 300-4800 because it took
+    // 12+ innings just to afford the first one; now a careful player has field 2 by about inning 5 and field 3 by about inning 10).
+    { id: 'field2', tier: 1, price: 90, fx: { crowd: 2, serve: 40, stock: 40 } },
+    { id: 'field3', tier: 1, price: 220, req: ['field2'], fx: { crowd: 2, serve: 80, stock: 80 } },
+    { id: 'field4', tier: 2, price: 500, req: ['field3'], fx: { crowd: 2, serve: 160, stock: 160 } },
+    { id: 'field5', tier: 3, price: 1100, req: ['field4'], fx: { crowd: 2, serve: 320, stock: 320 } },
+    { id: 'field6', tier: 4, price: 2400, req: ['field5'], fx: { crowd: 2, serve: 640, stock: 640 } },
     { id: 'jerseys', tier: 2, price: 110, fx: { ptol: 0.12 } },
     { id: 'window2', tier: 3, price: 240, fx: { serve: 40, traffic: 0.25 } },
     { id: 'cook', tier: 3, price: 200, fx: { serve: 40, cost: 0.9 } },

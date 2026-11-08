@@ -31,7 +31,7 @@ addStrings({
     stLoan: 'Your family lent you ${n} so you can keep going.', stNoMoney: 'Not enough money for that much.', stBoughtUp: 'New upgrade: {n}!',
     stSeasonDone: 'Season {n} complete!', stSeasonProfit: 'Season profit', stBestSeason: 'Best season ever', stNewBestSeason: 'New best season!', stStarsOf: '{n} of 3 stars', stBestDayEver: 'Best day',
     stSeasonPar: 'Stars compare you with a sensible player who has the same upgrades.', stNewSeason: 'Start a new season', stNewSeasonCost: 'Start season {n} · {c} pearls', stNeedPearls: '{n} more pearls to start a new season.', stEarnMore: 'Earn pearls',
-    stSeasonWait: 'Your next season is ready when you are.', stUpgradesOwned: '{n} upgrades so far', stBackStands: 'Back to My Stands', stPause: 'Season in progress. Your stand is saved.',
+    stSeasonWait: 'Your next season is ready when you are.', stCarryOver: 'Everything you bought and your {m} in cash carry over to the next season.', stUpgradesOwned: '{n} upgrades so far', stBackStands: 'Back to My Stands', stPause: 'Season in progress. Your stand is saved.',
     stMenu: 'Menu for today', stPortions: 'portions', stLevel: 'Price level', lvl_cheap: 'Cheap', lvl_normal: 'Normal', lvl_fancy: 'Fancy', lvl_cheap_s: 'Almost everyone buys', lvl_normal_s: 'Fair price', lvl_fancy_s: 'Bigger profit, fewer buyers',
     stEach: '{c} each → sells for {p}', stSnackCost: 'Cost to stock the menu', stSoldBy: 'Sold by item', stRanOut: 'Ran out of {x}',
     m_hotdog: 'Hot dog', m_drink: 'Drink', m_chips: 'Chips', m_burger: 'Burger', m_fries: 'Fries', m_icecream: 'Ice cream scoop', m_popcandy: 'Popping candy', m_choc: 'Chocolate bar', m_cone: 'Ice cream cone', m_slush: 'Frosty slush', m_froslem: 'Frozen lemonade',
@@ -54,7 +54,7 @@ addStrings({
     stLoan: 'Tu familia te prestó ${n} para que sigas.', stNoMoney: 'No alcanza el dinero para tanto.', stBoughtUp: '¡Nueva mejora: {n}!',
     stSeasonDone: '¡Temporada {n} completa!', stSeasonProfit: 'Ganancia de la temporada', stBestSeason: 'Mejor temporada de todas', stNewBestSeason: '¡Nueva mejor temporada!', stStarsOf: '{n} de 3 estrellas', stBestDayEver: 'Mejor día',
     stSeasonPar: 'Las estrellas te comparan con un jugador sensato que tiene las mismas mejoras.', stNewSeason: 'Empezar una temporada nueva', stNewSeasonCost: 'Empezar temporada {n} · {c} perlas', stNeedPearls: 'Faltan {n} perlas para empezar una temporada nueva.', stEarnMore: 'Ganar perlas',
-    stSeasonWait: 'Tu próxima temporada está lista cuando tú quieras.', stUpgradesOwned: '{n} mejoras hasta ahora', stBackStands: 'Volver a Mis puestos', stPause: 'Temporada en curso. Tu puesto está guardado.',
+    stSeasonWait: 'Tu próxima temporada está lista cuando tú quieras.', stCarryOver: 'Todo lo que compraste y tus {m} en efectivo pasan a la próxima temporada.', stUpgradesOwned: '{n} mejoras hasta ahora', stBackStands: 'Volver a Mis puestos', stPause: 'Temporada en curso. Tu puesto está guardado.',
     stMenu: 'Menú de hoy', stPortions: 'porciones', stLevel: 'Nivel de precios', lvl_cheap: 'Barato', lvl_normal: 'Normal', lvl_fancy: 'Elegante', lvl_cheap_s: 'Casi todos compran', lvl_normal_s: 'Precio justo', lvl_fancy_s: 'Más ganancia, menos compradores',
     stEach: '{c} cada uno → se vende a {p}', stSnackCost: 'Costo de surtir el menú', stSoldBy: 'Vendido por producto', stRanOut: 'Se acabó: {x}',
     m_hotdog: 'Hot dog', m_drink: 'Bebida', m_chips: 'Papitas', m_burger: 'Hamburguesa', m_fries: 'Papas fritas', m_icecream: 'Bola de helado', m_popcandy: 'Dulce explosivo', m_choc: 'Barra de chocolate', m_cone: 'Cono de helado', m_slush: 'Granizado helado', m_froslem: 'Limonada congelada',
@@ -112,6 +112,7 @@ export function mount(el, { id }) {
       h('div', { class: 'card center', style: { maxWidth: '640px', margin: '18px auto' } },
         h('div', { html: icons[cfg.icon](96) }), h('h2', {}, t('stNewSeasonCost', { n: st.seasons + 1, c: ticketCost })),
         h('p', { class: 'muted' }, t('stSeasonWait') + ' ' + t('stUpgradesOwned', { n: Object.keys(st.up).length })),
+        h('p', { class: 'carry' }, t('stCarryOver', { m: money(st.bank) })),
         can ? h('button', { class: 'btn gold go', onclick: () => { if (spendPearls(ticketCost)) { sfx.levelUp(); startSeason(); plan(); } } }, h('span', { html: icons.pearl(34) }), t('stNewSeason'))
           : h('div', {}, h('p', { class: 'notice' }, t('stNeedPearls', { n: ticketCost - S.pearls.balance })), h('a', { class: 'btn gold', href: '#/quiz' }, t('stEarnMore'))),
         h('button', { class: 'btn ghost', onclick: () => go('/stands') }, t('stBackStands'))));

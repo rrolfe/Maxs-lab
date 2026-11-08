@@ -24,5 +24,13 @@ btn = (await page.textContent('.openrow .btn.go')).trim();
 ok(/^(Done|Listo)$/.test(btn), 'after day 15 the season is over (button: ' + btn + ')');
 await page.locator('.openrow .btn.go').click(); await w(800);
 ok((await page.evaluate(() => document.body.innerText)).match(/Season 1 complete|Temporada 1 completa/i) !== null, 'season summary appears');
+// after the season: the next one is offered with upgrades and cash carried over
+const gateTxt = async () => (await page.evaluate(() => document.body.innerText)).replace(/\s+/g, ' ');
+if (!/carry over|pasan a la próxima/i.test(await gateTxt())) { await page.locator('.btn.go, .btn.gold').last().click().catch(() => {}); await w(600); }
+ok(/carry over|pasan a la próxima/i.test(await gateTxt()), 'the new-season screen says upgrades and cash carry over');
+const prices = await page.evaluate(async () => { const m = await import('./js/stands/sims.js'); return m.upgradeList('snack').filter((u) => /^field/.test(u.id)).map((u) => u.price).join(','); });
+ok(prices === '90,220,500,1100,2400', 'ball field prices ' + prices);
+const s1 = await page.evaluate(async () => { const m = await import('./js/stands/sims.js'); return m.visibleUpgrades('snack', 1).map((u) => u.id).filter((i) => /^field/.test(i)).join(','); });
+ok(s1 === 'field2,field3', 'season 1 shop shows ball fields 2 and 3 (' + s1 + ')');
 ok(errors.length === 0, 'console clean ' + errors.join('/'));
 await browser.close(); console.log(fails ? 'FAILED' : 'ALL OK'); process.exit(fails ? 1 : 0);

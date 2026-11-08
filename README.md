@@ -55,7 +55,7 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | New season: lemonade / snack / ice cream | 75 / 110 / 130 | ~6 / 9 / 11 |
 | Baseball, 3 innings / 6 innings | 150 / 270 | ~12 / ~22 |
 
-Stands run 10-day seasons (the Snack Shack runs 15) with upgrade trees. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
+Stands run 10-day seasons (the Snack Shack runs 15) with upgrade trees. Upgrades and cash carry over between seasons; only starting the next season costs pearls. Snack Shack ball fields (each doubles the crowd) cost $90, $220, $500, $1,100 and $2,400, so a careful player has field 2 by about inning 5 and field 3 by about inning 10. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
 
 ## Weekly check-in and the Grown-up corner
 
