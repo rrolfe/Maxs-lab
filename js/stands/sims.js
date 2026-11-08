@@ -20,6 +20,7 @@ export function rollDay(r = Math.random, up = {}, stand = 'lemonade') {
     // ballpark game-day stories: they change what people want (see SNACK_STORY)
     event = y < 0.22 ? 'closeGame' : y < 0.42 ? 'homeRun' : y < 0.56 ? 'rainDelay' : y < 0.7 ? 'bigCrowd' : null;
     if (weather === 'rainy' && y >= 0.56 && y < 0.7) event = 'rainDelay';
+    if (up.stadium2 && r() < 0.25) event = 'nightGame';        // floodlights: a quarter of the days are night games
     return { weather, event };
   }
   event = y < 0.12 ? 'game' : y < 0.22 ? 'roadwork' : null;
@@ -95,6 +96,15 @@ export const UPGRADES = {
     // Merch: caps, pennants and foam fingers sell for a lot more than they cost; the big store adds team shirts and plush sharks. Fans buy more of it after a home run.
     { id: 'merch', tier: 1, price: 150, fx: {}, unlock: ['cap', 'pennant', 'finger'] },
     { id: 'merch2', tier: 2, price: 600, req: ['merch'], fx: {}, unlock: ['shirt', 'plush'] },
+    // Other sports: every court or pitch counts as one more field (the crowd doubles) and its fans bring a favorite snack. Rob, Nov 8 2026.
+    { id: 'basketball', tier: 1, price: 20000, req: ['field4'], fx: {}, unlock: ['pretzel'] },
+    { id: 'soccer', tier: 1, price: 100000, req: ['field4'], fx: {}, unlock: ['orange'] },
+    { id: 'football', tier: 2, price: 1000000, req: ['fields56'], fx: {}, unlock: ['nachos'] },
+    { id: 'tennis', tier: 2, price: 4000000, req: ['fields56'], fx: {}, unlock: ['berries'] },
+    // The stadium: three levels, every one TRIPLES the crowd (x3, x9, x27) and changes how the whole Snack Shack looks (see css "looks"). Level 2 adds floodlights and night games.
+    { id: 'stadium', tier: 1, price: 75000, req: ['fields56'], fx: {} },
+    { id: 'stadium2', tier: 2, price: 3000000, req: ['stadium', 'fields78'], fx: {}, unlock: ['cocoa'] },
+    { id: 'stadium3', tier: 3, price: 100000000, req: ['stadium2', 'fields910'], fx: {} },
     { id: 'jerseys', tier: 2, price: 110, fx: { ptol: 0.12 } },
     { id: 'window2', tier: 3, price: 240, fx: { serve: 40, traffic: 0.25 } },
     { id: 'cook', tier: 3, price: 200, fx: { serve: 40, cost: 0.9 } },
@@ -195,6 +205,12 @@ export const MENU = [
   { id: 'cone', cost: 0.7, price: 3, base: 1.0 },
   { id: 'slush', cost: 0.4, price: 3, base: 1.0 },
   { id: 'froslem', cost: 0.45, price: 3, base: 0.8 },
+  // sports snacks (unlocked with each venue) and hot cocoa for night games
+  { id: 'pretzel', cost: 0.8, price: 3.5, base: 1.0 },
+  { id: 'orange', cost: 0.35, price: 2, base: 0.9 },
+  { id: 'nachos', cost: 1.2, price: 4.5, base: 1.0 },
+  { id: 'berries', cost: 1.4, price: 5, base: 0.8 },
+  { id: 'cocoa', cost: 0.5, price: 3, base: 1.1 },
   // merch: a few sales bring a lot of money (the margin on a cap is $9; on a hot dog $2)
   { id: 'pennant', cost: 1.5, price: 6, base: 0.8, merch: true },
   { id: 'finger', cost: 2.5, price: 9, base: 0.7, merch: true },
@@ -209,12 +225,14 @@ export const SNACK_STORY = {
   homeRun: { traffic: 1.15, w: { popcandy: 1.8, choc: 1.6, chips: 1.2, slush: 1.3 }, merch: 1.8 },
   rainDelay: { traffic: 0.8, w: { hotdog: 1.5, fries: 1.5, burger: 1.3, icecream: 0.5, cone: 0.5 }, merch: 0.5 },
   bigCrowd: { traffic: 1.5, w: {}, merch: 1.2 },
+  nightGame: { traffic: 1.35, w: { cocoa: 1.8, hotdog: 1.2, fries: 1.3 }, merch: 1.3 },
 };
 export const menuAvail = (up) => { const e = effects('snack', up); return MENU.filter((m) => m.start || e.unlock.has(m.id)); };
 export function snackWeights(ctx) {
   const w = WEATHER[ctx.weather], e = effects('snack', ctx.up), story = SNACK_STORY[ctx.event]?.w || {};
   return menuAvail(ctx.up).map((m) => {
     let k = m.base * (story[m.id] || 1);
+    if (m.id === 'cocoa') { k *= w.hot ? 0.3 : ctx.weather === 'rainy' ? 1.8 : 1.4; return { ...m, k }; }
     if (m.merch) { k *= SNACK_STORY[ctx.event]?.merch || 1; if (ctx.weather === 'rainy') k *= 0.6; return { ...m, k }; }
     if (w.hot) { if (m.id === 'drink') k *= 2; if (m.id === 'icecream' || m.id === 'cone') k *= 2.2; if (m.id === 'slush' || m.id === 'froslem') k *= 2.6; if (m.id === 'hotdog') k *= 0.8; }
     else if (ctx.weather === 'rainy') { if (m.id === 'icecream' || m.id === 'cone' || m.id === 'slush' || m.id === 'froslem') k *= 0.4; if (m.id === 'hotdog' || m.id === 'fries') k *= 1.4; }
@@ -222,12 +240,17 @@ export function snackWeights(ctx) {
     return { ...m, k };
   });
 }
-// how many ball fields: 1 + fields 2-4 + two for every pair bought
+// how many fields: 1 + ball fields 2-4 + two for every pair bought + one for every other sport (basketball, soccer, football, tennis)
 const FIELD_PAIRS = ['fields56', 'fields78', 'fields910', 'fields1112'];
+export const SPORTS = ['basketball', 'soccer', 'football', 'tennis'];
 export const fieldsOwned = (up = {}) => {
   const legacy = up.field5 || up.field6;
-  return 1 + ['field2', 'field3', 'field4'].filter((id) => up[id]).length + 2 * FIELD_PAIRS.filter((id, i) => up[id] || (i === 0 && legacy)).length;
+  return 1 + ['field2', 'field3', 'field4'].filter((id) => up[id]).length + 2 * FIELD_PAIRS.filter((id, i) => up[id] || (i === 0 && legacy)).length + SPORTS.filter((id) => up[id]).length;
 };
+export const stadiumLevel = (up = {}) => ['stadium', 'stadium2', 'stadium3'].filter((id) => up[id]).length;
+export const stadiumMult = (up = {}) => Math.pow(3, stadiumLevel(up));
+/** How the Snack Shack looks: it grows up as the ballpark does. */
+export const lookOf = (up = {}) => { const L = stadiumLevel(up); return L >= 3 ? 'legend' : L === 2 ? 'lights' : L === 1 ? 'stadium' : fieldsOwned(up) >= 3 ? 'park' : 'sandlot'; };
 /** [fewest, most] fans a day for this many ball fields. Up to 4 fields it is 10-50, 50-100, 100-200, 200-400; every two more fields makes it 4 times bigger. */
 export const crowdBand = (n) => {
   n = Math.max(1, Math.floor(n));
@@ -235,9 +258,11 @@ export const crowdBand = (n) => {
   const k = Math.pow(4, (n - 4) / 2);
   return [Math.round(200 * k), Math.round(400 * k)];
 };
+// how much the stand can serve and store: four fifths of the biggest crowd for the fields owned (the window and cook upgrades cover the rest)
+const bigScale = (up) => Math.round(0.8 * crowdBand(fieldsOwned(up))[1] * stadiumMult(up));
 export const SNACK = {
-  id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = 40 + effects('snack', up || {}).stock; return m >= 60000 ? 2500 : m >= 15000 ? 1000 : m >= 4000 ? 250 : m >= 1000 ? 100 : m >= 300 ? 25 : m >= 120 ? 10 : 5; },
-  stockMax: (up) => 40 + effects('snack', up).stock,
+  id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = SNACK.stockMax(up || {}); return m >= 5e6 ? 250000 : m >= 1e6 ? 50000 : m >= 250000 ? 10000 : m >= 60000 ? 2500 : m >= 15000 ? 1000 : m >= 4000 ? 250 : m >= 1000 ? 100 : m >= 300 ? 25 : m >= 120 ? 10 : 5; },
+  stockMax: (up) => Math.max(40 + effects('snack', up).stock, bigScale(up)),
   unitCostOf: (m, up) => m.cost * effects('snack', up).cost,
   costOf(plan, up) { return Object.entries(plan.stock).reduce((a, [id, n]) => a + n * MENU.find((m) => m.id === id).cost * effects('snack', up).cost, 0); },
   trafficOf(ctx) {
@@ -248,20 +273,23 @@ export const SNACK = {
     const score = w.base.snack * st * (1 + e.traffic) + e.flat;           // about 6 (rainy, bare stand) up to about 25 (hot game day, every upgrade bought)
     const q = Math.max(0, Math.min(1.05, (score - 6) / 20));
     const [lo, hi] = crowdBand(fieldsOwned(ctx.up));
-    return lo + (hi - lo) * q;
+    return (lo + (hi - lo) * q) * stadiumMult(ctx.up);        // each stadium level triples the crowd
   },
-  serveCap: (up) => 40 + effects('snack', up).serve,
+  serveCap: (up) => Math.max(40 + effects('snack', up).serve, bigScale(up)),
   sim(plan, ctx, r = Math.random) {
     const e = effects('snack', ctx.up), lvl = PRICE_LEVELS[plan.level || 'normal'];
     const n = Math.max(0, Math.round(SNACK.trafficOf(ctx) * (0.85 + 0.3 * r())));
+    // A huge crowd (thousands and thousands of fans) is played with 4,000 stand-ins that each stand for G fans; every count and every dollar is multiplied back by G.
+    const G = Math.max(1, n / 4000), m = G > 1 ? 4000 : n;
     const weights = snackWeights(ctx), total = weights.reduce((a, b) => a + b.k, 0);
-    const left = { ...plan.stock }; const bySold = {}, byOut = {};
+    const left = {}; for (const [k, v] of Object.entries(plan.stock)) left[k] = v / G;
+    const bySold = {}, byOut = {};
     let sold = 0, revenue = 0, pricey = 0, soldout = 0, busy = 0, served = 0;
     const customers = [];
-    const cap = SNACK.serveCap(ctx.up);
+    const cap = SNACK.serveCap(ctx.up) / G;
     const p2 = 0.22 + 0.07 * (weights.filter((w) => !w.merch).length - 3);
     const accept = Math.min(1, lvl.accept + e.ptol * (lvl.mult > 1 ? 1 : 0.4) + WEATHER[ctx.weather].bonus * 0.5);
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < m; i++) {
       if (served >= cap) { busy++; customers.push({ res: 'busy' }); continue; }
       const items = 1 + (r() < p2 ? 1 : 0) + (r() < p2 * 0.4 ? 1 : 0);   // a bigger menu tempts fans to grab more
       let any = false, paid = 0, wasOut = false, refused = false;
@@ -269,7 +297,7 @@ export const SNACK = {
         let x = r() * total, pick = weights[0];
         for (const w of weights) { x -= w.k; if (x <= 0) { pick = w; break; } }
         if (r() >= accept) { refused = true; continue; }
-        if ((left[pick.id] || 0) <= 0) { wasOut = true; byOut[pick.id] = (byOut[pick.id] || 0) + 1; continue; }
+        if ((left[pick.id] || 0) < 0.5) { wasOut = true; byOut[pick.id] = (byOut[pick.id] || 0) + 1; continue; }
         left[pick.id]--; bySold[pick.id] = (bySold[pick.id] || 0) + 1; sold++; any = true; paid += pick.price * lvl.mult;
       }
       if (any) { served++; revenue += paid; customers.push({ res: 'buy', paid }); }
@@ -278,8 +306,11 @@ export const SNACK = {
       void refused;
     }
     const cost = SNACK.costOf(plan, ctx.up);
-    const leftover = Object.values(left).reduce((a, b) => a + b, 0);
-    return { customers, sold, pricey, soldout, busy, leftover, revenue, cost, profit: revenue - cost, n, bySold, byOut };
+    const R = (x) => Math.round(x * G);
+    const leftover = R(Object.values(left).reduce((a, b) => a + Math.max(0, b), 0));
+    const scaled = (o) => Object.fromEntries(Object.entries(o).map(([k, v]) => [k, R(v)]));
+    revenue = G > 1 ? Math.round(revenue * G * 100) / 100 : revenue;
+    return { customers, scale: G, sold: R(sold), pricey: R(pricey), soldout: R(soldout), busy: R(busy), leftover, revenue, cost, profit: revenue - cost, n, bySold: scaled(bySold), byOut: scaled(byOut) };
   },
 };
 
@@ -287,7 +318,7 @@ export const SIMS = { lemonade: LEMONADE, icecream: ICECREAM, snack: SNACK };
 
 /** What a sensible player earns over one season with these upgrades (used to hand out stars fairly). */
 export function parProfit(id, up, runs = 6) {
-  if (id === 'snack' && fieldsOwned(up) >= 8) runs = 1;      // thousands of fans a day: one season is enough
+  if (id === 'snack' && (fieldsOwned(up) >= 8 || stadiumLevel(up) >= 1)) runs = 1;      // thousands of fans a day: one season is enough
   let seed = 12345; const r = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
   let total = 0;
   for (let k = 0; k < runs; k++) for (let d = 0; d < seasonDays(id); d++) {
