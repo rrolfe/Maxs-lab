@@ -17,12 +17,6 @@
       "tier": 1
      },
      {
-      "w": "EGG",
-      "clue": "Oval food a hen lays, with a yellow center",
-      "fact": "A hen's eggshell has thousands of tiny holes so the chick inside can breathe.",
-      "tier": 1
-     },
-     {
       "w": "MILK",
       "clue": "White drink from cows that goes well with cookies",
       "fact": "Milk can be turned into cheese, butter, yogurt and ice cream.",
@@ -74,12 +68,6 @@
       "w": "SYRUP",
       "clue": "Thick sweet sauce poured on pancakes, often from maple trees",
       "fact": "It takes about forty buckets of maple sap to make one bucket of syrup.",
-      "tier": 1
-     },
-     {
-      "w": "SALT",
-      "clue": "White crystals shaken on fries; the sea is full of it",
-      "fact": "People can make salt by letting ocean water dry in the sun.",
       "tier": 1
      },
      {
@@ -173,6 +161,18 @@
       "tier": 1
      },
      {
+      "w": "BUN",
+      "clue": "Soft round bread that holds a burger or hot dog",
+      "fact": "Bakers brush buns with egg or milk before baking to make them shiny.",
+      "tier": 1
+     },
+     {
+      "w": "HERB",
+      "clue": "Leafy plant like basil or mint that adds flavor",
+      "fact": "Fresh herbs smell strong because their leaves hold tiny drops of oil.",
+      "tier": 1
+     },
+     {
       "w": "CARROT",
       "clue": "Crunchy orange root that grows underground",
       "fact": "Carrots used to be purple or yellow before orange ones became popular.",
@@ -200,12 +200,6 @@
       "w": "GINGER",
       "clue": "Knobby, spicy underground part of a plant used in tea and cookies",
       "fact": "Ginger is really an underground stem, not a root.",
-      "tier": 2
-     },
-     {
-      "w": "PEANUT",
-      "clue": "Ballpark snack in a shell that grows underground",
-      "fact": "Peanuts are not true nuts; they are legumes, relatives of beans and peas.",
       "tier": 2
      },
      {
@@ -365,6 +359,12 @@
       "tier": 2
      },
      {
+      "w": "WALNUT",
+      "clue": "Wrinkly, brain-shaped nut inside a hard round shell",
+      "fact": "A walnut kernel has two wrinkly halves that look like a tiny brain.",
+      "tier": 2
+     },
+     {
       "w": "SANDWICH",
       "clue": "Two slices of bread with a filling in the middle",
       "fact": "The sandwich is named after the Earl of Sandwich, an English nobleman long ago.",
@@ -457,7 +457,7 @@
      {
       "w": "TEASPOON",
       "clue": "Small spoon that measures a little bit of a baking ingredient",
-      "fact": "Three teaspoons of liquid make exactly one tablespoon.",
+      "fact": "In the U.S., three teaspoons make one tablespoon.",
       "tier": 3
      },
      {
@@ -517,12 +517,6 @@
       "tier": 1
      },
      {
-      "w": "POLLO",
-      "clue": "Carne blanca de un ave de corral, asada o frita",
-      "fact": "Los pollos son parientes lejanos de los dinosaurios.",
-      "tier": 1
-     },
-     {
       "w": "CARNE",
       "clue": "Parte musculosa de un animal que se cocina para comer",
       "fact": "La carne tiene proteínas que ayudan a que los músculos crezcan.",
@@ -538,12 +532,6 @@
       "w": "UVA",
       "clue": "Fruta pequeña y jugosa que crece en racimos",
       "fact": "Las uvas secadas al sol se convierten en pasas.",
-      "tier": 1
-     },
-     {
-      "w": "LIMÓN",
-      "clue": "Cítrico amarillo y muy ácido que se exprime en el agua",
-      "fact": "Con un limón y dos metales se puede hacer una pila que enciende una lucecita.",
       "tier": 1
      },
      {
@@ -679,6 +667,18 @@
       "tier": 1
      },
      {
+      "w": "KIWI",
+      "clue": "Fruta de piel peluda y pulpa verde con semillitas negras",
+      "fact": "El kiwi nació en China, pero lo bautizaron con el nombre del ave de Nueva Zelanda.",
+      "tier": 1
+     },
+     {
+      "w": "PAVO",
+      "clue": "Ave grande que se come asada en las fiestas",
+      "fact": "El pavo es originario de América, y los pueblos indígenas lo criaban hace siglos.",
+      "tier": 1
+     },
+     {
       "w": "CEREZA",
       "clue": "Fruta pequeña, roja y redonda con rabito, encima de un helado",
       "fact": "El cerezo es famoso por sus flores rosadas y blancas en primavera.",
@@ -703,9 +703,9 @@
       "tier": 2
      },
      {
-      "w": "PAPAYA",
-      "clue": "Fruta tropical grande, de pulpa naranja y muchas semillitas negras",
-      "fact": "El árbol de la papaya crece rápido y da frutos en menos de dos años.",
+      "w": "CIRUELA",
+      "clue": "Fruta ovalada de piel lisa y morada, con pulpa jugosa",
+      "fact": "Las ciruelas, los duraznos y las cerezas pertenecen a la misma gran familia de plantas.",
       "tier": 2
      },
      {
@@ -1022,18 +1022,6 @@
    "words": {
     "en": [
      {
-      "w": "SUN",
-      "clue": "Our closest star, giving Earth light and heat",
-      "fact": "More than a million Earths could fit inside the Sun.",
-      "tier": 1
-     },
-     {
-      "w": "ICE",
-      "clue": "Water that has frozen solid and feels very cold",
-      "fact": "Ice floats because frozen water takes up more space than liquid water.",
-      "tier": 1
-     },
-     {
       "w": "DEW",
       "clue": "Tiny drops of water on grass early in the morning",
       "fact": "Dew forms when the air cools overnight and water vapor turns into drops.",
@@ -1047,7 +1035,7 @@
      },
      {
       "w": "SLEET",
-      "clue": "Icy mix of rain and snow that falls in winter",
+      "clue": "Tiny icy pellets of frozen rain that fall in winter",
       "fact": "Sleet forms when raindrops freeze into ice pellets on their way down.",
       "tier": 1
      },
@@ -1061,12 +1049,6 @@
       "w": "ROCK",
       "clue": "Hard, solid lump of stone that mountains are made of",
       "fact": "Some rocks are made from melted lava that cooled and hardened.",
-      "tier": 1
-     },
-     {
-      "w": "SAND",
-      "clue": "Tiny grains of crushed rock found on beaches and deserts",
-      "fact": "Sand is made of tiny pieces of rock and shell worn down over time.",
       "tier": 1
      },
      {
@@ -1085,54 +1067,6 @@
       "w": "COAL",
       "clue": "Black rock that people burn for heat",
       "fact": "Most coal comes from swampy forests that grew about 300 million years ago, before dinosaurs.",
-      "tier": 1
-     },
-     {
-      "w": "DUNE",
-      "clue": "Hill of sand shaped by the wind",
-      "fact": "Some desert dunes slowly creep across the land as the wind pushes their sand.",
-      "tier": 1
-     },
-     {
-      "w": "CAVE",
-      "clue": "Large natural hollow in a hillside where bats like to sleep",
-      "fact": "Deep caves stay about the same cool temperature all year long.",
-      "tier": 1
-     },
-     {
-      "w": "HILL",
-      "clue": "Rounded rise of land, smaller than a mountain",
-      "fact": "There is no exact rule for when a hill becomes a mountain.",
-      "tier": 1
-     },
-     {
-      "w": "PEAK",
-      "clue": "Pointed very top of a mountain",
-      "fact": "Peaks high up stay snowy even in summer because the air is so cold.",
-      "tier": 1
-     },
-     {
-      "w": "RIVER",
-      "clue": "Long stream of water flowing across land to the sea",
-      "fact": "Over many years, a river can carve a deep canyon through solid rock.",
-      "tier": 1
-     },
-     {
-      "w": "WAVE",
-      "clue": "Rolling ridge of water that crashes on a beach",
-      "fact": "Most ocean waves are made by wind blowing across the water.",
-      "tier": 1
-     },
-     {
-      "w": "TIDE",
-      "clue": "Daily rise and fall of the sea along the shore",
-      "fact": "Tides are caused mostly by the Moon's pull on the oceans.",
-      "tier": 1
-     },
-     {
-      "w": "LAKE",
-      "clue": "Large body of water with land all around it",
-      "fact": "Some lakes are so big that they have waves and sandy beaches like the ocean.",
       "tier": 1
      },
      {
@@ -1160,18 +1094,6 @@
       "tier": 1
      },
      {
-      "w": "CRUST",
-      "clue": "Thin rocky outer shell of the Earth that we walk on",
-      "fact": "Compared to the whole planet, Earth's crust is about as thin as an apple's skin.",
-      "tier": 1
-     },
-     {
-      "w": "CLIFF",
-      "clue": "Tall steep rock wall where land drops straight down",
-      "fact": "Many seabirds nest on sea cliffs, safe from animals that cannot climb.",
-      "tier": 1
-     },
-     {
       "w": "SMOG",
       "clue": "Dirty yellow-gray haze that hangs over a busy city",
       "fact": "The word smog was made by mashing together smoke and fog.",
@@ -1184,46 +1106,88 @@
       "tier": 1
      },
      {
-      "w": "DELTA",
-      "clue": "Triangle of muddy land where a river reaches the sea",
-      "fact": "Rivers drop mud where they slow down, building a delta that grows over time.",
+      "w": "HEAT",
+      "clue": "What a fire or the Sun gives off that makes you sweat",
+      "fact": "Heat always moves from warmer things toward cooler things.",
       "tier": 1
      },
      {
-      "w": "VOLCANO",
-      "clue": "Mountain with an opening that can erupt hot lava",
-      "fact": "Some volcanoes built whole islands, like the ones that make up Hawaii.",
-      "tier": 2
+      "w": "HAZE",
+      "clue": "Thin dusty veil in the air that blurs faraway views",
+      "fact": "Haze can make faraway mountains look blue and blurry.",
+      "tier": 1
      },
      {
-      "w": "FOSSIL",
-      "clue": "Stone-like remains of something that lived millions of years ago",
-      "fact": "Most fossils form when buried bones slowly turn into stone over millions of years.",
-      "tier": 2
+      "w": "SUNNY",
+      "clue": "Bright and clear, with no clouds blocking the Sun",
+      "fact": "Plants grow well on sunny days because they use sunlight to make food.",
+      "tier": 1
      },
      {
-      "w": "ISLAND",
-      "clue": "Land completely surrounded by water",
-      "fact": "Greenland is the largest island in the world, yet it is smaller than any continent.",
-      "tier": 2
+      "w": "THAW",
+      "clue": "What ice and frozen ground do when warm weather returns",
+      "fact": "In spring, melting snow from a thaw helps fill rivers and streams.",
+      "tier": 1
      },
      {
-      "w": "DESERT",
-      "clue": "Dry land that gets very little rain",
-      "fact": "Antarctica is a desert, because very little snow or rain falls there.",
-      "tier": 2
+      "w": "SLUSH",
+      "clue": "Wet, mushy, half-melted snow",
+      "fact": "Salt on roads makes ice melt into slush even when it is quite cold.",
+      "tier": 1
      },
      {
-      "w": "CANYON",
-      "clue": "Deep valley with steep sides carved by a river",
-      "fact": "The Grand Canyon was carved by the Colorado River over millions of years.",
-      "tier": 2
+      "w": "OPAL",
+      "clue": "Milky gem that flashes tiny rainbows of color",
+      "fact": "Opals flash color because tiny balls of silica inside them bend light.",
+      "tier": 1
      },
      {
-      "w": "GLACIER",
-      "clue": "Huge river of ice that creeps downhill",
-      "fact": "A glacier is so heavy that it slowly flows downhill like a very slow river.",
-      "tier": 2
+      "w": "GEODE",
+      "clue": "Plain round rock that sparkles with crystals when cracked open",
+      "fact": "Geodes form when crystals slowly grow inside hollow spaces in rock.",
+      "tier": 1
+     },
+     {
+      "w": "FLINT",
+      "clue": "Hard gray stone that makes sparks when struck on steel",
+      "fact": "Early people chipped flint into tools and used it to start fires.",
+      "tier": 1
+     },
+     {
+      "w": "SLATE",
+      "clue": "Gray rock that splits into flat sheets, used for roofs",
+      "fact": "Old school chalkboards were often made of slate.",
+      "tier": 1
+     },
+     {
+      "w": "ORE",
+      "clue": "Rock dug from a mine that holds useful metal",
+      "fact": "Iron ore is dug up and made into steel for buildings and machines.",
+      "tier": 1
+     },
+     {
+      "w": "SOOT",
+      "clue": "Black powder that smoke leaves behind on a chimney",
+      "fact": "Soot is made of tiny bits of carbon left when things do not burn completely.",
+      "tier": 1
+     },
+     {
+      "w": "RUBY",
+      "clue": "Deep red gem that is the birthstone for July",
+      "fact": "Rubies are red because of a tiny bit of the metal chromium.",
+      "tier": 1
+     },
+     {
+      "w": "WINDY",
+      "clue": "Full of moving air that sends kites soaring and hats tumbling",
+      "fact": "Windy days help plants spread seeds, like dandelion fluff, to faraway places.",
+      "tier": 1
+     },
+     {
+      "w": "GOLD",
+      "clue": "Shiny yellow metal found in nuggets, used for jewelry",
+      "fact": "Gold never rusts, so gold coins stay shiny for thousands of years.",
+      "tier": 1
      },
      {
       "w": "ICICLE",
@@ -1286,42 +1250,6 @@
       "tier": 2
      },
      {
-      "w": "MEADOW",
-      "clue": "Grassy field full of wildflowers",
-      "fact": "Bees and butterflies visit meadows to sip sweet nectar from flowers.",
-      "tier": 2
-     },
-     {
-      "w": "VALLEY",
-      "clue": "Low land between mountains or hills",
-      "fact": "Many valleys were carved by rivers or glaciers over thousands of years.",
-      "tier": 2
-     },
-     {
-      "w": "PLATEAU",
-      "clue": "High flat land that rises sharply above the land around it",
-      "fact": "The Tibetan Plateau is so high it is nicknamed the roof of the world.",
-      "tier": 2
-     },
-     {
-      "w": "LAGOON",
-      "clue": "Calm shallow pool of seawater cut off by sand or a reef",
-      "fact": "Many islands ringed by coral reefs have a calm, shallow lagoon in the middle.",
-      "tier": 2
-     },
-     {
-      "w": "EQUATOR",
-      "clue": "Imaginary line around Earth's middle, halfway between the poles",
-      "fact": "Near the equator, day and night stay about twelve hours long all year.",
-      "tier": 2
-     },
-     {
-      "w": "OXYGEN",
-      "clue": "Invisible gas in the air that living things need to breathe",
-      "fact": "About one fifth of the air around us is oxygen.",
-      "tier": 2
-     },
-     {
       "w": "GRANITE",
       "clue": "Hard speckled rock used for countertops and statues",
       "fact": "Granite forms slowly when melted rock cools deep underground.",
@@ -1331,12 +1259,6 @@
       "w": "QUARTZ",
       "clue": "Hard clear or milky crystal common in rocks",
       "fact": "Much of the sand on beaches is made mostly of tiny bits of quartz.",
-      "tier": 2
-     },
-     {
-      "w": "DIAMOND",
-      "clue": "Sparkling gem that is the hardest natural material known",
-      "fact": "Diamonds are made of carbon, the same element found in pencil lead.",
       "tier": 2
      },
      {
@@ -1364,34 +1286,100 @@
       "tier": 2
      },
      {
-      "w": "CRATER",
-      "clue": "Bowl-shaped hole made by a volcano or a space rock",
-      "fact": "Many craters on Earth were made by space rocks crashing down long ago.",
+      "w": "FLURRY",
+      "clue": "Brief burst of light snowfall",
+      "fact": "A snow flurry can last just a few minutes and barely cover the ground.",
       "tier": 2
      },
      {
-      "w": "HORIZON",
-      "clue": "Far-off line where earth and sky seem to meet",
-      "fact": "On a flat sea, the horizon is only a few miles away.",
+      "w": "DEWDROP",
+      "clue": "Sparkling bead of water on a spiderweb in the morning",
+      "fact": "Dewdrops cling to spiderwebs because the thin threads cool down quickly at night.",
       "tier": 2
      },
      {
-      "w": "TUNDRA",
-      "clue": "Freezing flat land with no trees and frozen ground",
-      "fact": "In the tundra, the ground just below the surface stays frozen all year.",
+      "w": "SUNBURN",
+      "clue": "Sore pink skin from staying out in the Sun too long",
+      "fact": "Sunburn comes from invisible ultraviolet light, and it can happen on cloudy days.",
       "tier": 2
      },
      {
-      "w": "ATMOSPHERE",
-      "clue": "Blanket of gases that surrounds our planet",
-      "fact": "The atmosphere burns up most small space rocks before they can reach the ground.",
-      "tier": 3
+      "w": "SNOWMAN",
+      "clue": "Winter figure with a carrot nose and coal eyes",
+      "fact": "Snow packs together best for building when the weather is just a little above freezing.",
+      "tier": 2
      },
      {
-      "w": "WATERFALL",
-      "clue": "River that tumbles over a high drop",
-      "fact": "Waterfalls keep wearing away rock at the edge, so they slowly move upstream.",
-      "tier": 3
+      "w": "CLOUDY",
+      "clue": "Covered with gray puffs, so the Sun stays hidden",
+      "fact": "Cloudy nights are often warmer than clear ones because clouds hold in heat.",
+      "tier": 2
+     },
+     {
+      "w": "STORMY",
+      "clue": "Wild, rough weather with rumbling booms and flashes in the sky",
+      "fact": "Thunder always comes with lightning, even when you cannot see the flash.",
+      "tier": 2
+     },
+     {
+      "w": "EMERALD",
+      "clue": "Rich green gem, the color of fresh grass",
+      "fact": "Emeralds are a green form of a mineral called beryl.",
+      "tier": 2
+     },
+     {
+      "w": "MARBLE",
+      "clue": "Smooth swirly stone used for statues and fancy floors",
+      "fact": "Marble is limestone that was squeezed and heated deep underground until it changed.",
+      "tier": 2
+     },
+     {
+      "w": "BASALT",
+      "clue": "Dark gray rock that makes up much of the ocean floor",
+      "fact": "Basalt forms when runny lava cools and hardens, like the lava in Hawaii.",
+      "tier": 2
+     },
+     {
+      "w": "PUMICE",
+      "clue": "Lightweight rock full of tiny holes, made when lava foams",
+      "fact": "Pumice is so full of air bubbles that it can float on water.",
+      "tier": 2
+     },
+     {
+      "w": "GARNET",
+      "clue": "Deep red gem, often set in rings and January's birthstone",
+      "fact": "Garnet is usually deep red, but it also comes in orange and green.",
+      "tier": 2
+     },
+     {
+      "w": "FROZEN",
+      "clue": "Hard as ice because it got very, very cold",
+      "fact": "Some wood frogs survive winter by freezing solid and thawing out in spring.",
+      "tier": 2
+     },
+     {
+      "w": "MOLTEN",
+      "clue": "Melted into hot liquid, like rock inside a volcano",
+      "fact": "Deep underground, molten rock called magma is hot enough to glow.",
+      "tier": 2
+     },
+     {
+      "w": "SUNBEAM",
+      "clue": "Narrow stripe of light shining through a window or cloud gap",
+      "fact": "Dust floating in the air is what makes a sunbeam visible.",
+      "tier": 2
+     },
+     {
+      "w": "CINDER",
+      "clue": "Small burnt bit of coal or wood left from a fire",
+      "fact": "Some volcanoes shoot out cinders, which are small chunks of rock full of holes.",
+      "tier": 2
+     },
+     {
+      "w": "COPPER",
+      "clue": "Reddish-orange metal used in electric wires",
+      "fact": "Copper turns green over time, which is why the Statue of Liberty is green.",
+      "tier": 2
      },
      {
       "w": "LANDSLIDE",
@@ -1403,12 +1391,6 @@
       "w": "SANDSTORM",
       "clue": "Desert wind that whips up thick clouds of grit",
       "fact": "Dust from the Sahara desert can blow all the way across the Atlantic Ocean.",
-      "tier": 3
-     },
-     {
-      "w": "MOUNTAIN",
-      "clue": "Huge natural rise of land, taller than any hill",
-      "fact": "Mountains form when huge slabs of Earth's crust push together and crumple upward.",
       "tier": 3
      },
      {
@@ -1442,33 +1424,9 @@
       "tier": 3
      },
      {
-      "w": "HEMISPHERE",
-      "clue": "Half of the Earth, like north or south",
-      "fact": "When it is summer in the northern hemisphere, it is winter in the southern.",
-      "tier": 3
-     },
-     {
-      "w": "CONTINENT",
-      "clue": "Huge body of land such as Asia or Africa",
-      "fact": "Long ago, all the continents were joined in one giant landmass called Pangaea.",
-      "tier": 3
-     },
-     {
-      "w": "PENINSULA",
-      "clue": "Strip of land with water on three sides",
-      "fact": "Florida is a famous peninsula, with ocean on three sides.",
-      "tier": 3
-     },
-     {
       "w": "WILDFIRE",
       "clue": "Huge uncontrolled fire racing through a dry forest",
       "fact": "Some trees need the heat of a wildfire to open their cones and release seeds.",
-      "tier": 3
-     },
-     {
-      "w": "RAINFOREST",
-      "clue": "Warm, damp, thick jungle packed with towering trees",
-      "fact": "Rainforest treetops form a leafy roof called a canopy where many animals live.",
       "tier": 3
      },
      {
@@ -1508,12 +1466,6 @@
       "tier": 3
      },
      {
-      "w": "SEDIMENT",
-      "clue": "Sand, mud and pebbles that settle at the bottom of water",
-      "fact": "Layers of sediment can squeeze together over millions of years and become rock.",
-      "tier": 3
-     },
-     {
       "w": "GEOLOGIST",
       "clue": "Scientist who studies rocks, volcanoes and fossils",
       "fact": "Geologists read layers of rock like pages in a very old history book.",
@@ -1524,99 +1476,57 @@
       "clue": "Warm light from our nearest star on a clear day",
       "fact": "Sunlight takes about eight minutes to travel from the Sun to Earth.",
       "tier": 3
+     },
+     {
+      "w": "SNOWPLOW",
+      "clue": "Big truck with a front blade that clears roads after a blizzard",
+      "fact": "Many snowplows also spread salt to help melt ice on the road.",
+      "tier": 3
+     },
+     {
+      "w": "UMBRELLA",
+      "clue": "Folding canopy on a stick that keeps you dry in a downpour",
+      "fact": "Umbrellas were first used for shade from the Sun, long before they were used for rain.",
+      "tier": 3
+     },
+     {
+      "w": "SAPPHIRE",
+      "clue": "Deep blue gem, hard as a rock, set in rings",
+      "fact": "Sapphires and rubies are the same mineral, called corundum, in different colors.",
+      "tier": 3
+     },
+     {
+      "w": "GRAPHITE",
+      "clue": "Soft, slippery gray mineral that leaves marks when you write",
+      "fact": "The black part of a pencil is really graphite mixed with clay, not lead.",
+      "tier": 3
+     },
+     {
+      "w": "SANDSTONE",
+      "clue": "Rock of cemented, gritty grains, often red or tan in canyons",
+      "fact": "Sandstone forms when sand is buried and pressed into solid rock over millions of years.",
+      "tier": 3
+     },
+     {
+      "w": "THUNDERCLAP",
+      "clue": "Sudden, very loud boom from the sky during a storm",
+      "fact": "Thunder is the sound of air heating so fast around lightning that it booms.",
+      "tier": 3
+     },
+     {
+      "w": "ANEMOMETER",
+      "clue": "Tool with spinning cups that measures how fast the wind blows",
+      "fact": "The word anemometer comes from a Greek word for wind.",
+      "tier": 3
+     },
+     {
+      "w": "SNOWDRIFT",
+      "clue": "Smooth heap of white fluff piled by the wind against a fence",
+      "fact": "Wind can pile flakes into drifts taller than a house.",
+      "tier": 3
      }
     ],
     "es": [
-     {
-      "w": "SOL",
-      "clue": "Estrella más cercana a la Tierra, que nos da luz y calor",
-      "fact": "En el Sol cabrían más de un millón de planetas como la Tierra.",
-      "tier": 1
-     },
-     {
-      "w": "RÍO",
-      "clue": "Corriente larga de agua dulce que baja hasta el mar",
-      "fact": "Con los años, un río puede abrir un cañón profundo en la roca.",
-      "tier": 1
-     },
-     {
-      "w": "MAR",
-      "clue": "Enorme extensión de agua salada donde van a parar los ríos",
-      "fact": "El mar es salado porque los ríos arrastran sales de las rocas hasta él.",
-      "tier": 1
-     },
-     {
-      "w": "LAGO",
-      "clue": "Gran masa de agua rodeada de tierra",
-      "fact": "Algunos lagos son tan grandes que tienen olas y playas como el mar.",
-      "tier": 1
-     },
-     {
-      "w": "ISLA",
-      "clue": "Tierra rodeada de agua por todas partes",
-      "fact": "Groenlandia es la isla más grande del mundo, pero es más pequeña que un continente.",
-      "tier": 1
-     },
-     {
-      "w": "DUNA",
-      "clue": "Colina de arena que forma el viento",
-      "fact": "Algunas dunas avanzan despacio, empujadas por el viento.",
-      "tier": 1
-     },
-     {
-      "w": "ARENA",
-      "clue": "Granitos de roca que cubren playas y desiertos",
-      "fact": "La arena está hecha de rocas y conchas muy desgastadas por el agua y el viento.",
-      "tier": 1
-     },
-     {
-      "w": "BARRO",
-      "clue": "Mezcla blanda y pegajosa de tierra con agua, donde se hunden botas",
-      "fact": "Con barro se han construido casas durante miles de años.",
-      "tier": 1
-     },
-     {
-      "w": "DELTA",
-      "clue": "Terreno en forma de triángulo donde un río llega al mar",
-      "fact": "Los ríos sueltan lodo donde se frenan y así forman un delta que crece con el tiempo.",
-      "tier": 1
-     },
-     {
-      "w": "CERRO",
-      "clue": "Elevación de tierra más pequeña que una montaña",
-      "fact": "No existe una regla exacta para decir cuándo un cerro se vuelve montaña.",
-      "tier": 1
-     },
-     {
-      "w": "VALLE",
-      "clue": "Terreno bajo entre dos montañas o cerros",
-      "fact": "Muchos valles fueron cavados por ríos o glaciares durante miles de años.",
-      "tier": 1
-     },
-     {
-      "w": "OLA",
-      "clue": "Cresta de agua que se mueve y se rompe en la playa",
-      "fact": "La mayoría de las olas del mar las produce el viento al soplar sobre el agua.",
-      "tier": 1
-     },
-     {
-      "w": "MAREA",
-      "clue": "Subida y bajada del nivel del mar durante el día",
-      "fact": "Las mareas se deben sobre todo a la atracción de la Luna sobre los océanos.",
-      "tier": 1
-     },
-     {
-      "w": "CALOR",
-      "clue": "Lo que sientes al mediodía en pleno verano y te hace sudar",
-      "fact": "Cuando sudas, el agua de tu piel se evapora y te refresca.",
-      "tier": 1
-     },
-     {
-      "w": "FRÍO",
-      "clue": "Lo que sientes en la nieve que te hace temblar y abrigarte",
-      "fact": "Cuando tienes frío, tus músculos tiemblan para producir calor.",
-      "tier": 1
-     },
      {
       "w": "ROCÍO",
       "clue": "Gotitas de agua que aparecen sobre el pasto al amanecer",
@@ -1636,51 +1546,9 @@
       "tier": 1
      },
      {
-      "w": "CIMA",
-      "clue": "Punto más alto de una montaña",
-      "fact": "En la cima de las montañas altas hay nieve casi todo el año.",
-      "tier": 1
-     },
-     {
-      "w": "SELVA",
-      "clue": "Bosque tropical espeso donde llueve casi todos los días",
-      "fact": "Los árboles de la selva forman un techo de hojas donde viven muchísimos animales.",
-      "tier": 1
-     },
-     {
-      "w": "PLAYA",
-      "clue": "Orilla de arena junto al mar",
-      "fact": "Hay playas de arena blanca, dorada, negra y hasta rosada.",
-      "tier": 1
-     },
-     {
-      "w": "FÓSIL",
-      "clue": "Huella o resto de un ser vivo antiguo, convertido en piedra",
-      "fact": "La mayoría de los fósiles se forman cuando huesos enterrados se vuelven piedra durante millones de años.",
-      "tier": 1
-     },
-     {
       "w": "CAÑÓN",
       "clue": "Valle profundo de paredes verticales que abrió un río",
       "fact": "El Gran Cañón del Colorado fue excavado por un río durante millones de años.",
-      "tier": 1
-     },
-     {
-      "w": "LUNA",
-      "clue": "Satélite natural de la Tierra que brilla de noche",
-      "fact": "La Luna se aleja de la Tierra unos centímetros cada año.",
-      "tier": 1
-     },
-     {
-      "w": "CIELO",
-      "clue": "Espacio azul sobre nosotros donde flotan las nubes y vuelan las aves",
-      "fact": "El cielo se ve azul porque el aire dispersa más la luz azul del Sol que otros colores.",
-      "tier": 1
-     },
-     {
-      "w": "AIRE",
-      "clue": "Mezcla invisible de gases que respiramos",
-      "fact": "Aunque no lo veas, el aire pesa y ocupa espacio; por eso puedes inflar un globo.",
       "tier": 1
      },
      {
@@ -1690,34 +1558,142 @@
       "tier": 1
      },
      {
-      "w": "POLVO",
-      "clue": "Partículas finísimas de tierra seca que flotan y ensucian los muebles",
-      "fact": "El viento puede llevar polvo del desierto del Sahara hasta América.",
+      "w": "ÓPALO",
+      "clue": "Gema lechosa que muestra destellos de colores",
+      "fact": "Los ópalos tienen bolitas diminutas que desvían la luz y muestran un arcoíris.",
       "tier": 1
      },
      {
-      "w": "VOLCÁN",
-      "clue": "Montaña con un hueco por donde puede salir lava",
-      "fact": "Algunas islas, como las de Hawái, nacieron de volcanes que brotaron del fondo del mar.",
-      "tier": 2
+      "w": "RUBÍ",
+      "clue": "Gema de color rojo intenso, muy dura y valiosa",
+      "fact": "El rubí y el zafiro son el mismo mineral, el corindón, con distinto color.",
+      "tier": 1
      },
      {
-      "w": "CRÁTER",
-      "clue": "Hueco en forma de tazón dejado por un volcán o un meteorito",
-      "fact": "Muchos cráteres de la Tierra los hicieron rocas del espacio que chocaron hace mucho tiempo.",
-      "tier": 2
+      "w": "GEODA",
+      "clue": "Piedra redonda y común por fuera, brillante de cristales por dentro",
+      "fact": "Las geodas se forman cuando cristales crecen despacio dentro de huecos de roca.",
+      "tier": 1
      },
      {
-      "w": "ABISMO",
-      "clue": "Hueco muy hondo en la tierra o en el fondo del mar",
-      "fact": "La Fosa de las Marianas, en el océano, es más honda de lo que el Everest es alto.",
-      "tier": 2
+      "w": "FUEGO",
+      "clue": "Llamas calientes que dan luz y calor al quemar leña",
+      "fact": "El fuego necesita tres cosas: calor, algo que se queme y oxígeno.",
+      "tier": 1
      },
      {
-      "w": "LAGUNA",
-      "clue": "Lago pequeño de aguas tranquilas y poco hondas",
-      "fact": "Algunas lagunas se secan en verano y vuelven a llenarse cuando llueve.",
-      "tier": 2
+      "w": "SECO",
+      "clue": "Sin una gota de agua, lo contrario de mojado",
+      "fact": "Algunos desiertos pasan años sin una sola gota de lluvia.",
+      "tier": 1
+     },
+     {
+      "w": "TIBIO",
+      "clue": "Ni frío ni caliente, con temperatura agradable",
+      "fact": "El agua tibia está más o menos a la temperatura de tu cuerpo, unos 37 grados.",
+      "tier": 1
+     },
+     {
+      "w": "VAPOR",
+      "clue": "Agua convertida en gas que sube de una olla hirviendo",
+      "fact": "El vapor de agua es invisible; lo que ves blanco son gotitas diminutas.",
+      "tier": 1
+     },
+     {
+      "w": "TIZA",
+      "clue": "Barrita blanca de roca blanda con la que se escribe en pizarrón",
+      "fact": "La tiza natural está hecha de esqueletos diminutos de algas del mar.",
+      "tier": 1
+     },
+     {
+      "w": "JADE",
+      "clue": "Piedra verde muy valorada por los antiguos mayas y olmecas",
+      "fact": "Los pueblos antiguos de Mesoamérica valoraban el jade más que el oro.",
+      "tier": 1
+     },
+     {
+      "w": "ONDA",
+      "clue": "Ondulación circular que se forma al tirar una piedra al agua",
+      "fact": "Las ondas se alejan en círculos y se van debilitando hasta desaparecer.",
+      "tier": 1
+     },
+     {
+      "w": "CALMA",
+      "clue": "Momento sin viento ni olas en que todo está tranquilo",
+      "fact": "Los marineros llamaban calma chicha a cuando no había viento y los barcos no avanzaban.",
+      "tier": 1
+     },
+     {
+      "w": "ORO",
+      "clue": "Metal amarillo y brillante que se encuentra en las rocas",
+      "fact": "El oro no se oxida, por eso un objeto de oro brilla igual después de miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "PLATA",
+      "clue": "Metal blanco y brillante con el que se hacen joyas y cubiertos",
+      "fact": "La plata conduce la electricidad mejor que cualquier otro metal.",
+      "tier": 1
+     },
+     {
+      "w": "COBRE",
+      "clue": "Metal rojizo y brillante con el que se hacen cables eléctricos",
+      "fact": "Con el tiempo el cobre se vuelve verde, como la Estatua de la Libertad.",
+      "tier": 1
+     },
+     {
+      "w": "BRASA",
+      "clue": "Trozo de leña al rojo vivo, sin llamas, que queda del fuego",
+      "fact": "Una brasa puede seguir caliente durante horas, aunque ya no tenga llamas.",
+      "tier": 1
+     },
+     {
+      "w": "MUSGO",
+      "clue": "Planta verde, suave y diminuta que crece sobre piedras húmedas",
+      "fact": "El musgo no tiene raíces de verdad: absorbe el agua por sus hojitas.",
+      "tier": 1
+     },
+     {
+      "w": "TALCO",
+      "clue": "Mineral muy blando que se muele para hacer polvos suaves",
+      "fact": "El talco es el mineral más blando que existe.",
+      "tier": 1
+     },
+     {
+      "w": "ÓXIDO",
+      "clue": "Capa rojiza que cubre el hierro mojado",
+      "fact": "El óxido aparece cuando el hierro se junta con oxígeno y agua.",
+      "tier": 1
+     },
+     {
+      "w": "ÓNIX",
+      "clue": "Piedra negra o con bandas paralelas, usada en joyas y adornos",
+      "fact": "El ónix suele tener bandas paralelas de colores negros, blancos o cafés.",
+      "tier": 1
+     },
+     {
+      "w": "MINA",
+      "clue": "Túnel bajo tierra de donde se sacan metales y piedras",
+      "fact": "Algunas minas son tan profundas que el ascensor tarda varios minutos en bajar.",
+      "tier": 1
+     },
+     {
+      "w": "ÁGATA",
+      "clue": "Piedra con franjas de colores, como los anillos de un tronco",
+      "fact": "Las ágatas se forman capa por capa en huecos de roca volcánica durante mucho tiempo.",
+      "tier": 1
+     },
+     {
+      "w": "PLOMO",
+      "clue": "Metal gris y muy pesado que se usa en pesas de pesca",
+      "fact": "El plomo es un metal tan blando que se puede rayar con una uña.",
+      "tier": 1
+     },
+     {
+      "w": "NEVAR",
+      "clue": "Caer copos blancos del cielo",
+      "fact": "Puede nevar aunque en el suelo no haga tanto frío, si arriba el aire está helado.",
+      "tier": 1
      },
      {
       "w": "SIERRA",
@@ -1732,63 +1708,15 @@
       "tier": 2
      },
      {
-      "w": "BOSQUE",
-      "clue": "Terreno grande lleno de árboles",
-      "fact": "Un bosque da hogar a miles de animales, insectos y hongos.",
-      "tier": 2
-     },
-     {
       "w": "CHARCO",
       "clue": "Pequeña poza de agua de lluvia en la calle",
       "fact": "Los charcos desaparecen porque el sol calienta el agua y esta se evapora.",
       "tier": 2
      },
      {
-      "w": "CENIZA",
-      "clue": "Polvo gris que queda después de quemar madera",
-      "fact": "La ceniza de un volcán está hecha de pedacitos diminutos de roca y vidrio.",
-      "tier": 2
-     },
-     {
       "w": "ARCILLA",
       "clue": "Tierra suave y pegajosa que se moldea para hacer vasijas",
       "fact": "La arcilla se endurece como piedra cuando se calienta en un horno muy caliente.",
-      "tier": 2
-     },
-     {
-      "w": "CARBÓN",
-      "clue": "Roca negra que se quema para dar calor",
-      "fact": "Gran parte del carbón se formó de bosques pantanosos que existieron antes de los dinosaurios.",
-      "tier": 2
-     },
-     {
-      "w": "GLACIAR",
-      "clue": "Enorme río de hielo que avanza muy despacio",
-      "fact": "Un glaciar pesa tanto que baja despacito por la montaña como un río muy lento.",
-      "tier": 2
-     },
-     {
-      "w": "CASCADA",
-      "clue": "Agua de un río que cae desde un lugar muy alto",
-      "fact": "Las cascadas desgastan la roca del borde y por eso se van moviendo río arriba.",
-      "tier": 2
-     },
-     {
-      "w": "TUNDRA",
-      "clue": "Llanura helada sin árboles, con el suelo congelado",
-      "fact": "En la tundra, el suelo a poca profundidad está congelado todo el año.",
-      "tier": 2
-     },
-     {
-      "w": "MESETA",
-      "clue": "Terreno plano y elevado que se alza sobre sus alrededores",
-      "fact": "La meseta del Tíbet es tan alta que la llaman el techo del mundo.",
-      "tier": 2
-     },
-     {
-      "w": "OXÍGENO",
-      "clue": "Gas invisible del aire que los seres vivos necesitan para respirar",
-      "fact": "Las plantas y las algas del mar producen casi todo el oxígeno del aire.",
       "tier": 2
      },
      {
@@ -1816,18 +1744,6 @@
       "tier": 2
      },
      {
-      "w": "ECUADOR",
-      "clue": "Línea imaginaria que rodea la Tierra por la mitad, entre los polos",
-      "fact": "Cerca del ecuador, el día y la noche duran casi doce horas todo el año.",
-      "tier": 2
-     },
-     {
-      "w": "MONTAÑA",
-      "clue": "Gran elevación de terreno, más alta que cualquier cerro",
-      "fact": "Las montañas se forman cuando enormes placas de la corteza terrestre se empujan y se arrugan hacia arriba.",
-      "tier": 2
-     },
-     {
       "w": "LLANURA",
       "clue": "Terreno muy extenso y plano, sin montañas",
       "fact": "Las llanuras son buenas para sembrar porque son planas y su suelo suele ser fértil.",
@@ -1846,33 +1762,9 @@
       "tier": 2
      },
      {
-      "w": "ARROYO",
-      "clue": "Río muy pequeño y poco profundo que se cruza saltando entre piedras",
-      "fact": "Muchos arroyos pequeños se juntan para formar un río grande.",
-      "tier": 2
-     },
-     {
-      "w": "MANGLAR",
-      "clue": "Bosque de árboles con raíces dentro del agua salada de la costa",
-      "fact": "Las raíces de los manglares protegen la costa de la fuerza de las olas.",
-      "tier": 2
-     },
-     {
-      "w": "PLANETA",
-      "clue": "Mundo enorme y redondo que gira alrededor de una estrella",
-      "fact": "La Tierra es el único planeta del Sistema Solar con océanos de agua líquida.",
-      "tier": 2
-     },
-     {
       "w": "CALIZA",
       "clue": "Roca clara hecha de conchas y esqueletos de animales marinos antiguos",
       "fact": "Muchas cuevas se forman cuando el agua de lluvia va disolviendo la caliza poco a poco.",
-      "tier": 2
-     },
-     {
-      "w": "AURORA",
-      "clue": "Luces verdes y rosadas que bailan en el cielo polar",
-      "fact": "Las auroras aparecen cuando partículas del Sol chocan con el aire de la Tierra.",
       "tier": 2
      },
      {
@@ -1882,22 +1774,118 @@
       "tier": 2
      },
      {
-      "w": "TRÓPICO",
-      "clue": "Zona cálida de la Tierra cercana al ecuador",
-      "fact": "La región tropical recibe luz solar fuerte casi todo el año.",
+      "w": "HIERRO",
+      "clue": "Metal duro y gris con el que se hacen rieles y herramientas",
+      "fact": "El centro de la Tierra está hecho sobre todo de hierro y níquel.",
       "tier": 2
      },
      {
-      "w": "DESIERTO",
-      "clue": "Tierra muy seca donde casi nunca llueve",
-      "fact": "La Antártida es un desierto: allí cae muy poca nieve y lluvia.",
-      "tier": 3
+      "w": "LLOVER",
+      "clue": "Caer gotas de agua del cielo",
+      "fact": "En algunos lugares del mundo llueve casi todos los días del año.",
+      "tier": 2
      },
      {
-      "w": "DIAMANTE",
-      "clue": "Gema transparente que brilla y es el material natural más duro",
-      "fact": "Al campo de béisbol también le dicen diamante, por la forma que tiene.",
-      "tier": 3
+      "w": "TEMBLOR",
+      "clue": "Sacudida corta y suave del suelo, más leve que un terremoto",
+      "fact": "Todos los días ocurren miles de temblores muy pequeños que casi nadie siente.",
+      "tier": 2
+     },
+     {
+      "w": "NUBLADO",
+      "clue": "Día en que el cielo está cubierto de nubes grises",
+      "fact": "Las noches nubladas suelen ser más cálidas porque las nubes atrapan el calor.",
+      "tier": 2
+     },
+     {
+      "w": "SOLEADO",
+      "clue": "Día claro y brillante, sin nubes que tapen la luz",
+      "fact": "Al mediodía tu sombra es más corta que al amanecer.",
+      "tier": 2
+     },
+     {
+      "w": "HUMEDAD",
+      "clue": "Cantidad de vapor de agua que hay en el aire",
+      "fact": "Con mucha humedad el sudor se seca mal y sientes más calor.",
+      "tier": 2
+     },
+     {
+      "w": "ZAFIRO",
+      "clue": "Gema azul intenso, muy dura",
+      "fact": "El zafiro es de los minerales más duros que existen.",
+      "tier": 2
+     },
+     {
+      "w": "TOPACIO",
+      "clue": "Gema transparente y brillante, a veces de color miel",
+      "fact": "El topacio puede ser amarillo, azul, rosa o incoloro.",
+      "tier": 2
+     },
+     {
+      "w": "GRANATE",
+      "clue": "Gema de un rojo oscuro, parecida a las semillas de una fruta",
+      "fact": "El granate casi siempre es rojo oscuro, pero también existe naranja y verde.",
+      "tier": 2
+     },
+     {
+      "w": "AZUFRE",
+      "clue": "Mineral amarillo brillante que se encuentra cerca de los volcanes",
+      "fact": "Cerca de algunos volcanes huele a huevo podrido por los gases con azufre.",
+      "tier": 2
+     },
+     {
+      "w": "PIZARRA",
+      "clue": "Roca gris oscura que se parte en láminas planas, usada en techos",
+      "fact": "Con pizarra se hacían techos y los tableros donde antes se escribía en las escuelas.",
+      "tier": 2
+     },
+     {
+      "w": "GRAFITO",
+      "clue": "Mineral gris y suave que deja marcas oscuras sobre el papel",
+      "fact": "La punta de un lápiz es de grafito mezclado con arcilla, no de plomo.",
+      "tier": 2
+     },
+     {
+      "w": "CHISPA",
+      "clue": "Partícula brillante que salta de una fogata o de un cable",
+      "fact": "Si golpeas pedernal contra acero salen chispas.",
+      "tier": 2
+     },
+     {
+      "w": "SOPLAR",
+      "clue": "Echar aire por la boca para apagar una vela",
+      "fact": "El viento es aire que se mueve porque el aire caliente sube y el frío ocupa su lugar.",
+      "tier": 2
+     },
+     {
+      "w": "ALUVIÓN",
+      "clue": "Corriente repentina de agua, lodo y piedras que baja de un cerro",
+      "fact": "Los aluviones ocurren después de lluvias muy fuertes en las montañas.",
+      "tier": 2
+     },
+     {
+      "w": "FOGATA",
+      "clue": "Fuego al aire libre, rodeado de piedras, para calentarse de noche",
+      "fact": "Los seres humanos usan fogatas desde hace cientos de miles de años.",
+      "tier": 2
+     },
+     {
+      "w": "GEÓLOGO",
+      "clue": "Científico que estudia las rocas, los volcanes y los fósiles",
+      "fact": "Los geólogos leen las capas de roca como páginas de un libro muy antiguo.",
+      "tier": 2
+     },
+     {
+      "w": "ESTAÑO",
+      "clue": "Metal blando y plateado con el que se cubren las latas",
+      "fact": "El estaño se usa desde hace miles de años; mezclado con cobre da bronce.",
+      "tier": 2
+     },
+     {
+      "w": "NÍQUEL",
+      "clue": "Metal plateado que resiste el óxido y brilla mucho",
+      "fact": "Muchas monedas llevan níquel porque es un metal duro que casi no se desgasta.",
+      "tier": 2
      },
      {
       "w": "INVIERNO",
@@ -1924,51 +1912,9 @@
       "tier": 3
      },
      {
-      "w": "ESTACIÓN",
-      "clue": "Cada una de las cuatro épocas del año, como el verano",
-      "fact": "Hay estaciones porque la Tierra está inclinada mientras da la vuelta al Sol.",
-      "tier": 3
-     },
-     {
-      "w": "ARRECIFE",
-      "clue": "Muro de coral o roca cerca de la superficie del mar",
-      "fact": "Los arrecifes de coral ocupan muy poco del océano, pero dan hogar a muchísimos peces.",
-      "tier": 3
-     },
-     {
       "w": "PARARRAYOS",
       "clue": "Barra metálica sobre un techo que atrae las descargas de las nubes",
       "fact": "Un pararrayos lleva la electricidad de la descarga por un cable hasta la tierra sin dañar el edificio.",
-      "tier": 3
-     },
-     {
-      "w": "PENÍNSULA",
-      "clue": "Tierra rodeada de agua por tres lados",
-      "fact": "Baja California es una larga península con el mar a ambos lados.",
-      "tier": 3
-     },
-     {
-      "w": "CORDILLERA",
-      "clue": "Cadena enorme de montañas, como los Andes",
-      "fact": "Los Andes son la cordillera más larga de la Tierra, con más de siete mil kilómetros.",
-      "tier": 3
-     },
-     {
-      "w": "MANANTIAL",
-      "clue": "Lugar donde el agua brota de la tierra",
-      "fact": "El agua de un manantial viene de lluvia que se filtró bajo la tierra hace tiempo.",
-      "tier": 3
-     },
-     {
-      "w": "HORIZONTE",
-      "clue": "Línea lejana donde parecen juntarse el cielo y el mar",
-      "fact": "Sobre un mar plano, el horizonte está a pocos kilómetros de distancia.",
-      "tier": 3
-     },
-     {
-      "w": "ATMÓSFERA",
-      "clue": "Capa de aire que envuelve la Tierra",
-      "fact": "La atmósfera quema la mayoría de las rocas pequeñas del espacio antes de que lleguen al suelo.",
       "tier": 3
      },
      {
@@ -1981,18 +1927,6 @@
       "w": "NUBARRÓN",
       "clue": "Nube grande y oscura que anuncia lluvia",
       "fact": "Las nubes oscuras tienen tantas gotas que casi no dejan pasar la luz.",
-      "tier": 3
-     },
-     {
-      "w": "CONTINENTE",
-      "clue": "Enorme masa de tierra, como África o Asia",
-      "fact": "Hace mucho tiempo todos los continentes estaban unidos en uno solo, llamado Pangea.",
-      "tier": 3
-     },
-     {
-      "w": "HEMISFERIO",
-      "clue": "Mitad de la Tierra, como el norte o el sur",
-      "fact": "Cuando es verano en el hemisferio norte, es invierno en el sur.",
       "tier": 3
      },
      {
@@ -2029,6 +1963,72 @@
       "w": "BARÓMETRO",
       "clue": "Aparato que mide la presión del aire y ayuda a anunciar tormentas",
       "fact": "Cuando la presión baja en un barómetro, a menudo viene una tormenta.",
+      "tier": 3
+     },
+     {
+      "w": "PARAGUAS",
+      "clue": "Cúpula plegable con mango que te mantiene seco en un aguacero",
+      "fact": "Los paraguas se usaron primero para dar sombra y después para la lluvia.",
+      "tier": 3
+     },
+     {
+      "w": "ESMERALDA",
+      "clue": "Gema de un verde profundo, como el pasto fresco",
+      "fact": "Colombia es famosa en el mundo por sus esmeraldas.",
+      "tier": 3
+     },
+     {
+      "w": "IMPERMEABLE",
+      "clue": "Abrigo ligero que no deja pasar el agua de la lluvia",
+      "fact": "En un impermeable el agua forma gotas y resbala sin mojar la tela.",
+      "tier": 3
+     },
+     {
+      "w": "VENTISCA",
+      "clue": "Viento helado y fuerte que arrastra nieve",
+      "fact": "En una ventisca se ve muy poco, porque la nieve vuela en todas direcciones.",
+      "tier": 3
+     },
+     {
+      "w": "SOLSTICIO",
+      "clue": "Día del año con el día o la noche más largos",
+      "fact": "En el solsticio de verano ocurre el día más largo del año en tu mitad de la Tierra.",
+      "tier": 3
+     },
+     {
+      "w": "EQUINOCCIO",
+      "clue": "Dos veces al año, el día y la noche duran casi igual",
+      "fact": "La palabra equinoccio viene del latín y significa noche igual.",
+      "tier": 3
+     },
+     {
+      "w": "PETRÓLEO",
+      "clue": "Líquido negro y espeso que sale de pozos y se vuelve gasolina",
+      "fact": "El petróleo se formó hace millones de años de animalitos y algas del mar.",
+      "tier": 3
+     },
+     {
+      "w": "ANEMÓMETRO",
+      "clue": "Aparato de copitas giratorias que mide la velocidad del viento",
+      "fact": "La palabra anemómetro viene de una palabra griega que significa viento.",
+      "tier": 3
+     },
+     {
+      "w": "PLUVIÓMETRO",
+      "clue": "Recipiente que mide cuánta lluvia cae",
+      "fact": "Un pluviómetro puede ser un simple tubo transparente con rayitas para medir el agua.",
+      "tier": 3
+     },
+     {
+      "w": "ERUPCIÓN",
+      "clue": "Salida repentina de lava, ceniza y gases de un volcán",
+      "fact": "Una erupción puede lanzar ceniza a muchos kilómetros de altura.",
+      "tier": 3
+     },
+     {
+      "w": "SISMÓGRAFO",
+      "clue": "Aparato que dibuja líneas ondulantes cuando tiembla la tierra",
+      "fact": "Los sismógrafos detectan temblores que ocurren al otro lado del planeta.",
       "tier": 3
      }
     ]
