@@ -1,6 +1,6 @@
 // Offline support: app files are cached on first load and refreshed in the background (stale-while-revalidate).
 // Map tiles and other sites are never cached here.
-const CACHE = 'mll2-v13';
+const CACHE = 'mll2-v14';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'css/lab.css', 'css/base.css', 'css/quiz.css', 'css/games.css', 'css/stands.css', 'css/world.css', 'css/misc.css', 'css/baseball.css', 'css/chores.css',
   'js/boot.js', 'js/core/dom.js', 'js/core/store.js', 'js/core/i18n.js', 'js/core/icons.js', 'js/core/audio.js', 'js/core/economy.js', 'js/core/router.js', 'js/core/badges.js', 'js/screens/home.js', 'icons/fathom.svg', 'icons/apple-touch-icon.png'];
 

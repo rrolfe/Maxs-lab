@@ -1,0 +1,2038 @@
+{
+ "packs": [
+  {
+   "id": "world-landmarks",
+   "words": {
+    "en": [
+     {
+      "w": "NILE",
+      "clue": "Long African river where ancient Egyptians farmed",
+      "fact": "The Nile flows toward the north, so the river's mouth is at the top of Africa.",
+      "tier": 1
+     },
+     {
+      "w": "ALPS",
+      "clue": "Snowy mountain range in Switzerland, Austria and France",
+      "fact": "The Alps stretch across eight countries in Europe.",
+      "tier": 1
+     },
+     {
+      "w": "ANDES",
+      "clue": "Longest mountain range on land, running down South America",
+      "fact": "Farmers in the Andes grew the first potatoes thousands of years ago.",
+      "tier": 1
+     },
+     {
+      "w": "REEF",
+      "clue": "Ridge of coral or rock just below the sea's surface",
+      "fact": "The Great Barrier Reef off Australia is so big that astronauts can see it from space.",
+      "tier": 1
+     },
+     {
+      "w": "BEACH",
+      "clue": "Sandy shore where waves roll in and kids build sandcastles",
+      "fact": "Sand on some beaches is pink, black or even green, depending on what it is made from.",
+      "tier": 1
+     },
+     {
+      "w": "MOAT",
+      "clue": "Water-filled ditch around a castle to keep visitors out",
+      "fact": "A moat made it hard for enemies to dig a tunnel under the castle wall.",
+      "tier": 1
+     },
+     {
+      "w": "DAM",
+      "clue": "Strong wall built across a river to hold back water",
+      "fact": "Beavers are nature's dam builders, using sticks, mud and stones to block streams.",
+      "tier": 1
+     },
+     {
+      "w": "DOME",
+      "clue": "Rounded roof shaped like half a ball",
+      "fact": "The Pantheon in Rome has a huge concrete dome with a round hole at the top.",
+      "tier": 1
+     },
+     {
+      "w": "SPIRE",
+      "clue": "Tall, pointed top of a church or castle tower",
+      "fact": "The word spire comes from an old word for a sprout or blade of grass.",
+      "tier": 1
+     },
+     {
+      "w": "RUINS",
+      "clue": "What is left of very old buildings that crumbled",
+      "fact": "Some Roman ruins are still standing after nearly two thousand years.",
+      "tier": 1
+     },
+     {
+      "w": "MESA",
+      "clue": "Flat-topped hill with steep sides, found in dry lands",
+      "fact": "Mesa is the Spanish word for table, which is what these hills look like.",
+      "tier": 1
+     },
+     {
+      "w": "ULURU",
+      "clue": "Giant red rock in the middle of Australia's outback",
+      "fact": "Uluru looks like it glows orange and red at sunrise and sunset.",
+      "tier": 1
+     },
+     {
+      "w": "MOAI",
+      "clue": "Giant carved stone heads standing on Easter Island",
+      "fact": "Moai look like only heads, but many have long bodies buried under the soil.",
+      "tier": 1
+     },
+     {
+      "w": "PETRA",
+      "clue": "Ancient rose-colored city carved into the cliffs of Jordan",
+      "fact": "Petra was built by people called Nabataeans more than two thousand years ago.",
+      "tier": 1
+     },
+     {
+      "w": "GIZA",
+      "clue": "Place near Cairo, Egypt, where the Great Pyramids and Sphinx stand",
+      "fact": "The Great Pyramid of Giza was built more than 4,500 years ago.",
+      "tier": 1
+     },
+     {
+      "w": "FUJI",
+      "clue": "Snowcapped volcano shaped like a cone, Japan's tallest mountain",
+      "fact": "Many hikers climb Mount Fuji overnight to watch the sunrise from the top.",
+      "tier": 1
+     },
+     {
+      "w": "BAY",
+      "clue": "Wide curve of coastline where the sea reaches into the land",
+      "fact": "Tides in Canada's Bay of Fundy can rise taller than a four-story building.",
+      "tier": 1
+     },
+     {
+      "w": "ATOLL",
+      "clue": "Ring-shaped coral island circling a calm shallow sea",
+      "fact": "Many atolls began as volcano islands that slowly sank while coral kept growing.",
+      "tier": 1
+     },
+     {
+      "w": "FORT",
+      "clue": "Strong building where soldiers once guarded a place",
+      "fact": "Star-shaped forts had pointed corners so defenders could see along every wall.",
+      "tier": 1
+     },
+     {
+      "w": "CAPE",
+      "clue": "Point of land that sticks far out into the sea",
+      "fact": "Ships once sailed around Cape Horn, at the tip of South America, through stormy seas.",
+      "tier": 1
+     },
+     {
+      "w": "RIDGE",
+      "clue": "Long, narrow strip of high ground along the top of hills",
+      "fact": "Rain falling on opposite sides of a ridge can flow into different rivers.",
+      "tier": 1
+     },
+     {
+      "w": "PIER",
+      "clue": "Walkway built out over water for boats, fishing or strolling",
+      "fact": "Santa Monica Pier in California has a Ferris wheel powered by sunlight.",
+      "tier": 1
+     },
+     {
+      "w": "ARENA",
+      "clue": "Big building where crowds watch sports or shows",
+      "fact": "Arena is the Latin word for sand, which once covered the floor of the Colosseum.",
+      "tier": 1
+     },
+     {
+      "w": "SEA",
+      "clue": "Salty body of water smaller than an ocean",
+      "fact": "The Mediterranean Sea touches Europe, Asia and Africa.",
+      "tier": 1
+     },
+     {
+      "w": "OCEAN",
+      "clue": "Giant body of salt water; the Pacific is the biggest",
+      "fact": "Earth's oceans are all connected, so a boat could sail from one to the next.",
+      "tier": 1
+     },
+     {
+      "w": "POLE",
+      "clue": "Icy spot at the very top or bottom of Earth",
+      "fact": "At the North Pole, every direction you face is south.",
+      "tier": 1
+     },
+     {
+      "w": "ASIA",
+      "clue": "Biggest continent, home to Mount Everest, China and India",
+      "fact": "Asia covers nearly one third of all the land on Earth.",
+      "tier": 1
+     },
+     {
+      "w": "CORAL",
+      "clue": "Colorful reef builder made by tiny sea animals",
+      "fact": "Coral looks like rock or plants, but it is made by tiny animals called polyps.",
+      "tier": 1
+     },
+     {
+      "w": "SAHARA",
+      "clue": "World's biggest hot desert, stretching across northern Africa",
+      "fact": "Thousands of years ago the Sahara was green, with lakes, grass and animals.",
+      "tier": 2
+     },
+     {
+      "w": "EVEREST",
+      "clue": "Tallest mountain on Earth above sea level, in the Himalayas",
+      "fact": "Climbers carry extra oxygen near Everest's top because the air is so thin.",
+      "tier": 2
+     },
+     {
+      "w": "AMAZON",
+      "clue": "Mighty South American river flowing through a giant rainforest",
+      "fact": "Pink river dolphins swim in the Amazon River.",
+      "tier": 2
+     },
+     {
+      "w": "GEYSER",
+      "clue": "Hot spring that shoots a tall jet of water and steam",
+      "fact": "A geyser erupts when underground water heated by hot rock bursts upward.",
+      "tier": 2
+     },
+     {
+      "w": "CRATER",
+      "clue": "Bowl-shaped hole left by a volcano or a space rock",
+      "fact": "Meteor Crater in Arizona was made by a space rock about 50,000 years ago.",
+      "tier": 2
+     },
+     {
+      "w": "SPHINX",
+      "clue": "Egyptian statue with a lion's body and a human head",
+      "fact": "The Great Sphinx near Giza was carved from one huge piece of limestone.",
+      "tier": 2
+     },
+     {
+      "w": "LOUVRE",
+      "clue": "Huge Paris museum with a glass pyramid out front",
+      "fact": "The Louvre was a royal castle long before it became a museum.",
+      "tier": 2
+     },
+     {
+      "w": "ISTHMUS",
+      "clue": "Narrow strip of land linking two bigger pieces of land",
+      "fact": "The Isthmus of Panama connects North America and South America.",
+      "tier": 2
+     },
+     {
+      "w": "OBELISK",
+      "clue": "Tall, thin, four-sided stone pillar with a pointed top",
+      "fact": "Many ancient Egyptian obelisks were carved from a single block of granite.",
+      "tier": 2
+     },
+     {
+      "w": "STADIUM",
+      "clue": "Giant building where crowds watch baseball or soccer games",
+      "fact": "The word comes from the Greek stadion, a distance of about 600 feet.",
+      "tier": 2
+     },
+     {
+      "w": "AFRICA",
+      "clue": "Continent where you find Egypt's pyramids, lions and the Sahara",
+      "fact": "The equator crosses Africa, which has rainforests, deserts and even snowy mountains.",
+      "tier": 2
+     },
+     {
+      "w": "EUROPE",
+      "clue": "Continent with Italy, France, Spain and the Alps",
+      "fact": "Europe and Asia are joined as one giant landmass called Eurasia.",
+      "tier": 2
+     },
+     {
+      "w": "ARCTIC",
+      "clue": "Icy region around the top of the world, where polar bears live",
+      "fact": "The Arctic is mostly frozen ocean, while Antarctica is a frozen continent.",
+      "tier": 2
+     },
+     {
+      "w": "ISLAND",
+      "clue": "Land with water all the way around it",
+      "fact": "Some islands are the tops of volcanoes that have risen above the sea.",
+      "tier": 2
+     },
+     {
+      "w": "CAVERN",
+      "clue": "Huge hollow room deep underground, with dripping stalactites",
+      "fact": "Carlsbad Caverns in New Mexico has a single room as big as six football fields.",
+      "tier": 2
+     },
+     {
+      "w": "PAGODA",
+      "clue": "Tall East Asian tower with several curved roofs",
+      "fact": "Many pagodas have an odd number of levels, such as three, five or seven.",
+      "tier": 2
+     },
+     {
+      "w": "NIAGARA",
+      "clue": "Famous thundering waterfalls on the United States and Canada border",
+      "fact": "Niagara Falls is really three waterfalls: Horseshoe, American and Bridal Veil.",
+      "tier": 2
+     },
+     {
+      "w": "HAWAII",
+      "clue": "Pacific island chain built by volcanoes, a US state",
+      "fact": "Measured from the ocean floor, Hawaii's Mauna Kea is taller than Mount Everest.",
+      "tier": 2
+     },
+     {
+      "w": "RAPIDS",
+      "clue": "Fast, bumpy part of a river where water rushes over rocks",
+      "fact": "River rapids are rated from Class I, which is gentle, to Class VI, which is extreme.",
+      "tier": 2
+     },
+     {
+      "w": "EIFFEL",
+      "clue": "Iron tower in Paris named after its engineer",
+      "fact": "The Eiffel Tower grows a few inches taller in summer, when heat expands its iron.",
+      "tier": 2
+     },
+     {
+      "w": "TRENCH",
+      "clue": "Deep, narrow valley on the ocean floor",
+      "fact": "The Mariana Trench is deeper than Mount Everest is tall.",
+      "tier": 2
+     },
+     {
+      "w": "SKYLINE",
+      "clue": "Outline of a city's tall buildings against the sky",
+      "fact": "The world's first skyscraper was built in Chicago in the 1880s.",
+      "tier": 2
+     },
+     {
+      "w": "HARBOR",
+      "clue": "Sheltered port where ships and boats can safely stay",
+      "fact": "Many great cities, like New York and Sydney, grew up around natural harbors.",
+      "tier": 2
+     },
+     {
+      "w": "MUSEUM",
+      "clue": "Place where visitors look at fossils, art and old objects",
+      "fact": "Many museums display real dinosaur skeletons that were dug out of the ground.",
+      "tier": 2
+     },
+     {
+      "w": "SUMMIT",
+      "clue": "Highest point at the top of a mountain",
+      "fact": "People first reached the summit of Mount Everest in 1953.",
+      "tier": 2
+     },
+     {
+      "w": "VALLEY",
+      "clue": "Low land between hills or mountains, often with a river",
+      "fact": "Death Valley in California is one of the hottest places on Earth.",
+      "tier": 2
+     },
+     {
+      "w": "JUNGLE",
+      "clue": "Thick, hot forest full of vines, monkeys and parrots",
+      "fact": "In a thick jungle, very little sunlight reaches the ground.",
+      "tier": 2
+     },
+     {
+      "w": "EQUATOR",
+      "clue": "Imaginary line around the middle of Earth",
+      "fact": "Near the equator, days and nights stay almost the same length all year.",
+      "tier": 2
+     },
+     {
+      "w": "HORIZON",
+      "clue": "Faraway line where the sky seems to touch the sea",
+      "fact": "Standing on a beach, you can see about three miles to the horizon.",
+      "tier": 2
+     },
+     {
+      "w": "PRAIRIE",
+      "clue": "Wide, flat grassland of North America",
+      "fact": "Some prairie grasses have roots that grow deeper than a grown-up is tall.",
+      "tier": 2
+     },
+     {
+      "w": "ICEBERG",
+      "clue": "Huge floating chunk of ice, mostly hidden underwater",
+      "fact": "About nine tenths of an iceberg is below the water.",
+      "tier": 2
+     },
+     {
+      "w": "MARINA",
+      "clue": "Dock area where people keep sailboats and yachts",
+      "fact": "Marina del Rey in Los Angeles was dug out of marshland and holds thousands of boats.",
+      "tier": 2
+     },
+     {
+      "w": "STONEHENGE",
+      "clue": "Ring of giant standing stones on a grassy plain in England",
+      "fact": "Some of Stonehenge's stones were carried from Wales, about 150 miles away.",
+      "tier": 3
+     },
+     {
+      "w": "COLOSSEUM",
+      "clue": "Giant oval arena in Rome, built almost two thousand years ago",
+      "fact": "The Colosseum could seat tens of thousands, about as many as a big baseball stadium.",
+      "tier": 3
+     },
+     {
+      "w": "PARTHENON",
+      "clue": "Ancient marble building with tall columns on a hill in Athens",
+      "fact": "The Parthenon has stood on the Acropolis in Athens for nearly 2,500 years.",
+      "tier": 3
+     },
+     {
+      "w": "ACROPOLIS",
+      "clue": "High rocky hill in Athens topped by ancient Greek buildings",
+      "fact": "Acropolis means \"high city\" in Greek.",
+      "tier": 3
+     },
+     {
+      "w": "MATTERHORN",
+      "clue": "Pointed, pyramid-shaped Alpine peak between Switzerland and Italy",
+      "fact": "The Matterhorn has four steep faces, so it looks like a giant pyramid.",
+      "tier": 3
+     },
+     {
+      "w": "HIMALAYAS",
+      "clue": "Huge Asian mountain range that includes Mount Everest",
+      "fact": "The Himalayas are still growing taller by a few millimeters each year.",
+      "tier": 3
+     },
+     {
+      "w": "KILIMANJARO",
+      "clue": "Africa's tallest mountain, a volcano rising alone from the plains",
+      "fact": "Kilimanjaro has three volcano cones, named Kibo, Mawenzi and Shira.",
+      "tier": 3
+     },
+     {
+      "w": "SERENGETI",
+      "clue": "Vast African grassland where millions of animals migrate",
+      "fact": "Each year over a million wildebeest travel across the Serengeti following the rains.",
+      "tier": 3
+     },
+     {
+      "w": "ANTARCTICA",
+      "clue": "Icy southern continent around the South Pole, home to penguins",
+      "fact": "Antarctica is the coldest, windiest and driest continent.",
+      "tier": 3
+     },
+     {
+      "w": "GREENLAND",
+      "clue": "World's biggest island, mostly buried under thick ice",
+      "fact": "Despite its name, most of Greenland is covered in ice, not grass.",
+      "tier": 3
+     },
+     {
+      "w": "VESUVIUS",
+      "clue": "Volcano near Naples, Italy, that buried the town of Pompeii",
+      "fact": "Ash from Vesuvius kept the Roman town of Pompeii preserved for over 1,600 years.",
+      "tier": 3
+     },
+     {
+      "w": "PENINSULA",
+      "clue": "Land surrounded by water on three sides",
+      "fact": "Florida is a peninsula, and so is Baja California.",
+      "tier": 3
+     },
+     {
+      "w": "ARCHIPELAGO",
+      "clue": "Chain or cluster of many islands",
+      "fact": "Hawaii is an archipelago with eight main islands.",
+      "tier": 3
+     },
+     {
+      "w": "HEMISPHERE",
+      "clue": "Half of the Earth, like north or south",
+      "fact": "California is in both the Northern Hemisphere and the Western Hemisphere.",
+      "tier": 3
+     },
+     {
+      "w": "CONTINENT",
+      "clue": "Giant area of land such as Africa or Antarctica",
+      "fact": "Asia is the biggest continent, and Australia is the smallest.",
+      "tier": 3
+     },
+     {
+      "w": "LANDMARK",
+      "clue": "Famous place that helps you spot where you are",
+      "fact": "Sailors long ago used tall rocks, hills and towers as landmarks to find their way.",
+      "tier": 3
+     },
+     {
+      "w": "PLANETARIUM",
+      "clue": "Dome theater that shows the stars on its ceiling",
+      "fact": "The first modern planetarium projector was built in Germany in the 1920s.",
+      "tier": 3
+     },
+     {
+      "w": "AQUARIUM",
+      "clue": "Building with huge tanks of fish, sharks and jellyfish",
+      "fact": "The first public aquarium opened at the London Zoo in 1853.",
+      "tier": 3
+     },
+     {
+      "w": "BALLPARK",
+      "clue": "Place where baseball fans watch games, with a diamond-shaped infield",
+      "fact": "Every major-league infield is the same size, with bases 90 feet apart, but outfields differ.",
+      "tier": 3
+     },
+     {
+      "w": "DRAWBRIDGE",
+      "clue": "Castle entrance that lifts up on chains to cross a moat",
+      "fact": "Some drawbridges are still used today to let tall boats pass.",
+      "tier": 3
+     },
+     {
+      "w": "COASTLINE",
+      "clue": "The long edge where land meets the sea",
+      "fact": "A coastline gets longer the closer you measure it, because of all the tiny bays and rocks.",
+      "tier": 3
+     },
+     {
+      "w": "TIDEPOOL",
+      "clue": "Small pool of seawater left behind among rocks at low tide",
+      "fact": "Tide pools are tiny ocean worlds with sea stars, crabs and anemones.",
+      "tier": 3
+     },
+     {
+      "w": "SHIPWRECK",
+      "clue": "Sunken ship resting on the seafloor",
+      "fact": "Shipwrecks become underwater homes for fish, octopuses and coral.",
+      "tier": 3
+     },
+     {
+      "w": "BADLANDS",
+      "clue": "Dry land carved by wind and rain into strange ridges and spikes",
+      "fact": "The Badlands in South Dakota hold fossils of animals that lived millions of years ago.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "ISLA",
+      "clue": "Pedazo de tierra con agua por todos lados",
+      "fact": "Algunas islas son la punta de volcanes que salieron del fondo del mar.",
+      "tier": 1
+     },
+     {
+      "w": "MAR",
+      "clue": "Gran extensión de agua salada donde navegan los barcos",
+      "fact": "Más del setenta por ciento de la superficie de la Tierra está cubierta por agua.",
+      "tier": 1
+     },
+     {
+      "w": "RÍO",
+      "clue": "Corriente de agua dulce que baja de las montañas hacia el mar",
+      "fact": "Muchos ríos nacen como pequeños arroyos en lo alto de las montañas.",
+      "tier": 1
+     },
+     {
+      "w": "PLAYA",
+      "clue": "Orilla de arena suave donde llegan las olas",
+      "fact": "La arena de algunas playas es rosada, negra o hasta verde.",
+      "tier": 1
+     },
+     {
+      "w": "BAHÍA",
+      "clue": "Curva grande de la costa donde el mar entra en la tierra",
+      "fact": "En la bahía de Fundy, en Canadá, la marea sube más que un edificio de cuatro pisos.",
+      "tier": 1
+     },
+     {
+      "w": "CUEVA",
+      "clue": "Hueco grande y oscuro dentro de una montaña",
+      "fact": "En algunas cuevas hay dibujos hechos por personas hace miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "NILO",
+      "clue": "Larguísimo río de África donde vivieron los antiguos egipcios",
+      "fact": "El Nilo corre hacia el norte, así que su desembocadura queda arriba en el mapa.",
+      "tier": 1
+     },
+     {
+      "w": "ANDES",
+      "clue": "Montañas altísimas que cruzan Chile, Perú y Argentina",
+      "fact": "Los primeros agricultores de papa vivieron en los Andes hace miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "ALPES",
+      "clue": "Montañas nevadas de Europa famosas por el esquí",
+      "fact": "Los Alpes cruzan ocho países de Europa.",
+      "tier": 1
+     },
+     {
+      "w": "UYUNI",
+      "clue": "Desierto blanco de sal en Bolivia que parece un espejo",
+      "fact": "Cuando llueve, el Salar de Uyuni se vuelve un espejo gigante que refleja el cielo.",
+      "tier": 1
+     },
+     {
+      "w": "FUJI",
+      "clue": "Volcán nevado de Japón con forma de cono casi perfecto",
+      "fact": "Mucha gente sube al monte Fuji de noche para ver salir el sol desde la cima.",
+      "tier": 1
+     },
+     {
+      "w": "TIKAL",
+      "clue": "Ciudad maya de templos de piedra en la selva de Guatemala",
+      "fact": "Algunos templos de Tikal sobresalen por encima de las copas de los árboles.",
+      "tier": 1
+     },
+     {
+      "w": "MOÁI",
+      "clue": "Gigantescas cabezas de piedra de la isla de Pascua",
+      "fact": "Los moáis parecen solo cabezas, pero muchos tienen el cuerpo enterrado bajo la tierra.",
+      "tier": 1
+     },
+     {
+      "w": "PRESA",
+      "clue": "Muro enorme que detiene el agua de un río",
+      "fact": "Los castores hacen presas con ramas, barro y piedras.",
+      "tier": 1
+     },
+     {
+      "w": "FOSO",
+      "clue": "Zanja con agua alrededor de un castillo",
+      "fact": "Un foso dificultaba que los enemigos cavaran un túnel bajo la muralla.",
+      "tier": 1
+     },
+     {
+      "w": "PLAZA",
+      "clue": "Espacio abierto en el centro del pueblo, con bancas",
+      "fact": "En muchos pueblos de Latinoamérica, la plaza es donde se junta la gente.",
+      "tier": 1
+     },
+     {
+      "w": "HAWÁI",
+      "clue": "Islas del Pacífico con volcanes, surf y collares de flores",
+      "fact": "Medido desde el fondo del mar, el Mauna Kea de Hawái es más alto que el Everest.",
+      "tier": 1
+     },
+     {
+      "w": "ASIA",
+      "clue": "El continente más grande, donde están China, India y el Everest",
+      "fact": "Asia ocupa casi un tercio de toda la tierra firme del planeta.",
+      "tier": 1
+     },
+     {
+      "w": "CORAL",
+      "clue": "Animalitos del mar que construyen arrecifes de colores",
+      "fact": "El coral parece roca o planta, pero lo hacen animalitos llamados pólipos.",
+      "tier": 1
+     },
+     {
+      "w": "CAÑÓN",
+      "clue": "Valle hondo con paredes de roca, tallado por un río",
+      "fact": "El Gran Cañón de Arizona fue tallado por el río Colorado durante millones de años.",
+      "tier": 1
+     },
+     {
+      "w": "CABO",
+      "clue": "Punta de tierra que se adentra mucho en el mar",
+      "fact": "El Cabo de Hornos, al sur de América, es famoso por sus mares bravos.",
+      "tier": 1
+     },
+     {
+      "w": "ISTMO",
+      "clue": "Franja estrecha de tierra que une dos tierras grandes",
+      "fact": "El istmo de Panamá une América del Norte con América del Sur.",
+      "tier": 1
+     },
+     {
+      "w": "TÚNEL",
+      "clue": "Pasaje largo que atraviesa una montaña o pasa bajo la tierra",
+      "fact": "Muchos túneles se cavan con enormes máquinas llamadas tuneladoras.",
+      "tier": 1
+     },
+     {
+      "w": "MUSEO",
+      "clue": "Lugar donde se exhiben fósiles, arte y objetos antiguos",
+      "fact": "Muchos museos muestran esqueletos reales de dinosaurios sacados de la tierra.",
+      "tier": 1
+     },
+     {
+      "w": "DELTA",
+      "clue": "Terreno en forma de abanico donde un río llega al mar",
+      "fact": "Se llama delta por una letra griega con forma de triángulo, como el delta del Nilo.",
+      "tier": 1
+     },
+     {
+      "w": "PICO",
+      "clue": "Punta alta y afilada de una montaña",
+      "fact": "El Aconcagua es el pico más alto de los Andes y de toda América.",
+      "tier": 1
+     },
+     {
+      "w": "PAMPA",
+      "clue": "Llanura enorme y plana cubierta de pasto, en Argentina",
+      "fact": "La palabra pampa viene del quechua y significa llanura.",
+      "tier": 1
+     },
+     {
+      "w": "CAYO",
+      "clue": "Isla pequeña y plana de arena y coral en el Caribe",
+      "fact": "Muchos cayos del Caribe están hechos de arena y restos de coral.",
+      "tier": 1
+     },
+     {
+      "w": "ÁFRICA",
+      "clue": "Continente con el Sahara, las pirámides de Egipto y los leones",
+      "fact": "El ecuador cruza África, que tiene selvas, desiertos y hasta montañas con nieve.",
+      "tier": 2
+     },
+     {
+      "w": "EUROPA",
+      "clue": "Continente de España, Francia, Italia y los Alpes",
+      "fact": "Europa y Asia forman una sola masa de tierra llamada Eurasia.",
+      "tier": 2
+     },
+     {
+      "w": "ÁRTICO",
+      "clue": "Región helada alrededor del Polo Norte, donde viven los osos polares",
+      "fact": "El Ártico es sobre todo océano congelado; la Antártida, en cambio, es un continente de hielo.",
+      "tier": 2
+     },
+     {
+      "w": "OCÉANO",
+      "clue": "Enorme extensión de agua salada; el Pacífico es el más grande",
+      "fact": "Los océanos de la Tierra están conectados, así que un barco puede navegar de uno a otro.",
+      "tier": 2
+     },
+     {
+      "w": "ATOLÓN",
+      "clue": "Isla de coral en forma de anillo que rodea una laguna",
+      "fact": "Muchos atolones nacieron de volcanes que se hundieron mientras el coral seguía creciendo.",
+      "tier": 2
+     },
+     {
+      "w": "CRÁTER",
+      "clue": "Hoyo en forma de tazón dejado por un volcán o un meteorito",
+      "fact": "El Cráter del Meteoro, en Arizona, lo hizo una roca del espacio hace unos cincuenta mil años.",
+      "tier": 2
+     },
+     {
+      "w": "GÉISER",
+      "clue": "Fuente natural que lanza un chorro de agua caliente y vapor",
+      "fact": "Un géiser estalla cuando el agua calentada bajo tierra por roca caliente sale disparada hacia arriba.",
+      "tier": 2
+     },
+     {
+      "w": "ESFINGE",
+      "clue": "Estatua egipcia con cuerpo de león y cabeza de persona",
+      "fact": "La Gran Esfinge de Guiza fue tallada en un solo bloque enorme de piedra caliza.",
+      "tier": 2
+     },
+     {
+      "w": "IGUAZÚ",
+      "clue": "Enormes saltos de agua entre Argentina y Brasil, en plena selva",
+      "fact": "Las cataratas del Iguazú son más de doscientos saltos de agua rodeados de selva.",
+      "tier": 2
+     },
+     {
+      "w": "ATACAMA",
+      "clue": "Desierto de Chile, uno de los lugares más secos del mundo",
+      "fact": "En partes del Atacama pasan años enteros sin una gota de lluvia.",
+      "tier": 2
+     },
+     {
+      "w": "CARIBE",
+      "clue": "Mar cálido de aguas turquesas, con islas, arrecifes y cayos",
+      "fact": "En el Caribe está el segundo arrecife de coral más grande del mundo.",
+      "tier": 2
+     },
+     {
+      "w": "MUELLE",
+      "clue": "Estructura que se mete en el mar para que los barcos atraquen",
+      "fact": "El muelle de Santa Mónica, en California, tiene una rueda de la fortuna que funciona con luz solar.",
+      "tier": 2
+     },
+     {
+      "w": "PUERTO",
+      "clue": "Lugar protegido de la costa donde llegan y salen los barcos",
+      "fact": "Muchas ciudades grandes crecieron junto a un puerto natural.",
+      "tier": 2
+     },
+     {
+      "w": "ESTADIO",
+      "clue": "Lugar enorme donde miles de personas ven un partido de béisbol",
+      "fact": "La palabra estadio viene del griego stadion, una medida de unos 185 metros.",
+      "tier": 2
+     },
+     {
+      "w": "CÚPULA",
+      "clue": "Techo redondo con forma de media pelota",
+      "fact": "El Panteón de Roma tiene una cúpula de concreto con un agujero redondo arriba.",
+      "tier": 2
+     },
+     {
+      "w": "RUINAS",
+      "clue": "Lo que queda de edificios muy antiguos que se derrumbaron",
+      "fact": "Algunas ruinas de Roma siguen en pie después de casi dos mil años.",
+      "tier": 2
+     },
+     {
+      "w": "SIERRA",
+      "clue": "Cadena de montañas con picos que parecen dientes",
+      "fact": "La palabra sierra también nombra una herramienta con dientes para cortar madera.",
+      "tier": 2
+     },
+     {
+      "w": "COLINA",
+      "clue": "Elevación suave del terreno, más baja que una montaña",
+      "fact": "La ciudad de Roma está construida sobre siete colinas.",
+      "tier": 2
+     },
+     {
+      "w": "ACUARIO",
+      "clue": "Edificio con enormes peceras llenas de peces, tiburones y medusas",
+      "fact": "El primer acuario público abrió en el zoológico de Londres en 1853.",
+      "tier": 2
+     },
+     {
+      "w": "CAVERNA",
+      "clue": "Cueva gigantesca y profunda con estalactitas que cuelgan del techo",
+      "fact": "Las Cavernas de Carlsbad, en Nuevo México, tienen una sala del tamaño de seis canchas de fútbol americano.",
+      "tier": 2
+     },
+     {
+      "w": "CENOTE",
+      "clue": "Pozo natural de agua dulce y cristalina en Yucatán, México",
+      "fact": "Los antiguos mayas sacaban agua dulce de los cenotes.",
+      "tier": 2
+     },
+     {
+      "w": "FUENTE",
+      "clue": "Estructura de piedra con chorros de agua en una plaza",
+      "fact": "Los antiguos romanos construyeron fuentes públicas para que todos pudieran tomar agua.",
+      "tier": 2
+     },
+     {
+      "w": "LOUVRE",
+      "clue": "Gran museo de París con una pirámide de cristal en la entrada",
+      "fact": "El Louvre fue un castillo de reyes antes de convertirse en museo.",
+      "tier": 2
+     },
+     {
+      "w": "EIFFEL",
+      "clue": "Torre de hierro de París que lleva el nombre de su ingeniero",
+      "fact": "La torre Eiffel crece unos centímetros en verano porque el calor dilata el hierro.",
+      "tier": 2
+     },
+     {
+      "w": "SAHARA",
+      "clue": "El desierto caliente más grande del mundo, en el norte de África",
+      "fact": "Hace miles de años el Sahara era verde, con lagos y pastizales.",
+      "tier": 2
+     },
+     {
+      "w": "EVEREST",
+      "clue": "La montaña más alta de la Tierra sobre el nivel del mar",
+      "fact": "Cerca de la cima del Everest hay tan poco aire que los alpinistas llevan oxígeno extra.",
+      "tier": 2
+     },
+     {
+      "w": "NIÁGARA",
+      "clue": "Famosas cataratas en la frontera entre Estados Unidos y Canadá",
+      "fact": "Las cataratas del Niágara son en realidad tres: Herradura, Americana y Velo de Novia.",
+      "tier": 2
+     },
+     {
+      "w": "LLANURA",
+      "clue": "Terreno muy grande y plano, sin montañas ni colinas",
+      "fact": "En Venezuela y Colombia hay llanuras enormes donde viven los capibaras.",
+      "tier": 2
+     },
+     {
+      "w": "ECUADOR",
+      "clue": "Línea imaginaria que rodea la Tierra por la mitad",
+      "fact": "El país Ecuador se llama así porque la línea del ecuador lo cruza.",
+      "tier": 2
+     },
+     {
+      "w": "ICEBERG",
+      "clue": "Enorme bloque de hielo flotante, casi todo escondido bajo el agua",
+      "fact": "Casi nueve décimas partes de un iceberg quedan bajo el agua.",
+      "tier": 2
+     },
+     {
+      "w": "JUNGLA",
+      "clue": "Bosque caliente y espeso lleno de lianas, monos y loros",
+      "fact": "En una jungla espesa llega muy poca luz del sol hasta el suelo.",
+      "tier": 2
+     },
+     {
+      "w": "PANTANO",
+      "clue": "Terreno bajo y encharcado, con plantas y árboles dentro del agua",
+      "fact": "Los cipreses de los pantanos sacan raíces que sobresalen del agua como rodillas.",
+      "tier": 2
+     },
+     {
+      "w": "ARRECIFE",
+      "clue": "Cresta de coral o roca cerca de la superficie del mar",
+      "fact": "La Gran Barrera de Coral, en Australia, es tan grande que se ve desde el espacio.",
+      "tier": 3
+     },
+     {
+      "w": "OBELISCO",
+      "clue": "Pilar de piedra alto, delgado y de cuatro lados, con punta",
+      "fact": "Muchos obeliscos del antiguo Egipto se tallaron de un solo bloque de granito.",
+      "tier": 3
+     },
+     {
+      "w": "ESTRECHO",
+      "clue": "Paso angosto de mar entre dos tierras",
+      "fact": "El estrecho de Magallanes, en el sur de Chile, une el océano Atlántico con el Pacífico.",
+      "tier": 3
+     },
+     {
+      "w": "GALÁPAGOS",
+      "clue": "Islas volcánicas de Ecuador donde viven tortugas gigantes",
+      "fact": "Las tortugas gigantes de las islas Galápagos pueden vivir más de cien años.",
+      "tier": 3
+     },
+     {
+      "w": "PATAGONIA",
+      "clue": "Región fría y ventosa en el extremo sur de Argentina y Chile",
+      "fact": "En la Patagonia hay glaciares enormes, y en sus costas viven pingüinos y ballenas.",
+      "tier": 3
+     },
+     {
+      "w": "ACONCAGUA",
+      "clue": "Montaña más alta de América, en la cordillera de los Andes",
+      "fact": "El Aconcagua, en Argentina, es la montaña más alta fuera de Asia.",
+      "tier": 3
+     },
+     {
+      "w": "TITICACA",
+      "clue": "Gran lago de los Andes entre Perú y Bolivia",
+      "fact": "En el lago Titicaca hay islas flotantes hechas de totora, una planta.",
+      "tier": 3
+     },
+     {
+      "w": "TEOTIHUACÁN",
+      "clue": "Ciudad antigua de México con las pirámides del Sol y la Luna",
+      "fact": "La Pirámide del Sol de Teotihuacán mide más de sesenta metros de altura.",
+      "tier": 3
+     },
+     {
+      "w": "AMAZONAS",
+      "clue": "Río gigante de América del Sur que atraviesa una enorme selva",
+      "fact": "En el Amazonas viven delfines rosados de río.",
+      "tier": 3
+     },
+     {
+      "w": "ANTÁRTIDA",
+      "clue": "Continente helado alrededor del Polo Sur, hogar de pingüinos",
+      "fact": "La Antártida es el continente más frío, más ventoso y más seco.",
+      "tier": 3
+     },
+     {
+      "w": "GROENLANDIA",
+      "clue": "La isla más grande del mundo, casi toda cubierta de hielo",
+      "fact": "Aunque su nombre significa tierra verde, casi toda Groenlandia está cubierta de hielo.",
+      "tier": 3
+     },
+     {
+      "w": "HEMISFERIO",
+      "clue": "Cada una de las mitades de la Tierra, como norte o sur",
+      "fact": "Argentina está en el hemisferio sur y México en el norte, y ambos en el occidental.",
+      "tier": 3
+     },
+     {
+      "w": "CONTINENTE",
+      "clue": "Gran masa de tierra como África, Asia o la Antártida",
+      "fact": "Asia es el continente más grande y Oceanía es el más pequeño.",
+      "tier": 3
+     },
+     {
+      "w": "PLANETARIO",
+      "clue": "Sala con cúpula que muestra el cielo nocturno en el techo",
+      "fact": "El primer proyector de planetario moderno se construyó en Alemania en la década de 1920.",
+      "tier": 3
+     },
+     {
+      "w": "HIMALAYA",
+      "clue": "Cordillera de Asia donde está el monte Everest",
+      "fact": "El Himalaya sigue creciendo unos milímetros cada año.",
+      "tier": 3
+     },
+     {
+      "w": "KILIMANJARO",
+      "clue": "Montaña más alta de África, un volcán que se alza solo",
+      "fact": "El Kilimanjaro tiene tres conos de volcán llamados Kibo, Mawenzi y Shira.",
+      "tier": 3
+     },
+     {
+      "w": "PARTENÓN",
+      "clue": "Edificio antiguo de mármol con columnas sobre una colina de Atenas",
+      "fact": "El Partenón se levanta en la Acrópolis de Atenas desde hace casi dos mil quinientos años.",
+      "tier": 3
+     },
+     {
+      "w": "ACRÓPOLIS",
+      "clue": "Colina rocosa de Atenas coronada por antiguos edificios griegos",
+      "fact": "Acrópolis significa ciudad alta en griego.",
+      "tier": 3
+     },
+     {
+      "w": "HORIZONTE",
+      "clue": "Línea lejana donde el cielo parece tocar el mar",
+      "fact": "Desde una playa puedes ver unos cuatro o cinco kilómetros hasta el horizonte.",
+      "tier": 3
+     },
+     {
+      "w": "ACANTILADO",
+      "clue": "Pared de roca muy alta y casi recta junto al mar",
+      "fact": "En los acantilados anidan miles de aves marinas.",
+      "tier": 3
+     },
+     {
+      "w": "SERENGETI",
+      "clue": "Enorme llanura de África donde millones de animales migran",
+      "fact": "Cada año más de un millón de ñus cruzan el Serengeti siguiendo las lluvias.",
+      "tier": 3
+     },
+     {
+      "w": "STONEHENGE",
+      "clue": "Círculo de piedras gigantes en una llanura de Inglaterra",
+      "fact": "Algunas piedras de Stonehenge se trajeron desde Gales, a unos 240 kilómetros.",
+      "tier": 3
+     },
+     {
+      "w": "ANFITEATRO",
+      "clue": "Gran edificio redondo de la antigua Roma con gradas alrededor",
+      "fact": "La palabra anfiteatro viene del griego y quiere decir teatro con asientos por todos lados.",
+      "tier": 3
+     },
+     {
+      "w": "FARALLÓN",
+      "clue": "Gran roca que sale sola del mar, cerca de la orilla",
+      "fact": "Los farallones se forman cuando las olas desgastan la roca durante miles de años.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "inventions-and-machines",
+   "words": {
+    "en": [
+     {
+      "w": "SAW",
+      "clue": "Tool with a toothed blade that cuts through wood",
+      "fact": "Some saws have tiny bits of diamond on the blade so they can cut stone.",
+      "tier": 1
+     },
+     {
+      "w": "DRILL",
+      "clue": "Power tool that spins a sharp bit to make holes",
+      "fact": "Long ago, people spun a drill with a bow and string to make holes.",
+      "tier": 1
+     },
+     {
+      "w": "CHIP",
+      "clue": "Tiny silicon square packed with circuits, found inside every computer",
+      "fact": "Computer chips are made from silicon, which comes from ordinary sand.",
+      "tier": 1
+     },
+     {
+      "w": "KITE",
+      "clue": "Light frame covered in paper or cloth that flies on a string",
+      "fact": "Kites were invented in China more than two thousand years ago.",
+      "tier": 1
+     },
+     {
+      "w": "SAIL",
+      "clue": "Big sheet of cloth that catches wind to push a boat",
+      "fact": "A sailboat can travel almost against the wind by zigzagging back and forth.",
+      "tier": 1
+     },
+     {
+      "w": "NAIL",
+      "clue": "Thin metal spike you hammer into wood",
+      "fact": "Long ago, blacksmiths made every nail by hand, one at a time.",
+      "tier": 1
+     },
+     {
+      "w": "SCREW",
+      "clue": "Metal pin with spiral ridges that twists into wood",
+      "fact": "A screw is really a ramp wrapped around a pole.",
+      "tier": 1
+     },
+     {
+      "w": "PUMP",
+      "clue": "Machine that pushes water or air from one place to another",
+      "fact": "Your heart is a pump that moves blood all around your body.",
+      "tier": 1
+     },
+     {
+      "w": "DRONE",
+      "clue": "Flying machine with spinning blades and no pilot inside",
+      "fact": "Drone is also the name for a male bee, which makes a humming buzz.",
+      "tier": 1
+     },
+     {
+      "w": "JET",
+      "clue": "Very fast airplane with powerful engines but no propeller",
+      "fact": "A jet engine pushes a plane forward by blasting hot gas backward.",
+      "tier": 1
+     },
+     {
+      "w": "TRAIN",
+      "clue": "Long line of connected cars that rolls along tracks",
+      "fact": "Some of the first trains were pulled along rails by horses.",
+      "tier": 1
+     },
+     {
+      "w": "RADAR",
+      "clue": "Machine that bounces radio waves off planes and storms to find them",
+      "fact": "Radar is a palindrome, so it reads the same forward and backward.",
+      "tier": 1
+     },
+     {
+      "w": "SONAR",
+      "clue": "Machine that uses sound echoes to find things underwater",
+      "fact": "Bats and dolphins find things using echoes, the same trick that sonar uses.",
+      "tier": 1
+     },
+     {
+      "w": "MOUSE",
+      "clue": "Hand-held gadget you slide to move the pointer on a screen",
+      "fact": "The very first computer mouse was made of wood.",
+      "tier": 1
+     },
+     {
+      "w": "PIANO",
+      "clue": "Big instrument with 88 black and white keys",
+      "fact": "Inside a piano, tiny hammers hit strings when you press a key.",
+      "tier": 1
+     },
+     {
+      "w": "FAN",
+      "clue": "Spinning blades that blow air to keep you cool",
+      "fact": "A fan does not cool the air; it helps sweat on your skin dry faster.",
+      "tier": 1
+     },
+     {
+      "w": "PROBE",
+      "clue": "Robot spacecraft sent to study far-off planets and moons",
+      "fact": "Two probes launched in 1977 have since flown out into the space between the stars.",
+      "tier": 1
+     },
+     {
+      "w": "ROVER",
+      "clue": "Wheeled robot that drives around exploring Mars",
+      "fact": "Robot rovers have rolled across the surface of Mars and the Moon.",
+      "tier": 1
+     },
+     {
+      "w": "SCUBA",
+      "clue": "Tank-and-mask gear that lets divers breathe underwater",
+      "fact": "Scuba stands for Self-Contained Underwater Breathing Apparatus.",
+      "tier": 1
+     },
+     {
+      "w": "VALVE",
+      "clue": "Part that opens and closes to control how liquid or air flows",
+      "fact": "Your heart has valves that keep blood flowing in only one direction.",
+      "tier": 1
+     },
+     {
+      "w": "WIRE",
+      "clue": "Thin metal thread that carries electricity",
+      "fact": "Most electrical wire is made of copper, which carries electricity very well.",
+      "tier": 1
+     },
+     {
+      "w": "ANVIL",
+      "clue": "Heavy iron block a blacksmith hammers hot metal on",
+      "fact": "Your ear has a tiny bone called the anvil, because it looks like one.",
+      "tier": 1
+     },
+     {
+      "w": "CHAIN",
+      "clue": "Loop of linked metal rings, like on a bike",
+      "fact": "A bicycle chain carries power from your pedals to the back wheel.",
+      "tier": 1
+     },
+     {
+      "w": "BRAKE",
+      "clue": "Part that slows or stops a moving vehicle",
+      "fact": "Many car brakes squeeze pads against a spinning disc to slow the wheel.",
+      "tier": 1
+     },
+     {
+      "w": "TIRE",
+      "clue": "Rubber ring around a wheel",
+      "fact": "Tires have grooves, called tread, that help them grip the road.",
+      "tier": 1
+     },
+     {
+      "w": "BOAT",
+      "clue": "Small vehicle that floats and carries people on water",
+      "fact": "One of the oldest known boats is a canoe made from a hollowed log.",
+      "tier": 1
+     },
+     {
+      "w": "TRUCK",
+      "clue": "Big road vehicle for hauling heavy loads",
+      "fact": "Monster truck tires are about 66 inches tall, taller than most kids.",
+      "tier": 1
+     },
+     {
+      "w": "PIXEL",
+      "clue": "Tiny dot of color; millions make up a screen picture",
+      "fact": "The word pixel is short for picture element.",
+      "tier": 1
+     },
+     {
+      "w": "ROCKET",
+      "clue": "Vehicle that blasts into space by shooting hot gas downward",
+      "fact": "Rockets work in empty space because they push against the gas they shoot out.",
+      "tier": 2
+     },
+     {
+      "w": "ABACUS",
+      "clue": "Counting frame with beads that slide on rods",
+      "fact": "People used abacuses to do math thousands of years before calculators existed.",
+      "tier": 2
+     },
+     {
+      "w": "ARCADE",
+      "clue": "Room full of coin-powered video game machines",
+      "fact": "Many classic arcade games had only a joystick and one or two buttons.",
+      "tier": 2
+     },
+     {
+      "w": "CONSOLE",
+      "clue": "Box you plug into a TV to play video games",
+      "fact": "The first home game consoles, in the 1970s, showed only simple blocks and lines.",
+      "tier": 2
+     },
+     {
+      "w": "SCREEN",
+      "clue": "Flat surface where a TV or computer shows pictures",
+      "fact": "Old TV screens were deep boxes because they used big glass tubes.",
+      "tier": 2
+     },
+     {
+      "w": "PISTON",
+      "clue": "Part that slides up and down inside an engine",
+      "fact": "In a car engine, each piston moves up and down thousands of times a minute.",
+      "tier": 2
+     },
+     {
+      "w": "NOZZLE",
+      "clue": "Narrow spout at the end of a hose or rocket",
+      "fact": "A rocket nozzle is shaped like a bell to speed up the hot gas.",
+      "tier": 2
+     },
+     {
+      "w": "BLENDER",
+      "clue": "Kitchen machine with spinning blades for making smoothies",
+      "fact": "A blender's blades can spin thousands of times every minute.",
+      "tier": 2
+     },
+     {
+      "w": "TOASTER",
+      "clue": "Kitchen gadget that browns bread with hot wires",
+      "fact": "Inside a toaster, thin wires glow orange when electricity flows through them.",
+      "tier": 2
+     },
+     {
+      "w": "VACUUM",
+      "clue": "Cleaning machine that sucks dust off carpets",
+      "fact": "A vacuum cleaner's fan lowers the air pressure inside, so outside air rushes in with dirt.",
+      "tier": 2
+     },
+     {
+      "w": "ANCHOR",
+      "clue": "Heavy hook dropped from a ship to keep it from drifting",
+      "fact": "An anchor holds a ship in place by digging into the seabed.",
+      "tier": 2
+     },
+     {
+      "w": "SEESAW",
+      "clue": "Playground board that kids balance on, tipping up and down",
+      "fact": "A seesaw is a lever, with the middle acting as the pivot.",
+      "tier": 2
+     },
+     {
+      "w": "SENSOR",
+      "clue": "Device that detects things like light, heat or motion",
+      "fact": "Automatic doors use sensors to notice when someone walks up.",
+      "tier": 2
+     },
+     {
+      "w": "SWITCH",
+      "clue": "Button or lever that turns electricity on or off",
+      "fact": "A switch works by connecting or breaking the path that electricity travels along.",
+      "tier": 2
+     },
+     {
+      "w": "SKATES",
+      "clue": "Boots with blades or wheels for gliding along",
+      "fact": "The earliest ice skates were made from animal bones.",
+      "tier": 2
+     },
+     {
+      "w": "GLIDER",
+      "clue": "Airplane with no engine that floats on rising air",
+      "fact": "Glider pilots can stay up for hours by riding warm air that rises.",
+      "tier": 2
+     },
+     {
+      "w": "GAMEPAD",
+      "clue": "Handheld controller with buttons and sticks for playing on a TV",
+      "fact": "Many game controllers have a tiny motor inside that makes them rumble.",
+      "tier": 2
+     },
+     {
+      "w": "MIRROR",
+      "clue": "Shiny glass that shows your reflection",
+      "fact": "The first mirrors were polished stones, such as shiny volcanic glass called obsidian.",
+      "tier": 2
+     },
+     {
+      "w": "SPEAKER",
+      "clue": "Gadget that turns electric signals into sound",
+      "fact": "A speaker makes sound by shaking a paper or plastic cone back and forth.",
+      "tier": 2
+     },
+     {
+      "w": "ANTENNA",
+      "clue": "Metal rod or wire that sends and catches radio signals",
+      "fact": "A satellite dish is an antenna shaped like a bowl.",
+      "tier": 2
+     },
+     {
+      "w": "SUNDIAL",
+      "clue": "Clock that tells time with the shadow of a stick",
+      "fact": "Ancient Egyptians used sundials about 3,500 years ago.",
+      "tier": 2
+     },
+     {
+      "w": "SHUTTLE",
+      "clue": "Winged spacecraft that carried astronauts to orbit and glided home",
+      "fact": "Space shuttles landed like gliders, with their engines off.",
+      "tier": 2
+     },
+     {
+      "w": "CAPSULE",
+      "clue": "Small spacecraft that returns astronauts to Earth under parachutes",
+      "fact": "Many space capsules splash down in the ocean at the end of a flight.",
+      "tier": 2
+     },
+     {
+      "w": "LANDER",
+      "clue": "Spacecraft built to touch down on the Moon or another world",
+      "fact": "Landers have touched down on the Moon, Mars, Venus and even a comet.",
+      "tier": 2
+     },
+     {
+      "w": "SCANNER",
+      "clue": "Machine that copies a page or picture into a computer",
+      "fact": "Grocery store scanners read a barcode's stripes using a laser beam.",
+      "tier": 2
+     },
+     {
+      "w": "CIRCUIT",
+      "clue": "Closed loop that electricity flows around",
+      "fact": "Electricity only flows when a circuit makes a complete loop.",
+      "tier": 2
+     },
+     {
+      "w": "DYNAMO",
+      "clue": "Machine that turns spinning motion into electricity",
+      "fact": "Some bike lights use a small dynamo that makes power while you pedal.",
+      "tier": 2
+     },
+     {
+      "w": "LADDER",
+      "clue": "Climbing tool with rungs to step on",
+      "fact": "Rock paintings in Spain show a person climbing a ladder thousands of years ago.",
+      "tier": 2
+     },
+     {
+      "w": "ZIPPER",
+      "clue": "Fastener with two rows of teeth that lock when you slide it",
+      "fact": "The zipper was first called a hookless fastener.",
+      "tier": 2
+     },
+     {
+      "w": "RATCHET",
+      "clue": "Gear with teeth that lets it turn only one way",
+      "fact": "A ratchet clicks because a small lever slips over its teeth.",
+      "tier": 2
+     },
+     {
+      "w": "SNORKEL",
+      "clue": "Curved tube that lets swimmers breathe with their face in the water",
+      "fact": "Snorkels must stay short, because breathing through a long tube underwater is too hard.",
+      "tier": 2
+     },
+     {
+      "w": "COMBINE",
+      "clue": "Giant farm machine that cuts and sorts grain",
+      "fact": "Before combines, many workers cut and sorted grain by hand.",
+      "tier": 2
+     },
+     {
+      "w": "TELESCOPE",
+      "clue": "Long tube with lenses for looking at planets and stars",
+      "fact": "Telescopes look back in time, because light from far-away stars takes years to arrive.",
+      "tier": 3
+     },
+     {
+      "w": "SUBMARINE",
+      "clue": "Ship that travels deep underwater",
+      "fact": "A submarine dives by filling tanks with water and rises by pushing it out with air.",
+      "tier": 3
+     },
+     {
+      "w": "SATELLITE",
+      "clue": "Machine that circles Earth in space",
+      "fact": "Some satellites take pictures of weather, and others help your phone find its location.",
+      "tier": 3
+     },
+     {
+      "w": "PROPELLER",
+      "clue": "Spinning twisted blades that push a plane or boat along",
+      "fact": "Airplane propellers are really spinning wings that pull the plane forward.",
+      "tier": 3
+     },
+     {
+      "w": "LOCOMOTIVE",
+      "clue": "Powerful engine at the front of a train",
+      "fact": "Early locomotives burned coal or wood to boil water into steam.",
+      "tier": 3
+     },
+     {
+      "w": "TELEGRAPH",
+      "clue": "Old machine that sent messages as clicks along wires",
+      "fact": "Telegraph operators sent words using Morse code, a pattern of short and long signals.",
+      "tier": 3
+     },
+     {
+      "w": "ESCALATOR",
+      "clue": "Moving staircase in a mall",
+      "fact": "An escalator is a loop of stairs, with steps flattening out at each end.",
+      "tier": 3
+     },
+     {
+      "w": "GENERATOR",
+      "clue": "Machine that spins magnets to make electricity",
+      "fact": "Hydro generators are turned by falling water to make electricity at dams.",
+      "tier": 3
+     },
+     {
+      "w": "EXCAVATOR",
+      "clue": "Digging machine with a long arm and a bucket",
+      "fact": "An excavator's powerful arm moves using hydraulics, which is pressure from liquid.",
+      "tier": 3
+     },
+     {
+      "w": "AIRPLANE",
+      "clue": "Machine with wings that carries people through the sky",
+      "fact": "The first airplane flight, in 1903, lasted only twelve seconds.",
+      "tier": 3
+     },
+     {
+      "w": "KEYBOARD",
+      "clue": "Rows of keys you press to type",
+      "fact": "Most keyboards use the QWERTY layout, named for the first six letters in the top row.",
+      "tier": 3
+     },
+     {
+      "w": "TRANSISTOR",
+      "clue": "Tiny electronic switch found by the billions in computer chips",
+      "fact": "Today's chips pack billions of them, each far smaller than a germ.",
+      "tier": 3
+     },
+     {
+      "w": "FLASHLIGHT",
+      "clue": "Handheld battery light you carry in the dark",
+      "fact": "Early flashlights got their name because weak batteries only made short flashes of light.",
+      "tier": 3
+     },
+     {
+      "w": "MICROWAVE",
+      "clue": "Kitchen oven that heats food with invisible waves",
+      "fact": "Microwave ovens heat food by making the water inside it jiggle.",
+      "tier": 3
+     },
+     {
+      "w": "FORKLIFT",
+      "clue": "Truck with two metal prongs for lifting heavy pallets",
+      "fact": "A forklift has a heavy back end that balances the load it lifts, like a seesaw.",
+      "tier": 3
+     },
+     {
+      "w": "TRAMPOLINE",
+      "clue": "Bouncy fabric sheet stretched over springs for jumping",
+      "fact": "Astronauts have trained on trampolines to practice flips and spins.",
+      "tier": 3
+     },
+     {
+      "w": "JOYSTICK",
+      "clue": "Lever you tilt to steer in video games",
+      "fact": "Airplane pilots used control sticks long before video games had joysticks.",
+      "tier": 3
+     },
+     {
+      "w": "SCOREBOARD",
+      "clue": "Big sign at a baseball game showing runs and outs",
+      "fact": "Some old ballparks still keep score by hanging number plates on the scoreboard by hand.",
+      "tier": 3
+     },
+     {
+      "w": "SCISSORS",
+      "clue": "Tool with two blades joined in the middle, for cutting paper",
+      "fact": "Scissors are two levers joined at a pivot.",
+      "tier": 3
+     },
+     {
+      "w": "WINDMILL",
+      "clue": "Tower with big blades that spin in the wind",
+      "fact": "Windmills were first used to grind grain into flour and to pump water.",
+      "tier": 3
+     },
+     {
+      "w": "HOURGLASS",
+      "clue": "Two glass bulbs that measure time with trickling sand",
+      "fact": "Sailors used hourglasses because pendulum clocks do not work on rocking ships.",
+      "tier": 3
+     },
+     {
+      "w": "PENDULUM",
+      "clue": "Weight swinging back and forth that keeps a clock steady",
+      "fact": "A pendulum's swing takes almost the same time whether it swings wide or small.",
+      "tier": 3
+     },
+     {
+      "w": "PERISCOPE",
+      "clue": "Mirrored tube a submarine crew uses to see above the waves",
+      "fact": "A periscope uses two mirrors to bend light around corners.",
+      "tier": 3
+     },
+     {
+      "w": "WHEELBARROW",
+      "clue": "One-wheeled cart with two handles for hauling dirt",
+      "fact": "Wheelbarrows were used in China about 2,000 years ago.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "CLAVO",
+      "clue": "Barrita de metal con punta que se golpea con un martillo",
+      "fact": "Antiguamente, los herreros hacían cada clavo a mano, uno por uno.",
+      "tier": 1
+     },
+     {
+      "w": "FRENO",
+      "clue": "Pieza que hace que un vehículo se detenga o vaya más lento",
+      "fact": "Muchos frenos de carro aprietan unas pastillas contra un disco que gira.",
+      "tier": 1
+     },
+     {
+      "w": "CABLE",
+      "clue": "Hilo grueso de metal cubierto de plástico que lleva electricidad",
+      "fact": "La mayoría de los cables eléctricos tienen cobre por dentro, que conduce muy bien la electricidad.",
+      "tier": 1
+     },
+     {
+      "w": "PÍXEL",
+      "clue": "Puntito de color; millones forman la imagen de una pantalla",
+      "fact": "La palabra píxel viene de las palabras inglesas para imagen y elemento.",
+      "tier": 1
+     },
+     {
+      "w": "SONDA",
+      "clue": "Nave robot sin personas que viaja a explorar planetas lejanos",
+      "fact": "Dos sondas lanzadas en 1977 ya salieron al espacio entre las estrellas.",
+      "tier": 1
+     },
+     {
+      "w": "SONAR",
+      "clue": "Aparato que usa ecos de sonido para encontrar cosas bajo el agua",
+      "fact": "Los murciélagos y los delfines encuentran cosas con ecos, igual que el sonar.",
+      "tier": 1
+     },
+     {
+      "w": "ANCLA",
+      "clue": "Gancho pesado que se lanza al mar para sujetar un barco",
+      "fact": "El ancla sujeta al barco clavándose en el fondo del mar.",
+      "tier": 1
+     },
+     {
+      "w": "TIMÓN",
+      "clue": "Rueda o palanca que sirve para dirigir un barco",
+      "fact": "En un barco, el timón mueve una pieza en el agua que cambia la dirección.",
+      "tier": 1
+     },
+     {
+      "w": "BARCO",
+      "clue": "Vehículo grande que flota y viaja por el mar",
+      "fact": "Uno de los barcos más antiguos que se conocen es una canoa hecha de un tronco hueco.",
+      "tier": 1
+     },
+     {
+      "w": "TREN",
+      "clue": "Fila de vagones conectados que rueda sobre rieles",
+      "fact": "Algunos de los primeros trenes eran jalados por caballos sobre rieles.",
+      "tier": 1
+     },
+     {
+      "w": "AVIÓN",
+      "clue": "Máquina con alas que lleva personas por el cielo",
+      "fact": "El primer vuelo en avión con motor, en 1903, duró solo doce segundos.",
+      "tier": 1
+     },
+     {
+      "w": "MOTO",
+      "clue": "Vehículo de dos ruedas, con manubrio, que ronca y corre mucho",
+      "fact": "La primera moto, de 1885, tenía el cuerpo de madera.",
+      "tier": 1
+     },
+     {
+      "w": "DRON",
+      "clue": "Aparato volador con hélices que no lleva piloto a bordo",
+      "fact": "Dron viene de una palabra inglesa que significa zángano, la abeja macho.",
+      "tier": 1
+     },
+     {
+      "w": "IMÁN",
+      "clue": "Objeto de metal que atrae el hierro",
+      "fact": "La Tierra entera funciona como un gigantesco imán.",
+      "tier": 1
+     },
+     {
+      "w": "LUPA",
+      "clue": "Lente de vidrio que hace ver más grandes las cosas pequeñas",
+      "fact": "Las lupas más antiguas que se conocen tienen casi tres mil años.",
+      "tier": 1
+     },
+     {
+      "w": "ÁBACO",
+      "clue": "Marco con bolitas que se deslizan para contar y sumar",
+      "fact": "Hace miles de años la gente ya hacía cuentas con ábacos.",
+      "tier": 1
+     },
+     {
+      "w": "PIANO",
+      "clue": "Instrumento grande con 88 teclas blancas y negras",
+      "fact": "Dentro de un piano, pequeños martillos golpean cuerdas cuando presionas una tecla.",
+      "tier": 1
+     },
+     {
+      "w": "ZÍPER",
+      "clue": "Cierre con dos filas de dientes que se juntan al deslizarlo",
+      "fact": "Al principio, el zíper se llamaba cierre sin ganchos.",
+      "tier": 1
+     },
+     {
+      "w": "CASCO",
+      "clue": "Protección dura para la cabeza que usan ciclistas y bateadores",
+      "fact": "Los cascos de bicicleta tienen una capa de espuma que se aplasta para amortiguar un golpe.",
+      "tier": 1
+     },
+     {
+      "w": "ARADO",
+      "clue": "Herramienta que abre surcos en la tierra para sembrar",
+      "fact": "Hace miles de años, los bueyes jalaban los primeros arados.",
+      "tier": 1
+     },
+     {
+      "w": "BALSA",
+      "clue": "Plataforma plana de troncos o tablas que flota en el agua",
+      "fact": "La madera de balsa es tan ligera que se usa para hacer aviones de juguete.",
+      "tier": 1
+     },
+     {
+      "w": "REMO",
+      "clue": "Pala larga que sirve para mover una lancha en el agua",
+      "fact": "Los remos son palancas: la lancha avanza cuando empujas el agua hacia atrás.",
+      "tier": 1
+     },
+     {
+      "w": "RADAR",
+      "clue": "Aparato que usa ondas de radio para encontrar aviones y tormentas",
+      "fact": "Radar se escribe igual al derecho y al revés.",
+      "tier": 1
+     },
+     {
+      "w": "TECLA",
+      "clue": "Pieza que presionas con el dedo para escribir una letra",
+      "fact": "Las teclas del piano y las de la computadora se llaman igual.",
+      "tier": 1
+     },
+     {
+      "w": "RATÓN",
+      "clue": "Dispositivo que deslizas sobre la mesa para mover el cursor",
+      "fact": "El primer ratón de computadora tenía una cajita de madera.",
+      "tier": 1
+     },
+     {
+      "w": "GLOBO",
+      "clue": "Bolsa enorme llena de aire caliente que lleva personas por el cielo",
+      "fact": "Los primeros pasajeros de un globo fueron una oveja, un pato y un gallo.",
+      "tier": 1
+     },
+     {
+      "w": "HORNO",
+      "clue": "Caja caliente donde se cocinan pan y pasteles",
+      "fact": "La gente usa hornos de piedra para hacer pan desde hace miles de años.",
+      "tier": 1
+     },
+     {
+      "w": "CARRO",
+      "clue": "Vehículo con motor y cuatro ruedas para ir por la calle",
+      "fact": "El primer carro con motor de gasolina, de 1886, tenía solo tres ruedas.",
+      "tier": 1
+     },
+     {
+      "w": "COHETE",
+      "clue": "Vehículo que sale disparado al espacio echando fuego hacia abajo",
+      "fact": "Los cohetes funcionan en el espacio vacío porque empujan contra los gases que lanzan.",
+      "tier": 2
+     },
+     {
+      "w": "CONSOLA",
+      "clue": "Caja que conectas a la tele para jugar videojuegos",
+      "fact": "Las primeras consolas de los años setenta solo mostraban rayas y cuadritos.",
+      "tier": 2
+     },
+     {
+      "w": "ARCADE",
+      "clue": "Salón lleno de máquinas de videojuegos que funcionan con monedas",
+      "fact": "Muchos juegos clásicos de arcade solo tenían una palanca y uno o dos botones.",
+      "tier": 2
+     },
+     {
+      "w": "YUNQUE",
+      "clue": "Bloque pesado de hierro donde el herrero martilla el metal caliente",
+      "fact": "En tu oído hay un huesito llamado yunque porque tiene esa forma.",
+      "tier": 2
+     },
+     {
+      "w": "TUERCA",
+      "clue": "Pieza de metal con hueco en espiral para enroscar un tornillo",
+      "fact": "Una tuerca y un tornillo trabajan juntos porque sus espirales encajan.",
+      "tier": 2
+     },
+     {
+      "w": "CADENA",
+      "clue": "Fila de aros de metal unidos, como la de una bici",
+      "fact": "La cadena de una bicicleta lleva la fuerza de los pedales a la rueda de atrás.",
+      "tier": 2
+     },
+     {
+      "w": "PISTÓN",
+      "clue": "Pieza que sube y baja dentro de un motor",
+      "fact": "En el motor de un carro, cada pistón sube y baja miles de veces por minuto.",
+      "tier": 2
+     },
+     {
+      "w": "ALAMBRE",
+      "clue": "Hilo delgado de metal que se puede doblar",
+      "fact": "El alambre se hace estirando metal hasta dejarlo muy delgado.",
+      "tier": 2
+     },
+     {
+      "w": "ENCHUFE",
+      "clue": "Pieza con dos clavijas que metes en la pared para tener electricidad",
+      "fact": "En distintos países los enchufes tienen formas diferentes.",
+      "tier": 2
+     },
+     {
+      "w": "SENSOR",
+      "clue": "Aparato que detecta cosas como luz, calor o movimiento",
+      "fact": "Las puertas automáticas usan sensores para notar cuando alguien se acerca.",
+      "tier": 2
+     },
+     {
+      "w": "ESCÁNER",
+      "clue": "Máquina que copia una página o una foto a la computadora",
+      "fact": "Los escáneres de las tiendas leen las rayas de un código de barras con un rayo láser.",
+      "tier": 2
+     },
+     {
+      "w": "TECLADO",
+      "clue": "Filas de botones con letras que presionas para escribir",
+      "fact": "La mayoría de los teclados tienen las letras en el orden QWERTY.",
+      "tier": 2
+     },
+     {
+      "w": "BOCINA",
+      "clue": "Aparato que convierte señales eléctricas en sonido",
+      "fact": "Una bocina hace sonar el aire moviendo un cono de papel o plástico muy rápido.",
+      "tier": 2
+     },
+     {
+      "w": "CÁPSULA",
+      "clue": "Nave pequeña que trae astronautas de vuelta a la Tierra con paracaídas",
+      "fact": "Muchas cápsulas espaciales caen al mar al terminar su viaje.",
+      "tier": 2
+     },
+     {
+      "w": "TIMBRE",
+      "clue": "Botón de la puerta que suena para avisar que llegaste",
+      "fact": "Los primeros timbres eléctricos se inventaron hace casi doscientos años.",
+      "tier": 2
+     },
+     {
+      "w": "LLANTA",
+      "clue": "Anillo de hule que cubre la rueda de un carro",
+      "fact": "Las llantas tienen surcos para que se agarren bien al camino.",
+      "tier": 2
+     },
+     {
+      "w": "VOLANTE",
+      "clue": "Rueda que giras para dirigir un carro",
+      "fact": "En un carro, el volante hace girar las ruedas de enfrente.",
+      "tier": 2
+     },
+     {
+      "w": "LANCHA",
+      "clue": "Barco pequeño y rápido con motor",
+      "fact": "Una lancha rápida se levanta sobre el agua cuando va a mucha velocidad.",
+      "tier": 2
+     },
+     {
+      "w": "TRINEO",
+      "clue": "Vehículo sin ruedas que se desliza sobre la nieve",
+      "fact": "Los perros han jalado trineos por el Ártico durante miles de años.",
+      "tier": 2
+     },
+     {
+      "w": "PATINES",
+      "clue": "Botas con ruedas o cuchillas para deslizarse",
+      "fact": "Los primeros patines de hielo se hicieron con huesos de animales.",
+      "tier": 2
+     },
+     {
+      "w": "DÍNAMO",
+      "clue": "Máquina que convierte el movimiento giratorio en electricidad",
+      "fact": "Algunas luces de bicicleta usan un pequeño dínamo que da energía mientras pedaleas.",
+      "tier": 2
+     },
+     {
+      "w": "LÁMPARA",
+      "clue": "Aparato que da luz en una habitación",
+      "fact": "Los antiguos romanos hacían lámparas que quemaban aceite de oliva.",
+      "tier": 2
+     },
+     {
+      "w": "PÉNDULO",
+      "clue": "Peso colgado que se balancea y marca el ritmo de un reloj",
+      "fact": "Un péndulo tarda casi lo mismo en cada vaivén, sea grande o pequeño.",
+      "tier": 2
+     },
+     {
+      "w": "BALANZA",
+      "clue": "Aparato con dos platillos para comparar el peso de las cosas",
+      "fact": "Las balanzas se usan desde hace miles de años para pesar cosas.",
+      "tier": 2
+     },
+     {
+      "w": "ESPEJO",
+      "clue": "Vidrio brillante donde ves tu reflejo",
+      "fact": "Los primeros espejos fueron piedras pulidas, como el vidrio volcánico llamado obsidiana.",
+      "tier": 2
+     },
+     {
+      "w": "ALETAS",
+      "clue": "Piezas de hule que te pones en los pies para nadar rápido",
+      "fact": "Los buzos usan aletas porque así sus patadas empujan mucha más agua.",
+      "tier": 2
+     },
+     {
+      "w": "TALADRO",
+      "clue": "Herramienta que gira una broca para hacer agujeros",
+      "fact": "Hace mucho tiempo la gente hacía agujeros girando un palo con un arco y una cuerda.",
+      "tier": 2
+     },
+     {
+      "w": "TOBOGÁN",
+      "clue": "Rampa lisa del parque por la que te deslizas",
+      "fact": "Un tobogán funciona gracias a la gravedad, que te jala hacia abajo.",
+      "tier": 2
+     },
+     {
+      "w": "AUTOBÚS",
+      "clue": "Vehículo largo y grande que lleva muchos pasajeros por la ciudad",
+      "fact": "Los primeros autobuses eran carretas grandes jaladas por caballos.",
+      "tier": 2
+     },
+     {
+      "w": "COMETA",
+      "clue": "Armazón de papel que el viento hace volar, atado a un hilo",
+      "fact": "Las cometas se inventaron en China hace más de dos mil años.",
+      "tier": 2
+     },
+     {
+      "w": "VÁLVULA",
+      "clue": "Pieza que abre y cierra para controlar el paso de líquidos",
+      "fact": "Tu corazón tiene válvulas que hacen que la sangre vaya en un solo sentido.",
+      "tier": 2
+     },
+     {
+      "w": "SIRENA",
+      "clue": "Aparato que suena fuerte para avisar de una emergencia",
+      "fact": "El sonido de la sirena de una ambulancia cambia de tono al pasar junto a ti.",
+      "tier": 2
+     },
+     {
+      "w": "SATÉLITE",
+      "clue": "Aparato que da vueltas alrededor de la Tierra en el espacio",
+      "fact": "Algunos satélites toman fotos del clima y otros ayudan a tu celular a ubicarse.",
+      "tier": 3
+     },
+     {
+      "w": "SUBMARINO",
+      "clue": "Barco que viaja bajo el agua",
+      "fact": "Un submarino se hunde llenando tanques de agua y sube sacándola con aire.",
+      "tier": 3
+     },
+     {
+      "w": "TELESCOPIO",
+      "clue": "Tubo con lentes para ver planetas y estrellas",
+      "fact": "Los telescopios miran al pasado, porque la luz de las estrellas lejanas tarda años en llegar.",
+      "tier": 3
+     },
+     {
+      "w": "LOCOMOTORA",
+      "clue": "Máquina potente que va al frente de un tren jalando vagones",
+      "fact": "Las primeras locomotoras quemaban carbón o leña para hervir agua y hacer vapor.",
+      "tier": 3
+     },
+     {
+      "w": "TELÉGRAFO",
+      "clue": "Aparato antiguo que mandaba mensajes con clics por un cable",
+      "fact": "Los telegrafistas mandaban palabras con el código Morse, hecho de señales cortas y largas.",
+      "tier": 3
+     },
+     {
+      "w": "DIRIGIBLE",
+      "clue": "Globo gigante alargado, lleno de gas, con motores y hélices",
+      "fact": "Los dirigibles flotaban porque estaban llenos de un gas más ligero que el aire.",
+      "tier": 3
+     },
+     {
+      "w": "SEMÁFORO",
+      "clue": "Poste con luces roja, amarilla y verde que ordena el tránsito",
+      "fact": "El primer semáforo se instaló en Londres en 1868 y funcionaba con gas.",
+      "tier": 3
+     },
+     {
+      "w": "LICUADORA",
+      "clue": "Aparato de cocina con aspas que mezcla frutas para hacer jugos",
+      "fact": "Las aspas de una licuadora pueden girar miles de veces por minuto.",
+      "tier": 3
+     },
+     {
+      "w": "ASPIRADORA",
+      "clue": "Máquina que limpia el piso chupando el polvo",
+      "fact": "Una aspiradora baja la presión del aire dentro, así que el aire de afuera entra con la basura.",
+      "tier": 3
+     },
+     {
+      "w": "MICROONDAS",
+      "clue": "Horno de cocina que calienta la comida con ondas invisibles",
+      "fact": "El microondas calienta la comida moviendo muy rápido el agua que tiene dentro.",
+      "tier": 3
+     },
+     {
+      "w": "MONTACARGAS",
+      "clue": "Camioncito con dos grandes dientes de metal para levantar cajas pesadas",
+      "fact": "Un montacargas tiene la parte de atrás muy pesada para equilibrar la carga, como un sube y baja.",
+      "tier": 3
+     },
+     {
+      "w": "COSECHADORA",
+      "clue": "Máquina enorme de campo que corta y separa los granos",
+      "fact": "Antes de las cosechadoras, muchas personas cortaban el trigo a mano.",
+      "tier": 3
+     },
+     {
+      "w": "MARTILLO",
+      "clue": "Herramienta con cabeza de metal para clavar y golpear",
+      "fact": "Los martillos más antiguos eran simples piedras atadas a un palo.",
+      "tier": 3
+     },
+     {
+      "w": "SERRUCHO",
+      "clue": "Herramienta con una hoja de dientes para cortar madera",
+      "fact": "Algunas sierras tienen diminutos pedacitos de diamante para poder cortar piedra.",
+      "tier": 3
+     },
+     {
+      "w": "PANTALLA",
+      "clue": "Superficie plana donde la tele o la computadora muestran imágenes",
+      "fact": "Las pantallas antiguas de tele eran cajas profundas porque usaban grandes tubos de vidrio.",
+      "tier": 3
+     },
+     {
+      "w": "IMPRESORA",
+      "clue": "Máquina que pasa a papel lo que ves en la computadora",
+      "fact": "Las impresoras de casa usan gotitas diminutas de tinta para formar letras e imágenes.",
+      "tier": 3
+     },
+     {
+      "w": "VIDEOJUEGO",
+      "clue": "Juego electrónico que se maneja con botones y se ve en pantalla",
+      "fact": "Algunos de los primeros videojuegos se hicieron para computadoras enormes que llenaban un cuarto.",
+      "tier": 3
+     },
+     {
+      "w": "MARCADOR",
+      "clue": "Tablero grande del estadio donde se ven las carreras del béisbol",
+      "fact": "En algunos estadios viejos todavía se cambian a mano los números del marcador.",
+      "tier": 3
+     },
+     {
+      "w": "CRONÓMETRO",
+      "clue": "Reloj que mide cuánto dura una carrera, hasta décimas de segundo",
+      "fact": "Hay cronómetros que miden el tiempo hasta en milésimas de segundo.",
+      "tier": 3
+     },
+     {
+      "w": "TELEFÉRICO",
+      "clue": "Cabina colgada de un cable que sube gente por una montaña",
+      "fact": "Algunas ciudades de los Andes usan teleféricos como transporte para subir sus laderas.",
+      "tier": 3
+     },
+     {
+      "w": "CARRETILLA",
+      "clue": "Carrito de una rueda y dos mangos para cargar tierra",
+      "fact": "En China se usaban carretillas hace unos dos mil años.",
+      "tier": 3
+     },
+     {
+      "w": "LINTERNA",
+      "clue": "Luz de mano que funciona con pilas y llevas en la oscuridad",
+      "fact": "Las primeras linternas llevaban pilas tan débiles que solo daban destellos cortos.",
+      "tier": 3
+     },
+     {
+      "w": "TRAMPOLÍN",
+      "clue": "Tela elástica sobre resortes en la que rebotas",
+      "fact": "Los astronautas han entrenado en trampolines para practicar giros y volteretas.",
+      "tier": 3
+     },
+     {
+      "w": "SALVAVIDAS",
+      "clue": "Aro o chaleco que te mantiene a flote en el agua",
+      "fact": "Un chaleco salvavidas flota porque su relleno es más ligero que el agua.",
+      "tier": 3
+     }
+    ]
+   }
+  }
+ ]
+}
