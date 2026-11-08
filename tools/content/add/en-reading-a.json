@@ -492,9 +492,9 @@
   "type": "choice",
   "q": "Seahorse dads carry the eggs in a pouch on their bellies. The babies pop out when they are ready. What is the main idea?",
   "opts": [
-   "Seahorses lay eggs on land",
-   "Baby seahorses eat seaweed",
-   "Seahorse dads carry the eggs"
+   "Seahorses lay eggs on dry land",
+   "Baby seahorses eat lots of seaweed",
+   "Seahorse dads carry eggs"
   ],
   "a": 2,
   "why": "Both sentences are about the dad carrying eggs. Land and seaweed are never mentioned.",
@@ -573,8 +573,8 @@
   "type": "choice",
   "q": "Which part of a book lists the chapters and their page numbers?",
   "opts": [
-   "The glossary",
-   "The cover",
+   "The glossary at the back",
+   "The cover and spine",
    "The table of contents"
   ],
   "a": 2,
@@ -615,7 +615,7 @@
    "In a swimming pool"
   ],
   "a": 1,
-  "why": "Floating objects mean almost no gravity pulling down, as inside a spacecraft in orbit.",
+  "why": "Objects float inside a spacecraft in orbit instead of falling as they would on Earth.",
   "hint": "On Earth, a pencil would fall.",
   "tags": [
    "space"
@@ -674,8 +674,8 @@
   "q": "A writer tells a funny story about a dog who wears sunglasses. Why did the writer most likely write it?",
   "opts": [
    "To make readers smile",
-   "To give directions",
-   "To list facts"
+   "To give directions to readers",
+   "To list facts about dogs"
   ],
   "a": 0,
   "why": "Funny stories are written to entertain. Directions and facts are not the goal here.",
@@ -694,9 +694,9 @@
   "type": "choice",
   "q": "Whale sharks are huge, but they eat tiny plankton. They swim with their mouths open and filter food from the water. What do whale sharks eat?",
   "opts": [
-   "Large seals",
+   "Large seals and fish",
    "Tiny plankton",
-   "Big squid"
+   "Big squid and octopus"
   ],
   "a": 1,
   "why": "Size can fool you. The text says this huge shark eats tiny plankton.",
@@ -834,10 +834,10 @@
   "type": "choice",
   "q": "The coach looked at the dark clouds, then at the scoreboard. 'Let's finish quickly before the rain,' she said. What is she worried about?",
   "opts": [
-   "The game being rained out",
-   "Losing a bat",
-   "A late bus",
-   "A broken glove"
+   "Rain stopping the game",
+   "Losing a bat before the game",
+   "A school bus running late",
+   "A broken strap on a glove"
   ],
   "a": 0,
   "why": "The dark clouds and the word rain show she fears the weather will stop the game.",
@@ -898,13 +898,13 @@
   "type": "choice",
   "q": "A comet is a ball of ice and dust. Near the Sun it heats up and grows a glowing tail. Which sentence tells the main idea?",
   "opts": [
-   "Comets are made of rock",
+   "Comets are made of nothing but rock",
    "Comets grow tails near the Sun",
-   "Comets stay far from the Sun",
+   "Comets stay far away from the Sun",
    "Comets circle the Moon"
   ],
   "a": 1,
-  "why": "Both sentences explain how comets change near the Sun by growing a tail. The first is wrong: they have ice.",
+  "why": "Both sentences tell how a comet grows a tail near the Sun. Comets hold ice and dust, not just rock.",
   "hint": "Which choice covers both sentences?",
   "tags": [
    "space"
@@ -962,7 +962,7 @@
    "The pitcher, using I",
    "The cheering crowd",
    "The umpire",
-   "A reporter far away"
+   "A reporter watching from far away"
   ],
   "a": 0,
   "why": "The word I shows the storyteller is the person in the story, the pitcher.",
@@ -1025,8 +1025,8 @@
   "opts": [
    "Flat bodies",
    "Thick bones",
-   "Lungs for breathing",
-   "Skeletons of cartilage"
+   "Lungs for breathing air",
+   "Cartilage skeletons"
   ],
   "a": 3,
   "why": "The passage says both have cartilage skeletons. Only rays have flat bodies.",
@@ -1066,10 +1066,10 @@
   "type": "choice",
   "q": "Which sentence would an author write to persuade you?",
   "opts": [
-   "Everyone should visit an aquarium.",
-   "An aquarium has many tanks.",
-   "Sea water is salty.",
-   "Many fish live in tanks."
+   "You should visit an aquarium.",
+   "An aquarium has many large tanks.",
+   "Sea water is very salty.",
+   "Many fish live in the tanks."
   ],
   "a": 0,
   "why": "Should tells you what to do. The other sentences only give facts.",
@@ -1213,10 +1213,10 @@
   "type": "choice",
   "q": "Penguins huddle close together in cold winds. They take turns standing on the outside. That way no penguin stays in the coldest spot for long. What is the main idea?",
   "opts": [
-   "Penguins build ice homes",
-   "Penguins swim in groups",
-   "Penguins share the cold spots",
-   "Penguins hide in caves"
+   "Penguins build homes of ice",
+   "Penguins swim in big groups",
+   "Penguins take turns",
+   "Penguins hide in deep caves"
   ],
   "a": 2,
   "why": "All the sentences describe penguins taking turns in the cold. Nothing mentions homes or caves.",
@@ -1236,7 +1236,7 @@
   "q": "Which sentence contains a simile?",
   "opts": [
    "His fastball moved like lightning.",
-   "The pitcher threw very hard.",
+   "The pitcher threw the ball very hard.",
    "The crowd roared loudly.",
    "The ball sailed over the fence."
   ],
@@ -1257,10 +1257,10 @@
   "type": "choice",
   "q": "The ocean waves whispered secrets to the sleepy shore. What is the author doing?",
   "opts": [
-   "Using the word like",
+   "Using the word like or as",
    "Giving waves human actions",
-   "Telling a plain fact",
-   "Giving an order"
+   "Telling a plain fact about water",
+   "Giving an order to the reader"
   ],
   "a": 1,
   "why": "Waves cannot whisper or tell secrets. Giving human actions to nature is personification.",
@@ -1357,7 +1357,7 @@
   "type": "choice",
   "q": "Lila read about space for hours. Every night she watched the stars and drew maps of the planets. Which sentence is best supported by these clues?",
   "opts": [
-   "Lila loves learning about space.",
+   "Lila loves space.",
    "Lila is afraid of the dark.",
    "Lila wants to be a baker.",
    "Lila dislikes science."
@@ -1428,7 +1428,7 @@
    "A list"
   ],
   "a": 2,
-  "why": "However shows a difference: most sharks hunt fish, but whale sharks eat plankton.",
+  "why": "However shows a difference: many sharks hunt fish, but whale sharks eat plankton.",
   "hint": "Does the second part match or differ from the first?",
   "tags": [
    "sharks"
@@ -1523,7 +1523,7 @@
   "q": "After striking out, Kai slammed down his glove and stomped to the dugout. A minute later he picked it up and cheered for the next batter. What does this show about Kai?",
   "opts": [
    "He wants to quit baseball",
-   "He recovers and supports others",
+   "He bounces back quickly",
    "He never cared about winning",
    "He blames the umpire"
   ],
@@ -1609,10 +1609,10 @@
   "type": "choice",
   "q": "Herbivores eat plants and carnivores eat meat. The prefix omni- means 'all.' What do omnivores eat?",
   "opts": [
-   "Both plants and meat",
-   "Only seeds",
-   "Only fish",
-   "Only bugs"
+   "Plants and meat",
+   "Only seeds and nuts",
+   "Only fish and krill",
+   "Only bugs and worms"
   ],
   "a": 0,
   "why": "Omni- means all, so omnivores eat all kinds of food, both plants and meat.",
@@ -1671,7 +1671,7 @@
   "opts": [
    "Fences keep games safe",
    "Big kids always win",
-   "Everyone has something to offer",
+   "Everyone can help",
    "Games should be short"
   ],
   "a": 2,
@@ -1707,10 +1707,10 @@
   "type": "choice",
   "q": "A scientist left a cup of sea water in the sun for three days. The cup was almost empty, with white crystals on the bottom. What happened?",
   "opts": [
-   "The water evaporated, leaving salt",
-   "The water froze solid",
-   "The water turned into salt",
-   "The water sank into the table"
+   "It evaporated and left salt behind",
+   "It froze solid and cracked the cup",
+   "It turned into salt crystals",
+   "It soaked through the table slowly"
   ],
   "a": 0,
   "why": "Water evaporates into the air, but salt does not. It is left behind as crystals.",
@@ -1772,7 +1772,7 @@
   "type": "choice",
   "q": "Writer A says the new ballpark has narrow seats and long lines. Writer B says the seats are close to the action and the snacks arrive fast. What is the best conclusion?",
   "opts": [
-   "The writers disagree about it",
+   "They disagree about it",
    "Both writers dislike it",
    "Both writers love it",
    "Only one saw the game"
@@ -1796,7 +1796,7 @@
   "opts": [
    "Bats send out high squeaks.",
    "Echoes tell bats where insects are.",
-   "Some bats sleep upside down in caves.",
+   "Some bats sleep in caves.",
    "Bats listen for the returning sound."
   ],
   "a": 2,
@@ -1836,7 +1836,7 @@
   "q": "Dani told her team she was not nervous. But her foot tapped, she checked her watch every minute and she kept retying her cleats. What can the reader infer?",
   "opts": [
    "She is bored and sleepy",
-   "She is hiding her nervousness",
+   "She is hiding her nerves",
    "She is angry at her cleats",
    "She is early for practice"
   ],
@@ -1899,7 +1899,7 @@
   "type": "choice",
   "q": "The paleontologist was meticulous. She brushed each tiny grain of dust off the bone, one grain at a time. What does meticulous mean?",
   "opts": [
-   "Quick and rough",
+   "Quick and a bit rough",
    "Forgetful",
    "Extremely careful",
    "Easily bored"
@@ -1957,7 +1957,7 @@
   "type": "choice",
   "q": "The coach called the runner's plan 'bold.' The umpire called the same plan 'reckless.' How do the two words differ?",
   "opts": [
-   "They mean exactly the same",
+   "They mean exactly the same thing",
    "Bold means very slow",
    "Reckless means very safe",
    "Bold admires; reckless warns"
@@ -2000,7 +2000,7 @@
   "q": "Text A: The Sun gives Earth light and heat. Text B: Without the Sun's heat, Earth's oceans would freeze. What idea do both texts share?",
   "opts": [
    "The Sun is very small",
-   "Earth depends on the Sun",
+   "Earth needs the Sun",
    "Oceans give off light",
    "Stars are cold"
   ],
@@ -2084,7 +2084,7 @@
   "type": "choice",
   "q": "Claim: sharks help keep the ocean healthy. Which fact best supports this claim?",
   "opts": [
-   "They eat weak fish, so others stay healthy",
+   "They eat weak fish, so others thrive",
    "Their teeth grow back in many rows",
    "Some sharks are gray and some are blue",
    "Many sharks can swim at high speed"
@@ -2123,10 +2123,10 @@
   "type": "choice",
   "q": "Had the tide not turned, the stranded whale calf would have stayed trapped on the sand. What happened?",
   "opts": [
-   "It stayed trapped",
-   "The tide never turned",
-   "It was never stranded",
-   "The tide turned, freeing it"
+   "The tide never came back in",
+   "It was never stranded at all",
+   "It stayed trapped on the sand",
+   "It was freed by the tide"
   ],
   "a": 3,
   "why": "Had the tide not turned means it did turn. So the calf did not stay trapped.",
@@ -2165,13 +2165,13 @@
   "topic": "reading",
   "level": 6,
   "type": "choice",
-  "q": "Scientists say sharks were swimming in the oceans over 400 million years ago, long before the first forests grew on land. True or false: sharks were around before the first forests.",
+  "q": "Scientists say sharks were swimming in the oceans over 400 million years ago, before the first forests grew on land. True or false: sharks were around before the first forests.",
   "opts": [
    "True",
    "False"
   ],
   "a": 0,
-  "why": "The passage says sharks swam long before forests grew. Sharks are very ancient animals.",
+  "why": "The passage says sharks swam before forests grew. Sharks are very ancient animals.",
   "hint": "Compare the two time clues in the sentence.",
   "tags": [
    "sharks",
@@ -2208,10 +2208,10 @@
   "topic": "reading",
   "level": 6,
   "type": "choice",
-  "q": "One report says the home team 'squeaked past' its rival. Another says it 'crushed' its rival. Which report suggests a close game?",
+  "q": "Report A says the home team 'squeaked past' its rival. Report B says it 'crushed' its rival. Which report suggests a close game?",
   "opts": [
-   "The 'squeaked past' report",
-   "The 'crushed' report",
+   "Report A",
+   "Report B",
    "Both reports",
    "Neither report"
   ],
@@ -2257,7 +2257,7 @@
    "Its head controls everything",
    "It has eight equal brains",
    "Its arms feel nothing",
-   "Its arms can work partly alone"
+   "Its arms work partly alone"
   ],
   "a": 3,
   "why": "With most nerve cells in the arms, each arm can handle some tasks itself. But the head still has a brain.",

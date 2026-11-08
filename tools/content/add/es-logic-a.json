@@ -1,0 +1,2306 @@
+[
+ {
+  "id": "logB-1-001",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué sigue? 🐢 🐙 🦀 🐢 🐙 🦀 🐢 ❓",
+  "opts": [
+   "🐙",
+   "🦀",
+   "🐢"
+  ],
+  "a": 0,
+  "why": "El patrón se repite en grupos de tres: 🐢 🐙 🦀. Después de 🐢 siempre viene 🐙.",
+  "hint": "Busca el grupito que se repite.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-002",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "Cada cangrejo tiene 2 pinzas. ¿Cuántas pinzas tienen 3 cangrejos?",
+  "a": 6,
+  "why": "Suma las pinzas cangrejo por cangrejo: 2 + 2 + 2 = 6.",
+  "hint": "Suma las pinzas de un cangrejo a la vez.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-003",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "La Tierra, Marte y la Luna: ¿cuál NO es un planeta?",
+  "opts": [
+   "La Luna",
+   "Marte",
+   "La Tierra"
+  ],
+  "a": 0,
+  "why": "La Luna da vueltas alrededor de la Tierra. Los planetas dan vueltas alrededor del Sol.",
+  "hint": "¿Cuál da vueltas alrededor de otro mundo?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-004",
+  "topic": "logic",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena los números de los cohetes del menor al mayor.",
+  "opts": [
+   "2",
+   "5",
+   "7",
+   "9"
+  ],
+  "why": "Al contar hacia arriba, el 2 va antes que el 5, luego el 7 y al final el 9.",
+  "hint": "Busca primero el número más pequeño.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-005",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Verdadero o falso: en la cuenta regresiva 10, 9, 8, 7, el número que sigue es el 6.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Contar hacia atrás es quitar uno cada vez, así que después del 7 viene el 6.",
+  "hint": "Quita uno cada vez.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-006",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "En la fila para entrar al submarino, Rosa va primera, Hugo segundo, Inés tercera y Dani cuarto. ¿Quién va justo detrás de Hugo?",
+  "opts": [
+   "Rosa",
+   "Dani",
+   "Inés"
+  ],
+  "a": 2,
+  "why": "Justo detrás es el lugar que sigue. Después del segundo lugar viene el tercero, y ahí está Inés.",
+  "hint": "Busca a Hugo y mira un lugar más atrás.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-007",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Vivo en el mar. Tengo branquias, aletas y dientes afilados. ¿Qué soy?",
+  "opts": [
+   "Una ballena",
+   "Un tiburón",
+   "Una gaviota"
+  ],
+  "a": 1,
+  "why": "Las ballenas respiran aire y las gaviotas vuelan. Las branquias y las aletas son pistas de un pez como el tiburón.",
+  "hint": "¿Qué animal respira con branquias?",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-008",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "Cuenta de 3 en 3: 3, 6, 9, ❓. ¿Qué número sigue?",
+  "a": 12,
+  "why": "Cada número es 3 más que el anterior. 9 + 3 = 12.",
+  "hint": "Suma 3 cada vez.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-009",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál es el número más grande: 27, 72 o 17?",
+  "opts": [
+   "17",
+   "27",
+   "72"
+  ],
+  "a": 2,
+  "why": "Mira primero las decenas. 7 decenas es más que 2 decenas o 1 decena.",
+  "hint": "Compara primero el dígito de las decenas.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-010",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Verdadero o falso: 5 + 2 da el mismo resultado que 2 + 5.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Puedes sumar en cualquier orden. De las dos maneras sale 7.",
+  "hint": "Prueba sumar de las dos formas.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-011",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué sigue? 🧤 ⚾ 🧤 ⚾ 🧤 ❓",
+  "opts": [
+   "🧢",
+   "⚾",
+   "🧤"
+  ],
+  "a": 1,
+  "why": "El patrón es guante, pelota, guante, pelota. Después de un guante viene una pelota.",
+  "hint": "Di el patrón en voz alta.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-012",
+  "topic": "logic",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena las bases en el orden en que las toca un corredor, de la primera a la última.",
+  "opts": [
+   "Primera base",
+   "Segunda base",
+   "Tercera base",
+   "Home"
+  ],
+  "why": "El corredor da la vuelta al diamante: primera, segunda, tercera y al final home.",
+  "hint": "Piensa por dónde sale y dónde termina un corredor.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-013",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "Un tiburón ve 9 peces. 4 se van nadando. ¿Cuántos peces quedan?",
+  "a": 5,
+  "why": "Quita 4 de 9. 9 − 4 = 5.",
+  "hint": "Cuenta hacia atrás 4 desde el 9.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-014",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Estegosaurio, T. rex y ballena: ¿cuál NO es un dinosaurio?",
+  "opts": [
+   "El estegosaurio",
+   "El T. rex",
+   "La ballena"
+  ],
+  "a": 2,
+  "why": "La ballena es un animal enorme del mar, pero es un mamífero, no un dinosaurio.",
+  "hint": "Piensa en cuál nunca caminó por la tierra con los dinosaurios.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-015",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Si llueve, llevas paraguas. Está lloviendo. ¿Qué llevas?",
+  "opts": [
+   "Lentes de sol",
+   "Sandalias",
+   "Un paraguas"
+  ],
+  "a": 2,
+  "why": "La regla dice que la lluvia significa paraguas, y como llueve, llevas el paraguas.",
+  "hint": "Usa la regla en el día de lluvia.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-016",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Verdadero o falso: después del martes viene el jueves.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "En medio va el miércoles: martes, miércoles, jueves.",
+  "hint": "Di los días de la semana en orden.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-017",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué fila sigue el MISMO patrón que 🔴 🔵 🔴 🔵?",
+  "opts": [
+   "🟢 🟡 🟢 🟡",
+   "🟢 🟡 🟡 🟢",
+   "🟢 🟢 🟡 🟡"
+  ],
+  "a": 0,
+  "why": "El patrón es A B A B. Solo la fila verde, amarillo, verde, amarillo lo cumple.",
+  "hint": "Compara cada dibujo con su lugar.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-018",
+  "topic": "logic",
+  "level": 1,
+  "type": "number",
+  "q": "Un cohete tiene 10 asientos. Se sientan 6 astronautas. ¿Cuántos asientos quedan vacíos?",
+  "a": 4,
+  "why": "10 − 6 = 4 asientos vacíos.",
+  "hint": "Cuenta desde el 6 hasta el 10.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-019",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Bate, guante y tenedor: ¿cuál NO tiene que ver con el béisbol?",
+  "opts": [
+   "El bate",
+   "El tenedor",
+   "El guante"
+  ],
+  "a": 1,
+  "why": "El bate y el guante se usan para jugar béisbol. El tenedor es para comer.",
+  "hint": "Piensa en lo que ves en un juego de pelota.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-1-020",
+  "topic": "logic",
+  "level": 1,
+  "type": "choice",
+  "q": "Tengo cara y dos manos, pero no puedo saludar. ¿Qué soy?",
+  "opts": [
+   "Un lápiz",
+   "Un reloj",
+   "Una almohada"
+  ],
+  "a": 1,
+  "why": "Un reloj tiene cara y dos manecillas que señalan la hora, pero nunca saludan.",
+  "hint": "Piensa en cómo sabes la hora.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-001",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Un cohete suelta una pieza cada 4 minutos: 4, 8, 12, 16, ❓. ¿Qué número sigue?",
+  "opts": [
+   "24",
+   "18",
+   "20"
+  ],
+  "a": 2,
+  "why": "Cada número es 4 más que el anterior. 16 + 4 = 20.",
+  "hint": "Mira cuánto crece cada vez.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-002",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Un nido de dinosaurio tiene 5 huevos. ¿Cuántos huevos hay en 3 nidos?",
+  "a": 15,
+  "why": "Suma los nidos: 5 + 5 + 5 = 15 huevos.",
+  "hint": "Suma 5 tres veces.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-003",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Piensa en el contorno de una pelota de béisbol. ¿Qué figura NO tiene esquinas?",
+  "opts": [
+   "El círculo",
+   "El triángulo",
+   "El cuadrado"
+  ],
+  "a": 0,
+  "why": "El círculo es redondo y no tiene esquinas. El cuadrado y el triángulo sí tienen.",
+  "hint": "Pasa el dedo alrededor de cada figura.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-004",
+  "topic": "logic",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena estos momentos de un día, empezando por la mañana.",
+  "opts": [
+   "Amanecer",
+   "Mediodía",
+   "Atardecer",
+   "Medianoche"
+  ],
+  "why": "El Sol sale al amanecer, está alto al mediodía, se oculta al atardecer y el día termina a medianoche.",
+  "hint": "Sigue al Sol por el cielo.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-005",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Verdadero o falso: 7 + 7 es mayor que 6 + 9.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "7 + 7 = 14, pero 6 + 9 = 15, así que 15 es mayor.",
+  "hint": "Calcula primero las dos sumas.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-006",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Beto, Pía y Tina tienen cada uno una mascota distinta: un pez, un perro o un loro. La mascota de Beto tiene aletas. La de Pía tiene plumas. ¿Qué mascota tiene Tina?",
+  "opts": [
+   "Un pez",
+   "Un perro",
+   "Un loro"
+  ],
+  "a": 1,
+  "why": "Las aletas son del pez de Beto. Las plumas son del loro de Pía. Solo queda el perro para Tina.",
+  "hint": "Asigna cada mascota a su dueño, una por una.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-007",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Cuanto más sacas de mí, más grande me hago. ¿Qué soy?",
+  "opts": [
+   "Una pila de arena",
+   "Un hoyo en la arena",
+   "Un castillo de arena"
+  ],
+  "a": 1,
+  "why": "Cada palada de arena que sacas hace el hoyo más grande. La pila y el castillo se hacen más pequeños.",
+  "hint": "Imagina que cavas en la playa.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-008",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Soy 10 menos que 52. ¿Qué número soy?",
+  "a": 42,
+  "why": "Restar 10 solo cambia las decenas: 52 se convierte en 42.",
+  "hint": "¿Qué dígito cambia al restar 10?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-009",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Lanzador, receptor y arquero: ¿cuál NO es un puesto de un equipo de béisbol?",
+  "opts": [
+   "Receptor",
+   "Arquero",
+   "Lanzador"
+  ],
+  "a": 1,
+  "why": "El lanzador y el receptor trabajan juntos en el béisbol. Los arqueros cuidan la portería en otros deportes.",
+  "hint": "¿Quién cuida una portería?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-010",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Verdadero o falso: todos los dinosaurios del parque comen plantas. Zeta es un dinosaurio del parque. Entonces Zeta come plantas.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Si todos los dinosaurios del parque comen plantas, Zeta también tiene que comerlas.",
+  "hint": "Si es verdad para todos, es verdad para Zeta.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-011",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Un juego de béisbol empieza a las 2:00 y dura 3 horas. ¿A qué hora termina?",
+  "opts": [
+   "6:00",
+   "4:00",
+   "5:00"
+  ],
+  "a": 2,
+  "why": "Cuenta 3 horas desde las 2:00: las 3:00, las 4:00 y las 5:00.",
+  "hint": "Cuenta las horas una por una.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-012",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Un buzo ve 5 tiburones, 4 rayas y 3 tortugas. ¿Cuántos animales ve en total?",
+  "a": 12,
+  "why": "5 + 4 = 9, y 9 + 3 = 12.",
+  "hint": "Suma dos números y luego suma el tercero.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-013",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Si el lanzador tira 3 strikes, el bateador queda ponchado. Tito quedó ponchado. ¿Qué lanzó el lanzador?",
+  "opts": [
+   "Tres strikes",
+   "Tres bolas",
+   "Tres jonrones"
+  ],
+  "a": 0,
+  "why": "Tres strikes son un ponche. Con tres bolas el bateador seguiría jugando.",
+  "hint": "Usa la regla al revés.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-014",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Un tiburón nada arriba de una tortuga. La tortuga nada arriba de un cangrejo. El cangrejo está arriba de una estrella de mar. ¿Qué animal está más abajo?",
+  "opts": [
+   "La estrella de mar",
+   "La tortuga",
+   "El cangrejo"
+  ],
+  "a": 0,
+  "why": "De arriba hacia abajo van el tiburón, la tortuga, el cangrejo y la estrella de mar.",
+  "hint": "Ponlos en una columna, de arriba hacia abajo.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-015",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Verdadero o falso: el patrón 1, 2, 4, 8 suma siempre el mismo número.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Suma 1, luego 2, luego 4. Los números se duplican, no crecen siempre lo mismo.",
+  "hint": "Mira cuánto crece cada paso.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-016",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "El patrón ⚾ 🧤 🧤 se repite sin parar. ¿Qué dibujo es el 7.º?",
+  "opts": [
+   "🧤",
+   "⚾",
+   "🧢"
+  ],
+  "a": 1,
+  "why": "La pelota ⚾ cae en los lugares 1, 4, 7 y así sigue. El lugar 7 es una ⚾.",
+  "hint": "Escribe el patrón hasta llegar al 7.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-017",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Un helado cuesta 3 dólares. Pía compra 2 helados y paga con un billete de 10 dólares. ¿Cuántos dólares le devuelven?",
+  "a": 4,
+  "why": "2 helados cuestan 6 dólares. 10 − 6 = 4 dólares de vuelto.",
+  "hint": "Primero calcula cuánto cuesta todo.",
+  "tags": [
+   "money",
+   "food"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-018",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué pesa más: un kilo de piedras o un kilo de plumas?",
+  "opts": [
+   "Las piedras",
+   "Las plumas",
+   "Pesan lo mismo"
+  ],
+  "a": 2,
+  "why": "¡Un kilo es un kilo! Las plumas solo ocupan mucho más espacio.",
+  "hint": "Lee cuánto hay de cada cosa.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-019",
+  "topic": "logic",
+  "level": 2,
+  "type": "choice",
+  "q": "Tomás, Ula y Vera usan gorras de béisbol de colores distintos: roja, azul o verde. Tomás usa la roja. Ula no usa la azul. ¿De qué color es la gorra de Vera?",
+  "opts": [
+   "Roja",
+   "Verde",
+   "Azul"
+  ],
+  "a": 2,
+  "why": "Tomás tiene la roja. Ula no puede tener la azul, así que tiene la verde. A Vera le queda la azul.",
+  "hint": "Empieza por el color que Ula no puede usar.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-2-020",
+  "topic": "logic",
+  "level": 2,
+  "type": "number",
+  "q": "Hoy es lunes. El robot lunar aterriza el viernes. ¿Cuántos días faltan desde hoy?",
+  "a": 4,
+  "why": "Cuenta hacia adelante: martes 1, miércoles 2, jueves 3, viernes 4.",
+  "hint": "Cuenta los días uno por uno.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-001",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Una cuenta regresiva baja de 3 en 3: 30, 27, 24, 21, ❓. ¿Qué número sigue?",
+  "opts": [
+   "18",
+   "17",
+   "15",
+   "19"
+  ],
+  "a": 0,
+  "why": "Cada paso quita 3. 21 − 3 = 18.",
+  "hint": "Resta lo mismo en cada paso.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-002",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "Un acuario tiene 3 filas de peceras con 6 peces en cada fila. ¿Cuántos peces hay en total?",
+  "a": 18,
+  "why": "Tres filas de 6 son 6 + 6 + 6 = 18.",
+  "hint": "Suma las filas, o cuenta de 6 en 6.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-003",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Verdadero o falso: al sumar un número par y un número impar, el resultado siempre es impar.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Prueba con 2 + 3 = 5 y 4 + 7 = 11. El par se junta en parejas y el impar deja uno suelto.",
+  "hint": "Prueba con varios ejemplos.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-004",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Ela, Fito y Gael quedaron primero, segundo y tercero en un concurso de dinosaurios. Ela le ganó a Fito. Gael le ganó a Ela. ¿Quién quedó en segundo lugar?",
+  "opts": [
+   "Fito",
+   "Gael",
+   "Ela",
+   "No se puede saber"
+  ],
+  "a": 2,
+  "why": "Gael le ganó a Ela, y Ela le ganó a Fito. El orden es Gael, Ela, Fito.",
+  "hint": "Pon las pistas en una línea, del mejor al peor.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-005",
+  "topic": "logic",
+  "level": 3,
+  "type": "order",
+  "q": "Cuatro tiburones bebé salen de una cueva. Ema sale antes que Fer. Gil sale después de Fer. Hugo sale antes que Ema. Ordénalos del primero al último.",
+  "opts": [
+   "Hugo",
+   "Ema",
+   "Fer",
+   "Gil"
+  ],
+  "why": "Hugo va antes que Ema, Ema antes que Fer y Fer antes que Gil.",
+  "hint": "Encuentra a quien sale antes que todos.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-006",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Contamos de 7 en 7: 7, 14, 21, 28, 35. ¿Cuál de estos números NO se dice al contar de 7 en 7?",
+  "opts": [
+   "14",
+   "45",
+   "28",
+   "35"
+  ],
+  "a": 1,
+  "why": "Después del 35 se dice 42 y luego 49. El 45 se salta.",
+  "hint": "Sigue contando de 7 en 7 hasta pasar cada número.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-007",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "Un lanzador tira 14 lanzamientos en la primera entrada y 11 en la segunda. Puede tirar 40 en total. ¿Cuántos lanzamientos más puede tirar?",
+  "a": 15,
+  "why": "14 + 11 = 25 lanzamientos hasta ahora. 40 − 25 = 15.",
+  "hint": "Suma lo que lanzó y réstalo de 40.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-008",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Una tira de papel se dobla por la mitad tres veces seguidas. Al abrirla, ¿cuántas partes iguales ves?",
+  "opts": [
+   "4",
+   "6",
+   "3",
+   "8"
+  ],
+  "a": 3,
+  "why": "Cada doblez duplica las partes: 2, luego 4, luego 8.",
+  "hint": "Cada doblez parte cada trozo en dos.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-009",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Si un astronauta termina su trabajo, sube a la nave. Si sube a la nave, se abrocha el cinturón. Zoe terminó su trabajo. ¿Qué hace?",
+  "opts": [
+   "Se queda fuera de la nave",
+   "Apaga las luces del cohete",
+   "Se abrocha el cinturón",
+   "Empieza el trabajo otra vez"
+  ],
+  "a": 2,
+  "why": "Terminar lleva a subir a la nave, y subir lleva a abrocharse el cinturón. Sigue la cadena paso a paso.",
+  "hint": "Sigue la cadena de «si» uno por uno.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-010",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Verdadero o falso: todos los rectángulos son cuadrados.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Un rectángulo puede tener lados largos y cortos. Solo el rectángulo con los 4 lados iguales es un cuadrado.",
+  "hint": "Dibuja un rectángulo largo y angosto.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-011",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "Piensa un número, súmale 3 y luego duplica el resultado. Obtienes 18. ¿Qué número pensaste?",
+  "a": 6,
+  "why": "Ve hacia atrás: la mitad de 18 es 9, y 9 − 3 = 6.",
+  "hint": "Deshaz los pasos en orden inverso.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-012",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "En una caja hay 4 pelotas de béisbol, 1 de tenis y 2 de golf. Sacas una sin mirar. ¿Cuál es más probable que saques?",
+  "opts": [
+   "Todas son igual de probables",
+   "Una de tenis",
+   "Una de golf",
+   "Una de béisbol"
+  ],
+  "a": 3,
+  "why": "Hay más pelotas de béisbol que de cualquier otro tipo, así que es la más probable.",
+  "hint": "¿Cuál grupo tiene más pelotas?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-013",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Hoy es sábado. Un cometa se verá muy bien dentro de 10 días. ¿Qué día de la semana será?",
+  "opts": [
+   "Domingo",
+   "Martes",
+   "Miércoles",
+   "Lunes"
+  ],
+  "a": 1,
+  "why": "7 días después del sábado es otro sábado. Faltan 3 días más: domingo, lunes y martes.",
+  "hint": "Quita primero una semana completa.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-014",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "Un cangrejo da 2 pasos hacia adelante y 1 paso hacia atrás, y repite esto 3 veces. ¿A cuántos pasos de donde empezó queda?",
+  "a": 3,
+  "why": "Cada repetición lo deja 1 paso más adelante. Después de 3 repeticiones está a 3 pasos.",
+  "hint": "¿Cuánto avanza en cada repetición?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-015",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Verdadero o falso: todos los T. rex tenían dientes afilados. Este animal tiene dientes afilados. Entonces es un T. rex.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Muchos animales tienen dientes afilados, como los tiburones y los leones. Eso no basta para ser un T. rex.",
+  "hint": "¿Otro animal podría tener dientes afilados?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-016",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "En una clave secreta, A = 1, B = 2, C = 3 y D = 4. Suma las letras de la palabra DADA. ¿Cuánto da?",
+  "opts": [
+   "11",
+   "9",
+   "8",
+   "10"
+  ],
+  "a": 3,
+  "why": "D vale 4 y A vale 1: 4 + 1 + 4 + 1 = 10.",
+  "hint": "Cambia cada letra por su número.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-017",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "Zoe tiene 3 monedas de 25 centavos y 2 monedas de 10 centavos. ¿Cuántos centavos tiene en total?",
+  "a": 95,
+  "why": "3 monedas de 25 son 75 centavos y 2 de 10 son 20. 75 + 20 = 95.",
+  "hint": "Suma primero las de 25 y luego las de 10.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-018",
+  "topic": "logic",
+  "level": 3,
+  "type": "choice",
+  "q": "Saltando una letra cada vez: B, D, F, H, ❓. ¿Qué letra sigue?",
+  "opts": [
+   "J",
+   "I",
+   "L",
+   "K"
+  ],
+  "a": 0,
+  "why": "El patrón salta una letra: B (C), D (E), F (G), H (I) y llega a J.",
+  "hint": "Di el abecedario y salta una letra.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-019",
+  "topic": "logic",
+  "level": 3,
+  "type": "order",
+  "q": "Cuatro naves despegan a las 8:15, 7:50, 8:05 y 7:35. Ordena las horas de la más temprana a la más tarde.",
+  "opts": [
+   "7:35",
+   "7:50",
+   "8:05",
+   "8:15"
+  ],
+  "why": "Primero van las 7:35 y las 7:50, y después las 8:05 y las 8:15.",
+  "hint": "Compara primero la hora y luego los minutos.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-3-020",
+  "topic": "logic",
+  "level": 3,
+  "type": "number",
+  "q": "Un acuario tiene 16 peces. La mitad son naranjas. De los naranjas, la mitad tiene manchas. ¿Cuántos peces naranjas tienen manchas?",
+  "a": 4,
+  "why": "La mitad de 16 es 8 peces naranjas. La mitad de 8 es 4 con manchas.",
+  "hint": "Parte el grupo por la mitad dos veces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-001",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Un submarino robot baja 4 metros cada minuto. ¿A cuántos metros de profundidad está después de 7 minutos?",
+  "a": 28,
+  "why": "4 metros por minuto durante 7 minutos son 4 × 7 = 28 metros.",
+  "hint": "Cuenta de 4 en 4 siete veces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-002",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Cada noche un astrónomo cuenta el doble de estrellas que la noche anterior: 4, 8, 16, 32, ❓. ¿Qué número sigue?",
+  "opts": [
+   "40",
+   "48",
+   "64",
+   "36"
+  ],
+  "a": 2,
+  "why": "Cada número es el doble del anterior. El doble de 32 es 64. Sumar 16 otra vez daría 48.",
+  "hint": "Compara cada número con el anterior.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-003",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Ari, Beni y Cleo juegan de campocorto, lanzador y receptor. Ari no es el lanzador. Beni no es lanzador ni receptor. ¿Quién es el receptor?",
+  "opts": [
+   "No se puede saber",
+   "Cleo",
+   "Ari",
+   "Beni"
+  ],
+  "a": 2,
+  "why": "Beni tiene que ser el campocorto. Ari no lanza, así que es el receptor y Cleo lanza.",
+  "hint": "Ubica primero a Beni.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-004",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Verdadero o falso: todo múltiplo de 6 es también múltiplo de 3.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "6 es 3 + 3, así que cualquier número formado por grupos de 6 también se forma con grupos de 3.",
+  "hint": "Prueba con 12, 18 y 24.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-005",
+  "topic": "logic",
+  "level": 4,
+  "type": "order",
+  "q": "Se miden cuatro dinosaurios bebé. Ordena sus longitudes de la más corta a la más larga.",
+  "opts": [
+   "70 cm",
+   "1 m",
+   "1 m 30 cm",
+   "2 m"
+  ],
+  "why": "1 m son 100 cm. Entonces el orden es 70 cm, 100 cm, 130 cm y 200 cm.",
+  "hint": "Pasa todas las medidas a centímetros.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-006",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Tres de estos números son un número multiplicado por sí mismo (como 3 × 3 = 9). ¿Cuál NO lo es?",
+  "opts": [
+   "49",
+   "16",
+   "81",
+   "28"
+  ],
+  "a": 3,
+  "why": "16 = 4 × 4, 49 = 7 × 7 y 81 = 9 × 9. Ningún número multiplicado por sí mismo da 28.",
+  "hint": "Prueba 5 × 5 y 6 × 6.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-007",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "En el estadio, un perro caliente cuesta 4 dólares y un refresco cuesta 2. Una familia compra 3 perros calientes y 3 refrescos. ¿Cuántos dólares pagan?",
+  "a": 18,
+  "why": "3 perros calientes cuestan 12 dólares y 3 refrescos cuestan 6. 12 + 6 = 18.",
+  "hint": "Calcula cada tipo por separado y luego suma.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-008",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Todas las ballenas respiran aire. Algunos animales del acuario son ballenas. ¿Qué frase TIENE que ser verdadera?",
+  "opts": [
+   "Algunos animales del acuario respiran aire",
+   "Todo animal que respira aire es una ballena",
+   "Ningún animal del acuario respira aire",
+   "Todos los animales del acuario respiran aire"
+  ],
+  "a": 0,
+  "why": "Los animales del acuario que son ballenas respiran aire. De los demás no sabemos nada, así que solo «algunos» es seguro.",
+  "hint": "Sigue a las ballenas por las dos frases.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-009",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "El día 1, un equipo de excavación tiene una pila de 5 fósiles. Cada día la pila crece 4 fósiles. ¿Cuántos fósiles hay el día 6?",
+  "a": 25,
+  "why": "El día 1 hay 5. Faltan 5 días más, que suman 5 × 4 = 20. Entonces 5 + 20 = 25.",
+  "hint": "Cuenta cuántos saltos de 4 hay.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-010",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Verdadero o falso: si hoy es martes, dentro de 21 días también será martes.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "21 días son exactamente 3 semanas, y los días de la semana se repiten cada 7 días.",
+  "hint": "¿Cuántas semanas hay en 21 días?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-011",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Un barco apunta al este. Da un cuarto de vuelta a la izquierda y luego otro cuarto de vuelta a la izquierda. ¿Hacia dónde apunta ahora?",
+  "opts": [
+   "Al norte",
+   "Al este",
+   "Al sur",
+   "Al oeste"
+  ],
+  "a": 3,
+  "why": "Desde el este, un giro a la izquierda apunta al norte. Otro giro a la izquierda apunta al oeste.",
+  "hint": "Gira a la izquierda dos veces, paso a paso.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-012",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Qué par de números suma 30 y tiene una diferencia de 6?",
+  "opts": [
+   "15 y 15",
+   "18 y 12",
+   "17 y 13",
+   "20 y 10"
+  ],
+  "a": 1,
+  "why": "18 + 12 = 30 y 18 − 12 = 6. Los otros pares suman 30, pero sus diferencias son 0, 10 y 4.",
+  "hint": "Revisa la suma Y la diferencia.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-013",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "Una cuerda de 15 metros se corta en trozos de 3 metros. ¿Cuántos cortes hay que hacer?",
+  "a": 4,
+  "why": "15 ÷ 3 = 5 trozos. El último trozo no necesita corte, así que bastan 4 cortes.",
+  "hint": "Dibuja la cuerda y marca los cortes.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-014",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Verdadero o falso: «Algunos dinosaurios comían plantas» quiere decir que TODOS los dinosaurios comían plantas.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "«Algunos» significa solo unos cuantos. Muchos dinosaurios, como el T. rex, comían carne.",
+  "hint": "¿«Algunos» es lo mismo que «todos»?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-015",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Una máquina espacial convierte el 1 en 4, el 2 en 7 y el 3 en 10. ¿En qué número convierte el 6?",
+  "opts": [
+   "18",
+   "19",
+   "16",
+   "22"
+  ],
+  "a": 1,
+  "why": "La regla es multiplicar por 3 y sumar 1. 6 × 3 = 18, y 18 + 1 = 19.",
+  "hint": "Mira qué le pasa al 1 para llegar al 4.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-016",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Mía tiene el triple de conchas que Juan. Juntos tienen 24 conchas. ¿Cuántas conchas tiene Mía?",
+  "opts": [
+   "18",
+   "12",
+   "16",
+   "8"
+  ],
+  "a": 0,
+  "why": "Juan tiene 6 y Mía tiene 18. Suman 24, y 18 es el triple de 6.",
+  "hint": "Prueba con que Juan tiene 6 conchas.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-017",
+  "topic": "logic",
+  "level": 4,
+  "type": "number",
+  "q": "En el béisbol, el turno de bateo de un equipo termina con 3 outs. Un equipo batea una vez en cada una de las 9 entradas. ¿Cuántos outs son en total?",
+  "a": 27,
+  "why": "3 outs en cada una de 9 entradas son 3 × 9 = 27 outs.",
+  "hint": "Multiplica los outs por las entradas.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-018",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Beto dice: «Pasado mañana será domingo.» ¿Qué día es hoy?",
+  "opts": [
+   "Lunes",
+   "Jueves",
+   "Viernes",
+   "Sábado"
+  ],
+  "a": 2,
+  "why": "Si pasado mañana es domingo, mañana es sábado, y hoy es viernes.",
+  "hint": "Ve hacia atrás desde el domingo.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-019",
+  "topic": "logic",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena estas cantidades de dinero de la menor a la mayor.",
+  "opts": [
+   "2 monedas de 5 centavos",
+   "1 moneda de 25 centavos",
+   "3 monedas de 10 centavos",
+   "1 billete de 1 dólar"
+  ],
+  "why": "Valen 10, 25, 30 y 100 centavos. Un dólar son 100 centavos.",
+  "hint": "Calcula cuántos centavos vale cada grupo.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-4-020",
+  "topic": "logic",
+  "level": 4,
+  "type": "choice",
+  "q": "Enero, marzo, mayo, ❓. ¿Qué mes sigue en este patrón?",
+  "opts": [
+   "Junio",
+   "Abril",
+   "Agosto",
+   "Julio"
+  ],
+  "a": 3,
+  "why": "El patrón salta un mes cada vez. Después de mayo, se salta junio y sigue julio.",
+  "hint": "Mira cuántos meses salta cada vez.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-001",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Dani gasta la mitad de su dinero en un tiburón de juguete. Luego gasta un tercio de lo que le queda en una merienda. Le quedan 4 dólares. ¿Con cuántos dólares empezó?",
+  "a": 12,
+  "why": "Ve hacia atrás: 4 es dos tercios de lo que quedó, así que quedaban 6. Eso era la mitad de su dinero, o sea 12.",
+  "hint": "Deshaz primero la merienda y luego el juguete.",
+  "tags": [
+   "sharks",
+   "money"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-002",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Todos los peces del estanque son plateados. Ningún animal plateado del estanque come algas. ¿Qué frase TIENE que ser verdadera?",
+  "opts": [
+   "Todos los peces del estanque comen algas",
+   "Todo lo que no come algas es pez",
+   "Todos los animales del estanque son plateados",
+   "Ningún pez del estanque come algas"
+  ],
+  "a": 3,
+  "why": "Los peces son plateados, y los plateados no comen algas. Entonces ningún pez las come. Otros animales podrían no comerlas tampoco.",
+  "hint": "Une peces con plateados y plateados con algas.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-003",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Verdadero o falso: todos los múltiplos de 10 son pares, así que todos los números pares son múltiplos de 10.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "La primera parte es cierta. Pero 4 es par y no es múltiplo de 10, así que la segunda parte falla.",
+  "hint": "Prueba con el número par 4.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-004",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "El cohete A despega cada 6 días y el cohete B cada 9 días. Hoy despegan los dos. ¿Dentro de cuántos días volverán a despegar el mismo día?",
+  "a": 18,
+  "why": "A despega los días 6, 12, 18 y B los días 9, 18. El primer día en las dos listas es el 18.",
+  "hint": "Escribe los días de despegue de cada cohete.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-005",
+  "topic": "logic",
+  "level": 5,
+  "type": "order",
+  "q": "Cinco tortugas marinas llegan al mar. Eva llega primero. Dani llega justo después de Eva. Ana llega antes que Cris. Beto llega último. Ordénalas de la primera a la última.",
+  "opts": [
+   "Eva",
+   "Dani",
+   "Ana",
+   "Cris",
+   "Beto"
+  ],
+  "why": "Eva y Dani ocupan los dos primeros lugares y Beto el último. En medio, Ana va antes que Cris.",
+  "hint": "Coloca primero a Eva y a Beto.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-006",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Mira este patrón: 1, 4, 13, 40, ❓. ¿Qué número sigue?",
+  "opts": [
+   "124",
+   "121",
+   "80",
+   "120"
+  ],
+  "a": 1,
+  "why": "Cada número es el triple del anterior más 1. El triple de 40 es 120, y 120 + 1 = 121.",
+  "hint": "Mira cómo se convierte cada número en el siguiente.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-007",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Tres números seguidos (como 7, 8 y 9) suman 48. ¿Cuál es el mayor de los tres?",
+  "a": 17,
+  "why": "El número del medio es 48 ÷ 3 = 16. Los números son 15, 16 y 17, y el mayor es 17.",
+  "hint": "El número del medio es el promedio.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-008",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Un cubo está pintado de azul arriba y abajo, y de rojo en sus 4 lados. ¿En cuántas de sus 12 aristas se tocan dos caras rojas?",
+  "opts": [
+   "8",
+   "12",
+   "4",
+   "6"
+  ],
+  "a": 2,
+  "why": "Las 4 aristas verticales unen dos lados rojos. Las 8 aristas de arriba y de abajo unen rojo con azul.",
+  "hint": "Cuenta las aristas que suben y bajan.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-009",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Verdadero o falso: si la suma de dos números enteros es par, los dos números tienen que ser pares.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "3 + 5 = 8 es par, y ninguno de los dos es par. Dos números impares también suman un par.",
+  "hint": "Prueba con 3 + 5.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-010",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "El día 1 de un mes cae en jueves. ¿Qué día de la semana es el día 30?",
+  "opts": [
+   "Sábado",
+   "Viernes",
+   "Miércoles",
+   "Jueves"
+  ],
+  "a": 1,
+  "why": "El día 29 está exactamente 4 semanas después del día 1, así que es jueves. El día 30 es viernes.",
+  "hint": "Las semanas se repiten cada 7 días. Salta al día 29.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-011",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Un lanzador tira 36 lanzamientos y 2/3 son strikes. ¿Cuántos lanzamientos NO son strikes?",
+  "a": 12,
+  "why": "Un tercio no son strikes, y 36 ÷ 3 = 12.",
+  "hint": "¿Qué fracción no son strikes?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-012",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "¿Cuántos números de dos cifras DISTINTAS puedes formar con los dígitos 2, 5 y 8?",
+  "a": 6,
+  "why": "Son 25, 28, 52, 58, 82 y 85. Hay 3 opciones para la primera cifra y 2 para la segunda.",
+  "hint": "Haz una lista ordenada con cada dígito primero.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-013",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Ana, Beto y Cris se sientan en tres asientos de una fila. Ana está en un extremo. Beto NO está junto a Ana. ¿Quién se sienta en medio?",
+  "opts": [
+   "No se puede saber",
+   "Ana",
+   "Cris",
+   "Beto"
+  ],
+  "a": 2,
+  "why": "El asiento del medio toca a los dos de los extremos. Beto no puede estar junto a Ana, así que Cris va en medio.",
+  "hint": "El asiento del medio queda junto a los dos extremos.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-014",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Verdadero o falso: si es un guante de béisbol, sirve para atrapar la pelota. Este objeto NO sirve para atrapar. Entonces no es un guante de béisbol.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Si todos los guantes de béisbol sirven para atrapar, algo que no sirve para atrapar no puede ser uno.",
+  "hint": "¿Podría ser guante algo que no atrapa?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-015",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Mira este patrón: 2, 20, 4, 40, 6, 60, ❓. ¿Qué número sigue?",
+  "opts": [
+   "8",
+   "80",
+   "7",
+   "10"
+  ],
+  "a": 0,
+  "why": "Hay dos patrones mezclados: 2, 4, 6 en los lugares impares y 20, 40, 60 en los pares. Sigue el 8.",
+  "hint": "Mira un número sí y otro no.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-016",
+  "topic": "logic",
+  "level": 5,
+  "type": "number",
+  "q": "Un cohete despegó a las 11:40 p. m. y aterrizó a las 2:15 a. m. del día siguiente. ¿Cuántos minutos duró el vuelo?",
+  "a": 155,
+  "why": "De 11:40 a medianoche son 20 minutos, y de medianoche a las 2:15 son 135. 20 + 135 = 155.",
+  "hint": "Cuenta primero hasta la medianoche.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-017",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "En un cuadrado mágico de 3 × 3, cada fila suma 15. La fila de arriba es 2, ❓, 6. ¿Qué número va en el ❓?",
+  "opts": [
+   "6",
+   "8",
+   "5",
+   "7"
+  ],
+  "a": 3,
+  "why": "2 + 6 = 8, y 15 − 8 = 7.",
+  "hint": "Suma los dos números y compara con 15.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-018",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Exactamente una de estas notas es FALSA. A: «El tesoro está en el cofre 2.» B: «El tesoro NO está en el cofre 2.» C: «Está en el cofre 1.» ¿Dónde está el tesoro?",
+  "opts": [
+   "En el cofre 1",
+   "En el cofre 3",
+   "En el cofre 2",
+   "No se puede saber"
+  ],
+  "a": 0,
+  "why": "A y B se contradicen: una de ellas ya es la falsa. Entonces C es verdadera y el tesoro está en el cofre 1.",
+  "hint": "¿Cuáles dos notas se contradicen?",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-019",
+  "topic": "logic",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena estas fracciones de menor a mayor.",
+  "opts": [
+   "1/4",
+   "1/3",
+   "3/8",
+   "2/5"
+  ],
+  "why": "En decimales son 0,25, 0,33, 0,375 y 0,4.",
+  "hint": "Pasa cada fracción a decimal.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-5-020",
+  "topic": "logic",
+  "level": 5,
+  "type": "choice",
+  "q": "Una pecera tiene 4 peces dorados más que peces payaso. En total hay 14 peces. ¿Cuántos peces dorados hay?",
+  "opts": [
+   "7",
+   "10",
+   "5",
+   "9"
+  ],
+  "a": 3,
+  "why": "Si quitas los 4 extra, quedan 10 peces repartidos igual: 5 y 5. Entonces hay 5 payaso y 9 dorados.",
+  "hint": "Quita primero los 4 peces de más.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-001",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Ocho niños van a un campamento de béisbol. ¿Qué frase TIENE que ser verdadera?",
+  "opts": [
+   "Todos nacieron en días distintos",
+   "Algún día de la semana nadie nació",
+   "Dos cumplen años el mismo día del año",
+   "Dos nacieron el mismo día de la semana"
+  ],
+  "a": 3,
+  "why": "La semana tiene solo 7 días, y hay 8 niños. Alguno tiene que repetir. Un mismo cumpleaños no es seguro.",
+  "hint": "La semana tiene solo 7 días para repartir.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-002",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Un pez pesa 6 kilos más la mitad de su propio peso. ¿Cuántos kilos pesa?",
+  "a": 12,
+  "why": "La mitad de su peso tiene que ser 6 kilos, así que todo el pez pesa 12. Comprueba: 6 + 6 = 12.",
+  "hint": "¿Cuántos kilos son la mitad del pez?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-003",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuántos números de dos cifras tienen dígitos que suman 6?",
+  "opts": [
+   "7",
+   "4",
+   "5",
+   "6"
+  ],
+  "a": 3,
+  "why": "Son 15, 24, 33, 42, 51 y 60. El 60 sí cuenta, pero el 06 no es de dos cifras.",
+  "hint": "Haz una lista ordenada, empezando por 15.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-004",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Verdadero o falso: al lanzar dos dados normales, sacar un total de 7 es más probable que sacar un total de 11.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El 11 solo sale con 5 y 6 (2 formas). El 7 sale de seis formas, como 1 y 6 o 2 y 5.",
+  "hint": "Cuenta las formas de sacar cada total.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-005",
+  "topic": "logic",
+  "level": 6,
+  "type": "order",
+  "q": "Cinco niños hacen fila en el museo de dinosaurios. Eli va primero. Ana no va última. Beto no va junto a Ana. Cris va justo delante de Dani. Ordénalos de adelante hacia atrás.",
+  "opts": [
+   "Eli",
+   "Ana",
+   "Cris",
+   "Dani",
+   "Beto"
+  ],
+  "why": "Si Ana va segunda, Cris y Dani son pareja en el 3 y el 4. Beto queda último y lejos de Ana.",
+  "hint": "Prueba dónde puede ir Ana.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-006",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Anteayer fue sábado. ¿Qué día será pasado mañana?",
+  "opts": [
+   "Jueves",
+   "Lunes",
+   "Miércoles",
+   "Martes"
+  ],
+  "a": 2,
+  "why": "Anteayer fue sábado, ayer fue domingo, hoy es lunes y mañana es martes. Pasado mañana es miércoles.",
+  "hint": "Encuentra primero qué día es hoy.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-007",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Tienes muchas monedas de 10 y de 5 centavos. ¿De cuántas formas distintas puedes juntar exactamente 30 centavos? Puedes usar solo una clase de moneda.",
+  "a": 4,
+  "why": "Con 0, 1, 2 o 3 monedas de 10, completas con monedas de 5: 6, 4, 2 o 0. Son 4 formas.",
+  "hint": "Empieza sin monedas de 10 y añade una a la vez.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-008",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Dos jugadores se turnan para quitar 1, 2 o 3 fichas de una pila de 14. Gana quien quita la última. ¿Cuántas fichas debe quitar el primero para asegurar la victoria?",
+  "opts": [
+   "2",
+   "Ninguna cantidad asegura ganar",
+   "1",
+   "3"
+  ],
+  "a": 0,
+  "why": "Quitando 2 quedan 12. Luego, si el otro quita una cantidad, tú quitas lo que falta para sumar 4: quedarán 8, 4 y 0.",
+  "hint": "Intenta dejar un múltiplo de 4.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-009",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Una pirámide de cubos tiene 5 capas cuadradas: 5 × 5 cubos abajo, luego 4 × 4, 3 × 3, 2 × 2 y 1 cubo arriba. ¿Cuántos cubos tiene en total?",
+  "a": 55,
+  "why": "Las capas tienen 25, 16, 9, 4 y 1 cubos. 25 + 16 + 9 + 4 + 1 = 55.",
+  "hint": "Calcula cuántos cubos tiene cada capa.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-010",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Verdadero o falso: todos los delfines son mamíferos y ningún mamífero tiene branquias. Entonces ningún delfín tiene branquias.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los delfines están dentro del grupo de los mamíferos, y ese grupo no incluye animales con branquias.",
+  "hint": "Piensa en círculos dentro de círculos.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-011",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuántos meses del año tienen 31 días?",
+  "opts": [
+   "8",
+   "7",
+   "5",
+   "6"
+  ],
+  "a": 1,
+  "why": "Tienen 31 días enero, marzo, mayo, julio, agosto, octubre y diciembre. Son 7.",
+  "hint": "Recorre los meses uno por uno.",
+  "tags": [],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-012",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "Una caja tiene más de 2 pelotas de béisbol. Si las cuentas de 3 en 3, de 4 en 4 o de 5 en 5, siempre sobran 2. ¿Cuál es la menor cantidad posible?",
+  "a": 62,
+  "why": "3, 4 y 5 caben exactamente en 60. Sumando las 2 que sobran, la menor cantidad posible es 62.",
+  "hint": "Busca un número en el que caben 3, 4 y 5.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-013",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Diez astronautas se sientan parejos alrededor de una mesa redonda y se numeran del 1 al 10 en orden. ¿Qué número queda justo enfrente del 4?",
+  "opts": [
+   "10",
+   "7",
+   "8",
+   "9"
+  ],
+  "a": 3,
+  "why": "Enfrente es la mitad del camino, o sea 5 asientos. 4 + 5 = 9.",
+  "hint": "La mitad de 10 asientos son 5.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-014",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Mira este patrón: 2, 3, 5, 8, 13, 21, ❓. ¿Qué número sigue?",
+  "opts": [
+   "34",
+   "29",
+   "32",
+   "36"
+  ],
+  "a": 0,
+  "why": "Cada número es la suma de los dos anteriores. 13 + 21 = 34.",
+  "hint": "Suma los dos últimos números.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-015",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "En un estadio hay personas y perros. Entre todos tienen 12 cabezas y 34 patas. ¿Cuántos perros hay?",
+  "a": 5,
+  "why": "Si los 12 tuvieran 2 patas, serían 24. Sobran 10 patas, y cada perro aporta 2 extra, así que hay 5 perros.",
+  "hint": "Imagina primero que todos tienen 2 patas.",
+  "tags": [
+   "baseball",
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-016",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Verdadero o falso: 3 × 3 × 3 × 3 es mayor que 4 × 4 × 4.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "3 × 3 × 3 × 3 es 81 y 4 × 4 × 4 es 64, así que 81 es mayor.",
+  "hint": "Calcula las dos multiplicaciones.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-017",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "Un tanque de agua está lleno a 1/4. Después de echar 6 jarras, queda lleno a 3/4. ¿Cuántas jarras llenan un tanque vacío?",
+  "opts": [
+   "18",
+   "24",
+   "12",
+   "8"
+  ],
+  "a": 2,
+  "why": "Las 6 jarras llenaron la mitad del tanque. Entonces el tanque entero necesita 2 × 6 = 12 jarras.",
+  "hint": "¿Qué fracción del tanque llenaron las 6 jarras?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-018",
+  "topic": "logic",
+  "level": 6,
+  "type": "number",
+  "q": "⭐ + ⭐ + ⭐ = 🌙 + 6 y 🌙 = ⭐ + 4. ¿Cuánto vale ⭐?",
+  "a": 5,
+  "why": "Cambia 🌙 por ⭐ + 4: tres ⭐ son una ⭐ más 10. Entonces dos ⭐ valen 10 y cada ⭐ vale 5.",
+  "hint": "Reemplaza 🌙 en la primera línea.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-019",
+  "topic": "logic",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuántos pedazos como máximo puedes obtener de una pizza redonda con 4 cortes rectos?",
+  "opts": [
+   "9",
+   "11",
+   "8",
+   "10"
+  ],
+  "a": 1,
+  "why": "Si cada corte cruza a todos los anteriores, los cortes dan 2, 4, 7 y 11 pedazos. Cortar por el centro da solo 8.",
+  "hint": "Haz que cada corte cruce a los otros.",
+  "tags": [
+   "food"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "logB-6-020",
+  "topic": "logic",
+  "level": 6,
+  "type": "order",
+  "q": "Cuatro bateadores conectaron hits en estas fracciones de sus turnos. Ordena las fracciones de menor a mayor.",
+  "opts": [
+   "1/3",
+   "3/8",
+   "2/5",
+   "5/12"
+  ],
+  "why": "En decimales son 0,33, 0,375, 0,4 y 0,42.",
+  "hint": "Pasa cada fracción a decimal.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ }
+]

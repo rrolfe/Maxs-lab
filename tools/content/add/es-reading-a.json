@@ -1,0 +1,2486 @@
+[
+ {
+  "id": "lecB-1-001",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Leo se pone su gorra roja para ir a los juegos de béisbol. ¿Qué se pone Leo para ir al béisbol?",
+  "opts": [
+   "Un guante azul",
+   "Una gorra roja",
+   "Un abrigo verde"
+  ],
+  "a": 1,
+  "why": "El texto dice que Leo usa una gorra roja. Las otras cosas no aparecen.",
+  "hint": "Busca la prenda de ropa en la primera oración.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-002",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "El tiburón martillo tiene la cabeza ancha y plana. Verdadero o falso: su cabeza es redonda como una pelota.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "El texto dice ancha y plana. Una pelota es redonda, así que es falso.",
+  "hint": "Fíjate en las palabras 'ancha y plana'.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-003",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Cuando Ana llegó a casa, su perrito corrió a la puerta moviendo la cola. ¿Cómo se sintió el perrito?",
+  "opts": [
+   "Enojado",
+   "Asustado",
+   "Contento"
+  ],
+  "a": 2,
+  "why": "Correr a la puerta y mover la cola muestran alegría.",
+  "hint": "¿Qué muestra un perro cuando mueve la cola?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-004",
+  "topic": "reading",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena el día del pescador.",
+  "opts": [
+   "El pescador subió a su barco.",
+   "Echó la red al mar.",
+   "Sacó la red llena de peces.",
+   "Regresó al puerto con su pesca."
+  ],
+  "why": "Primero sube al barco y echa la red. Solo después puede sacar peces y volver.",
+  "hint": "¿Qué hay que hacer antes de sacar los peces?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-005",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "El tiburón nadó muy rápido para atrapar un pez. ¿Por qué nadó rápido?",
+  "opts": [
+   "Para atrapar un pez",
+   "Para dormir un rato",
+   "Para esconderse en la arena"
+  ],
+  "a": 0,
+  "why": "La razón está en el texto: nadó rápido para atrapar un pez.",
+  "hint": "Busca la palabra 'para' en la oración.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-006",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Si una estrella de mar pierde un brazo, le puede crecer uno nuevo. ¿Qué le puede crecer?",
+  "opts": [
+   "Una cola nueva",
+   "Un brazo nuevo",
+   "Una concha nueva"
+  ],
+  "a": 1,
+  "why": "Muchas estrellas de mar pueden regenerar un brazo perdido. Parece magia, pero es real.",
+  "hint": "Lee otra vez qué pierde la estrella de mar.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-007",
+  "topic": "reading",
+  "level": 1,
+  "type": "number",
+  "q": "Beto tenía 4 tarjetas de béisbol. Lola le regaló 3 más. ¿Cuántas tarjetas tiene Beto ahora?",
+  "a": 7,
+  "why": "Beto tenía 4 y recibió 3 más. Entonces 4 más 3 son 7.",
+  "hint": "Suma las tarjetas que le dieron.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-008",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Todo libro tiene un título en la portada. ¿Qué dice el título?",
+  "opts": [
+   "El nombre del libro",
+   "Dónde termina el libro",
+   "Cuántas hojas tiene"
+  ],
+  "a": 0,
+  "why": "El título es el nombre del libro. No dice cómo termina ni cuántas hojas tiene.",
+  "hint": "Piensa en cómo llamas a un libro.",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-009",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Mateo se puso la gorra, tomó el bate y su guante y corrió al campo. Su equipo lo esperaba. ¿Qué va a hacer Mateo?",
+  "opts": [
+   "Hornear un pastel",
+   "Irse a dormir",
+   "Jugar béisbol"
+  ],
+  "a": 2,
+  "why": "El bate, el guante y el equipo esperando indican que va a jugar béisbol.",
+  "hint": "Fíjate en lo que lleva en las manos.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-010",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Las ballenas respiran aire con pulmones. Verdadero o falso: una ballena respira debajo del agua con branquias.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Las ballenas son mamíferos: suben a la superficie a respirar aire. Los peces son los que usan branquias.",
+  "hint": "Lee otra vez cómo respiran las ballenas.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-011",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Las olas llegaban a la arena y las gaviotas volaban cerca. Dani cavaba con su pala. ¿Dónde está Dani?",
+  "opts": [
+   "En un pueblo con nieve",
+   "En la playa",
+   "En un bosque tranquilo"
+  ],
+  "a": 1,
+  "why": "Olas, arena y gaviotas son pistas de una playa.",
+  "hint": "¿Qué pistas hablan de arena y olas?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-012",
+  "topic": "reading",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena estos animales del mar por orden alfabético.",
+  "opts": [
+   "ballena",
+   "cangrejo",
+   "delfín",
+   "tiburón"
+  ],
+  "why": "Las primeras letras b, c, d y t van en ese orden en el abecedario.",
+  "hint": "Recita el abecedario y busca cada letra inicial.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-013",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Valeria vio por fin una ballena desde el barco. Abrió mucho los ojos y sonrió. ¿Cómo se sintió?",
+  "opts": [
+   "Contenta",
+   "Triste",
+   "Enojada"
+  ],
+  "a": 0,
+  "why": "Abrir los ojos y sonreír muestran que estaba contenta.",
+  "hint": "¿Qué muestra una sonrisa?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-014",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "La tortuga tiene caparazón y camina despacio. El conejo no tiene caparazón y salta rápido. ¿Cuál de los dos tiene caparazón?",
+  "opts": [
+   "El conejo",
+   "La tortuga",
+   "Los dos"
+  ],
+  "a": 1,
+  "why": "El texto dice que solo la tortuga tiene caparazón.",
+  "hint": "Compara las dos primeras oraciones.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-015",
+  "topic": "reading",
+  "level": 1,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'delfín'?",
+  "a": 2,
+  "why": "Se lee del-fín: dos golpes de voz, dos sílabas.",
+  "hint": "Aplaude al decir la palabra despacio.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-016",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Un libro enseña a hacer un barquito de papel, paso a paso. ¿Para qué lo escribió el autor?",
+  "opts": [
+   "Para asustar al lector",
+   "Para contar un chiste",
+   "Para enseñar algo"
+  ],
+  "a": 2,
+  "why": "Un libro de pasos explica cómo hacer una cosa. Quiere enseñar.",
+  "hint": "¿Qué te ayudan a hacer los pasos?",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-017",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "El estegosaurio tenía placas en la espalda y comía solo plantas. ¿Qué comía el estegosaurio?",
+  "opts": [
+   "Plantas",
+   "Carne",
+   "Peces"
+  ],
+  "a": 0,
+  "why": "El texto dice que comía solo plantas, así que no comía carne.",
+  "hint": "Busca la palabra 'solo' en la oración.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-018",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Un cuento tiene principio, nudo y final. Verdadero o falso: el final es la última parte del cuento.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El final cierra la historia: es la última parte. El principio es la primera.",
+  "hint": "Piensa en dónde termina una historia.",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-019",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "La astronauta soltó su lápiz y el lápiz se quedó flotando en el aire. ¿Dónde está la astronauta?",
+  "opts": [
+   "En la cocina",
+   "En el estadio",
+   "En el espacio"
+  ],
+  "a": 2,
+  "why": "En una nave en el espacio, las cosas flotan en vez de caer como en la Tierra.",
+  "hint": "En la Tierra, el lápiz caería.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-1-020",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué palabra rima con 'mar'?",
+  "opts": [
+   "luna",
+   "jugar",
+   "pez"
+  ],
+  "a": 1,
+  "why": "Mar y jugar terminan con el mismo sonido: -ar.",
+  "hint": "Escucha el final de cada palabra.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-001",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El cangrejo ermitaño es muy tímido. Cuando llega una ola grande, se esconde dentro de su concha. ¿Qué significa 'tímido'?",
+  "opts": [
+   "Hambriento",
+   "Vergonzoso",
+   "Ruidoso"
+  ],
+  "a": 1,
+  "why": "Esconderse cuando algo se acerca muestra que es vergonzoso y se asusta con facilidad.",
+  "hint": "¿Qué te dice la acción de esconderse?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-002",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Su equipo iba perdiendo por una carrera. Joaquín respiró hondo, apretó el bate y miró al lanzador. ¿Qué va a hacer Joaquín?",
+  "opts": [
+   "Batear la pelota",
+   "Irse del juego",
+   "Arreglar la base"
+  ],
+  "a": 0,
+  "why": "Apretar el bate y mirar al lanzador es prepararse para batear.",
+  "hint": "¿Por qué un bateador mira al lanzador?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-003",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Los tiburones no tienen huesos. Su esqueleto es de cartílago, flexible como la punta de tu oreja. Verdadero o falso: el esqueleto de un tiburón es de cartílago.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los tiburones tienen un esqueleto de cartílago, que se dobla, igual que la punta de tu oreja.",
+  "hint": "Vuelve a leer la segunda oración.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-004",
+  "topic": "reading",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena la vida de una rana.",
+  "opts": [
+   "La rana pone huevos en el agua.",
+   "Del huevo sale un renacuajo con cola.",
+   "Al renacuajo le salen patas.",
+   "El renacuajo se convierte en rana."
+  ],
+  "why": "Primero están los huevos y el renacuajo. Las patas aparecen antes de que sea una rana adulta.",
+  "hint": "¿Qué sale primero, el huevo o la rana?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 2-LS4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-005",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El caballito de mar macho lleva los huevos en una bolsita de su panza. Los bebés salen cuando están listos. ¿Cuál es la idea principal?",
+  "opts": [
+   "Viven en los ríos y lagos",
+   "El papá lleva los huevos",
+   "Los bebés comen muchas algas"
+  ],
+  "a": 1,
+  "why": "Las dos oraciones hablan de que el papá carga los huevos. No mencionan ríos ni algas.",
+  "hint": "¿De qué hablan las dos oraciones?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-006",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El equipo de Tomás ganó el campeonato. Abrazó a sus compañeros y no podía dejar de sonreír. ¿Cómo se sintió Tomás?",
+  "opts": [
+   "Preocupado",
+   "Molesto",
+   "Muy feliz"
+  ],
+  "a": 2,
+  "why": "Abrazar y sonreír después de ganar muestran mucha felicidad.",
+  "hint": "Mira lo que hace Tomás con su cara.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-007",
+  "topic": "reading",
+  "level": 2,
+  "type": "number",
+  "q": "Un partido de béisbol tiene 9 entradas. Ya se jugaron 4. ¿Cuántas entradas faltan?",
+  "a": 5,
+  "why": "Si hay 9 en total y se jugaron 4, faltan 9 menos 4, que son 5.",
+  "hint": "Resta las entradas jugadas del total.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-008",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Cuando sale el Sol, los charcos se secan porque el calor convierte el agua en vapor. ¿Qué seca los charcos?",
+  "opts": [
+   "El calor del Sol",
+   "La luna llena de noche",
+   "El viento frío del norte"
+  ],
+  "a": 0,
+  "why": "El texto dice que el calor del Sol convierte el agua en vapor.",
+  "hint": "Busca la palabra 'porque'.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-ESS2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-009",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué parte de un libro muestra los capítulos y la página donde empieza cada uno?",
+  "opts": [
+   "La portada",
+   "El glosario",
+   "El índice"
+  ],
+  "a": 2,
+  "why": "El índice lista los capítulos con sus páginas. El glosario explica palabras.",
+  "hint": "Se encuentra al principio o al final del libro.",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-010",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "El helado de Lola se derritió porque lo dejó al sol. Verdadero o falso: el helado se derritió porque estaba en el congelador.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Se derritió por el calor del sol. En el congelador habría seguido duro.",
+  "hint": "Fíjate en la palabra 'porque'.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-011",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "La huella del dinosaurio era gigantesca: una familia entera cabía dentro. ¿Qué significa 'gigantesca'?",
+  "opts": [
+   "Muy pequeña",
+   "Muy antigua",
+   "Muy grande"
+  ],
+  "a": 2,
+  "why": "Si cabe una familia entera, la huella debe ser muy grande.",
+  "hint": "¿Qué tan grande debe ser una huella para que quepa una familia?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-012",
+  "topic": "reading",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena la jugada de béisbol.",
+  "opts": [
+   "El lanzador tiró la pelota.",
+   "El bateador la golpeó fuerte.",
+   "El jardinero la atrapó.",
+   "El público aplaudió."
+  ],
+  "why": "Todo empieza con el lanzamiento. El público aplaude después de la atrapada.",
+  "hint": "¿Qué debe pasar antes de que alguien atrape la pelota?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-013",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Una autora escribe un cuento divertido sobre un perro que usa lentes de sol. ¿Para qué lo escribió?",
+  "opts": [
+   "Para dar órdenes a todos",
+   "Para hacernos sonreír",
+   "Para enseñar a sumar mejor"
+  ],
+  "a": 1,
+  "why": "Los cuentos divertidos se escriben para entretener.",
+  "hint": "¿El cuento es para aprender o para pasarla bien?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-014",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "La ballena azul es muy grande, pero come animalitos diminutos llamados kril. ¿Qué come la ballena azul?",
+  "opts": [
+   "Kril diminuto",
+   "Peces enormes",
+   "Pulpos grandes"
+  ],
+  "a": 0,
+  "why": "El tamaño engaña: la ballena azul gigante come animalitos diminutos.",
+  "hint": "Busca el alimento que nombra el texto.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-015",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Las medusas no tienen huesos, cerebro ni corazón. Verdadero o falso: una medusa tiene corazón.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Las medusas casi son puro agua y no tienen corazón, cerebro ni huesos.",
+  "hint": "Busca la palabra 'ni' en el texto.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-016",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Orbitar es dar vueltas alrededor de algo. La Luna orbita la Tierra. ¿Qué hace la Luna?",
+  "opts": [
+   "Se queda quieta",
+   "Se aleja de la Tierra",
+   "Gira alrededor de ella"
+  ],
+  "a": 2,
+  "why": "Orbitar significa dar vueltas alrededor, así que la Luna gira alrededor de la Tierra.",
+  "hint": "Usa el significado que da el texto.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-017",
+  "topic": "reading",
+  "level": 2,
+  "type": "number",
+  "q": "Un tiburón perdió 2 dientes en el almuerzo y 4 más en la cena. Cada vez le salieron dientes nuevos. ¿Cuántos dientes perdió en total?",
+  "a": 6,
+  "why": "Perdió 2 y luego 4, así que 2 más 4 son 6. Los dientes nuevos no cambian lo que perdió.",
+  "hint": "Suma solo los dientes que se cayeron.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-018",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "En un diccionario, las palabras guía de una página son 'delfín' y 'dragón'. ¿Qué palabra estaría en esa página?",
+  "opts": [
+   "dinosaurio",
+   "ballena",
+   "foca"
+  ],
+  "a": 0,
+  "why": "Dinosaurio va después de delfín y antes de dragón en orden alfabético.",
+  "hint": "Compara la segunda letra de cada palabra.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-019",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras está bien escrita?",
+  "opts": [
+   "tiburon",
+   "tiburón",
+   "tíburon"
+  ],
+  "a": 1,
+  "why": "Tiburón es aguda y termina en n, así que lleva tilde en la última sílaba: -rón.",
+  "hint": "Di la palabra y escucha cuál sílaba suena más fuerte.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-2-020",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "La rana tiene la piel lisa y húmeda. El sapo tiene la piel seca y con bultos. Verdadero o falso: la piel del sapo es seca y con bultos.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Eso dice el texto sobre el sapo. La piel lisa y húmeda es la de la rana.",
+  "hint": "Mira qué animal se describe con cada piel.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-001",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "La exploradora estaba sedienta después de caminar horas por el desierto. Se tomó una botella entera de agua. ¿Qué significa 'sedienta'?",
+  "opts": [
+   "Con mucho sueño",
+   "Con mucho frío",
+   "Con mucha sed",
+   "Con mucho miedo"
+  ],
+  "a": 2,
+  "why": "Tomarse una botella entera de agua es la pista: sedienta quiere decir con mucha sed.",
+  "hint": "¿Por qué alguien tomaría tanta agua?",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-002",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "El entrenador miró las nubes negras y luego el marcador. —Terminemos rápido antes de que llueva —dijo. ¿Qué le preocupa?",
+  "opts": [
+   "Que la lluvia pare el juego",
+   "Que se pierda un bate",
+   "Que el autobús llegue tarde",
+   "Que se rompa un guante"
+  ],
+  "a": 0,
+  "why": "Las nubes negras y la palabra 'llueva' muestran que teme que el clima detenga el partido.",
+  "hint": "Une las nubes con lo que dijo el entrenador.",
+  "tags": [
+   "baseball",
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-003",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Cuando el narrador dice 'yo', cuenta la historia como un personaje. Verdadero o falso: en 'Yo caminé hacia el montículo para lanzar', quien cuenta es un personaje de la historia.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La palabra 'yo' muestra que el narrador está dentro de la historia: es el lanzador.",
+  "hint": "Fíjate en la palabra 'yo'.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-004",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Los pulpos sueltan tinta oscura cuando se asustan. La tinta forma una nube en el agua y el pulpo se escapa. ¿Para qué suelta tinta el pulpo?",
+  "opts": [
+   "Para pintar las rocas",
+   "Para llamar a sus amigos",
+   "Para cazar su almuerzo",
+   "Para escapar del peligro"
+  ],
+  "a": 3,
+  "why": "La nube de tinta lo esconde de un depredador y le da tiempo de huir.",
+  "hint": "¿Qué pasa justo después de que se forma la nube?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-005",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Los camaleones cambian de color cuando sienten calor, frío o miedo. También cambian de color para comunicarse con otros camaleones. ¿Cuál es la idea principal?",
+  "opts": [
+   "Solo viven en los árboles altos",
+   "Cambian de color",
+   "Los camaleones son muy veloces",
+   "Comen muchos insectos al día"
+  ],
+  "a": 1,
+  "why": "Las dos oraciones hablan de las razones por las que cambian de color.",
+  "hint": "¿Qué tienen en común las dos oraciones?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-006",
+  "topic": "reading",
+  "level": 3,
+  "type": "number",
+  "q": "Rosa tiene 6 libros de tiburones y 5 de dinosaurios. Le presta 4 libros a su primo. ¿Cuántos libros le quedan a Rosa?",
+  "a": 7,
+  "why": "6 más 5 son 11 libros. Si presta 4, quedan 11 menos 4, que son 7.",
+  "hint": "Suma primero y luego resta.",
+  "tags": [
+   "sharks",
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-007",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Todos los días después del entrenamiento, Lena recoge las pelotas, ordena los bates y barre el banquillo, aunque nadie se lo pide. ¿Qué palabra describe mejor a Lena?",
+  "opts": [
+   "Perezosa",
+   "Mandona",
+   "Servicial",
+   "Olvidadiza"
+  ],
+  "a": 2,
+  "why": "Hacer tareas extra sin que se lo pidan muestra que es servicial.",
+  "hint": "¿Qué muestran sus acciones sobre ella?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-008",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "El mar estaba sereno. Ningún viento movía las olas y el agua parecía un espejo. ¿Qué significa 'sereno'?",
+  "opts": [
+   "Tranquilo",
+   "Furioso",
+   "Helado",
+   "Oscuro"
+  ],
+  "a": 0,
+  "why": "Sin viento ni olas y con el agua como espejo, sereno quiere decir tranquilo.",
+  "hint": "Imagina el mar como un espejo.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-009",
+  "topic": "reading",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena el viaje de un cohete.",
+  "opts": [
+   "El cohete espera en la plataforma.",
+   "Comienza la cuenta regresiva.",
+   "El cohete despega entre fuego y humo.",
+   "La nave llega al espacio."
+  ],
+  "why": "Antes del despegue hay que esperar y contar al revés. Solo después puede llegar al espacio.",
+  "hint": "¿Qué pasa justo antes de despegar?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-010",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Mariana caminó de puntillas por la cocina a medianoche y abrió el refrigerador muy despacito. ¿Por qué caminaba de puntillas?",
+  "opts": [
+   "Llegaba tarde a clases",
+   "Para no hacer ruido",
+   "Había perdido sus zapatos",
+   "Practicaba ballet"
+  ],
+  "a": 1,
+  "why": "A medianoche, caminar de puntillas y despacito muestra que no quería despertar a nadie.",
+  "hint": "¿Por qué las personas se mueven en silencio de noche?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-011",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Las ballenas y los delfines son mamíferos. Las ballenas barbadas filtran su comida y los delfines cazan peces. ¿Qué tienen en común?",
+  "opts": [
+   "Filtran su comida",
+   "Tienen branquias",
+   "Ponen huevos",
+   "Son mamíferos"
+  ],
+  "a": 3,
+  "why": "El texto dice que los dos son mamíferos. Se alimentan de formas distintas.",
+  "hint": "Busca lo que el texto dice de los dos.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-012",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "La arena de la playa se calienta más al mediodía porque el Sol está más alto y da más calor. Verdadero o falso: la arena está más fría al mediodía que al amanecer.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Con el Sol alto y más calor, la arena se calienta más al mediodía, no menos.",
+  "hint": "Busca la palabra 'más' en la primera oración.",
+  "tags": [
+   "ocean",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-PS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-013",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cuál de estas oraciones trata de convencerte de algo?",
+  "opts": [
+   "¡Prueba el béisbol, te va a encantar!",
+   "El béisbol se juega con bate y pelota.",
+   "Un partido completo tiene nueve entradas.",
+   "La pelota de béisbol es blanca y dura."
+  ],
+  "a": 0,
+  "why": "'¡Prueba!' te dice qué hacer. Las otras oraciones solo dan datos.",
+  "hint": "¿Cuál intenta cambiar lo que piensas?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-014",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Los pescadores salieron en su barco al amanecer, cuando el Sol apenas asomaba. ¿Qué parte del día es el amanecer?",
+  "opts": [
+   "Cuando se oculta el Sol",
+   "El mediodía",
+   "Cuando sale el Sol",
+   "La medianoche"
+  ],
+  "a": 2,
+  "why": "El texto dice que el Sol apenas asomaba: es el momento en que sale.",
+  "hint": "¿Qué hace el Sol al empezar el día?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-015",
+  "topic": "reading",
+  "level": 3,
+  "type": "number",
+  "q": "El equipo anotó 3 carreras en la primera entrada, ninguna en la segunda y 4 en la tercera. ¿Cuántas carreras anotó en las tres entradas?",
+  "a": 7,
+  "why": "3 más 0 más 4 son 7 carreras. 'Ninguna' quiere decir cero.",
+  "hint": "Recuerda que ninguna es cero.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-016",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Las ramas se movían apenas y el mar parecía un espejo. ¿Cómo estaba el tiempo?",
+  "opts": [
+   "Había una fuerte tormenta",
+   "Había un gran huracán",
+   "Todo estaba en calma",
+   "Caía mucho granizo"
+  ],
+  "a": 2,
+  "why": "Ramas casi quietas y mar como espejo son señales de calma, sin viento fuerte.",
+  "hint": "¿Qué pasa con las ramas cuando hay tormenta?",
+  "tags": [
+   "weather",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-017",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Las tortugas marinas no tienen dientes. Cortan su comida con un pico duro. ¿Qué usan en lugar de dientes?",
+  "opts": [
+   "Colmillos largos",
+   "Un pico duro",
+   "Garras fuertes",
+   "Tentáculos"
+  ],
+  "a": 1,
+  "why": "El texto dice que cortan la comida con un pico duro y que no tienen dientes.",
+  "hint": "Busca la herramienta que nombra el texto.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-018",
+  "topic": "reading",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena cómo Ana prepara un sándwich.",
+  "opts": [
+   "Primero, Ana sacó dos rebanadas de pan.",
+   "Luego, puso queso encima.",
+   "Después, cerró el sándwich.",
+   "Finalmente, se lo comió."
+  ],
+  "why": "Las palabras primero, luego, después y finalmente señalan el orden.",
+  "hint": "Busca las palabras que marcan el orden.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-019",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Al principio, Omar tenía miedo de meter la cara en el agua. Después de practicar semanas, cruzó la alberca y sonrió orgulloso. ¿Cómo cambió Omar?",
+  "opts": [
+   "De temeroso a orgulloso",
+   "De dormido a enojado",
+   "De aburrido a asustado",
+   "De alegre a triste"
+  ],
+  "a": 0,
+  "why": "Empezó con miedo y terminó sonriendo con orgullo después de lograrlo.",
+  "hint": "Compara cómo se siente al inicio y al final.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-3-020",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Cuando una abeja encuentra flores, regresa a la colmena y baila. Su baile les dice a las demás hacia dónde están las flores. ¿Cuál es la idea principal?",
+  "opts": [
+   "Las abejas duermen casi todo el día",
+   "Las flores huelen muy rico",
+   "Las colmenas son muy grandes",
+   "Las abejas bailan para avisar"
+  ],
+  "a": 3,
+  "why": "Las dos oraciones explican cómo el baile avisa a otras abejas dónde hay flores.",
+  "hint": "¿Qué pasa cuando la abeja baila?",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-001",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál oración contiene un símil?",
+  "opts": [
+   "Su bola rápida era como un rayo.",
+   "El lanzador tiró con mucha fuerza.",
+   "El público gritó emocionado.",
+   "La pelota pasó por encima de la cerca."
+  ],
+  "a": 0,
+  "why": "Un símil compara dos cosas con la palabra 'como'. Aquí la bola rápida se compara con un rayo.",
+  "hint": "Busca la palabra 'como'.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-002",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Las olas le susurraban secretos a la orilla dormida. ¿Qué hace la autora?",
+  "opts": [
+   "Compara las olas con algo",
+   "Hace hablar a las olas",
+   "Cuenta un dato real del mar",
+   "Da una orden a la orilla"
+  ],
+  "a": 1,
+  "why": "Las olas no pueden susurrar. Darle acciones humanas a la naturaleza se llama personificación.",
+  "hint": "¿Pueden las olas susurrar de verdad?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-003",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Cuando el mar se calienta demasiado, el coral expulsa las algas diminutas que viven dentro de él y se vuelve blanco. Verdadero o falso: las algas son lo que vuelve blanco al coral.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Al perder las algas, el coral se vuelve blanco. Las algas son las que le dan su color.",
+  "hint": "Lee con cuidado qué pasa primero y qué pasa después.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-004",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Su mamá le dijo: 'No dejes para mañana lo que puedes hacer hoy'. ¿Qué enseña este refrán?",
+  "opts": [
+   "Dormir más temprano cada noche",
+   "Esperar siempre hasta el otro día",
+   "No dejar tareas para después",
+   "Comer menos dulces en casa"
+  ],
+  "a": 2,
+  "why": "El refrán aconseja hacer las cosas hoy, sin esperar. No habla de dormir ni de comer.",
+  "hint": "Piensa en la palabra 'mañana'.",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-005",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Mía practicó su curva todos los días. Durante semanas falló, pero siguió intentando. En primavera ponchó a tres bateadores. ¿Qué enseña el cuento?",
+  "opts": [
+   "Las curvas son muy fáciles",
+   "La primavera es la mejor estación",
+   "Los equipos nunca deben perder",
+   "Practicar ayuda a mejorar"
+  ],
+  "a": 3,
+  "why": "Sus fallos se convirtieron en éxito porque siguió practicando. Esa es la enseñanza.",
+  "hint": "Fíjate en qué cambió del principio al final.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-006",
+  "topic": "reading",
+  "level": 4,
+  "type": "number",
+  "q": "Un tiburón nadó 5 kilómetros antes del almuerzo. Después del almuerzo nadó el doble. ¿Cuántos kilómetros nadó en total?",
+  "a": 15,
+  "why": "El doble de 5 es 10. Sumando los 5 de la mañana, son 15 kilómetros.",
+  "hint": "Calcula primero la distancia de la tarde.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-007",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Después de visitar el museo, Pablo dibujó huesos gigantes en su cuaderno. Esa noche pidió un libro sobre fósiles. ¿Qué se puede concluir?",
+  "opts": [
+   "A Pablo le interesan los dinosaurios",
+   "A Pablo le dan miedo los museos",
+   "Pablo quiere ser panadero",
+   "A Pablo no le gusta dibujar"
+  ],
+  "a": 0,
+  "why": "Dibujar huesos gigantes y pedir un libro de fósiles muestran su interés en los dinosaurios.",
+  "hint": "¿Qué opción encaja con TODAS sus acciones?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-008",
+  "topic": "reading",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena cómo el delfín encuentra un pez con el sonido.",
+  "opts": [
+   "El delfín emite un chasquido.",
+   "El sonido choca con un pez.",
+   "El eco regresa al delfín.",
+   "El delfín nada hacia el pez."
+  ],
+  "why": "El eco solo vuelve después de que el sonido choca con el pez. Entonces el delfín sabe dónde está.",
+  "hint": "¿Qué debe volver antes de que el delfín nade?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-009",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Las plantas necesitan luz para crecer. Si dejas una planta muchos días en un armario oscuro, ¿qué le pasará?",
+  "opts": [
+   "Crecerá más fuerte y verde",
+   "Se pondrá pálida y débil",
+   "Se volverá azul brillante",
+   "Crecerá más rápido que antes"
+  ],
+  "a": 1,
+  "why": "Sin luz, la planta no puede fabricar su alimento y se pone pálida y débil.",
+  "hint": "¿Qué necesita la planta para crecer?",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 2-LS2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-010",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "En la oración 'Muchos tiburones cazan peces; sin embargo, el tiburón ballena come plancton', ¿qué indica 'sin embargo'?",
+  "opts": [
+   "Una causa",
+   "Un orden de tiempo",
+   "Una diferencia",
+   "Una lista"
+  ],
+  "a": 2,
+  "why": "'Sin embargo' muestra un contraste: muchos tiburones cazan peces, pero el tiburón ballena come plancton.",
+  "hint": "¿La segunda parte es igual o distinta a la primera?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-011",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "En la Luna no hay viento ni lluvia que borren las huellas, así que las pisadas de los astronautas duran muchísimo. Verdadero o falso: las huellas se borran rápido por los vientos lunares.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "En la Luna no hay viento, por eso las huellas se conservan mucho tiempo.",
+  "hint": "Revisa qué dice el texto sobre el viento.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-012",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "El arrecife estaba repleto de peces: asomaban de cada grieta y rodeaban cada coral. ¿Qué significa 'repleto'?",
+  "opts": [
+   "Vacío",
+   "Cubierto de hielo",
+   "Escondido",
+   "Muy lleno"
+  ],
+  "a": 3,
+  "why": "Peces en cada grieta y alrededor de cada coral muestran que estaba muy lleno.",
+  "hint": "¿Qué te dicen 'cada grieta' y 'cada coral'?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-013",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "En un libro de ciencias, una palabra en letra negrita suele ser...",
+  "opts": [
+   "una palabra importante",
+   "un error de ortografía",
+   "el nombre del autor",
+   "el final del capítulo"
+  ],
+  "a": 0,
+  "why": "Los autores usan la negrita para destacar palabras clave, que muchas veces se explican cerca.",
+  "hint": "¿Para qué destacarías una palabra?",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-014",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Júpiter es un gigante de gas y no tiene una superficie sólida. La Tierra es un planeta rocoso. Verdadero o falso: podrías pararte sobre la superficie sólida de Júpiter.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "El texto dice que Júpiter no tiene superficie sólida, así que no hay dónde pararse.",
+  "hint": "Fíjate en las palabras 'no tiene'.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-015",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "La jardinera dejó caer la pelota y su equipo perdió. Se mordió el labio, pero fue a felicitar a las rivales. ¿Qué dice esto de ella?",
+  "opts": [
+   "Odia a sus compañeras",
+   "Es una buena deportista",
+   "Quería hacer trampa",
+   "Estaba muy distraída"
+  ],
+  "a": 1,
+  "why": "Felicitar a las rivales después de perder muestra que sabe perder con respeto.",
+  "hint": "¿Qué hizo después de perder?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-016",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Teo dice que su equipo ganó con una remontada emocionante. Su prima, hincha del otro equipo, dice que fue una derrota dolorosa. ¿Por qué opinan distinto?",
+  "opts": [
+   "Jugaban otro deporte",
+   "Uno no vio el partido",
+   "Apoyan a equipos opuestos",
+   "Uno entendió mal el marcador"
+  ],
+  "a": 2,
+  "why": "Una remontada para un equipo es una derrota para el otro. Cada uno ve el partido desde su lado.",
+  "hint": "¿De qué equipo es hincha cada uno?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-017",
+  "topic": "reading",
+  "level": 4,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'pluviómetro'?",
+  "a": 4,
+  "why": "Se divide así: plu-vió-me-tro. Son cuatro sílabas.",
+  "hint": "Aplaude cada golpe de voz al decirla despacio.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-018",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "El abuelo llamó 'pececito' al pez que atrapó. ¿Qué indica el final -ito?",
+  "opts": [
+   "Que ya no existe",
+   "Que es peligroso",
+   "Que hay muchos",
+   "Pequeño o querido"
+  ],
+  "a": 3,
+  "why": "Los diminutivos como -ito indican que algo es pequeño o que se le tiene cariño.",
+  "hint": "¿Qué sientes cuando dices 'perrito'?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-019",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Un resumen cuenta solo las ideas más importantes de un texto. Verdadero o falso: un buen resumen incluye cada detalle pequeño.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Un resumen deja los detalles pequeños y conserva solo las ideas principales.",
+  "hint": "¿Un resumen es corto o largo?",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-4-020",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Los vientos de un huracán pueden arrancar techos. La lluvia fuerte inunda las calles y las olas gigantes inundan las costas. ¿Cuál es la idea principal?",
+  "opts": [
+   "Los huracanes causan daños graves",
+   "Los huracanes solo ocurren en invierno",
+   "Los techos son fáciles de arreglar",
+   "Las olas siempre son pequeñas"
+  ],
+  "a": 0,
+  "why": "Las tres oraciones dan ejemplos de los daños que causa un huracán.",
+  "hint": "¿Qué tienen en común los tres ejemplos?",
+  "tags": [
+   "weather",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-001",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "El estadio era un mar de gente. ¿Qué quiere decir esta metáfora?",
+  "opts": [
+   "Que el estadio tenía agua",
+   "Que había muchísima gente",
+   "Que la gente sabía nadar",
+   "Que el estadio era azul"
+  ],
+  "a": 1,
+  "why": "Un mar es enorme y lleno de olas. La metáfora dice que había muchísima gente, no agua.",
+  "hint": "¿Qué tiene de parecido un mar con una multitud?",
+  "tags": [
+   "baseball",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-002",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "En verano, la hormiga guardó comida mientras la cigarra solo cantaba. Llegó el invierno y la cigarra no tenía qué comer. ¿Qué enseña esta fábula?",
+  "opts": [
+   "Prepararse a tiempo",
+   "Cantar es malo",
+   "El invierno es corto",
+   "Las hormigas no cantan"
+  ],
+  "a": 0,
+  "why": "La hormiga se preparó y la cigarra no. La enseñanza es planear con anticipación.",
+  "hint": "¿Qué hizo distinto cada animal?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-003",
+  "topic": "reading",
+  "level": 5,
+  "type": "number",
+  "q": "Un museo tiene 4 salas con 6 fósiles cada una. En el patio hay 3 fósiles más. Mandaron 5 fósiles a limpiar. ¿Cuántos fósiles quedan en exhibición?",
+  "a": 22,
+  "why": "4 salas por 6 son 24 fósiles. Con los 3 del patio son 27. Si se van 5, quedan 22.",
+  "hint": "Multiplica, suma y al final resta.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-004",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "A mediodía un barco estaba sobre la arena seca. Seis horas después flotaba junto al muelle. ¿Qué pasó con el agua del mar?",
+  "opts": [
+   "Subió la marea",
+   "El barco se hundió",
+   "Llovió toda la noche",
+   "El muelle se movió"
+  ],
+  "a": 0,
+  "why": "La marea sube y baja cada día. Al subir, el agua levantó el barco.",
+  "hint": "¿Qué podría levantar un barco de la arena seca?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-005",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Los delfines usan chasquidos para encontrar a sus presas. Los murciélagos usan chillidos. Los dos usan el eco para ubicar su comida. ¿Qué estructura tiene el texto?",
+  "opts": [
+   "Problema y solución",
+   "Secuencia de pasos",
+   "Comparación",
+   "Descripción de un lugar"
+  ],
+  "a": 2,
+  "why": "El texto muestra en qué se parecen dos animales: los dos usan el eco.",
+  "hint": "¿Qué dos cosas se comparan?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-006",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Los koalas comen hojas de eucalipto, que les dan poca energía. Por eso duermen muchas horas al día. Verdadero o falso: según el texto, los koalas duermen mucho porque su comida les da poca energía.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El texto da la causa: las hojas dan poca energía, por eso duermen mucho.",
+  "hint": "Busca la expresión 'por eso'.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-007",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Dos lectores opinan sobre el mismo cuento. Uno dice: 'Es lentísimo y aburrido'. La otra dice: 'Es tranquilo y se disfruta despacio'. ¿Qué se puede concluir?",
+  "opts": [
+   "Uno de ellos inventó el cuento",
+   "Los dos odiaron el cuento",
+   "El cuento no existe",
+   "Tienen opiniones distintas"
+  ],
+  "a": 3,
+  "why": "Uno ve lo lento como defecto y la otra como virtud, así que opinan distinto del mismo cuento.",
+  "hint": "¿Cada lector lo ve como bueno o como malo?",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-008",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Un párrafo explica cómo los pájaros construyen nidos. ¿Qué oración NO pertenece al párrafo?",
+  "opts": [
+   "Primero juntan ramitas.",
+   "Luego las entretejen con hierba.",
+   "Algunos viajan al sur.",
+   "Por último, forran el nido con plumas."
+  ],
+  "a": 2,
+  "why": "El viaje al sur es otro tema. Las demás oraciones cuentan los pasos para hacer el nido.",
+  "hint": "¿Cuál oración habla de otra cosa?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-009",
+  "topic": "reading",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena estas palabras de lo más frío a lo más caliente.",
+  "opts": [
+   "helado",
+   "fresco",
+   "tibio",
+   "ardiente"
+  ],
+  "why": "Cada palabra indica más calor que la anterior, hasta ardiente.",
+  "hint": "Imagina un cubo de hielo y luego una fogata.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-010",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Mateo dijo: 'No me importa perder'. Pero se mordía las uñas durante todo el partido y apretaba su gorra. ¿Qué infiere el lector?",
+  "opts": [
+   "Disimula cuánto le importa",
+   "Está muy tranquilo y relajado",
+   "Quiere irse a casa ya mismo",
+   "Se divierte mucho"
+  ],
+  "a": 0,
+  "why": "Sus acciones dicen lo contrario de sus palabras: sí le importa, pero lo disimula.",
+  "hint": "Compara lo que dice con lo que hace.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-011",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Como llovió mucho, creció la hierba. Como creció la hierba, llegaron los conejos. Como llegaron los conejos, apareció el zorro. ¿Qué hizo aparecer directamente al zorro?",
+  "opts": [
+   "La lluvia",
+   "La hierba alta",
+   "Los conejos",
+   "La noche"
+  ],
+  "a": 2,
+  "why": "El texto dice que el zorro apareció porque llegaron los conejos. Lo demás fueron causas anteriores.",
+  "hint": "Busca el eslabón justo antes del zorro.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-012",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Los gansos vuelan en forma de V. El ganso de adelante se cansa más, así que se turnan. Verdadero o falso: según el texto, el ganso de adelante se cansa menos que los demás.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "El texto dice que el de adelante se cansa más. Por eso se turnan.",
+  "hint": "Lee cuál ganso se cansa más.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-013",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "El paleontólogo era minucioso: limpiaba cada granito de polvo del hueso, uno por uno. ¿Qué significa 'minucioso'?",
+  "opts": [
+   "Muy rápido",
+   "Muy cuidadoso",
+   "Muy olvidadizo",
+   "Muy aburrido"
+  ],
+  "a": 1,
+  "why": "Limpiar granito por granito demuestra que era muy cuidadoso.",
+  "hint": "¿Qué muestra hacerlo uno por uno?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-014",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Las hormigas viven en colonias. Cada una tiene un trabajo, como buscar comida o cuidar a las crías. Todas trabajan juntas para que la colonia sobreviva. ¿Cuál es el mejor resumen?",
+  "opts": [
+   "Las hormigas trabajan juntas en colonias",
+   "Las hormigas son los animales más fuertes",
+   "Las crías comen solo hojas",
+   "Las colonias viven en el mar"
+  ],
+  "a": 0,
+  "why": "El resumen reúne las ideas de las tres oraciones: colonias, trabajos y trabajo en equipo.",
+  "hint": "¿Qué opción cubre las tres oraciones?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-015",
+  "topic": "reading",
+  "level": 5,
+  "type": "number",
+  "q": "Un poema tiene 4 estrofas. Cada estrofa tiene 3 versos, y cada verso tiene 5 palabras. ¿Cuántas palabras tiene el poema?",
+  "a": 60,
+  "why": "4 estrofas de 3 versos son 12 versos. 12 versos de 5 palabras son 60 palabras.",
+  "hint": "Primero cuenta cuántos versos hay en total.",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-016",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "El entrenador dijo que el plan del corredor era 'audaz'. El árbitro dijo que era 'temerario'. ¿En qué se diferencian estas palabras?",
+  "opts": [
+   "Significan exactamente lo mismo en todo",
+   "Audaz es muy lento",
+   "Temerario es muy seguro",
+   "Audaz alaba, temerario advierte"
+  ],
+  "a": 3,
+  "why": "Audaz suena a elogio por atreverse. Temerario advierte que es imprudente.",
+  "hint": "¿Cada palabra suena a elogio o a advertencia?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-017",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Texto A: Las plantas fabrican su alimento con la luz del Sol. Texto B: Muchos animales se alimentan de plantas. ¿Qué idea muestran los dos textos juntos?",
+  "opts": [
+   "Las plantas comen animales pequeños",
+   "El Sol es muy pequeño y lejano",
+   "Los animales dependen del Sol",
+   "Las plantas viven sin luz"
+  ],
+  "a": 2,
+  "why": "Los animales comen plantas, y las plantas necesitan el Sol. Así que los animales dependen del Sol.",
+  "hint": "Une los dos textos en una cadena.",
+  "tags": [
+   "space",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-018",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "El índice alfabético está al final de muchos libros y lista temas con las páginas donde aparecen. Verdadero o falso: para hallar dónde se habla de 'ballena', puedes buscar en la B del índice.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El índice alfabético ordena los temas por letra, así que 'ballena' estará en la B.",
+  "hint": "¿Con qué letra empieza 'ballena'?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-019",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Ciertos pájaros se posan sobre los búfalos y comen los insectos de su piel. El búfalo se libra de los bichos y el pájaro encuentra comida. ¿Cómo es esta relación?",
+  "opts": [
+   "Solo gana el pájaro",
+   "Los dos salen ganando",
+   "Solo gana el búfalo",
+   "Nadie gana"
+  ],
+  "a": 1,
+  "why": "El búfalo se limpia y el pájaro come. Cada uno obtiene algo bueno.",
+  "hint": "Pregunta qué obtiene cada uno.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-5-020",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Cuando empezó a llover en la última entrada, el entrenador sonrió y dijo: 'Al mal tiempo, buena cara'. ¿Qué quiso decir?",
+  "opts": [
+   "Cambiar de ropa mojada",
+   "Buscar otro lugar seco",
+   "Esperar a que pare la lluvia",
+   "Afrontar todo con ánimo"
+  ],
+  "a": 3,
+  "why": "El refrán aconseja mantener buen ánimo cuando las cosas se ponen difíciles.",
+  "hint": "Fíjate en que el entrenador sonrió.",
+  "tags": [
+   "baseball",
+   "weather"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-001",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál situación es irónica?",
+  "opts": [
+   "Un salvavidas que casi se ahoga",
+   "Un salvavidas que usa gorra",
+   "Un salvavidas que come helado",
+   "Un salvavidas muy alto"
+  ],
+  "a": 0,
+  "why": "La ironía es lo contrario de lo esperado. Un salvavidas debería ayudar a otros en el agua.",
+  "hint": "¿Cuál es lo contrario de lo que esperarías?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-002",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Afirmación: los arrecifes de coral son importantes para la vida marina. ¿Qué dato la apoya mejor?",
+  "opts": [
+   "El coral puede ser rosado o naranja",
+   "Algunos arrecifes están lejos de la costa",
+   "Los buzos usan aletas para verlos",
+   "Muchas especies hallan allí refugio"
+  ],
+  "a": 3,
+  "why": "Una buena prueba conecta con la afirmación. Solo el último dato explica por qué los arrecifes ayudan a la vida marina.",
+  "hint": "¿Cuál dato habla de la VIDA marina?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-003",
+  "topic": "reading",
+  "level": 6,
+  "type": "number",
+  "q": "Un barco de investigación navegó 4 días hasta un arrecife, se quedó allí el triple de días que navegó y volvió en 4 días. ¿Cuántos días duró todo el viaje?",
+  "a": 20,
+  "why": "El triple de 4 días son 12 días en el arrecife. El viaje fue 4 más 12 más 4, que son 20 días.",
+  "hint": "Calcula primero cuántos días estuvo en el arrecife.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-004",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Si la marea no hubiera subido, el delfín varado no habría podido volver al mar. ¿Qué pasó en realidad?",
+  "opts": [
+   "La marea nunca subió esa tarde",
+   "La marea subió y lo liberó",
+   "El delfín jamás estuvo en la arena",
+   "El delfín tuvo que quedarse allí"
+  ],
+  "a": 1,
+  "why": "'Si no hubiera subido' quiere decir que sí subió. Por eso el delfín pudo volver al mar.",
+  "hint": "Dilo de nuevo como si fuera lo que realmente ocurrió.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-005",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "El pronóstico era sombrío, pero la capitana se mantuvo serena y sonrió a su tripulación. ¿Qué significa 'sombrío'?",
+  "opts": [
+   "Muy divertido para todos",
+   "Muy rápido y ligero",
+   "Oscuro y amenazante",
+   "Poco claro y confuso"
+  ],
+  "a": 2,
+  "why": "La palabra 'pero' marca un contraste: el pronóstico era malo, aunque ella siguió serena.",
+  "hint": "¿Qué te indica la palabra 'pero'?",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-006",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "La luz del Sol tarda unos ocho minutos en llegar a la Tierra. Verdadero o falso: cuando miras el Sol, lo ves como era hace unos ocho minutos.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La luz necesita tiempo para viajar, así que la luz que ves salió del Sol unos ocho minutos antes.",
+  "hint": "La luz no viaja de forma instantánea.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-007",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Después de gritarle al árbitro, el jugador fue expulsado. Su entrenadora dijo: 'Quien siembra vientos, recoge tempestades'. ¿Qué quiso decir?",
+  "opts": [
+   "Actuar mal trae consecuencias",
+   "Hay que sembrar más plantas en el jardín",
+   "El viento siempre ayuda a jugar mejor",
+   "Las tormentas son muy bonitas de ver"
+  ],
+  "a": 0,
+  "why": "Quien actúa mal recibe consecuencias, como una tormenta después de sembrar viento.",
+  "hint": "Relaciona la expulsión con el refrán.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-008",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Un reporte dice que el equipo local 'ganó por un pelo'. Otro dice que 'aplastó' al rival. ¿Cuál reporte sugiere un juego cerrado?",
+  "opts": [
+   "El que dice 'aplastó'",
+   "El que dice 'por un pelo'",
+   "Los dos reportes por igual",
+   "Ninguno de los dos reportes"
+  ],
+  "a": 1,
+  "why": "Ganar por un pelo quiere decir ganar por muy poco. Aplastar quiere decir ganar por mucho.",
+  "hint": "¿Cuál expresión significa por muy poco?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-009",
+  "topic": "reading",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena las oraciones para formar un párrafo claro.",
+  "opts": [
+   "Los delfines son animales muy inteligentes.",
+   "Por ejemplo, se reconocen con silbidos propios.",
+   "También cooperan para atrapar peces.",
+   "Por eso muchos científicos los estudian."
+  ],
+  "why": "La idea general va primero, luego los ejemplos, y la conclusión que empieza con 'Por eso' va al final.",
+  "hint": "¿Qué oración presenta el tema y cuál lo cierra?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-010",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Una vuelta de Venus sobre sí mismo tarda 243 días terrestres. Una vuelta de Venus alrededor del Sol tarda 225 días terrestres. ¿Cuál es más larga?",
+  "opts": [
+   "Una vuelta alrededor del Sol",
+   "Duran exactamente lo mismo",
+   "Una vuelta sobre sí mismo",
+   "No se puede saber"
+  ],
+  "a": 2,
+  "why": "243 es mayor que 225. Venus gira tan despacio que una vuelta sobre sí mismo dura más que un año suyo.",
+  "hint": "Compara los dos números con cuidado.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-011",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "La majestuosa ballena saltó fuera del agua, y desde el barco contamos doce rociadas. ¿Qué palabra muestra la opinión del autor?",
+  "opts": [
+   "saltó",
+   "contamos",
+   "doce",
+   "majestuosa"
+  ],
+  "a": 3,
+  "why": "'Majestuosa' es un juicio con el que alguien podría no estar de acuerdo. Las demás palabras se pueden comprobar.",
+  "hint": "¿Con cuál palabra podrían discrepar dos personas?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-012",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Sara probó dos mangos verdes y los dos estaban agrios. Dijo: 'Todos los mangos verdes son agrios'. Verdadero o falso: dos mangos demuestran lo que dijo sobre todos los mangos verdes.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Una muestra pequeña no prueba nada sobre todos. Es una generalización apresurada.",
+  "hint": "¿Dos mangos son todos los mangos del mundo?",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-013",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Los Delfines ganaron 8 de 10 partidos. Los Halcones ganaron 7 de 8. ¿Qué equipo ganó una parte mayor de sus partidos?",
+  "opts": [
+   "Los Halcones",
+   "Los Delfines",
+   "Están empatados",
+   "No se puede saber"
+  ],
+  "a": 0,
+  "why": "8 de 10 es 80 por ciento, pero 7 de 8 es 87,5 por ciento. Tener más victorias no significa una parte mayor.",
+  "hint": "Compara las partes, no el número de victorias.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-014",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras es esdrújula, es decir, tiene el golpe de voz en la antepenúltima sílaba?",
+  "opts": [
+   "tiburón",
+   "murciélago",
+   "delfín",
+   "pulpo"
+  ],
+  "a": 1,
+  "why": "Mur-cié-la-go se acentúa en la antepenúltima sílaba (cié) y lleva tilde. Tiburón y delfín son agudas.",
+  "hint": "Cuenta tres sílabas desde el final de cada palabra.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-015",
+  "topic": "reading",
+  "level": 6,
+  "type": "number",
+  "q": "Cada fila de la tribuna de un estadio tiene 14 asientos. Llegan 100 aficionados. ¿Cuál es el menor número de filas necesarias para sentarlos a todos?",
+  "a": 8,
+  "why": "7 filas solo sientan 98 aficionados. Los 2 que sobran necesitan una octava fila.",
+  "hint": "Divide y piensa qué hacer con los que sobran.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-016",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Un cuento empieza así: 'Era una noche sin Luna y sin viento'. ¿Qué crea el autor con esa frase?",
+  "opts": [
+   "Una lista de datos",
+   "Un problema de sumas",
+   "Un ambiente de misterio",
+   "Una receta de cocina"
+  ],
+  "a": 2,
+  "why": "Una noche sin Luna ni viento crea un ambiente quieto y misterioso.",
+  "hint": "Imagina cómo se siente esa noche.",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-017",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Un libro se llama 'Las partes de un cohete'. Otro se llama 'Por qué debemos cuidar los océanos'. Verdadero o falso: el título 'Las partes de un cohete' sugiere que el autor quiere convencer.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "'Las partes de un cohete' suena a información. 'Debemos' en el otro título es señal de persuasión.",
+  "hint": "¿Cuál título dice lo que el lector debe hacer?",
+  "tags": [
+   "space",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-018",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "El árbitro vio que el corredor se adelantó de la base, pero hizo la vista gorda. ¿Qué hizo el árbitro?",
+  "opts": [
+   "Lo acusó enseguida",
+   "Perdió la vista",
+   "Lo miró con atención",
+   "Fingió no verlo"
+  ],
+  "a": 3,
+  "why": "Hacer la vista gorda es un modismo: fingir que no se ha visto algo.",
+  "hint": "¿Importa la vista del árbitro o lo que decidió hacer?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-019",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "La mayoría de los pingüinos vive en lugares fríos, pero algunas especies viven en zonas cálidas, como las islas Galápagos. Verdadero o falso: existe al menos un tipo de pingüino que vive en clima cálido.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El texto dice que algunas especies viven en zonas cálidas, así que al menos una existe.",
+  "hint": "¿Qué significa 'algunas especies'?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "lecB-6-020",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Foto significa 'luz' y grafía significa 'escritura'. ¿Qué significa literalmente la palabra 'fotografía'?",
+  "opts": [
+   "Escritura con luz",
+   "Luz de la Luna",
+   "Marco de madera",
+   "Libro de dibujos"
+  ],
+  "a": 0,
+  "why": "Foto es luz y grafía es escritura, así que fotografía es escribir o dibujar con luz.",
+  "hint": "Une el significado de las dos partes.",
+  "tags": [],
+  "fun": false,
+  "src": "Lectura",
+  "ver": "2026-11"
+ }
+]

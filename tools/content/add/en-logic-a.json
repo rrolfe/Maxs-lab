@@ -1472,9 +1472,9 @@
   "topic": "logic",
   "level": 4,
   "type": "number",
-  "q": "In baseball, a team needs 3 outs to end each half-inning. A game has 9 innings. How many outs must one team get in a full game of 9 innings?",
+  "q": "In baseball, a team's turn at bat ends after 3 outs. A team bats once in each of 9 innings. How many outs is that in all?",
   "a": 27,
-  "why": "3 outs in each of 9 innings is 3 × 9 = 27 outs.",
+  "why": "3 outs in each of 9 innings makes 3 × 9 = 27 outs.",
   "hint": "Multiply the outs per inning by the innings.",
   "tags": [
    "baseball"
@@ -2050,7 +2050,7 @@
   "topic": "logic",
   "level": 6,
   "type": "number",
-  "q": "Using only dimes and nickels, how many different mixes of coins make exactly 25 cents?",
+  "q": "You have lots of dimes and nickels. In how many different ways can you make exactly 25 cents? Using just one kind of coin is allowed.",
   "a": 3,
   "why": "Use 0 dimes and 5 nickels, or 1 dime and 3 nickels, or 2 dimes and 1 nickel. That is 3 ways.",
   "hint": "Start with no dimes, then add one at a time.",

@@ -270,7 +270,7 @@
   "topic": "words",
   "level": 1,
   "type": "choice",
-  "q": "A diver sinks in deep water. Which word is the opposite of deep?",
+  "q": "A diver swims down in deep water. Which word is the opposite of deep?",
   "opts": [
    "wet",
    "shallow",
@@ -1436,10 +1436,10 @@
   "type": "choice",
   "q": "The octopus was camouflaged. It matched the rocks so well that the diver swam right past. What does 'camouflaged' mean?",
   "opts": [
-   "afraid of divers",
+   "afraid of passing divers",
    "hidden by blending in",
-   "covered in sand",
-   "moving very fast"
+   "covered with wet sand",
+   "swimming very fast away"
   ],
   "a": 1,
   "why": "Camouflaged means hidden by looking like the surroundings. The clue is that it matched the rocks.",
@@ -1459,9 +1459,9 @@
   "q": "A baseball glove that can be washed is washable. What does the suffix -able mean?",
   "opts": [
    "can be done",
-   "without",
-   "full of",
-   "more than"
+   "having none of",
+   "being full of",
+   "more than usual"
   ],
   "a": 0,
   "why": "Washable means able to be washed. The suffix -less means without, and -ful means full of.",
@@ -1608,9 +1608,9 @@
   "q": "Seeing one fin was just the tip of the iceberg; many sharks were nearby. What does 'tip of the iceberg' mean?",
   "opts": [
    "a small part of something bigger",
-   "a very cold place",
-   "a way to stay safe",
-   "a rare, lucky chance"
+   "a very cold and icy place",
+   "a smart way to stay safe",
+   "a rare and very lucky chance"
   ],
   "a": 0,
   "why": "Most of an iceberg hides underwater. The saying means you see just a small part of something much bigger.",
@@ -2305,7 +2305,7 @@
   "type": "choice",
   "q": "The word 'umpire' once began with n: 'a noumpere.' People heard it as 'an oumpere.' What happened to the n?",
   "opts": [
-   "It slid over to the word before it",
+   "It slid onto the word before it",
    "It was replaced by a u",
    "It moved to the end",
    "It was lost in a spelling contest"
@@ -2391,7 +2391,7 @@
   "topic": "words",
   "level": 6,
   "type": "choice",
-  "q": "Which sentence uses 'sound' to mean a wide stretch of sea water between pieces of land?",
+  "q": "Which sentence uses 'sound' to mean a stretch of sea water between pieces of land?",
   "opts": [
    "A loud sound woke the crew.",
    "The boat crossed the sound at dawn.",
@@ -2399,7 +2399,7 @@
    "Sound the alarm if you see fins."
   ],
   "a": 1,
-  "why": "A sound can be a wide inlet of the sea, like Puget Sound. The other sentences use different meanings.",
+  "why": "A sound can be a stretch of sea between lands, like Puget Sound. The other sentences use other meanings.",
   "hint": "Which sentence is about water and land?",
   "tags": [
    "ocean"
@@ -2480,9 +2480,9 @@
   "q": "The tenacious pitcher kept trying even after walking five batters. What does 'tenacious' mean?",
   "opts": [
    "determined, not giving up",
-   "easily upset",
-   "very tall",
-   "careless with the ball"
+   "easily upset by bad calls",
+   "much taller than the batters",
+   "careless with every pitch"
   ],
   "a": 0,
   "why": "Tenacious means holding on and refusing to quit. The clue is that he kept trying after hard moments.",

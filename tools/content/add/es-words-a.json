@@ -1,0 +1,2523 @@
+[
+ {
+  "id": "palB-1-001",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "El tiburón ballena es enorme. El pececito es lo contrario. ¿Cuál palabra describe al pececito?",
+  "opts": [
+   "grande",
+   "veloz",
+   "pequeño"
+  ],
+  "a": 2,
+  "why": "Los contrarios significan lo opuesto. Enorme y grande significan casi lo mismo; pequeño es lo contrario.",
+  "hint": "Contrario quiere decir opuesto.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-002",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Con qué sílaba empieza la palabra 'cohete'?",
+  "opts": [
+   "ho",
+   "co",
+   "te"
+  ],
+  "a": 1,
+  "why": "Cohete se divide así: co-he-te. La primera sílaba es co.",
+  "hint": "Aplaude cada sílaba al decir la palabra.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-003",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "____ estrellas brillan en la noche. ¿Qué palabra falta?",
+  "opts": [
+   "Las",
+   "Los",
+   "El"
+  ],
+  "a": 0,
+  "why": "Estrellas es femenino y plural, así que lleva 'las'.",
+  "hint": "Estrellas es femenino y hay muchas.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-004",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "La palabra 'luna' tiene dos sílabas: lu-na.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Lu-na tiene dos palmadas, es decir, dos sílabas.",
+  "hint": "Aplaude al decir la palabra.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-005",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "El dinosaurio era enorme. ¿Qué palabra significa casi lo mismo que enorme?",
+  "opts": [
+   "gigante",
+   "chiquito",
+   "lento"
+  ],
+  "a": 0,
+  "why": "Enorme y gigante significan muy grande. Chiquito significa lo contrario.",
+  "hint": "Busca otra manera de decir muy grande.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-006",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "En 'El delfín salta alto', ¿qué palabra dice lo que hace el delfín?",
+  "opts": [
+   "delfín",
+   "salta",
+   "alto"
+  ],
+  "a": 1,
+  "why": "Salta es la acción, o sea, el verbo. Delfín dice quién, y alto dice cómo.",
+  "hint": "Busca la acción.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-007",
+  "topic": "words",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena las sílabas para formar el nombre de un objeto con cola brillante que viaja por el espacio.",
+  "opts": [
+   "co",
+   "me",
+   "ta"
+  ],
+  "why": "Co-me-ta forma cometa: una bola de hielo y polvo que deja una cola brillante.",
+  "hint": "Piensa en una cola de luz en el cielo.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-008",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué palabra rima con 'luna'?",
+  "opts": [
+   "mesa",
+   "sol",
+   "cuna"
+  ],
+  "a": 2,
+  "why": "Luna y cuna terminan igual: -una. Mesa y sol suenan distinto al final.",
+  "hint": "Escucha cómo terminan las palabras.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-009",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "En el abecedario del español, ¿qué letra va justo después de la 'n'?",
+  "opts": [
+   "o",
+   "m",
+   "ñ"
+  ],
+  "a": 2,
+  "why": "El abecedario sigue así: m, n, ñ, o. La ñ es una letra propia del español.",
+  "hint": "Canta el abecedario despacio.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-010",
+  "topic": "words",
+  "level": 1,
+  "type": "number",
+  "q": "¿Cuántas vocales (a, e, i, o, u) tiene la palabra 'tiburón'?",
+  "a": 3,
+  "why": "Tiburón tiene i, u y ó. La o con tilde también cuenta como vocal.",
+  "hint": "Cuenta cada vocal, aunque lleve tilde.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-011",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "____ ballena canta bajo el mar. ¿Qué palabra falta?",
+  "opts": [
+   "La",
+   "El",
+   "Los"
+  ],
+  "a": 0,
+  "why": "Ballena es femenino y singular, por eso lleva 'la'.",
+  "hint": "Ballena es femenino y es una sola.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-012",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Lee la palabra 'sol' de atrás hacia adelante. ¿Qué palabra sale?",
+  "opts": [
+   "sal",
+   "sol",
+   "los"
+  ],
+  "a": 2,
+  "why": "Al revés, s-o-l se lee l-o-s: los. Sal tiene una a en medio, y sol sería la misma palabra sin voltearla.",
+  "hint": "Empieza por la última letra.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-013",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "La palabra 'pelota' es una acción, como correr.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Pelota es un sustantivo: nombra una cosa. Correr es un verbo, o sea, una acción.",
+  "hint": "¿Pelota nombra una cosa o una acción?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-014",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Un cangrejo, dos ____ . ¿Cuál es el plural correcto?",
+  "opts": [
+   "cangrejes",
+   "cangrejos",
+   "cangrejas"
+  ],
+  "a": 1,
+  "why": "Si la palabra termina en vocal, se agrega -s: cangrejo, cangrejos.",
+  "hint": "Termina en o. ¿Qué letra agregas?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-015",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál palabra empieza con el mismo sonido que 'cangrejo'?",
+  "opts": [
+   "casa",
+   "cielo",
+   "cebra"
+  ],
+  "a": 0,
+  "why": "Cangrejo y casa empiezan con el sonido /k/. En cielo y cebra, la c suena suave.",
+  "hint": "Di cada palabra y escucha el primer sonido.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-016",
+  "topic": "words",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena las palabras para formar una oración.",
+  "opts": [
+   "El",
+   "tiburón",
+   "nada",
+   "rápido."
+  ],
+  "why": "Una oración empieza con mayúscula y dice quién es y qué hace.",
+  "hint": "Empieza por la palabra con mayúscula.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-017",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "El satélite está arriba, en el cielo. ¿Cuál palabra es lo contrario de 'arriba'?",
+  "opts": [
+   "afuera",
+   "abajo",
+   "cerca"
+  ],
+  "a": 1,
+  "why": "Arriba y abajo son opuestos. Afuera es lo contrario de adentro.",
+  "hint": "Piensa en dónde está el piso.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-018",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras NO es un animal del mar?",
+  "opts": [
+   "conejo",
+   "medusa",
+   "pulpo"
+  ],
+  "a": 0,
+  "why": "La medusa y el pulpo viven en el mar. El conejo vive en la tierra.",
+  "hint": "Piensa dónde vive cada animal.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-019",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "El astronauta tuvo un ____ bonito sobre la Luna. ¿Cómo se escribe?",
+  "opts": [
+   "sueno",
+   "sueño",
+   "suenio"
+  ],
+  "a": 1,
+  "why": "Sueño lleva ñ, la letra con una ondita arriba.",
+  "hint": "Busca la letra con una ondita.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-1-020",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál palabra se lee igual de izquierda a derecha y de derecha a izquierda?",
+  "opts": [
+   "lobo",
+   "foca",
+   "oso"
+  ],
+  "a": 2,
+  "why": "Oso al revés sigue siendo oso. Lobo al revés dice 'obol'. Estas palabras se llaman palíndromos.",
+  "hint": "Lee cada palabra desde su última letra.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-001",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras es compuesta, o sea, está hecha con dos palabras?",
+  "opts": [
+   "tulipán",
+   "girasol",
+   "jardín"
+  ],
+  "a": 1,
+  "why": "Girasol viene de gira + sol, porque la flor gira siguiendo al sol. Tulipán y jardín son una sola palabra.",
+  "hint": "Busca una palabra que se pueda partir en dos.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-002",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "El macho es el león. ¿Cómo se llama la hembra?",
+  "opts": [
+   "leona",
+   "leóna",
+   "leonesa"
+  ],
+  "a": 0,
+  "why": "Al cambiar a femenino, león pierde la tilde: leona. Muchas hembras terminan en -a, como osa.",
+  "hint": "La hembra termina en -a.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-003",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Un tiburón, dos ____ . ¿Cómo se escribe el plural?",
+  "opts": [
+   "tiburones",
+   "tiburónes",
+   "tiburons"
+  ],
+  "a": 0,
+  "why": "Al agregar -es, la palabra pierde la tilde: tiburones.",
+  "hint": "Escucha dónde suena más fuerte la voz.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-004",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Con solo una tilde, 'papa' (una comida) se convierte en 'papá' (tu padre).",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La tilde cambia el significado: papa es una comida y papá es tu padre. ¡Una rayita hace la diferencia!",
+  "hint": "Fíjate en la rayita sobre la última a.",
+  "tags": [
+   "food"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-005",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál es el diminutivo de 'pez'?",
+  "opts": [
+   "pezito",
+   "pececito",
+   "pezecito"
+  ],
+  "a": 1,
+  "why": "Pez cambia a pececito: la z se vuelve c, como en el plural peces.",
+  "hint": "Piensa en el plural: peces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-006",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "El fondo del mar es oscuro. ¿Cuál palabra es lo contrario de 'oscuro'?",
+  "opts": [
+   "negro",
+   "frío",
+   "claro"
+  ],
+  "a": 2,
+  "why": "Oscuro y claro son contrarios. Negro es un color oscuro, no su contrario.",
+  "hint": "Piensa en un cuarto lleno de luz.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-007",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Los tiburones ____ cerca del arrecife. ¿Qué forma del verbo nadar falta?",
+  "opts": [
+   "nada",
+   "nadas",
+   "nadan"
+  ],
+  "a": 2,
+  "why": "Tiburones es plural, así que el verbo también: nadan. Nada va con un solo tiburón.",
+  "hint": "¿Hay uno o muchos tiburones?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-008",
+  "topic": "words",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena las oraciones para contar lo que pasó en el juego.",
+  "opts": [
+   "El lanzador tiró la primera bola.",
+   "El bateador la golpeó fuerte.",
+   "La pelota voló sobre la cerca.",
+   "¡Fue un jonrón!"
+  ],
+  "why": "Primero lanza el pitcher, luego batea el bateador, después vuela la pelota y al final llega el jonrón.",
+  "hint": "Piensa qué pasa primero en un turno al bate.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-009",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "____ mano del pelotero atrapó la pelota. ¿Qué artículo falta?",
+  "opts": [
+   "La",
+   "El",
+   "Los"
+  ],
+  "a": 0,
+  "why": "Mano es femenina aunque termine en o: la mano. Es una excepción que hay que aprender.",
+  "hint": "Di en voz alta: ¿el mano o la mano?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-010",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cómo se escribe el nombre de un felino manchado que corre muy rápido?",
+  "opts": [
+   "guepardo",
+   "gepardo",
+   "guiepardo"
+  ],
+  "a": 0,
+  "why": "Con ge la g suena como j. Para que suene fuerte, se escribe gue: guepardo.",
+  "hint": "Esa g suena fuerte, como en 'guitarra'.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-011",
+  "topic": "words",
+  "level": 2,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'dinosaurio'?",
+  "a": 4,
+  "why": "Di-no-sau-rio tiene cuatro. Las vocales 'au' e 'io' van juntas y forman una sola sílaba cada una.",
+  "hint": "Las vocales juntas suenan en una sola sílaba.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-012",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "El pelotero corrió veloz hasta la base. ¿Qué palabra significa casi lo mismo que 'veloz'?",
+  "opts": [
+   "pesado",
+   "rápido",
+   "cansado"
+  ],
+  "a": 1,
+  "why": "Veloz y rápido significan que algo se mueve con mucha rapidez. Pesado no tiene que ver.",
+  "hint": "Piensa en alguien que corre mucho.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-013",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "El buzo se sumergió en el mar. ¿Qué significa 'sumergió'?",
+  "opts": [
+   "saltó muy alto desde el barco",
+   "se metió bajo el agua",
+   "salió nadando hasta la orilla"
+  ],
+  "a": 1,
+  "why": "Sumergirse es meterse bajo el agua. La pista es que un buzo trabaja dentro del mar.",
+  "hint": "Piensa en lo que hace un buzo.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-014",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "En español, los días de la semana, como 'lunes', se escriben con mayúscula inicial.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "En español, los días y los meses se escriben con minúscula, porque son nombres comunes.",
+  "hint": "¿Es un nombre propio o uno común?",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-015",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál palabra es de la familia de 'sol'?",
+  "opts": [
+   "soldado",
+   "solo",
+   "soleado"
+  ],
+  "a": 2,
+  "why": "Soleado viene de sol: un día con mucho sol. Soldado y solo tienen otro origen.",
+  "hint": "Busca la palabra que tiene que ver con el cielo.",
+  "tags": [
+   "weather",
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-016",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cómo se escribe el instrumento que se toca con palillos?",
+  "opts": [
+   "tanbor",
+   "tambor",
+   "tamvor"
+  ],
+  "a": 1,
+  "why": "Antes de b siempre se escribe m, nunca n: tambor, cambio, también.",
+  "hint": "Piensa en la regla de m antes de b.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-017",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Las palabras 'grande' y 'pequeño' son sinónimos.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Los sinónimos significan lo mismo. Grande y pequeño significan lo contrario, así que son antónimos.",
+  "hint": "¿Significan lo mismo o lo opuesto?",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-018",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras se escribe siempre con mayúscula inicial?",
+  "opts": [
+   "Marte",
+   "planeta",
+   "estrella"
+  ],
+  "a": 0,
+  "why": "Marte es el nombre propio de un planeta, por eso lleva mayúscula. Planeta y estrella son nombres comunes.",
+  "hint": "Un nombre propio señala algo único.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-019",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Ayer yo ____ béisbol con mis amigos. ¿Qué forma del verbo jugar falta?",
+  "opts": [
+   "juego",
+   "jugaré",
+   "jugué"
+  ],
+  "a": 2,
+  "why": "Ayer ya pasó, así que el verbo va en pasado: jugué.",
+  "hint": "Ayer ya pasó.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-2-020",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "En 'El tiburón gris nada', ¿qué palabra dice cómo es el tiburón?",
+  "opts": [
+   "nada",
+   "tiburón",
+   "gris"
+  ],
+  "a": 2,
+  "why": "Gris es un adjetivo: describe al sustantivo. Nada es el verbo.",
+  "hint": "Busca la palabra que describe.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-001",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Una ____ gigante llegó a la orilla. ¿Qué palabra falta?",
+  "opts": [
+   "hola",
+   "olla",
+   "ora",
+   "ola"
+  ],
+  "a": 3,
+  "why": "Ola, sin h, es el movimiento del agua del mar. Hola, con h, es un saludo. Suenan casi igual.",
+  "hint": "¿Cuál palabra mueve el agua del mar?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-002",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Algo que no se puede ver es ____ . ¿Qué palabra falta?",
+  "opts": [
+   "visible",
+   "visual",
+   "visera",
+   "invisible"
+  ],
+  "a": 3,
+  "why": "El prefijo in- significa no. Invisible es lo que no se puede ver.",
+  "hint": "Busca el prefijo que significa no.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-003",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "El buzo respiraba por un ____ de aire. ¿Qué palabra falta?",
+  "opts": [
+   "tuvo",
+   "tubo",
+   "tubó",
+   "tuvó"
+  ],
+  "a": 1,
+  "why": "Tubo, con b, es un conducto hueco. Tuvo, con v, viene del verbo tener.",
+  "hint": "¿Qué objeto hueco deja pasar el aire?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-004",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "La palabra 'cielo' tiene un diptongo, o sea, dos vocales juntas en una sola sílaba.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "En cie-lo, la i y la e van juntas en una sola sílaba. Eso se llama diptongo.",
+  "hint": "Aplaude las sílabas de cielo.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-005",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "El sufijo -dor significa 'el que hace algo'. ¿Cómo se llama el que lanza la pelota?",
+  "opts": [
+   "lancero",
+   "lanzada",
+   "lanzar",
+   "lanzador"
+  ],
+  "a": 3,
+  "why": "Lanzar + -dor forma lanzador, la persona que lanza. Lanzar es solo la acción.",
+  "hint": "Busca a la persona que hace la acción.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-006",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "En 'Un banco de peces pasó nadando', ¿qué significa 'banco'?",
+  "opts": [
+   "un asiento largo",
+   "un lugar para guardar dinero",
+   "la orilla del río",
+   "un grupo de peces"
+  ],
+  "a": 3,
+  "why": "Banco tiene varios significados. Aquí, banco de peces es un grupo grande de peces que nadan juntos.",
+  "hint": "Piensa en lo que hacen los peces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-007",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "El tiburón nadó ____ hacia su presa. ¿Cómo se escribe la palabra?",
+  "opts": [
+   "rápidamente",
+   "rapidamente",
+   "rápidomente",
+   "rapidomente"
+  ],
+  "a": 0,
+  "why": "Las palabras con -mente conservan la tilde del adjetivo: rápido, rápidamente.",
+  "hint": "Mira cómo se escribe rápido.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-008",
+  "topic": "words",
+  "level": 3,
+  "type": "number",
+  "q": "¿Cuántas de estas palabras llevan tilde: árbitro, guante, césped, pelota, rápido, jugador?",
+  "a": 3,
+  "why": "Árbitro, césped y rápido llevan tilde. Guante, pelota y jugador no la necesitan.",
+  "hint": "Fíjate en dónde suena más fuerte cada palabra.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-009",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cuál es el aumentativo de 'casa'?",
+  "opts": [
+   "casita",
+   "casilla",
+   "casero",
+   "casona"
+  ],
+  "a": 3,
+  "why": "El aumentativo dice que algo es más grande. Una casona es una casa grande. Casita y casilla son pequeñas.",
+  "hint": "Aumentativo quiere decir más grande.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-010",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "El astronauta fue muy valiente. ¿Qué palabra significa casi lo mismo que 'valiente'?",
+  "opts": [
+   "tímido",
+   "audaz",
+   "cansado",
+   "veloz"
+  ],
+  "a": 1,
+  "why": "Valiente y audaz se dicen de quien no tiene miedo de hacer cosas difíciles. Tímido es lo contrario.",
+  "hint": "Busca la palabra que va con no tener miedo.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-011",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "'Jonrón' viene del inglés 'home run'. ¿Cómo se llama a las palabras que un idioma toma de otro?",
+  "opts": [
+   "préstamos",
+   "sinónimos",
+   "rimas",
+   "diptongos"
+  ],
+  "a": 0,
+  "why": "Los préstamos son palabras que un idioma toma de otro. Jonrón suena parecido a home run.",
+  "hint": "Piensa en palabras que viajaron de un idioma a otro.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-012",
+  "topic": "words",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena alfabéticamente estas palabras del mar.",
+  "opts": [
+   "pez",
+   "pingüino",
+   "plancton",
+   "pulpo"
+  ],
+  "why": "Todas empiezan con p, así que miramos la segunda letra: e, i, l, u.",
+  "hint": "Compara la segunda letra de cada palabra.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-013",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Hay peces en abundancia. Lo contrario de 'abundante' es ____ . ¿Qué palabra falta?",
+  "opts": [
+   "numeroso",
+   "enorme",
+   "escaso",
+   "colorido"
+  ],
+  "a": 2,
+  "why": "Abundante es lo que hay mucho. Escaso es lo que hay muy poco. Numeroso se parece a abundante.",
+  "hint": "Busca el opuesto de mucho.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-014",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "El cangrejo es muy ágil y se escabulle entre las rocas. ¿Qué significa 'ágil'?",
+  "opts": [
+   "es muy pesado y se cansa",
+   "tiene el caparazón muy duro",
+   "hace mucho ruido al caminar",
+   "se mueve rápido y fácil"
+  ],
+  "a": 3,
+  "why": "Ágil se dice de quien se mueve con rapidez y facilidad. La pista es que se escabulle entre las rocas.",
+  "hint": "Usa la pista: se escabulle entre las rocas.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-015",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Ayer los astronautas ____ la Luna de cerca. ¿Qué forma del verbo ver falta?",
+  "opts": [
+   "veyeron",
+   "vieron",
+   "vieran",
+   "veron"
+  ],
+  "a": 1,
+  "why": "Ver es irregular en pasado: ellos vieron. Veyeron y veron no existen.",
+  "hint": "Ayer ya pasó, y son varios astronautas.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-016",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Todos los verbos que terminan en -bir, como 'escribir', se escriben con b.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Casi todos llevan b, pero hay tres excepciones: hervir, servir y vivir, que llevan v.",
+  "hint": "Piensa en el verbo vivir.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-017",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cuál frase está bien escrita?",
+  "opts": [
+   "la planeta roja",
+   "el planeta roja",
+   "el planeta rojo",
+   "la planeta rojo"
+  ],
+  "a": 2,
+  "why": "Planeta es masculina aunque termine en a: el planeta. Por eso el adjetivo va en masculino: rojo.",
+  "hint": "Fíjate en cómo concuerdan artículo y adjetivo.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-018",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "El entrenador tiene un corazón de oro. ¿Qué quiere decir esa frase?",
+  "opts": [
+   "tiene joyas escondidas",
+   "está enfermo del corazón",
+   "es muy bondadoso",
+   "es muy rico"
+  ],
+  "a": 2,
+  "why": "Corazón de oro es una expresión, no es literal. Se dice de alguien muy bueno y generoso.",
+  "hint": "No es literal: piensa en cómo es la persona.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-019",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "El agua congelada se llama ____ . ¿Cómo se escribe?",
+  "opts": [
+   "hielo",
+   "ielo",
+   "yelo",
+   "jielo"
+  ],
+  "a": 0,
+  "why": "Hielo empieza con h aunque no suene: h-ie-lo. Lo mismo pasa con hierro y hierba.",
+  "hint": "La h no se oye, pero ahí está.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-3-020",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Un grupo de abejas se llama ____ . ¿Qué palabra falta?",
+  "opts": [
+   "enjambre",
+   "cardumen",
+   "bandada",
+   "manada"
+  ],
+  "a": 0,
+  "why": "Un enjambre es un grupo de abejas. Cardumen es de peces, bandada de aves y manada de lobos.",
+  "hint": "Piensa en un panal.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-001",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "En 'tiburón', la sílaba que suena más fuerte es la última. ¿Cómo se llama esa clase de palabra?",
+  "opts": [
+   "aguda",
+   "llana",
+   "esdrújula",
+   "sobresdrújula"
+  ],
+  "a": 0,
+  "why": "Si la sílaba más fuerte es la última, la palabra es aguda: ti-bu-RÓN. Las llanas cargan la penúltima.",
+  "hint": "Cuenta las sílabas desde el final.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-002",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "El prefijo pre- significa 'antes'. ¿Qué significa 'prehistórico'?",
+  "opts": [
+   "posterior a la historia escrita",
+   "que cuenta muchas historias",
+   "que no tiene ninguna historia",
+   "anterior a la historia escrita"
+  ],
+  "a": 3,
+  "why": "Pre- significa antes. Los dinosaurios vivieron mucho antes de que existiera la escritura, así que son prehistóricos.",
+  "hint": "Pre- significa antes.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-003",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Los fanáticos saltaron la ____ del estadio. ¿Qué palabra falta?",
+  "opts": [
+   "valla",
+   "vaya",
+   "baya",
+   "balla"
+  ],
+  "a": 0,
+  "why": "Valla, con v, es una cerca. Vaya viene del verbo ir, y baya es un fruto pequeño. Suenan casi igual.",
+  "hint": "¿Qué palabra nombra una cerca?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-004",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Las palabras terminadas en -illa, como 'ardilla', se escriben con y.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Las terminaciones -illo e -illa se escriben con ll: ardilla, cuchillo, sencilla.",
+  "hint": "Piensa en cómo se escribe 'sencilla'.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-005",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "El pez sierra tiene un hocico largo con dientes a los lados. ¿Qué significa 'sierra' aquí?",
+  "opts": [
+   "una cadena de montañas",
+   "una herramienta con dientes para cortar",
+   "un tipo de ola",
+   "un lugar muy frío"
+  ],
+  "a": 1,
+  "why": "Sierra también es una herramienta con dientes. El hocico del pez sierra parece una. Otra sierra es una cadena de montañas.",
+  "hint": "Piensa en lo que parece su hocico.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-006",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Planeta es una palabra que incluye a Marte y Venus. ¿Qué palabra incluye a 'tiburón', 'atún' y 'sardina'?",
+  "opts": [
+   "mamífero",
+   "molusco",
+   "pez",
+   "crustáceo"
+  ],
+  "a": 2,
+  "why": "Tiburón, atún y sardina son tipos de pez. Pez es la palabra general que los reúne.",
+  "hint": "Busca el grupo grande al que pertenecen.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-007",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "El entrenador le dice al lanzador: '____ la pelota con fuerza'. ¿Qué forma de lanzar es una orden?",
+  "opts": [
+   "Lanzo",
+   "Lanzaba",
+   "Lanzará",
+   "Lanza"
+  ],
+  "a": 3,
+  "why": "Una orden se escribe en imperativo: tú, lanza. Lanzo, lanzaba y lanzará cuentan lo que alguien hace o hará.",
+  "hint": "Busca la forma que da una orden.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-008",
+  "topic": "words",
+  "level": 4,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'paracaídas'?",
+  "a": 5,
+  "why": "Pa-ra-ca-í-das tiene cinco sílabas. En 'ca-í' las vocales van separadas, y eso se llama hiato.",
+  "hint": "La í con tilde va en su propia sílaba.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-009",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras es esdrújula, o sea, suena más fuerte en la antepenúltima sílaba?",
+  "opts": [
+   "planeta",
+   "cohete",
+   "satélite",
+   "estrella"
+  ],
+  "a": 2,
+  "why": "Sa-TÉ-li-te suena más fuerte tres sílabas antes del final. Planeta, cohete y estrella son llanas.",
+  "hint": "Cuenta tres sílabas desde el final.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-010",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "'El delfín nadaba como un rayo.' ¿Qué figura literaria es?",
+  "opts": [
+   "metáfora",
+   "personificación",
+   "rima",
+   "comparación"
+  ],
+  "a": 3,
+  "why": "Compara dos cosas con la palabra como: el delfín y un rayo. Eso es una comparación o símil.",
+  "hint": "Busca la palabra que une las dos cosas.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-011",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "El sufijo -ería nombra el lugar donde se vende algo. ¿Dónde se compra pescado?",
+  "opts": [
+   "pescadería",
+   "pescadero",
+   "pescado",
+   "pescar"
+  ],
+  "a": 0,
+  "why": "Pescadería es la tienda donde se vende pescado. Pescadero es la persona que lo vende.",
+  "hint": "Busca el nombre del lugar, no de la persona.",
+  "tags": [
+   "food",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-012",
+  "topic": "words",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena estas palabras de la menor a la mayor cantidad de agua.",
+  "opts": [
+   "gota",
+   "charco",
+   "laguna",
+   "océano"
+  ],
+  "why": "Una gota es muy poca agua, un charco es más, una laguna es mucho más y un océano es lo más grande.",
+  "hint": "Piensa en tamaños.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-013",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Qué significa el refrán 'Más vale pájaro en mano que ciento volando'?",
+  "opts": [
+   "Cien pájaros valen más que uno solo",
+   "Los pájaros vuelan muy rápido y lejos",
+   "Hay que cuidar a las aves",
+   "Conviene lo seguro, no lo dudoso"
+  ],
+  "a": 3,
+  "why": "Un refrán no se lee al pie de la letra. Aconseja quedarse con lo seguro y no arriesgarlo por algo incierto.",
+  "hint": "No habla solo de pájaros: piensa en el consejo.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-014",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "El arrecife de coral es un lugar muy ____ . ¿Qué palabra falta?",
+  "opts": [
+   "bello",
+   "vello",
+   "velo",
+   "belo"
+  ],
+  "a": 0,
+  "why": "Bello, con b, significa hermoso. Vello, con v, es pelo fino, y velo es una tela.",
+  "hint": "¿Qué palabra significa hermoso?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-015",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien la 'y' o la 'e'?",
+  "opts": [
+   "Pescamos peces y invertebrados.",
+   "Pescamos peces e erizos.",
+   "Pescamos peces u invertebrados.",
+   "Pescamos peces e invertebrados."
+  ],
+  "a": 3,
+  "why": "Antes de una palabra que empieza con el sonido i se usa e en lugar de y: peces e invertebrados.",
+  "hint": "Fíjate con qué sonido empieza la palabra siguiente.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-016",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Todas las palabras esdrújulas, como 'satélite', llevan tilde.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Las esdrújulas siempre llevan tilde, sin excepción: satélite, rápido, murciélago.",
+  "hint": "El golpe de voz cae tres sílabas antes del final.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-017",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Este guante es ____ que el otro. ¿Qué palabra falta?",
+  "opts": [
+   "más bueno",
+   "más mejor",
+   "buenísimo",
+   "mejor"
+  ],
+  "a": 3,
+  "why": "Bueno tiene un comparativo especial: mejor. No se dice más bueno ni más mejor.",
+  "hint": "Bueno cambia por completo al comparar.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-018",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien el verbo haber?",
+  "opts": [
+   "Habían muchos peces en la bahía.",
+   "Habia muchos peces en la bahía.",
+   "Había muchos peces en la bahía.",
+   "Habían mucho peces en la bahía."
+  ],
+  "a": 2,
+  "why": "Con el sentido de existir, haber no cambia al plural: había muchos peces. Se dice 'hay peces', no 'hayn'.",
+  "hint": "Compara con hay: hay peces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-019",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras se usa igual para un hombre y una mujer, cambiando solo el artículo?",
+  "opts": [
+   "profesor",
+   "astronauta",
+   "niño",
+   "león"
+  ],
+  "a": 1,
+  "why": "Se dice el astronauta y la astronauta. En profesor, niño y león cambia la terminación.",
+  "hint": "Busca la palabra que no cambia al pasar a femenino.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-4-020",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "En español, el gallo canta 'quiquiriquí'. ¿Cómo se llama una palabra que imita un sonido?",
+  "opts": [
+   "sinónimo",
+   "onomatopeya",
+   "refrán",
+   "diptongo"
+  ],
+  "a": 1,
+  "why": "Las onomatopeyas imitan sonidos y cambian entre idiomas. En inglés el gallo dice cock-a-doodle-doo.",
+  "hint": "Piensa en palabras como guau o miau.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-001",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien 'sé' y 'se'?",
+  "opts": [
+   "Yo se que el pulpo sé esconde.",
+   "Yo sé que el pulpo sé esconde.",
+   "Yo se que el pulpo se esconde.",
+   "Yo sé que el pulpo se esconde."
+  ],
+  "a": 3,
+  "why": "Sé, con tilde, viene de saber: yo sé. Se, sin tilde, acompaña a verbos como esconder: se esconde.",
+  "hint": "Una es del verbo saber; la otra va con esconde.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-002",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Un tiburón muy hambriento se comió un pez de un bocado. ¿Qué verbo expresa eso con más fuerza que 'comió'?",
+  "opts": [
+   "probó",
+   "devoró",
+   "picó",
+   "saboreó"
+  ],
+  "a": 1,
+  "why": "Devorar es comer con muchas ganas y muy rápido. Probar y saborear son comer despacio, y picar es comer poquito.",
+  "hint": "Busca el verbo para comer con muchísima hambre.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-003",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cómo se escribe el cereal amarillo que se come en mazorca?",
+  "opts": [
+   "maiz",
+   "máiz",
+   "maíz",
+   "maís"
+  ],
+  "a": 2,
+  "why": "En maíz, la tilde sobre la í separa las dos vocales: ma-íz. Sin tilde se leería en una sola sílaba.",
+  "hint": "Fíjate en la vocal que suena más fuerte.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-004",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "La palabra 'tomate' viene del náhuatl, el idioma de antiguos pueblos de México.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Tomate viene del náhuatl 'tomatl'. También chocolate, aguacate y chicle vienen de esa lengua.",
+  "hint": "El náhuatl le dio al español muchas palabras.",
+  "tags": [
+   "food"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-005",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien la 'o' o la 'u'?",
+  "opts": [
+   "Hay siete u ocho tiburones.",
+   "Hay siete o ocho tiburones.",
+   "Hay seis u siete tiburones.",
+   "Hay ocho u nueve tiburones."
+  ],
+  "a": 0,
+  "why": "Antes de una palabra que empieza con el sonido o se usa u en lugar de o: siete u ocho.",
+  "hint": "Compara el sonido inicial de siete y de ocho.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-006",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Las burbujas del mar son efímeras: duran muy poco. ¿Cuál palabra es lo contrario de 'efímero'?",
+  "opts": [
+   "frágil",
+   "pequeño",
+   "redondo",
+   "duradero"
+  ],
+  "a": 3,
+  "why": "Efímero es lo que dura poco, y duradero es lo que dura mucho. Frágil es lo que se rompe fácil.",
+  "hint": "Busca lo que dura mucho tiempo.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-007",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "El tiranosaurio era bípedo. ¿Qué significa 'bípedo'?",
+  "opts": [
+   "que camina sobre cuatro patas",
+   "que vuela con dos alas",
+   "que camina sobre dos patas",
+   "que nada con dos aletas"
+  ],
+  "a": 2,
+  "why": "Bípedo viene de bi- (dos) y pedis (pie): camina sobre dos pies o dos patas. Cuadrúpedo sería de cuatro.",
+  "hint": "Piensa en bicicleta: dos ruedas.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-008",
+  "topic": "words",
+  "level": 5,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'ciempiés'?",
+  "a": 2,
+  "why": "Ciem-piés tiene solo dos sílabas, porque la ie de cada una es un diptongo. ¡Aunque el nombre dice cien pies!",
+  "hint": "Las vocales juntas 'ie' suenan en una sola sílaba.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-009",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál oración está bien escrita?",
+  "opts": [
+   "El agua del mar es salada.",
+   "El agua del mar es salado.",
+   "La agua del mar es salada.",
+   "El agua del mar es saladas."
+  ],
+  "a": 0,
+  "why": "Agua es femenina, pero lleva 'el' por su sonido. El adjetivo sí va en femenino: el agua salada.",
+  "hint": "El artículo cambia, pero el adjetivo concuerda con agua.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-010",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Ayer el cohete por fin ____ despegar. ¿Qué forma del verbo poder falta?",
+  "opts": [
+   "pudo",
+   "podió",
+   "pudió",
+   "puedó"
+  ],
+  "a": 0,
+  "why": "Poder es irregular en pasado: él pudo. Las otras formas no existen.",
+  "hint": "Ayer ya pasó, y el verbo cambia por dentro.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-011",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Ojalá que mañana no ____ tormenta en la playa. ¿Qué forma del verbo haber falta?",
+  "opts": [
+   "haiga",
+   "hay",
+   "haya",
+   "habrá"
+  ],
+  "a": 2,
+  "why": "Después de ojalá se usa el subjuntivo: haya. Haiga es un error común, y hay y habrá no encajan.",
+  "hint": "Después de ojalá va una forma especial del verbo.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-012",
+  "topic": "words",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena estas palabras de la más suave a la más fuerte.",
+  "opts": [
+   "brisa",
+   "viento",
+   "vendaval",
+   "huracán"
+  ],
+  "why": "Una brisa es un viento suave, el viento es más fuerte, el vendaval es muy fuerte y el huracán es el más poderoso.",
+  "hint": "Imagina un viento que sube de fuerza.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-013",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "La raíz 'hidro' significa agua. ¿Cuál palabra nombra un avión que despega y aterriza en el agua?",
+  "opts": [
+   "helicóptero",
+   "paracaídas",
+   "planeador",
+   "hidroavión"
+  ],
+  "a": 3,
+  "why": "Hidro significa agua, así que un hidroavión es un avión que usa el agua como pista.",
+  "hint": "Busca la palabra que empieza con la raíz del agua.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-014",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Algunos tiburones salen a ____ de noche. ¿Qué verbo falta?",
+  "opts": [
+   "casar",
+   "cassar",
+   "zasar",
+   "cazar"
+  ],
+  "a": 3,
+  "why": "Cazar es buscar animales para comerlos. Casar es unir en boda a dos personas.",
+  "hint": "Piensa en lo que hacen los cazadores.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-015",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál oración usa bien los dos puntos?",
+  "opts": [
+   "Trae: lo necesario gorra, guante y pelota.",
+   "Trae lo necesario: gorra, guante y pelota.",
+   "Trae lo necesario gorra: guante y pelota.",
+   "Trae lo necesario gorra, guante: y pelota."
+  ],
+  "a": 1,
+  "why": "Los dos puntos van después de la frase que anuncia la lista: Trae lo necesario: gorra, guante y pelota.",
+  "hint": "Van justo antes de enumerar las cosas.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-016",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "'Mas' sin tilde y 'más' con tilde significan lo mismo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Más, con tilde, indica cantidad. Mas, sin tilde, significa pero. Una tilde cambia todo.",
+  "hint": "Una de las dos se puede cambiar por 'pero'.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-017",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "El astronauta flotaba, ingrávido, dentro de la nave. ¿Qué significa 'ingrávido'?",
+  "opts": [
+   "muy pesado",
+   "muy cansado",
+   "muy asustado",
+   "sin peso"
+  ],
+  "a": 3,
+  "why": "In- significa sin, y grávido viene de grave, que es pesado. Ingrávido es sin peso, por eso flotaba.",
+  "hint": "In- puede significar sin.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-018",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "'La Luna es una moneda de plata en el cielo.' ¿Qué figura literaria es?",
+  "opts": [
+   "comparación",
+   "metáfora",
+   "hipérbole",
+   "onomatopeya"
+  ],
+  "a": 1,
+  "why": "Una metáfora dice que una cosa ES otra, sin usar como. Una comparación sí usaría la palabra como.",
+  "hint": "¿Aparece la palabra como?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-019",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "El sufijo -oso significa 'lleno de'. ¿Qué significa que un fondo marino es rocoso?",
+  "opts": [
+   "tiene muchas rocas",
+   "no tiene rocas",
+   "es muy blando",
+   "es muy oscuro"
+  ],
+  "a": 0,
+  "why": "Rocoso es roca + -oso: lleno de rocas.",
+  "hint": "Piensa en peligroso: lleno de peligro.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-5-020",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Pez es a nadar como ave es a ____ .",
+  "opts": [
+   "cantar",
+   "aire",
+   "pluma",
+   "volar"
+  ],
+  "a": 3,
+  "why": "El pez se mueve nadando y el ave se mueve volando. Es la misma relación: animal y su manera de moverse.",
+  "hint": "Piensa en cómo se mueve cada animal.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-001",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras tiene un triptongo, o sea, tres vocales en una sola sílaba?",
+  "opts": [
+   "miedo",
+   "peine",
+   "cuota",
+   "buey"
+  ],
+  "a": 3,
+  "why": "Buey tiene u-e-y en una sola sílaba: es un triptongo. Miedo, peine y cuota solo tienen dos vocales juntas.",
+  "hint": "Cuenta las vocales que van juntas, incluida la y final.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-002",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Ala es a ave como aleta es a ____ .",
+  "opts": [
+   "pez",
+   "agua",
+   "nadar",
+   "mar"
+  ],
+  "a": 0,
+  "why": "El ala es una parte del ave, y la aleta es una parte del pez.",
+  "hint": "Piensa de qué animal es parte cada una.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-003",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Espera a que el agua ____ antes de echar la pasta. ¿Cuál palabra falta?",
+  "opts": [
+   "hierba",
+   "hierva",
+   "yerva",
+   "ierva"
+  ],
+  "a": 1,
+  "why": "Hierva es una forma del verbo hervir, y se escribe con v. Hierba, con b, es una planta verde.",
+  "hint": "¿Cuál palabra es una forma del verbo hervir?",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-004",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Según la RAE, las palabras 'fue' y 'dio' se escriben sin tilde.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Fue, dio, vio y fui tienen una sola sílaba, por eso no llevan tilde.",
+  "hint": "Cuenta las sílabas de fue y dio.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-005",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "El pulpo es escurridizo: se escapa por cualquier rendija. ¿Qué significa 'escurridizo'?",
+  "opts": [
+   "que pesa mucho más que el agua",
+   "que hace mucho ruido al moverse",
+   "que se mueve muy despacio siempre",
+   "difícil de atrapar"
+  ],
+  "a": 3,
+  "why": "Escurridizo viene de escurrirse: deslizarse y escapar. Lo escurridizo es difícil de atrapar.",
+  "hint": "Usa la pista: se escapa por cualquier rendija.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-006",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estas palabras necesita tilde para separar dos vocales (hiato)?",
+  "opts": [
+   "búho",
+   "teatro",
+   "cuenta",
+   "causa"
+  ],
+  "a": 0,
+  "why": "En bú-ho, la u suena fuerte y se separa de la o, así que lleva tilde. Teatro también es hiato, pero no la necesita.",
+  "hint": "Busca una vocal cerrada que suena fuerte junto a otra.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-007",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "La raíz griega 'ictio' significa pez. ¿Qué estudia un ictiólogo?",
+  "opts": [
+   "las aves",
+   "los insectos",
+   "las rocas",
+   "los peces"
+  ],
+  "a": 3,
+  "why": "Ictio significa pez, y -logo indica quien estudia. Las aves las estudia un ornitólogo.",
+  "hint": "La terminación -logo viene de estudio.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-008",
+  "topic": "words",
+  "level": 6,
+  "type": "number",
+  "q": "¿Cuántas sílabas tiene la palabra 'braquiosaurio'?",
+  "a": 4,
+  "why": "Bra-quio-sau-rio tiene cuatro sílabas: 'io', 'au' e 'io' son diptongos y cada uno cuenta como una sola.",
+  "hint": "Busca vocales juntas que suenan en un solo golpe.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-009",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Submarino, marinero y marino nacen de una misma palabra más simple. ¿Cuál es esa palabra primitiva?",
+  "opts": [
+   "mar",
+   "marino",
+   "submarino",
+   "marinero"
+  ],
+  "a": 0,
+  "why": "La palabra primitiva es la más simple, la que no viene de otra. De mar nacen marino, marinero y submarino.",
+  "hint": "Busca la palabra sin prefijo ni sufijo.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-010",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Un pelotero ahorrador guarda su dinero. ¿Cuál palabra es lo contrario de 'ahorrador'?",
+  "opts": [
+   "tacaño",
+   "derrochador",
+   "austero",
+   "cuidadoso"
+  ],
+  "a": 1,
+  "why": "Derrochador gasta sin pensar. Tacaño, austero y cuidadoso se parecen más a ahorrador.",
+  "hint": "Busca al que gasta mucho.",
+  "tags": [
+   "money",
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-011",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "El tiburón ballena es una ____ muy grande de pez. ¿Qué palabra falta?",
+  "opts": [
+   "especia",
+   "especie",
+   "espécie",
+   "espezie"
+  ],
+  "a": 1,
+  "why": "Especie es un tipo de ser vivo. Especia es un condimento, como la pimienta.",
+  "hint": "¿Cuál palabra nombra un tipo de animal?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-012",
+  "topic": "words",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena alfabéticamente, como en los diccionarios de hoy, donde la ch se ordena letra por letra.",
+  "opts": [
+   "cebra",
+   "chimpancé",
+   "ciervo",
+   "cocodrilo"
+  ],
+  "why": "Desde 2010, ch y ll ya no son letras separadas. Chimpancé va entre ce y ci porque se ordena como c-h-i.",
+  "hint": "Compara la segunda letra: e, h, i, o.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "RAE (2010)",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-013",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Elige la oración correcta.",
+  "opts": [
+   "Creo que el pulpo es muy listo.",
+   "Creo de que el pulpo es muy listo.",
+   "Creo en que el pulpo es muy listo.",
+   "Creo, que el pulpo es muy listo."
+  ],
+  "a": 0,
+  "why": "Creer lleva directamente 'que', sin 'de', sin 'en' y sin coma. Decir 'creo de que' es un error común.",
+  "hint": "Creo que... se dice sin preposición.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-014",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Qué significa el refrán 'Camarón que se duerme se lo lleva la corriente'?",
+  "opts": [
+   "Los camarones duermen de día",
+   "Hay que nadar contra la corriente",
+   "Quien se descuida pierde su oportunidad",
+   "El mar siempre devuelve lo que toma"
+  ],
+  "a": 2,
+  "why": "El refrán usa un camarón para aconsejar estar atento: quien se distrae se queda sin lo que quería.",
+  "hint": "No habla de camarones de verdad: piensa en el consejo.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-015",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Astrónomo es a telescopio como biólogo es a ____ .",
+  "opts": [
+   "martillo",
+   "balanza",
+   "brújula",
+   "microscopio"
+  ],
+  "a": 3,
+  "why": "El astrónomo usa un telescopio para ver astros lejanos. El biólogo usa un microscopio para ver seres muy pequeños.",
+  "hint": "¿Qué herramienta mira lo diminuto?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-016",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "La palabra 'ahí' tiene un diptongo.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "En a-hí, la a y la í van en sílabas separadas: es un hiato. La h no las une.",
+  "hint": "Cuenta las sílabas de ahí.",
+  "tags": [],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-017",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "En 'El velero izó la vela', ¿qué significa 'vela'?",
+  "opts": [
+   "barra de cera que se enciende",
+   "cuerda gruesa del ancla",
+   "tela grande que atrapa el viento",
+   "acción de quedarse despierto"
+  ],
+  "a": 2,
+  "why": "Aquí vela es la tela del barco que recibe el viento. También puede ser una barra de cera o quedarse despierto.",
+  "hint": "Piensa en lo que necesita un velero para avanzar.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-018",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Los paleontólogos ____ la tierra para encontrar fósiles. ¿Qué forma está bien escrita?",
+  "opts": [
+   "escavan",
+   "ecscavan",
+   "exsavan",
+   "excavan"
+  ],
+  "a": 3,
+  "why": "Excavar lleva x porque viene de ex- (fuera): sacar tierra de un lugar.",
+  "hint": "Piensa en la palabra excavadora.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-019",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estas oraciones está en voz pasiva?",
+  "opts": [
+   "El lanzador lanzó la pelota.",
+   "El lanzador lanza muy fuerte.",
+   "La pelota fue lanzada por el lanzador.",
+   "La pelota rodó hacia la base."
+  ],
+  "a": 2,
+  "why": "En la voz pasiva, el sujeto recibe la acción: la pelota fue lanzada. En la activa, el sujeto la realiza: el lanzador lanzó.",
+  "hint": "Busca el sujeto que recibe la acción.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "RAE",
+  "ver": "2026-11"
+ },
+ {
+  "id": "palB-6-020",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "La palabra 'azúcar' se puede usar como masculina o femenina: el azúcar o la azúcar.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La RAE acepta los dos géneros. Se usa más 'el azúcar', pero en algunos lugares se oye 'la azúcar'.",
+  "hint": "Piensa en cómo lo dicen en tu casa.",
+  "tags": [
+   "food"
+  ],
+  "fun": true,
+  "src": "RAE",
+  "ver": "2026-11"
+ }
+]

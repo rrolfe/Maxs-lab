@@ -208,13 +208,13 @@
   "topic": "world",
   "level": 1,
   "type": "choice",
-  "q": "Countries have flags that stand for them.",
+  "q": "All the countries in the world share the same flag.",
   "opts": [
    "True",
    "False"
   ],
-  "a": 0,
-  "why": "A flag is a symbol for a country. Each country has its own colors and design.",
+  "a": 1,
+  "why": "A flag is a symbol for a country. Each country has its own flag with its own colors and design.",
   "hint": "Think of flags at the Olympics.",
   "tags": [],
   "fun": false,
@@ -1195,7 +1195,7 @@
   "why": "Switzerland officially uses German, French, Italian and Romansh. Many countries have more than one language.",
   "hint": "Think of a country with many neighbors.",
   "tags": [],
-  "fun": false,
+  "fun": true,
   "src": "Britannica Kids",
   "ver": "2026-11"
  },
@@ -1465,12 +1465,12 @@
   "topic": "world",
   "level": 4,
   "type": "choice",
-  "q": "Many big cities began beside rivers or harbors, because boats could bring goods in and out.",
+  "q": "Big cities almost never grow up beside rivers or harbors.",
   "opts": [
    "True",
    "False"
   ],
-  "a": 0,
+  "a": 1,
   "why": "Boats carried food and goods cheaply, so people settled by rivers and harbors. Many large cities grew from those spots.",
   "hint": "How did goods travel long ago?",
   "tags": [
@@ -1981,7 +1981,7 @@
   "type": "choice",
   "q": "Why do pilots listen to air traffic controllers on the ground?",
   "opts": [
-   "To learn how many passengers are on it",
+   "To learn how many passengers are aboard",
    "To get the plane's gas at the airport",
    "To hear which snacks are on board",
    "To keep planes safely apart"
@@ -2003,10 +2003,10 @@
   "type": "choice",
   "q": "Many rocket launch sites are close to the ocean. What is one good reason?",
   "opts": [
-   "Waves help carry the rocket upward",
-   "Sea air makes rockets much lighter",
+   "Ocean waves help push the rocket upward",
+   "Cool sea air makes every rocket lighter",
    "Falling pieces land in water, not on towns",
-   "Rockets burn salty ocean water as fuel"
+   "Rockets use salty ocean water as their fuel"
   ],
   "a": 2,
   "why": "Rockets drop used-up parts as they climb. Launching over the sea keeps those pieces away from people.",
@@ -2024,12 +2024,12 @@
   "topic": "world",
   "level": 5,
   "type": "choice",
-  "q": "Some islands, like Borneo and Ireland, are shared by more than one country.",
+  "q": "An island can belong to only one country, never to two.",
   "opts": [
    "True",
    "False"
   ],
-  "a": 0,
+  "a": 1,
   "why": "Borneo holds three countries and Ireland holds two. An island's borders can cross it just like a continent's.",
   "hint": "Think about land borders on islands.",
   "tags": [
@@ -2304,9 +2304,9 @@
   "q": "On a flat map, flights from Los Angeles to Tokyo curve northward. Why do pilots fly this way?",
   "opts": [
    "On a round Earth, that path is shortest",
-   "Planes must stay near land",
-   "Mapmakers drew the routes wrong",
-   "Ocean currents guide the planes"
+   "Planes must always stay within sight of land",
+   "Mapmakers drew these routes the wrong way",
+   "Strong ocean currents steer the planes north"
   ],
   "a": 0,
   "why": "The shortest path between far-apart places on a ball bends when shown on a flat map. It's called a great circle.",
@@ -2324,13 +2324,13 @@
   "topic": "world",
   "level": 6,
   "type": "choice",
-  "q": "The Arctic is an ocean mostly surrounded by land, while Antarctica is land surrounded by ocean.",
+  "q": "The Arctic is a continent surrounded by ocean, while Antarctica is an ocean surrounded by land.",
   "opts": [
    "True",
    "False"
   ],
-  "a": 0,
-  "why": "The Arctic Ocean has northern lands around it. Antarctica is a continent with the Southern Ocean around it.",
+  "a": 1,
+  "why": "It is the other way around. The Arctic Ocean has land around it, and Antarctica is a continent with ocean around it.",
   "hint": "Compare the two ends of Earth.",
   "tags": [
    "ocean",
@@ -2369,9 +2369,9 @@
   "type": "choice",
   "q": "The Dead Sea is far saltier than the ocean. Why does salt build up there?",
   "opts": [
-   "Salt-making fish live in it",
-   "Underwater volcanoes keep adding salt",
-   "Winds blow salt in from the ocean",
+   "Salt-making fish live in its waters",
+   "Underwater volcanoes keep adding more salt",
+   "Strong winds blow salt in from the ocean",
    "Water evaporates but the salt stays behind"
   ],
   "a": 3,
@@ -2406,10 +2406,10 @@
   "type": "choice",
   "q": "Some of the earliest writing, pressed into clay, was used mostly for what?",
   "opts": [
-   "Writing songs and poems",
-   "Making maps of the stars",
+   "Writing down songs and poems",
+   "Making maps of the night stars",
    "Counting and recording goods",
-   "Teaching kids to read"
+   "Teaching young kids how to read"
   ],
   "a": 2,
   "why": "In Mesopotamia, scribes pressed wedge marks into clay to record grain, animals and trades. Stories and poems came later.",

@@ -1,0 +1,2489 @@
+[
+ {
+  "id": "cieB-1-001",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos tiburones tiene la cabeza con forma de martillo?",
+  "why": "Su cabeza ancha y plana parece un martillo. El tiburón ballena es gigante y el blanco tiene el hocico puntiagudo.",
+  "hint": "Piensa en la herramienta que sirve para clavar.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "El tiburón de puntas negras",
+   "El tiburón martillo",
+   "El tiburón blanco gigante"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-1-002",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Las ballenas son un tipo de pez.",
+  "why": "Las ballenas son mamíferos: respiran aire con pulmones y alimentan a sus crías con leche.",
+  "hint": "¿Respiran aire o respiran agua?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-1-003",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos dinosaurios tenía un cuello larguísimo para alcanzar las hojas más altas?",
+  "why": "El braquiosaurio era un gigante herbívoro de cuello largo. El tiranosaurio cazaba y el triceratops tenía tres cuernos.",
+  "hint": "Piensa en una jirafa gigante de la prehistoria.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "Tiranosaurio rex",
+   "Triceratops cornudo",
+   "Braquiosaurio"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-1-004",
+  "topic": "science",
+  "level": 1,
+  "type": "number",
+  "q": "¿Cuántas patas tiene una araña?",
+  "why": "Las arañas tienen 8 patas. Los insectos solo tienen 6, así que las arañas no son insectos.",
+  "hint": "Cuenta los pares de patas: son cuatro pares.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "a": 8
+ },
+ {
+  "id": "cieB-1-005",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué parte del cuerpo manda mensajes a todos lados y te permite pensar?",
+  "why": "El cerebro controla lo que piensas y cómo se mueve tu cuerpo. El estómago digiere y el corazón bombea sangre.",
+  "hint": "Está protegido dentro de tu cabeza.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "El cerebro",
+   "El estómago",
+   "El corazón"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-1-006",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál es el planeta más grande del sistema solar?",
+  "why": "Júpiter es tan grande que cabrían más de mil Tierras dentro de él. Marte es más pequeño que la Tierra.",
+  "hint": "Es un planeta gigante hecho de gas.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "La Tierra",
+   "Marte",
+   "Júpiter"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-1-007",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena el día según se mueve el Sol por el cielo.",
+  "why": "El Sol sale por la mañana, está más alto al mediodía y se esconde al atardecer. Luego llega la noche.",
+  "hint": "Empieza cuando el Sol asoma por el horizonte.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NGSS 1-ESS1-1",
+  "ver": "2026-11",
+  "opts": [
+   "Amanecer",
+   "Mediodía",
+   "Atardecer",
+   "Noche"
+  ]
+ },
+ {
+  "id": "cieB-1-008",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Las mariposas pueden saborear con las patas.",
+  "why": "Tienen sensores de sabor en las patas. Al posarse en una hoja, saben si sirve para poner sus huevos.",
+  "hint": "Piensa en dónde se posa una mariposa.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-1-009",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué herramienta te dice cuánto calor o frío hace?",
+  "why": "El termómetro mide la temperatura. La regla mide el largo de las cosas y el reloj marca la hora.",
+  "hint": "Los meteorólogos la leen para decir la temperatura.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS K-ESS2-1",
+  "ver": "2026-11",
+  "opts": [
+   "Un termómetro",
+   "Una regla larga",
+   "Un reloj de pared"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-1-010",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos es un gas?",
+  "why": "Un gas se esparce y llena todo el espacio que tiene. La leche es líquida y el hielo es sólido.",
+  "hint": "Un gas no tiene forma propia.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 2-PS1-1",
+  "ver": "2026-11",
+  "opts": [
+   "La leche de un vaso grande",
+   "El aire dentro de un globo",
+   "Un cubito de hielo duro"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-1-011",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena la vida de una tortuga marina, desde el principio.",
+  "why": "La mamá tortuga pone huevos en la arena. Las crías nacen, corren al agua y crecen en el mar.",
+  "hint": "Las tortugas marinas empiezan su vida en tierra.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Huevo en la playa",
+   "La cría camina al mar",
+   "Tortuga joven nada",
+   "Tortuga adulta"
+  ]
+ },
+ {
+  "id": "cieB-1-012",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Un bateador golpea la pelota. ¿Qué hace el bate con la pelota?",
+  "why": "El bate empuja la pelota y la manda lejos. Jalar sería traerla hacia ti.",
+  "hint": "Piensa en cómo sale volando la pelota.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS K-PS2-1",
+  "ver": "2026-11",
+  "opts": [
+   "La empuja",
+   "La jala",
+   "La mantiene quieta"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-1-013",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué usan las plantas para fabricar su alimento?",
+  "why": "Las plantas usan luz del Sol, agua y aire para hacer su propio alimento. Por eso crecen hacia las ventanas.",
+  "hint": "Las plantas se inclinan hacia la ventana.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "El sonido del viento",
+   "La luz del Sol",
+   "La sombra de la noche"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-1-014",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos animales marinos tiene caparazón duro y camina de lado?",
+  "why": "El cangrejo tiene caparazón duro y patas dobladas, por eso camina de lado. La medusa es blandita y el delfín nada.",
+  "hint": "Vive cerca de las rocas y tiene pinzas.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "La medusa transparente",
+   "El delfín saltarín",
+   "El cangrejo"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-1-015",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Una sombra se forma cuando un objeto tapa algo. ¿Qué tapa?",
+  "why": "La sombra es una zona oscura a la que no llega la luz porque un objeto la bloquea.",
+  "hint": "Las sombras se ven en los días de sol.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4-3",
+  "ver": "2026-11",
+  "opts": [
+   "El sonido",
+   "El viento",
+   "La luz"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-1-016",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cómo se llama la roca caliente y derretida que sale de un volcán?",
+  "why": "La lava es roca derretida del interior de la Tierra. Al enfriarse, se vuelve roca dura otra vez.",
+  "hint": "Brilla con colores rojo y naranja.",
+  "tags": [],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "Lava",
+   "Vapor",
+   "Nieve"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-1-017",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué cubre todo tu cuerpo por fuera para protegerlo?",
+  "why": "La piel es el órgano más grande del cuerpo. Evita que entren microbios. Los huesos y los músculos están por dentro.",
+  "hint": "Es lo que ves y tocas de tu cuerpo.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Los huesos",
+   "La piel",
+   "Los músculos"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-1-018",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué planeta es famoso por sus anillos grandes y brillantes?",
+  "why": "Los anillos de Saturno están hechos de trocitos de hielo y roca. Marte y Venus no tienen anillos.",
+  "hint": "Es un planeta gigante, lejos del Sol.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Marte",
+   "Saturno",
+   "Venus"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-1-019",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos animales marinos suelta una nube de tinta para escapar?",
+  "why": "El calamar lanza tinta para confundir a sus enemigos y huir. La estrella de mar y el caballito se mueven despacio.",
+  "hint": "Tiene tentáculos y nada en el mar abierto.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "La estrella de mar",
+   "El caballito de mar",
+   "El calamar"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-1-020",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Cuál de estos animales es un mamífero que sí puede volar?",
+  "why": "El murciélago es el único mamífero que vuela de verdad. El búho es un ave y la libélula es un insecto.",
+  "hint": "Tiene pelo y sale de noche.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "El murciélago",
+   "El búho",
+   "La libélula"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-001",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Un tiburón puede sentir las ondas que hace un pez al nadar cerca de él.",
+  "why": "Una línea de sensores a lo largo de su cuerpo, la línea lateral, siente las ondas del agua y le indica dónde está la presa.",
+  "hint": "Los tiburones cazan incluso en aguas turbias.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-002",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué dientes le dirían a un científico que un dinosaurio comía carne?",
+  "why": "Los dientes afilados y curvos cortan la carne. Los dientes planos sirven para moler hojas y otras plantas.",
+  "hint": "Piensa en qué necesita un diente para cortar.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Dientes anchos y planos para moler",
+   "Dientes afilados y puntiagudos",
+   "Dientes pequeños y muy redondos"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-2-003",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Algunos dinosaurios se echaban sobre sus huevos en el nido, igual que las aves.",
+  "why": "Hay fósiles de pequeños dinosaurios acurrucados sobre sus huevos para darles calor. Las aves son parientes vivos de los dinosaurios.",
+  "hint": "Piensa en lo que hacen las gallinas con sus huevos.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-004",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Hace mucho, la gente unía estrellas para formar dibujos, como un cazador o un oso. ¿Cómo se llaman?",
+  "why": "Una constelación es un grupo de estrellas que imaginamos como un dibujo. Los cometas son viajeros helados del espacio.",
+  "hint": "Es una palabra que empieza con 'cons'.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Estrellas fugaces",
+   "Órbitas planetarias",
+   "Constelaciones"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-2-005",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué instrumento muestra hacia dónde sopla el viento?",
+  "why": "La veleta gira y señala de dónde viene el viento. El pluviómetro mide la lluvia y la balanza mide el peso.",
+  "hint": "Suele estar en lo alto de un tejado.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-ESS2",
+  "ver": "2026-11",
+  "opts": [
+   "Una veleta",
+   "Un pluviómetro",
+   "Una balanza"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-006",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cuál de estos casos muestra un líquido que se vuelve sólido?",
+  "why": "Al enfriarse mucho, el agua se vuelve hielo, que es sólido. Derretir y hervir son los cambios contrarios.",
+  "hint": "Busca el cambio que ocurre con mucho frío.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 2-PS1-4",
+  "ver": "2026-11",
+  "opts": [
+   "Un hielo que se derrite al sol",
+   "Agua que hierve en una olla",
+   "Agua del charco que se congela"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-2-007",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Por qué es más fácil mover una caja pesada con ruedas que arrastrarla?",
+  "why": "Las ruedas ruedan en vez de rozar, así que hay menos fricción. La caja pesa lo mismo y la gravedad sigue igual.",
+  "hint": "Piensa en lo que pasa cuando algo roza el suelo.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Las ruedas rozan menos con el suelo",
+   "Las ruedas hacen la caja más liviana",
+   "Las ruedas quitan la gravedad"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-008",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Por qué el guante de un receptor de béisbol tiene mucho relleno?",
+  "why": "El relleno amortigua el golpe de un lanzamiento veloz para que no duela tanto. No cambia el peso de la pelota.",
+  "hint": "Piensa en cómo se siente una pelota rápida en la mano.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Hace que la pelota pese mucho menos",
+   "Suaviza el golpe de la pelota rápida",
+   "Hace que la pelota rebote más fuerte"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-2-009",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "En la rodilla y el codo se unen dos huesos y puedes doblarlos. ¿Cómo se llama ese lugar?",
+  "why": "Las articulaciones unen los huesos y les permiten moverse. Las costillas son huesos del pecho y los nervios llevan mensajes.",
+  "hint": "Sin ellas, tus piernas no se doblarían.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Articulación",
+   "Costilla",
+   "Nervio"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-010",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué parte de una planta lleva el agua desde las raíces hacia arriba?",
+  "why": "El tallo funciona como un popote: sube el agua y los minerales hasta las hojas.",
+  "hint": "Piensa en un popote dentro de un vaso.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 2-LS2",
+  "ver": "2026-11",
+  "opts": [
+   "La flor",
+   "El tallo",
+   "La semilla"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-2-011",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Un omnívoro come plantas y también animales. ¿Cuál de estos es omnívoro?",
+  "why": "Los osos comen frutos, raíces, peces y más. Las vacas solo comen plantas y los leones solo comen carne.",
+  "hint": "Busca el animal con el menú más variado.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 2-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "La vaca",
+   "El león",
+   "El oso"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-2-012",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cómo respira aire un delfín?",
+  "why": "Los delfines son mamíferos con pulmones. Suben a la superficie y respiran por un orificio en la cabeza.",
+  "hint": "Los delfines son mamíferos, no peces.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Con branquias a los costados",
+   "Con la boca, bajo el agua",
+   "Por un orificio de la cabeza"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-2-013",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué animal tiene huellas dactilares casi iguales a las de las personas?",
+  "why": "Las yemas de los koalas tienen crestas tan parecidas a las nuestras que ni con un microscopio es fácil distinguirlas.",
+  "hint": "Piensa en un animal que se agarra de las ramas con las patas.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "El koala",
+   "El canguro",
+   "El pingüino"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-014",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "La luz del Sol pasa por gotas de lluvia y forma un arcoíris. ¿Qué nos muestra?",
+  "why": "Las gotas separan la luz blanca en sus colores: rojo, naranja, amarillo, verde, azul y violeta.",
+  "hint": "Los colores vienen de la luz misma.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 1-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "Que las gotas son de colores por dentro",
+   "Que la luz blanca mezcla muchos colores",
+   "Que las nubes guardan colores"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-2-015",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Golpeas un tambor grande y uno pequeño. ¿Cuál suena más grave?",
+  "why": "Lo grande vibra más despacio, y las vibraciones lentas dan sonidos graves. Los tambores pequeños suenan más agudos.",
+  "hint": "Piensa en un 'bum' profundo y en un 'tac' ligero.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "El tambor pequeño",
+   "El tambor grande",
+   "Suenan exactamente igual"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-2-016",
+  "topic": "science",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena del más pequeño al más grande.",
+  "why": "La Luna es más pequeña que la Tierra. Júpiter es mucho mayor que la Tierra, pero el Sol es muchísimo mayor que Júpiter.",
+  "hint": "Empieza por lo que gira alrededor de la Tierra.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Luna",
+   "Tierra",
+   "Júpiter",
+   "Sol"
+  ]
+ },
+ {
+  "id": "cieB-2-017",
+  "topic": "science",
+  "level": 2,
+  "type": "number",
+  "q": "¿En cuántos días, más o menos, da la Tierra una vuelta completa al Sol?",
+  "why": "Una vuelta al Sol dura unos 365 días. A esa vuelta la llamamos un año.",
+  "hint": "Es la cantidad de días que tiene un año.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "a": 365
+ },
+ {
+  "id": "cieB-2-018",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "El aire caliente sube sobre el aire frío, y eso ayuda a flotar a los globos aerostáticos.",
+  "why": "El aire caliente pesa menos que el aire frío que lo rodea, así que sube y levanta el globo.",
+  "hint": "Piensa en lo que hace el quemador con el aire.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-ESS2",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-2-019",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Un modelo de puente se cae durante una prueba. ¿Qué debe hacer después una ingeniera?",
+  "why": "Los ingenieros aprenden de las pruebas que fallan. Arreglan el punto débil y lo intentan otra vez hasta que funcione.",
+  "hint": "Los fallos dan pistas para mejorar el diseño.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "Construir el puente real igual",
+   "Decidir que los puentes no funcionan",
+   "Mejorar lo débil y probar de nuevo"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-2-020",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué animal marino puede hacer una perla dentro de su concha?",
+  "why": "La ostra cubre un granito con capas lisas, y con el tiempo se convierte en una perla.",
+  "hint": "Tiene dos conchas que se abren y se cierran.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "La ostra",
+   "El cangrejo",
+   "La estrella de mar"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-001",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Un tiburón huele una gota de sangre en muchísima agua. ¿Con qué huele?",
+  "why": "El agua entra por las fosas nasales del tiburón, y una gran parte de su cerebro se dedica al olfato.",
+  "hint": "El olfato está en la parte delantera de la cabeza.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Con agujeritos de las aletas",
+   "Con las ranuras de las branquias",
+   "Con las fosas nasales del hocico",
+   "Con las filas de dientes"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-3-002",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "El pteranodon volaba por el cielo en la época de los dinosaurios. ¿Qué animal era?",
+  "why": "Los pterosaurios, como el pteranodon, eran reptiles voladores. Vivieron junto a los dinosaurios, pero no eran dinosaurios.",
+  "hint": "Sus alas eran de piel, no de plumas.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Un reptil volador",
+   "Un dinosaurio con plumas",
+   "Un murciélago gigante",
+   "Un ave muy antigua"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-003",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Los cohetes queman combustible para volar. ¿Por qué un cohete lleva su propio oxígeno al espacio?",
+  "why": "El fuego necesita oxígeno y en el espacio casi no hay. Por eso los cohetes llevan oxígeno junto con el combustible.",
+  "hint": "Piensa en lo que necesita un fuego para arder.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Porque el oxígeno de la Tierra pesa demasiado",
+   "Porque el combustible se congelaría sin él",
+   "Porque el motor se calentaría demasiado",
+   "Porque en el espacio casi no hay aire"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-3-004",
+  "topic": "science",
+  "level": 3,
+  "type": "number",
+  "q": "Imagina 6 estrellas de mar con 5 brazos cada una. ¿Cuántos brazos hay en total?",
+  "why": "Seis estrellas con 5 brazos cada una dan 6 x 5 = 30 brazos.",
+  "hint": "Cuenta de cinco en cinco.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11",
+  "a": 30
+ },
+ {
+  "id": "cieB-3-005",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Una lagartija se calienta el cuerpo tomando el sol.",
+  "why": "Las lagartijas producen poco calor propio, así que toman el sol para calentarse y buscan sombra cuando tienen demasiado calor.",
+  "hint": "Piensa en dónde ves lagartijas por la mañana.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-006",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué produce el fuerte estruendo de un trueno?",
+  "why": "El rayo calienta el aire tan rápido que este se expande de golpe y suena el estruendo. Las nubes no chocan.",
+  "hint": "El trueno llega siempre después de algo que ves.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Las nubes grandes que chocan entre sí",
+   "El aire que el rayo calienta de golpe",
+   "La lluvia fuerte que cae del cielo",
+   "El viento que sopla entre las montañas"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-3-007",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "¿A cuál de estos objetos NO se pega un imán?",
+  "why": "Los imanes atraen el hierro y el acero. El aluminio, el plástico y la madera no son magnéticos.",
+  "hint": "¿Cuál no es de hierro ni de acero?",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 3-PS2-3",
+  "ver": "2026-11",
+  "opts": [
+   "A un clavo largo de hierro",
+   "A un clip de acero",
+   "A una olla de hierro",
+   "A una lata de aluminio"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-3-008",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Un hacha parte un tronco empujando la madera hacia los lados. ¿Qué máquina simple es su filo?",
+  "why": "La cuña es delgada en un borde y ancha en el otro, y convierte un empuje hacia abajo en uno hacia los lados.",
+  "hint": "Piensa en la forma de un tope de puerta.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Una polea",
+   "Una cuña",
+   "Una palanca",
+   "Una rueda con eje"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-3-009",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Un swing fuerte manda la pelota mucho más lejos que un toque suave. ¿Por qué?",
+  "why": "Un golpe más fuerte le da a la pelota más rapidez y energía, y por eso llega más lejos. Su peso no cambia.",
+  "hint": "Piensa en qué tan grande es el empuje.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Un empuje más grande le da más rapidez",
+   "La pelota pesa menos tras un golpe fuerte",
+   "El toque suave aumenta la gravedad",
+   "El swing fuerte aparta todo el aire"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-010",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué parte del esqueleto funciona como una jaula que protege el corazón y los pulmones?",
+  "why": "Tus costillas se curvan alrededor del pecho como una jaula. El cráneo protege el cerebro y la columna protege los nervios.",
+  "hint": "Puedes sentirlas en tu pecho.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "La columna vertebral",
+   "El cráneo",
+   "Las costillas",
+   "La cadera"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-3-011",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Los tiburones y otros buenos nadadores tienen cuerpos lisos y alargados. ¿Cómo les ayuda esa forma?",
+  "why": "Una forma lisa y alargada ofrece menos resistencia, así que gastan menos energía al nadar rápido.",
+  "hint": "Piensa en cómo una lancha puntiaguda corta las olas.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Les ayuda a flotar hacia arriba",
+   "El agua resbala a su alrededor",
+   "Evita que entre agua a su cuerpo",
+   "Los hace pesar mucho menos"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-3-012",
+  "topic": "science",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena los pasos de cómo se forma un fósil de dinosaurio.",
+  "why": "Si un animal queda enterrado pronto, sus huesos se protegen. Con millones de años, los minerales los endurecen hasta volverlos piedra.",
+  "hint": "El fósil debe existir antes de que alguien lo encuentre.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Un animal muere y queda enterrado",
+   "Arena y lodo se amontonan encima",
+   "Los minerales convierten el hueso en roca",
+   "Alguien desentierra el fósil"
+  ]
+ },
+ {
+  "id": "cieB-3-013",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Una estrella de mar puede volver a hacer crecer un brazo que perdió.",
+  "why": "Muchas estrellas de mar regeneran sus brazos. Algunas especies hasta forman un cuerpo nuevo a partir de un solo brazo.",
+  "hint": "Los animales marinos tienen trucos para curarse.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-014",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Las hojas son verdes porque tienen un material verde que atrapa la luz del Sol. ¿Cómo se llama?",
+  "why": "La clorofila absorbe la luz del Sol para que la hoja haga alimento. En otoño se descompone y aparecen otros colores.",
+  "hint": "Su nombre viene de una palabra griega que significa verde.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Polen de flor",
+   "Néctar dulce",
+   "Savia espesa",
+   "Clorofila"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-3-015",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "El pez loro raspa algas de los corales con sus dientes duros como pico. ¿En qué se convierte parte de lo que expulsa?",
+  "why": "El pez loro muele trocitos de coral y lo que expulsa se vuelve arena. Un solo pez puede hacer toneladas al año.",
+  "hint": "Piensa en de qué está hecha una playa.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "En perlas diminutas y lisas",
+   "En cristales de sal gruesa",
+   "En arena fina y blanca",
+   "En nuevos arrecifes enteros"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-3-016",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Una ventana de vidrio limpio deja pasar la luz sin problema. ¿Cómo se llama ese tipo de material?",
+  "why": "Un material transparente deja pasar la luz y se ve claro a través de él. Uno opaco bloquea la luz por completo.",
+  "hint": "Empieza con 'trans', que significa a través.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4-3",
+  "ver": "2026-11",
+  "opts": [
+   "Transparente",
+   "Opaco",
+   "Reflectante",
+   "Magnético"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-017",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Gritas en un cañón y un instante después oyes tu voz otra vez. ¿Qué es eso?",
+  "why": "El eco es sonido que rebota en una superficie dura y regresa hasta ti.",
+  "hint": "El sonido debe volver desde algún lugar.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4-1",
+  "ver": "2026-11",
+  "opts": [
+   "Sonido que se vuelve un rayo de luz",
+   "El viento repitiendo tus palabras",
+   "Sonido que rebota en algo duro",
+   "Tus oídos haciendo un ruido propio"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-3-018",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "La primera versión de prueba de un invento nuevo se llama...",
+  "why": "Los ingenieros hacen un prototipo para probar su idea y mejorarla antes de hacer la versión final.",
+  "hint": "Es el primer modelo que se hace para probar.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "Prototipo",
+   "Hipótesis",
+   "Ecosistema",
+   "Eclipse"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-019",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Una medusa no tiene cerebro, ni corazón, ni huesos.",
+  "why": "Casi todo el cuerpo de una medusa es agua. Una red de nervios le permite sentir y el cuerpo mueve el agua sin corazón.",
+  "hint": "Las medusas son animales muy sencillos.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-3-020",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Durante un eclipse solar, el Sol parece desaparecer unos minutos. ¿Qué ocurre?",
+  "why": "La Luna se coloca frente al Sol y bloquea su luz. La sombra de la Tierra causa un eclipse de Luna.",
+  "hint": "Algo grande se pone en el camino de la luz.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "La sombra de la Tierra tapa al Sol",
+   "El Sol deja de brillar un rato",
+   "Una nube gigante cruza frente al Sol",
+   "La Luna se pone frente al Sol"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-4-001",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Un tiburón martillo mueve su cabeza ancha de un lado a otro sobre la arena. ¿Qué está haciendo, muy probablemente?",
+  "why": "La cabeza ancha tiene sensores muy separados. Al barrer la arena, detecta rayas enterradas.",
+  "hint": "Piensa en por qué ayudan unos sensores muy separados.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Limpiándose las branquias",
+   "Cavando un nido para sus huevos",
+   "Buscando presas escondidas",
+   "Buscando un lugar para dormir"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-4-002",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Los excrementos fósiles de dinosaurio se llaman coprolitos. ¿Qué pueden descubrir los científicos con ellos?",
+  "why": "Los coprolitos pueden tener trocitos de hueso, semillas o fibras de plantas. Esas pistas muestran lo que comió.",
+  "hint": "Piensa en lo que sale después de una comida.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Qué comía el dinosaurio",
+   "Qué tan fuerte rugía",
+   "De qué color era su piel",
+   "Qué tan rápido corría"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-4-003",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuántas Tierras cabrían dentro del Sol, más o menos?",
+  "why": "El Sol es enorme: cabrían como 1,3 millones de Tierras, aunque desde lejos se vea pequeño.",
+  "hint": "Al lado del Sol, la Tierra parece una canica.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Unas mil",
+   "Unas diez mil",
+   "Unos cientos de miles",
+   "Más de un millón"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-4-004",
+  "topic": "science",
+  "level": 4,
+  "type": "number",
+  "q": "Imagina que un arrecife de coral crece 3 centímetros por año. ¿Cuántos centímetros crece en 10 años?",
+  "why": "El crecimiento se suma cada año: 3 cm x 10 años = 30 cm. Los arrecifes crecen despacio, por eso los grandes son muy antiguos.",
+  "hint": "Multiplica el crecimiento anual por los años.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "a": 30
+ },
+ {
+  "id": "cieB-4-005",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "La corteza de la Tierra está rota en enormes piezas que se mueven muy despacio. ¿Cómo se llaman?",
+  "why": "Las placas se mueven unos centímetros al año. Donde chocan o se deslizan puede haber terremotos y volcanes.",
+  "hint": "Esas piezas encajan como un rompecabezas gigante.",
+  "tags": [],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "Tubos de lava",
+   "Placas tectónicas",
+   "Corrientes marinas",
+   "Cámaras de magma"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-4-006",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál de estas frases habla del clima y no del tiempo de un día?",
+  "why": "El tiempo es lo que pasa en el cielo un día cualquiera. El clima es el patrón habitual a lo largo de muchos años.",
+  "hint": "El clima describe lo que ocurre año tras año.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 3-ESS2-2",
+  "ver": "2026-11",
+  "opts": [
+   "Hoy llovió en la ciudad por la mañana",
+   "Esta tarde sopló un viento muy fuerte",
+   "Anoche cayó nieve en el cerro",
+   "Aquí los veranos son secos cada año"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-4-007",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Revuelves azúcar en agua tibia y parece desaparecer. ¿Dónde está el azúcar?",
+  "why": "El azúcar se disuelve: sus trocitos diminutos se reparten por el agua. Si pruebas el agua, todavía sabe dulce.",
+  "hint": "Si pruebas el agua, lo sabrás.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS1",
+  "ver": "2026-11",
+  "opts": [
+   "Se convirtió en más agua del vaso",
+   "Se mezcló en trocitos invisibles",
+   "Se destruyó y ya no existe más",
+   "Se hundió y quedó escondida abajo"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-4-008",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Una cuerda pasa por una rueda en lo alto de un asta de bandera. ¿Para qué sirve esta polea?",
+  "why": "Una polea fija solo cambia la dirección del jalón. No reduce el peso ni la fuerza que necesitas.",
+  "hint": "Piensa hacia dónde se mueven tus manos.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Para subir la bandera jalando abajo",
+   "Para que la bandera pese menos",
+   "Para subir la bandera con media fuerza",
+   "Para que la cuerda sea más larga"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-4-009",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Una pelota de béisbol rueda y cae de una mesa. Mientras cae, va cada vez más rápido. ¿Por qué?",
+  "why": "La gravedad jala todo el tiempo que la pelota cae, así que su rapidez aumenta. Su peso no cambia.",
+  "hint": "Una fuerza actúa durante toda la caída.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "El aire la empuja con fuerza desde arriba",
+   "La pelota se vuelve más pesada al caer",
+   "La gravedad sigue jalándola hacia abajo",
+   "Su giro le va sumando más rapidez"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-4-010",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Con mucha luz, el centro oscuro de tu ojo se hace más pequeño. ¿Cómo se llama ese centro?",
+  "why": "La pupila es la abertura por donde entra la luz. El iris es el anillo de color que la agranda o la achica.",
+  "hint": "Es un agujero, no un anillo.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "El iris",
+   "La pupila",
+   "El cristalino",
+   "El párpado"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-4-011",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Las algas crecen cerca de la superficie del mar, pero no en el fondo profundo. ¿Por qué?",
+  "why": "Las algas necesitan luz para hacer su alimento, y la luz se apaga con la profundidad. Muy abajo todo está oscuro.",
+  "hint": "¿Qué necesitan las plantas para hacer su alimento?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "El agua profunda es demasiado salada",
+   "Las olas son muy fuertes allá abajo",
+   "Los peces se comen todas las algas allí",
+   "El Sol no ilumina las aguas profundas"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-4-012",
+  "topic": "science",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena según cuándo aparecieron por primera vez en la Tierra, de lo más antiguo a lo más reciente.",
+  "why": "Trilobites: hace más de 500 millones de años. Tiburones: unos 450 millones. Dinosaurios: unos 230 millones. Humanos actuales: unos 300 000.",
+  "hint": "Los dinosaurios llegaron mucho después de los primeros tiburones.",
+  "tags": [
+   "sharks",
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Trilobites",
+   "Tiburones",
+   "Dinosaurios",
+   "Seres humanos"
+  ]
+ },
+ {
+  "id": "cieB-4-013",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Las nutrias marinas a veces se toman de las patas al dormir para no separarse.",
+  "why": "Duermen flotando sobre el agua y se agarran de las patas o se envuelven en algas para quedar juntas.",
+  "hint": "Piensa en lo que preocupa a un animal que flota dormido.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-4-014",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Un popote en un vaso con agua parece torcido en la superficie del agua. ¿Por qué?",
+  "why": "La luz se desvía al pasar del agua al aire; eso se llama refracción. El popote sigue derecho.",
+  "hint": "Saca el popote y míralo otra vez.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "El popote sí se dobla en el agua",
+   "El agua calienta el popote a medias",
+   "La luz se desvía entre agua y aire",
+   "El vaso aprieta el popote hacia un lado"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-4-015",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Golpeas un tambor con más fuerza. ¿Por qué suena más fuerte?",
+  "why": "Un golpe más fuerte produce vibraciones más grandes, y las vibraciones grandes dan sonidos fuertes. La rapidez del sonido no cambia.",
+  "hint": "Piensa en cuánto se mueve la piel del tambor.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "La piel vibra con movimientos más grandes",
+   "El sonido viaja mucho más rápido",
+   "El tambor se vuelve más pesado",
+   "El aire a su alrededor se espesa"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-4-016",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Una ingeniera quiere un armazón de puente más fuerte. ¿Qué forma le da más resistencia?",
+  "why": "Los triángulos no se deforman con facilidad, por eso los puentes y las torres los usan por todas partes.",
+  "hint": "Mira las estructuras de metal de los puentes grandes.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "Los círculos",
+   "Las líneas onduladas",
+   "Los triángulos",
+   "Los lazos sueltos"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-4-017",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Los hongos y las bacterias descomponen las hojas caídas del bosque. ¿Qué logran con esto?",
+  "why": "Los descomponedores convierten las hojas muertas en nutrientes que las plantas toman con sus raíces. En un bosque sano nada se desperdicia.",
+  "hint": "Piensa en qué pasa con los restos de las hojas.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 5-LS2",
+  "ver": "2026-11",
+  "opts": [
+   "Devuelven nutrientes al suelo",
+   "Dan hojas nuevas a los árboles al instante",
+   "Vuelven el suelo más duro y seco",
+   "Evitan que los animales hallen comida"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-4-018",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "El lenguado se echa en la arena del fondo del mar y copia sus colores. ¿Para qué le sirve?",
+  "why": "El camuflaje lo esconde de los depredadores y de los animalitos que caza.",
+  "hint": "Piensa en por qué sirve igualar colores.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "Para mantenerse tibio",
+   "Para nadar mucho más rápido",
+   "Para respirar mejor",
+   "Para pasar inadvertido"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-4-019",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Algunos dinosaurios eran tan pequeños como una gallina.",
+  "why": "Los dinosaurios venían en todos los tamaños. Los pequeños, como el compsognato, eran del tamaño de una gallina.",
+  "hint": "No todos los dinosaurios eran gigantes.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-4-020",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Una abeja bebe néctar de las flores. ¿Qué hace también por las plantas, sin darse cuenta?",
+  "why": "El polen que se pega a la abeja pasa a otras flores y ayuda a hacer semillas y frutos. Eso se llama polinización.",
+  "hint": "Su cuerpo peludo se llena de un polvito amarillo.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Les echa agua en las raíces",
+   "Lleva polen de una flor a otra",
+   "Les quita todas las hojas viejas",
+   "Les deja abono en el tallo"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-5-001",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Casi todos los peces flotan con una vejiga llena de gas. Los tiburones no la tienen. ¿Qué les ayuda a no hundirse?",
+  "why": "El aceite del hígado pesa menos que el agua de mar y les da algo de empuje hacia arriba. Las aletas y nadar también ayudan.",
+  "hint": "Piensa en el aceite flotando sobre el agua.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Huesos huecos llenos de mucho aire",
+   "Tragar aire en la superficie del mar",
+   "Un hígado grande lleno de aceite",
+   "Sangre caliente que los eleva en el agua"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-5-002",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cómo calculan los científicos la edad de un fósil de dinosaurio?",
+  "why": "Las capas de roca guardan relojes naturales: ciertos minerales cambian a un ritmo constante. Eso indica la edad de los fósiles cercanos.",
+  "hint": "La roca marca el tiempo mejor que el hueso.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "Datando las capas de roca que lo rodean",
+   "Pesando el fósil entero en una balanza",
+   "Midiendo qué tan grande llegó a ser",
+   "Contando las grietas que tiene el hueso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-5-003",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Desde la Tierra siempre vemos la misma cara de la Luna. ¿Por qué?",
+  "why": "La Luna sí gira. Da exactamente una vuelta sobre sí misma mientras orbita una vez la Tierra, así que siempre nos muestra la misma cara.",
+  "hint": "La Luna gira a un ritmo muy especial.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Su otra cara siempre está en sombra",
+   "Nunca gira sobre sí misma",
+   "Las nubes tapan su otra cara",
+   "Gira una vez por cada órbita"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-5-004",
+  "topic": "science",
+  "level": 5,
+  "type": "number",
+  "q": "Solo el 10 % de la energía de cada eslabón pasa al siguiente. Las algas tienen 20 000 unidades. Cadena: algas, camarones, peces, tiburón. ¿Cuántas unidades llegan al tiburón?",
+  "why": "De las algas pasan 2 000 a los camarones, 200 a los peces y 20 al tiburón. La energía disminuye en cada paso.",
+  "hint": "Saca el 10 % tres veces.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NGSS 5-LS2",
+  "ver": "2026-11",
+  "a": 20
+ },
+ {
+  "id": "cieB-5-005",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "El aire que sube se enfría. ¿Cómo ayuda eso a formar una nube?",
+  "why": "El aire frío guarda menos vapor, así que el sobrante se condensa en gotitas. Miles de millones de gotas forman una nube.",
+  "hint": "Piensa en un vaso frío en un día caluroso.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "El polvo del aire se convierte en agua",
+   "El vapor de agua se convierte en gotitas",
+   "El oxígeno se congela en cristales de hielo",
+   "El viento exprime la lluvia del aire"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-5-006",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál de estos es un cambio químico, que forma una sustancia nueva?",
+  "why": "Al arder, la madera se convierte en ceniza, humo y gases: sustancias nuevas. Derretir, disolver y rasgar no cambian el material.",
+  "hint": "Un cambio químico no se deshace fácilmente.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 5-PS1",
+  "ver": "2026-11",
+  "opts": [
+   "Un hielo que se derrite en un vaso",
+   "Azúcar que se disuelve en té",
+   "Un papel que se rasga en pedacitos",
+   "Madera que arde en una fogata"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-5-007",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "En una carretilla, ¿dónde está el punto de apoyo (fulcro) de la palanca?",
+  "why": "La carretilla gira alrededor de su rueda. La carga está entre la rueda y tus manos, que levantan en las manijas.",
+  "hint": "Lo que queda fijo mientras levantas es el punto de apoyo.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "En las manijas",
+   "En la rueda",
+   "En medio de la carga",
+   "En la parte delantera del cajón"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-5-008",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "El bate golpea la pelota con mucha fuerza. ¿Qué hace la pelota con el bate?",
+  "why": "Las fuerzas vienen en pares del mismo tamaño y en sentidos opuestos. Por eso un batazo fuerte puede hacer sentir un golpe en las manos.",
+  "hint": "Piensa en lo que sienten las manos del bateador.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS MS-PS2-1",
+  "ver": "2026-11",
+  "opts": [
+   "Lo empuja con una fuerza igual",
+   "Lo empuja con mucha menos fuerza",
+   "Lo empuja con mucha más fuerza",
+   "No lo empuja para nada"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-5-009",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Qué parte de la sangre ayuda a combatir los microbios?",
+  "why": "Los glóbulos blancos encuentran y atacan los microbios. Los rojos llevan oxígeno y las plaquetas tapan las heridas.",
+  "hint": "El color da una pista del tipo de célula.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Los glóbulos rojos",
+   "Las plaquetas de la sangre",
+   "Los glóbulos blancos",
+   "El plasma amarillento"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-5-010",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Qué seres vivos producen la mayor parte del oxígeno que viene del océano?",
+  "why": "El fitoplancton usa la luz del Sol para hacer alimento y suelta oxígeno. Aporta una enorme parte del oxígeno que respiramos.",
+  "hint": "La respuesta es pequeña y flota con la luz.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Las ballenas y los delfines",
+   "Algas diminutas (fitoplancton)",
+   "Solo los bosques de algas gigantes",
+   "Los arrecifes de coral y esponjas"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-5-011",
+  "topic": "science",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena las capas de la atmósfera, desde el suelo hacia arriba.",
+  "why": "El tiempo ocurre en la troposfera. Más arriba están la estratosfera, la mesosfera y la termosfera, donde el aire es muy delgado.",
+  "hint": "La capa más baja empieza con 'tropo'.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Troposfera",
+   "Estratosfera",
+   "Mesosfera",
+   "Termosfera"
+  ]
+ },
+ {
+  "id": "cieB-5-012",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Un rayo es más caliente que la superficie del Sol.",
+  "why": "Un rayo calienta el aire a unos 30 000 grados por una fracción de segundo. La superficie del Sol está a unos 5 500.",
+  "hint": "Un rayo dura poco, pero quema muchísimo.",
+  "tags": [
+   "weather"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-5-013",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Un científico halla conchas fósiles cerca de la cima de una montaña muy alta. ¿Qué sugiere esto?",
+  "why": "Las placas de la Tierra empujan la roca hacia arriba durante millones de años. Un fondo marino antiguo puede acabar en una cima.",
+  "hint": "Piensa en dónde viven los moluscos y en cómo se mueve la tierra.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "Los moluscos subían por la montaña",
+   "Las aves llevaron las conchas allí",
+   "La lluvia subió las conchas por la ladera",
+   "Ese suelo marino se elevó con el tiempo"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-5-014",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Una camiseta roja se ve roja bajo el Sol. ¿Qué pasa con la luz?",
+  "why": "El color que ves es la luz que rebota hacia tus ojos. La camiseta roja devuelve la luz roja y absorbe los demás colores.",
+  "hint": "El color que ves es la luz que rebota.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "Produce luz roja dentro de sí",
+   "Absorbe la luz roja y refleja el resto",
+   "Refleja la luz roja y absorbe el resto",
+   "Bloquea toda la luz que le llega"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-5-015",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Por qué ves el relámpago antes de oír el trueno, si ocurren a la vez?",
+  "why": "La luz recorre casi 300 000 km cada segundo y el sonido solo unos 340 metros. La luz llega primero.",
+  "hint": "Compara la rapidez de la luz y la del sonido.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "La luz viaja mucho más rápido",
+   "El trueno sale después del relámpago",
+   "El sonido tiene que subir al cielo",
+   "Los ojos son más rápidos que los oídos"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-5-016",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Un equipo hace una bicicleta más fuerte con un material nuevo, pero cuesta mucho más. ¿Qué es esto?",
+  "why": "Los ingenieros pesan lo bueno y lo malo de cada decisión de diseño. Ganar algo suele costar otra cosa.",
+  "hint": "Ganas algo y renuncias a otra cosa.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "Un prototipo para probar la idea",
+   "Una hipótesis sobre el material",
+   "Un equilibrio entre ventajas y costos",
+   "Una variable que cambia en pruebas"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-5-017",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "El zorro del desierto tiene orejas enormes. ¿Cómo le ayudan a sobrevivir?",
+  "why": "Por sus orejas delgadas pasa mucha sangre que suelta calor al aire, y eso mantiene fresco al zorro.",
+  "hint": "Piensa en lo que el desierto le hace al cuerpo.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "Dejan escapar el exceso de calor",
+   "Guardan agua para días secos",
+   "Oyen agua bajo la tierra",
+   "Espantan a animales más grandes"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-5-018",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Las hojas tienen aberturas diminutas, sobre todo por debajo. ¿Qué pasa por ellas?",
+  "why": "Esas aberturas, llamadas estomas, dejan entrar dióxido de carbono y salir oxígeno y vapor de agua.",
+  "hint": "Funcionan como puertitas para gases.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Luz del Sol y tierra",
+   "Savia y raíces",
+   "Semillas y polen",
+   "Gases del aire y vapor de agua"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-5-019",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Los astronautas flotan en la estación espacial aunque la gravedad aún los jala. ¿Por qué?",
+  "why": "Allá la gravedad es casi tan fuerte como aquí. La estación avanza tan rápido de lado que siempre cae alrededor de la Tierra.",
+  "hint": "La gravedad no se ha apagado.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Allá arriba no hay gravedad",
+   "Ellos y la estación caen en órbita",
+   "Motores internos cancelan la gravedad",
+   "La estación está sobre el aire"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-5-020",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Una abeja que encuentra flores puede 'bailar' para avisar a las demás hacia dónde ir.",
+  "why": "La danza de la abeja indica la dirección y la distancia de las flores. Así la colmena encuentra comida más rápido.",
+  "hint": "Las abejas se comunican con movimientos.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-6-001",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Los tiburones tienen esqueleto de cartílago, no de hueso. ¿Qué peces son sus parientes más cercanos?",
+  "why": "Tiburones, rayas y mantarrayas tienen esqueleto de cartílago y comparten un antepasado. Atunes y anguilas tienen esqueleto de hueso.",
+  "hint": "Busca otro grupo de esqueleto flexible.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Las anguilas y las morenas",
+   "Los atunes y las caballas",
+   "Las rayas y las mantarrayas",
+   "Los caballitos de mar y peces pipa"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-6-002",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "El Archaeopteryx tenía plumas y alas, pero también dientes y una larga cola ósea. ¿Por qué es tan importante este fósil?",
+  "why": "El Archaeopteryx mezcla rasgos de aves con rasgos de dinosaurios. Eso apoya la idea de que las aves vienen de los dinosaurios.",
+  "hint": "Es una mezcla de dos grupos de animales.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Muestra rasgos de dinosaurios y de aves",
+   "Prueba que todos los dinosaurios volaban",
+   "Muestra que las aves vinieron primero",
+   "Prueba que los dinosaurios vivían en el agua"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-6-003",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Una estrella está a 10 años luz de la Tierra. ¿Qué ves al mirarla esta noche?",
+  "why": "Un año luz es lo que recorre la luz en un año. Esa luz salió hace 10 años: ves el pasado de la estrella.",
+  "hint": "La luz tarda en cruzar el espacio.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "La estrella como es ahora mismo",
+   "La estrella dentro de 10 años",
+   "La estrella como era hace 10 días",
+   "La estrella como era hace 10 años"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-6-004",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "La Tierra gira 360 grados en 24 horas, a un ritmo constante. ¿Cuántos grados gira en 2 horas?",
+  "why": "360 entre 24 es 15 grados por hora, así que en 2 horas giran 30 grados. Por eso los husos horarios miden unos 15 grados.",
+  "hint": "Primero calcula cuántos grados gira en una hora.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "a": 30
+ },
+ {
+  "id": "cieB-6-005",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Un huracán se debilita rápido cuando llega a tierra. ¿Por qué?",
+  "why": "Los huracanes sacan su energía del agua cálida del mar. En tierra se quedan sin ella y el roce con el suelo frena el viento.",
+  "hint": "¿De dónde saca energía la tormenta?",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "En tierra hay mucho viento frío",
+   "Pierde el mar cálido que lo alimenta",
+   "Las montañas lo rompen en mil pedazos",
+   "En tierra el aire pesa mucho más"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-6-006",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Un clavo de acero macizo se hunde, pero un enorme barco de acero flota. ¿Por qué?",
+  "why": "El casco hueco hace que el barco entero sea menos denso que el agua. Desplaza un peso de agua igual al suyo y flota.",
+  "hint": "Piensa en la forma de todo el barco, no solo en el metal.",
+  "tags": [
+   "ocean",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Su acero es un tipo más liviano",
+   "El motor lo empuja hacia arriba",
+   "Lo muy grande siente menos gravedad",
+   "Su forma hueca desplaza mucha agua"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-6-007",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "Un engranaje de 12 dientes mueve a uno de 36 dientes. ¿Cuántas vueltas del pequeño hacen que el grande gire exactamente una vez?",
+  "why": "Cada vuelta del pequeño mueve 12 dientes. Para mover los 36 dientes se necesitan 36 entre 12 igual a 3 vueltas.",
+  "hint": "Cuenta cuántos dientes deben pasar.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "a": 3
+ },
+ {
+  "id": "cieB-6-008",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "La energía de movimiento de una pelota depende del cuadrado de su rapidez. Si un lanzamiento va al doble de rápido, su energía de movimiento se vuelve...",
+  "why": "Al duplicar la rapidez, el cuadrado se multiplica por 2 x 2 = 4. Por eso los lanzamientos rápidos son mucho más difíciles de atrapar.",
+  "hint": "Eleva el 2 al cuadrado.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS MS-PS3-1",
+  "ver": "2026-11",
+  "opts": [
+   "Dos veces mayor",
+   "Cuatro veces mayor",
+   "Tres veces mayor",
+   "Ocho veces mayor"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-6-009",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Por qué con dos ojos calculas mejor la distancia que con uno solo?",
+  "why": "El cerebro compara dos vistas ligeramente distintas para calcular qué tan lejos están las cosas. Con un ojo tapado, es más difícil.",
+  "hint": "Tus ojos están a pocos centímetros uno del otro.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS MS-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Cada ojo ve desde un lugar distinto",
+   "Dos ojos reciben el doble de luz",
+   "Un ojo siempre está cerrado por dentro",
+   "Cada ojo ve un color de luz distinto"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-6-010",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Un rape de aguas profundas lleva una carnada luminosa. ¿Cómo se produce esa luz?",
+  "why": "Se llama bioluminiscencia: sustancias que reaccionan y dan luz sin calor, a veces con ayuda de bacterias. Así atrae presas en la oscuridad.",
+  "hint": "La luz puede venir de la química y no solo del calor.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Guardando la luz del Sol que recibió",
+   "Con chispas eléctricas como una pila",
+   "Con reacciones químicas en sus células",
+   "Frotando sus escamas con fuerza entre sí"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-6-011",
+  "topic": "science",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena el camino de un sonido por tu oído.",
+  "why": "El sonido hace vibrar el tímpano, los huesecillos pasan la vibración hacia adentro y los nervios la convierten en señales que el cerebro entiende.",
+  "hint": "El tímpano es lo primero que vibra.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS MS-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "El sonido entra por el canal del oído",
+   "El tímpano vibra",
+   "Huesecillos pasan la vibración",
+   "Los nervios avisan al cerebro"
+  ]
+ },
+ {
+  "id": "cieB-6-012",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Una cuchara de metal se siente más fría que una de madera en el mismo cuarto porque el metal está más frío.",
+  "why": "Las dos tienen la misma temperatura del cuarto. El metal le quita calor a tu mano más rápido y por eso se siente más frío.",
+  "hint": "Las dos cucharas llevan el mismo tiempo en el cuarto.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 5-PS1",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-6-013",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Los científicos estudian burbujas de aire atrapadas en hielo polar muy antiguo. ¿Qué pueden mostrar?",
+  "why": "La nieve se compacta y se vuelve hielo, y atrapa burbujas del aire de esa época. Cuanto más profundo, más antiguo es el aire.",
+  "hint": "Las burbujas se sellaron cuando cayó la nieve.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Qué tan profundos eran los océanos",
+   "Cómo era el aire en el pasado",
+   "Qué animales vivían en el hielo",
+   "Cuántas tormentas hubo el año pasado"
+  ],
+  "a": 1
+ },
+ {
+  "id": "cieB-6-014",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "Estás a 3 metros de un espejo plano. ¿A cuántos metros de ti parece estar tu reflejo?",
+  "why": "Tu reflejo parece estar detrás del espejo, tan lejos como tú estás delante: 3 m + 3 m = 6 m de ti.",
+  "hint": "El reflejo se ve detrás del espejo.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "a": 6
+ },
+ {
+  "id": "cieB-6-015",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "La sirena de una ambulancia suena más aguda al acercarse y más grave al alejarse. ¿Por qué?",
+  "why": "Al acercarse, el vehículo aprieta las ondas y el sonido se vuelve más agudo. Al alejarse, las estira y suena más grave.",
+  "hint": "El vehículo se mueve mientras emite el sonido.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS MS-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "La sirena cambia su propia melodía",
+   "El sonido viaja más rápido al alejarse",
+   "El aire se espesa detrás del vehículo",
+   "Las ondas se juntan y luego se estiran"
+  ],
+  "a": 3
+ },
+ {
+  "id": "cieB-6-016",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Por qué una torre de bloques ancha y baja es más difícil de volcar que una alta y angosta?",
+  "why": "Un centro de gravedad bajo sobre una base amplia mantiene la torre en equilibrio y hace falta un empujón mayor para volcarla.",
+  "hint": "Piensa en dónde está el peso y sobre qué se apoya.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "Tiene muchos menos bloques",
+   "Sus bloques pesan más de un lado",
+   "Tiene el peso abajo y una base ancha",
+   "El viento no toca las torres anchas"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-6-017",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Un sírfido inofensivo tiene rayas amarillas y negras como una avispa que pica. ¿Cómo se llama este truco?",
+  "why": "En el mimetismo, un animal se parece a otro que los depredadores evitan. El camuflaje, en cambio, se confunde con el fondo.",
+  "hint": "Imita el aspecto de otro animal.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "Mimetismo",
+   "Hibernación",
+   "Migración",
+   "Camuflaje"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-6-018",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Una semilla diminuta crece hasta ser un árbol que pesa toneladas. ¿De dónde salen los átomos de carbono de su madera?",
+  "why": "Las hojas toman dióxido de carbono del aire y lo convierten en azúcares y madera. La luz del Sol da energía, no átomos.",
+  "hint": "Los árboles fabrican madera a partir de un gas.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 5-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "De los minerales del suelo",
+   "Del agua que toman las raíces",
+   "Del dióxido de carbono del aire",
+   "De la luz del Sol sobre las hojas"
+  ],
+  "a": 2
+ },
+ {
+  "id": "cieB-6-019",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Por qué un agujero negro es negro?",
+  "why": "Un agujero negro junta muchísima masa en un espacio diminuto. Su gravedad es tan fuerte que ni la luz puede salir.",
+  "hint": "Piensa en qué puede escapar de una gravedad muy fuerte.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Ni la luz escapa de su gravedad",
+   "Está cubierto de polvo negro espeso",
+   "Está demasiado frío para dar luz",
+   "Es un hueco que no tiene masa"
+  ],
+  "a": 0
+ },
+ {
+  "id": "cieB-6-020",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Los tiburones ya vivían en la Tierra antes de que existieran los primeros árboles.",
+  "why": "Los tiburones nadaban en los mares hace más de 400 millones de años. Los primeros árboles aparecieron hace unos 385 millones.",
+  "hint": "Los tiburones llevan muchísimo tiempo en el planeta.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0
+ }
+]

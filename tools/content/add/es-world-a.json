@@ -208,13 +208,13 @@
   "topic": "world",
   "level": 1,
   "type": "choice",
-  "q": "El béisbol se juega en muchos países, como México, Cuba y Venezuela.",
+  "q": "El béisbol se juega solo en Estados Unidos.",
   "opts": [
    "Verdadero",
    "Falso"
   ],
-  "a": 0,
-  "why": "Hay aficionados al béisbol en todo el continente americano y en otros lugares, como Japón.",
+  "a": 1,
+  "why": "Hay aficionados al béisbol en México, Cuba, Venezuela, Japón y muchos otros países.",
   "hint": "Piensa en los países de habla hispana.",
   "tags": [
    "baseball"
@@ -673,8 +673,8 @@
   "q": "¿Para qué sirve un puente?",
   "opts": [
    "Para cruzar un río o un valle",
-   "Para flotar sobre las olas",
-   "Para excavar bajo tierra"
+   "Para flotar sobre las olas del mar",
+   "Para excavar túneles bajo la tierra"
   ],
   "a": 0,
   "why": "Los puentes sostienen caminos y vías de tren sobre ríos y huecos profundos para que la gente pase.",
@@ -1079,10 +1079,10 @@
   "type": "choice",
   "q": "Es de día en América, pero de noche en Asia. ¿Por qué?",
   "opts": [
-   "Asia está mucho más lejos del Sol",
+   "Asia queda mucho más lejos del Sol hoy",
    "La Tierra gira, el Sol alumbra un lado",
-   "La Luna tapa el Sol sobre Asia",
-   "El Sol rodea la Tierra cada día"
+   "La Luna tapa el Sol sobre Asia entera",
+   "El Sol rodea la Tierra todos los días"
   ],
   "a": 1,
   "why": "La Tierra es una esfera que gira, y el Sol solo ilumina la mitad. Al girar, el día y la noche se desplazan.",
@@ -1317,10 +1317,10 @@
   "type": "choice",
   "q": "Tu teléfono muestra dónde estás con el GPS. El GPS funciona con señales de…",
   "opts": [
-   "Faros en cada costa",
-   "Torres construidas en la Luna",
-   "Satélites que giran alrededor de la Tierra",
-   "Cables enterrados bajo el suelo"
+   "Faros encendidos en todas las costas",
+   "Grandes torres construidas sobre la Luna",
+   "Satélites que orbitan la Tierra",
+   "Cables enterrados muy hondo bajo el suelo"
   ],
   "a": 2,
   "why": "Los satélites del GPS orbitan muy alto y mandan señales. El teléfono las usa para calcular exactamente dónde está.",
@@ -1465,12 +1465,12 @@
   "topic": "world",
   "level": 4,
   "type": "choice",
-  "q": "Muchas ciudades grandes nacieron junto a ríos o puertos, porque los barcos traían y llevaban mercancías.",
+  "q": "Casi nunca crecen ciudades grandes junto a ríos o puertos.",
   "opts": [
    "Verdadero",
    "Falso"
   ],
-  "a": 0,
+  "a": 1,
   "why": "Los barcos transportaban comida y productos con poco costo, así que la gente se instaló junto a ríos y puertos.",
   "hint": "¿Cómo viajaban los productos hace mucho tiempo?",
   "tags": [
@@ -1648,7 +1648,7 @@
    "ocean",
    "maps"
   ],
-  "fun": false,
+  "fun": true,
   "src": "National Geographic",
   "ver": "2026-11"
  },
@@ -1659,7 +1659,7 @@
   "type": "choice",
   "q": "¿Por qué los países comercian entre sí?",
   "opts": [
-   "Para que todos los precios sean iguales",
+   "Solo los países pequeños lo necesitan",
    "Todos los países producen todo lo que necesitan",
    "El comercio ayuda solo al país que vende",
    "Cada uno tiene lo que falta al otro"
@@ -1935,7 +1935,7 @@
   "type": "choice",
   "q": "Casi todo lo que cruza el océano viaja en contenedores metálicos del mismo tamaño. ¿Por qué sirve que sean iguales?",
   "opts": [
-   "Hacen que los barcos superen a los aviones",
+   "Hacen que los barcos sean más veloces",
    "Hacen que la carga pese menos",
    "Caben en barcos, trenes y camiones",
    "Mantienen frías las mercancías"
@@ -1982,7 +1982,7 @@
   "q": "¿Por qué los pilotos escuchan a los controladores aéreos desde tierra?",
   "opts": [
    "Para saber qué botanas hay a bordo",
-   "Para mantener los aviones bien separados",
+   "Para mantener separados los aviones",
    "Para saber cuántos pasajeros viajan",
    "Para cargar gasolina en el aeropuerto"
   ],
@@ -2024,12 +2024,12 @@
   "topic": "world",
   "level": 5,
   "type": "choice",
-  "q": "Algunas islas, como Tierra del Fuego, pertenecen a dos países.",
+  "q": "Una isla solo puede pertenecer a un país, nunca a dos.",
   "opts": [
    "Verdadero",
    "Falso"
   ],
-  "a": 0,
+  "a": 1,
   "why": "Tierra del Fuego se reparte entre Chile y Argentina. Una isla también puede tener fronteras, igual que un continente.",
   "hint": "Piensa en fronteras sobre una isla.",
   "tags": [
@@ -2180,9 +2180,9 @@
   "type": "choice",
   "q": "Se han hallado fósiles de animales marinos en lo alto de los Andes. ¿Qué indica esto?",
   "opts": [
-   "Las aves llevaron las conchas allá",
-   "Los animales marinos subían montañas",
-   "El océano llegó a cubrir los Andes",
+   "Las aves llevaron las conchas hasta allá",
+   "Los animales marinos subían las montañas",
+   "El océano llegó a cubrir todos los Andes",
    "El fondo marino se elevó y formó montañas"
   ],
   "a": 3,
@@ -2324,13 +2324,13 @@
   "topic": "world",
   "level": 6,
   "type": "choice",
-  "q": "El Ártico es un océano rodeado casi todo de tierra, y la Antártida es tierra rodeada de océano.",
+  "q": "El Ártico es un continente rodeado de océano, y la Antártida es un océano rodeado de tierra.",
   "opts": [
    "Verdadero",
    "Falso"
   ],
-  "a": 0,
-  "why": "El océano Ártico tiene tierras alrededor. La Antártida es un continente rodeado por el océano Austral.",
+  "a": 1,
+  "why": "Es al revés. El océano Ártico tiene tierras alrededor, y la Antártida es un continente rodeado por el océano Austral.",
   "hint": "Compara los dos extremos de la Tierra.",
   "tags": [
    "ocean",
@@ -2353,7 +2353,7 @@
    "El tiburón blanco"
   ],
   "a": 2,
-  "why": "Los tiburones toro toleran el agua dulce y suben por los ríos. Muchos de ellos llegan al lago de Nicaragua por un río.",
+  "why": "Los tiburones toro toleran el agua dulce y suben por ríos como el San Juan, que llega al lago de Nicaragua.",
   "hint": "Aguanta el agua dulce y la salada.",
   "tags": [
    "sharks"

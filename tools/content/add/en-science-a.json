@@ -194,9 +194,9 @@
   "src": "NGSS 2-PS1-1",
   "ver": "2026-11",
   "opts": [
-   "A glass of milk",
-   "The air inside a balloon",
-   "An ice cube"
+   "A tall glass of milk",
+   "Air inside a balloon",
+   "A big frozen ice cube"
   ],
   "a": 1
  },
@@ -277,7 +277,7 @@
   "opts": [
    "Moonlight",
    "Sunlight",
-   "Lamp noise"
+   "Wind"
   ],
   "a": 1
  },
@@ -479,8 +479,8 @@
   "src": "NASA",
   "ver": "2026-11",
   "opts": [
-   "Comets",
-   "Orbits",
+   "Shooting stars",
+   "Planet orbits",
    "Constellations"
   ],
   "a": 2
@@ -543,8 +543,8 @@
   "ver": "2026-11",
   "opts": [
    "An inclined plane",
-   "A pulley",
-   "A lever"
+   "A pulley and rope",
+   "A lever with a pivot"
   ],
   "a": 0
  },
@@ -563,9 +563,9 @@
   "src": "NGSS 3-PS2",
   "ver": "2026-11",
   "opts": [
-   "It makes the ball lighter",
+   "It makes the ball a lot lighter",
    "It softens the hit of a fast ball",
-   "It makes the ball bounce back"
+   "It makes the ball bounce back faster"
   ],
   "a": 1
  },
@@ -645,8 +645,8 @@
   "src": "NOAA",
   "ver": "2026-11",
   "opts": [
-   "Through gills on its sides",
-   "Through its mouth underwater",
+   "Through gills along its sides",
+   "Through its mouth while underwater",
    "Through a blowhole on its head"
   ],
   "a": 2
@@ -658,7 +658,7 @@
   "type": "choice",
   "q": "Which animal has fingerprints that look a lot like human fingerprints?",
   "why": "Koalas have tiny ridged fingerprints on their paws that are nearly like ours, even under a microscope.",
-  "hint": "This animal climbs eucalyptus trees.",
+  "hint": "Think of an animal that grips branches with its paws.",
   "tags": [
    "animals"
   ],
@@ -689,7 +689,7 @@
   "opts": [
    "Raindrops are tiny colored balls",
    "Sunlight has many colors mixed in",
-   "Clouds store colors for later"
+   "Clouds save up colors for rainy days"
   ],
   "a": 1
  },
@@ -784,8 +784,8 @@
   "src": "NGSS 3-5-ETS1",
   "ver": "2026-11",
   "opts": [
-   "Build the real one the same way",
-   "Decide bridges can never work",
+   "Build the real one the exact same way",
+   "Decide that bridges can never work",
    "Improve the weak part and test again"
   ],
   "a": 2
@@ -928,7 +928,7 @@
   "src": "NOAA",
   "ver": "2026-11",
   "opts": [
-   "Clouds bumping into each other",
+   "Clouds bumping hard into each other",
    "Air heated suddenly by lightning",
    "Rain hitting the ground hard",
    "Wind rushing through mountains"
@@ -1160,10 +1160,10 @@
   "src": "NGSS 1-PS4-1",
   "ver": "2026-11",
   "opts": [
-   "Sound turning into light",
-   "The wind repeating your words",
+   "Sound turning into a flash of light",
+   "The wind repeating your own words",
    "Sound bouncing off a hard surface",
-   "Your ears making noise"
+   "Your ears making a ringing noise"
   ],
   "a": 2
  },
@@ -1216,7 +1216,7 @@
   "type": "choice",
   "q": "During a solar eclipse, the Sun seems to vanish for a few minutes. What happens?",
   "why": "The Moon passes in front of the Sun and blocks its light. Earth's shadow causes a lunar eclipse instead.",
-  "hint": "Something of the size of the Moon is in the way.",
+  "hint": "Think about what could block the Sun's light for a few minutes.",
   "tags": [
    "space"
   ],
@@ -1224,9 +1224,9 @@
   "src": "NASA",
   "ver": "2026-11",
   "opts": [
-   "Earth's shadow covers the Sun",
-   "The Sun stops shining for a while",
-   "A giant cloud drifts across the Sun",
+   "Earth's shadow falls across the Sun",
+   "The Sun stops shining for a few minutes",
+   "A giant space cloud drifts past the Sun",
    "The Moon moves between the Sun and Earth"
   ],
   "a": 3
@@ -1249,7 +1249,7 @@
    "Cleaning its gills",
    "Digging a nest for eggs",
    "Hunting for hidden prey",
-   "Looking for a mate to dance with"
+   "Looking for a place to sleep"
   ],
   "a": 2
  },
@@ -1290,9 +1290,9 @@
   "src": "NASA",
   "ver": "2026-11",
   "opts": [
-   "About ten",
    "About a hundred",
    "About a thousand",
+   "A few hundred thousand",
    "More than a million"
   ],
   "a": 3
@@ -1348,9 +1348,9 @@
   "src": "NGSS 3-ESS2-2",
   "ver": "2026-11",
   "opts": [
-   "It rained in town this morning",
-   "Strong wind blew all afternoon",
-   "Snow fell on the hill last night",
+   "A heavy rain fell on town this morning",
+   "A strong wind blew all afternoon long",
+   "Snow fell on the hills late last night",
    "This desert has hot, dry summers every year"
   ],
   "a": 3
@@ -1370,9 +1370,9 @@
   "src": "NGSS 5-PS1",
   "ver": "2026-11",
   "opts": [
-   "It turned into water",
+   "It turned into more plain water",
    "It mixed in as tiny, unseen bits",
-   "It was destroyed completely",
+   "It was destroyed and is gone for good",
    "It sank and hid at the bottom"
   ],
   "a": 1
@@ -1414,7 +1414,7 @@
   "src": "NGSS 3-PS2",
   "ver": "2026-11",
   "opts": [
-   "The air pushes it from above",
+   "The air pushes it hard from above",
    "The ball gets heavier as it falls",
    "Gravity keeps pulling it downward",
    "Spinning adds speed each second"
@@ -1460,7 +1460,7 @@
   "opts": [
    "Deep water is far too salty",
    "Waves are too strong down there",
-   "Fish eat all the seaweed",
+   "Hungry fish eat all the seaweed there",
    "Sunlight cannot reach deep water"
   ],
   "a": 3
@@ -1471,9 +1471,10 @@
   "level": 4,
   "type": "order",
   "q": "Put these in order of when they first appeared on Earth, earliest first.",
-  "why": "Trilobites lived over 500 million years ago, dinosaurs about 230 million, mammoths a few million, and humans roughly 300,000 years ago.",
-  "hint": "Dinosaurs lived long before any mammoths.",
+  "why": "Trilobites appeared over 500 million years ago, sharks about 450 million, dinosaurs about 230 million, and modern humans only about 300,000.",
+  "hint": "Dinosaurs came long after the first sharks.",
   "tags": [
+   "sharks",
    "dinosaurs"
   ],
   "fun": false,
@@ -1481,8 +1482,8 @@
   "ver": "2026-11",
   "opts": [
    "Trilobites",
+   "Sharks",
    "Dinosaurs",
-   "Woolly mammoths",
    "Humans"
   ]
  },
@@ -1520,9 +1521,9 @@
   "ver": "2026-11",
   "opts": [
    "Lava tubes",
-   "Ocean currents",
+   "Deep ocean currents",
    "Tectonic plates",
-   "Magma chambers"
+   "Giant magma chambers"
   ],
   "a": 2
  },
@@ -1542,7 +1543,7 @@
    "Light bends between water and air",
    "The straw really bends in water",
    "Water heats the straw unevenly",
-   "The glass squeezes the straw"
+   "The glass squeezes the straw sideways"
   ],
   "a": 0
  },
@@ -1559,10 +1560,10 @@
   "src": "NGSS 4-PS4",
   "ver": "2026-11",
   "opts": [
-   "The sound travels faster",
-   "The drum becomes heavier",
-   "The drum skin wiggles with bigger swings",
-   "The air gets thicker"
+   "The sound travels much faster",
+   "The drum becomes much heavier",
+   "The skin wiggles much farther",
+   "The air around it gets thicker"
   ],
   "a": 2
  },
@@ -1593,20 +1594,18 @@
   "topic": "science",
   "level": 4,
   "type": "choice",
-  "q": "Where does the energy in an apple mostly come from, long before you eat it?",
-  "why": "Leaves use sunlight to make food for the tree. Soil and water help, but the energy comes from the Sun.",
-  "hint": "Think about what leaves collect.",
-  "tags": [
-   "food"
-  ],
+  "q": "Fungi and tiny bacteria break down fallen leaves on a forest floor. What does this do for the forest?",
+  "why": "Decomposers turn dead leaves into nutrients that plants take up through their roots. Nothing is wasted in a healthy forest.",
+  "hint": "Think about what happens to the leftovers of leaves.",
+  "tags": [],
   "fun": false,
-  "src": "NGSS 5-PS3",
+  "src": "NGSS 5-LS2",
   "ver": "2026-11",
   "opts": [
-   "Soil",
-   "Rainwater",
-   "Tree roots",
-   "Sunlight"
+   "Gives trees new leaves right away",
+   "Makes the soil harder and drier",
+   "Keeps animals from finding food",
+   "Returns nutrients to the soil"
   ],
   "a": 3
  },
@@ -1625,10 +1624,10 @@
   "src": "NGSS 3-LS4",
   "ver": "2026-11",
   "opts": [
-   "Stay warm in cold water",
+   "Stay warm in the cold deep water",
    "Blend in so it is hard to see",
-   "Swim much faster",
-   "Breathe more easily"
+   "Swim much faster than any predator",
+   "Breathe more easily on the sand"
   ],
   "a": 1
  },
@@ -1667,7 +1666,7 @@
   "src": "NOAA",
   "ver": "2026-11",
   "opts": [
-   "Heavy bones that float well",
+   "Hollow bones full of air",
    "Gulping air at the surface",
    "A big liver full of light oil",
    "Warm blood that lifts the body"
@@ -1690,9 +1689,9 @@
   "ver": "2026-11",
   "opts": [
    "By dating the rock layers around it",
-   "By weighing the fossil today",
-   "By measuring how big it grew",
-   "By counting cracks in the bone"
+   "By weighing the whole fossil today",
+   "By measuring how big it once grew",
+   "By counting the cracks in its bones"
   ],
   "a": 0
  },
@@ -1750,10 +1749,10 @@
   "src": "NOAA",
   "ver": "2026-11",
   "opts": [
-   "Dust turns into water",
+   "Dust in the air turns into water",
    "Water vapor turns into tiny droplets",
-   "Oxygen freezes into crystals",
-   "Wind squeezes rain out of air"
+   "Oxygen freezes into tiny ice crystals",
+   "Wind squeezes the rain out of the air"
   ],
   "a": 1
  },
@@ -1815,9 +1814,9 @@
   "ver": "2026-11",
   "opts": [
    "Pushes back with the same size force",
-   "Pushes back with a smaller force",
-   "Pushes back with a bigger force",
-   "Does not push at all"
+   "Pushes back with a much smaller force",
+   "Pushes back with a much bigger force",
+   "Does not push back at all"
   ],
   "a": 0
  },
@@ -1858,10 +1857,10 @@
   "src": "NOAA",
   "ver": "2026-11",
   "opts": [
-   "Whales and dolphins",
-   "Tiny drifting algae called phytoplankton",
-   "Kelp forests only",
-   "Coral reefs"
+   "Whales, dolphins and other mammals",
+   "Tiny drifting algae (phytoplankton)",
+   "Giant kelp forests and nothing else",
+   "Coral reefs and sea sponges"
   ],
   "a": 1
  },
@@ -1922,8 +1921,8 @@
   "ver": "2026-11",
   "opts": [
    "Shellfish once climbed the mountain",
-   "Birds carried the shells there",
-   "Rain washed shells up the slope",
+   "Birds carried the shells up there",
+   "Heavy rain washed shells up the slope",
    "Old sea floor was lifted up over time"
   ],
   "a": 3
@@ -1961,10 +1960,10 @@
   "src": "NGSS 4-PS4",
   "ver": "2026-11",
   "opts": [
-   "Sound travels faster through metal than air",
-   "Metal makes sound louder than air",
-   "Trains make sounds only in metal",
-   "The air blocks the sound of trains"
+   "Sound moves faster in metal than air",
+   "Metal always makes sound louder than air",
+   "Trains make their sounds only in the metal",
+   "The air blocks all the sound of trains"
   ],
   "a": 0
  },
@@ -2025,9 +2024,9 @@
   "src": "NGSS 4-LS1",
   "ver": "2026-11",
   "opts": [
-   "Sunlight and soil",
-   "Sap and roots",
-   "Seeds and pollen",
+   "Sunlight, soil and rainwater",
+   "Sap and tiny root hairs",
+   "Seeds, pollen and fruit",
    "Air gases and water vapor"
   ],
   "a": 3
@@ -2047,10 +2046,10 @@
   "src": "NASA",
   "ver": "2026-11",
   "opts": [
-   "There is no gravity that far up",
+   "Gravity does not reach that far up",
    "Both are falling around Earth together",
-   "Engines inside cancel out gravity",
-   "The station sits above Earth's air"
+   "Engines inside cancel out the gravity",
+   "The station sits above all of Earth's air"
   ],
   "a": 1
  },
@@ -2111,7 +2110,7 @@
   "src": "AMNH",
   "ver": "2026-11",
   "opts": [
-   "It shows features of both dinosaurs and birds",
+   "It has features of dinosaurs and birds",
    "It proves that all dinosaurs could fly",
    "It shows that birds lived before dinosaurs",
    "It proves dinosaurs lived mostly in water"
@@ -2171,10 +2170,10 @@
   "src": "NOAA",
   "ver": "2026-11",
   "opts": [
-   "Land has too much cool wind",
+   "Land has far too much cool wind",
    "It loses the warm ocean that feeds it",
-   "Mountains tear it into pieces",
-   "Land makes the air press harder"
+   "Mountains tear it into small pieces",
+   "Land makes the air press down harder"
   ],
   "a": 1
  },
@@ -2254,7 +2253,7 @@
   "src": "NGSS MS-LS1",
   "ver": "2026-11",
   "opts": [
-   "Each eye sees from a slightly different spot",
+   "Each eye sees from a different spot",
    "Two eyes take in twice as much light",
    "One eye is always closed inside the brain",
    "Each eye sees a different color of light"
@@ -2276,8 +2275,8 @@
   "src": "NOAA",
   "ver": "2026-11",
   "opts": [
-   "By soaking up sunlight earlier",
-   "By electric sparks like a battery",
+   "By soaking up sunlight all day",
+   "By electric sparks like a tiny battery",
    "By chemical reactions in living cells",
    "By rubbing its scales together"
   ],
@@ -2371,9 +2370,9 @@
   "src": "NGSS MS-PS4",
   "ver": "2026-11",
   "opts": [
-   "The siren changes its own tune",
-   "Sound travels faster as it leaves",
-   "Air gets thicker behind the truck",
+   "The siren changes its own tune on purpose",
+   "Sound travels faster as the truck leaves",
+   "Air gets thicker behind the moving truck",
    "Sound waves bunch up, then stretch out"
   ],
   "a": 3
@@ -2393,10 +2392,10 @@
   "src": "NGSS 3-5-ETS1",
   "ver": "2026-11",
   "opts": [
-   "It has far fewer blocks in it",
-   "Its blocks are heavier on one side",
+   "It has far fewer blocks in the tower",
+   "Its blocks are all heavier on one side",
    "Its weight sits lower over a wider base",
-   "Wind cannot touch a wide tower"
+   "Wind cannot touch a wide, low tower"
   ],
   "a": 2
  },
@@ -2458,9 +2457,9 @@
   "ver": "2026-11",
   "opts": [
    "Even light cannot escape its gravity",
-   "It is coated in thick black dust",
+   "It is wrapped in thick black dust clouds",
    "It is too cold to give off light",
-   "It is a hole that has no mass"
+   "It is an empty hole with no mass"
   ],
   "a": 0
  },
