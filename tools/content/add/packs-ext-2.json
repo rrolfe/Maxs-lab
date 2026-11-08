@@ -1,0 +1,2038 @@
+{
+ "packs": [
+  {
+   "id": "space",
+   "words": {
+    "en": [
+     {
+      "w": "PLUTO",
+      "clue": "Small icy world once counted as the ninth planet",
+      "fact": "Pluto is a dwarf planet, smaller than Earth's Moon.",
+      "tier": 1
+     },
+     {
+      "w": "ALIEN",
+      "clue": "Make-believe creature from another planet",
+      "fact": "Scientists hunting for life on other worlds would be thrilled to find even tiny microbes.",
+      "tier": 1
+     },
+     {
+      "w": "NOVA",
+      "clue": "Star that suddenly flares up bright, then slowly fades",
+      "fact": "Nova is Latin for new, because long ago people thought a brand-new star had appeared.",
+      "tier": 1
+     },
+     {
+      "w": "SOLAR",
+      "clue": "Describes panels or energy that come from sunlight",
+      "fact": "Solar panels on the space station turn sunlight into electricity.",
+      "tier": 1
+     },
+     {
+      "w": "LUNAR",
+      "clue": "Having to do with the Moon, as in a landing",
+      "fact": "Lunar comes from luna, the Latin word for Moon.",
+      "tier": 1
+     },
+     {
+      "w": "FLARE",
+      "clue": "Bright eruption of light on the Sun's surface",
+      "fact": "A big solar flare can briefly disturb radio signals on Earth.",
+      "tier": 1
+     },
+     {
+      "w": "BELT",
+      "clue": "Band of space rocks between Mars and Jupiter",
+      "fact": "Spacecraft cross the asteroid belt safely because the rocks are very far apart.",
+      "tier": 1
+     },
+     {
+      "w": "SUIT",
+      "clue": "Puffy outfit astronauts wear to float outside",
+      "fact": "A spacewalk suit has a drinking bag inside the helmet.",
+      "tier": 1
+     },
+     {
+      "w": "ICE",
+      "clue": "Frozen water that makes up much of a comet",
+      "fact": "Comets are mostly ice and dust, so people call them dirty snowballs.",
+      "tier": 1
+     },
+     {
+      "w": "GAS",
+      "clue": "Jupiter and Saturn are mostly made of this, not rock",
+      "fact": "A spaceship could not land on Jupiter or Saturn, because they are mostly gas.",
+      "tier": 1
+     },
+     {
+      "w": "CORE",
+      "clue": "Hot, deep center of a planet",
+      "fact": "Earth's inner core is about as hot as the surface of the Sun.",
+      "tier": 1
+     },
+     {
+      "w": "AXIS",
+      "clue": "Imaginary line through the middle that Earth spins around",
+      "fact": "Earth's axis is tilted, which is why we have seasons.",
+      "tier": 1
+     },
+     {
+      "w": "TAIL",
+      "clue": "Glowing streak that trails behind a comet",
+      "fact": "A comet's tail always points away from the Sun.",
+      "tier": 1
+     },
+     {
+      "w": "LENS",
+      "clue": "Curved glass in a telescope that bends light",
+      "fact": "Many telescopes use a big curved lens or mirror to gather faint starlight.",
+      "tier": 1
+     },
+     {
+      "w": "TITAN",
+      "clue": "Saturn's largest moon, wrapped in thick orange haze",
+      "fact": "Titan has lakes and rivers, but they hold liquid methane, not water.",
+      "tier": 1
+     },
+     {
+      "w": "LIGHT",
+      "clue": "Nothing travels faster than this, and the Sun gives lots of it",
+      "fact": "Light is so fast it could circle Earth about seven times in one second.",
+      "tier": 1
+     },
+     {
+      "w": "LEO",
+      "clue": "Star group that looks like a lion",
+      "fact": "Leo is Latin for lion, and part of its stars looks like a backward question mark.",
+      "tier": 1
+     },
+     {
+      "w": "ORION",
+      "clue": "Hunter constellation with three bright stars in a row",
+      "fact": "Orion is easy to spot on winter nights in the northern sky.",
+      "tier": 1
+     },
+     {
+      "w": "WIND",
+      "clue": "Invisible stream of tiny particles flowing out from the Sun",
+      "fact": "The solar wind creates colorful lights, called auroras, near Earth's poles.",
+      "tier": 1
+     },
+     {
+      "w": "HOLE",
+      "clue": "Black ___: a place where gravity is so strong light cannot escape",
+      "fact": "Some black holes form when a giant star runs out of fuel and collapses.",
+      "tier": 1
+     },
+     {
+      "w": "FUEL",
+      "clue": "Rockets burn lots of this to push off the ground",
+      "fact": "Some rockets burn super-cold liquid hydrogen as fuel.",
+      "tier": 1
+     },
+     {
+      "w": "PAD",
+      "clue": "Flat spot where a rocket stands before blast-off",
+      "fact": "A launch pad has a water system that soaks up the loud noise.",
+      "tier": 1
+     },
+     {
+      "w": "DAY",
+      "clue": "Time Earth takes to spin around one time",
+      "fact": "A day on Venus is longer than a year on Venus.",
+      "tier": 1
+     },
+     {
+      "w": "YEAR",
+      "clue": "Time Earth takes to travel once around the Sun",
+      "fact": "A year on Mercury lasts only 88 Earth days.",
+      "tier": 1
+     },
+     {
+      "w": "DUST",
+      "clue": "Fine powder that covered the astronauts' boots on the Moon",
+      "fact": "Moon dust is sharp and sticky, and it clung to the astronauts' suits.",
+      "tier": 1
+     },
+     {
+      "w": "CREW",
+      "clue": "Team of people working together on a spaceship",
+      "fact": "Crew members on the space station see about sixteen sunrises every day.",
+      "tier": 1
+     },
+     {
+      "w": "STORM",
+      "clue": "Jupiter's Great Red Spot is a giant swirling one",
+      "fact": "Jupiter's Great Red Spot has swirled for well over a hundred years.",
+      "tier": 1
+     },
+     {
+      "w": "DWARF",
+      "clue": "Small kind of planet that Pluto is",
+      "fact": "Pluto and Ceres are both dwarf planets, small and round.",
+      "tier": 1
+     },
+     {
+      "w": "EUROPA",
+      "clue": "Icy moon of Jupiter with an ocean hidden underneath",
+      "fact": "Europa's hidden ocean may hold more water than all of Earth's oceans together.",
+      "tier": 2
+     },
+     {
+      "w": "MERCURY",
+      "clue": "Smallest planet, closest to the Sun",
+      "fact": "Mercury is a planet, yet it is smaller than two moons in our solar system.",
+      "tier": 2
+     },
+     {
+      "w": "SUNSPOT",
+      "clue": "Dark, cooler patch on the Sun's surface",
+      "fact": "Sunspots look dark only because they are cooler than the glowing area around them.",
+      "tier": 2
+     },
+     {
+      "w": "SHUTTLE",
+      "clue": "Winged spacecraft that glided home and landed on a runway",
+      "fact": "Space shuttles launched like rockets but landed like airplanes.",
+      "tier": 2
+     },
+     {
+      "w": "LIFTOFF",
+      "clue": "Moment a rocket leaves the ground",
+      "fact": "At liftoff a big rocket burns through tons of fuel every second.",
+      "tier": 2
+     },
+     {
+      "w": "APOLLO",
+      "clue": "Name of the program that first landed people on the Moon",
+      "fact": "Some Apollo astronauts drove a small car on the Moon.",
+      "tier": 2
+     },
+     {
+      "w": "PULSAR",
+      "clue": "Tiny spinning star that flashes beams like a lighthouse",
+      "fact": "Some pulsars spin hundreds of times every second.",
+      "tier": 2
+     },
+     {
+      "w": "STATION",
+      "clue": "Place where astronauts live and work while circling Earth",
+      "fact": "The space station goes all the way around Earth about every ninety minutes.",
+      "tier": 2
+     },
+     {
+      "w": "VOYAGER",
+      "clue": "Name of two probes launched in 1977 carrying golden records",
+      "fact": "Voyager's golden records hold sounds and pictures from Earth, in case someone finds them.",
+      "tier": 2
+     },
+     {
+      "w": "ANTENNA",
+      "clue": "Rod or dish that sends and catches radio signals",
+      "fact": "Far-off probes use big dish antennas to send messages home to Earth.",
+      "tier": 2
+     },
+     {
+      "w": "DEBRIS",
+      "clue": "Broken bits of old rockets floating around Earth",
+      "fact": "Space debris moves so fast that a tiny flake can chip a window.",
+      "tier": 2
+     },
+     {
+      "w": "HELIUM",
+      "clue": "Light gas that makes party balloons float",
+      "fact": "Helium was discovered in sunlight before anyone found it on Earth.",
+      "tier": 2
+     },
+     {
+      "w": "PLASMA",
+      "clue": "Super-hot glowing state of matter, not solid, liquid or gas",
+      "fact": "Plasma is the fourth state of matter, and the Sun is made of it.",
+      "tier": 2
+     },
+     {
+      "w": "HORIZON",
+      "clue": "Faraway line where sky seems to meet the ground",
+      "fact": "The Moon's horizon looks closer than Earth's because the Moon is smaller.",
+      "tier": 2
+     },
+     {
+      "w": "LANDER",
+      "clue": "Spacecraft built to touch down gently on another world",
+      "fact": "Many landers fire rockets pointing down to slow their fall and touch down softly.",
+      "tier": 2
+     },
+     {
+      "w": "BOOSTER",
+      "clue": "Extra rocket attached to give a big push at liftoff",
+      "fact": "Some rocket boosters fly back down and land, ready to be used again.",
+      "tier": 2
+     },
+     {
+      "w": "NOZZLE",
+      "clue": "Cone at a rocket's bottom where hot gas blasts out",
+      "fact": "A rocket nozzle shapes the hot gas into a fast stream that pushes the rocket up.",
+      "tier": 2
+     },
+     {
+      "w": "THRUST",
+      "clue": "Forward push that makes a rocket move",
+      "fact": "A rocket moves up by blasting hot gas down.",
+      "tier": 2
+     },
+     {
+      "w": "AIRLOCK",
+      "clue": "Small room where astronauts wait before stepping outside",
+      "fact": "An airlock lets astronauts go outside without letting the station's air escape.",
+      "tier": 2
+     },
+     {
+      "w": "POLARIS",
+      "clue": "Star that sits almost straight above Earth's north pole",
+      "fact": "People have used Polaris, the North Star, to find north for hundreds of years.",
+      "tier": 2
+     },
+     {
+      "w": "SIRIUS",
+      "clue": "Brightest star in the night sky, called the Dog Star",
+      "fact": "Sirius is really two stars circling each other.",
+      "tier": 2
+     },
+     {
+      "w": "HALLEY",
+      "clue": "Famous comet that returns about every 76 years",
+      "fact": "Halley's Comet is next due to pass Earth in the year 2061.",
+      "tier": 2
+     },
+     {
+      "w": "OXYGEN",
+      "clue": "Gas we breathe that astronauts must carry into space",
+      "fact": "Astronauts on the space station make oxygen by splitting water apart.",
+      "tier": 2
+     },
+     {
+      "w": "VOLCANO",
+      "clue": "Mountain that erupts with lava and ash",
+      "fact": "Olympus Mons on Mars is a volcano more than twice as tall as Mount Everest.",
+      "tier": 2
+     },
+     {
+      "w": "CANYON",
+      "clue": "Deep valley with steep rocky walls, like one on Mars",
+      "fact": "Mars has a canyon so long it would stretch across much of the United States.",
+      "tier": 2
+     },
+     {
+      "w": "ELLIPSE",
+      "clue": "Stretched-out circle, the shape of most orbits",
+      "fact": "Planets travel around the Sun in slightly squashed ovals, not perfect circles.",
+      "tier": 2
+     },
+     {
+      "w": "ENGINE",
+      "clue": "Machine that burns fuel to make a rocket go",
+      "fact": "Rocket engines carry their own oxygen, because space has no air to breathe.",
+      "tier": 2
+     },
+     {
+      "w": "AURORA",
+      "clue": "Green and pink lights dancing in the sky near the poles",
+      "fact": "Auroras happen when particles from the Sun crash into gases in Earth's air.",
+      "tier": 2
+     },
+     {
+      "w": "TWINKLE",
+      "clue": "What the little star does in the nursery song",
+      "fact": "Stars twinkle because moving air bends their light, but planets twinkle much less.",
+      "tier": 2
+     },
+     {
+      "w": "SEASON",
+      "clue": "Spring, summer, fall or winter, for example",
+      "fact": "Earth has seasons because it is tilted as it travels around the Sun.",
+      "tier": 2
+     },
+     {
+      "w": "PAYLOAD",
+      "clue": "Cargo a rocket carries into space, such as a satellite",
+      "fact": "A rocket's payload can be a satellite, a rover, or even astronauts.",
+      "tier": 2
+     },
+     {
+      "w": "SUNDIAL",
+      "clue": "Old-fashioned clock that uses a stick's shadow and sunshine",
+      "fact": "People told time with sundials thousands of years before mechanical clocks were invented.",
+      "tier": 2
+     },
+     {
+      "w": "CRESCENT",
+      "clue": "Thin, curved Moon shape like a banana",
+      "fact": "A crescent Moon looks thin because we only see a sliver of its sunlit side.",
+      "tier": 3
+     },
+     {
+      "w": "MOONWALK",
+      "clue": "Bouncy stroll by an astronaut on the lunar ground",
+      "fact": "Footprints on the Moon will last a very long time, since there is no wind or rain.",
+      "tier": 3
+     },
+     {
+      "w": "COUNTDOWN",
+      "clue": "Numbers said backward just before a rocket blasts off",
+      "fact": "Rocket countdowns often pause so teams can check that everything is working.",
+      "tier": 3
+     },
+     {
+      "w": "SPACEWALK",
+      "clue": "Trip outside a spacecraft, floating in a suit",
+      "fact": "Astronauts on a spacewalk clip themselves on with tethers so they cannot drift away.",
+      "tier": 3
+     },
+     {
+      "w": "SPACECRAFT",
+      "clue": "Any vehicle built to travel beyond Earth's sky",
+      "fact": "Once moving, a spacecraft can coast for years because there is no air to slow it.",
+      "tier": 3
+     },
+     {
+      "w": "HYDROGEN",
+      "clue": "Lightest gas, and the main stuff stars are made of",
+      "fact": "Stars shine by squeezing hydrogen atoms together into helium.",
+      "tier": 3
+     },
+     {
+      "w": "MOONQUAKE",
+      "clue": "Shaking of lunar ground, like an earthquake",
+      "fact": "Moonquakes can rumble for many minutes, much longer than most earthquakes.",
+      "tier": 3
+     },
+     {
+      "w": "PARACHUTE",
+      "clue": "Big fabric canopy that slows a falling capsule",
+      "fact": "Mars landers open giant parachutes to slow down as they fall through thin air.",
+      "tier": 3
+     },
+     {
+      "w": "SPLASHDOWN",
+      "clue": "When a returning capsule lands in the ocean",
+      "fact": "Apollo capsules splashed down in the ocean, where ships waited to pick up the crew.",
+      "tier": 3
+     },
+     {
+      "w": "METEORITE",
+      "clue": "Space rock that has landed on the ground",
+      "fact": "Many meteorites are about 4.5 billion years old, as old as the planets.",
+      "tier": 3
+     },
+     {
+      "w": "EXPLORER",
+      "clue": "Traveler who visits new places to learn about them",
+      "fact": "Many space explorers are robots that never get tired or hungry.",
+      "tier": 3
+     },
+     {
+      "w": "SUNLIGHT",
+      "clue": "Light and warmth streaming down from our nearest star",
+      "fact": "Sunlight takes about eight minutes to travel from the Sun to Earth.",
+      "tier": 3
+     },
+     {
+      "w": "STARGAZER",
+      "clue": "Person who lies back and watches the night sky for fun",
+      "fact": "Stargazing is best on dark nights far away from bright city lights.",
+      "tier": 3
+     },
+     {
+      "w": "BINOCULARS",
+      "clue": "Two small tubes joined together that make faraway things look close",
+      "fact": "Even simple binoculars can show four of Jupiter's moons.",
+      "tier": 3
+     },
+     {
+      "w": "ASTRONOMY",
+      "clue": "The science of studying planets, galaxies and everything beyond Earth",
+      "fact": "People have studied the night sky for thousands of years, so astronomy is very old.",
+      "tier": 3
+     },
+     {
+      "w": "TOUCHDOWN",
+      "clue": "The moment a spacecraft lands on another world's surface",
+      "fact": "Landing on Mars is hard because its thin air gives little help slowing down.",
+      "tier": 3
+     },
+     {
+      "w": "OBSERVATORY",
+      "clue": "Building with a big telescope for studying the sky",
+      "fact": "Many observatories sit on tall mountains where the air is thin and clear.",
+      "tier": 3
+     },
+     {
+      "w": "PLANETARIUM",
+      "clue": "Dome theater that shows the night sky on its ceiling",
+      "fact": "A planetarium projector can show thousands of stars at one time.",
+      "tier": 3
+     },
+     {
+      "w": "TRAJECTORY",
+      "clue": "Curved path that a rocket or ball travels along",
+      "fact": "Spacecraft going to Mars aim at where the planet will be, not where it is now.",
+      "tier": 3
+     },
+     {
+      "w": "ACCELERATE",
+      "clue": "Go faster and faster, as a rocket does after liftoff",
+      "fact": "To orbit Earth, a rocket must speed up to about 28,000 kilometers per hour.",
+      "tier": 3
+     },
+     {
+      "w": "PROPELLANT",
+      "clue": "Mix of fuel and oxygen burned to power a rocket",
+      "fact": "Most of a rocket's weight at liftoff is propellant, not the rocket itself.",
+      "tier": 3
+     },
+     {
+      "w": "DIAMETER",
+      "clue": "Distance straight across a circle through its middle",
+      "fact": "Jupiter's diameter is about eleven times Earth's.",
+      "tier": 3
+     },
+     {
+      "w": "WORMHOLE",
+      "clue": "Made-up tunnel that shortcuts across space in science fiction",
+      "fact": "Nobody has ever found a wormhole; for now they are only an idea.",
+      "tier": 3
+     },
+     {
+      "w": "STARDUST",
+      "clue": "Tiny glittering grains left behind by exploded suns",
+      "fact": "Much of what your body is made of was first made inside stars.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "DÍA",
+      "clue": "Tiempo que tarda la Tierra en girar una vez sobre sí misma",
+      "fact": "En Venus, un día dura más que un año.",
+      "tier": 1
+     },
+     {
+      "w": "HIELO",
+      "clue": "Agua congelada que forma gran parte de un cometa",
+      "fact": "Los cometas son hielo y polvo, por eso los llaman bolas de nieve sucias.",
+      "tier": 1
+     },
+     {
+      "w": "GAS",
+      "clue": "Lo que forma casi todo Júpiter, en vez de tierra firme",
+      "fact": "Como Júpiter y Saturno son casi puro gas, una nave no podría posarse sobre ellos.",
+      "tier": 1
+     },
+     {
+      "w": "POLVO",
+      "clue": "Partículas finísimas que cubrían las botas de los astronautas en la Luna",
+      "fact": "El polvo de la Luna es afilado y pegajoso, y se pegó a los trajes.",
+      "tier": 1
+     },
+     {
+      "w": "COLA",
+      "clue": "Estela brillante que deja atrás un cometa",
+      "fact": "La cola de un cometa siempre apunta lejos del Sol.",
+      "tier": 1
+     },
+     {
+      "w": "EJE",
+      "clue": "Línea imaginaria alrededor de la cual gira la Tierra",
+      "fact": "El eje de la Tierra está inclinado, y por eso existen las estaciones del año.",
+      "tier": 1
+     },
+     {
+      "w": "LENTE",
+      "clue": "Cristal curvo que dobla la luz dentro de un telescopio",
+      "fact": "Muchos telescopios usan una lente o un espejo grande para juntar la luz débil.",
+      "tier": 1
+     },
+     {
+      "w": "TITÁN",
+      "clue": "La luna más grande de Saturno, envuelta en bruma naranja",
+      "fact": "En Titán hay lagos y ríos, pero son de metano líquido, no de agua.",
+      "tier": 1
+     },
+     {
+      "w": "ORIÓN",
+      "clue": "Constelación del cazador con tres estrellas brillantes en fila",
+      "fact": "Orión es fácil de encontrar porque las tres estrellas de su cinturón están en fila.",
+      "tier": 1
+     },
+     {
+      "w": "TRAJE",
+      "clue": "Ropa gruesa e inflada que protege al astronauta afuera de la nave",
+      "fact": "Algunos trajes espaciales llevan una bolsa para beber dentro del casco.",
+      "tier": 1
+     },
+     {
+      "w": "NOVA",
+      "clue": "Estrella que de pronto brilla mucho y luego se apaga",
+      "fact": "Nova significa nueva en latín, porque antes creían que había nacido una estrella.",
+      "tier": 1
+     },
+     {
+      "w": "AIRE",
+      "clue": "Mezcla invisible que respiramos y que no hay en el espacio",
+      "fact": "Los astronautas llevan su propio aire en el traje para poder respirar.",
+      "tier": 1
+     },
+     {
+      "w": "ROCA",
+      "clue": "Material duro del que están hechos Mercurio, Venus, la Tierra y Marte",
+      "fact": "Mercurio, Venus, la Tierra y Marte tienen suelo duro, no como Júpiter.",
+      "tier": 1
+     },
+     {
+      "w": "LAVA",
+      "clue": "Piedra derretida y caliente que sale de un volcán",
+      "fact": "Hace mucho tiempo, volcanes de Marte y de la Luna lanzaron lava.",
+      "tier": 1
+     },
+     {
+      "w": "NOCHE",
+      "clue": "Cuando el cielo se oscurece y salen las estrellas",
+      "fact": "En la Luna, una noche dura casi dos semanas de las nuestras.",
+      "tier": 1
+     },
+     {
+      "w": "CASCO",
+      "clue": "Pieza redonda que protege la cabeza del astronauta",
+      "fact": "El visor dorado del casco protege los ojos del astronauta de la luz del Sol.",
+      "tier": 1
+     },
+     {
+      "w": "PESO",
+      "clue": "Fuerza con que la gravedad te atrae hacia el suelo",
+      "fact": "En la Luna pesarías unas seis veces menos que en la Tierra.",
+      "tier": 1
+     },
+     {
+      "w": "SALTO",
+      "clue": "Impulso con las piernas para subir en el aire",
+      "fact": "En la Luna, un salto te llevaría mucho más alto que en la Tierra.",
+      "tier": 1
+     },
+     {
+      "w": "HELIO",
+      "clue": "Gas ligero que hace flotar los globos de fiesta",
+      "fact": "Se descubrió helio en la luz del Sol antes de hallarlo en la Tierra.",
+      "tier": 1
+     },
+     {
+      "w": "RADAR",
+      "clue": "Aparato que usa ondas de radio para ver objetos lejanos",
+      "fact": "El radar envía ondas de radio que rebotan en los objetos y regresan.",
+      "tier": 1
+     },
+     {
+      "w": "URANO",
+      "clue": "Séptimo planeta desde el Sol, que gira acostado",
+      "fact": "Urano gira de lado, como una pelota que rueda.",
+      "tier": 1
+     },
+     {
+      "w": "ENANO",
+      "clue": "Tipo de planeta pequeño, como Plutón",
+      "fact": "Plutón y Ceres son dos planetas enanos, pequeños y redondos.",
+      "tier": 1
+     },
+     {
+      "w": "MOTOR",
+      "clue": "Máquina que quema combustible para empujar un cohete",
+      "fact": "Los motores de cohete llevan su propio oxígeno, porque en el espacio no hay aire.",
+      "tier": 1
+     },
+     {
+      "w": "AGUA",
+      "clue": "Líquido que bebemos y que hace mucho corría sobre Marte",
+      "fact": "Se ha encontrado hielo de agua en la Luna y en Marte.",
+      "tier": 1
+     },
+     {
+      "w": "CARGA",
+      "clue": "Satélites o provisiones que lleva un cohete",
+      "fact": "Casi todo el peso de un cohete es combustible, y la carga es solo una parte.",
+      "tier": 1
+     },
+     {
+      "w": "CALOR",
+      "clue": "Lo que da el Sol y nos hace sudar",
+      "fact": "Venus es el planeta más caliente, aunque Mercurio está más cerca del Sol.",
+      "tier": 1
+     },
+     {
+      "w": "FRÍO",
+      "clue": "Lo que sientes con la nieve o con el hielo",
+      "fact": "La noche en la Luna es tan fría que baja de cien grados bajo cero.",
+      "tier": 1
+     },
+     {
+      "w": "NUBE",
+      "clue": "Algodón flotante del cielo; en el espacio, de gas y polvo",
+      "fact": "Las estrellas nacen dentro de enormes nubes de gas y polvo.",
+      "tier": 1
+     },
+     {
+      "w": "PLUTÓN",
+      "clue": "Pequeño mundo helado que antes era el noveno planeta",
+      "fact": "Plutón es más chico que nuestra Luna.",
+      "tier": 2
+     },
+     {
+      "w": "ANILLO",
+      "clue": "Aro de hielo y roca que rodea a Saturno",
+      "fact": "Los anillos de Saturno son enormes de ancho, pero casi planos y delgados.",
+      "tier": 2
+     },
+     {
+      "w": "OXÍGENO",
+      "clue": "Gas que respiramos y que los astronautas llevan al espacio",
+      "fact": "En la estación espacial se fabrica oxígeno separando el agua en partes.",
+      "tier": 2
+     },
+     {
+      "w": "ANTENA",
+      "clue": "Varilla o plato que envía y recibe señales de radio",
+      "fact": "Las sondas lejanas usan antenas grandes para mandar mensajes a la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "NÚCLEO",
+      "clue": "Centro muy caliente de un planeta",
+      "fact": "El núcleo de la Tierra está casi tan caliente como la superficie del Sol.",
+      "tier": 2
+     },
+     {
+      "w": "VIENTO",
+      "clue": "El ___ solar: corriente de partículas que sale del Sol",
+      "fact": "El viento solar ayuda a formar las luces de colores llamadas auroras.",
+      "tier": 2
+     },
+     {
+      "w": "AGUJERO",
+      "clue": "Negro ___: lugar donde ni la luz puede escapar",
+      "fact": "Algunos agujeros negros nacen cuando una estrella gigante se queda sin combustible.",
+      "tier": 2
+     },
+     {
+      "w": "FLOTAR",
+      "clue": "Quedarse en el aire sin caer, como los astronautas",
+      "fact": "Los astronautas duermen en bolsas atadas a la pared para no flotar por todos lados.",
+      "tier": 2
+     },
+     {
+      "w": "AURORA",
+      "clue": "Luces verdes y rosadas que bailan cerca de los polos",
+      "fact": "Las auroras ocurren cuando partículas del Sol chocan con los gases del aire.",
+      "tier": 2
+     },
+     {
+      "w": "ESPEJO",
+      "clue": "Superficie lisa y brillante que refleja la luz",
+      "fact": "Algunos telescopios grandes usan espejos gigantes para captar la luz de estrellas lejanas.",
+      "tier": 2
+     },
+     {
+      "w": "EUROPA",
+      "clue": "Luna helada de Júpiter con un océano escondido debajo",
+      "fact": "Se cree que el océano oculto de Europa tiene más agua que todos los mares de la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "VOLCÁN",
+      "clue": "Montaña que echa lava y ceniza",
+      "fact": "El monte Olimpo de Marte es un volcán más del doble de alto que el Everest.",
+      "tier": 2
+     },
+     {
+      "w": "POLARIS",
+      "clue": "Estrella casi fija sobre el polo norte, que guiaba a los marineros",
+      "fact": "Durante siglos los marineros usaron la Estrella Polar para encontrar el norte.",
+      "tier": 2
+     },
+     {
+      "w": "PULSAR",
+      "clue": "Estrella diminuta que gira y lanza destellos como un faro",
+      "fact": "Algunos púlsares giran cientos de veces cada segundo.",
+      "tier": 2
+     },
+     {
+      "w": "CUENTA",
+      "clue": "Números al revés antes del despegue: ___ regresiva",
+      "fact": "La cuenta regresiva termina en cero, justo cuando el cohete despega.",
+      "tier": 2
+     },
+     {
+      "w": "GIGANTE",
+      "clue": "Planeta enorme y gaseoso como Júpiter",
+      "fact": "En Júpiter cabrían más de mil Tierras.",
+      "tier": 2
+     },
+     {
+      "w": "HUELLA",
+      "clue": "Marca que deja un pie sobre el polvo de la Luna",
+      "fact": "Las huellas de la Luna durarán muchísimo tiempo, porque allí no hay viento.",
+      "tier": 2
+     },
+     {
+      "w": "TITILAR",
+      "clue": "Brillar y apagarse muy rápido, como las estrellas",
+      "fact": "Las estrellas titilan porque el aire en movimiento dobla su luz.",
+      "tier": 2
+     },
+     {
+      "w": "SOMBRA",
+      "clue": "Zona oscura que deja un objeto cuando tapa la luz",
+      "fact": "En un eclipse de Sol, la sombra de la Luna cae sobre la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "BRILLAR",
+      "clue": "Echar luz propia, como hacen el Sol y las estrellas",
+      "fact": "El Sol brilla desde hace unos cuatro mil quinientos millones de años.",
+      "tier": 2
+     },
+     {
+      "w": "ORBITAR",
+      "clue": "Dar vueltas alrededor de un planeta, como la Luna",
+      "fact": "La Luna tarda algo menos de un mes en dar una vuelta a la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "HALLEY",
+      "clue": "Famoso cometa que regresa cada 76 años",
+      "fact": "El cometa Halley volverá a pasar cerca de la Tierra en el año 2061.",
+      "tier": 2
+     },
+     {
+      "w": "ESCUDO",
+      "clue": "Placa protectora de una cápsula contra el calor",
+      "fact": "El escudo térmico protege a los astronautas del calor al volver a la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "ESPIRAL",
+      "clue": "Forma que gira y gira alrededor de un centro",
+      "fact": "Nuestra galaxia, la Vía Láctea, tiene forma de espiral.",
+      "tier": 2
+     },
+     {
+      "w": "CABINA",
+      "clue": "Cuarto diminuto donde duerme un astronauta",
+      "fact": "Cada astronauta de la estación espacial tiene su propia cabina para dormir.",
+      "tier": 2
+     },
+     {
+      "w": "CÁMARA",
+      "clue": "Aparato que toma fotos; los rovers de Marte llevan varias",
+      "fact": "Los rovers de Marte tienen muchas cámaras, como ojos de robot.",
+      "tier": 2
+     },
+     {
+      "w": "RUEDAS",
+      "clue": "Piezas redondas que permiten al rover rodar sobre Marte",
+      "fact": "Las ruedas de algunos rovers de Marte son de metal, no de goma.",
+      "tier": 2
+     },
+     {
+      "w": "MANCHA",
+      "clue": "Zona oscura y más fría en la superficie del Sol",
+      "fact": "Las manchas solares se ven oscuras solo porque están más frías.",
+      "tier": 2
+     },
+     {
+      "w": "ESFERA",
+      "clue": "Cuerpo redondo como una pelota, la forma de los planetas",
+      "fact": "La Tierra casi es una esfera, pero es un poco más ancha en el medio.",
+      "tier": 2
+     },
+     {
+      "w": "SÓLIDO",
+      "clue": "Estado de una roca, que no es líquido ni gas",
+      "fact": "Mercurio, Venus, la Tierra y Marte tienen un suelo sólido para pisar.",
+      "tier": 2
+     },
+     {
+      "w": "FUERZA",
+      "clue": "Empuje o jalón que mueve las cosas; la gravedad es una",
+      "fact": "La gravedad es la fuerza que mantiene a la Luna girando alrededor de la Tierra.",
+      "tier": 2
+     },
+     {
+      "w": "GÉISER",
+      "clue": "Chorro de agua o vapor que sale disparado del suelo",
+      "fact": "La luna Encélado, de Saturno, lanza chorros de hielo y vapor al espacio.",
+      "tier": 2
+     },
+     {
+      "w": "MERCURIO",
+      "clue": "El planeta más pequeño y más cercano al Sol",
+      "fact": "Mercurio es un planeta, pero hay dos lunas más grandes que él.",
+      "tier": 3
+     },
+     {
+      "w": "CHATARRA",
+      "clue": "Pedazos rotos de cohetes viejos que giran alrededor de la Tierra",
+      "fact": "Un trocito diminuto de chatarra espacial puede marcar una ventana, porque va rapidísimo.",
+      "tier": 3
+     },
+     {
+      "w": "ESTACIÓN",
+      "clue": "Laboratorio que da vueltas a la Tierra donde viven astronautas",
+      "fact": "La estación espacial da una vuelta a la Tierra cada noventa minutos, más o menos.",
+      "tier": 3
+     },
+     {
+      "w": "HORIZONTE",
+      "clue": "Línea lejana donde el cielo parece tocar el suelo",
+      "fact": "El horizonte de la Luna se ve más cerca que el de la Tierra porque es más pequeña.",
+      "tier": 3
+     },
+     {
+      "w": "ALUNIZAJE",
+      "clue": "Llegada suave de una nave al suelo de nuestro satélite natural",
+      "fact": "Los astronautas de Apolo 11 alunizaron en un lugar llamado Mar de la Tranquilidad.",
+      "tier": 3
+     },
+     {
+      "w": "COMBUSTIBLE",
+      "clue": "Lo que quema un cohete para poder despegar",
+      "fact": "Algunos cohetes usan hidrógeno líquido, que está a muchos grados bajo cero.",
+      "tier": 3
+     },
+     {
+      "w": "PARACAÍDAS",
+      "clue": "Gran tela que frena una cápsula cuando cae",
+      "fact": "Las naves que llegan a Marte abren paracaídas gigantes para frenar en su aire delgado.",
+      "tier": 3
+     },
+     {
+      "w": "AMERIZAJE",
+      "clue": "Caída suave de una cápsula espacial sobre el mar",
+      "fact": "Las cápsulas Apolo caían al mar y los barcos rescataban a los astronautas.",
+      "tier": 3
+     },
+     {
+      "w": "DESPEGUE",
+      "clue": "Momento en que un cohete deja el suelo",
+      "fact": "Al despegar, un cohete grande quema toneladas de combustible cada segundo.",
+      "tier": 3
+     },
+     {
+      "w": "BINÓCULOS",
+      "clue": "Dos tubos unidos que hacen ver cerca lo lejano",
+      "fact": "Con unos binoculares sencillos puedes ver cuatro lunas de Júpiter.",
+      "tier": 3
+     },
+     {
+      "w": "PLANETARIO",
+      "clue": "Sala con domo donde se proyecta el cielo nocturno en el techo",
+      "fact": "Un proyector de planetario puede mostrar miles de estrellas al mismo tiempo.",
+      "tier": 3
+     },
+     {
+      "w": "ASTRONOMÍA",
+      "clue": "Ciencia que estudia los cuerpos del cielo y sus movimientos",
+      "fact": "La gente observa el cielo desde hace miles de años, así que esta ciencia es antiquísima.",
+      "tier": 3
+     },
+     {
+      "w": "DIÁMETRO",
+      "clue": "Distancia de un lado a otro de un círculo por su centro",
+      "fact": "El diámetro de Júpiter es unas once veces el de la Tierra.",
+      "tier": 3
+     },
+     {
+      "w": "TRAYECTORIA",
+      "clue": "Camino curvo que sigue un cohete o una pelota",
+      "fact": "Las naves que van a Marte apuntan a donde estará el planeta, no a donde está.",
+      "tier": 3
+     },
+     {
+      "w": "ACELERAR",
+      "clue": "Ir cada vez más rápido, como un cohete que sube",
+      "fact": "Para orbitar la Tierra, un cohete debe llegar a unos 28.000 kilómetros por hora.",
+      "tier": 3
+     },
+     {
+      "w": "HIDRÓGENO",
+      "clue": "El gas más ligero y el que más abunda en las estrellas",
+      "fact": "Las estrellas brillan al juntar átomos de hidrógeno para formar helio.",
+      "tier": 3
+     },
+     {
+      "w": "METEORITO",
+      "clue": "Roca del espacio que ya cayó al suelo",
+      "fact": "Muchos meteoritos tienen unos cuatro mil quinientos millones de años, como los planetas.",
+      "tier": 3
+     },
+     {
+      "w": "EXPLORADOR",
+      "clue": "Viajero que visita lugares nuevos para aprender de ellos",
+      "fact": "Muchos exploradores del espacio son robots que nunca se cansan ni tienen hambre.",
+      "tier": 3
+     },
+     {
+      "w": "CINTURÓN",
+      "clue": "Franja de rocas que giran entre Marte y Júpiter",
+      "fact": "Las naves cruzan el cinturón de asteroides sin peligro porque las rocas están muy lejos unas de otras.",
+      "tier": 3
+     },
+     {
+      "w": "TRIPULACIÓN",
+      "clue": "Equipo de personas que trabaja a bordo de una nave",
+      "fact": "La tripulación de la estación espacial hace ejercicio unas dos horas al día.",
+      "tier": 3
+     },
+     {
+      "w": "TORMENTA",
+      "clue": "Remolino enorme de viento y nubes, como la Gran Mancha Roja",
+      "fact": "La Gran Mancha Roja de Júpiter es una tormenta que gira desde hace más de cien años.",
+      "tier": 3
+     },
+     {
+      "w": "SILENCIO",
+      "clue": "Falta total de ruido, como en el espacio",
+      "fact": "En el espacio no se oye ningún sonido, porque no hay aire que lo lleve.",
+      "tier": 3
+     },
+     {
+      "w": "LLAMARADA",
+      "clue": "Estallido brillante de luz en la superficie del Sol",
+      "fact": "Una llamarada solar puede molestar por un rato las señales de radio en la Tierra.",
+      "tier": 3
+     },
+     {
+      "w": "ALIENÍGENA",
+      "clue": "Criatura imaginaria que viene de otro mundo",
+      "fact": "Los científicos se alegrarían de hallar hasta microbios diminutos en otros mundos.",
+      "tier": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "ocean",
+   "words": {
+    "en": [
+     {
+      "w": "WHALE",
+      "clue": "Giant sea mammal that breathes air through a hole on its head",
+      "fact": "The blue whale is the biggest animal that has ever lived.",
+      "tier": 1
+     },
+     {
+      "w": "ORCA",
+      "clue": "Black-and-white ocean hunter that is really the biggest kind of dolphin",
+      "fact": "Orcas hunt in family groups called pods and talk with clicks and whistles.",
+      "tier": 1
+     },
+     {
+      "w": "PIER",
+      "clue": "Wooden walkway that sticks out over the water",
+      "fact": "The posts under a pier become a home for crabs, mussels and fish.",
+      "tier": 1
+     },
+     {
+      "w": "SAND",
+      "clue": "Tiny bits of rock and shell that cover a beach",
+      "fact": "Parrotfish chew coral, and much of the white sand in the tropics is what they leave behind.",
+      "tier": 1
+     },
+     {
+      "w": "SALT",
+      "clue": "White crystals dissolved in the sea that make it taste yucky",
+      "fact": "Ocean water is salty because rivers carry tiny bits of salt from rocks into the sea.",
+      "tier": 1
+     },
+     {
+      "w": "BEACH",
+      "clue": "Sandy shore where waves roll in and kids build castles",
+      "fact": "Waves keep pushing sand along a beach, so shorelines slowly change shape.",
+      "tier": 1
+     },
+     {
+      "w": "KAYAK",
+      "clue": "Narrow paddle boat with a covered top, first made in the Arctic",
+      "fact": "Arctic peoples first built kayaks with animal skins stretched over frames of wood or bone.",
+      "tier": 1
+     },
+     {
+      "w": "FOAM",
+      "clue": "White bubbly froth on top of waves",
+      "fact": "Sea foam forms when waves whip up tiny bits of plants and animals.",
+      "tier": 1
+     },
+     {
+      "w": "BOAT",
+      "clue": "Small vessel moved by oars, sails or a motor",
+      "fact": "Some of the oldest boats ever found are hollowed-out logs thousands of years old.",
+      "tier": 1
+     },
+     {
+      "w": "SAIL",
+      "clue": "Big sheet of cloth that catches the wind to move a boat",
+      "fact": "A curved sail works a lot like an airplane wing.",
+      "tier": 1
+     },
+     {
+      "w": "BUOY",
+      "clue": "Floating marker that bobs on the water",
+      "fact": "Some buoys carry tools that measure wave height and water temperature.",
+      "tier": 1
+     },
+     {
+      "w": "DIVE",
+      "clue": "To plunge headfirst under the water",
+      "fact": "Elephant seals can hold their breath for over an hour while they dive.",
+      "tier": 1
+     },
+     {
+      "w": "GILL",
+      "clue": "Body part a fish uses to breathe under water",
+      "fact": "Fish gills pull oxygen out of the water as it flows past.",
+      "tier": 1
+     },
+     {
+      "w": "PEARL",
+      "clue": "Shiny round gem that grows inside an oyster",
+      "fact": "A pearl forms when a bit of grit gets inside an oyster and is wrapped in layers.",
+      "tier": 1
+     },
+     {
+      "w": "KRILL",
+      "clue": "Tiny shrimp-like animals that big whales eat by the ton",
+      "fact": "Krill are tiny, but a blue whale eats tons of them in one day.",
+      "tier": 1
+     },
+     {
+      "w": "MANTA",
+      "clue": "Giant ray with wide wing-like fins that scoops up plankton",
+      "fact": "Manta rays have the biggest brains of any fish.",
+      "tier": 1
+     },
+     {
+      "w": "SONAR",
+      "clue": "Machine that uses sound echoes to find things underwater",
+      "fact": "Dolphins use natural sonar, clicking and listening for echoes to find fish.",
+      "tier": 1
+     },
+     {
+      "w": "ALGAE",
+      "clue": "Simple plant-like living things that float or grow in water",
+      "fact": "Tiny ocean algae make a large part of the oxygen we breathe.",
+      "tier": 1
+     },
+     {
+      "w": "DEEP",
+      "clue": "Opposite of shallow",
+      "fact": "The deepest part of the ocean is deeper than Mount Everest is tall.",
+      "tier": 1
+     },
+     {
+      "w": "SCUBA",
+      "clue": "Gear with an air tank that lets divers breathe underwater",
+      "fact": "SCUBA stands for Self-Contained Underwater Breathing Apparatus.",
+      "tier": 1
+     },
+     {
+      "w": "FLUKE",
+      "clue": "Wide flat tail of a whale or dolphin",
+      "fact": "Each humpback whale has a tail pattern as unique as a fingerprint.",
+      "tier": 1
+     },
+     {
+      "w": "SCALE",
+      "clue": "Thin, hard plate that covers a fish's skin",
+      "fact": "Fish scales grow rings like trees, so scientists can estimate a fish's age.",
+      "tier": 1
+     },
+     {
+      "w": "TUSK",
+      "clue": "Long pointed tooth that sticks out of a walrus's mouth",
+      "fact": "Walruses use their tusks to haul their heavy bodies onto the ice.",
+      "tier": 1
+     },
+     {
+      "w": "HULL",
+      "clue": "Main body of a ship, the part that floats",
+      "fact": "The biggest ships have hulls longer than three football fields.",
+      "tier": 1
+     },
+     {
+      "w": "ATOLL",
+      "clue": "Ring-shaped island of coral around a calm lagoon",
+      "fact": "Many atolls are rings of coral growing on top of old sunken volcanoes.",
+      "tier": 1
+     },
+     {
+      "w": "SWELL",
+      "clue": "Long smooth wave rolling across the open ocean",
+      "fact": "Swells can travel thousands of kilometers from the storm that made them.",
+      "tier": 1
+     },
+     {
+      "w": "FLOAT",
+      "clue": "To stay on top of the water without sinking",
+      "fact": "You float more easily in the sea than in a pool, because salt water holds you up better.",
+      "tier": 1
+     },
+     {
+      "w": "FERRY",
+      "clue": "Boat that carries people and cars across the water",
+      "fact": "Some ferries are so big they carry hundreds of cars.",
+      "tier": 1
+     },
+     {
+      "w": "ANCHOR",
+      "clue": "Heavy metal hook that stops a ship from drifting away",
+      "fact": "Early anchors were just heavy stones tied to a rope.",
+      "tier": 2
+     },
+     {
+      "w": "LAGOON",
+      "clue": "Calm shallow pool of water partly walled off by a reef",
+      "fact": "A lagoon is calm because the reef outside blocks the big waves.",
+      "tier": 2
+     },
+     {
+      "w": "OYSTER",
+      "clue": "Shellfish with two rough shells that sometimes hides a pearl",
+      "fact": "Oysters clean the water by filtering out tiny bits of food and dirt.",
+      "tier": 2
+     },
+     {
+      "w": "MUSSEL",
+      "clue": "Dark blue shellfish that clings to rocks with sticky threads",
+      "fact": "Mussels glue themselves to rocks with strong threads so waves cannot wash them away.",
+      "tier": 2
+     },
+     {
+      "w": "SPONGE",
+      "clue": "Simple sea animal full of holes that soaks up water",
+      "fact": "Sponges are animals, even though they stay stuck in one place.",
+      "tier": 2
+     },
+     {
+      "w": "PUFFER",
+      "clue": "Fish that swells up like a ball when it is scared",
+      "fact": "A puffer fish swells into a ball by gulping water or air.",
+      "tier": 2
+     },
+     {
+      "w": "SNORKEL",
+      "clue": "Tube that lets you breathe while your face is in the water",
+      "fact": "A snorkel cannot be long, because deep water squeezes your chest too hard.",
+      "tier": 2
+     },
+     {
+      "w": "FLIPPER",
+      "clue": "Flat paddle-shaped limb of a seal, turtle or penguin",
+      "fact": "A sea turtle's front flippers flap like wings to push it through the water.",
+      "tier": 2
+     },
+     {
+      "w": "SAILOR",
+      "clue": "Person who works aboard a ship, hauling ropes and steering",
+      "fact": "Sailors long ago used the stars to find their way across the ocean.",
+      "tier": 2
+     },
+     {
+      "w": "BELUGA",
+      "clue": "Small white whale that chirps and whistles",
+      "fact": "Sailors nicknamed belugas sea canaries because they chirp and trill so much.",
+      "tier": 2
+     },
+     {
+      "w": "ANEMONE",
+      "clue": "Flower-like sea animal with stinging tentacles",
+      "fact": "Sea anemones are animals, not plants, and they sting small fish for food.",
+      "tier": 2
+     },
+     {
+      "w": "ESTUARY",
+      "clue": "Place where a river meets the sea and the water mixes",
+      "fact": "Many young fish grow up in estuaries, where the water is a mix of fresh and salty.",
+      "tier": 2
+     },
+     {
+      "w": "SEAGULL",
+      "clue": "Noisy white bird at the beach that loves stealing snacks",
+      "fact": "Seagulls can drink salt water, because special glands remove the salt.",
+      "tier": 2
+     },
+     {
+      "w": "PELICAN",
+      "clue": "Big bird with a stretchy pouch under its beak for scooping fish",
+      "fact": "A pelican's pouch can hold more than its stomach can.",
+      "tier": 2
+     },
+     {
+      "w": "PENGUIN",
+      "clue": "Black-and-white bird that cannot fly but swims fast",
+      "fact": "Penguins use their wings like flippers to fly through water.",
+      "tier": 2
+     },
+     {
+      "w": "SEAWEED",
+      "clue": "Slimy green or brown stuff that washes up on the beach",
+      "fact": "Seaweed is used in sushi and even in some ice cream.",
+      "tier": 2
+     },
+     {
+      "w": "MIGRATE",
+      "clue": "Travel a long way each year to find food or have babies",
+      "fact": "Gray whales swim more than 15,000 kilometers every year going back and forth.",
+      "tier": 2
+     },
+     {
+      "w": "GOGGLES",
+      "clue": "Tight glasses that keep water out of your eyes",
+      "fact": "Without goggles, things look blurry under water because our eyes cannot focus well there.",
+      "tier": 2
+     },
+     {
+      "w": "WETSUIT",
+      "clue": "Stretchy rubber suit that keeps divers warm",
+      "fact": "A wetsuit traps a thin layer of water that your body warms up.",
+      "tier": 2
+     },
+     {
+      "w": "MERMAID",
+      "clue": "Make-believe sea woman with a fish tail",
+      "fact": "Some old sailors' mermaid stories may have started when they saw manatees.",
+      "tier": 2
+     },
+     {
+      "w": "TUGBOAT",
+      "clue": "Small, strong vessel that pulls or pushes big ships into port",
+      "fact": "Tugboats are small but have powerful engines that can move ships much bigger than themselves.",
+      "tier": 2
+     },
+     {
+      "w": "ICEBERG",
+      "clue": "Giant floating mountain of frozen water, mostly hidden below the surface",
+      "fact": "Most of an iceberg is hidden under the water.",
+      "tier": 2
+     },
+     {
+      "w": "RIPTIDE",
+      "clue": "Strong narrow current that drags swimmers away from the beach",
+      "fact": "If a rip current grabs you, swim sideways along the shore, not straight back.",
+      "tier": 2
+     },
+     {
+      "w": "SHALLOW",
+      "clue": "Not deep, so you can stand up in it",
+      "fact": "Coral reefs grow in shallow water where sunlight can reach them.",
+      "tier": 2
+     },
+     {
+      "w": "BLUBBER",
+      "clue": "Thick layer of fat that keeps whales and seals warm",
+      "fact": "Blubber works like a built-in winter coat for animals in icy water.",
+      "tier": 2
+     },
+     {
+      "w": "SEASICK",
+      "clue": "Queasy from the rocking of a boat",
+      "fact": "Seasickness happens when your eyes and inner ears disagree about movement.",
+      "tier": 2
+     },
+     {
+      "w": "SARDINE",
+      "clue": "Small silver fish often packed in tin cans",
+      "fact": "Sardines swim in giant shimmering schools that confuse the animals hunting them.",
+      "tier": 2
+     },
+     {
+      "w": "SCHOOL",
+      "clue": "Group of fish swimming together",
+      "fact": "Fish in a school turn together because each one watches its neighbors.",
+      "tier": 2
+     },
+     {
+      "w": "SANDBAR",
+      "clue": "Long underwater ridge of tiny grains just off the beach",
+      "fact": "Waves and currents pile up sandbars just off the shore.",
+      "tier": 2
+     },
+     {
+      "w": "FISHING",
+      "clue": "Trying to catch dinner with a rod, reel and hook",
+      "fact": "People were fishing with hooks made of bone or shell tens of thousands of years ago.",
+      "tier": 2
+     },
+     {
+      "w": "COMPASS",
+      "clue": "Tool with a needle that always points north",
+      "fact": "A compass needle points north because Earth acts like a giant magnet.",
+      "tier": 2
+     },
+     {
+      "w": "PINCER",
+      "clue": "Gripping claw of a crab or lobster",
+      "fact": "Most lobsters have one thick crusher claw and one thinner cutter claw.",
+      "tier": 2
+     },
+     {
+      "w": "PLANKTON",
+      "clue": "Tiny drifting life that is food for whales and fish",
+      "fact": "Plankton comes from a Greek word meaning wanderer or drifter.",
+      "tier": 3
+     },
+     {
+      "w": "HUMPBACK",
+      "clue": "Whale famous for leaping and singing long songs",
+      "fact": "Humpback whales sing long songs that other whales can hear from far away.",
+      "tier": 3
+     },
+     {
+      "w": "TREASURE",
+      "clue": "Gold and jewels that divers sometimes find in old wrecks",
+      "fact": "Divers have found real treasure in shipwrecks that sank hundreds of years ago.",
+      "tier": 3
+     },
+     {
+      "w": "LIGHTHOUSE",
+      "clue": "Tall tower with a bright beam that guides ships at night",
+      "fact": "Lighthouses use special lenses to turn a small lamp into a beam seen from miles away.",
+      "tier": 3
+     },
+     {
+      "w": "CUTTLEFISH",
+      "clue": "Squid cousin that changes color in a flash",
+      "fact": "A cuttlefish can change its color and skin bumps in a blink to hide.",
+      "tier": 3
+     },
+     {
+      "w": "CLOWNFISH",
+      "clue": "Orange fish with white stripes that hides among stinging anemones",
+      "fact": "Clownfish are safe among anemones because a special coating protects them from the stings.",
+      "tier": 3
+     },
+     {
+      "w": "SWORDFISH",
+      "clue": "Big fish whose long pointed nose looks like a blade",
+      "fact": "A swordfish uses its long bill to slash through schools of smaller fish.",
+      "tier": 3
+     },
+     {
+      "w": "BLOWHOLE",
+      "clue": "Breathing hole on top of a whale's head",
+      "fact": "A whale breathes out through its blowhole with a loud whoosh and a misty spout.",
+      "tier": 3
+     },
+     {
+      "w": "TENTACLE",
+      "clue": "Long bendy arm of a squid or jellyfish",
+      "fact": "Squid have eight arms and two longer tentacles for grabbing food.",
+      "tier": 3
+     },
+     {
+      "w": "CRUSTACEAN",
+      "clue": "Group of hard-shelled animals that includes crabs and shrimp",
+      "fact": "Crabs, lobsters and shrimp are relatives, and so are barnacles.",
+      "tier": 3
+     },
+     {
+      "w": "SEAFLOOR",
+      "clue": "The bottom of the sea, covered in mud and sand",
+      "fact": "The seafloor has mountains, valleys and even volcanoes, just like land.",
+      "tier": 3
+     },
+     {
+      "w": "SURFBOARD",
+      "clue": "Long, flat float that carries a rider across a breaking wave",
+      "fact": "Surfing began long ago in Polynesia, where people rode waves on wooden boards.",
+      "tier": 3
+     },
+     {
+      "w": "HATCHLING",
+      "clue": "Baby sea turtle that has just come out of its egg",
+      "fact": "Baby sea turtles race toward the brightest horizon, which usually leads them to the sea.",
+      "tier": 3
+     },
+     {
+      "w": "PROPELLER",
+      "clue": "Spinning blades at the back of a boat",
+      "fact": "A propeller works like a screw, pushing water backward so the boat moves forward.",
+      "tier": 3
+     },
+     {
+      "w": "SUBMERSIBLE",
+      "clue": "Small research craft that carries scientists down into the deep",
+      "fact": "Deep-sea submersibles must be very strong to survive the huge pressure far below.",
+      "tier": 3
+     },
+     {
+      "w": "SAILBOAT",
+      "clue": "Vessel with tall masts that is pushed along by the wind",
+      "fact": "A sailboat can travel against the wind by zigzagging back and forth.",
+      "tier": 3
+     },
+     {
+      "w": "LEATHERBACK",
+      "clue": "Biggest sea turtle, with a soft rubbery shell",
+      "fact": "Leatherback turtles can dive deeper than a kilometer.",
+      "tier": 3
+     },
+     {
+      "w": "AQUARIUM",
+      "clue": "Building with giant tanks where you can watch sea animals",
+      "fact": "The biggest aquariums have tanks holding millions of liters of water.",
+      "tier": 3
+     },
+     {
+      "w": "SHIPWRECK",
+      "clue": "Broken boat lying on the bottom of the sea",
+      "fact": "Sunken ships often become reefs where fish and corals make their homes.",
+      "tier": 3
+     },
+     {
+      "w": "HURRICANE",
+      "clue": "Giant spinning storm born over warm ocean water",
+      "fact": "Hurricanes get their energy from warm sea water and weaken when they move over land.",
+      "tier": 3
+     },
+     {
+      "w": "LIFEBOAT",
+      "clue": "Small rescue vessel carried on a big ship",
+      "fact": "Big ships carry enough lifeboats for every person on board.",
+      "tier": 3
+     },
+     {
+      "w": "PRESSURE",
+      "clue": "The heavy squeeze of water that grows stronger the deeper you go",
+      "fact": "At the deepest trench's bottom, the water squeezes over a thousand times harder than at the surface.",
+      "tier": 3
+     },
+     {
+      "w": "MANGROVE",
+      "clue": "Tree that grows with its roots standing in salty water",
+      "fact": "Mangrove roots give baby fish a safe place to grow up.",
+      "tier": 3
+     },
+     {
+      "w": "PORTHOLE",
+      "clue": "Round window in the side of a ship",
+      "fact": "Ship windows are round because square corners are weak spots.",
+      "tier": 3
+     }
+    ],
+    "es": [
+     {
+      "w": "MAR",
+      "clue": "Enorme extensión de agua salada",
+      "fact": "El agua del mar cubre más de dos tercios de nuestro planeta.",
+      "tier": 1
+     },
+     {
+      "w": "SAL",
+      "clue": "Polvo blanco disuelto en el océano que también echamos a la sopa",
+      "fact": "El agua del mar es salada porque los ríos le llevan pedacitos de sal de las rocas.",
+      "tier": 1
+     },
+     {
+      "w": "BARCA",
+      "clue": "Vehículo pequeño que flota y se mueve con remos o velas",
+      "fact": "Algunas de las barcas más antiguas que se han hallado son troncos ahuecados.",
+      "tier": 1
+     },
+     {
+      "w": "VELA",
+      "clue": "Gran tela que atrapa el viento para mover un barco",
+      "fact": "Una vela curva funciona un poco como el ala de un avión.",
+      "tier": 1
+     },
+     {
+      "w": "BOYA",
+      "clue": "Marca flotante que se mece sobre el agua",
+      "fact": "Algunas boyas llevan aparatos que miden la altura de las olas y la temperatura del agua.",
+      "tier": 1
+     },
+     {
+      "w": "ANCLA",
+      "clue": "Gancho pesado que evita que un barco se aleje a la deriva",
+      "fact": "Las primeras anclas eran piedras pesadas atadas a una cuerda.",
+      "tier": 1
+     },
+     {
+      "w": "PROA",
+      "clue": "Parte delantera de un barco",
+      "fact": "La proa es puntiaguda para abrir el agua y avanzar mejor.",
+      "tier": 1
+     },
+     {
+      "w": "BRISA",
+      "clue": "Viento suave y fresco que llega del mar",
+      "fact": "De día la brisa va del mar a la tierra, y de noche al revés.",
+      "tier": 1
+     },
+     {
+      "w": "COSTA",
+      "clue": "Franja de tierra que toca el mar",
+      "fact": "Las costas cambian de forma poco a poco por la fuerza de las olas.",
+      "tier": 1
+     },
+     {
+      "w": "BAHÍA",
+      "clue": "Entrada curva del mar en la tierra, de aguas tranquilas",
+      "fact": "Las bahías suelen ser buenos puertos porque las olas llegan más calmadas.",
+      "tier": 1
+     },
+     {
+      "w": "REMO",
+      "clue": "Palo con una paleta plana para mover un bote",
+      "fact": "Los remos empujan el agua hacia atrás para que el bote avance.",
+      "tier": 1
+     },
+     {
+      "w": "NADAR",
+      "clue": "Moverse en el agua con brazos y piernas",
+      "fact": "Las tortugas marinas nadan moviendo sus aletas delanteras como si fueran alas.",
+      "tier": 1
+     },
+     {
+      "w": "BUZO",
+      "clue": "Persona que baja bajo el agua con un tanque de aire",
+      "fact": "Los buzos suben despacio a la superficie para que su cuerpo se acostumbre a la presión.",
+      "tier": 1
+     },
+     {
+      "w": "ALETA",
+      "clue": "Parte plana que usan los peces para nadar",
+      "fact": "Las aletas ayudan a los peces a girar, frenar y mantenerse derechos.",
+      "tier": 1
+     },
+     {
+      "w": "KRILL",
+      "clue": "Animalitos parecidos a camarones que las ballenas comen por toneladas",
+      "fact": "Aunque el krill es diminuto, una ballena azul come toneladas en un solo día.",
+      "tier": 1
+     },
+     {
+      "w": "SONAR",
+      "clue": "Aparato que usa ecos de sonido para hallar cosas bajo el agua",
+      "fact": "Muchos barcos usan sonar para medir qué tan hondo está el fondo.",
+      "tier": 1
+     },
+     {
+      "w": "FARO",
+      "clue": "Torre alta con luz potente que guía a los barcos de noche",
+      "fact": "Los faros usan lentes especiales para que una lámpara pequeña se vea desde muy lejos.",
+      "tier": 1
+     },
+     {
+      "w": "PEZ",
+      "clue": "Animal con aletas y branquias que vive en el agua",
+      "fact": "La mayoría de los peces no tiene párpados, así que duermen con los ojos abiertos.",
+      "tier": 1
+     },
+     {
+      "w": "OSTRA",
+      "clue": "Molusco de dos conchas rugosas que puede esconder una perla",
+      "fact": "Las ostras limpian el agua filtrando restos diminutos de comida y suciedad.",
+      "tier": 1
+     },
+     {
+      "w": "FONDO",
+      "clue": "Parte más baja del mar, donde hay arena y rocas",
+      "fact": "El fondo del mar tiene montañas, valles y hasta volcanes, igual que la tierra.",
+      "tier": 1
+     },
+     {
+      "w": "MORSA",
+      "clue": "Animal de colmillos largos que vive sobre el hielo del Ártico",
+      "fact": "Un macho adulto de morsa puede pesar más de una tonelada.",
+      "tier": 1
+     },
+     {
+      "w": "SEPIA",
+      "clue": "Pariente del calamar que cambia de color muy rápido",
+      "fact": "La sepia cambia el color y la textura de su piel en un parpadeo para esconderse.",
+      "tier": 1
+     },
+     {
+      "w": "TIMÓN",
+      "clue": "Rueda o palanca que sirve para guiar un barco",
+      "fact": "Aunque es pequeño, el timón puede hacer girar un barco enorme.",
+      "tier": 1
+     },
+     {
+      "w": "FOSA",
+      "clue": "Valle larguísimo y hondo en el fondo del océano",
+      "fact": "La parte más honda del océano es más profunda de lo que mide el Everest de alto.",
+      "tier": 1
+     },
+     {
+      "w": "BANCO",
+      "clue": "Gran grupo de peces que nadan juntos",
+      "fact": "Los peces de un banco giran juntos porque cada uno vigila a sus vecinos.",
+      "tier": 1
+     },
+     {
+      "w": "GAFAS",
+      "clue": "Lentes ajustados que evitan que el agua entre a tus ojos",
+      "fact": "Sin gafas, bajo el agua todo se ve borroso porque nuestros ojos no enfocan bien.",
+      "tier": 1
+     },
+     {
+      "w": "PINZA",
+      "clue": "Garra con la que un cangrejo o una langosta agarra cosas",
+      "fact": "La mayoría de las langostas tiene una pinza fuerte para aplastar y otra más fina para cortar.",
+      "tier": 1
+     },
+     {
+      "w": "KAYAK",
+      "clue": "Bote angosto y cubierto con remo de dos palas",
+      "fact": "Los pueblos del Ártico hicieron los primeros kayaks con pieles de animales sobre armazones de madera o hueso.",
+      "tier": 1
+     },
+     {
+      "w": "MUELLE",
+      "clue": "Plataforma de madera que se adentra en el agua",
+      "fact": "Los pilotes bajo un muelle se vuelven casa de cangrejos, mejillones y peces.",
+      "tier": 2
+     },
+     {
+      "w": "ESPUMA",
+      "clue": "Burbujitas blancas en la cresta de las olas",
+      "fact": "La espuma del mar se forma cuando las olas revuelven restos diminutos de plantas y animales.",
+      "tier": 2
+     },
+     {
+      "w": "SIRENA",
+      "clue": "Mujer con cola de pez de los cuentos",
+      "fact": "Algunos cuentos antiguos de sirenas quizá nacieron cuando marineros vieron manatíes.",
+      "tier": 2
+     },
+     {
+      "w": "AGALLA",
+      "clue": "Parte con la que los peces respiran bajo el agua",
+      "fact": "Las agallas de los peces sacan el oxígeno del agua que pasa por ellas.",
+      "tier": 2
+     },
+     {
+      "w": "ESCAMA",
+      "clue": "Placa delgada y dura que cubre la piel de un pez",
+      "fact": "Las escamas de los peces forman anillos como los árboles, y sirven para calcular su edad.",
+      "tier": 2
+     },
+     {
+      "w": "ANZUELO",
+      "clue": "Gancho pequeño de metal con el que se atrapa un pez",
+      "fact": "Los anzuelos más antiguos que se han hallado eran de hueso o de concha.",
+      "tier": 2
+     },
+     {
+      "w": "LANCHA",
+      "clue": "Barco pequeño y veloz con motor",
+      "fact": "Una lancha rápida casi no toca el agua: planea sobre ella.",
+      "tier": 2
+     },
+     {
+      "w": "NUTRIA",
+      "clue": "Animal peludo que flota boca arriba y rompe almejas con una piedra",
+      "fact": "Las nutrias marinas duermen tomadas de las patas para no separarse.",
+      "tier": 2
+     },
+     {
+      "w": "ATOLÓN",
+      "clue": "Isla de coral en forma de anillo que rodea una laguna",
+      "fact": "Muchos atolones son anillos de coral que crecieron sobre antiguos volcanes hundidos.",
+      "tier": 2
+     },
+     {
+      "w": "LAGUNA",
+      "clue": "Poza tranquila de agua separada del mar por arena o arrecife",
+      "fact": "Una laguna está en calma porque el arrecife detiene las olas grandes.",
+      "tier": 2
+     },
+     {
+      "w": "ESPONJA",
+      "clue": "Animal marino sencillo lleno de huecos que absorbe agua",
+      "fact": "Las esponjas son animales aunque pasan toda la vida pegadas en un lugar.",
+      "tier": 2
+     },
+     {
+      "w": "ANÉMONA",
+      "clue": "Animal marino parecido a una flor, con tentáculos que pican",
+      "fact": "Las anémonas son animales, no plantas, y pican a los peces pequeños para comérselos.",
+      "tier": 2
+     },
+     {
+      "w": "GAVIOTA",
+      "clue": "Ave blanca y ruidosa de la playa que roba comida",
+      "fact": "Las gaviotas pueden beber agua salada porque unas glándulas especiales sacan la sal.",
+      "tier": 2
+     },
+     {
+      "w": "TESORO",
+      "clue": "Oro y joyas que a veces se hallan en barcos hundidos",
+      "fact": "Algunos buzos han encontrado tesoros de verdad en naufragios de hace siglos.",
+      "tier": 2
+     },
+     {
+      "w": "ICEBERG",
+      "clue": "Enorme montaña de agua helada que flota en los mares fríos",
+      "fact": "La mayor parte de un iceberg está escondida bajo el agua.",
+      "tier": 2
+     },
+     {
+      "w": "HURACÁN",
+      "clue": "Enorme tormenta giratoria que nace sobre agua cálida del mar",
+      "fact": "Los huracanes obtienen su fuerza del agua tibia y se debilitan al llegar a tierra.",
+      "tier": 2
+     },
+     {
+      "w": "OLEAJE",
+      "clue": "Movimiento continuo de muchas olas",
+      "fact": "Algunas olas viajan miles de kilómetros desde la tormenta que las formó.",
+      "tier": 2
+     },
+     {
+      "w": "ACUARIO",
+      "clue": "Edificio con grandes peceras donde ves animales marinos",
+      "fact": "Los acuarios más grandes tienen tanques con millones de litros de agua.",
+      "tier": 2
+     },
+     {
+      "w": "HÉLICE",
+      "clue": "Aspas que giran en la parte trasera de un barco",
+      "fact": "Una hélice empuja el agua hacia atrás y así el barco avanza.",
+      "tier": 2
+     },
+     {
+      "w": "BRÚJULA",
+      "clue": "Instrumento con una aguja que siempre señala el norte",
+      "fact": "La aguja señala el norte porque la Tierra funciona como un imán gigante.",
+      "tier": 2
+     },
+     {
+      "w": "PRESIÓN",
+      "clue": "Apretón del agua que crece cuanto más hondo bajas",
+      "fact": "Allá abajo, en la fosa más honda, el agua aprieta más de mil veces más que arriba.",
+      "tier": 2
+     },
+     {
+      "w": "MIGRAR",
+      "clue": "Viajar lejos cada año para buscar comida o tener crías",
+      "fact": "Las ballenas grises recorren más de 15.000 kilómetros cada año, entre ida y vuelta.",
+      "tier": 2
+     },
+     {
+      "w": "SARDINA",
+      "clue": "Pez plateado y pequeño que se vende en lata",
+      "fact": "Las sardinas nadan en enormes bancos brillantes que confunden a sus cazadores.",
+      "tier": 2
+     },
+     {
+      "w": "YUBARTA",
+      "clue": "Ballena que salta fuera del agua y canta canciones largas",
+      "fact": "Las yubartas cantan canciones largas que otras ballenas oyen desde muy lejos.",
+      "tier": 2
+     },
+     {
+      "w": "BELUGA",
+      "clue": "Ballena blanca pequeña que chilla y silba",
+      "fact": "Los marineros llamaban canarios del mar a las belugas por sus chillidos.",
+      "tier": 2
+     },
+     {
+      "w": "MANGLAR",
+      "clue": "Bosque de árboles con raíces dentro del agua salada",
+      "fact": "Las raíces del manglar son un lugar seguro donde crecen peces pequeños.",
+      "tier": 2
+     },
+     {
+      "w": "ABISMO",
+      "clue": "Profundidad enorme y oscura del océano",
+      "fact": "En el abismo no llega la luz del Sol, y algunos animales fabrican su propia luz.",
+      "tier": 2
+     },
+     {
+      "w": "VELERO",
+      "clue": "Barco que avanza empujado por el viento en sus telas",
+      "fact": "Un velero puede avanzar contra el viento yendo en zigzag.",
+      "tier": 2
+     },
+     {
+      "w": "BURBUJA",
+      "clue": "Bolita de aire que sube cuando un buzo respira bajo el agua",
+      "fact": "Las burbujas suben porque el aire pesa menos que el agua.",
+      "tier": 2
+     },
+     {
+      "w": "RESACA",
+      "clue": "Corriente fuerte que arrastra a los nadadores mar adentro",
+      "fact": "Si una resaca te arrastra, nada de lado, paralelo a la playa, y no de frente.",
+      "tier": 2
+     },
+     {
+      "w": "NAVEGAR",
+      "clue": "Viajar por el agua en un barco",
+      "fact": "Hace miles de años, los marinos ya navegaban guiándose por las estrellas.",
+      "tier": 2
+     },
+     {
+      "w": "ANGUILA",
+      "clue": "Pez largo y resbaloso con forma de serpiente",
+      "fact": "Las anguilas europeas nacen en el mar de los Sargazos y nadan miles de kilómetros.",
+      "tier": 2
+     },
+     {
+      "w": "PELÍCANO",
+      "clue": "Ave grande con una bolsa elástica bajo el pico para atrapar peces",
+      "fact": "La bolsa de un pelícano puede guardar más que su estómago.",
+      "tier": 3
+     },
+     {
+      "w": "NAUFRAGIO",
+      "clue": "Barco roto y hundido en el fondo del mar",
+      "fact": "Los barcos hundidos suelen convertirse en arrecifes donde viven peces y corales.",
+      "tier": 3
+     },
+     {
+      "w": "SALVAVIDAS",
+      "clue": "Aro o chaleco que te ayuda a mantenerte a flote",
+      "fact": "Los chalecos salvavidas flotan porque están llenos de un material más ligero que el agua.",
+      "tier": 3
+     },
+     {
+      "w": "SUMERGIBLE",
+      "clue": "Nave pequeña de investigación que baja a las profundidades",
+      "fact": "Los sumergibles de aguas profundas deben ser muy fuertes para aguantar la presión.",
+      "tier": 3
+     },
+     {
+      "w": "MARINERO",
+      "clue": "Persona que trabaja en un barco, tirando cuerdas y manejando velas",
+      "fact": "Hace mucho, los marineros usaban las estrellas para encontrar su camino en el mar.",
+      "tier": 3
+     },
+     {
+      "w": "BALLENATO",
+      "clue": "Cría de un animal marino gigante que toma leche",
+      "fact": "Un ballenato toma leche de su mamá, igual que tú cuando eras bebé.",
+      "tier": 3
+     },
+     {
+      "w": "CACHALOTE",
+      "clue": "Ballena de cabeza enorme que bucea muy hondo",
+      "fact": "Los cachalotes pueden aguantar la respiración más de una hora cuando bucean.",
+      "tier": 3
+     },
+     {
+      "w": "ESTUARIO",
+      "clue": "Donde un río se une al mar y el agua se mezcla",
+      "fact": "Muchos peces jóvenes crecen en los estuarios, donde el agua es mezcla de dulce y salada.",
+      "tier": 3
+     },
+     {
+      "w": "PLANCTON",
+      "clue": "Seres diminutos que flotan a la deriva y alimentan a las ballenas",
+      "fact": "Plancton viene de una palabra griega que significa errante o vagabundo.",
+      "tier": 3
+     },
+     {
+      "w": "TENTÁCULO",
+      "clue": "Brazo largo y flexible de un pulpo o una medusa",
+      "fact": "Los calamares tienen ocho brazos y dos tentáculos más largos para atrapar comida.",
+      "tier": 3
+     },
+     {
+      "w": "CAPARAZÓN",
+      "clue": "Cubierta dura de una tortuga o un cangrejo",
+      "fact": "El caparazón de una tortuga es parte de su esqueleto, con costillas unidas.",
+      "tier": 3
+     },
+     {
+      "w": "MANTARRAYA",
+      "clue": "Raya gigante con aletas anchas como alas que atrapa plancton",
+      "fact": "Las mantarrayas tienen el cerebro más grande de todos los peces.",
+      "tier": 3
+     },
+     {
+      "w": "ALBATROS",
+      "clue": "Ave marina que planea sobre el océano durante horas",
+      "fact": "Los albatros pueden planear sobre el mar durante horas casi sin mover las alas.",
+      "tier": 3
+     },
+     {
+      "w": "MEJILLÓN",
+      "clue": "Molusco azul oscuro que se pega a las rocas con hilos",
+      "fact": "Los mejillones se pegan a las rocas con hilos tan fuertes que las olas no los arrancan.",
+      "tier": 3
+     },
+     {
+      "w": "SUPERFICIE",
+      "clue": "La parte de arriba del agua, donde se mecen las olas",
+      "fact": "Las ballenas suben a la superficie para respirar aire.",
+      "tier": 3
+     },
+     {
+      "w": "PROFUNDIDAD",
+      "clue": "Distancia desde la superficie hasta el fondo del agua",
+      "fact": "La luz del Sol solo llega hasta unos doscientos metros de profundidad en el mar.",
+      "tier": 3
+     },
+     {
+      "w": "SURFISTA",
+      "clue": "Persona que se desliza sobre las olas con una tabla",
+      "fact": "El surf nació hace mucho en Polinesia, donde la gente montaba olas en tablas de madera.",
+      "tier": 3
+     },
+     {
+      "w": "DEPREDADOR",
+      "clue": "Animal que caza a otros animales para comérselos",
+      "fact": "Las orcas cazan en equipo para atrapar a sus presas.",
+      "tier": 3
+     },
+     {
+      "w": "CAMUFLAJE",
+      "clue": "Truco de cambiar de color o forma para esconderse",
+      "fact": "El pulpo puede cambiar de color y se confunde con las rocas del fondo.",
+      "tier": 3
+     },
+     {
+      "w": "ESPADARTE",
+      "clue": "Pez grande con una nariz larga y puntiaguda como un sable",
+      "fact": "El espadarte usa su pico largo para golpear bancos de peces pequeños.",
+      "tier": 3
+     },
+     {
+      "w": "ECOLOCACIÓN",
+      "clue": "Forma de ubicarse con sonidos y ecos, como hacen delfines y murciélagos",
+      "fact": "Los delfines hacen clics y escuchan los ecos para saber dónde hay peces.",
+      "tier": 3
+     },
+     {
+      "w": "ASTILLERO",
+      "clue": "Lugar donde se construyen y reparan barcos",
+      "fact": "Algunos barcos construidos en astilleros miden más que tres canchas de fútbol.",
+      "tier": 3
+     },
+     {
+      "w": "PESCADOR",
+      "clue": "Persona que sale al mar a atrapar peces",
+      "fact": "Hace miles de años, los pescadores ya usaban redes hechas con fibras de plantas.",
+      "tier": 3
+     },
+     {
+      "w": "COLMILLO",
+      "clue": "Diente largo y puntiagudo que sobresale de la boca de una morsa",
+      "fact": "La morsa usa sus colmillos para subir su cuerpo pesado al hielo.",
+      "tier": 3
+     }
+    ]
+   }
+  }
+ ]
+}
