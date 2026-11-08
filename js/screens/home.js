@@ -1,3 +1,4 @@
+import { checkinDoneThisWeek } from '../progress/stats.js';
 import { S, rank, daysPlayedThisWeek, day, DAILY_PEARL_CAP } from '../core/store.js';
 import { h } from '../core/dom.js';
 import { icons } from '../core/icons.js';
@@ -52,7 +53,7 @@ export function mount(el) {
 
   el.append(
     h('div', { class: 'greet' }, h('h1', {}, greet), h('span', { class: 'chip' }, t('rankLine', { r: rk.rank[S.lang], n: S.pearls.earned.toLocaleString() }))),
-    cont, h('div', { class: 'hub' }, tiles), gear);
+    cont, checkinDoneThisWeek() ? null : h('a', { class: 'continue ciBanner', href: '#/checkin', onclick: () => sfx.pop() }, h('div', { class: 'ci', html: icons.trophy(48) }), h('div', { class: 'ct' }, h('strong', {}, t('ciBanner')), h('small', {}, t('ciBannerSub'))), h('span', { class: 'btn' }, t('play'))), h('div', { class: 'hub' }, tiles), gear);
   if (day().pearls >= DAILY_PEARL_CAP) el.append(h('p', { class: 'center muted' }, t('chestFull')));
   return () => { clearTimeout(timer); };
 }

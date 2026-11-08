@@ -5,6 +5,7 @@ import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { TOPIC_META } from '../quiz/missions.js';
+import { timeNodes, suggestNodes, progressNodes } from './grownup-extra.js';
 import { speak, stopSpeaking, listVoices, pickVoice, voiceQuality, setVoice } from '../core/audio.js';
 
 addStrings({
@@ -121,6 +122,11 @@ async function build(root) {
     h('h3', {}, t('gDifficulty')), h('div', { class: 'seg2' }, [[-1, 'gEasier'], [0, 'gJust'], [1, 'gHarder']].map(([v, k]) => h('button', { 'aria-pressed': String((S.settings.offset || 0) === v), onclick: (e) => { S.settings.offset = v; save(); e.currentTarget.parentNode.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === e.currentTarget))); } }, t(k)))),
     h('p', { class: 'muted small' }, t('gDiffNote')));
   overview.open = true;
+  const timeSec = section(t('gTime'), ...timeNodes()); timeSec.open = true;
+  const suggestSec = section(t('gSuggest'), ...suggestNodes()); suggestSec.open = true;
+  const progBody = h('div', {});
+  const drawProg = () => progBody.replaceChildren(...progressNodes(drawProg)); drawProg();
+  const progressSec = section(t('gProgress'), progBody);
 
   // ----- limits
   const limSel = h('select', { class: 'textin', onchange: (e) => { S.settings.dailyLimit = +e.target.value; save(); } }, [[0, t('gNone')], [15, '15 min'], [20, '20 min'], [30, '30 min'], [45, '45 min'], [60, '60 min']].map(([v, l]) => h('option', { value: v, selected: (S.settings.dailyLimit || 0) === v }, l)));
@@ -232,5 +238,5 @@ async function build(root) {
     S.settings.pinHash ? h('button', { class: 'btn ghost small', onclick: () => { S.settings.pinHash = null; S.settings.pinSalt = null; save(); toast(t('gPinRemoved')); } }, t('gRemovePin')) : null),
     h('p', {}, h('a', { href: '#/credits' }, t('gCredits'))), h('small', { class: 'muted' }, t('gVersion')));
 
-  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, limits, voiceSec, mapSec, famSec, qSec, bSec, snapSec, sec);
+  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, timeSec, suggestSec, progressSec, limits, voiceSec, mapSec, famSec, qSec, bSec, snapSec, sec);
 }

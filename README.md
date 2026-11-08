@@ -57,6 +57,18 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 
 Stands run 10-day seasons (the Snack Shack runs 15) with upgrade trees. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
 
+## Weekly check-in and the Grown-up corner
+
+The Grown-up corner now has *Time in the lab* (minutes per day and per program, last 7 days; per-program time counts from the update that added it), *What to work on* (suggestions from recent accuracy, the latest check-in, idle subjects and time balance) and *Weekly check-in and progress*. The check-in is 24 fresh questions (4 per subject at levels 2-5, one try, no hints, no pearls lost, 15 pearls for finishing), offered on the home screen once a week. **It cannot produce national percentiles**: the questions are not normed against a national sample. For real percentiles, enter your school's results (MAP Growth, i-Ready and so on) under *School test results* and compare them with the weekly trend.
+
+## Snack Shack expansion
+
+Ball fields double the crowd: 2nd field $300, 3rd $600, 4th $1,200, 5th $2,400, ballpark complex $4,800. Each also adds serving capacity and storage, and starting stock for new menu items scales with the crowd. The Candy counter (season 1), cone machine and slush machine (frozen slush and frozen lemonade) add menu items.
+
+## Recorded announcer clips
+
+See `audio/announcer/README.md` to drop in natural recordings for the winner announcement.
+
 ## Home Jobs code
 
 The chore check uses the code **1234** by default (Rob's choice, for easy approval while he is nearby). Change it in the Grown-up corner under *PIN and about*. The grown-up passcode, if set, also works. A grown-up can add, remove or re-price jobs from the Home Jobs screen.
