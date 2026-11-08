@@ -1,0 +1,2510 @@
+[
+ {
+  "id": "worB-1-001",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Sharks swim in a huge body of salty water. What is it called?",
+  "opts": [
+   "The ocean",
+   "A puddle",
+   "A pond"
+  ],
+  "a": 0,
+  "why": "The ocean is enormous and salty. Puddles and ponds are small, and sharks could not live in them.",
+  "hint": "It covers most of our planet.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-002",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "A map is a drawing that shows where places are.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Maps show where things are, like towns, roads, mountains and oceans.",
+  "hint": "Think of what you use to find your way.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-003",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Which vehicle can carry people across the ocean?",
+  "opts": [
+   "A bicycle",
+   "A ship",
+   "A skateboard"
+  ],
+  "a": 1,
+  "why": "Ships float on water and are big enough to carry many people far across the sea.",
+  "hint": "Think about what floats.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-004",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "A lifeguard sits by the beach. What is a lifeguard's job?",
+  "opts": [
+   "Keep swimmers safe",
+   "Fix beach umbrellas",
+   "Sell ice cream"
+  ],
+  "a": 0,
+  "why": "Lifeguards watch the water and help swimmers who are in trouble.",
+  "hint": "The word says it: guarding lives.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-005",
+  "topic": "world",
+  "level": 1,
+  "type": "number",
+  "q": "A baseball ticket costs 4 dollars. How many dollars do 2 tickets cost?",
+  "a": 8,
+  "why": "Two tickets means 4 plus 4, which makes 8 dollars.",
+  "hint": "Add the price two times.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-006",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Tacos are a famous food from which country?",
+  "opts": [
+   "Canada",
+   "Mexico",
+   "Japan"
+  ],
+  "a": 1,
+  "why": "Tacos come from Mexico, where cooks fill warm tortillas with tasty things.",
+  "hint": "It is just south of the United States.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-007",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "The Great Wall is a very long stone wall built on hills and mountains. Which country is it in?",
+  "opts": [
+   "China",
+   "Egypt",
+   "Brazil"
+  ],
+  "a": 0,
+  "why": "The Great Wall of China winds across the northern part of the country for thousands of miles.",
+  "hint": "The wall's full name includes the answer.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-008",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Put these steps in order for riding a bus to school.",
+  "opts": [
+   "Wait at the bus stop",
+   "Get on the bus",
+   "Ride to school",
+   "Get off at school"
+  ],
+  "why": "You must wait for the bus before you can get on, ride it, and get off.",
+  "hint": "What must happen before you can ride?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-009",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Which vehicle can travel underwater?",
+  "opts": [
+   "A helicopter",
+   "A submarine",
+   "A school bus"
+  ],
+  "a": 1,
+  "why": "Submarines are built to dive and stay underwater. Helicopters fly and buses drive on roads.",
+  "hint": "The word starts with a part meaning under.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-010",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Dinosaur bones that slowly turned into stone are called what?",
+  "opts": [
+   "Crystals",
+   "Seashells",
+   "Fossils"
+  ],
+  "a": 2,
+  "why": "Fossils form when buried bones turn to rock over millions of years. Some are 66 million years old.",
+  "hint": "They come from long, long ago.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-011",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Countries have flags that stand for them.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "A flag is a symbol for a country. Each country has its own colors and design.",
+  "hint": "Think of flags at the Olympics.",
+  "tags": [],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-012",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "What should drivers do at a red traffic light?",
+  "opts": [
+   "Honk and go",
+   "Speed up",
+   "Stop"
+  ],
+  "a": 2,
+  "why": "Red means stop. Waiting at red lights keeps drivers and walkers safe.",
+  "hint": "Think of the colors of a traffic light.",
+  "tags": [],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-013",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Which vehicle carries astronauts up into space?",
+  "opts": [
+   "A sailboat",
+   "A rocket",
+   "A school bus"
+  ],
+  "a": 1,
+  "why": "A rocket pushes very hard to climb above the air and carry astronauts into space.",
+  "hint": "It blasts off with fire and smoke.",
+  "tags": [
+   "space",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-014",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Put these bodies of water in order from smallest to biggest.",
+  "opts": [
+   "A puddle",
+   "A pond",
+   "An ocean"
+  ],
+  "why": "Puddles are tiny, ponds are bigger, and oceans are so big that whales and sharks roam them.",
+  "hint": "Think about what could hold a whale.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-015",
+  "topic": "world",
+  "level": 1,
+  "type": "number",
+  "q": "You save 2 dollars every week. How many dollars will you have after 3 weeks?",
+  "a": 6,
+  "why": "Add 2 three times: 2 plus 2 plus 2 makes 6 dollars.",
+  "hint": "Count by twos.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-016",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Which invention lets you talk with a friend who is far away?",
+  "opts": [
+   "A telephone",
+   "A ruler",
+   "A compass"
+  ],
+  "a": 0,
+  "why": "A telephone carries voices over long distances. A compass shows direction and a ruler measures.",
+  "hint": "You hold it near your ear.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-017",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "\"Hola\" is a way to say hello in which language?",
+  "opts": [
+   "Spanish",
+   "German",
+   "Chinese"
+  ],
+  "a": 0,
+  "why": "Hola is Spanish for hello. Spanish is spoken in Mexico, Spain and many other countries.",
+  "hint": "Many people in Mexico say it.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-018",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "A globe is a flat piece of paper.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "A globe is a ball-shaped model of Earth. A flat piece of paper is a map.",
+  "hint": "Think of a ball you could spin.",
+  "tags": [
+   "maps",
+   "space"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-019",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "You drop coins into a jar and do not spend them. What are you doing?",
+  "opts": [
+   "Borrowing",
+   "Selling",
+   "Saving"
+  ],
+  "a": 2,
+  "why": "Saving means keeping money to use later, like for a big toy or a trip.",
+  "hint": "You are keeping it for later.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-1-020",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Every day the Sun comes up in the...",
+  "opts": [
+   "South",
+   "West",
+   "East"
+  ],
+  "a": 2,
+  "why": "The Sun rises in the east and sets in the west. It looks like it moves, but Earth is spinning.",
+  "hint": "Sunset happens in the west.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-001",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "The Amazon is one of the mightiest rivers on Earth. It flows through which continent?",
+  "opts": [
+   "Asia",
+   "South America",
+   "Africa"
+  ],
+  "a": 1,
+  "why": "The Amazon River winds through the rainforests of South America and empties into the Atlantic Ocean.",
+  "hint": "Think of the rainforest next to the Andes.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-002",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "A ship sails from Japan to California. Which ocean does it cross?",
+  "opts": [
+   "The Indian Ocean",
+   "The Atlantic Ocean",
+   "The Pacific Ocean"
+  ],
+  "a": 2,
+  "why": "Japan is in Asia and California is in North America, and the Pacific Ocean lies between them. It is Earth's widest ocean.",
+  "hint": "Both places touch the same huge ocean.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-003",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Some sharks live in the freezing cold Arctic Ocean.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Greenland sharks swim in icy Arctic water. Sharks are not only found in warm tropical seas.",
+  "hint": "Think about whether sharks can handle cold.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-004",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "What do we call money a worker is paid for doing a job?",
+  "opts": [
+   "Pay",
+   "A price tag",
+   "A loan"
+  ],
+  "a": 0,
+  "why": "Pay is money earned from working. A price tag shows what something costs, and a loan is borrowed money.",
+  "hint": "Workers get this for their work.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-005",
+  "topic": "world",
+  "level": 2,
+  "type": "order",
+  "q": "Put these ways to travel in order from slowest to fastest.",
+  "opts": [
+   "Walking",
+   "Riding a bicycle",
+   "Driving a car",
+   "Flying in a jet"
+  ],
+  "why": "Walking is the slowest. Bikes go faster than walkers, cars faster than bikes, and jets fastest of all.",
+  "hint": "Think about how far each goes in an hour.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-006",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Mount Fuji, a famous snowy volcano, is in which country?",
+  "opts": [
+   "Norway",
+   "Japan",
+   "Peru"
+  ],
+  "a": 1,
+  "why": "Mount Fuji rises near the coast of Japan, a country made of many islands in the Pacific Ocean.",
+  "hint": "The country is a chain of islands in Asia.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-007",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "People in Brazil mostly speak which language?",
+  "opts": [
+   "French",
+   "Spanish",
+   "Portuguese"
+  ],
+  "a": 2,
+  "why": "Brazil is the biggest country in South America, and its people speak Portuguese. Most neighbors speak Spanish.",
+  "hint": "It is not the language of most neighbors.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-008",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Baseball is played only in the United States.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Baseball is loved in Japan, the Dominican Republic, Cuba and many other countries, and fans cheer for it all over the world.",
+  "hint": "Think of baseball stars from other countries.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-009",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "A person who draws maps for a living is called a...",
+  "opts": [
+   "Cartographer",
+   "Plumber",
+   "Librarian"
+  ],
+  "a": 0,
+  "why": "Cartographers study the land and draw maps. Librarians care for books and plumbers fix pipes.",
+  "hint": "Think of someone who studies land and draws charts.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-010",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "A tall tower on the coast flashes a bright light at night to warn ships. What is it called?",
+  "opts": [
+   "A lighthouse",
+   "A castle",
+   "A windmill"
+  ],
+  "a": 0,
+  "why": "Lighthouses show sailors where rocks and shores are, so ships stay safe in the dark.",
+  "hint": "It stands on the shore and shines at night.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-011",
+  "topic": "world",
+  "level": 2,
+  "type": "number",
+  "q": "A pack of 6 baseball cards costs 3 dollars. How many dollars do 4 packs cost?",
+  "a": 12,
+  "why": "Four packs of 3 dollars each is 3 plus 3 plus 3 plus 3, which is 12 dollars.",
+  "hint": "Add 3 four times.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-012",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Pasta and pizza are famous foods from which country?",
+  "opts": [
+   "Peru",
+   "Italy",
+   "Egypt"
+  ],
+  "a": 1,
+  "why": "Italy gave the world pizza and pasta, and cooks there still make them with tomatoes and cheese.",
+  "hint": "Its shape on a map looks like a boot.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-013",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Dinosaur fossils have been found in Antarctica.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Antarctica was once warm and green. Scientists have dug up dinosaur bones there from long ago.",
+  "hint": "Think about Antarctica long, long ago.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-014",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "What does a bridge help travelers do?",
+  "opts": [
+   "Cross over a river or valley",
+   "Dig tunnels under the ground",
+   "Float safely on big waves"
+  ],
+  "a": 0,
+  "why": "Bridges hold up roads and train tracks over rivers and deep gaps so people can cross.",
+  "hint": "Think about what is below a bridge.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-015",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "What carved the Grand Canyon over millions of years?",
+  "opts": [
+   "Giant machines",
+   "A flowing river",
+   "A falling meteor"
+  ],
+  "a": 1,
+  "why": "The Colorado River slowly wore away rock, making the canyon deeper and deeper over millions of years.",
+  "hint": "Think about what water slowly does to rock.",
+  "tags": [],
+  "fun": false,
+  "src": "National Park Service",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-016",
+  "topic": "world",
+  "level": 2,
+  "type": "number",
+  "q": "A shark swims 3 kilometers every hour. How many kilometers does it swim in 4 hours?",
+  "a": 12,
+  "why": "Four hours of 3 kilometers each is 3 plus 3 plus 3 plus 3, which equals 12 kilometers.",
+  "hint": "Add 3 four times.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-017",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "In 1969, astronauts landed on a place beyond Earth and walked there. Where did they land?",
+  "opts": [
+   "The Sun",
+   "Jupiter",
+   "The Moon"
+  ],
+  "a": 2,
+  "why": "The Moon is Earth's nearest neighbor in space, so it was the first place astronauts landed. The Sun is far too hot.",
+  "hint": "It is the closest place to Earth in space.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-018",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Which of these helped people carry heavy loads more easily?",
+  "opts": [
+   "A kite",
+   "A paper clip",
+   "The wheel"
+  ],
+  "a": 2,
+  "why": "Wheels roll instead of drag, so carts and wagons move heavy things with much less pushing.",
+  "hint": "It rolls.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-019",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Australia is both a country and a continent.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Australia is one country that covers a whole continent by itself. Most continents have many countries.",
+  "hint": "It is not shared with other countries.",
+  "tags": [
+   "maps",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-2-020",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "If you borrow a library book, what should you promise to do?",
+  "opts": [
+   "Return it on time",
+   "Keep it forever",
+   "Draw in the pages"
+  ],
+  "a": 0,
+  "why": "Libraries share books with everyone. Returning yours lets the next reader enjoy it too.",
+  "hint": "Libraries lend books, not give them away.",
+  "tags": [],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-001",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "On a map, what does the legend (also called the key) tell you?",
+  "opts": [
+   "Which way is north on the map",
+   "Who drew the map and when",
+   "How far apart two places are",
+   "What the map's symbols mean"
+  ],
+  "a": 3,
+  "why": "The legend explains symbols, like a tent for a campground. The compass rose shows direction and the scale shows distance.",
+  "hint": "Look for a small box that explains the pictures.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-002",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Which ocean lies between Africa and Australia?",
+  "opts": [
+   "The Atlantic Ocean",
+   "The Arctic Ocean",
+   "The Pacific Ocean",
+   "The Indian Ocean"
+  ],
+  "a": 3,
+  "why": "The Indian Ocean touches Africa, Asia and Australia. The Atlantic is on Africa's other side and the Pacific is east of Australia.",
+  "hint": "Its name sounds like a country in Asia.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-003",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Great white sharks are found off the coasts of California, South Africa and Australia.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Great whites live in cool and warm coastal waters around the world, including all three of these places.",
+  "hint": "Great whites swim in many oceans.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-004",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Which of these is a service, not a good?",
+  "opts": [
+   "A baseball bat",
+   "A haircut",
+   "A sandwich",
+   "A bicycle"
+  ],
+  "a": 1,
+  "why": "A service is work someone does for you. Goods are things you can hold, like bats, sandwiches and bicycles.",
+  "hint": "You cannot carry it home in a bag.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-005",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Put these inventions in order from oldest to newest.",
+  "opts": [
+   "The wheel",
+   "The printing press",
+   "The airplane",
+   "The personal computer"
+  ],
+  "why": "Wheels are thousands of years old. The printing press came in the 1400s, the airplane in 1903 and personal computers later.",
+  "hint": "Which one is older than writing on paper?",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-006",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "People say \"arigato\" to mean thank you in which language?",
+  "opts": [
+   "Hindi",
+   "Italian",
+   "Japanese",
+   "Korean"
+  ],
+  "a": 2,
+  "why": "Arigato means thank you in Japanese. Korean, Hindi and Italian each have their own words for thanks.",
+  "hint": "It is spoken on islands in the Pacific.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-007",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Mount Everest, Earth's highest mountain above sea level, belongs to which mountain range?",
+  "opts": [
+   "The Rocky Mountains",
+   "The Himalayas",
+   "The Andes",
+   "The Alps"
+  ],
+  "a": 1,
+  "why": "Everest is part of the Himalayas, a giant chain of mountains in Asia. The Rocky Mountains and Alps are in other places.",
+  "hint": "It is in Asia.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-008",
+  "topic": "world",
+  "level": 3,
+  "type": "number",
+  "q": "A tag on a shark sends a signal every 2 hours. How many signals does it send in one whole day?",
+  "a": 12,
+  "why": "A day has 24 hours. Splitting 24 hours into groups of 2 hours gives 12 signals.",
+  "hint": "How many 2s fit into 24?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-009",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "What is a port?",
+  "opts": [
+   "A small boat used for fishing trips",
+   "A flag that flies on a ship's mast",
+   "A rope tying a boat to a dock",
+   "A harbor where ships load cargo"
+  ],
+  "a": 3,
+  "why": "Ports are busy places where cargo is lifted on and off big ships, and where passengers can board.",
+  "hint": "Think about where ships stop.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-010",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Every country in the world uses the same kind of money.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Countries have their own money, like dollars, pesos or yen. A few groups of countries share one.",
+  "hint": "Think about money from different countries.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-011",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Who looks after a national park and helps keep visitors and animals safe?",
+  "opts": [
+   "A park ranger",
+   "A chef",
+   "A mail carrier",
+   "An air traffic controller"
+  ],
+  "a": 0,
+  "why": "Park rangers protect wild places, answer visitors' questions and help people who get lost.",
+  "hint": "Think of who protects wild places.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-012",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Why are dinosaur fossils often found in dry, rocky badlands?",
+  "opts": [
+   "Wind and rain uncover buried bones",
+   "Dinosaurs only lived in dry places",
+   "Dry air turns bones into stone faster",
+   "Sand dunes carried the bones there"
+  ],
+  "a": 0,
+  "why": "Dinosaurs lived in many places. In badlands, wind and rain wear away rock and show bones that were buried.",
+  "hint": "Think about what wears rocks away.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-013",
+  "topic": "world",
+  "level": 3,
+  "type": "number",
+  "q": "A train travels 60 miles each hour. How many miles does it go in 3 hours?",
+  "a": 180,
+  "why": "Add 60 three times: 60 plus 60 plus 60 equals 180 miles.",
+  "hint": "Add 60 three times.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-014",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "It is daytime in North America but nighttime in Asia. Why?",
+  "opts": [
+   "The Moon blocks sunlight over Asia each day",
+   "Earth spins, lighting one side at a time",
+   "The Sun travels all the way around Earth",
+   "Asia is much farther away from the Sun"
+  ],
+  "a": 1,
+  "why": "Earth is a spinning ball, so the Sun lights only half of it. As Earth turns, day and night move around.",
+  "hint": "Think about what Earth does every 24 hours.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-015",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "The Dominican Republic, home to many baseball stars, sits in which sea?",
+  "opts": [
+   "The Caribbean Sea",
+   "The Mediterranean Sea",
+   "The Baltic Sea",
+   "The Red Sea"
+  ],
+  "a": 0,
+  "why": "The Dominican Republic shares an island with Haiti in the warm Caribbean Sea, southeast of Florida.",
+  "hint": "Think of warm islands near Florida.",
+  "tags": [
+   "baseball",
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-016",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Put these places in order from highest to lowest.",
+  "opts": [
+   "A mountain peak",
+   "A hilltop",
+   "A beach at sea level",
+   "The ocean floor"
+  ],
+  "why": "Mountains tower above hills, beaches sit at sea level, and the ocean floor lies far below the waves.",
+  "hint": "Start with the place nearest the clouds.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-017",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Ancient Egyptians wrote using little pictures and symbols called...",
+  "opts": [
+   "Morse code",
+   "Braille",
+   "Hieroglyphs",
+   "Cuneiform"
+  ],
+  "a": 2,
+  "why": "Hieroglyphs were carved on temples and painted on papyrus. Cuneiform used wedge marks on clay in Mesopotamia.",
+  "hint": "Think of picture writing carved on temple walls.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-018",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Around 1610, Galileo used a new invention to see moons circling Jupiter. What was it?",
+  "opts": [
+   "A camera",
+   "A microscope",
+   "A compass",
+   "A telescope"
+  ],
+  "a": 3,
+  "why": "Telescopes make faraway things look closer. A microscope magnifies tiny things.",
+  "hint": "It brings faraway things close.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-019",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Some countries, like Switzerland, have more than one official language.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Switzerland officially uses German, French, Italian and Romansh. Many countries have more than one language.",
+  "hint": "Think of a country with many neighbors.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-3-020",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "A farmer grows wheat for bread. The family that buys the bread is called a...",
+  "opts": [
+   "Inventor",
+   "Producer",
+   "Banker",
+   "Consumer"
+  ],
+  "a": 3,
+  "why": "Producers make goods. Consumers buy and use them. The farmer is a producer and the family is a consumer.",
+  "hint": "The family eats it.",
+  "tags": [
+   "food",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-001",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Southwest is halfway between which two directions?",
+  "opts": [
+   "North and east",
+   "North and west",
+   "South and west",
+   "South and east"
+  ],
+  "a": 2,
+  "why": "Southwest blends south and west. North and west make northwest, and south and east make southeast.",
+  "hint": "Say the name in two parts.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-002",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "A store lowers its coat prices in spring. Why?",
+  "opts": [
+   "Coats cost more to make in spring",
+   "More shoppers want coats in spring",
+   "Stores can only sell coats in winter",
+   "Fewer people want coats then"
+  ],
+  "a": 3,
+  "why": "When fewer people want something, sellers often cut the price to sell what is left. Warm weather lowers demand for coats.",
+  "hint": "Think about who wants a coat on a warm day.",
+  "tags": [
+   "money",
+   "weather"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-003",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "The Atlantic Ocean touches North America, South America, Europe and Africa.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The Atlantic stretches between the Americas on one side and Europe and Africa on the other.",
+  "hint": "Picture the Atlantic in the middle of a world map.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-004",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Which city is the capital of Australia?",
+  "opts": [
+   "Canberra",
+   "Melbourne",
+   "Sydney",
+   "Perth"
+  ],
+  "a": 0,
+  "why": "Canberra was planned as the capital. Sydney and Melbourne are bigger and better known, so many people guess them.",
+  "hint": "It is not the city with the famous opera house.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-005",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "A phone shows your spot on a map using GPS. GPS works by listening to signals from...",
+  "opts": [
+   "Cables buried deep under the ground",
+   "Satellites circling Earth",
+   "Giant towers built on the Moon",
+   "Lighthouses along every coast"
+  ],
+  "a": 1,
+  "why": "GPS satellites orbit high above Earth and send signals. A phone uses them to work out exactly where it is.",
+  "hint": "They travel far above the sky.",
+  "tags": [
+   "space",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-006",
+  "topic": "world",
+  "level": 4,
+  "type": "number",
+  "q": "A ship sails 20 miles each hour. How many hours does it need to sail 100 miles?",
+  "a": 5,
+  "why": "Divide 100 miles by 20 miles per hour. Five hours of sailing covers 100 miles.",
+  "hint": "How many 20s make 100?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-007",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "The English word \"safari\" comes from Swahili, a language of East Africa. What does \"safari\" mean there?",
+  "opts": [
+   "A wild animal",
+   "A sunset",
+   "A journey",
+   "A hunter"
+  ],
+  "a": 2,
+  "why": "Safari means journey in Swahili. The word came into English from people who made long trips across Africa.",
+  "hint": "Many people go on one to see wild animals.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-008",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Which scientist studies weather and warns towns when a hurricane is coming?",
+  "opts": [
+   "A geologist",
+   "A cartographer",
+   "A meteorologist",
+   "An oceanographer"
+  ],
+  "a": 2,
+  "why": "Meteorologists study air and weather. Oceanographers study the sea, geologists study rocks and cartographers make maps.",
+  "hint": "Think about the weather forecast.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-009",
+  "topic": "world",
+  "level": 4,
+  "type": "order",
+  "q": "Put these in order from earliest to most recent.",
+  "opts": [
+   "Dinosaurs roam Earth",
+   "People paint on cave walls",
+   "Egyptians build the pyramids",
+   "Astronauts land on the Moon"
+  ],
+  "why": "Dinosaurs came first by far. Cave art is tens of thousands of years old, pyramids are thousands, and the Moon landing was in 1969.",
+  "hint": "Which happened before any people existed?",
+  "tags": [
+   "dinosaurs",
+   "space"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-010",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Passing through the Strait of Gibraltar takes ships between the Atlantic Ocean and which sea?",
+  "opts": [
+   "The Caribbean Sea",
+   "The Red Sea",
+   "The Baltic Sea",
+   "The Mediterranean Sea"
+  ],
+  "a": 3,
+  "why": "Gibraltar is a narrow gap between Spain and Morocco. It joins the Atlantic Ocean and the Mediterranean Sea.",
+  "hint": "The sea lies between Europe and Africa.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-011",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Chocolate is made from the beans of the cacao tree. Where did people first grow cacao?",
+  "opts": [
+   "Warm rainforests of the Americas",
+   "High, snowy mountain peaks of Asia",
+   "Dry, sandy deserts of North Africa",
+   "Cold, windy plains of northern Europe"
+  ],
+  "a": 0,
+  "why": "Cacao trees need heat and rain. People in Central and South America used cacao long before Europe ever tasted chocolate.",
+  "hint": "Cacao trees need heat and rain.",
+  "tags": [
+   "food"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-012",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Many big cities began beside rivers or harbors, because boats could bring goods in and out.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Boats carried food and goods cheaply, so people settled by rivers and harbors. Many large cities grew from those spots.",
+  "hint": "How did goods travel long ago?",
+  "tags": [
+   "ocean",
+   "money"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-013",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "A scientist attaches a small tag to a shark. What can the tag help show?",
+  "opts": [
+   "How many teeth it will grow",
+   "How loud its heartbeat is",
+   "Which fish it ate yesterday",
+   "Where the shark travels"
+  ],
+  "a": 3,
+  "why": "Tags record a shark's path and how deep it dives. They cannot count teeth or show what it ate.",
+  "hint": "Think about maps and travel.",
+  "tags": [
+   "sharks",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-014",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "The Gobi Desert is famous for dinosaur nests with eggs inside. On which continent is the Gobi?",
+  "opts": [
+   "Australia",
+   "Asia",
+   "Africa",
+   "South America"
+  ],
+  "a": 1,
+  "why": "The Gobi stretches across Mongolia and northern China. Fossil hunters there have found dinosaur bones and nests.",
+  "hint": "Think of Mongolia and China.",
+  "tags": [
+   "dinosaurs",
+   "maps"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-015",
+  "topic": "world",
+  "level": 4,
+  "type": "number",
+  "q": "A stand sells 40 hot dogs at a baseball game for 3 dollars each. How many dollars does it earn?",
+  "a": 120,
+  "why": "40 times 3 equals 120. Money earned from selling is called income, and profit is what is left after costs.",
+  "hint": "Think 4 tens times 3.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-016",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Goods that a country sells to other countries are called...",
+  "opts": [
+   "Savings",
+   "Taxes",
+   "Imports",
+   "Exports"
+  ],
+  "a": 3,
+  "why": "Exports leave a country to be sold elsewhere. Imports are goods that come in from other countries.",
+  "hint": "Think of 'ex' as in 'exit'.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-017",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Houses in very hot, sunny places are often painted white. Why?",
+  "opts": [
+   "White paint stops strong winds from blowing in",
+   "White is the cheapest paint color to buy",
+   "White paint keeps heavy rain from soaking in",
+   "White reflects sunlight and keeps rooms cool"
+  ],
+  "a": 3,
+  "why": "Light colors bounce sunlight away instead of soaking it up, so white walls stay cooler than dark ones.",
+  "hint": "Think about wearing a white shirt on a sunny day.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-018",
+  "topic": "world",
+  "level": 4,
+  "type": "order",
+  "q": "Put these ways of sharing messages in order from oldest to newest.",
+  "opts": [
+   "Cave drawings",
+   "Printed books",
+   "Telephone calls",
+   "Email"
+  ],
+  "why": "Cave drawings are the oldest. Printed books came in the 1400s, telephones in the 1870s and email in the 1970s.",
+  "hint": "Which ones need electricity?",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-019",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "What did the printing press make possible?",
+  "opts": [
+   "Sending voices through wires",
+   "Copying books quickly",
+   "Crossing oceans faster",
+   "Seeing far-off stars clearly"
+  ],
+  "a": 1,
+  "why": "Before printing presses, people copied books by hand. Printing made books cheaper, so more people could read.",
+  "hint": "Think about how books were made before it.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-4-020",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "The Panama Canal lets ships travel between the Atlantic and Pacific Oceans without sailing around which continent?",
+  "opts": [
+   "South America",
+   "Australia",
+   "Asia",
+   "Africa"
+  ],
+  "a": 0,
+  "why": "The canal cuts across Panama, a narrow strip of land. Ships save thousands of miles by not rounding South America.",
+  "hint": "Think about the shape of the Americas.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-001",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Why do countries trade with each other?",
+  "opts": [
+   "Trade helps only the country that sells",
+   "Every country makes everything it needs",
+   "Money cannot be used inside one country",
+   "Each has goods the other lacks"
+  ],
+  "a": 3,
+  "why": "Climate, land and skills differ, so countries swap what they have plenty of for goods they cannot easily make.",
+  "hint": "Think about bananas in a cold country.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-002",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Greenland looks as big as Africa on many flat world maps, but Africa is far larger. Why?",
+  "opts": [
+   "Greenland has grown since maps were drawn",
+   "Mapmakers draw bigger countries smaller",
+   "Greenland's ice makes the land taller",
+   "Flat maps stretch shapes near the poles"
+  ],
+  "a": 3,
+  "why": "Flattening a round Earth stretches places near the poles. Africa is really about 14 times bigger than Greenland.",
+  "hint": "Think about flattening an orange peel.",
+  "tags": [
+   "maps"
+  ],
+  "fun": true,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-003",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "If you cross the International Date Line going west, the calendar jumps back one day.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Sailing west across the Date Line, in the Pacific, jumps the calendar forward a day. Going east takes a day away.",
+  "hint": "Which way does a new day start?",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-004",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "What do we call a narrow strip of land that joins two bigger lands, with water on both sides?",
+  "opts": [
+   "An isthmus",
+   "An archipelago",
+   "A peninsula",
+   "A delta"
+  ],
+  "a": 0,
+  "why": "Panama is an isthmus. A peninsula has water on three sides, and an archipelago is a chain of islands.",
+  "hint": "Panama is the famous example.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-005",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Besides goods, what else traveled along the Silk Road, a web of trade routes linking China to the Mediterranean?",
+  "opts": [
+   "Giant steel ocean ships",
+   "Hot-air balloon passengers",
+   "Telephone lines and cables",
+   "Ideas and inventions"
+  ],
+  "a": 3,
+  "why": "Papermaking and other ideas spread along the Silk Road, carried by travelers along with silk and spices.",
+  "hint": "Travelers also shared what they knew.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-006",
+  "topic": "world",
+  "level": 5,
+  "type": "order",
+  "q": "Put these ocean zones in order from the surface down to the deepest.",
+  "opts": [
+   "Sunlight zone",
+   "Twilight zone",
+   "Midnight zone",
+   "Deep ocean trench"
+  ],
+  "why": "Sunlight fades with depth, from the bright top layer to the dim twilight zone, the dark midnight zone and the trenches.",
+  "hint": "Sunlight can only reach the top.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-007",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "The Rosetta Stone helped scholars finally read Egyptian hieroglyphs. Why?",
+  "opts": [
+   "A pharaoh had already translated it long ago",
+   "The same message was carved in three scripts",
+   "It was a full dictionary carved in stone",
+   "It showed a picture for every hieroglyph"
+  ],
+  "a": 1,
+  "why": "One script was Greek, which scholars could read. They matched it with the hieroglyphs to crack the code.",
+  "hint": "One of the scripts was already known.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-008",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "A baseball game starts at 9:00 AM Thursday in Tokyo. Los Angeles is about 16 to 17 hours behind Tokyo. What day is it in Los Angeles?",
+  "opts": [
+   "Wednesday",
+   "Tuesday",
+   "Friday",
+   "Thursday"
+  ],
+  "a": 0,
+  "why": "Going back 16 or 17 hours from 9:00 AM Thursday crosses midnight, landing in the afternoon of the day before.",
+  "hint": "Going back that many hours crosses midnight.",
+  "tags": [
+   "baseball",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-009",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "The Mediterranean Sea touches Europe, Africa and Asia.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Southern Europe, northern Africa and western Asia all have shores on the Mediterranean.",
+  "hint": "Think of Spain, Egypt and Turkey.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-010",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Which of these countries has no ocean coast at all?",
+  "opts": [
+   "Portugal",
+   "Switzerland",
+   "Chile",
+   "Japan"
+  ],
+  "a": 1,
+  "why": "Switzerland is landlocked, surrounded by other countries. Portugal, Japan and Chile all have long ocean coasts.",
+  "hint": "Think of the Alps in the middle of Europe.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-011",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "The same kinds of dinosaur fossils turn up in South America and Africa. What best explains this?",
+  "opts": [
+   "Both lands have the same climate today",
+   "The continents were once joined",
+   "Fossil hunters carried bones between continents",
+   "Dinosaurs could swim across the Atlantic"
+  ],
+  "a": 1,
+  "why": "Long ago the continents formed one big landmass, so dinosaurs could walk between lands that are now far apart.",
+  "hint": "Look at how the coastlines fit together.",
+  "tags": [
+   "dinosaurs",
+   "maps"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-012",
+  "topic": "world",
+  "level": 5,
+  "type": "number",
+  "q": "Earth is about 40,000 kilometers around the Equator. A jet flies 800 kilometers each hour. How many hours would it take to fly all the way around?",
+  "a": 50,
+  "why": "Divide 40,000 by 800 to get 50 hours, which is more than two full days of flying.",
+  "hint": "Divide the distance by the speed.",
+  "tags": [
+   "maps",
+   "machines"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-013",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Which of these is usually paid for with taxes?",
+  "opts": [
+   "A movie ticket",
+   "A soccer ball in a store",
+   "A public library",
+   "A restaurant meal"
+  ],
+  "a": 2,
+  "why": "Taxes pay for shared services like libraries, roads and fire stations. Shops and restaurants get their money from customers.",
+  "hint": "Think of services everyone in town shares.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-014",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Most goods that cross the ocean travel in standard metal containers. Why are standard sizes useful?",
+  "opts": [
+   "They fit ships, trains and trucks alike",
+   "They keep goods cold on the voyage",
+   "They make the cargo weigh less",
+   "They help ships travel faster than planes"
+  ],
+  "a": 0,
+  "why": "Identical boxes stack neatly and move from ship to train to truck without unpacking, saving time and money.",
+  "hint": "Think about stacking identical blocks.",
+  "tags": [
+   "ocean",
+   "machines",
+   "money"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-015",
+  "topic": "world",
+  "level": 5,
+  "type": "order",
+  "q": "Put these steps in order to show how a fish gets from the sea to a dinner table.",
+  "opts": [
+   "The crew catches the fish",
+   "The boat unloads at the port",
+   "A truck carries it to a store",
+   "A family cooks it at home"
+  ],
+  "why": "Goods travel from producer to consumer: the fish is caught, landed at port, trucked to a store, then bought and cooked.",
+  "hint": "Follow the fish from sea to plate.",
+  "tags": [
+   "ocean",
+   "food"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-016",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Why do pilots listen to air traffic controllers on the ground?",
+  "opts": [
+   "To learn how many passengers are on it",
+   "To get the plane's gas at the airport",
+   "To hear which snacks are on board",
+   "To keep planes safely apart"
+  ],
+  "a": 3,
+  "why": "Controllers watch the sky and tell pilots when to take off, land or change course, so planes never get too close.",
+  "hint": "Think of a busy sky with many planes.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-017",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Many rocket launch sites are close to the ocean. What is one good reason?",
+  "opts": [
+   "Waves help carry the rocket upward",
+   "Sea air makes rockets much lighter",
+   "Falling pieces land in water, not on towns",
+   "Rockets burn salty ocean water as fuel"
+  ],
+  "a": 2,
+  "why": "Rockets drop used-up parts as they climb. Launching over the sea keeps those pieces away from people.",
+  "hint": "Think about where leftover parts fall.",
+  "tags": [
+   "space",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-018",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Some islands, like Borneo and Ireland, are shared by more than one country.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Borneo holds three countries and Ireland holds two. An island's borders can cross it just like a continent's.",
+  "hint": "Think about land borders on islands.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-019",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "A tagged shark swims through the waters of many countries. What does this show about protecting sharks?",
+  "opts": [
+   "Sharks are safe once they leave land",
+   "Rules matter only close to the shore",
+   "One country's rules can protect it everywhere",
+   "Countries must work together to protect them"
+  ],
+  "a": 3,
+  "why": "Sharks ignore borders. A shark safe in one country's waters can be in danger in the next, so countries must cooperate.",
+  "hint": "Sharks do not stop at borders.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-5-020",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Farmers in the Andes and in Asia cut flat steps into mountainsides. Why?",
+  "opts": [
+   "To block cold wind from villages",
+   "To keep animals from climbing up",
+   "Flat steps hold soil and water",
+   "To make the mountain look taller"
+  ],
+  "a": 2,
+  "why": "These steps are called terraces. They keep soil and water from washing downhill so crops can grow on steep slopes.",
+  "hint": "Think about rain running down a slope.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-001",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Britain is far to the north, yet its winters are fairly mild. What helps most?",
+  "opts": [
+   "Volcanoes heat the island all winter",
+   "It sits close to the Equator",
+   "A warm ocean current flows nearby",
+   "Hot deserts lie right next to it"
+  ],
+  "a": 2,
+  "why": "The North Atlantic Drift carries warm water from the tropics toward Europe, softening winters.",
+  "hint": "Think about the water touching its coast.",
+  "tags": [
+   "ocean",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-002",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Over many years most prices slowly rise, so a dollar buys less than it used to. What is this called?",
+  "opts": [
+   "Scarcity",
+   "Interest",
+   "Exports",
+   "Inflation"
+  ],
+  "a": 3,
+  "why": "Inflation is a general rise in prices. Interest is money paid for borrowing or saving.",
+  "hint": "Think of a balloon filling with air.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-003",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "The deepest place in the ocean is deeper than Mount Everest is tall.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The Mariana Trench is nearly 11 kilometers deep, and Everest is about 9 kilometers tall. Everest would sink out of sight.",
+  "hint": "Compare how far down with how far up.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-004",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "A ship sits where the Equator meets the Prime Meridian, at 0 degrees latitude and 0 degrees longitude. Which ocean is it in?",
+  "opts": [
+   "The Arctic Ocean",
+   "The Pacific Ocean",
+   "The Indian Ocean",
+   "The Atlantic Ocean"
+  ],
+  "a": 3,
+  "why": "That spot is in the Gulf of Guinea, off West Africa. A weather buoy floats there.",
+  "hint": "Picture where the two lines cross on a world map.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-005",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Fossils of sea creatures have been found high in the Himalayas. What does this show?",
+  "opts": [
+   "The ocean once rose higher than Everest",
+   "Birds carried the shells there",
+   "Seabed was pushed up into mountains",
+   "Sea animals once climbed mountains"
+  ],
+  "a": 2,
+  "why": "Colliding plates pushed old seafloor up into mountains. The ocean never rose that high.",
+  "hint": "What could lift rock for millions of years?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-006",
+  "topic": "world",
+  "level": 6,
+  "type": "number",
+  "q": "A bank pays 10 percent interest each year on your whole balance. You deposit 100 dollars. After 2 years, with the interest added each year, how many dollars do you have?",
+  "a": 121,
+  "why": "Year one adds 10 dollars, making 110. Year two adds 10 percent of 110, which is 11, making 121.",
+  "hint": "Find the total after year one first.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-007",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Spanish, French, Italian and Portuguese all grew out of which ancient language?",
+  "opts": [
+   "Latin",
+   "Old English",
+   "Greek",
+   "Arabic"
+  ],
+  "a": 0,
+  "why": "These languages grew from the Latin spoken across the Roman Empire, which is why many of their words look alike.",
+  "hint": "The ancient Romans spoke it.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-008",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Which of these countries is crossed by the Equator, so it lies in both hemispheres?",
+  "opts": [
+   "Argentina",
+   "Peru",
+   "Mexico",
+   "Brazil"
+  ],
+  "a": 3,
+  "why": "The Equator crosses northern Brazil. Peru lies south of it, and Mexico and Argentina are far from it.",
+  "hint": "Think of the country around the Amazon's mouth.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-009",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Put these loan steps in the correct order.",
+  "opts": [
+   "You ask a bank for a loan",
+   "The bank lends you the money",
+   "You use it to buy what you need",
+   "You pay the bank back with interest"
+  ],
+  "why": "A loan works in this order: ask, receive, spend, then repay with a little extra called interest.",
+  "hint": "You cannot spend money before you have it.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-010",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "A Roman aqueduct slopes gently downward all the way to the city. Why?",
+  "opts": [
+   "Gravity pulls the water along",
+   "Pumps pushed the water along",
+   "Wind turned wheels that moved it",
+   "Animals pulled the water in buckets"
+  ],
+  "a": 0,
+  "why": "Romans had no pumps. A steady downhill slope let gravity move the water over many miles.",
+  "hint": "Which way does water like to flow?",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-011",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "On a flat map, flights from Los Angeles to Tokyo curve northward. Why do pilots fly this way?",
+  "opts": [
+   "On a round Earth, that path is shortest",
+   "Planes must stay near land",
+   "Mapmakers drew the routes wrong",
+   "Ocean currents guide the planes"
+  ],
+  "a": 0,
+  "why": "The shortest path between far-apart places on a ball bends when shown on a flat map. It's called a great circle.",
+  "hint": "Think of a string stretched across a globe.",
+  "tags": [
+   "maps",
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-012",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "The Arctic is an ocean mostly surrounded by land, while Antarctica is land surrounded by ocean.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The Arctic Ocean has northern lands around it. Antarctica is a continent with the Southern Ocean around it.",
+  "hint": "Compare the two ends of Earth.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-013",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Which shark can swim far up rivers into fresh water?",
+  "opts": [
+   "The whale shark",
+   "The hammerhead shark",
+   "The great white shark",
+   "The bull shark"
+  ],
+  "a": 3,
+  "why": "Bull sharks can live in fresh water and have been found far up rivers. Most other sharks stay in salty seas.",
+  "hint": "It can handle both fresh water and salty seas.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-014",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "The Dead Sea is far saltier than the ocean. Why does salt build up there?",
+  "opts": [
+   "Salt-making fish live in it",
+   "Underwater volcanoes keep adding salt",
+   "Winds blow salt in from the ocean",
+   "Water evaporates but the salt stays behind"
+  ],
+  "a": 3,
+  "why": "Rivers carry in a little salt, but water can only leave by evaporating. Over time the salt piles up.",
+  "hint": "What is left when water dries up?",
+  "tags": [],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-015",
+  "topic": "world",
+  "level": 6,
+  "type": "number",
+  "q": "Pretend 1 dollar can be traded for 10 pesos. A baseball ticket costs 50 pesos. How many dollars is that?",
+  "a": 5,
+  "why": "Each 10 pesos equals 1 dollar, and 50 pesos holds five groups of 10. So the ticket costs 5 dollars.",
+  "hint": "How many 10s fit in 50?",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-016",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Some of the earliest writing, pressed into clay, was used mostly for what?",
+  "opts": [
+   "Writing songs and poems",
+   "Making maps of the stars",
+   "Counting and recording goods",
+   "Teaching kids to read"
+  ],
+  "a": 2,
+  "why": "In Mesopotamia, scribes pressed wedge marks into clay to record grain, animals and trades. Stories and poems came later.",
+  "hint": "Think about what early traders needed to remember.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Britannica Kids",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-017",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Chile is very long and narrow from north to south. Why does it have deserts in the north and snowy lands in the south?",
+  "opts": [
+   "The south is much closer to the Sun",
+   "It stretches across many latitudes",
+   "The whole country sits on the Equator",
+   "Sea winds blow in the snow and sand"
+  ],
+  "a": 1,
+  "why": "Chile runs through many latitudes, from warm northern deserts to cold southern lands near Antarctica.",
+  "hint": "Think about how far apart its ends are.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-018",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Put the steps of a shark-tagging study in order.",
+  "opts": [
+   "Scientists catch the shark",
+   "They attach a tag",
+   "They release the shark",
+   "They map its path from signals"
+  ],
+  "why": "The shark must be caught before tagging, then released. Later, the tag's signals let scientists map where it swims.",
+  "hint": "What must happen before attaching anything?",
+  "tags": [
+   "sharks",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-019",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Many rockets launch toward the east from sites near the Equator. How does that help?",
+  "opts": [
+   "Warm air makes rockets weigh less",
+   "Earth's spin gives them a speed boost",
+   "Equator skies never have clouds or storms",
+   "The Moon always sits in the east"
+  ],
+  "a": 1,
+  "why": "Earth spins toward the east, fastest at the Equator, so an eastward launch starts with a free boost.",
+  "hint": "Think about how fast the ground itself moves.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "worB-6-020",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "When two countries trade, one of them must always lose.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Both sides trade because each expects to get something it values more than what it gives up.",
+  "hint": "Would anyone trade if they always lost?",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ }
+]

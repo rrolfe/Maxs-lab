@@ -1,0 +1,2480 @@
+[
+ {
+  "id": "reaB-1-001",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Leo wears his red cap to every baseball game. What does Leo wear to baseball games?",
+  "opts": [
+   "A red cap",
+   "A blue glove",
+   "A green coat"
+  ],
+  "a": 0,
+  "why": "The story says Leo wears a red cap. The other things are not in the story.",
+  "hint": "Find the clothing word in the first sentence.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-002",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A hammerhead shark has a wide, flat head. True or false: its head is shaped like a round ball.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "The text says wide and flat, which is not round like a ball.",
+  "hint": "Check the words wide and flat.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-003",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Ana's puppy ran to the door and wagged its tail when she got home. How did the puppy feel?",
+  "opts": [
+   "Angry",
+   "Happy",
+   "Sleepy"
+  ],
+  "a": 1,
+  "why": "A wagging tail and running to the door show joy. Sleepy dogs stay still.",
+  "hint": "What do wagging tails usually show?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-004",
+  "topic": "reading",
+  "level": 1,
+  "type": "order",
+  "q": "Put the beach story in order.",
+  "opts": [
+   "Dan filled a bucket with wet sand.",
+   "He flipped the bucket over.",
+   "A little tower stood on the beach.",
+   "A wave washed it away."
+  ],
+  "why": "The bucket has to be filled and flipped before there is a tower to wash away.",
+  "hint": "What must happen before the tower can stand?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-005",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "The shark swam fast to catch a fish. Why did the shark swim fast?",
+  "opts": [
+   "To get warm",
+   "To hide in the sand",
+   "To catch a fish"
+  ],
+  "a": 2,
+  "why": "The story gives the reason right in the first sentence: to catch a fish.",
+  "hint": "Look for the word 'to' in the sentence.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-006",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Sea otters hold hands while they sleep, so they do not drift apart. What is this mostly about?",
+  "opts": [
+   "How otters find food",
+   "Otters holding hands",
+   "Where otters build nests"
+  ],
+  "a": 1,
+  "why": "Every part of the sentence is about otters holding hands as they sleep. Food and nests are not mentioned.",
+  "hint": "Ask what most of the sentence tells about.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-007",
+  "topic": "reading",
+  "level": 1,
+  "type": "number",
+  "q": "Read: Three whales swam by. Then two more whales joined them. How many whales are there now?",
+  "a": 5,
+  "why": "Three whales plus two more whales makes five whales.",
+  "hint": "Add the whales together.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-008",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A book has a title on its cover. What does the title tell you?",
+  "opts": [
+   "The name of the book",
+   "Where the book ends",
+   "How long the book is"
+  ],
+  "a": 0,
+  "why": "The title is the name of the book. It does not tell you the ending or the length.",
+  "hint": "Think about what you call a book.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-009",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Sam grabbed his glove and ran to the field. His team was waiting. What will Sam most likely do next?",
+  "opts": [
+   "Bake a cake",
+   "Go to sleep",
+   "Play baseball"
+  ],
+  "a": 2,
+  "why": "A glove, a field and a waiting team all point to a baseball game.",
+  "hint": "Use the clues about the glove and the field.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-010",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "The Moon does not make its own light. It shines because sunlight bounces off it. True or false: moonlight is really sunlight bouncing off the Moon.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The Moon only reflects sunlight, a bit like a mirror does.",
+  "hint": "Reread the second sentence.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-011",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Waves rolled onto the sand and gulls called overhead. Dan dug with a shovel. Where is Dan?",
+  "opts": [
+   "In a snowy town",
+   "At the beach",
+   "In a quiet forest"
+  ],
+  "a": 1,
+  "why": "Waves, sand and gulls are all beach clues.",
+  "hint": "Which clues name sand and waves?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-012",
+  "topic": "reading",
+  "level": 1,
+  "type": "order",
+  "q": "Put these ocean animals in ABC order, first letter first.",
+  "opts": [
+   "crab",
+   "fish",
+   "shark",
+   "whale"
+  ],
+  "why": "The first letters c, f, s and w come in that order in the alphabet.",
+  "hint": "Say the alphabet and find each first letter.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RF.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-013",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Mo found his lost baseball under the bed. He jumped up and shouted, 'Yes!' How did Mo feel?",
+  "opts": [
+   "Sad",
+   "Scared",
+   "Excited"
+  ],
+  "a": 2,
+  "why": "Jumping up and shouting 'Yes!' shows excitement, not fear or sadness.",
+  "hint": "How do people act when they find something good?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-014",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A cat has fur. A fish has scales. What does a fish have that a cat does not?",
+  "opts": [
+   "Scales",
+   "Fur",
+   "Four legs"
+  ],
+  "a": 0,
+  "why": "The text says fish have scales and cats have fur. A cat does not have scales.",
+  "hint": "Compare the two sentences.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-015",
+  "topic": "reading",
+  "level": 1,
+  "type": "number",
+  "q": "Read: Kai had 4 baseball cards. Dee gave him 3 more. How many cards does Kai have now?",
+  "a": 7,
+  "why": "Kai had 4 cards and got 3 more, so 4 plus 3 equals 7.",
+  "hint": "Add the cards Dee gave.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-016",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A book shows how to make a paper boat, step by step. Why did the author write it?",
+  "opts": [
+   "To tell a funny story about pirates",
+   "To make readers feel scared",
+   "To show how to make a boat"
+  ],
+  "a": 2,
+  "why": "Step-by-step directions are written to teach you how to do something.",
+  "hint": "What do step-by-step directions help you do?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.1.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-017",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A T. rex had tiny arms but strong legs and a huge head. Which part of a T. rex was tiny?",
+  "opts": [
+   "Its legs",
+   "Its arms",
+   "Its head"
+  ],
+  "a": 1,
+  "why": "The text says tiny arms. The legs were strong and the head was huge.",
+  "hint": "Find the word tiny.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-018",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A glossary is a list of words and what they mean. True or false: a glossary can help you learn a new word.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "A glossary lists words with their meanings, so it helps with new words.",
+  "hint": "Think about what the list tells you.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-019",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "A sea star has no brain and no blood. It moves sea water through its body instead. Which of these does a sea star NOT have?",
+  "opts": [
+   "A brain",
+   "A mouth",
+   "Arms"
+  ],
+  "a": 0,
+  "why": "The text says no brain and no blood. Sea stars do have a mouth and arms.",
+  "hint": "Find the word no in the first sentence.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-1-020",
+  "topic": "reading",
+  "level": 1,
+  "type": "choice",
+  "q": "Ruby looked through her telescope at the night sky. She saw bright dots far away. What was Ruby looking at?",
+  "opts": [
+   "Fireflies nearby",
+   "Fish in a pond",
+   "Stars"
+  ],
+  "a": 2,
+  "why": "A telescope at night shows faraway bright dots, which are stars.",
+  "hint": "Where was she looking, and how far away were the dots?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-001",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "The tiny hermit crab was timid. When a big wave came, it hid inside its shell. What does timid mean?",
+  "opts": [
+   "Hungry",
+   "Shy",
+   "Silly"
+  ],
+  "a": 1,
+  "why": "The crab hid when the wave came, which shows it is shy and easily scared.",
+  "hint": "What does hiding tell you about the crab?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-002",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Jake's team was behind by one run. He took a deep breath, gripped the bat and watched the pitcher closely. What is Jake trying to do?",
+  "opts": [
+   "Hit the ball",
+   "Leave the game",
+   "Fix the base"
+  ],
+  "a": 0,
+  "why": "Gripping the bat and watching the pitcher means he is getting ready to hit.",
+  "hint": "Think about why a batter watches the pitcher.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-003",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Sharks have skeletons made of cartilage, not bone. Cartilage is the soft, bendy stuff in your ears. True or false: a shark's skeleton is made of cartilage.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Sharks have no bones. Their cartilage skeleton bends, like the tip of your ear.",
+  "hint": "Reread the first sentence.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-004",
+  "topic": "reading",
+  "level": 2,
+  "type": "order",
+  "q": "Put the butterfly's life story in order.",
+  "opts": [
+   "A tiny egg sits on a leaf.",
+   "A caterpillar hatches and eats leaves.",
+   "The caterpillar makes a chrysalis.",
+   "A butterfly comes out."
+  ],
+  "why": "The egg comes first, and the butterfly comes out only after the chrysalis stage.",
+  "hint": "What is the very first thing in a butterfly's life?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 2-LS4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-005",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Seahorse dads carry the eggs in a pouch on their bellies. The babies pop out when they are ready. What is the main idea?",
+  "opts": [
+   "Seahorses lay eggs on land",
+   "Baby seahorses eat seaweed",
+   "Seahorse dads carry the eggs"
+  ],
+  "a": 2,
+  "why": "Both sentences are about the dad carrying eggs. Land and seaweed are never mentioned.",
+  "hint": "What do both sentences talk about?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-006",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Tim's team won the championship. He hugged his teammates and could not stop smiling. How did Tim feel?",
+  "opts": [
+   "Worried",
+   "Thrilled",
+   "Annoyed"
+  ],
+  "a": 1,
+  "why": "Hugging and smiling after a win show Tim felt thrilled, which means very happy.",
+  "hint": "Look at what Tim does with his face.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-007",
+  "topic": "reading",
+  "level": 2,
+  "type": "number",
+  "q": "Read: A baseball game has 9 innings. The team has played 4 innings. How many innings are left?",
+  "a": 5,
+  "why": "9 innings minus 4 played innings leaves 5 innings.",
+  "hint": "Subtract the played innings from the total.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-008",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Because gravity pulls everything toward Earth, a baseball hit high into the air comes back down. What brings the baseball down?",
+  "opts": [
+   "Gravity",
+   "Magnets",
+   "The wind"
+  ],
+  "a": 0,
+  "why": "Gravity pulls objects toward Earth. Wind can move a ball sideways but does not pull it down.",
+  "hint": "What force does the first part of the sentence name?",
+  "tags": [
+   "baseball",
+   "space"
+  ],
+  "fun": false,
+  "src": "NGSS 2-PS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-009",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Which part of a book lists the chapters and their page numbers?",
+  "opts": [
+   "The glossary",
+   "The cover",
+   "The table of contents"
+  ],
+  "a": 2,
+  "why": "The table of contents shows chapters and pages. A glossary explains words instead.",
+  "hint": "It is found near the front of the book.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-010",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "The plant on the windowsill drooped because nobody watered it. True or false: the plant drooped because it got too much water.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "The text says nobody watered it, so it drooped from too little water.",
+  "hint": "Find the word because and read what follows.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.2.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-011",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "The astronaut floated past the window, and her pencil drifted in the air beside her. Where is she most likely?",
+  "opts": [
+   "At a ballpark",
+   "On a spaceship",
+   "In a swimming pool"
+  ],
+  "a": 1,
+  "why": "Floating objects mean almost no gravity pulling down, as inside a spacecraft in orbit.",
+  "hint": "On Earth, a pencil would fall.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-012",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "The dinosaur's footprint was enormous. A whole family could stand inside it. What does enormous mean?",
+  "opts": [
+   "Very old",
+   "Very flat",
+   "Very large"
+  ],
+  "a": 2,
+  "why": "If a whole family fits in the footprint, it must be very large.",
+  "hint": "How big must a footprint be for a family to fit?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-013",
+  "topic": "reading",
+  "level": 2,
+  "type": "order",
+  "q": "Put the baseball play in order.",
+  "opts": [
+   "The pitcher threw the ball.",
+   "The batter hit a line drive.",
+   "The shortstop caught it.",
+   "The crowd clapped for the out."
+  ],
+  "why": "The pitch starts the play, and the crowd claps only after the catch.",
+  "hint": "What has to happen before anyone can catch the ball?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-014",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "A writer tells a funny story about a dog who wears sunglasses. Why did the writer most likely write it?",
+  "opts": [
+   "To make readers smile",
+   "To give directions",
+   "To list facts"
+  ],
+  "a": 0,
+  "why": "Funny stories are written to entertain. Directions and facts are not the goal here.",
+  "hint": "Is the story meant to teach or to be fun?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core RL.2.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-015",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Whale sharks are huge, but they eat tiny plankton. They swim with their mouths open and filter food from the water. What do whale sharks eat?",
+  "opts": [
+   "Large seals",
+   "Tiny plankton",
+   "Big squid"
+  ],
+  "a": 1,
+  "why": "Size can fool you. The text says this huge shark eats tiny plankton.",
+  "hint": "Find the food named in the first sentence.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-016",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Jellyfish have no bones, no brain and no heart. True or false: a jellyfish has a heart.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Jellyfish are made mostly of water and have no heart, brain or bones.",
+  "hint": "Look for the word no in the passage.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-017",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "Orbit means to travel around something. The Moon orbits Earth. What does the Moon do?",
+  "opts": [
+   "Sits still beside Earth",
+   "Flies away from Earth",
+   "Travels around Earth"
+  ],
+  "a": 2,
+  "why": "Orbit means travel around, so the Moon travels around Earth.",
+  "hint": "Use the meaning the passage gives for orbit.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-018",
+  "topic": "reading",
+  "level": 2,
+  "type": "number",
+  "q": "Read: A shark lost 2 teeth while eating lunch and 4 more while eating dinner. New teeth grew in each time. How many teeth did it lose in all?",
+  "a": 6,
+  "why": "The shark lost 2 and then 4 more, so 2 plus 4 equals 6. Regrowing does not change the count lost.",
+  "hint": "Add only the teeth that fell out.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-019",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "A dictionary page has the guide words dog and duck. Which word could be found on that page?",
+  "opts": [
+   "Cat",
+   "Door",
+   "Fish"
+  ],
+  "a": 1,
+  "why": "Door comes after dog and before duck in ABC order, so it fits between the guide words.",
+  "hint": "Compare the first letters, then the second letters.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-2-020",
+  "topic": "reading",
+  "level": 2,
+  "type": "choice",
+  "q": "A frog has smooth, wet skin. A toad has dry, bumpy skin. How is a toad's skin different from a frog's?",
+  "opts": [
+   "It is dry and bumpy",
+   "It is smooth and wet",
+   "It is fuzzy and warm"
+  ],
+  "a": 0,
+  "why": "The toad's skin is dry and bumpy, while the frog's is smooth and wet.",
+  "hint": "Compare the two skin descriptions.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core RI.2.9",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-001",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The explorer was parched after hours in the hot desert. She gulped down a whole bottle of water. What does parched mean?",
+  "opts": [
+   "Very sleepy",
+   "Very cold",
+   "Very thirsty",
+   "Very lost"
+  ],
+  "a": 2,
+  "why": "Gulping a whole bottle of water is a clue: parched means very thirsty.",
+  "hint": "Why would someone gulp water?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-002",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The coach looked at the dark clouds, then at the scoreboard. 'Let's finish quickly before the rain,' she said. What is she worried about?",
+  "opts": [
+   "The game being rained out",
+   "Losing a bat",
+   "A late bus",
+   "A broken glove"
+  ],
+  "a": 0,
+  "why": "The dark clouds and the word rain show she fears the weather will stop the game.",
+  "hint": "Connect the clouds to what the coach said.",
+  "tags": [
+   "baseball",
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-003",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "A caption is the short line of words under a photograph or drawing. True or false: a caption explains what the picture shows.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Captions give details about a picture, like who or what is in it.",
+  "hint": "Think about the words that sit next to a photo.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.3.7",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-004",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Octopuses squirt dark ink when frightened. The ink makes a cloud in the water, and the octopus swims away. Why does an octopus squirt ink?",
+  "opts": [
+   "To paint the rocks",
+   "To signal its friends",
+   "To catch its lunch",
+   "To escape danger"
+  ],
+  "a": 3,
+  "why": "The ink cloud hides the octopus so it can get away from a hungry predator.",
+  "hint": "What happens after the cloud forms?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-005",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "A comet is a ball of ice and dust. Near the Sun it heats up and grows a glowing tail. Which sentence tells the main idea?",
+  "opts": [
+   "Comets are made of rock",
+   "Comets grow tails near the Sun",
+   "Comets stay far from the Sun",
+   "Comets circle the Moon"
+  ],
+  "a": 1,
+  "why": "Both sentences explain how comets change near the Sun by growing a tail. The first is wrong: they have ice.",
+  "hint": "Which choice covers both sentences?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-006",
+  "topic": "reading",
+  "level": 3,
+  "type": "number",
+  "q": "Read: Rex has 5 books about sharks and 4 books about dinosaurs. He gives 3 books away. How many books does Rex have left?",
+  "a": 6,
+  "why": "5 plus 4 makes 9 books. After giving 3 away, 9 minus 3 leaves 6.",
+  "hint": "Add first, then subtract.",
+  "tags": [
+   "sharks",
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-007",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Every day after practice, Lena stays late to pick up balls, stack the bats and sweep the dugout, even when nobody asks. Which word best describes Lena?",
+  "opts": [
+   "Lazy",
+   "Bossy",
+   "Helpful",
+   "Forgetful"
+  ],
+  "a": 2,
+  "why": "Doing extra jobs without being asked shows she is helpful, not lazy.",
+  "hint": "What do her actions show about her?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-008",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "I felt my heart pound as I walked to the mound to pitch. Who is telling this story?",
+  "opts": [
+   "The pitcher, using I",
+   "The cheering crowd",
+   "The umpire",
+   "A reporter far away"
+  ],
+  "a": 0,
+  "why": "The word I shows the storyteller is the person in the story, the pitcher.",
+  "hint": "Which word shows who is speaking?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-009",
+  "topic": "reading",
+  "level": 3,
+  "type": "order",
+  "q": "Put the water cycle in order.",
+  "opts": [
+   "The Sun warms water in the ocean.",
+   "Water vapor rises into the sky.",
+   "The vapor cools and forms clouds.",
+   "Rain falls back to the ground."
+  ],
+  "why": "Water must warm and rise before it can cool into clouds and fall.",
+  "hint": "Rain cannot fall until clouds have formed.",
+  "tags": [
+   "ocean",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-ESS2-3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-010",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Maya tiptoed into the kitchen at midnight and opened the fridge as quietly as she could. Why was she tiptoeing?",
+  "opts": [
+   "She was late for school",
+   "She wanted to stay quiet",
+   "She had lost her shoes",
+   "She was practicing ballet"
+  ],
+  "a": 1,
+  "why": "Midnight and 'as quietly as she could' show she did not want to wake anyone.",
+  "hint": "Why do people move quietly at midnight?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-011",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Sharks and rays both have skeletons made of cartilage. A shark's body is shaped like a torpedo, but a ray's body is flat. What do sharks and rays share?",
+  "opts": [
+   "Flat bodies",
+   "Thick bones",
+   "Lungs for breathing",
+   "Skeletons of cartilage"
+  ],
+  "a": 3,
+  "why": "The passage says both have cartilage skeletons. Only rays have flat bodies.",
+  "hint": "Find the thing the first sentence says they share.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-012",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Ice cubes melt faster in sunshine because the Sun gives off heat. True or false: ice cubes melt faster in a cool, shady spot than in the sunshine.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "The Sun's heat melts ice faster, so a shady spot slows the melting.",
+  "hint": "Which place has more heat from the Sun?",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-PS1-4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-013",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Which sentence would an author write to persuade you?",
+  "opts": [
+   "Everyone should visit an aquarium.",
+   "An aquarium has many tanks.",
+   "Sea water is salty.",
+   "Many fish live in tanks."
+  ],
+  "a": 0,
+  "why": "Should tells you what to do. The other sentences only give facts.",
+  "hint": "Which sentence tries to change your mind?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RI.3.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-014",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The bats flew out of the cave at dusk, just as the sky was turning dark. What does dusk mean?",
+  "opts": [
+   "Early morning",
+   "Noon",
+   "Early evening",
+   "Midnight"
+  ],
+  "a": 2,
+  "why": "The sky was turning dark, so dusk is the time when day ends and evening begins.",
+  "hint": "When does the sky start to turn dark?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-015",
+  "topic": "reading",
+  "level": 3,
+  "type": "number",
+  "q": "Read: The team scored 2 runs in the first inning, none in the second and 3 runs in the third. How many runs did it score in the first three innings?",
+  "a": 5,
+  "why": "2 plus 0 plus 3 equals 5 runs.",
+  "hint": "Remember that none means zero.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-016",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "The wind bent the palm trees almost flat, and waves crashed over the pier. What kind of weather was it?",
+  "opts": [
+   "A calm morning",
+   "A fierce storm",
+   "A foggy night",
+   "A light drizzle"
+  ],
+  "a": 1,
+  "why": "Bending trees and crashing waves are signs of strong wind, like a storm.",
+  "hint": "What would make trees bend and waves crash?",
+  "tags": [
+   "weather",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-017",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Unlike toothy sharks, baleen whales have no teeth. They filter tiny food from the water with bristly plates in their mouths. What do baleen whales use instead of teeth?",
+  "opts": [
+   "Hard beaks",
+   "Long tusks",
+   "Strong claws",
+   "Mouth plates"
+  ],
+  "a": 3,
+  "why": "The passage says bristly plates in their mouths strain food from the water.",
+  "hint": "Find the word instead in the question.",
+  "tags": [
+   "ocean",
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-018",
+  "topic": "reading",
+  "level": 3,
+  "type": "order",
+  "q": "Put Ravi's pitching routine in order.",
+  "opts": [
+   "First, Ravi stretched his arms.",
+   "Next, he threw warm-up pitches.",
+   "Then he faced the first batter.",
+   "Finally, he struck the batter out."
+  ],
+  "why": "Signal words like first, next, then and finally show the order.",
+  "hint": "Look for the signal words.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-019",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "At first, Omar was afraid to put his face in the water. After weeks of practice, he swam across the pool and grinned. How did Omar change?",
+  "opts": [
+   "From fearful to proud",
+   "From sleepy to angry",
+   "From bored to scared",
+   "From happy to sad"
+  ],
+  "a": 0,
+  "why": "He went from afraid at first to grinning after he succeeded.",
+  "hint": "Compare how he acts at the start and the end.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RL.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-3-020",
+  "topic": "reading",
+  "level": 3,
+  "type": "choice",
+  "q": "Penguins huddle close together in cold winds. They take turns standing on the outside. That way no penguin stays in the coldest spot for long. What is the main idea?",
+  "opts": [
+   "Penguins build ice homes",
+   "Penguins swim in groups",
+   "Penguins share the cold spots",
+   "Penguins hide in caves"
+  ],
+  "a": 2,
+  "why": "All the sentences describe penguins taking turns in the cold. Nothing mentions homes or caves.",
+  "hint": "What do all three sentences describe?",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-001",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Which sentence contains a simile?",
+  "opts": [
+   "His fastball moved like lightning.",
+   "The pitcher threw very hard.",
+   "The crowd roared loudly.",
+   "The ball sailed over the fence."
+  ],
+  "a": 0,
+  "why": "A simile compares two things using like or as. 'Like lightning' compares the fastball to lightning.",
+  "hint": "Look for the word like or as.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-002",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "The ocean waves whispered secrets to the sleepy shore. What is the author doing?",
+  "opts": [
+   "Using the word like",
+   "Giving waves human actions",
+   "Telling a plain fact",
+   "Giving an order"
+  ],
+  "a": 1,
+  "why": "Waves cannot whisper or tell secrets. Giving human actions to nature is personification.",
+  "hint": "Can waves really whisper?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-003",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "When the ocean gets too warm, coral pushes out the tiny algae living inside it, and the coral turns white. True or false: the algae are what turn the coral white.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Losing the algae turns the coral white. The algae give coral its color.",
+  "hint": "Read the order of events carefully.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-004",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "The new student told a joke to break the ice with her classmates. What does break the ice mean?",
+  "opts": [
+   "Crack frozen water",
+   "End an argument",
+   "Help people relax",
+   "Win a contest"
+  ],
+  "a": 2,
+  "why": "Breaking the ice means making an awkward start feel friendly and comfortable.",
+  "hint": "Think about why someone tells a joke to new classmates.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-005",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Mia practiced her curveball every day. She missed the strike zone for weeks but kept trying. By spring, she struck out three batters. What lesson does the story teach?",
+  "opts": [
+   "Curveballs are very easy",
+   "Spring is the best season",
+   "Teams should never lose",
+   "Practice leads to progress"
+  ],
+  "a": 3,
+  "why": "Her struggles turned into success because she kept practicing. That is the lesson of the story.",
+  "hint": "Ask what changed from the start to the end.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-006",
+  "topic": "reading",
+  "level": 4,
+  "type": "number",
+  "q": "Read: A pitcher threw 15 pitches in the first inning, 12 in the second and 18 in the third. How many pitches did he throw in all?",
+  "a": 45,
+  "why": "15 plus 12 makes 27, and 27 plus 18 makes 45.",
+  "hint": "Add the three numbers one at a time.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-007",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Lila read about space for hours. Every night she watched the stars and drew maps of the planets. Which sentence is best supported by these clues?",
+  "opts": [
+   "Lila loves learning about space.",
+   "Lila is afraid of the dark.",
+   "Lila wants to be a baker.",
+   "Lila dislikes science."
+  ],
+  "a": 0,
+  "why": "Reading, stargazing and drawing planets all show strong interest in space. Nothing hints at fear.",
+  "hint": "Which choice matches ALL of her actions?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-008",
+  "topic": "reading",
+  "level": 4,
+  "type": "order",
+  "q": "Put the bat's hunting steps in order.",
+  "opts": [
+   "The bat makes a high squeak.",
+   "The sound hits a moth and bounces back.",
+   "The bat hears the echo.",
+   "The bat swoops to catch the moth."
+  ],
+  "why": "Echoes come after the squeak, and the bat can only swoop once it hears the echo.",
+  "hint": "What does the bat need before it can find the moth?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 1-PS4-4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-009",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Tiny plant-like plankton need sunlight to grow, so they float near the ocean's surface. What would happen to them in the dark deep sea?",
+  "opts": [
+   "They would grow faster",
+   "They could not grow well",
+   "They would grow bigger",
+   "They would glow brighter"
+  ],
+  "a": 1,
+  "why": "Without sunlight they cannot make food, so they could not grow well. That is why they stay near the top.",
+  "hint": "What do they need to grow?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-010",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "In the sentence 'Many sharks hunt fish; however, whale sharks eat plankton,' what does the word however signal?",
+  "opts": [
+   "A cause",
+   "A time order",
+   "A contrast",
+   "A list"
+  ],
+  "a": 2,
+  "why": "However shows a difference: most sharks hunt fish, but whale sharks eat plankton.",
+  "hint": "Does the second part match or differ from the first?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-011",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "The Moon has no wind or rain to wipe away footprints, so astronaut boot prints can last a very long time. True or false: footprints on the Moon disappear quickly because of strong winds.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "The Moon has no wind, so footprints stay. That is why they can last a very long time.",
+  "hint": "Check what the text says about wind.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-012",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "The reef was teeming with fish. They darted through every crack and crowded around every coral. What does teeming mean?",
+  "opts": [
+   "Empty and quiet",
+   "Covered in ice",
+   "Hidden from view",
+   "Packed with life"
+  ],
+  "a": 3,
+  "why": "Fish in every crack and crowding around coral shows the reef was packed with life.",
+  "hint": "What do darting and crowding tell you?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-013",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "In a science book, a word printed in bold type usually means what?",
+  "opts": [
+   "It is a key word to learn",
+   "It is a spelling error",
+   "It is the author's name",
+   "It is the end of a chapter"
+  ],
+  "a": 0,
+  "why": "Authors use bold type to point out important words, which are often explained nearby.",
+  "hint": "Why would an author make a word stand out?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RI.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-014",
+  "topic": "reading",
+  "level": 4,
+  "type": "number",
+  "q": "Read: A shark swam 4 miles before lunch. After lunch it swam twice as far. How many miles did it swim all day?",
+  "a": 12,
+  "why": "Twice as far as 4 miles is 8 miles. Add the 4 miles from the morning to get 12.",
+  "hint": "Find the afternoon distance first.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-015",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "After striking out, Kai slammed down his glove and stomped to the dugout. A minute later he picked it up and cheered for the next batter. What does this show about Kai?",
+  "opts": [
+   "He wants to quit baseball",
+   "He recovers and supports others",
+   "He never cared about winning",
+   "He blames the umpire"
+  ],
+  "a": 1,
+  "why": "Kai got upset but calmed down fast and cheered for a teammate. That shows he can recover.",
+  "hint": "Compare Kai's actions before and after the minute passed.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-016",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Mars is dry, dusty and cold. Venus is wrapped in thick clouds and is extremely hot. How are the two planets different?",
+  "opts": [
+   "Mars is hot and Venus is cold",
+   "Both are covered with oceans",
+   "Mars is cold and Venus is hot",
+   "Both are very hot"
+  ],
+  "a": 2,
+  "why": "Mars is described as cold and Venus as extremely hot. The other choices do not match the text.",
+  "hint": "Match each planet to its temperature word.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-017",
+  "topic": "reading",
+  "level": 4,
+  "type": "order",
+  "q": "Put the steps of how a pearl forms in order.",
+  "opts": [
+   "A tiny grain slips inside an oyster.",
+   "The oyster coats the grain with smooth layers.",
+   "Layer after layer builds up over time.",
+   "A shiny pearl is ready to be found."
+  ],
+  "why": "The grain comes first, and the layers must build up before the pearl is finished.",
+  "hint": "What starts the whole process?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-018",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Pip called the game a thrilling comeback. Cam, who plays for the other team, called it a heartbreaking loss. Why do they feel so differently?",
+  "opts": [
+   "One of them missed the game",
+   "One misunderstood the score",
+   "They like different sports",
+   "They were on opposite teams"
+  ],
+  "a": 3,
+  "why": "A comeback for one team is a loss for the other, so their points of view differ.",
+  "hint": "Which team does each person root for?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.3.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-019",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "Herbivores eat plants and carnivores eat meat. The prefix omni- means 'all.' What do omnivores eat?",
+  "opts": [
+   "Both plants and meat",
+   "Only seeds",
+   "Only fish",
+   "Only bugs"
+  ],
+  "a": 0,
+  "why": "Omni- means all, so omnivores eat all kinds of food, both plants and meat.",
+  "hint": "What does 'all' tell you about their food?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-4-020",
+  "topic": "reading",
+  "level": 4,
+  "type": "choice",
+  "q": "A summary tells only the most important ideas of a text in a few sentences. True or false: a good summary includes every tiny detail.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "A summary keeps the big ideas and leaves out small details.",
+  "hint": "Think about how short a summary should be.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RL.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-001",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "The library was a quiet garden where stories grew. What does this metaphor suggest about the library?",
+  "opts": [
+   "It grows real vegetables",
+   "It is calm and inspiring",
+   "It is loud and busy",
+   "It is outside"
+  ],
+  "a": 1,
+  "why": "A garden is peaceful and things grow there, so the library is calm and ideas grow. It is not a real garden.",
+  "hint": "What do gardens and libraries have in common?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-002",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Ruben said his sister was too small to play. When the ball rolled under a fence, only she fit through to get it. Ruben grinned and handed her a glove. What is the theme?",
+  "opts": [
+   "Fences keep games safe",
+   "Big kids always win",
+   "Everyone has something to offer",
+   "Games should be short"
+  ],
+  "a": 2,
+  "why": "The small sister helped in a way nobody else could. The theme is about value in everyone.",
+  "hint": "Ask what Ruben learned by the end.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-003",
+  "topic": "reading",
+  "level": 5,
+  "type": "number",
+  "q": "Read: A museum shows 3 dinosaur skeletons in each of its 4 rooms. It also shows 5 skeletons in the lobby. How many skeletons are on display?",
+  "a": 17,
+  "why": "3 skeletons in each of 4 rooms is 12. Add the 5 in the lobby to get 17.",
+  "hint": "Multiply first, then add the lobby.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-004",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "A scientist left a cup of sea water in the sun for three days. The cup was almost empty, with white crystals on the bottom. What happened?",
+  "opts": [
+   "The water evaporated, leaving salt",
+   "The water froze solid",
+   "The water turned into salt",
+   "The water sank into the table"
+  ],
+  "a": 0,
+  "why": "Water evaporates into the air, but salt does not. It is left behind as crystals.",
+  "hint": "Which part of sea water can float away as vapor?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-005",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Plastic bags were tangling sea turtles' flippers. A beach town asked shoppers to use cloth bags instead, and soon fewer turtles were hurt. Which text structure does this passage use?",
+  "opts": [
+   "Compare and contrast",
+   "Sequence of steps",
+   "Description of a place",
+   "Problem and solution"
+  ],
+  "a": 3,
+  "why": "It names a problem (tangled turtles) and a solution (cloth bags).",
+  "hint": "Find the trouble, then find the fix.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RI.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-006",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Octopuses can squeeze through tiny gaps. Their bodies have no bones, so only the hard beak limits how small a gap they can fit through. True or false: the second sentence explains the first.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The second sentence gives the reason octopuses fit through tiny gaps: no bones.",
+  "hint": "Ask whether the second sentence tells why.",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-007",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Writer A says the new ballpark has narrow seats and long lines. Writer B says the seats are close to the action and the snacks arrive fast. What is the best conclusion?",
+  "opts": [
+   "The writers disagree about it",
+   "Both writers dislike it",
+   "Both writers love it",
+   "Only one saw the game"
+  ],
+  "a": 0,
+  "why": "A lists problems and B lists good things, so they have different opinions.",
+  "hint": "Is each writer positive or negative?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RI.4.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-008",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "A paragraph explains how bats use sound to find food. Which sentence does NOT belong?",
+  "opts": [
+   "Bats send out high squeaks.",
+   "Echoes tell bats where insects are.",
+   "Some bats sleep upside down in caves.",
+   "Bats listen for the returning sound."
+  ],
+  "a": 2,
+  "why": "Where bats sleep is a different topic than how they find food with sound.",
+  "hint": "Which sentence is off topic?",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core W.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-009",
+  "topic": "reading",
+  "level": 5,
+  "type": "order",
+  "q": "Put these feelings in order from mildest to most intense.",
+  "opts": [
+   "bothered",
+   "annoyed",
+   "angry",
+   "furious"
+  ],
+  "why": "Each word is stronger than the one before it, ending with the most intense, furious.",
+  "hint": "Which word fits a tiny problem, and which a huge one?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-010",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Dani told her team she was not nervous. But her foot tapped, she checked her watch every minute and she kept retying her cleats. What can the reader infer?",
+  "opts": [
+   "She is bored and sleepy",
+   "She is hiding her nervousness",
+   "She is angry at her cleats",
+   "She is early for practice"
+  ],
+  "a": 1,
+  "why": "Her actions say the opposite of her words, so she is likely hiding nervousness.",
+  "hint": "Compare what she says with what she does.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-011",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Warm seas let plankton bloom. The plankton drew small fish, and the small fish drew seabirds. What directly drew the seabirds?",
+  "opts": [
+   "Warm sea water",
+   "Blooming plankton",
+   "Sunny weather",
+   "Small fish"
+  ],
+  "a": 3,
+  "why": "The passage says the small fish drew the seabirds. Warm water and plankton were earlier links.",
+  "hint": "Find the link right before the seabirds.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RI.4.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-012",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Baby sea turtles crawl toward the brightest horizon, which is normally the moonlit sea. Bright lights on land can confuse them. True or false: bright lights near a beach always help hatchlings reach the sea.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Lights on land can pull hatchlings the wrong way, away from the sea.",
+  "hint": "Read the second sentence closely.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-013",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "The paleontologist was meticulous. She brushed each tiny grain of dust off the bone, one grain at a time. What does meticulous mean?",
+  "opts": [
+   "Quick and rough",
+   "Forgetful",
+   "Extremely careful",
+   "Easily bored"
+  ],
+  "a": 2,
+  "why": "Brushing off one grain at a time shows she is extremely careful.",
+  "hint": "What does going one grain at a time show?",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-014",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Hummingbirds beat their wings so fast that they hover. They sip nectar with long tongues. They burn so much energy that they must eat often. Which is the best summary?",
+  "opts": [
+   "Hummingbirds hover and eat often",
+   "Hummingbirds are the tiniest birds",
+   "Flowers grow from nectar",
+   "Wings are made of petals"
+  ],
+  "a": 0,
+  "why": "A good summary covers the key ideas: hovering, sipping nectar and eating often.",
+  "hint": "Pick the choice that uses ideas from all three sentences.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core RI.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-015",
+  "topic": "reading",
+  "level": 5,
+  "type": "number",
+  "q": "Read: A poem has 3 stanzas. Each stanza has 4 lines, and every line has 6 words. How many words are in the poem?",
+  "a": 72,
+  "why": "3 stanzas of 4 lines is 12 lines. 12 lines of 6 words each is 72 words.",
+  "hint": "First find the total number of lines.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RL.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-016",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "The coach called the runner's plan 'bold.' The umpire called the same plan 'reckless.' How do the two words differ?",
+  "opts": [
+   "They mean exactly the same",
+   "Bold means very slow",
+   "Reckless means very safe",
+   "Bold admires; reckless warns"
+  ],
+  "a": 3,
+  "why": "Bold praises daring, while reckless warns that it is careless. The feelings are different.",
+  "hint": "Think of whether each word sounds like praise or worry.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-017",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "At noon the boat sat on dry sand. Six hours later it floated at the dock. True or false: the tide probably came in.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "A rising tide fills the shore with water, lifting boats that were sitting on dry sand.",
+  "hint": "What would lift a boat off dry sand?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-018",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "Text A: The Sun gives Earth light and heat. Text B: Without the Sun's heat, Earth's oceans would freeze. What idea do both texts share?",
+  "opts": [
+   "The Sun is very small",
+   "Earth depends on the Sun",
+   "Oceans give off light",
+   "Stars are cold"
+  ],
+  "a": 1,
+  "why": "Both texts show things on Earth need the Sun's light and heat.",
+  "hint": "Look for what both texts say about the Sun.",
+  "tags": [
+   "space",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RI.4.9",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-019",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "An anemone's stinging tentacles keep a clownfish safe. The clownfish cleans the anemone and chases away fish that nibble it. How would you describe this partnership?",
+  "opts": [
+   "Only the anemone benefits",
+   "Only the clownfish benefits",
+   "Both partners benefit",
+   "Neither partner benefits"
+  ],
+  "a": 2,
+  "why": "Each helps the other: the anemone protects, and the clownfish cleans and guards.",
+  "hint": "Ask what each one gets.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-5-020",
+  "topic": "reading",
+  "level": 5,
+  "type": "choice",
+  "q": "The old pitcher's fastball, once feared by every hitter, now barely reached the plate. True or false: the pitcher has probably lost speed over the years.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Once feared and now barely reaching the plate suggest he used to throw faster.",
+  "hint": "Compare then and now.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RL.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-001",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Which situation is ironic?",
+  "opts": [
+   "A swim coach who loves pizza",
+   "A swim coach who wears a watch",
+   "A swim coach who cannot swim",
+   "A swim coach who is very tall"
+  ],
+  "a": 2,
+  "why": "Irony is the opposite of what you expect. A swim coach is expected to know how to swim.",
+  "hint": "Which choice is the opposite of what you would expect?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core RL.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-002",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Claim: sharks help keep the ocean healthy. Which fact best supports this claim?",
+  "opts": [
+   "They eat weak fish, so others stay healthy",
+   "Their teeth grow back in many rows",
+   "Some sharks are gray and some are blue",
+   "Many sharks can swim at high speed"
+  ],
+  "a": 0,
+  "why": "Evidence must connect to the claim. Only the first fact explains how sharks help the ocean's health.",
+  "hint": "Which fact is about HEALTH, not looks or speed?",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-003",
+  "topic": "reading",
+  "level": 6,
+  "type": "number",
+  "q": "Read: A research boat sailed 3 days to a reef, stayed twice as many days as it sailed, then sailed home in 3 days. How many days did the whole trip take?",
+  "a": 12,
+  "why": "Twice 3 days is 6 days at the reef. The trip was 3 plus 6 plus 3, which is 12 days.",
+  "hint": "Find the days at the reef first.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-004",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Had the tide not turned, the stranded whale calf would have stayed trapped on the sand. What happened?",
+  "opts": [
+   "It stayed trapped",
+   "The tide never turned",
+   "It was never stranded",
+   "The tide turned, freeing it"
+  ],
+  "a": 3,
+  "why": "Had the tide not turned means it did turn. So the calf did not stay trapped.",
+  "hint": "Say the sentence again as what really happened.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-005",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "The forecast was dire, yet the captain stayed sanguine and smiled at her crew. What does sanguine most likely mean?",
+  "opts": [
+   "Furious",
+   "Hopeful",
+   "Confused",
+   "Exhausted"
+  ],
+  "a": 1,
+  "why": "The word yet signals a contrast with dire, so she stayed hopeful and smiling.",
+  "hint": "What does the word yet tell you?",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-006",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Scientists say sharks were swimming in the oceans over 400 million years ago, long before the first forests grew on land. True or false: sharks were around before the first forests.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The passage says sharks swam long before forests grew. Sharks are very ancient animals.",
+  "hint": "Compare the two time clues in the sentence.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-007",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "When the runner wanted to risk stealing second, the coach said, 'A bird in the hand is worth two in the bush.' What advice is she giving?",
+  "opts": [
+   "Always steal every base",
+   "Run faster next time",
+   "Do not risk a sure thing",
+   "Wait for a better pitch"
+  ],
+  "a": 2,
+  "why": "This saying means a sure thing is worth more than a bigger chance you might lose.",
+  "hint": "What is the coach telling the runner not to risk?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-008",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "One report says the home team 'squeaked past' its rival. Another says it 'crushed' its rival. Which report suggests a close game?",
+  "opts": [
+   "The 'squeaked past' report",
+   "The 'crushed' report",
+   "Both reports",
+   "Neither report"
+  ],
+  "a": 0,
+  "why": "Squeaked past means barely won. Crushed means won by a lot.",
+  "hint": "Which word means a tiny margin?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-009",
+  "topic": "reading",
+  "level": 6,
+  "type": "order",
+  "q": "Put these sentences in order to make a clear paragraph.",
+  "opts": [
+   "Sea otters are clever tool users.",
+   "For example, they crack clams open with rocks.",
+   "Some even keep a favorite rock in a skin pocket.",
+   "So tool use is not only for people."
+  ],
+  "why": "A topic sentence opens, examples follow, and a sentence beginning with So wraps it up.",
+  "hint": "Which sentence introduces the topic and which one concludes?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "Common Core W.5.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-010",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Most of an octopus's nerve cells are in its arms, not its head. Which inference is best supported?",
+  "opts": [
+   "Its head controls everything",
+   "It has eight equal brains",
+   "Its arms feel nothing",
+   "Its arms can work partly alone"
+  ],
+  "a": 3,
+  "why": "With most nerve cells in the arms, each arm can handle some tasks itself. But the head still has a brain.",
+  "hint": "Where would you expect a lot of nerve cells to help?",
+  "tags": [
+   "ocean",
+   "animals"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-011",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "The graceful shark glided past the reef, where more than a hundred kinds of fish live. Which word shows the author's opinion?",
+  "opts": [
+   "glided",
+   "graceful",
+   "reef",
+   "hundred"
+  ],
+  "a": 1,
+  "why": "Graceful is a judgment someone could disagree with. The other words can be checked.",
+  "hint": "Which word could two people disagree about?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RI.5.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-012",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Nina ate four fish tacos and loved each one. She said, 'All fish tacos are delicious.' True or false: four tacos prove her statement about all fish tacos.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "A small sample cannot prove something about all fish tacos. Her statement is an overgeneralization.",
+  "hint": "Does four tacos cover every taco in the world?",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Common Core RI.5.8",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-013",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "The Sharks won 7 of their 10 games. The Comets won 6 of their 8 games. Which team won a greater share of its games?",
+  "opts": [
+   "The Comets",
+   "The Sharks",
+   "They are tied",
+   "You cannot tell"
+  ],
+  "a": 0,
+  "why": "7 of 10 is 70 percent, but 6 of 8 is 75 percent. More wins does not mean a bigger share.",
+  "hint": "Compare the shares, not the number of wins.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core 5.NF",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-014",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Light from the Sun takes about eight minutes to reach Earth. So when you see the Sun, you see it as it was about how long ago?",
+  "opts": [
+   "Right now",
+   "Eight seconds ago",
+   "Eight minutes ago",
+   "Eight hours ago"
+  ],
+  "a": 2,
+  "why": "Light takes time to travel, so the sunlight reaching you left the Sun about eight minutes earlier.",
+  "hint": "Light needs time to cross space.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-015",
+  "topic": "reading",
+  "level": 6,
+  "type": "number",
+  "q": "Read: Each row at the ballpark holds exactly 12 fans. A school group of 50 fans arrives. What is the fewest number of rows that can seat all 50?",
+  "a": 5,
+  "why": "Four rows seat only 48 fans. The last 2 fans need a fifth row.",
+  "hint": "Divide, then decide what to do with the leftover.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-016",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "An article opens: 'What if you could hear a shark's heartbeat?' Why would an author begin with a question?",
+  "opts": [
+   "To end the article quickly",
+   "To spark the reader's curiosity",
+   "To list every shark fact",
+   "To give step-by-step directions"
+  ],
+  "a": 1,
+  "why": "An opening question makes readers curious so they keep reading.",
+  "hint": "Think about how the first line affects the reader.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RI.5.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-017",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Two books are called 'Parts of a Shark' and 'Why Every Beach Should Protect Sharks.' True or false: the title 'Parts of a Shark' suggests the author wants to persuade readers.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Parts of a Shark sounds like information. The word Should in the other title signals persuasion.",
+  "hint": "Which title tells readers what they should do?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RI.5.6",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-018",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "The umpire saw the runner leave the base early but turned a blind eye. What did the umpire do?",
+  "opts": [
+   "Reported it right away",
+   "Became unable to see",
+   "Looked at it closely",
+   "Ignored it on purpose"
+  ],
+  "a": 3,
+  "why": "Turning a blind eye is an idiom meaning to ignore something on purpose.",
+  "hint": "Is the umpire's eyesight the point here?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-019",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "Most sharks live in warm water, but a few species thrive in cold seas. True or false: at least one kind of shark lives in cold water.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "A few species thrive in cold seas, so at least one kind lives in cold water.",
+  "hint": "What does a few species tell you?",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "reaB-6-020",
+  "topic": "reading",
+  "level": 6,
+  "type": "choice",
+  "q": "The Greek root chrono means 'time,' and -logy means 'study.' A chronology is a list of events arranged by what?",
+  "opts": [
+   "Time order",
+   "Size order",
+   "ABC order",
+   "Distance"
+  ],
+  "a": 0,
+  "why": "Chrono means time, so a chronology lists events in the order they happened.",
+  "hint": "Use the meaning of the root chrono.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ }
+]

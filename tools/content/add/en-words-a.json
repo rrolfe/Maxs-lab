@@ -1,0 +1,2519 @@
+[
+ {
+  "id": "wdsB-1-001",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "A cheetah is fast. A snail is the opposite of fast. Which word fits the snail?",
+  "opts": [
+   "quick",
+   "slow",
+   "loud"
+  ],
+  "a": 1,
+  "why": "Opposites mean the reverse. Quick means almost the same as fast, so it cannot be the opposite.",
+  "hint": "Opposite means the reverse.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-002",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Which word rhymes with 'whale'?",
+  "opts": [
+   "wall",
+   "wheel",
+   "tail"
+  ],
+  "a": 2,
+  "why": "Whale and tail end with the same sound. Wheel starts like whale but ends differently.",
+  "hint": "Listen to the ending sounds.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core RF.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-003",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Put 'moon' and 'light' together. What new word do you make?",
+  "opts": [
+   "moonlight",
+   "lightmoon",
+   "moonlite"
+  ],
+  "a": 0,
+  "why": "Two small words can join into one compound word. Keep them in order: moon, then light.",
+  "hint": "Keep the two words in the same order.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-004",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "The word 'rocket' has two syllables (claps).",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Rock-et has two claps. Each syllable has one vowel sound you can hear.",
+  "hint": "Clap the word out loud.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core RF.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-005",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "The dinosaur was huge. Which word means almost the same as huge?",
+  "opts": [
+   "tiny",
+   "quiet",
+   "giant"
+  ],
+  "a": 2,
+  "why": "Huge and giant both mean very big. Tiny means the opposite.",
+  "hint": "Pick the word that also means very big.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-006",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "In 'The shark swims fast,' which word is the action word?",
+  "opts": [
+   "swims",
+   "shark",
+   "fast"
+  ],
+  "a": 0,
+  "why": "Swims tells what the shark does, so it is the verb. Shark is the who, and fast tells how.",
+  "hint": "Which word shows something happening?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-007",
+  "topic": "words",
+  "level": 1,
+  "type": "order",
+  "q": "Put these baseball words in ABC order.",
+  "opts": [
+   "ball",
+   "glove",
+   "pitcher",
+   "umpire"
+  ],
+  "why": "Look at the first letter of each word: b, g, p, u. That is the order of the alphabet.",
+  "hint": "Check the first letter of each word.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-008",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Which word begins with the same sound as 'shark'?",
+  "opts": [
+   "sun",
+   "chip",
+   "ship"
+  ],
+  "a": 2,
+  "why": "The letters sh make one sound. Ship starts that way. Sun starts with s alone, and chip starts with ch.",
+  "hint": "Say 'shark' slowly and listen to the start.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RF.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-009",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "One beach, two ____. Which plural is spelled right?",
+  "opts": [
+   "beaches",
+   "beachs",
+   "beachies"
+  ],
+  "a": 0,
+  "why": "Words that end in ch, sh, s, x, or z add -es to mean more than one.",
+  "hint": "Say it out loud with two beaches.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-010",
+  "topic": "words",
+  "level": 1,
+  "type": "number",
+  "q": "'Octo' means eight. An octopus has that many arms. How many arms is that?",
+  "a": 8,
+  "why": "Octo means eight, and an octopus does have eight arms. An octagon has eight sides too.",
+  "hint": "The answer is hiding in the question.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-011",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Last night we ____ at the stars. Which word fits?",
+  "opts": [
+   "looked",
+   "look",
+   "looking"
+  ],
+  "a": 0,
+  "why": "Last night already happened, so the verb needs -ed. Looked tells about the past.",
+  "hint": "Last night is over. Use the past form.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-012",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Which sentence asks a question?",
+  "opts": [
+   "Crabs hide under rocks.",
+   "Where do crabs hide?",
+   "Look at that crab!"
+  ],
+  "a": 1,
+  "why": "A question asks something and ends with a question mark. The other two tell or shout.",
+  "hint": "Look for the question mark.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-013",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "'Swimmed' is the right word for what a shark did yesterday.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Swim changes to swam in the past. Some verbs do not follow the -ed rule.",
+  "hint": "Say it in a sentence: Yesterday the shark ...",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-014",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "A diver sinks in deep water. Which word is the opposite of deep?",
+  "opts": [
+   "wet",
+   "shallow",
+   "wide"
+  ],
+  "a": 1,
+  "why": "Deep water goes far down. Shallow water is not deep, so you can stand in it.",
+  "hint": "Think of water you can stand in.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-015",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Shark, whale, and ____ all live in the sea. Which word fits?",
+  "opts": [
+   "robin",
+   "camel",
+   "dolphin"
+  ],
+  "a": 2,
+  "why": "A dolphin is a sea animal like the others. A robin is a bird, and a camel lives in the desert.",
+  "hint": "Which animal lives in the ocean?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-016",
+  "topic": "words",
+  "level": 1,
+  "type": "order",
+  "q": "Put the words in order to make a sentence.",
+  "opts": [
+   "The",
+   "big",
+   "whale",
+   "sings."
+  ],
+  "why": "A sentence starts with a capital letter, tells who or what, then what it does.",
+  "hint": "Start with the word that has a capital letter.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-017",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Shark starts with S. Which letter comes right before S in the alphabet?",
+  "opts": [
+   "R",
+   "T",
+   "P"
+  ],
+  "a": 0,
+  "why": "The alphabet goes Q, R, S, T. R comes right before S, and T comes right after.",
+  "hint": "Sing the alphabet song up to S.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core RF.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-018",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "Which word is spelled the same forward and backward?",
+  "opts": [
+   "wolf",
+   "wow",
+   "owl"
+  ],
+  "a": 1,
+  "why": "Wow reads the same both ways. Wolf backward spells flow. Words like wow are called palindromes.",
+  "hint": "Read each word from its last letter.",
+  "tags": [],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-019",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "A shark isn't a mammal. Which two words make 'isn't'?",
+  "opts": [
+   "is now",
+   "is not",
+   "in not"
+  ],
+  "a": 1,
+  "why": "The apostrophe takes the place of the o in not. Is not squeezes into isn't.",
+  "hint": "Which letter does the apostrophe replace?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-1-020",
+  "topic": "words",
+  "level": 1,
+  "type": "choice",
+  "q": "'Mars spins.' is a complete sentence.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "A complete sentence tells who or what, and what it does. Mars is the who, and spins is the action.",
+  "hint": "Does it tell who and what they do?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-001",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Which word sounds just like 'whale' and means a long, sad cry?",
+  "opts": [
+   "wail",
+   "well",
+   "wheel"
+  ],
+  "a": 0,
+  "why": "Wail and whale are homophones: they sound alike but have different spellings and meanings.",
+  "hint": "Find the word that sounds the same as whale.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-002",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "One wolf, two ____. Which plural is spelled right?",
+  "opts": [
+   "wolves",
+   "wolfs",
+   "wolfes"
+  ],
+  "a": 0,
+  "why": "Many words that end in f change to -ves in the plural. Leaf becomes leaves, and wolf becomes wolves.",
+  "hint": "Say 'two wolves' out loud.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-003",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Sam's bat is long. Leo's bat is longer. Pat's bat is the ____ of all.",
+  "opts": [
+   "more long",
+   "longest",
+   "longer"
+  ],
+  "a": 1,
+  "why": "Use -er to compare two things. Use -est to compare three or more things.",
+  "hint": "Count how many bats are being compared.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-004",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The words 'huge' and 'tiny' are synonyms.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Synonyms mean the same thing. Huge and tiny mean opposite things, so they are antonyms.",
+  "hint": "Do the two words mean the same or opposite?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-005",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The coach said the call was unfair. What does 'unfair' mean?",
+  "opts": [
+   "not fair",
+   "very fair",
+   "fair again"
+  ],
+  "a": 0,
+  "why": "The prefix un- means not. Unfair means not fair.",
+  "hint": "Think about what the prefix un- does.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-006",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "A diver who has no fear is called ____.",
+  "opts": [
+   "fearful",
+   "fearly",
+   "fearless"
+  ],
+  "a": 2,
+  "why": "The suffix -less means without. Fearful means full of fear, which is the opposite.",
+  "hint": "Which word ending means without?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-007",
+  "topic": "words",
+  "level": 2,
+  "type": "order",
+  "q": "Put the word parts in order to spell a baseball position.",
+  "opts": [
+   "out",
+   "field",
+   "er"
+  ],
+  "why": "Out + field + er spells outfielder, a player who catches balls far from home plate.",
+  "hint": "Think of the grassy part of the field.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-008",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Which word is NOT a compound word?",
+  "opts": [
+   "sunshine",
+   "seahorse",
+   "seal"
+  ],
+  "a": 2,
+  "why": "Sunshine is sun + shine. Seahorse is sea + horse. Seal is one word, not two small words joined.",
+  "hint": "Try splitting each word into two real words.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-009",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Shark skin feels rough when you rub it one way. Which word is the opposite of rough?",
+  "opts": [
+   "smooth",
+   "sharp",
+   "rocky"
+  ],
+  "a": 0,
+  "why": "Smooth means even, with no bumps. It is the opposite of rough. Sharp and rocky are different ideas.",
+  "hint": "Think of something with no bumps.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-010",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The comet zoomed through the sky. Which word means almost the same as zoomed?",
+  "opts": [
+   "floated",
+   "stopped",
+   "raced"
+  ],
+  "a": 2,
+  "why": "Zoomed means moved very fast. Raced means almost the same. Floated is slow, and stopped is not moving.",
+  "hint": "Picture how fast a comet moves.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-011",
+  "topic": "words",
+  "level": 2,
+  "type": "number",
+  "q": "How many syllables (claps) are in the word 'triceratops'?",
+  "a": 4,
+  "why": "Tri-cer-a-tops has four claps. Clap once for each beat as you say it slowly.",
+  "hint": "Say it slowly and clap each beat.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core RF.2.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-012",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "A bat flew out of the cave at dusk. In this sentence, what does 'bat' mean?",
+  "opts": [
+   "a wooden stick for hitting",
+   "a flying animal",
+   "a kind of bird"
+  ],
+  "a": 1,
+  "why": "Bat can mean the animal or the stick in baseball. The cave and flew are clues. A bat is a mammal, not a bird.",
+  "hint": "Use the clues cave and flew.",
+  "tags": [
+   "animals",
+   "baseball"
+  ],
+  "fun": true,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-013",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Please ____ the score on the board. Which word fits?",
+  "opts": [
+   "right",
+   "write",
+   "rite"
+  ],
+  "a": 1,
+  "why": "Write means to put words or numbers on a surface. Right means correct or the opposite of left.",
+  "hint": "Which word means putting marks on a board?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-014",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The word 'ocean' is a noun.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "A noun names a person, place, or thing. Ocean names a place.",
+  "hint": "Nouns name people, places, or things.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-015",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "____ octopus has eight arms. Which word fits?",
+  "opts": [
+   "A",
+   "On",
+   "An"
+  ],
+  "a": 2,
+  "why": "Use an before a word that starts with a vowel sound. Octopus begins with the short o sound.",
+  "hint": "Does octopus start with a vowel sound?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.1.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-016",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The past tense of 'grow' is 'growed'.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Grow changes to grew in the past. Irregular verbs do not follow the -ed rule.",
+  "hint": "Say: Yesterday the baby shark ... bigger.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-017",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "In 'The slippery eel hid,' which word is the adjective?",
+  "opts": [
+   "slippery",
+   "eel",
+   "hid"
+  ],
+  "a": 0,
+  "why": "An adjective describes a noun. Slippery tells what the eel is like. Hid is a verb.",
+  "hint": "Which word tells what the eel is like?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-018",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "The crab scurried across the sand. What does 'scurried' mean?",
+  "opts": [
+   "rested quietly in the warm sun",
+   "ran quickly with small steps",
+   "dug a very deep hole in sand"
+  ],
+  "a": 1,
+  "why": "Scurried means ran fast with short, quick steps. Crabs often scurry sideways.",
+  "hint": "Picture a crab hurrying across a beach.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-019",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "In the baseball word 'knuckleball', the letter k is silent.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The k is silent in knuckleball, just as in knee and knot. You say 'nuckleball'.",
+  "hint": "Say the word aloud and listen for a k sound.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core RF.2.3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-2-020",
+  "topic": "words",
+  "level": 2,
+  "type": "choice",
+  "q": "Add -ing to 'swim'. Which spelling is right?",
+  "opts": [
+   "swiming",
+   "swimming",
+   "swimeing"
+  ],
+  "a": 1,
+  "why": "In short words with one vowel and one ending consonant, double the consonant before -ing.",
+  "hint": "Listen to the short i sound in swim.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-001",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The coach and the umpire could not agree. Which word means 'to not agree'?",
+  "opts": [
+   "disagree",
+   "reagree",
+   "preagree",
+   "agreeless"
+  ],
+  "a": 0,
+  "why": "The prefix dis- means not or the opposite of. Disagree means to not agree.",
+  "hint": "Which prefix means not?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-002",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "A shark's bite is full of power. Which word means 'full of power'?",
+  "opts": [
+   "powerless",
+   "powerly",
+   "powerment",
+   "powerful"
+  ],
+  "a": 3,
+  "why": "The suffix -ful means full of. Powerless means without power, which is the opposite.",
+  "hint": "Which word ending means full of?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-003",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The baseball team was unbeatable. What is the root word in 'unbeatable'?",
+  "opts": [
+   "table",
+   "beat",
+   "able",
+   "unbeat"
+  ],
+  "a": 1,
+  "why": "Take off the prefix un- and the ending -able, and beat is left. The word table is just hiding at the end.",
+  "hint": "Take off the beginning and the ending.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-004",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The words 'pair' and 'pear' are homophones.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Homophones sound the same but have different spellings and meanings. A pair is two, and a pear is a fruit.",
+  "hint": "Say both words aloud. Do they sound alike?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-005",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The shark's teeth were enormous. Which word means almost the same as enormous?",
+  "opts": [
+   "gigantic",
+   "narrow",
+   "ordinary",
+   "sharp"
+  ],
+  "a": 0,
+  "why": "Enormous means very, very big, and so does gigantic. Ordinary means normal, and sharp is a different idea.",
+  "hint": "Choose a word that means very big.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-006",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Shark skin is as ____ as sandpaper. Which word fits?",
+  "opts": [
+   "course",
+   "corse",
+   "coarse",
+   "coarce"
+  ],
+  "a": 2,
+  "why": "Coarse means rough. Course is a path or a class. They sound the same but mean different things.",
+  "hint": "Which word means rough?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-007",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The batter swung at the first pitch. Which meaning of 'pitch' fits?",
+  "opts": [
+   "a thick, sticky black tar",
+   "how high or low a sound is",
+   "to set up a tent",
+   "a ball thrown by the pitcher"
+  ],
+  "a": 3,
+  "why": "Pitch has many meanings. Here a batter is swinging at a ball, so it means the throw.",
+  "hint": "Use the clue: the batter swung.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-008",
+  "topic": "words",
+  "level": 3,
+  "type": "number",
+  "q": "How many of these words start with the prefix un-: unlock, uncle, undo, under, unfair?",
+  "a": 3,
+  "why": "Unlock, undo, and unfair add un- to a real word. Uncle and under do not, since cle and der are not words.",
+  "hint": "Remove un-. Is a real word left?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-009",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "In 'The shark swam silently into the cave,' which word is the adverb?",
+  "opts": [
+   "silently",
+   "shark",
+   "into",
+   "cave"
+  ],
+  "a": 0,
+  "why": "An adverb tells how, when, or where. Silently tells how the shark swam.",
+  "hint": "Which word tells how it swam?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-010",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The outfielder ____ the fly ball with one hand. Which word fits?",
+  "opts": [
+   "catched",
+   "caught",
+   "catch",
+   "catching"
+  ],
+  "a": 1,
+  "why": "Catch changes to caught in the past. Catched is not a word.",
+  "hint": "The play already happened.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-011",
+  "topic": "words",
+  "level": 3,
+  "type": "order",
+  "q": "Put these words in order from coldest to hottest.",
+  "opts": [
+   "freezing",
+   "cool",
+   "warm",
+   "scorching"
+  ],
+  "why": "Words can show small or big amounts. Freezing is the coldest, and scorching is the hottest.",
+  "hint": "Imagine a thermometer rising.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-012",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The shark circled its prey, a seal swimming near the rocks. What does 'prey' mean?",
+  "opts": [
+   "a safe place to hide",
+   "a type of ocean rock",
+   "an animal that is hunted",
+   "a baby shark"
+  ],
+  "a": 2,
+  "why": "Prey is an animal that other animals hunt and eat. The hunter is called the predator.",
+  "hint": "What is the shark about to do?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-013",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "In which word do the letters ph make the f sound?",
+  "opts": [
+   "uphill",
+   "sharp",
+   "chop",
+   "dolphin"
+  ],
+  "a": 3,
+  "why": "In dolphin, ph sounds like f. In uphill, the p and h are separate sounds in different word parts.",
+  "hint": "Say each word and listen for an f sound.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-014",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The prefix re- means 'not,' so 'redo' means 'not do.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Re- means again, so redo means do again. The prefix un- is one that means not.",
+  "hint": "What do you do when you redo a puzzle?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-015",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The two sharks ____ near the reef every day. Which verb fits?",
+  "opts": [
+   "swims",
+   "swim",
+   "swimmed",
+   "swimming"
+  ],
+  "a": 1,
+  "why": "Two sharks is plural, so the verb has no -s. Swims goes with one shark.",
+  "hint": "Is it one shark or more than one?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-016",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The root 'aqua' means water. Which word has to do with water?",
+  "opts": [
+   "quarter",
+   "equal",
+   "squad",
+   "aquarium"
+  ],
+  "a": 3,
+  "why": "An aquarium holds water and fish. Quarter, equal, and squad only have the letters qua inside them.",
+  "hint": "Which word names a place with water inside?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-017",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Dinosaur fossils are ancient. Which word is the opposite of ancient?",
+  "opts": [
+   "old",
+   "huge",
+   "buried",
+   "modern"
+  ],
+  "a": 3,
+  "why": "Ancient means very, very old, so the opposite is modern or new. Old is a synonym.",
+  "hint": "An opposite means the reverse.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-018",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The word 'diver' means 'one who dives,' because -er can mean 'one who.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Adding -er to a verb can name the person who does it: dive and diver, teach and teacher.",
+  "hint": "Think of words like baker and teacher.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-019",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "The word 'astronaut' comes from old words for 'star' and 'sailor.' So an astronaut is a sailor of the ____ .",
+  "opts": [
+   "stars",
+   "sea",
+   "sand",
+   "storm"
+  ],
+  "a": 0,
+  "why": "Astro means star and naut means sailor. Astronaut means star sailor.",
+  "hint": "Think about where astronauts travel.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-3-020",
+  "topic": "words",
+  "level": 3,
+  "type": "choice",
+  "q": "Which sentence uses 'ray' to mean a flat fish that glides through the sea?",
+  "opts": [
+   "A ray of sunshine lit the water.",
+   "The coach felt a ray of hope.",
+   "A ray glided over the sandy reef.",
+   "A ray from the lamp lit the page."
+  ],
+  "a": 2,
+  "why": "A ray can be a fish or a beam of light. Only one sentence is about the animal.",
+  "hint": "Which sentence is about an animal?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Common Core L.2.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-001",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Fin is to shark as wing is to ____ .",
+  "opts": [
+   "bird",
+   "feather",
+   "sky",
+   "nest"
+  ],
+  "a": 0,
+  "why": "A fin is a part of a shark, and a wing is a part of a bird. A feather is a part of the wing.",
+  "hint": "Fin is a part of a shark. A wing is part of what?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-002",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "A triceratops had horns on its face. Triangle, tricycle, and triceratops all start with tri-. What does tri- mean?",
+  "opts": [
+   "two",
+   "three",
+   "four",
+   "many"
+  ],
+  "a": 1,
+  "why": "Tri- means three. A triangle has three sides, a tricycle has three wheels, and a triceratops had three horns.",
+  "hint": "Count the sides of a triangle.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-003",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "After the class show, the teacher said, 'That was a home run!' What did she mean?",
+  "opts": [
+   "It was about baseball",
+   "It was far too long",
+   "It was a big surprise",
+   "It went extremely well"
+  ],
+  "a": 3,
+  "why": "A home run is the best hit in baseball, so people use it to say something went very well.",
+  "hint": "Is she talking about a real baseball game?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-004",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The prefix sub- means 'under,' so a submarine travels under the sea.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Sub- means under or below, and marine means of the sea. A submarine travels under the sea.",
+  "hint": "Marine has to do with the sea.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-005",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The root 'scope' means to look. Which tool lets you look at stars that are very far away?",
+  "opts": [
+   "microscope",
+   "periscope",
+   "kaleidoscope",
+   "telescope"
+  ],
+  "a": 3,
+  "why": "Tele means far, as in telephone, so a telescope looks at far things. Micro means small.",
+  "hint": "Tele means far, like in telephone.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-006",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The shark ____ through the water without a sound. Which word best shows smooth, quiet movement?",
+  "opts": [
+   "crashed",
+   "stomped",
+   "glided",
+   "bounced"
+  ],
+  "a": 2,
+  "why": "Glided means moved smoothly and easily. Crashed, stomped, and bounced sound noisy or bumpy.",
+  "hint": "Pick the word that sounds smooth and quiet.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-007",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The pitcher was tired, ____ he kept throwing hard. Which word fits best?",
+  "opts": [
+   "so",
+   "because",
+   "but",
+   "or"
+  ],
+  "a": 2,
+  "why": "But shows a contrast: he was tired, yet kept going. So and because show cause and do not fit.",
+  "hint": "Does the second part go against the first?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-008",
+  "topic": "words",
+  "level": 4,
+  "type": "number",
+  "q": "How many adjectives are in this sentence? Huge, gray whales swam slowly.",
+  "a": 2,
+  "why": "Huge and gray describe the whales, so they are adjectives. Slowly tells how they swam, so it is an adverb.",
+  "hint": "Adjectives describe nouns.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-009",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The word 'dinosaur' comes from the Greek words 'deinos' and 'sauros.' Which meaning matches?",
+  "opts": [
+   "ancient bird",
+   "giant bone",
+   "scaly dragon",
+   "terrible lizard"
+  ],
+  "a": 3,
+  "why": "Dino means terrible and saur means lizard. Dinosaurs were reptiles, though not true lizards.",
+  "hint": "Think of words like stegosaurus and lizard.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-010",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The octopus was camouflaged. It matched the rocks so well that the diver swam right past. What does 'camouflaged' mean?",
+  "opts": [
+   "afraid of divers",
+   "hidden by blending in",
+   "covered in sand",
+   "moving very fast"
+  ],
+  "a": 1,
+  "why": "Camouflaged means hidden by looking like the surroundings. The clue is that it matched the rocks.",
+  "hint": "Use the clue: matched the rocks.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-011",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "A baseball glove that can be washed is washable. What does the suffix -able mean?",
+  "opts": [
+   "can be done",
+   "without",
+   "full of",
+   "more than"
+  ],
+  "a": 0,
+  "why": "Washable means able to be washed. The suffix -less means without, and -ful means full of.",
+  "hint": "Think about what washable says about a glove.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-012",
+  "topic": "words",
+  "level": 4,
+  "type": "order",
+  "q": "Put these windy words in order from the calmest to the strongest.",
+  "opts": [
+   "calm",
+   "breeze",
+   "gale",
+   "hurricane"
+  ],
+  "why": "A calm day has no wind. A breeze is light, a gale is strong, and a hurricane is the most powerful.",
+  "hint": "Imagine wind getting stronger and stronger.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-013",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The swimmer was pushed along by a strong current. Which meaning of 'current' fits?",
+  "opts": [
+   "happening right now",
+   "moving water in the sea",
+   "a flow of electricity",
+   "a small red berry"
+  ],
+  "a": 1,
+  "why": "Here, current means water moving in one direction. It can also mean happening now, or electricity flowing.",
+  "hint": "Think about what pushes a swimmer.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-014",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Tall is to short as wide is to ____ .",
+  "opts": [
+   "long",
+   "flat",
+   "narrow",
+   "high"
+  ],
+  "a": 2,
+  "why": "Tall and short are opposites, and so are wide and narrow.",
+  "hint": "Find the opposite of wide.",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-015",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Which group of words is a complete sentence?",
+  "opts": [
+   "The tall pitcher.",
+   "Because the game was long.",
+   "Running around the bases.",
+   "The fans cheered loudly."
+  ],
+  "a": 3,
+  "why": "A sentence needs a subject and a verb, and it must make sense alone. The other groups leave something out.",
+  "hint": "Which one tells who did what?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-016",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "It is correct to say 'less sharks' because less is the word for things you can count.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Use fewer for things you can count, like fewer sharks. Use less for amounts, like less water.",
+  "hint": "Can you count sharks one by one?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-017",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "In 'The submarine glided beneath the waves,' which word is the preposition?",
+  "opts": [
+   "beneath",
+   "glided",
+   "submarine",
+   "waves"
+  ],
+  "a": 0,
+  "why": "A preposition shows where something is. Beneath tells where the submarine glided.",
+  "hint": "Which word tells where?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-018",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "Seeing one fin was just the tip of the iceberg; many sharks were nearby. What does 'tip of the iceberg' mean?",
+  "opts": [
+   "a small part of something bigger",
+   "a very cold place",
+   "a way to stay safe",
+   "a rare, lucky chance"
+  ],
+  "a": 0,
+  "why": "Most of an iceberg hides underwater. The saying means you see just a small part of something much bigger.",
+  "hint": "Think of how much of an iceberg you cannot see.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-019",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "A very faint star may not be ____ without a telescope. Which spelling is correct?",
+  "opts": [
+   "visable",
+   "vizible",
+   "visibul",
+   "visible"
+  ],
+  "a": 3,
+  "why": "Visible ends in -ible, not -able. Memory trick: if you can see it with your vision, it is visible.",
+  "hint": "The word starts like vision.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-4-020",
+  "topic": "words",
+  "level": 4,
+  "type": "choice",
+  "q": "The word 'than' is used to compare things, as in 'The Moon is smaller than Earth.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Than compares two things. Then tells about time, as in first this, then that.",
+  "hint": "Think of words that compare, like bigger than.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.3.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-001",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "The root 'aud' means to hear. A whale's song can be ____ from far away. Which word fits?",
+  "opts": [
+   "visible",
+   "edible",
+   "audible",
+   "legible"
+  ],
+  "a": 2,
+  "why": "Audible means able to be heard. Visible is for seeing, edible for eating, and legible for reading.",
+  "hint": "Think of an audience, which listens.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-002",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "All the players ____ Sam got to practice on time. Which word fits?",
+  "opts": [
+   "except",
+   "accept",
+   "expect",
+   "excerpt"
+  ],
+  "a": 0,
+  "why": "Except means leaving out. Accept means to take or agree to something.",
+  "hint": "Which word means everyone but Sam?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-003",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Which sentence uses 'wind' with the long-i sound, as in 'find'?",
+  "opts": [
+   "A cold wind blew across the bay.",
+   "The wind moved the sailboat.",
+   "The wind rattled the window.",
+   "Please wind the toy rocket."
+  ],
+  "a": 3,
+  "why": "When wind means to twist or turn, it rhymes with find. The wind that blows rhymes with pinned.",
+  "hint": "Which wind is something you do to a toy?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-004",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "The word 'lead,' the metal, sounds exactly like 'led,' the past tense of 'lead.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "The metal is said 'led.' So the two words sound alike, even though they are spelled differently.",
+  "hint": "Say the metal's name out loud.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-005",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "The root 'port' means to carry. Which word means 'able to be carried'?",
+  "opts": [
+   "porter",
+   "portable",
+   "import",
+   "deport"
+  ],
+  "a": 1,
+  "why": "Port means carry and -able means can be. A porter is a person who carries, not a thing that can be carried.",
+  "hint": "Add the ending that means can be.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-006",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "'The Moon was a silver coin hanging in the sky.' Which figure of speech is this?",
+  "opts": [
+   "simile",
+   "metaphor",
+   "hyperbole",
+   "alliteration"
+  ],
+  "a": 1,
+  "why": "A metaphor says one thing is another, without like or as. A simile would say the Moon was like a coin.",
+  "hint": "Does it use the word like or as?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-007",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Crabs live in the intertidal zone. The prefix inter- means 'between.' Where is this zone?",
+  "opts": [
+   "between high and low tide",
+   "far out in the deep sea",
+   "high up on the cliffs",
+   "under the ocean floor"
+  ],
+  "a": 0,
+  "why": "Intertidal means between the tides. It is the shore that is covered at high tide and bare at low tide.",
+  "hint": "Tidal has to do with tides.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-008",
+  "topic": "words",
+  "level": 5,
+  "type": "number",
+  "q": "How many compound words are in this list: starfish, dolphin, seahorse, jellyfish, octopus, sailboat?",
+  "a": 4,
+  "why": "Starfish, seahorse, jellyfish, and sailboat are each two words joined. Dolphin and octopus are not.",
+  "hint": "Can you split the word into two real words?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-009",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Which sentence is an exaggeration (hyperbole)?",
+  "opts": [
+   "I'm so hungry I could eat a whale.",
+   "I'm hungry after the long game.",
+   "The pitcher was hungry for a win.",
+   "We ate lunch after the game."
+  ],
+  "a": 0,
+  "why": "Hyperbole stretches the truth so far that no one believes it. Nobody could really eat a whale.",
+  "hint": "Which one could not possibly be true?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-010",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "The word 'tsunami' comes from the Japanese words 'tsu' and 'nami.' What do they mean together?",
+  "opts": [
+   "storm cloud",
+   "sea monster",
+   "rising tide",
+   "harbor wave"
+  ],
+  "a": 3,
+  "why": "Tsu means harbor and nami means wave. A tsunami is a giant wave that can crash into a harbor.",
+  "hint": "One part names a place where boats stay.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-011",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "A shark may ____ many teeth in its life. Which word fits?",
+  "opts": [
+   "loose",
+   "loss",
+   "lost",
+   "lose"
+  ],
+  "a": 3,
+  "why": "Lose is a verb that means to no longer have something. Loose means not tight.",
+  "hint": "You need the verb meaning to not keep.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-012",
+  "topic": "words",
+  "level": 5,
+  "type": "order",
+  "q": "Put these words in ABC order. Check each letter in turn.",
+  "opts": [
+   "planet",
+   "plankton",
+   "plant",
+   "plate"
+  ],
+  "why": "All start with pla. Plate has t fourth, so it goes last. For the others, the fifth letter decides: e, then k, then t.",
+  "hint": "Find the first letter where the words differ.",
+  "tags": [
+   "ocean",
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-013",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Tired is to exhausted as hungry is to ____ .",
+  "opts": [
+   "full",
+   "thirsty",
+   "starving",
+   "angry"
+  ],
+  "a": 2,
+  "why": "Exhausted means extremely tired. Starving means extremely hungry. Both pairs go from mild to very strong.",
+  "hint": "Find the very strong word for hungry.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-014",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "A writer describes a graceful dolphin. Which word has the most positive feeling?",
+  "opts": [
+   "scrawny",
+   "bony",
+   "slender",
+   "skinny"
+  ],
+  "a": 2,
+  "why": "Words with similar meanings can feel different. Slender sounds graceful; scrawny and bony sound weak.",
+  "hint": "Which word would you like said about you?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-015",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Which sentence joins its two thoughts correctly?",
+  "opts": [
+   "The ball flew, fans cheered.",
+   "The ball flew so, fans cheered.",
+   "The ball flew. so fans cheered.",
+   "The ball flew, so fans cheered."
+  ],
+  "a": 3,
+  "why": "Two full thoughts need more than a comma. A comma plus so joins them correctly.",
+  "hint": "Two full sentences need a joining word.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-016",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Telescope is to planet as microscope is to ____ .",
+  "opts": [
+   "faraway star",
+   "bright comet",
+   "huge whale",
+   "tiny cell"
+  ],
+  "a": 3,
+  "why": "A telescope shows faraway things like planets. A microscope shows tiny things like cells.",
+  "hint": "Which tool shows tiny things?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-017",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "'The shark is a torpedo with teeth' is a simile.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "A simile compares using like or as. This says the shark is a torpedo, so it is a metaphor.",
+  "hint": "Look for the words like or as.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-018",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "A jellyfish injects toxin when it stings. Which word describes it most exactly?",
+  "opts": [
+   "venomous",
+   "poisonous",
+   "dangerous",
+   "harmful"
+  ],
+  "a": 0,
+  "why": "Venomous animals inject toxin with a bite or sting. Poisonous ones are harmful to eat or touch.",
+  "hint": "The clue word is injects.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.4.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-019",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "The word 'bass' can name a fish or a deep musical sound. How is the deep sound said?",
+  "opts": [
+   "like 'mass'",
+   "like 'base'",
+   "like 'bus'",
+   "like 'bask'"
+  ],
+  "a": 1,
+  "why": "The fish rhymes with class. The deep sound rhymes with face. The spelling is the same but the sound differs.",
+  "hint": "Think of a bass guitar.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-5-020",
+  "topic": "words",
+  "level": 5,
+  "type": "choice",
+  "q": "Which of these words came from a person's name?",
+  "opts": [
+   "sunrise",
+   "seashell",
+   "sailboat",
+   "sandwich"
+  ],
+  "a": 3,
+  "why": "The sandwich is named for the Earl of Sandwich. Sunrise, seashell, and sailboat are made of two plain words.",
+  "hint": "Which word is not two simple words?",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-001",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The root 'rupt' means to break. Which word means to break in on someone's talking?",
+  "opts": [
+   "erupt",
+   "corrupt",
+   "abrupt",
+   "interrupt"
+  ],
+  "a": 3,
+  "why": "Inter- means between, so interrupt means to break in between. Erupt means to burst out, and abrupt means sudden.",
+  "hint": "Which prefix means between?",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-002",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Geologist is to rocks as astronomer is to ____ .",
+  "opts": [
+   "fossils",
+   "oceans",
+   "stars",
+   "storms"
+  ],
+  "a": 2,
+  "why": "A geologist studies rocks, and an astronomer studies stars and planets. Fossils belong to a paleontologist.",
+  "hint": "What does an astronomer study?",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-003",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The root 'chron' means time. Which word describes events listed in the order they happened?",
+  "opts": [
+   "chronic",
+   "chronological",
+   "chromatic",
+   "synthetic"
+  ],
+  "a": 1,
+  "why": "Chronological means in time order. Chronic means lasting a long time. Chromatic comes from the word for color.",
+  "hint": "Think of a timeline.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-004",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The word 'ambiguous' means 'having only one clear meaning.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "why": "Ambiguous means unclear or open to more than one meaning. A word with one clear meaning is unambiguous.",
+  "hint": "Think about what un-ambiguous would mean.",
+  "tags": [],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-005",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "A reporter keeps asking the pitcher many questions. Which word would sound like a complaint?",
+  "opts": [
+   "curious",
+   "inquisitive",
+   "interested",
+   "nosy"
+  ],
+  "a": 3,
+  "why": "Nosy has a negative feeling, as if the questions are unwanted. The other words sound positive or neutral.",
+  "hint": "Which word would the pitcher not enjoy hearing?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-006",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The root 'pisc' means fish and -vore means eater. Which animal is a piscivore?",
+  "opts": [
+   "a cow grazing in a field",
+   "a bee sipping nectar",
+   "a koala munching leaves",
+   "a pelican diving for fish"
+  ],
+  "a": 3,
+  "why": "A piscivore is a fish eater. The cow, bee, and koala eat grass, nectar, and leaves.",
+  "hint": "Put the two word parts together: fish eater.",
+  "tags": [
+   "animals",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-007",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The singular is 'alga,' a simple organism that includes seaweed. What is the plural?",
+  "opts": [
+   "algae",
+   "algas",
+   "algi",
+   "algaes"
+  ],
+  "a": 0,
+  "why": "Alga comes from Latin, and its plural is algae, said AL-jee. Most English plurals add -s, but this one does not.",
+  "hint": "Latin words often change their endings.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-008",
+  "topic": "words",
+  "level": 6,
+  "type": "number",
+  "q": "How many syllables are in the word 'paleontologist'?",
+  "a": 6,
+  "why": "Pa-le-on-tol-o-gist has six beats. The middle part, on-tol-o, is easy to miss.",
+  "hint": "Clap slowly and watch the vowels in the middle.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-009",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The school ____ cheered for the baseball team. Which spelling is correct?",
+  "opts": [
+   "principle",
+   "princepal",
+   "principal",
+   "principall"
+  ],
+  "a": 2,
+  "why": "A principal is the head of a school. Memory trick: the principal is your pal. A principle is a rule.",
+  "hint": "Which word means the head of a school?",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-010",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Which sentence uses 'fast' as an adverb?",
+  "opts": [
+   "The mako is a fast swimmer.",
+   "The mako swims fast.",
+   "A fast mako zipped by.",
+   "That fast fish escaped."
+  ],
+  "a": 1,
+  "why": "An adverb tells how an action happens. Fast tells how the mako swims. In the others, fast describes a noun.",
+  "hint": "Does fast describe a noun or an action?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-011",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The word 'umpire' once began with n: 'a noumpere.' People heard it as 'an oumpere.' What happened to the n?",
+  "opts": [
+   "It slid over to the word before it",
+   "It was replaced by a u",
+   "It moved to the end",
+   "It was lost in a spelling contest"
+  ],
+  "a": 0,
+  "why": "People heard 'a noumpere' as 'an oumpere,' so the n joined the article. Apron was once 'napron' the same way.",
+  "hint": "Say 'a noumpere' quickly out loud.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-012",
+  "topic": "words",
+  "level": 6,
+  "type": "order",
+  "q": "Put these words in ABC order. They all start with kn.",
+  "opts": [
+   "knack",
+   "knee",
+   "knight",
+   "know",
+   "knuckleball"
+  ],
+  "why": "Skip the shared kn and compare the third letters: a, e, i, o, u. The vowels go in that order.",
+  "hint": "The third letter is the first one that differs.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.2",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-013",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Chilly is to frigid as damp is to ____ .",
+  "opts": [
+   "soaked",
+   "dry",
+   "mild",
+   "dusty"
+  ],
+  "a": 0,
+  "why": "Frigid is a much stronger word than chilly. Soaked is a much stronger word than damp.",
+  "hint": "Find the very strong word for damp.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-014",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The astronomer was meticulous. She checked every measurement of the star three times. What does 'meticulous' mean?",
+  "opts": [
+   "very tired after long nights",
+   "excited about new finds",
+   "quick to finish her work",
+   "very careful about details"
+  ],
+  "a": 3,
+  "why": "The clue is that she checked every measurement three times. Meticulous means extremely careful about details.",
+  "hint": "Use the clue: checked three times.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-015",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Which sentence uses 'sound' to mean a wide stretch of sea water between pieces of land?",
+  "opts": [
+   "A loud sound woke the crew.",
+   "The boat crossed the sound at dawn.",
+   "The old pier is safe and sound.",
+   "Sound the alarm if you see fins."
+  ],
+  "a": 1,
+  "why": "A sound can be a wide inlet of the sea, like Puget Sound. The other sentences use different meanings.",
+  "hint": "Which sentence is about water and land?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-016",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The word 'disaster' comes from old words that mean 'bad star.'",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "why": "Dis- means bad and astro means star. Long ago, people blamed bad events on the stars.",
+  "hint": "Think of astro in astronaut.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-017",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Each of the players ____ a glove on the bench. Which verb fits?",
+  "opts": [
+   "have",
+   "having",
+   "haved",
+   "has"
+  ],
+  "a": 3,
+  "why": "Each is singular, even with 'of the players' after it. So use has.",
+  "hint": "Each means one at a time.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.1",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-018",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "Seaweed was abundant on the beach after the storm. Which word is the best opposite of abundant?",
+  "opts": [
+   "plentiful",
+   "common",
+   "enormous",
+   "scarce"
+  ],
+  "a": 3,
+  "why": "Abundant means more than enough. Scarce means hard to find. Plentiful and common mean the same as abundant.",
+  "hint": "Which word means hard to find?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-019",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "The tenacious pitcher kept trying even after walking five batters. What does 'tenacious' mean?",
+  "opts": [
+   "determined, not giving up",
+   "easily upset",
+   "very tall",
+   "careless with the ball"
+  ],
+  "a": 0,
+  "why": "Tenacious means holding on and refusing to quit. The clue is that he kept trying after hard moments.",
+  "hint": "Use the clue: kept trying.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.4",
+  "ver": "2026-11"
+ },
+ {
+  "id": "wdsB-6-020",
+  "topic": "words",
+  "level": 6,
+  "type": "choice",
+  "q": "'A rising tide lifts all boats.' What does this saying mean?",
+  "opts": [
+   "Boats float better at night",
+   "Large boats always win races",
+   "When things improve, everyone benefits",
+   "Tides are highest in summer"
+  ],
+  "a": 2,
+  "why": "The saying is figurative. When the tide rises, every boat rises. So when things get better, everyone gains.",
+  "hint": "Is it about real boats or a bigger idea?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "Common Core L.5.5",
+  "ver": "2026-11"
+ }
+]

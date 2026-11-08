@@ -1,0 +1,2510 @@
+[
+ {
+  "id": "munB-1-001",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Los tiburones nadan en una enorme masa de agua salada. ¿Cómo se llama?",
+  "opts": [
+   "El océano",
+   "Una piscina",
+   "Un charco"
+  ],
+  "a": 0,
+  "why": "El océano es inmenso y salado. En un charco o en una piscina no podría vivir un tiburón.",
+  "hint": "Cubre la mayor parte de nuestro planeta.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-002",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Un mapa es un dibujo que muestra dónde están los lugares.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los mapas muestran dónde están las ciudades, los caminos, las montañas y los océanos.",
+  "hint": "Piensa en lo que usas para encontrar un lugar.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-003",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué vehículo puede llevar a muchas personas a cruzar el océano?",
+  "opts": [
+   "Una bicicleta",
+   "Un barco",
+   "Una patineta"
+  ],
+  "a": 1,
+  "why": "Los barcos flotan en el agua y son lo bastante grandes para llevar a muchas personas muy lejos.",
+  "hint": "Piensa en lo que flota.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-004",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Un salvavidas trabaja en la playa. ¿Cuál es su trabajo?",
+  "opts": [
+   "Cuidar a los bañistas",
+   "Vender helados",
+   "Arreglar botes"
+  ],
+  "a": 0,
+  "why": "Los salvavidas vigilan el agua y ayudan a las personas que están en peligro mientras nadan.",
+  "hint": "El nombre dice a quién protege.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-005",
+  "topic": "world",
+  "level": 1,
+  "type": "number",
+  "q": "Cada entrada a un juego de béisbol cuesta 3 dólares. ¿Cuántos dólares cuestan 3 entradas?",
+  "a": 9,
+  "why": "Tres entradas de 3 dólares son 3 más 3 más 3, o sea, 9 dólares.",
+  "hint": "Suma el precio tres veces.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-006",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "El sushi es arroz con pescado o verduras. ¿De qué país es muy famoso?",
+  "opts": [
+   "Chile",
+   "México",
+   "Japón"
+  ],
+  "a": 2,
+  "why": "El sushi es un plato tradicional de Japón, un país formado por islas en el océano Pacífico.",
+  "hint": "Es un país de islas en Asia.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-007",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Chichén Itzá es una gran pirámide que construyeron los mayas. ¿En qué país está?",
+  "opts": [
+   "China",
+   "México",
+   "Egipto"
+  ],
+  "a": 1,
+  "why": "Chichén Itzá está en la península de Yucatán, en México. Las pirámides de Egipto son otras.",
+  "hint": "Los mayas vivieron en Mesoamérica.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-008",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena los pasos para ir a la escuela en autobús.",
+  "opts": [
+   "Espera en la parada",
+   "Sube al autobús",
+   "Viaja hasta la escuela",
+   "Baja en la escuela"
+  ],
+  "why": "Primero esperas el autobús, luego subes, viajas y por último bajas en la escuela.",
+  "hint": "¿Qué debe pasar antes de poder viajar?",
+  "tags": [],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-009",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué vehículo puede viajar bajo el agua?",
+  "opts": [
+   "Un helicóptero",
+   "Un autobús escolar",
+   "Un submarino"
+  ],
+  "a": 2,
+  "why": "Los submarinos están hechos para sumergirse y quedarse bajo el agua. Los helicópteros vuelan y los autobuses van por la calle.",
+  "hint": "Su nombre empieza con una palabra que significa debajo.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-010",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Los huesos de dinosaurio que se convirtieron en piedra se llaman…",
+  "opts": [
+   "Conchas",
+   "Fósiles",
+   "Cristales"
+  ],
+  "a": 1,
+  "why": "Los fósiles se forman cuando huesos enterrados se vuelven roca durante millones de años. Algunos tienen más de 66 millones de años.",
+  "hint": "Vienen de hace muchísimo tiempo.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-011",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "El béisbol se juega en muchos países, como México, Cuba y Venezuela.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Hay aficionados al béisbol en todo el continente americano y en otros lugares, como Japón.",
+  "hint": "Piensa en los países de habla hispana.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-012",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué debe hacer un conductor cuando el semáforo está en rojo?",
+  "opts": [
+   "Detenerse",
+   "Acelerar",
+   "Tocar la bocina y seguir"
+  ],
+  "a": 0,
+  "why": "El rojo significa alto. Esperar en el semáforo protege a los conductores y a quienes cruzan.",
+  "hint": "Piensa en los colores de un semáforo.",
+  "tags": [],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-013",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué vehículo lleva a los astronautas al espacio?",
+  "opts": [
+   "Un cohete",
+   "Un velero",
+   "Un autobús escolar"
+  ],
+  "a": 0,
+  "why": "Un cohete empuja con mucha fuerza para subir por encima del aire y llevar a los astronautas al espacio.",
+  "hint": "Despega con fuego y humo.",
+  "tags": [
+   "space",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-014",
+  "topic": "world",
+  "level": 1,
+  "type": "order",
+  "q": "Ordena estas masas de agua de la más pequeña a la más grande.",
+  "opts": [
+   "Un charco",
+   "Un lago",
+   "El océano"
+  ],
+  "why": "Un charco es diminuto, un lago es mucho mayor, y el océano es tan grande que en él viven ballenas y tiburones.",
+  "hint": "Piensa en lo que podría contener una ballena.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-015",
+  "topic": "world",
+  "level": 1,
+  "type": "number",
+  "q": "Ahorras 2 dólares cada semana. ¿Cuántos dólares tendrás después de 3 semanas?",
+  "a": 6,
+  "why": "Suma 2 tres veces: 2 más 2 más 2 son 6 dólares.",
+  "hint": "Cuenta de dos en dos.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-016",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "¿Qué invento te permite hablar con un amigo que está lejos?",
+  "opts": [
+   "La brújula",
+   "La regla",
+   "El teléfono"
+  ],
+  "a": 2,
+  "why": "El teléfono lleva la voz a larga distancia. La brújula señala el norte y la regla sirve para medir.",
+  "hint": "Lo acercas a la oreja.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-017",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "\"Hello\" es una forma de saludar. ¿En qué idioma?",
+  "opts": [
+   "Inglés",
+   "Italiano",
+   "Japonés"
+  ],
+  "a": 0,
+  "why": "Hello es hola en inglés. El inglés se habla en Estados Unidos, Canadá y otros países.",
+  "hint": "Es el idioma de Estados Unidos.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-018",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Un globo terráqueo es una hoja de papel plana.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Un globo terráqueo es un modelo de la Tierra con forma de esfera. Una hoja plana de papel es un mapa.",
+  "hint": "Piensa en una pelota que puedes girar.",
+  "tags": [
+   "maps",
+   "space"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-019",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Pones monedas en una alcancía y no las gastas. ¿Qué estás haciendo?",
+  "opts": [
+   "Pidiendo prestado",
+   "Ahorrando",
+   "Vendiendo"
+  ],
+  "a": 1,
+  "why": "Ahorrar es guardar dinero para usarlo después, por ejemplo para un juguete grande o un viaje.",
+  "hint": "Lo guardas para más tarde.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-1-020",
+  "topic": "world",
+  "level": 1,
+  "type": "choice",
+  "q": "Hay un incendio. ¿Quién llega en un camión rojo para apagarlo?",
+  "opts": [
+   "El panadero",
+   "El cartero",
+   "El bombero"
+  ],
+  "a": 2,
+  "why": "Los bomberos usan mangueras y escaleras para apagar el fuego y ayudar a las personas.",
+  "hint": "Usa una manguera grande.",
+  "tags": [],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-001",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "El río Amazonas es uno de los ríos más poderosos de la Tierra. ¿Por qué continente fluye?",
+  "opts": [
+   "Asia",
+   "América del Sur",
+   "África"
+  ],
+  "a": 1,
+  "why": "El Amazonas atraviesa la selva de América del Sur y desemboca en el océano Atlántico.",
+  "hint": "Piensa en la selva junto a los Andes.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-002",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Un barco sale de Nueva York y llega a España. ¿Qué océano cruza?",
+  "opts": [
+   "El Índico",
+   "El Pacífico",
+   "El Atlántico"
+  ],
+  "a": 2,
+  "why": "El Atlántico separa América de Europa y África. Los barcos lo cruzan para ir de un lado a otro.",
+  "hint": "España está en Europa, al otro lado.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-003",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Algunos tiburones viven en el océano Ártico, que es muy frío.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los tiburones de Groenlandia nadan en aguas heladas del Ártico. No todos los tiburones viven en mares cálidos.",
+  "hint": "Piensa si un tiburón puede aguantar el frío.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-004",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Cómo se llama el dinero que una persona gana por hacer su trabajo?",
+  "opts": [
+   "El préstamo",
+   "El sueldo",
+   "El precio"
+  ],
+  "a": 1,
+  "why": "El sueldo es el dinero que se gana trabajando. El precio dice cuánto cuesta algo y un préstamo es dinero que se pide.",
+  "hint": "Los trabajadores lo reciben por trabajar.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-005",
+  "topic": "world",
+  "level": 2,
+  "type": "order",
+  "q": "Ordena estas formas de viajar de la más lenta a la más rápida.",
+  "opts": [
+   "Caminar",
+   "Andar en bicicleta",
+   "Manejar un carro",
+   "Volar en un avión"
+  ],
+  "why": "Caminar es lo más lento. La bicicleta va más rápido, el carro más aún y el avión es el más veloz.",
+  "hint": "Piensa en cuánto recorre cada uno en una hora.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-006",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "El monte Fuji es un famoso volcán nevado. ¿En qué país está?",
+  "opts": [
+   "Japón",
+   "Perú",
+   "Noruega"
+  ],
+  "a": 0,
+  "why": "El monte Fuji se alza cerca de la costa de Japón, un país formado por muchas islas en el océano Pacífico.",
+  "hint": "Es un país de islas en Asia.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-007",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "En Brasil, la mayoría de las personas hablan…",
+  "opts": [
+   "Portugués",
+   "Español",
+   "Francés"
+  ],
+  "a": 0,
+  "why": "Brasil fue colonizado por Portugal, así que allí se habla portugués. La mayoría de sus vecinos hablan español.",
+  "hint": "No es el idioma de la mayoría de sus vecinos.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-008",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Todos los tiburones son peligrosos para las personas.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Existen más de 500 tipos de tiburones y casi todos son inofensivos para las personas. Muchos son pequeños.",
+  "hint": "Piensa en los tiburones pequeños.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-009",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Una persona que dibuja mapas como trabajo se llama…",
+  "opts": [
+   "Bibliotecario",
+   "Plomero",
+   "Cartógrafo"
+  ],
+  "a": 2,
+  "why": "Los cartógrafos estudian la tierra y dibujan mapas. Los bibliotecarios cuidan libros y los plomeros arreglan tuberías.",
+  "hint": "Piensa en alguien que estudia la tierra y la dibuja.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-010",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Una torre en la costa tiene una luz potente que avisa a los barcos de noche. ¿Cómo se llama?",
+  "opts": [
+   "Molino",
+   "Castillo",
+   "Faro"
+  ],
+  "a": 2,
+  "why": "Los faros muestran a los marineros dónde hay rocas y costas para que los barcos naveguen sin peligro.",
+  "hint": "Está en la costa y brilla de noche.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-011",
+  "topic": "world",
+  "level": 2,
+  "type": "number",
+  "q": "Un paquete de 6 tarjetas de béisbol cuesta 3 dólares. ¿Cuántos dólares cuestan 4 paquetes?",
+  "a": 12,
+  "why": "Cuatro paquetes de 3 dólares son 3 más 3 más 3 más 3, que da 12 dólares.",
+  "hint": "Suma 3 cuatro veces.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-012",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Las tortillas tradicionales de México se hacen con harina de…",
+  "opts": [
+   "Papa",
+   "Maíz",
+   "Arroz"
+  ],
+  "a": 1,
+  "why": "Los pueblos de México cultivan maíz desde hace miles de años. Con su masa se hacen tortillas, tamales y más.",
+  "hint": "Es un cereal con mazorcas amarillas.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-013",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Se han encontrado fósiles de dinosaurios en la Antártida.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Hace millones de años la Antártida era cálida y verde. Allí se han desenterrado huesos de dinosaurio.",
+  "hint": "Piensa en cómo era la Antártida hace muchísimo tiempo.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-014",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Para qué sirve un puente?",
+  "opts": [
+   "Para cruzar un río o un valle",
+   "Para flotar sobre las olas",
+   "Para excavar bajo tierra"
+  ],
+  "a": 0,
+  "why": "Los puentes sostienen caminos y vías de tren sobre ríos y huecos profundos para que la gente pase.",
+  "hint": "Piensa en lo que hay debajo de un puente.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-015",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué fue lo que excavó el Gran Cañón durante millones de años?",
+  "opts": [
+   "Máquinas gigantes",
+   "Un meteorito",
+   "Un río"
+  ],
+  "a": 2,
+  "why": "El río Colorado fue desgastando la roca poco a poco y hoy el cañón es muy profundo.",
+  "hint": "Piensa en lo que hace el agua con la roca.",
+  "tags": [],
+  "fun": false,
+  "src": "National Park Service",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-016",
+  "topic": "world",
+  "level": 2,
+  "type": "number",
+  "q": "Un tiburón nada 5 kilómetros cada hora. ¿Cuántos kilómetros nada en 3 horas?",
+  "a": 15,
+  "why": "Tres horas de 5 kilómetros son 5 más 5 más 5, o sea, 15 kilómetros.",
+  "hint": "Suma 5 tres veces.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-017",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "¿Qué invento ayudó a mover cargas pesadas con menos esfuerzo?",
+  "opts": [
+   "La rueda",
+   "La cometa",
+   "El clip"
+  ],
+  "a": 0,
+  "why": "Las ruedas ruedan en vez de arrastrar, así que los carros y las carretas llevan peso empujando mucho menos.",
+  "hint": "Es redonda y rueda.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-018",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Un barco gigante lleva cientos de cajas de juguetes y ropa por el mar. ¿Cómo se llama?",
+  "opts": [
+   "Lancha",
+   "Carguero",
+   "Velero"
+  ],
+  "a": 1,
+  "why": "Los cargueros transportan mercancías entre países. Un velero usa velas y una lancha es pequeña.",
+  "hint": "Su nombre habla de la carga que lleva.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-019",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Australia es un país y también un continente.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Australia es un solo país que ocupa un continente entero. La mayoría de los continentes tienen muchos países.",
+  "hint": "No lo comparte con otros países.",
+  "tags": [
+   "maps",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-2-020",
+  "topic": "world",
+  "level": 2,
+  "type": "choice",
+  "q": "Te prestan un libro en la biblioteca. ¿Qué debes prometer?",
+  "opts": [
+   "Devolverlo a tiempo",
+   "Quedártelo para siempre",
+   "Dibujar en las páginas"
+  ],
+  "a": 0,
+  "why": "Las bibliotecas prestan libros a todos. Devolver el tuyo permite que otra persona lo disfrute.",
+  "hint": "Las bibliotecas prestan, no regalan.",
+  "tags": [],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-001",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "En un mapa, ¿para qué sirve la leyenda?",
+  "opts": [
+   "Para saber quién hizo el mapa y cuándo",
+   "Para saber qué tan lejos están dos lugares",
+   "Para explicar qué significan los símbolos",
+   "Para saber dónde queda el norte"
+  ],
+  "a": 2,
+  "why": "La leyenda explica los símbolos, como una tienda de campaña que marca un campamento. La rosa de los vientos indica direcciones.",
+  "hint": "Busca el recuadro que explica los dibujitos.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-002",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué océano queda entre África y Australia?",
+  "opts": [
+   "El Atlántico",
+   "El Pacífico",
+   "El Ártico",
+   "El Índico"
+  ],
+  "a": 3,
+  "why": "El Índico baña África, Asia y Australia. El Atlántico queda al otro lado de África y el Pacífico, al este de Australia.",
+  "hint": "Su nombre se parece al de un país de Asia.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-003",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Los tiburones blancos viven cerca de las costas de California, Sudáfrica y Australia.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los tiburones blancos nadan en aguas costeras templadas de todo el mundo, incluidos estos tres lugares.",
+  "hint": "Los tiburones blancos recorren muchos océanos.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-004",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Cuál de estas cosas es un servicio y no un producto?",
+  "opts": [
+   "Una bicicleta",
+   "Un corte de pelo",
+   "Un sándwich",
+   "Un bate de béisbol"
+  ],
+  "a": 1,
+  "why": "Un servicio es un trabajo que alguien hace para ti. Los productos son cosas que puedes tocar, como un bate o una bicicleta.",
+  "hint": "No puedes llevártelo a casa en una bolsa.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-005",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena estos inventos del más antiguo al más nuevo.",
+  "opts": [
+   "La rueda",
+   "La brújula",
+   "El teléfono",
+   "La computadora"
+  ],
+  "why": "La rueda tiene miles de años. La brújula se usó hace siglos, el teléfono llegó en 1876 y las computadoras, mucho después.",
+  "hint": "¿Cuál se inventó antes que la electricidad?",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-006",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "¿En qué idioma se dice \"arigato\" para dar las gracias?",
+  "opts": [
+   "Hindi",
+   "Coreano",
+   "Japonés",
+   "Italiano"
+  ],
+  "a": 2,
+  "why": "Arigato significa gracias en japonés. El coreano, el hindi y el italiano tienen sus propias palabras para agradecer.",
+  "hint": "Se habla en islas del océano Pacífico.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-007",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "El Aconcagua, la montaña más alta de América, pertenece a la cordillera de…",
+  "opts": [
+   "El Himalaya",
+   "Los Alpes",
+   "Las Rocosas",
+   "Los Andes"
+  ],
+  "a": 3,
+  "why": "El Aconcagua está en los Andes, en Argentina. Los Alpes están en Europa y el Himalaya, en Asia.",
+  "hint": "Esa cordillera recorre América del Sur.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-008",
+  "topic": "world",
+  "level": 3,
+  "type": "number",
+  "q": "Una etiqueta en un tiburón envía una señal cada 2 horas. ¿Cuántas señales envía en un día completo?",
+  "a": 12,
+  "why": "Un día tiene 24 horas. Si divides 24 horas en grupos de 2 horas, salen 12 señales.",
+  "hint": "¿Cuántos 2 caben en 24?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-009",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Qué es un puerto?",
+  "opts": [
+   "Un bote pequeño para pescar",
+   "Una bandera que ondea en un mástil",
+   "Una cuerda que amarra un bote al muelle",
+   "Un lugar para cargar y descargar barcos"
+  ],
+  "a": 3,
+  "why": "En los puertos se suben y bajan mercancías de los barcos grandes, y los pasajeros pueden embarcar.",
+  "hint": "Piensa en dónde se detienen los barcos.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-010",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Todos los países del mundo usan el mismo tipo de dinero.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Los países tienen su propio dinero, como dólares, pesos o yenes. Solo algunos grupos de países comparten uno.",
+  "hint": "Piensa en el dinero de distintos países.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-011",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "¿Quién cuida un parque nacional y ayuda a proteger a los visitantes y a los animales?",
+  "opts": [
+   "Un guardaparques",
+   "Un cocinero",
+   "Un controlador aéreo",
+   "Un cartero"
+  ],
+  "a": 0,
+  "why": "Los guardaparques protegen los lugares silvestres, responden preguntas y ayudan a quienes se pierden.",
+  "hint": "Piensa en quién protege los lugares silvestres.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-012",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "En la Patagonia argentina se han hallado huesos de dinosaurios gigantes. ¿Por qué es fácil verlos allí?",
+  "opts": [
+   "Viento y lluvia desgastan la roca",
+   "El aire seco convierte los huesos en piedra",
+   "Los dinosaurios solo vivieron en lugares secos",
+   "Las dunas llevaron los huesos hasta allí"
+  ],
+  "a": 0,
+  "why": "Los dinosaurios vivieron en muchos lugares. En tierras áridas, el viento y la lluvia desgastan la roca y descubren huesos enterrados.",
+  "hint": "Piensa en lo que desgasta las rocas.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-013",
+  "topic": "world",
+  "level": 3,
+  "type": "number",
+  "q": "Un tren recorre 80 kilómetros cada hora. ¿Cuántos kilómetros recorre en 3 horas?",
+  "a": 240,
+  "why": "Suma 80 tres veces: 80 más 80 más 80 son 240 kilómetros.",
+  "hint": "Suma 80 tres veces.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-014",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Es de día en América, pero de noche en Asia. ¿Por qué?",
+  "opts": [
+   "Asia está mucho más lejos del Sol",
+   "La Tierra gira, el Sol alumbra un lado",
+   "La Luna tapa el Sol sobre Asia",
+   "El Sol rodea la Tierra cada día"
+  ],
+  "a": 1,
+  "why": "La Tierra es una esfera que gira, y el Sol solo ilumina la mitad. Al girar, el día y la noche se desplazan.",
+  "hint": "Piensa en lo que hace la Tierra cada 24 horas.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-015",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Cuba y la República Dominicana, donde el béisbol es muy popular, están en el mar…",
+  "opts": [
+   "Caribe",
+   "Báltico",
+   "Rojo",
+   "Mediterráneo"
+  ],
+  "a": 0,
+  "why": "Cuba y la República Dominicana son islas del cálido mar Caribe, al sureste de Florida.",
+  "hint": "Piensa en islas cálidas cerca de Florida.",
+  "tags": [
+   "baseball",
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-016",
+  "topic": "world",
+  "level": 3,
+  "type": "order",
+  "q": "Ordena estos lugares del más alto al más bajo.",
+  "opts": [
+   "La cima de una montaña",
+   "La cima de una colina",
+   "Una playa a nivel del mar",
+   "El fondo del océano"
+  ],
+  "why": "Las montañas se elevan sobre las colinas, las playas están al nivel del mar y el fondo del océano queda muy por debajo.",
+  "hint": "Empieza por el lugar más cercano a las nubes.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-017",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Los antiguos egipcios escribían con dibujos y símbolos llamados…",
+  "opts": [
+   "Cuneiformes",
+   "Jeroglíficos",
+   "Braille",
+   "Código Morse"
+  ],
+  "a": 1,
+  "why": "Los jeroglíficos se tallaban en templos y se pintaban en papiros. La escritura cuneiforme usaba marcas con forma de cuña en arcilla.",
+  "hint": "Piensa en la escritura con dibujos de los templos.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-018",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Hacia 1610, Galileo usó un invento nuevo para ver las lunas que giran alrededor de Júpiter. ¿Cuál era?",
+  "opts": [
+   "Una cámara",
+   "Un microscopio",
+   "Una brújula",
+   "Un telescopio"
+  ],
+  "a": 3,
+  "why": "Los telescopios acercan lo que está muy lejos. Un microscopio agranda lo muy pequeño.",
+  "hint": "Acerca lo que está lejos.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-019",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "En Paraguay, el español y el guaraní son idiomas oficiales.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Muchos paraguayos hablan guaraní, una lengua de los pueblos originarios, y también español. Algunos países tienen más de un idioma oficial.",
+  "hint": "Piensa en un país con una lengua indígena muy viva.",
+  "tags": [],
+  "fun": true,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-3-020",
+  "topic": "world",
+  "level": 3,
+  "type": "choice",
+  "q": "Un panadero hace pan y una familia lo compra para comérselo. ¿Cómo se llama la persona que compra y usa el pan?",
+  "opts": [
+   "Banquero",
+   "Productor",
+   "Inventor",
+   "Consumidor"
+  ],
+  "a": 3,
+  "why": "Los productores hacen los productos y los consumidores los compran y los usan. El panadero produce y la familia consume.",
+  "hint": "La familia se lo come.",
+  "tags": [
+   "food",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-001",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "El suroeste queda justo entre dos direcciones. ¿Cuáles son?",
+  "opts": [
+   "Sur y este",
+   "Sur y oeste",
+   "Norte y oeste",
+   "Norte y este"
+  ],
+  "a": 1,
+  "why": "El suroeste mezcla el sur y el oeste. Norte y oeste forman el noroeste, y sur y este forman el sureste.",
+  "hint": "Di el nombre en dos partes.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-002",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Una tienda baja el precio de los abrigos cuando llega el calor. ¿Por qué?",
+  "opts": [
+   "Porque cuesta más fabricar abrigos en verano",
+   "Porque en verano hay más gente comprando abrigos",
+   "Porque menos gente quiere abrigos",
+   "Porque solo se venden abrigos en invierno"
+  ],
+  "a": 2,
+  "why": "Cuando menos personas quieren algo, los vendedores suelen bajar el precio para vender lo que les queda.",
+  "hint": "Piensa en quién quiere un abrigo cuando hace calor.",
+  "tags": [
+   "money",
+   "weather"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-003",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "El océano Atlántico toca América del Norte, América del Sur, Europa y África.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El Atlántico se extiende entre las Américas, por un lado, y Europa y África, por el otro.",
+  "hint": "Imagina el Atlántico en el centro de un mapamundi.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-004",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál es la capital de Brasil?",
+  "opts": [
+   "Brasilia",
+   "Lima",
+   "Río de Janeiro",
+   "São Paulo"
+  ],
+  "a": 0,
+  "why": "Brasilia se construyó en el centro del país para ser la capital. Río y São Paulo son más conocidas, por eso mucha gente las elige.",
+  "hint": "Es una ciudad planeada y relativamente nueva.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-005",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Tu teléfono muestra dónde estás con el GPS. El GPS funciona con señales de…",
+  "opts": [
+   "Faros en cada costa",
+   "Torres construidas en la Luna",
+   "Satélites que giran alrededor de la Tierra",
+   "Cables enterrados bajo el suelo"
+  ],
+  "a": 2,
+  "why": "Los satélites del GPS orbitan muy alto y mandan señales. El teléfono las usa para calcular exactamente dónde está.",
+  "hint": "Viajan muy por encima del cielo.",
+  "tags": [
+   "space",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-006",
+  "topic": "world",
+  "level": 4,
+  "type": "number",
+  "q": "Un barco navega 20 kilómetros cada hora. ¿Cuántas horas necesita para recorrer 100 kilómetros?",
+  "a": 5,
+  "why": "Divide 100 kilómetros entre 20 kilómetros por hora. Cinco horas de navegación cubren 100 kilómetros.",
+  "hint": "¿Cuántos 20 caben en 100?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-007",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "La palabra \"safari\" viene del suajili, un idioma del este de África. ¿Qué significa \"safari\" allí?",
+  "opts": [
+   "Viaje",
+   "Cazador",
+   "Animal salvaje",
+   "Atardecer"
+  ],
+  "a": 0,
+  "why": "Safari significa viaje en suajili. La palabra pasó a otros idiomas por los viajes largos que se hacían por África.",
+  "hint": "Mucha gente hace uno para ver animales salvajes.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Merriam-Webster",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-008",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Qué científico estudia el clima y avisa cuando viene un huracán?",
+  "opts": [
+   "Un cartógrafo",
+   "Un meteorólogo",
+   "Un geólogo",
+   "Un oceanógrafo"
+  ],
+  "a": 1,
+  "why": "Los meteorólogos estudian el aire y el clima. Los oceanógrafos estudian el mar, los geólogos las rocas y los cartógrafos hacen mapas.",
+  "hint": "Piensa en el pronóstico del tiempo.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-009",
+  "topic": "world",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena de lo más antiguo a lo más reciente.",
+  "opts": [
+   "Los dinosaurios dominan la Tierra",
+   "Las personas pintan en cuevas",
+   "Los mayas construyen pirámides",
+   "Los astronautas llegan a la Luna"
+  ],
+  "why": "Los dinosaurios fueron primero. Las pinturas de cuevas tienen decenas de miles de años, las pirámides mayas miles, y la Luna fue en 1969.",
+  "hint": "¿Qué pasó antes de que existieran personas?",
+  "tags": [
+   "dinosaurs",
+   "space"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-010",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "El canal de Panamá une el Atlántico y el Pacífico. Sin él, los barcos tendrían que rodear un continente. ¿Cuál?",
+  "opts": [
+   "África",
+   "Asia",
+   "Australia",
+   "América del Sur"
+  ],
+  "a": 3,
+  "why": "El canal cruza Panamá, una franja angosta de tierra. Los barcos ahorran miles de kilómetros al no rodear América del Sur.",
+  "hint": "Piensa en la forma de las Américas.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-011",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "El maíz se cultivó por primera vez hace miles de años en una región que hoy es…",
+  "opts": [
+   "México",
+   "Egipto",
+   "Australia",
+   "China"
+  ],
+  "a": 0,
+  "why": "Los pueblos de Mesoamérica convirtieron una hierba silvestre en maíz. Desde allí, este cereal viajó por el mundo.",
+  "hint": "Es la tierra de las tortillas.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-012",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Muchas ciudades grandes nacieron junto a ríos o puertos, porque los barcos traían y llevaban mercancías.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Los barcos transportaban comida y productos con poco costo, así que la gente se instaló junto a ríos y puertos.",
+  "hint": "¿Cómo viajaban los productos hace mucho tiempo?",
+  "tags": [
+   "ocean",
+   "money"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-013",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Un científico le pone una etiqueta a un tiburón. ¿Qué puede mostrar la etiqueta?",
+  "opts": [
+   "Qué pez comió ayer",
+   "Qué tan fuerte late su corazón",
+   "Cuántos dientes le saldrán",
+   "Por dónde viaja"
+  ],
+  "a": 3,
+  "why": "Las etiquetas registran la ruta del tiburón y qué tan hondo se sumerge. No cuentan dientes ni muestran sus comidas.",
+  "hint": "Piensa en mapas y viajes.",
+  "tags": [
+   "sharks",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-014",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "En el desierto de Gobi se han hallado nidos de dinosaurio con huevos. ¿En qué continente está el Gobi?",
+  "opts": [
+   "África",
+   "Australia",
+   "América del Sur",
+   "Asia"
+  ],
+  "a": 3,
+  "why": "El Gobi se extiende por Mongolia y el norte de China. Allí se han encontrado huesos y nidos de dinosaurio.",
+  "hint": "Piensa en Mongolia y China.",
+  "tags": [
+   "dinosaurs",
+   "maps"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-015",
+  "topic": "world",
+  "level": 4,
+  "type": "number",
+  "q": "Un puesto vende 40 hot dogs en un juego de béisbol a 3 dólares cada uno. ¿Cuántos dólares recibe?",
+  "a": 120,
+  "why": "40 por 3 es 120. El dinero que se recibe al vender se llama ingreso; la ganancia es lo que queda después de los gastos.",
+  "hint": "Piensa en 4 decenas por 3.",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-016",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "Los productos que un país vende a otros países se llaman…",
+  "opts": [
+   "Impuestos",
+   "Importaciones",
+   "Exportaciones",
+   "Ahorros"
+  ],
+  "a": 2,
+  "why": "Las exportaciones salen del país para venderse afuera. Las importaciones son productos que llegan de otros países.",
+  "hint": "Piensa en 'ex' como en 'exterior'.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-017",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "En lugares muy calurosos y soleados, muchas casas se pintan de blanco. ¿Por qué?",
+  "opts": [
+   "Es la pintura más barata que existe",
+   "Evita que la lluvia entre por las paredes",
+   "Detiene el viento fuerte que llega del mar",
+   "Refleja el sol y mantiene fresca la casa"
+  ],
+  "a": 3,
+  "why": "Los colores claros rechazan la luz del sol en lugar de absorberla, así que las paredes blancas se calientan menos.",
+  "hint": "Piensa en usar una camiseta blanca bajo el sol.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-018",
+  "topic": "world",
+  "level": 4,
+  "type": "order",
+  "q": "Ordena estas formas de compartir mensajes, de la más antigua a la más nueva.",
+  "opts": [
+   "Dibujos en cuevas",
+   "Libros impresos",
+   "Llamadas telefónicas",
+   "Correo electrónico"
+  ],
+  "why": "Primero las cuevas. Luego los libros impresos del siglo XV, el teléfono hacia 1870 y el correo electrónico hacia 1970.",
+  "hint": "¿Cuáles necesitan electricidad?",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-019",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "¿Cuál de estos países usa el peso como moneda?",
+  "opts": [
+   "Estados Unidos",
+   "México",
+   "Perú",
+   "Brasil"
+  ],
+  "a": 1,
+  "why": "México usa el peso. Brasil usa el real, Perú el sol y Estados Unidos el dólar. Cada país suele tener su propia moneda.",
+  "hint": "Piensa en el dinero de países vecinos.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-4-020",
+  "topic": "world",
+  "level": 4,
+  "type": "choice",
+  "q": "En la isla de Pascua hay enormes estatuas de piedra llamadas moáis. ¿En qué océano está la isla?",
+  "opts": [
+   "El Ártico",
+   "El Atlántico",
+   "El Índico",
+   "El Pacífico"
+  ],
+  "a": 3,
+  "why": "La isla de Pascua, o Rapa Nui, pertenece a Chile y está en medio del Pacífico, a miles de kilómetros de la costa.",
+  "hint": "Piensa en un océano muy ancho al oeste de Chile.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-001",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Por qué los países comercian entre sí?",
+  "opts": [
+   "Para que todos los precios sean iguales",
+   "Todos los países producen todo lo que necesitan",
+   "El comercio ayuda solo al país que vende",
+   "Cada uno tiene lo que falta al otro"
+  ],
+  "a": 3,
+  "why": "El clima, la tierra y las habilidades son distintos, así que los países intercambian lo que les sobra por lo que no pueden producir fácilmente.",
+  "hint": "Piensa en bananas en un país muy frío.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-002",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "En muchos mapas planos, Groenlandia parece tan grande como África, pero África es mucho mayor. ¿Por qué?",
+  "opts": [
+   "Los cartógrafos dibujan más pequeños los países grandes",
+   "Groenlandia creció mucho desde esos mapas",
+   "El hielo hace más alta a Groenlandia",
+   "Aplanar la Tierra estira las zonas polares"
+  ],
+  "a": 3,
+  "why": "Al aplanar una Tierra redonda se estiran los lugares cercanos a los polos. África es unas 14 veces más grande que Groenlandia.",
+  "hint": "Piensa en aplanar la cáscara de una naranja.",
+  "tags": [
+   "maps"
+  ],
+  "fun": true,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-003",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Si cruzas la línea internacional de cambio de fecha hacia el oeste, el calendario retrocede un día.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Al cruzar hacia el oeste, en el Pacífico, el calendario salta un día hacia adelante. Hacia el este, se pierde un día.",
+  "hint": "¿Hacia dónde empieza antes el nuevo día?",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-004",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cómo se llama una franja angosta de tierra que une dos tierras más grandes y tiene agua a ambos lados?",
+  "opts": [
+   "Una península",
+   "Un istmo",
+   "Un delta",
+   "Un archipiélago"
+  ],
+  "a": 1,
+  "why": "Panamá es un istmo. Una península tiene agua por tres lados y un archipiélago es un grupo de islas.",
+  "hint": "El ejemplo más famoso es Panamá.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-005",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "La Ruta de la Seda unía China con el Mediterráneo. Además de productos, ¿qué viajaba por ella?",
+  "opts": [
+   "Pasajeros de globos aerostáticos",
+   "Líneas telefónicas y cables",
+   "Gigantescos barcos de acero",
+   "Ideas e inventos"
+  ],
+  "a": 3,
+  "why": "Por la Ruta de la Seda se difundieron ideas, como la fabricación de papel, junto con la seda y las especias.",
+  "hint": "Los viajeros también compartían lo que sabían.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-006",
+  "topic": "world",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena las zonas del océano desde la superficie hasta lo más profundo.",
+  "opts": [
+   "Zona iluminada",
+   "Zona crepuscular",
+   "Zona de medianoche",
+   "Fosa oceánica"
+  ],
+  "why": "La luz se apaga con la profundidad: primero capa brillante, luego penumbra, después oscuridad total y por último las fosas.",
+  "hint": "La luz solo llega a la parte de arriba.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-007",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "La piedra de Rosetta ayudó a leer por fin los jeroglíficos egipcios. ¿Por qué?",
+  "opts": [
+   "Tenía el mismo mensaje en tres escrituras",
+   "Mostraba un dibujo para cada jeroglífico",
+   "Era un diccionario completo tallado en piedra",
+   "Un faraón ya la había traducido hace siglos"
+  ],
+  "a": 0,
+  "why": "Una de las escrituras era el griego, que los sabios sí leían. Al compararlas descifraron los jeroglíficos.",
+  "hint": "Una de las escrituras ya se conocía.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-008",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Un partido de béisbol empieza a las 9:00 a. m. del jueves en Tokio. Los Ángeles va unas 16 o 17 horas atrás de Tokio. ¿Qué día es en Los Ángeles?",
+  "opts": [
+   "Jueves",
+   "Martes",
+   "Miércoles",
+   "Viernes"
+  ],
+  "a": 2,
+  "why": "Si retrocedes 16 o 17 horas desde las 9:00 a. m. del jueves, cruzas la medianoche y llegas a la tarde del día anterior.",
+  "hint": "Al retroceder tantas horas, cruzas la medianoche.",
+  "tags": [
+   "baseball",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-009",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "El mar Mediterráneo toca Europa, África y Asia.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El sur de Europa, el norte de África y el oeste de Asia tienen costas en el Mediterráneo.",
+  "hint": "Piensa en España, Egipto y Turquía.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-010",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál de estos países de América del Sur no tiene costa en ningún océano?",
+  "opts": [
+   "Ecuador",
+   "Bolivia",
+   "Perú",
+   "Chile"
+  ],
+  "a": 1,
+  "why": "Bolivia no tiene costa; está rodeada de otros países. Chile, Perú y Ecuador tienen costa en el océano Pacífico.",
+  "hint": "Piensa en un país rodeado de montañas y vecinos.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-011",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Se han hallado fósiles de los mismos dinosaurios en América del Sur y en África. ¿Qué lo explica mejor?",
+  "opts": [
+   "Hoy ambos lugares tienen el mismo clima",
+   "Los cazadores de fósiles llevaron los huesos",
+   "Los continentes estuvieron unidos",
+   "Los dinosaurios cruzaban nadando el Atlántico"
+  ],
+  "a": 2,
+  "why": "Hace mucho, los continentes formaban una gran masa de tierra y los dinosaurios caminaban entre lugares hoy muy distantes.",
+  "hint": "Mira cómo encajan las costas de ambos continentes.",
+  "tags": [
+   "dinosaurs",
+   "maps"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-012",
+  "topic": "world",
+  "level": 5,
+  "type": "number",
+  "q": "La Tierra mide unos 40 000 kilómetros alrededor del ecuador. Un avión vuela a 800 kilómetros por hora. ¿Cuántas horas tardaría en dar la vuelta completa?",
+  "a": 50,
+  "why": "Divide 40 000 entre 800 y obtienes 50 horas, es decir, más de dos días enteros de vuelo.",
+  "hint": "Divide la distancia entre la velocidad.",
+  "tags": [
+   "maps",
+   "machines"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-013",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Cuál de estas cosas suele pagarse con impuestos?",
+  "opts": [
+   "Una pelota en una tienda",
+   "Una comida en un restaurante",
+   "Una entrada al cine",
+   "Una biblioteca pública"
+  ],
+  "a": 3,
+  "why": "Los impuestos pagan servicios compartidos, como bibliotecas, caminos y estaciones de bomberos. Las tiendas cobran a sus clientes.",
+  "hint": "Piensa en servicios que usa todo el pueblo.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-014",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Casi todo lo que cruza el océano viaja en contenedores metálicos del mismo tamaño. ¿Por qué sirve que sean iguales?",
+  "opts": [
+   "Hacen que los barcos superen a los aviones",
+   "Hacen que la carga pese menos",
+   "Caben en barcos, trenes y camiones",
+   "Mantienen frías las mercancías"
+  ],
+  "a": 2,
+  "why": "Los contenedores iguales se apilan bien y pasan del barco al tren y al camión sin desempacar, y así se ahorra tiempo y dinero.",
+  "hint": "Piensa en apilar bloques idénticos.",
+  "tags": [
+   "ocean",
+   "machines",
+   "money"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-015",
+  "topic": "world",
+  "level": 5,
+  "type": "order",
+  "q": "Ordena los pasos para mostrar cómo llega un pescado del mar a la mesa.",
+  "opts": [
+   "La tripulación pesca el pescado",
+   "El barco descarga en el puerto",
+   "Un camión lo lleva a la tienda",
+   "Una familia lo cocina en casa"
+  ],
+  "why": "El pescado viaja del productor al consumidor: se pesca, llega al puerto, va a la tienda y luego se cocina.",
+  "hint": "Sigue al pescado del mar al plato.",
+  "tags": [
+   "ocean",
+   "food"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-016",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "¿Por qué los pilotos escuchan a los controladores aéreos desde tierra?",
+  "opts": [
+   "Para saber qué botanas hay a bordo",
+   "Para mantener los aviones bien separados",
+   "Para saber cuántos pasajeros viajan",
+   "Para cargar gasolina en el aeropuerto"
+  ],
+  "a": 1,
+  "why": "Los controladores vigilan el cielo y dicen a los pilotos cuándo despegar, aterrizar o cambiar de rumbo, para que no se acerquen demasiado.",
+  "hint": "Piensa en un cielo con muchos aviones.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NCSS C3",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-017",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Muchas plataformas de lanzamiento de cohetes están cerca del océano. ¿Cuál es una buena razón?",
+  "opts": [
+   "Las piezas caen al agua, no en pueblos",
+   "Las olas ayudan al cohete a subir",
+   "Los cohetes queman agua salada como combustible",
+   "El aire marino aligera los cohetes"
+  ],
+  "a": 0,
+  "why": "Los cohetes sueltan piezas usadas mientras suben. Lanzar sobre el mar mantiene esas piezas lejos de las personas.",
+  "hint": "Piensa en dónde caen las piezas sobrantes.",
+  "tags": [
+   "space",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-018",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Algunas islas, como Tierra del Fuego, pertenecen a dos países.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "Tierra del Fuego se reparte entre Chile y Argentina. Una isla también puede tener fronteras, igual que un continente.",
+  "hint": "Piensa en fronteras sobre una isla.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-019",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "Un tiburón con etiqueta nada por las aguas de muchos países. ¿Qué muestra esto sobre cómo protegerlos?",
+  "opts": [
+   "Las reglas importan solo cerca de la costa",
+   "Las reglas de un país bastan siempre",
+   "Un tiburón está a salvo lejos de tierra",
+   "Los países deben cooperar para protegerlos"
+  ],
+  "a": 3,
+  "why": "Los tiburones no respetan fronteras. Uno protegido en un país puede estar en peligro en el siguiente, y por eso los países deben cooperar.",
+  "hint": "Los tiburones no se detienen en las fronteras.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-5-020",
+  "topic": "world",
+  "level": 5,
+  "type": "choice",
+  "q": "En los Andes y en Asia, los agricultores construyen escalones planos en las laderas de las montañas. ¿Para qué?",
+  "opts": [
+   "Para retener la tierra y el agua",
+   "Para que no suban los animales",
+   "Para frenar el viento frío del pueblo",
+   "Para que la montaña parezca más alta"
+  ],
+  "a": 0,
+  "why": "Se llaman terrazas, o andenes en los Andes. Evitan que la tierra y el agua rueden cuesta abajo y permiten sembrar en pendientes.",
+  "hint": "Piensa en la lluvia bajando por una cuesta.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-001",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Gran Bretaña está muy al norte, pero sus inviernos son bastante suaves. ¿Qué ayuda más?",
+  "opts": [
+   "Los volcanes calientan la isla",
+   "Está cerca del ecuador",
+   "Hay desiertos calurosos a su lado",
+   "Una corriente cálida del océano"
+  ],
+  "a": 3,
+  "why": "La corriente del Atlántico Norte lleva agua cálida desde el trópico hacia Europa y suaviza los inviernos.",
+  "hint": "Piensa en el agua que toca sus costas.",
+  "tags": [
+   "ocean",
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-002",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Con los años, casi todos los precios suben poco a poco y un dólar compra menos que antes. ¿Cómo se llama esto?",
+  "opts": [
+   "Escasez",
+   "Interés",
+   "Exportación",
+   "Inflación"
+  ],
+  "a": 3,
+  "why": "La inflación es un aumento general de los precios. El interés es el dinero que se paga por prestar o ahorrar.",
+  "hint": "Piensa en un globo que se llena de aire.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-003",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "El lugar más profundo del océano es más profundo de lo que mide de alto el monte Everest.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "La fosa de las Marianas tiene casi 11 kilómetros de profundidad y el Everest mide unos 9. El Everest quedaría sumergido.",
+  "hint": "Compara cuánto baja con cuánto sube.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-004",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Un barco está donde el ecuador cruza el meridiano de Greenwich, a 0° de latitud y 0° de longitud. ¿En qué océano está?",
+  "opts": [
+   "El Ártico",
+   "El Pacífico",
+   "El Atlántico",
+   "El Índico"
+  ],
+  "a": 2,
+  "why": "Ese punto está en el golfo de Guinea, frente a África occidental. Allí flota una boya meteorológica.",
+  "hint": "Imagina dónde se cruzan esas dos líneas en un mapamundi.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-005",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Se han hallado fósiles de animales marinos en lo alto de los Andes. ¿Qué indica esto?",
+  "opts": [
+   "Las aves llevaron las conchas allá",
+   "Los animales marinos subían montañas",
+   "El océano llegó a cubrir los Andes",
+   "El fondo marino se elevó y formó montañas"
+  ],
+  "a": 3,
+  "why": "Al chocar, las placas de la Tierra levantaron el antiguo fondo marino hasta formar montañas. El océano nunca subió tanto.",
+  "hint": "¿Qué puede levantar roca durante millones de años?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-006",
+  "topic": "world",
+  "level": 6,
+  "type": "number",
+  "q": "Un banco paga 10 % de interés cada año sobre todo tu saldo. Depositas 100 dólares. Después de 2 años, con el interés sumado cada año, ¿cuántos dólares tienes?",
+  "a": 121,
+  "why": "El primer año suma 10 dólares y quedan 110. El segundo año suma el 10 % de 110, que es 11, y quedan 121.",
+  "hint": "Primero calcula el total del primer año.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-007",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "El español, el francés, el italiano y el portugués se llaman lenguas romances. ¿De qué idioma antiguo vienen?",
+  "opts": [
+   "Latín",
+   "Árabe",
+   "Hebreo",
+   "Griego"
+  ],
+  "a": 0,
+  "why": "Estas lenguas nacieron del latín que se hablaba en el Imperio romano, y por eso muchas de sus palabras se parecen.",
+  "hint": "Lo hablaban los antiguos romanos.",
+  "tags": [],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-008",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "¿Cuál de estos países está cruzado por el ecuador y por eso queda en los dos hemisferios?",
+  "opts": [
+   "Perú",
+   "Brasil",
+   "Argentina",
+   "México"
+  ],
+  "a": 1,
+  "why": "El ecuador cruza el norte de Brasil. Perú queda al sur de él, y México y Argentina están lejos.",
+  "hint": "Piensa en el país donde desemboca el Amazonas.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-009",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena en el orden correcto los pasos de un préstamo.",
+  "opts": [
+   "Pides un préstamo al banco",
+   "El banco te presta el dinero",
+   "Usas el dinero para comprar lo que necesitas",
+   "Devuelves el dinero con intereses"
+  ],
+  "why": "Un préstamo sigue este orden: pedir, recibir, gastar y devolver con un poco más, que se llama interés.",
+  "hint": "No puedes gastar dinero antes de tenerlo.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-010",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Un acueducto romano baja con una pendiente suave hasta la ciudad. ¿Por qué?",
+  "opts": [
+   "Animales cargaban el agua en cubetas",
+   "Unas bombas empujaban el agua",
+   "La gravedad empuja el agua",
+   "El viento movía ruedas con el agua"
+  ],
+  "a": 2,
+  "why": "Los romanos no tenían bombas. Una bajada constante dejaba que la gravedad llevara el agua muchos kilómetros.",
+  "hint": "¿Hacia dónde fluye el agua por sí sola?",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-011",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "En un mapa plano, los vuelos de Los Ángeles a Tokio se curvan hacia el norte. ¿Por qué vuelan así los pilotos?",
+  "opts": [
+   "Es la ruta más corta sobre una esfera",
+   "Los aviones deben volar cerca de tierra",
+   "Los cartógrafos dibujaron mal las rutas",
+   "Las corrientes del mar guían los aviones"
+  ],
+  "a": 0,
+  "why": "El camino más corto entre lugares lejanos sobre una esfera se ve curvo en un mapa plano. Se llama círculo máximo.",
+  "hint": "Imagina un hilo estirado sobre un globo terráqueo.",
+  "tags": [
+   "maps",
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-012",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "El Ártico es un océano rodeado casi todo de tierra, y la Antártida es tierra rodeada de océano.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 0,
+  "why": "El océano Ártico tiene tierras alrededor. La Antártida es un continente rodeado por el océano Austral.",
+  "hint": "Compara los dos extremos de la Tierra.",
+  "tags": [
+   "ocean",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-013",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "En el lago de Nicaragua, que es de agua dulce, viven tiburones. ¿Qué tiburón es?",
+  "opts": [
+   "El tiburón ballena",
+   "El tiburón martillo",
+   "El tiburón toro",
+   "El tiburón blanco"
+  ],
+  "a": 2,
+  "why": "Los tiburones toro toleran el agua dulce y suben por los ríos. Muchos de ellos llegan al lago de Nicaragua por un río.",
+  "hint": "Aguanta el agua dulce y la salada.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-014",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "El mar Muerto es mucho más salado que el océano. ¿Por qué se acumula tanta sal allí?",
+  "opts": [
+   "El agua se evapora y la sal queda",
+   "Volcanes submarinos echan más sal",
+   "Viven peces que fabrican sal",
+   "El viento trae sal desde el océano"
+  ],
+  "a": 0,
+  "why": "Los ríos aportan algo de sal, pero el agua solo sale por evaporación. Con el tiempo, la sal se acumula.",
+  "hint": "¿Qué queda cuando el agua se seca?",
+  "tags": [],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-015",
+  "topic": "world",
+  "level": 6,
+  "type": "number",
+  "q": "Imagina que 1 dólar se cambia por 20 pesos. Una entrada a un juego de béisbol cuesta 100 pesos. ¿Cuántos dólares son?",
+  "a": 5,
+  "why": "Cada 20 pesos equivalen a 1 dólar, y en 100 pesos caben cinco grupos de 20. La entrada cuesta 5 dólares.",
+  "hint": "¿Cuántos 20 caben en 100?",
+  "tags": [
+   "baseball",
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-016",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Una de las primeras escrituras, hecha con marcas sobre arcilla, se usaba sobre todo para…",
+  "opts": [
+   "Escribir canciones y poemas",
+   "Dibujar mapas de las estrellas",
+   "Enseñar a leer a los niños",
+   "Contar y anotar mercancías"
+  ],
+  "a": 3,
+  "why": "En Mesopotamia, los escribas marcaban arcilla para anotar granos, animales e intercambios. Los cuentos y poemas vinieron después.",
+  "hint": "Piensa en lo que necesitaban recordar los comerciantes.",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Britannica Escolar",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-017",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Chile es un país muy largo y angosto, de norte a sur. ¿Por qué tiene desierto en el norte y zonas nevadas en el sur?",
+  "opts": [
+   "El mar lleva nieve y arena hasta allí",
+   "Todo el país está sobre el ecuador",
+   "El sur está mucho más cerca del Sol",
+   "Se extiende por muchas latitudes"
+  ],
+  "a": 3,
+  "why": "Chile cruza muchas latitudes, desde desiertos cálidos en el norte hasta tierras frías cerca de la Antártida.",
+  "hint": "Piensa en la distancia entre sus dos extremos.",
+  "tags": [
+   "maps"
+  ],
+  "fun": false,
+  "src": "National Geographic",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-018",
+  "topic": "world",
+  "level": 6,
+  "type": "order",
+  "q": "Ordena los pasos de un estudio que marca tiburones.",
+  "opts": [
+   "Los científicos capturan al tiburón",
+   "Le colocan una etiqueta",
+   "Lo liberan",
+   "Dibujan su ruta con las señales"
+  ],
+  "why": "Primero hay que capturar al tiburón, ponerle la etiqueta y soltarlo. Después, las señales permiten dibujar su ruta.",
+  "hint": "¿Qué debe pasar antes de colocar algo?",
+  "tags": [
+   "sharks",
+   "maps"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-019",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Muchos cohetes se lanzan hacia el este desde lugares cercanos al ecuador. ¿Cómo ayuda eso?",
+  "opts": [
+   "En el ecuador nunca hay nubes ni tormentas",
+   "La rotación de la Tierra les da impulso",
+   "La Luna siempre está hacia el este",
+   "El aire cálido hace que pesen menos"
+  ],
+  "a": 1,
+  "why": "La Tierra gira hacia el este, y más rápido en el ecuador, así que un lanzamiento hacia el este parte con un impulso gratis.",
+  "hint": "Piensa en qué tan rápido se mueve el suelo mismo.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11"
+ },
+ {
+  "id": "munB-6-020",
+  "topic": "world",
+  "level": 6,
+  "type": "choice",
+  "q": "Cuando dos países comercian, uno de ellos siempre pierde.",
+  "opts": [
+   "Verdadero",
+   "Falso"
+  ],
+  "a": 1,
+  "why": "Los dos comercian porque cada uno espera recibir algo que valora más de lo que entrega.",
+  "hint": "¿Alguien comerciaría si siempre perdiera?",
+  "tags": [
+   "money"
+  ],
+  "fun": false,
+  "src": "Council for Economic Education",
+  "ver": "2026-11"
+ }
+]

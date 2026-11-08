@@ -1,0 +1,2487 @@
+[
+ {
+  "id": "sciB-1-001",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "What do we call a baby shark?",
+  "why": "Baby sharks are called pups, just like young seals and dogs. Many pups swim off on their own right after birth.",
+  "hint": "Think of a word we also use for a young dog.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "A cub",
+   "A pup",
+   "A chick"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-1-002",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "A whale is a kind of fish.",
+  "why": "Whales are mammals. They breathe air through lungs, feed milk to their calves, and must come up to the surface to breathe.",
+  "hint": "Do whales breathe air or water?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-1-003",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which dinosaur had three horns on its face?",
+  "why": "Triceratops means 'three-horned face.' Stegosaurus had plates on its back, and Brachiosaurus had a very long neck.",
+  "hint": "The first part of the name is a number word.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "Stegosaurus",
+   "Brachiosaurus",
+   "Triceratops"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-1-004",
+  "topic": "science",
+  "level": 1,
+  "type": "number",
+  "q": "How many legs does a spider have?",
+  "why": "Spiders have 8 legs. Insects have only 6, so a spider is not an insect.",
+  "hint": "Count the pairs: there are four pairs.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "a": 8
+ },
+ {
+  "id": "sciB-1-005",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which body part fills with air when you breathe in?",
+  "why": "Lungs take in air and give your body oxygen. Your stomach holds food, and your heart pumps blood.",
+  "hint": "You breathe with them inside your chest.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Your lungs",
+   "Your stomach",
+   "Your heart"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-1-006",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which planet is the biggest one in our solar system?",
+  "why": "Jupiter is so big that more than a thousand Earths could fit inside it. Mars is smaller than Earth.",
+  "hint": "It is a giant gas planet.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Earth",
+   "Mars",
+   "Jupiter"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-1-007",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Put the day in order, as the Sun moves across the sky.",
+  "why": "The Sun comes up in the morning, is highest at noon, and goes down in the evening. Then night comes.",
+  "hint": "Start when the Sun first peeks over the ground.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NGSS 1-ESS1-1",
+  "ver": "2026-11",
+  "opts": [
+   "Sunrise",
+   "Noon",
+   "Sunset",
+   "Night"
+  ]
+ },
+ {
+  "id": "sciB-1-008",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Fish use gills to take in oxygen from the water.",
+  "why": "Water moves over a fish's gills, which pull out oxygen. Sharks and most sea fish breathe this way.",
+  "hint": "Fish cannot breathe air like we do.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-1-009",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which tool tells you how hot or cold the air is?",
+  "why": "A thermometer measures temperature. A ruler measures length, and a clock tells time.",
+  "hint": "Weather reporters read this to tell the temperature.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS K-ESS2-1",
+  "ver": "2026-11",
+  "opts": [
+   "A thermometer",
+   "A ruler",
+   "A clock"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-1-010",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which of these is a gas?",
+  "why": "A gas spreads out to fill whatever holds it. Milk is a liquid and ice is a solid.",
+  "hint": "A gas has no shape of its own.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 2-PS1-1",
+  "ver": "2026-11",
+  "opts": [
+   "A glass of milk",
+   "The air inside a balloon",
+   "An ice cube"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-1-011",
+  "topic": "science",
+  "level": 1,
+  "type": "order",
+  "q": "Put the life of a sea turtle in order, from the start.",
+  "why": "Mother turtles lay eggs on sand. The babies hatch and race to the water, then grow up in the sea.",
+  "hint": "Turtles begin life on land.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Egg on the beach",
+   "Baby crawls to the sea",
+   "Young turtle swims",
+   "Adult turtle"
+  ]
+ },
+ {
+  "id": "sciB-1-012",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "You toss a baseball straight up. What pulls it back down?",
+  "why": "Gravity pulls everything toward the ground. Light and sound cannot pull on a ball.",
+  "hint": "It is the same force that keeps you on the ground.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS K-PS2-1",
+  "ver": "2026-11",
+  "opts": [
+   "Gravity",
+   "Light",
+   "Sound"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-1-013",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "A butterfly can taste with its feet.",
+  "why": "Butterflies have taste sensors on their feet. When one lands on a leaf, it can tell if the plant is good for its eggs.",
+  "hint": "Think about where a butterfly lands.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-1-014",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which of these does a plant use to make its food?",
+  "why": "Plants use sunlight, water and air to make their own food. That is why most plants grow toward light.",
+  "hint": "Plants lean toward a sunny window.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Moonlight",
+   "Sunlight",
+   "Lamp noise"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-1-015",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which sea animal has a hard shell and walks sideways?",
+  "why": "Crabs have hard shells and bent legs, so they scuttle sideways. Jellyfish have soft bodies, and dolphins swim.",
+  "hint": "It lives near rocky shores and has claws.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "A jellyfish",
+   "A dolphin",
+   "A crab"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-1-016",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "A shadow forms when something blocks what?",
+  "why": "A shadow is a dark spot where light cannot reach because an object is in the way.",
+  "hint": "Shadows appear on sunny days.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4-3",
+  "ver": "2026-11",
+  "opts": [
+   "Sound",
+   "Wind",
+   "Light"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-1-017",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "What do we call the hot melted rock that flows out of a volcano?",
+  "why": "Lava is melted rock from deep inside Earth. When it cools, it turns into hard rock again.",
+  "hint": "It glows red and orange.",
+  "tags": [],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "Lava",
+   "Steam",
+   "Snow"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-1-018",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which animal is a mammal that can truly fly?",
+  "why": "Bats are the only mammals that really fly. Owls are birds and dragonflies are insects.",
+  "hint": "It has fur and hunts at night.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "An owl",
+   "A bat",
+   "A dragonfly"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-1-019",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "What covers the outside of your whole body to protect it?",
+  "why": "Skin is your body's biggest organ. It keeps germs out and water in. Bones and muscles are inside.",
+  "hint": "You can see it and touch it.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Bones",
+   "Skin",
+   "Muscles"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-1-020",
+  "topic": "science",
+  "level": 1,
+  "type": "choice",
+  "q": "Which planet is famous for its bright, wide rings?",
+  "why": "Saturn's rings are made of ice and rock bits. Mars and Venus have no rings at all.",
+  "hint": "It is a giant planet far from the Sun.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Mars",
+   "Venus",
+   "Saturn"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-2-001",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "A shark can feel tiny ripples in the water made by a fish swimming nearby.",
+  "why": "A row of sensors along a shark's sides, called the lateral line, feels ripples and tells it where prey is.",
+  "hint": "Sharks hunt even in murky water.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-2-002",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which kind of teeth would tell a scientist that a dinosaur ate meat?",
+  "why": "Sharp, curved teeth cut through meat. Flat teeth grind leaves and other plants.",
+  "hint": "Think about what teeth need to do to cut food.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Wide, flat teeth for grinding",
+   "Sharp, pointed teeth",
+   "Small teeth like rounded pebbles"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-2-003",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Some dinosaurs sat on their nests of eggs, the way birds do.",
+  "why": "Fossils show small dinosaurs curled over their eggs to keep them warm. Birds are the living relatives of dinosaurs.",
+  "hint": "Think about what birds do with eggs.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-2-004",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Long ago, people connected stars into star pictures, like a hunter or a bear. What are these called?",
+  "why": "A constellation is a pattern of stars that people see as a picture. Comets are icy space travelers.",
+  "hint": "A word that starts with 'con' and ends in 'tion'.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Comets",
+   "Orbits",
+   "Constellations"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-2-005",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which tool shows which way the wind is blowing?",
+  "why": "A weather vane swings to point where the wind comes from. A rain gauge measures rain.",
+  "hint": "It often sits on top of a barn roof.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-ESS2",
+  "ver": "2026-11",
+  "opts": [
+   "A weather vane",
+   "A rain gauge",
+   "A scale"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-2-006",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which one shows a solid turning into a liquid?",
+  "why": "Heat makes ice cream melt from solid to liquid. Boiling makes a gas, and frost is water turning into ice.",
+  "hint": "Look for the one that starts out solid.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "NGSS 2-PS1-4",
+  "ver": "2026-11",
+  "opts": [
+   "Water boiling in a pot",
+   "Frost forming on a window",
+   "Ice cream melting in the sun"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-2-007",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "A ramp makes it easier to move a heavy box up. Which simple machine is a ramp?",
+  "why": "A slanted surface is called an inclined plane. A longer ramp is a gentler climb that needs less push.",
+  "hint": "A ramp is a slanted slope.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "An inclined plane",
+   "A pulley",
+   "A lever"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-2-008",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Why does a catcher's mitt have thick padding?",
+  "why": "Padding cushions the push of a fast pitch so it stings less. It does not change the ball's weight.",
+  "hint": "Think about how a fast ball feels in your hand.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "It makes the ball lighter",
+   "It softens the hit of a fast ball",
+   "It makes the ball bounce back"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-2-009",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Your elbow and your knee are places where two bones meet and let you bend. What are they called?",
+  "why": "Joints connect bones and let them move. Ribs are bones in your chest, and nerves carry messages.",
+  "hint": "Without these, your legs would not bend.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Joints",
+   "Ribs",
+   "Nerves"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-2-010",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which part of a plant carries water up from the roots?",
+  "why": "The stem works like a straw, moving water and minerals up to the leaves.",
+  "hint": "Think of a straw standing in a cup.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 2-LS2",
+  "ver": "2026-11",
+  "opts": [
+   "The flower",
+   "The stem",
+   "The seed"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-2-011",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "An omnivore eats both plants and animals. Which one is an omnivore?",
+  "why": "Bears eat berries, roots, fish and more. Cows eat only plants, and lions eat only meat.",
+  "hint": "Look for the animal with the most varied menu.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 2-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "A cow",
+   "A lion",
+   "A bear"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-2-012",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "How does a dolphin breathe air?",
+  "why": "Dolphins are mammals with lungs. They pop up to the surface and breathe through a blowhole.",
+  "hint": "Dolphins are mammals, not fish.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Through gills on its sides",
+   "Through its mouth underwater",
+   "Through a blowhole on its head"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-2-013",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which animal has fingerprints that look a lot like human fingerprints?",
+  "why": "Koalas have tiny ridged fingerprints on their paws that are nearly like ours, even under a microscope.",
+  "hint": "This animal climbs eucalyptus trees.",
+  "tags": [
+   "animals"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "A koala",
+   "A kangaroo",
+   "A penguin"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-2-014",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Sunlight passes through raindrops and makes a rainbow. What does that show?",
+  "why": "Raindrops split white sunlight into its separate colors: red, orange, yellow, green, blue and violet.",
+  "hint": "The colors come from the light itself.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 1-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "Raindrops are tiny colored balls",
+   "Sunlight has many colors mixed in",
+   "Clouds store colors for later"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-2-015",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "A big drum and a small drum are hit. Which one makes the lower sound?",
+  "why": "Bigger things wobble more slowly, and slow wobbles make low sounds. Small drums sound higher.",
+  "hint": "Think of a deep thump versus a light tap.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "The small drum",
+   "The big drum",
+   "Both sound the same"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-2-016",
+  "topic": "science",
+  "level": 2,
+  "type": "order",
+  "q": "Put these in order from smallest to biggest.",
+  "why": "The Moon is smaller than Earth. Jupiter is much bigger than Earth, but the Sun is far bigger than Jupiter.",
+  "hint": "Start with the one that circles Earth.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Moon",
+   "Earth",
+   "Jupiter",
+   "Sun"
+  ]
+ },
+ {
+  "id": "sciB-2-017",
+  "topic": "science",
+  "level": 2,
+  "type": "number",
+  "q": "Earth goes around the Sun one time in about how many days?",
+  "why": "One trip around the Sun takes about 365 days. That trip is what we call a year.",
+  "hint": "It is the number of days in a year.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "a": 365
+ },
+ {
+  "id": "sciB-2-018",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Warm air rises above cooler air, which helps hot air balloons float.",
+  "why": "Warm air is lighter than the cool air around it, so it floats upward and lifts the balloon.",
+  "hint": "Think about what a burner does to the air.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 2-ESS2",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-2-019",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "A model bridge falls down during a test. What should an engineer do next?",
+  "why": "Engineers learn from failed tests. They fix the weak spot and try again until the design works.",
+  "hint": "Failures give clues for a better design.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "Build the real one the same way",
+   "Decide bridges can never work",
+   "Improve the weak part and test again"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-2-020",
+  "topic": "science",
+  "level": 2,
+  "type": "choice",
+  "q": "Which sea animal can make a pearl inside its shell?",
+  "why": "An oyster coats a tiny grain with smooth layers, and over time it grows into a pearl.",
+  "hint": "It has two shell halves that open and close.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "An oyster",
+   "A crab",
+   "A sea star"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-001",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A shark can smell a drop of blood in a huge amount of water. What does it smell with?",
+  "why": "Water flows into a shark's nostrils, and a large part of its brain handles smell. Gills are for breathing.",
+  "hint": "Smelling takes place near the front of the head.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Tiny holes in its fins",
+   "Its gill slits",
+   "Nostrils on its snout",
+   "The rows of its teeth"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-3-002",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Pteranodon soared over the dinosaurs' world. What kind of animal was it?",
+  "why": "Pterosaurs like Pteranodon were flying reptiles. They lived alongside dinosaurs but were not dinosaurs.",
+  "hint": "It had wings made of skin, not feathers.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "A flying reptile",
+   "A feathered dinosaur",
+   "A giant early bat",
+   "A very early bird"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-003",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Rockets burn fuel to fly. Why must a rocket carry its own oxygen into space?",
+  "why": "Fire needs oxygen, and space has almost none. So rockets bring oxygen along with their fuel.",
+  "hint": "Think about what a fire needs.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Oxygen from Earth is too heavy to burn",
+   "The fuel would freeze without it",
+   "The engine would grow too hot",
+   "There is almost no air in space"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-3-004",
+  "topic": "science",
+  "level": 3,
+  "type": "number",
+  "q": "An octopus has 8 arms. How many arms do 5 octopuses have in all?",
+  "why": "Five octopuses with 8 arms each is 5 x 8 = 40 arms.",
+  "hint": "Count in groups of eight.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "original",
+  "ver": "2026-11",
+  "a": 40
+ },
+ {
+  "id": "sciB-3-005",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A lizard warms up its body by resting in the sun.",
+  "why": "Lizards cannot make much body heat, so they bask in sunshine to warm up, then hide or cool off when too hot.",
+  "hint": "Think about where you see lizards in the morning.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-006",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "What causes the loud boom of thunder?",
+  "why": "Lightning heats the air so fast that it bursts outward, making a boom. Clouds do not crash together.",
+  "hint": "Thunder always comes after something you see.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Clouds bumping into each other",
+   "Air heated suddenly by lightning",
+   "Rain hitting the ground hard",
+   "Wind rushing through mountains"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-3-007",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A magnet will NOT stick to which of these?",
+  "why": "Magnets attract iron and steel. Aluminum, wood and plastic are not magnetic.",
+  "hint": "Which one is not made of iron or steel?",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 3-PS2-3",
+  "ver": "2026-11",
+  "opts": [
+   "An iron nail",
+   "A steel paper clip",
+   "A cast-iron pan",
+   "An aluminum can"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-3-008",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "An axe blade splits a log by pushing the wood apart. Which simple machine is the blade?",
+  "why": "A wedge is thin on one edge and wide on the other, so it turns a push downward into a push outward.",
+  "hint": "Think of the shape of a doorstop.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "A pulley",
+   "A wedge",
+   "A lever",
+   "A wheel and axle"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-3-009",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A hard swing sends a baseball much farther than a gentle tap. Why?",
+  "why": "A harder hit gives the ball more speed and energy, so it flies farther. The ball's weight stays the same.",
+  "hint": "Think about how big the push is.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "A bigger push gives it more speed",
+   "The ball weighs less after hard hits",
+   "Gentle taps make gravity stronger",
+   "A fast swing pushes air away first"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-010",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Which part of your skeleton works like a cage to protect your heart and lungs?",
+  "why": "Your ribs curve around your chest like a cage. The skull protects your brain, and the spine protects nerves.",
+  "hint": "You can feel them on your chest.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 1-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "The spine",
+   "The skull",
+   "The ribs",
+   "The hip bones"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-3-011",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Fast swimmers like sharks have smooth, pointed bodies. How does that shape help?",
+  "why": "A smooth, tapered shape has less drag, so swimmers use less energy to move fast. Weight and floating are different.",
+  "hint": "Think of how a pointed boat cuts through waves.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "It helps the animal float up",
+   "Water slides past it easily",
+   "It keeps ocean water out",
+   "It makes the animal weigh less"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-3-012",
+  "topic": "science",
+  "level": 3,
+  "type": "order",
+  "q": "Put the steps of how a fossil forms in order.",
+  "why": "Burying an animal quickly protects its bones. Over millions of years minerals harden them into stone fossils.",
+  "hint": "The fossil has to exist before anyone can find it.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "An animal dies and is buried",
+   "Sand and mud pile on top",
+   "Minerals slowly turn bone to rock",
+   "People dig up the fossil"
+  ]
+ },
+ {
+  "id": "sciB-3-013",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "The whale shark is a fish, not a whale.",
+  "why": "Whale sharks are sharks, so they are fish with gills. They get the name from their huge size.",
+  "hint": "Does it have gills or lungs?",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-014",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Leaves are green because they hold a green material that captures sunlight. What is it called?",
+  "why": "Chlorophyll soaks up sunlight so a leaf can make food. In fall it breaks down, and other colors show.",
+  "hint": "Its name starts with 'chloro,' which means green.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Pollen",
+   "Nectar",
+   "Sap",
+   "Chlorophyll"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-3-015",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Parrotfish scrape algae off coral with hard, beak-like teeth. What does their waste become?",
+  "why": "Parrotfish grind up bits of coral, and their waste becomes sand. One fish can make hundreds of pounds a year.",
+  "hint": "Think of what a beach is made of.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Tiny pearls",
+   "Salt crystals",
+   "Fine white sand",
+   "New coral reefs"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-3-016",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A window is made of clear glass, and light passes straight through it. What is such a material called?",
+  "why": "Transparent materials let light through so you can see clearly. Opaque materials block light completely.",
+  "hint": "The word starts with 'trans,' meaning across.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4-3",
+  "ver": "2026-11",
+  "opts": [
+   "Transparent",
+   "Opaque",
+   "Reflective",
+   "Magnetic"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-017",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "You shout in a canyon and hear your voice again a moment later. What is this?",
+  "why": "An echo is sound that bounces off a hard surface and comes back to you.",
+  "hint": "The sound has to come back from somewhere.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 1-PS4-1",
+  "ver": "2026-11",
+  "opts": [
+   "Sound turning into light",
+   "The wind repeating your words",
+   "Sound bouncing off a hard surface",
+   "Your ears making noise"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-3-018",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "A first test version of a new invention is called a what?",
+  "why": "Engineers build a prototype to test their idea, then improve it before making the final version.",
+  "hint": "It is the first model made for testing.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "A prototype",
+   "A hypothesis",
+   "An ecosystem",
+   "An eclipse"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-019",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "Jellyfish have no brain, no heart and no bones.",
+  "why": "A jellyfish is mostly water. A net of nerves senses the world, and the body moves water without a heart.",
+  "hint": "Jellyfish are very simple animals.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-3-020",
+  "topic": "science",
+  "level": 3,
+  "type": "choice",
+  "q": "During a solar eclipse, the Sun seems to vanish for a few minutes. What happens?",
+  "why": "The Moon passes in front of the Sun and blocks its light. Earth's shadow causes a lunar eclipse instead.",
+  "hint": "Something of the size of the Moon is in the way.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Earth's shadow covers the Sun",
+   "The Sun stops shining for a while",
+   "A giant cloud drifts across the Sun",
+   "The Moon moves between the Sun and Earth"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-4-001",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "A hammerhead shark sweeps its wide head back and forth over the sand. What is it most likely doing?",
+  "why": "A hammerhead's wide head holds sensors spread far apart. Sweeping it over the sand helps it find stingrays buried below.",
+  "hint": "Think about why wide-set sensors might help.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Cleaning its gills",
+   "Digging a nest for eggs",
+   "Hunting for hidden prey",
+   "Looking for a mate to dance with"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-4-002",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Fossil dinosaur poop is called a coprolite. What can scientists learn from it?",
+  "why": "Coprolites can hold bits of bone, seeds, or plant fibers. Those clues show what a dinosaur had eaten.",
+  "hint": "Think about what comes out after a meal.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": true,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "What the dinosaur ate",
+   "How loudly it roared",
+   "What color its skin was",
+   "How fast it could run"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-4-003",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "About how many Earths could fit inside the Sun?",
+  "why": "The Sun is enormous. Roughly 1.3 million Earths would fit inside it, even though it looks small from far away.",
+  "hint": "The Sun makes Earth look like a tiny marble.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "About ten",
+   "About a hundred",
+   "About a thousand",
+   "More than a million"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-4-004",
+  "topic": "science",
+  "level": 4,
+  "type": "number",
+  "q": "Suppose a coral reef grows 2 centimeters each year. How many centimeters does it grow in 15 years?",
+  "why": "Growth adds up each year: 2 cm x 15 years = 30 cm. Real reefs grow slowly, so tall reefs are very old.",
+  "hint": "Multiply the yearly growth by the years.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "a": 30
+ },
+ {
+  "id": "sciB-4-005",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Which kind of rock forms when melted rock cools and hardens?",
+  "why": "Igneous rock starts as lava or magma and hardens as it cools. Granite and basalt are examples.",
+  "hint": "The name comes from a word for fire.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-ESS1",
+  "ver": "2026-11",
+  "opts": [
+   "Sedimentary rock",
+   "Igneous rock",
+   "Metamorphic rock",
+   "Fossil rock"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-4-006",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Which sentence is about climate rather than weather?",
+  "why": "Weather is what the sky does on a given day. Climate is the usual pattern over many years.",
+  "hint": "Climate describes what is true year after year.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NGSS 3-ESS2-2",
+  "ver": "2026-11",
+  "opts": [
+   "It rained in town this morning",
+   "Strong wind blew all afternoon",
+   "Snow fell on the hill last night",
+   "This desert has hot, dry summers every year"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-4-007",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "You stir sugar into warm water and it seems to vanish. Where did the sugar go?",
+  "why": "Sugar dissolves. Its tiny pieces mix evenly in the water. You can still taste it, so it is not gone.",
+  "hint": "Taste the water and you can tell.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS1",
+  "ver": "2026-11",
+  "opts": [
+   "It turned into water",
+   "It mixed in as tiny, unseen bits",
+   "It was destroyed completely",
+   "It sank and hid at the bottom"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-4-008",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "A rope runs over a wheel at the top of a flagpole. What does this pulley help you do?",
+  "why": "A fixed pulley changes the direction of your pull. It does not lower the weight or the effort needed.",
+  "hint": "Think about which way your hands move.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Pull down to raise the flag",
+   "Make the flag weigh less",
+   "Lift the flag with half the effort",
+   "Make the rope longer"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-4-009",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "A baseball rolls off a table. While it falls, it goes faster and faster. Why?",
+  "why": "Gravity pulls the whole time the ball falls, so its speed keeps growing. The ball's weight stays the same.",
+  "hint": "One force acts the entire fall.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "The air pushes it from above",
+   "The ball gets heavier as it falls",
+   "Gravity keeps pulling it downward",
+   "Spinning adds speed each second"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-4-010",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "In bright light, the dark center of your eye gets smaller. What is that center called?",
+  "why": "The pupil is the opening that lets light into the eye. The iris is the colored ring that makes it larger or smaller.",
+  "hint": "It is a hole, not a ring.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "The iris",
+   "The pupil",
+   "The lens",
+   "The eyelid"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-4-011",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Seaweed grows near the ocean's surface but not on the deep sea floor. Why?",
+  "why": "Seaweed needs sunlight to make food, and sunlight fades with depth. Below a few hundred meters, it is dark.",
+  "hint": "What do plants and seaweed need to make food?",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Deep water is far too salty",
+   "Waves are too strong down there",
+   "Fish eat all the seaweed",
+   "Sunlight cannot reach deep water"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-4-012",
+  "topic": "science",
+  "level": 4,
+  "type": "order",
+  "q": "Put these in order of when they first appeared on Earth, earliest first.",
+  "why": "Trilobites lived over 500 million years ago, dinosaurs about 230 million, mammoths a few million, and humans roughly 300,000 years ago.",
+  "hint": "Dinosaurs lived long before any mammoths.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "Trilobites",
+   "Dinosaurs",
+   "Woolly mammoths",
+   "Humans"
+  ]
+ },
+ {
+  "id": "sciB-4-013",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Sea otters sometimes hold paws while they sleep so they do not drift apart.",
+  "why": "Sleeping otters float on the water and hold paws or wrap in kelp to stay together. Some otters do this in groups called rafts.",
+  "hint": "Think about what floating animals worry about.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-4-014",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Earth's crust is broken into huge pieces that move very slowly. What are they called?",
+  "why": "Tectonic plates drift a few centimeters a year. Where they bump or slide, earthquakes and volcanoes can happen.",
+  "hint": "These pieces fit together like a giant puzzle.",
+  "tags": [],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "Lava tubes",
+   "Ocean currents",
+   "Tectonic plates",
+   "Magma chambers"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-4-015",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "A straw in a glass of water looks bent at the water's surface. Why?",
+  "why": "Light changes direction when it moves between water and air, called refraction. The straw is still straight.",
+  "hint": "Take the straw out and look again.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "Light bends between water and air",
+   "The straw really bends in water",
+   "Water heats the straw unevenly",
+   "The glass squeezes the straw"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-4-016",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "You hit a drum harder. Why does it sound louder?",
+  "why": "A harder hit makes bigger vibrations, and bigger vibrations make louder sound. Speed of sound stays the same.",
+  "hint": "Think about how far the drum skin moves.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "The sound travels faster",
+   "The drum becomes heavier",
+   "The drum skin wiggles with bigger swings",
+   "The air gets thicker"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-4-017",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "An engineer wants a stronger bridge frame. Which shape adds the most strength?",
+  "why": "Triangles do not bend out of shape easily, so bridges and towers use them everywhere.",
+  "hint": "Look at the metal frames of big bridges.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "Triangles",
+   "Circles",
+   "Wavy lines",
+   "Loose loops"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-4-018",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Where does the energy in an apple mostly come from, long before you eat it?",
+  "why": "Leaves use sunlight to make food for the tree. Soil and water help, but the energy comes from the Sun.",
+  "hint": "Think about what leaves collect.",
+  "tags": [
+   "food"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS3",
+  "ver": "2026-11",
+  "opts": [
+   "Soil",
+   "Rainwater",
+   "Tree roots",
+   "Sunlight"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-4-019",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "A flounder lies flat on the sandy sea floor and matches its colors. What does this help it do?",
+  "why": "Camouflage hides the flounder from predators and from the small animals it hunts.",
+  "hint": "Think about why a color match matters.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "Stay warm in cold water",
+   "Blend in so it is hard to see",
+   "Swim much faster",
+   "Breathe more easily"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-4-020",
+  "topic": "science",
+  "level": 4,
+  "type": "choice",
+  "q": "Some dinosaurs were as small as a chicken.",
+  "why": "Dinosaurs came in all sizes. Little ones like Compsognathus were about as big as a chicken.",
+  "hint": "Not every dinosaur was giant.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-5-001",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Most fish float with a gas-filled swim bladder. Sharks have none. What helps a shark stay up?",
+  "why": "Shark liver oil is lighter than seawater, so it gives some lift. Fins and a steady swim help too.",
+  "hint": "Sharks have no air inside; think of oil floating on water.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Heavy bones that float well",
+   "Gulping air at the surface",
+   "A big liver full of light oil",
+   "Warm blood that lifts the body"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-5-002",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "How do scientists work out how old a dinosaur fossil is?",
+  "why": "Rock layers hold natural clocks: some minerals change at a steady pace. That tells the age of the fossils nearby.",
+  "hint": "The rock tells time better than the bone.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "By dating the rock layers around it",
+   "By weighing the fossil today",
+   "By measuring how big it grew",
+   "By counting cracks in the bone"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-5-003",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "From Earth we always see the same side of the Moon. Why?",
+  "why": "The Moon does spin. It turns exactly once while it orbits Earth once, so one face always points toward us.",
+  "hint": "The Moon spins at a very particular rate.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Its far side is always in Earth's shadow",
+   "It never spins on its axis",
+   "Clouds hide the far side from us",
+   "It spins once for each trip around Earth"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-5-004",
+  "topic": "science",
+  "level": 5,
+  "type": "number",
+  "q": "Suppose only 10% of the energy in each step of a food chain passes to the next step. Plankton hold 10,000 units. How many units reach a shark that eats fish that eat the plankton?",
+  "why": "Plankton hold 10,000, fish get 10% = 1,000, and the shark gets 10% of that = 100. Energy shrinks at each step.",
+  "hint": "Take 10% twice.",
+  "tags": [
+   "sharks",
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NGSS 5-LS2",
+  "ver": "2026-11",
+  "a": 100
+ },
+ {
+  "id": "sciB-5-005",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Rising air cools. How does that help a cloud form?",
+  "why": "Cool air holds less water vapor, so extra vapor condenses into droplets around bits of dust. Billions of drops make a cloud.",
+  "hint": "Think about a cold glass on a warm day.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Dust turns into water",
+   "Water vapor turns into tiny droplets",
+   "Oxygen freezes into crystals",
+   "Wind squeezes rain out of air"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-5-006",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Which one is a chemical change, making a new substance?",
+  "why": "Rust is a new substance, formed when iron meets oxygen and water. Melting, dissolving and tearing keep the same material.",
+  "hint": "A chemical change cannot be easily undone.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 5-PS1",
+  "ver": "2026-11",
+  "opts": [
+   "Ice melting in a glass",
+   "Sugar dissolving in tea",
+   "Paper being torn into bits",
+   "A nail rusting in the rain"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-5-007",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "In a wheelbarrow, where is the pivot point (fulcrum) of the lever?",
+  "why": "The wheelbarrow turns around its wheel. The load sits between the wheel and your hands, which lift at the handles.",
+  "hint": "The thing that stays in place when lifting is the pivot.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "At the handles",
+   "At the wheel",
+   "In the middle of the load",
+   "At the front of the tray"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-5-008",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A bat hits a ball with a strong push. What does the ball do to the bat?",
+  "why": "Forces come in pairs of equal size, pointing opposite ways. That is why a hard hit can sting a batter's hands.",
+  "hint": "Think about what a batter's hands feel.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS MS-PS2-1",
+  "ver": "2026-11",
+  "opts": [
+   "Pushes back with the same size force",
+   "Pushes back with a smaller force",
+   "Pushes back with a bigger force",
+   "Does not push at all"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-5-009",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Which part of your blood helps fight germs?",
+  "why": "White blood cells find and attack germs. Red cells carry oxygen, and platelets plug cuts.",
+  "hint": "The color tells you the cell type.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Red blood cells",
+   "Platelets",
+   "White blood cells",
+   "Plasma"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-5-010",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Which living things make most of the oxygen that comes from the ocean?",
+  "why": "Phytoplankton use sunlight to make food and release oxygen. They make a huge share of the oxygen we breathe.",
+  "hint": "The answer is small and drifts in sunlight.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Whales and dolphins",
+   "Tiny drifting algae called phytoplankton",
+   "Kelp forests only",
+   "Coral reefs"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-5-011",
+  "topic": "science",
+  "level": 5,
+  "type": "order",
+  "q": "Put these layers of Earth's atmosphere in order, starting at the ground.",
+  "why": "Weather happens in the troposphere. Higher up come the stratosphere, mesosphere, and thermosphere, where air is very thin.",
+  "hint": "The name of the lowest layer starts with 'tropo.'",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Troposphere",
+   "Stratosphere",
+   "Mesosphere",
+   "Thermosphere"
+  ]
+ },
+ {
+  "id": "sciB-5-012",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A bolt of lightning is hotter than the surface of the Sun.",
+  "why": "Lightning heats air to about 30,000 degrees Celsius for a split second. The Sun's surface is only about 5,500.",
+  "hint": "Lightning is brief but extremely hot.",
+  "tags": [
+   "weather"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-5-013",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Scientists find seashell fossils near the top of a tall mountain. What does this suggest?",
+  "why": "Earth's plates push rock upward over millions of years. Mountains can lift old sea floor high into the sky.",
+  "hint": "Think about where shellfish live and how land can move.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": false,
+  "src": "USGS",
+  "ver": "2026-11",
+  "opts": [
+   "Shellfish once climbed the mountain",
+   "Birds carried the shells there",
+   "Rain washed shells up the slope",
+   "Old sea floor was lifted up over time"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-5-014",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A red shirt looks red in sunlight. What is happening to the light?",
+  "why": "A thing's color is the light it bounces back to your eyes. A red shirt bounces red and soaks up other colors.",
+  "hint": "The color you see is the light that bounces off.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "It makes red light inside itself",
+   "It absorbs red light and reflects the rest",
+   "It reflects red light and absorbs the rest",
+   "It blocks all the light"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-5-015",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Put your ear on a railroad track and you may hear a far-off train sooner than through the air. Why?",
+  "why": "Particles in solids are packed close together, so sound passes along faster than in air.",
+  "hint": "Think about which material is more tightly packed.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "Sound travels faster through metal than air",
+   "Metal makes sound louder than air",
+   "Trains make sounds only in metal",
+   "The air blocks the sound of trains"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-5-016",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A team makes a bike frame stronger with a new material, but the bike costs much more. What is this called?",
+  "why": "Engineers weigh good and bad results of each design choice. Getting more of one thing often costs something else.",
+  "hint": "You gain something and give up something else.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "A prototype",
+   "A hypothesis",
+   "A trade-off",
+   "A variable"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-5-017",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A desert fox has very large ears. How do they help it survive?",
+  "why": "Blood flows through the thin, big ears and loses heat to the air, which helps keep the fox cool.",
+  "hint": "Think about what a desert does to bodies.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "They let extra body heat escape",
+   "They store water for dry days",
+   "They hear water underground",
+   "They scare away bigger animals"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-5-018",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Leaves have tiny openings, mostly on the underside. What passes through them?",
+  "why": "These openings, called stomata, let carbon dioxide in and oxygen and water vapor out.",
+  "hint": "They work like tiny doors for gases.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Sunlight and soil",
+   "Sap and roots",
+   "Seeds and pollen",
+   "Air gases and water vapor"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-5-019",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "Astronauts float inside the space station even though gravity still pulls on them. Why?",
+  "why": "Gravity up there is still about 90% as strong. The station moves sideways so fast that it keeps falling around Earth.",
+  "hint": "Gravity has not switched off.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "There is no gravity that far up",
+   "Both are falling around Earth together",
+   "Engines inside cancel out gravity",
+   "The station sits above Earth's air"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-5-020",
+  "topic": "science",
+  "level": 5,
+  "type": "choice",
+  "q": "A day on Venus is longer than a year on Venus.",
+  "why": "Venus spins very slowly: one turn takes about 243 Earth days, but one trip around the Sun takes only about 225.",
+  "hint": "Venus is a very slow spinner.",
+  "tags": [
+   "space"
+  ],
+  "fun": true,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-6-001",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Sharks have skeletons of cartilage, not bone. Which fish are their closest relatives?",
+  "why": "Sharks, rays and skates all have cartilage skeletons and share a common ancestor. Tuna and eels have bony skeletons.",
+  "hint": "Look for another flat or flexible-skeleton group.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Eels and morays",
+   "Tuna and mackerel",
+   "Rays and skates",
+   "Seahorses and pipefish"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-6-002",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Archaeopteryx had feathers and wings, but also teeth and a long bony tail. Why is this fossil so important?",
+  "why": "Archaeopteryx mixes bird traits with dinosaur traits. That supports the idea that birds descended from dinosaurs.",
+  "hint": "A mix of two animal groups.",
+  "tags": [
+   "dinosaurs"
+  ],
+  "fun": false,
+  "src": "AMNH",
+  "ver": "2026-11",
+  "opts": [
+   "It shows features of both dinosaurs and birds",
+   "It proves that all dinosaurs could fly",
+   "It shows that birds lived before dinosaurs",
+   "It proves dinosaurs lived mostly in water"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-6-003",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A star is 10 light-years away. What do you see when you look at it tonight?",
+  "why": "A light-year is the distance light travels in one year. Light from that star left 10 years ago, so you see its past.",
+  "hint": "Light takes time to travel across space.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "The star as it is right now",
+   "The star 10 years from now",
+   "The star as it was 10 days ago",
+   "The star as it was 10 years ago"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-6-004",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "Earth makes one full turn, 360 degrees, in 24 hours. How many degrees does it turn in 1 hour?",
+  "why": "360 divided by 24 equals 15. This is why time zones are about 15 degrees wide.",
+  "hint": "Divide the full turn by the number of hours.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "a": 15
+ },
+ {
+  "id": "sciB-6-005",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A hurricane weakens fast when it moves over land. Why?",
+  "why": "Hurricanes get energy from warm ocean water. Over land, that supply is cut off, and rubbing against land slows the winds.",
+  "hint": "What is the storm's energy source?",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "Land has too much cool wind",
+   "It loses the warm ocean that feeds it",
+   "Mountains tear it into pieces",
+   "Land makes the air press harder"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-6-006",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A solid steel nail sinks, yet a huge steel ship floats. Why?",
+  "why": "A ship's hollow shape makes its overall density less than water. It pushes aside water equal to its weight, so it floats.",
+  "hint": "Think about the whole ship's shape, not just its metal.",
+  "tags": [
+   "ocean",
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 5-PS2",
+  "ver": "2026-11",
+  "opts": [
+   "Ship steel is a lighter kind of steel",
+   "The engine pushes it up from below",
+   "Large objects feel less of gravity's pull",
+   "Its hollow shape pushes aside lots of water"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-6-007",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "A gear with 10 teeth drives a gear with 40 teeth. How many turns of the small gear make the big gear turn exactly once?",
+  "why": "Each turn of the small gear moves 10 teeth, so it takes 40 divided by 10 = 4 turns to move all 40 teeth.",
+  "hint": "Count how many teeth need to pass by.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-PS2",
+  "ver": "2026-11",
+  "a": 4
+ },
+ {
+  "id": "sciB-6-008",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A pitched ball's motion energy depends on its speed squared. If a pitch is twice as fast, its motion energy becomes how many times bigger?",
+  "why": "Doubling the speed multiplies the speed squared by 2 x 2 = 4. That is why fast pitches are so much harder to catch.",
+  "hint": "Square the number 2.",
+  "tags": [
+   "baseball"
+  ],
+  "fun": false,
+  "src": "NGSS MS-PS3-1",
+  "ver": "2026-11",
+  "opts": [
+   "Two times",
+   "Four times",
+   "Three times",
+   "Eight times"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-6-009",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Why can two eyes judge distance better than one eye?",
+  "why": "The brain compares two slightly different views to work out how far away things are. Close one eye and it is harder.",
+  "hint": "Your eyes are a few centimeters apart.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS MS-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Each eye sees from a slightly different spot",
+   "Two eyes take in twice as much light",
+   "One eye is always closed inside the brain",
+   "Each eye sees a different color of light"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-6-010",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A deep-sea anglerfish dangles a glowing lure. How is the light made?",
+  "why": "This is bioluminescence. Chemicals react and give off light without heat. It can lure small prey in the dark.",
+  "hint": "Light can come from chemistry, not only from heat or sunlight.",
+  "tags": [
+   "ocean"
+  ],
+  "fun": true,
+  "src": "NOAA",
+  "ver": "2026-11",
+  "opts": [
+   "By soaking up sunlight earlier",
+   "By electric sparks like a battery",
+   "By chemical reactions in living cells",
+   "By rubbing its scales together"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-6-011",
+  "topic": "science",
+  "level": 6,
+  "type": "order",
+  "q": "Put the path of a sound through your ear in order.",
+  "why": "Sound shakes the eardrum, tiny bones pass the shaking inward, and nerves turn it into signals your brain understands.",
+  "hint": "The eardrum is the first thing to wiggle.",
+  "tags": [
+   "body"
+  ],
+  "fun": false,
+  "src": "NGSS MS-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "Sound waves enter the ear canal",
+   "The eardrum vibrates",
+   "Tiny bones pass on the shaking",
+   "Nerves signal the brain"
+  ]
+ },
+ {
+  "id": "sciB-6-012",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A metal spoon feels colder than a wooden spoon in the same room because the metal really is colder.",
+  "why": "Both are the same temperature as the room. Metal pulls heat out of your hand faster, so it feels colder.",
+  "hint": "Both spoons have sat in the same room.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 5-PS1",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-6-013",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Scientists study air bubbles trapped in very old polar ice. What can the bubbles show them?",
+  "why": "Snow packs down into ice and traps bubbles of the air from that time. Deeper ice holds older air.",
+  "hint": "The bubbles were sealed in when the snow fell.",
+  "tags": [
+   "weather"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "How deep the oceans were",
+   "What Earth's air was like long ago",
+   "Which animals lived in the ice",
+   "How many storms struck last year"
+  ],
+  "a": 1
+ },
+ {
+  "id": "sciB-6-014",
+  "topic": "science",
+  "level": 6,
+  "type": "number",
+  "q": "You stand 2 meters in front of a flat mirror. How many meters away from you does your reflection seem to be?",
+  "why": "Your reflection seems to be as far behind the mirror as you are in front: 2 m + 2 m = 4 m from you.",
+  "hint": "The reflection is behind the mirror.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 4-PS4",
+  "ver": "2026-11",
+  "a": 4
+ },
+ {
+  "id": "sciB-6-015",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "An ambulance siren sounds higher as it comes toward you and lower as it drives away. Why?",
+  "why": "Moving toward you squeezes the waves closer together, giving a higher pitch. Moving away spreads them out.",
+  "hint": "The truck moves while the sound is made.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS MS-PS4",
+  "ver": "2026-11",
+  "opts": [
+   "The siren changes its own tune",
+   "Sound travels faster as it leaves",
+   "Air gets thicker behind the truck",
+   "Sound waves bunch up, then stretch out"
+  ],
+  "a": 3
+ },
+ {
+  "id": "sciB-6-016",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A tall, narrow block tower and a short, wide one are pushed. Why is the wide, low tower harder to tip?",
+  "why": "A low center of gravity above a wide base keeps the tower balanced, so a tip needs a larger push.",
+  "hint": "Think about where the weight is and what it stands on.",
+  "tags": [
+   "machines"
+  ],
+  "fun": false,
+  "src": "NGSS 3-5-ETS1",
+  "ver": "2026-11",
+  "opts": [
+   "It has far fewer blocks in it",
+   "Its blocks are heavier on one side",
+   "Its weight sits lower over a wider base",
+   "Wind cannot touch a wide tower"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-6-017",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A harmless hoverfly has yellow and black stripes like a stinging wasp. What is this trick called?",
+  "why": "In mimicry, one animal looks like another that predators avoid. Camouflage blends into the background instead.",
+  "hint": "It copies another animal's look.",
+  "tags": [
+   "animals"
+  ],
+  "fun": false,
+  "src": "NGSS 3-LS4",
+  "ver": "2026-11",
+  "opts": [
+   "Mimicry",
+   "Hibernation",
+   "Migration",
+   "Camouflage"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-6-018",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "A tiny seed grows into a tree that weighs tons. Where do the carbon atoms in its wood come from?",
+  "why": "Leaves take in carbon dioxide from the air and build it into sugars and wood. Sunlight gives energy, not atoms.",
+  "hint": "Trees build wood from a gas.",
+  "tags": [],
+  "fun": false,
+  "src": "NGSS 5-LS1",
+  "ver": "2026-11",
+  "opts": [
+   "Minerals in the soil",
+   "Water from the roots",
+   "Carbon dioxide in the air",
+   "Sunlight shining on the leaves"
+  ],
+  "a": 2
+ },
+ {
+  "id": "sciB-6-019",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Why is a black hole black?",
+  "why": "A black hole packs huge mass into a tiny space. Gravity near it is so strong that even light cannot get out.",
+  "hint": "Think about what escapes from strong gravity.",
+  "tags": [
+   "space"
+  ],
+  "fun": false,
+  "src": "NASA",
+  "ver": "2026-11",
+  "opts": [
+   "Even light cannot escape its gravity",
+   "It is coated in thick black dust",
+   "It is too cold to give off light",
+   "It is a hole that has no mass"
+  ],
+  "a": 0
+ },
+ {
+  "id": "sciB-6-020",
+  "topic": "science",
+  "level": 6,
+  "type": "choice",
+  "q": "Sharks lived on Earth before the first trees did.",
+  "why": "Sharks swam in oceans more than 400 million years ago. The first trees appeared about 385 million years ago.",
+  "hint": "Sharks have been around for a very long time.",
+  "tags": [
+   "sharks"
+  ],
+  "fun": true,
+  "src": "Smithsonian",
+  "ver": "2026-11",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "a": 0
+ }
+]
