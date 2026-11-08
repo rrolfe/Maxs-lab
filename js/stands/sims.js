@@ -82,13 +82,19 @@ export const UPGRADES = {
     { id: 'candy', tier: 1, price: 100, fx: { flat: 2 }, unlock: ['popcandy', 'choc'] },
     { id: 'cones', tier: 2, price: 160, fx: {}, unlock: ['cone'] },
     { id: 'slush', tier: 2, price: 220, fx: { hot: 0.1 }, unlock: ['slush', 'froslem'] },
-    // More ball fields: each one moves the crowd up a band (1 field 10-50 a day, 2: 50-100, 3: 100-200, 4: 200-400, 5: 400-800, 6: 800-1600; see CROWD_BANDS) (and brings its own windows and storage). Prices 90, 220, 500, 1100, 2400 (Nov 8 2026: cut from 300-4800 because it took
-    // 12+ innings just to afford the first one; now a careful player has field 2 by about inning 5 and field 3 by about inning 10).
-    { id: 'field2', tier: 1, price: 90, fx: { crowd: 2, serve: 40, stock: 40 } },
-    { id: 'field3', tier: 1, price: 220, req: ['field2'], fx: { crowd: 2, serve: 80, stock: 80 } },
-    { id: 'field4', tier: 2, price: 500, req: ['field3'], fx: { crowd: 2, serve: 160, stock: 160 } },
-    { id: 'field5', tier: 3, price: 1100, req: ['field4'], fx: { crowd: 2, serve: 320, stock: 320 } },
-    { id: 'field6', tier: 4, price: 2400, req: ['field5'], fx: { crowd: 2, serve: 640, stock: 640 } },
+    // More ball fields: each one moves the crowd up a band (1 field 10-50 fans a day, 2: 50-100, 3: 100-200, 4: 200-400). From the 4th on they come TWO AT A TIME
+    // and every pair multiplies the crowd by 4: 6 fields 800-1,600, 8 fields 3,200-6,400, 10 fields 12,800-25,600, 12 fields 51,200-102,400 (Rob, Nov 8 2026).
+    // Prices: 90, 220, 500, then 4,000 / 20,000 / 100,000 / 500,000 for the pairs (each pays for itself in about 3-5 days). serve/stock add up to 320, 1,280, 5,120, 20,480, 102,400.
+    { id: 'field2', tier: 1, price: 90, fx: { serve: 40, stock: 40 } },
+    { id: 'field3', tier: 1, price: 220, req: ['field2'], fx: { serve: 80, stock: 80 } },
+    { id: 'field4', tier: 1, price: 500, req: ['field3'], fx: { serve: 160, stock: 160 } },
+    { id: 'fields56', tier: 1, price: 4000, req: ['field4'], fx: { serve: 960, stock: 960 } },
+    { id: 'fields78', tier: 2, price: 20000, req: ['fields56'], fx: { serve: 3840, stock: 3840 } },
+    { id: 'fields910', tier: 3, price: 100000, req: ['fields78'], fx: { serve: 15360, stock: 15360 } },
+    { id: 'fields1112', tier: 4, price: 500000, req: ['fields910'], fx: { serve: 81920, stock: 81920 } },
+    // Merch: caps, pennants and foam fingers sell for a lot more than they cost; the big store adds team shirts and plush sharks. Fans buy more of it after a home run.
+    { id: 'merch', tier: 1, price: 150, fx: {}, unlock: ['cap', 'pennant', 'finger'] },
+    { id: 'merch2', tier: 2, price: 600, req: ['merch'], fx: {}, unlock: ['shirt', 'plush'] },
     { id: 'jerseys', tier: 2, price: 110, fx: { ptol: 0.12 } },
     { id: 'window2', tier: 3, price: 240, fx: { serve: 40, traffic: 0.25 } },
     { id: 'cook', tier: 3, price: 200, fx: { serve: 40, cost: 0.9 } },
@@ -98,7 +104,12 @@ export const UPGRADES = {
 };
 export const upgradeList = (stand) => UPGRADES[stand] || [];
 /** Adds up everything the owned upgrades do. */
+export function fixLegacyUp(up) {      // before pairs existed there were separate 5th and 6th fields: whoever owned them now owns the first pair
+  if (up && (up.field5 || up.field6)) { up.fields56 = 1; delete up.field5; delete up.field6; }
+  return up;
+}
 export function effects(stand, up = {}) {
+  if (up && (up.field5 || up.field6)) up = { ...up, fields56: 1 };
   const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, stock: 0, cost: 1, crowd: 1, hot: 0, rain: 0, unlock: new Set() };
   for (const u of upgradeList(stand)) if (up[u.id]) {
     for (const [k, v] of Object.entries(u.fx)) { if (k === 'cost') e.cost *= v; else if (k === 'crowd') e.crowd *= v; else e[k] += v; }
@@ -184,31 +195,48 @@ export const MENU = [
   { id: 'cone', cost: 0.7, price: 3, base: 1.0 },
   { id: 'slush', cost: 0.4, price: 3, base: 1.0 },
   { id: 'froslem', cost: 0.45, price: 3, base: 0.8 },
+  // merch: a few sales bring a lot of money (the margin on a cap is $9; on a hot dog $2)
+  { id: 'pennant', cost: 1.5, price: 6, base: 0.8, merch: true },
+  { id: 'finger', cost: 2.5, price: 9, base: 0.7, merch: true },
+  { id: 'cap', cost: 6, price: 15, base: 0.6, merch: true },
+  { id: 'plush', cost: 5, price: 14, base: 0.55, merch: true },
+  { id: 'shirt', cost: 12, price: 30, base: 0.5, merch: true },
 ];
 export const PRICE_LEVELS = { cheap: { mult: 0.8, accept: 0.97 }, normal: { mult: 1, accept: 0.85 }, fancy: { mult: 1.3, accept: 0.6 } };
 // what the day's story does to traffic and to what people crave
 export const SNACK_STORY = {
-  closeGame: { traffic: 1.25, w: { hotdog: 1.2, drink: 1.1 } },
-  homeRun: { traffic: 1.15, w: { popcandy: 1.8, choc: 1.6, chips: 1.2, slush: 1.3 } },
-  rainDelay: { traffic: 0.8, w: { hotdog: 1.5, fries: 1.5, burger: 1.3, icecream: 0.5, cone: 0.5 } },
-  bigCrowd: { traffic: 1.5, w: {} },
+  closeGame: { traffic: 1.25, w: { hotdog: 1.2, drink: 1.1 }, merch: 1.3 },
+  homeRun: { traffic: 1.15, w: { popcandy: 1.8, choc: 1.6, chips: 1.2, slush: 1.3 }, merch: 1.8 },
+  rainDelay: { traffic: 0.8, w: { hotdog: 1.5, fries: 1.5, burger: 1.3, icecream: 0.5, cone: 0.5 }, merch: 0.5 },
+  bigCrowd: { traffic: 1.5, w: {}, merch: 1.2 },
 };
 export const menuAvail = (up) => { const e = effects('snack', up); return MENU.filter((m) => m.start || e.unlock.has(m.id)); };
 export function snackWeights(ctx) {
   const w = WEATHER[ctx.weather], e = effects('snack', ctx.up), story = SNACK_STORY[ctx.event]?.w || {};
   return menuAvail(ctx.up).map((m) => {
     let k = m.base * (story[m.id] || 1);
+    if (m.merch) { k *= SNACK_STORY[ctx.event]?.merch || 1; if (ctx.weather === 'rainy') k *= 0.6; return { ...m, k }; }
     if (w.hot) { if (m.id === 'drink') k *= 2; if (m.id === 'icecream' || m.id === 'cone') k *= 2.2; if (m.id === 'slush' || m.id === 'froslem') k *= 2.6; if (m.id === 'hotdog') k *= 0.8; }
     else if (ctx.weather === 'rainy') { if (m.id === 'icecream' || m.id === 'cone' || m.id === 'slush' || m.id === 'froslem') k *= 0.4; if (m.id === 'hotdog' || m.id === 'fries') k *= 1.4; }
     else if (ctx.weather === 'cloudy' && (m.id === 'hotdog' || m.id === 'fries')) k *= 1.25;
     return { ...m, k };
   });
 }
-const CROWD_BANDS = [[10, 50], [50, 100], [100, 200], [200, 400], [400, 800], [800, 1600]];
-export const fieldsOwned = (up = {}) => 1 + ['field2', 'field3', 'field4', 'field5', 'field6'].filter((id) => up[id]).length;
-export const crowdBand = (n) => CROWD_BANDS[Math.min(CROWD_BANDS.length, Math.max(1, n)) - 1];
+// how many ball fields: 1 + fields 2-4 + two for every pair bought
+const FIELD_PAIRS = ['fields56', 'fields78', 'fields910', 'fields1112'];
+export const fieldsOwned = (up = {}) => {
+  const legacy = up.field5 || up.field6;
+  return 1 + ['field2', 'field3', 'field4'].filter((id) => up[id]).length + 2 * FIELD_PAIRS.filter((id, i) => up[id] || (i === 0 && legacy)).length;
+};
+/** [fewest, most] fans a day for this many ball fields. Up to 4 fields it is 10-50, 50-100, 100-200, 200-400; every two more fields makes it 4 times bigger. */
+export const crowdBand = (n) => {
+  n = Math.max(1, Math.floor(n));
+  if (n <= 4) return [[10, 50], [50, 100], [100, 200], [200, 400]][n - 1];
+  const k = Math.pow(4, (n - 4) / 2);
+  return [Math.round(200 * k), Math.round(400 * k)];
+};
 export const SNACK = {
-  id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = 40 + effects('snack', up || {}).stock; return m >= 300 ? 25 : m >= 120 ? 10 : 5; },
+  id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = 40 + effects('snack', up || {}).stock; return m >= 60000 ? 2500 : m >= 15000 ? 1000 : m >= 4000 ? 250 : m >= 1000 ? 100 : m >= 300 ? 25 : m >= 120 ? 10 : 5; },
   stockMax: (up) => 40 + effects('snack', up).stock,
   unitCostOf: (m, up) => m.cost * effects('snack', up).cost,
   costOf(plan, up) { return Object.entries(plan.stock).reduce((a, [id, n]) => a + n * MENU.find((m) => m.id === id).cost * effects('snack', up).cost, 0); },
@@ -216,10 +244,10 @@ export const SNACK = {
     const e = effects('snack', ctx.up), w = WEATHER[ctx.weather];
     const st = SNACK_STORY[ctx.event]?.traffic || 1;
     // The crowd comes in bands that depend on how many ball fields he owns (Rob, Nov 8): 1 field 10-50 people a day, 2 fields 50-100,
-    // 3 fields 100-200, 4 fields 200-400, then 400-800 and 800-1600. Weather, game-day stories and the shop upgrades decide where in the band.
+    // 3 fields 100-200, 4 fields 200-400, then two fields at a time, 4 times bigger each pair (see crowdBand). Weather, game-day stories and the shop upgrades decide where in the band.
     const score = w.base.snack * st * (1 + e.traffic) + e.flat;           // about 6 (rainy, bare stand) up to about 25 (hot game day, every upgrade bought)
     const q = Math.max(0, Math.min(1.05, (score - 6) / 20));
-    const [lo, hi] = CROWD_BANDS[fieldsOwned(ctx.up) - 1];
+    const [lo, hi] = crowdBand(fieldsOwned(ctx.up));
     return lo + (hi - lo) * q;
   },
   serveCap: (up) => 40 + effects('snack', up).serve,
@@ -231,7 +259,7 @@ export const SNACK = {
     let sold = 0, revenue = 0, pricey = 0, soldout = 0, busy = 0, served = 0;
     const customers = [];
     const cap = SNACK.serveCap(ctx.up);
-    const p2 = 0.22 + 0.07 * (weights.length - 3);
+    const p2 = 0.22 + 0.07 * (weights.filter((w) => !w.merch).length - 3);
     const accept = Math.min(1, lvl.accept + e.ptol * (lvl.mult > 1 ? 1 : 0.4) + WEATHER[ctx.weather].bonus * 0.5);
     for (let i = 0; i < n; i++) {
       if (served >= cap) { busy++; customers.push({ res: 'busy' }); continue; }
@@ -259,6 +287,7 @@ export const SIMS = { lemonade: LEMONADE, icecream: ICECREAM, snack: SNACK };
 
 /** What a sensible player earns over one season with these upgrades (used to hand out stars fairly). */
 export function parProfit(id, up, runs = 6) {
+  if (id === 'snack' && fieldsOwned(up) >= 8) runs = 1;      // thousands of fans a day: one season is enough
   let seed = 12345; const r = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
   let total = 0;
   for (let k = 0; k < runs; k++) for (let d = 0; d < seasonDays(id); d++) {
@@ -275,7 +304,7 @@ export function botDay(id, ctx, skill = 1, r = Math.random) {
     const weights = snackWeights(ctx); const tot = weights.reduce((a, b) => a + b.k, 0);
     const exp = SNACK.trafficOf(ctx) * 1.35;
     const stock = {};
-    for (const w of weights) stock[w.id] = Math.min(SNACK.stockMax(up), Math.round((exp * (w.k / tot) * (1.1 + (1 - skill) * (r() - 0.5))) / 5) * 5);
+    for (const w of weights) stock[w.id] = Math.min(SNACK.stockMax(up), Math.max(w.merch ? 5 : 0, Math.round((exp * (w.k / tot) * (1.1 + (1 - skill) * (r() - 0.5))) / 5) * 5));
     return sim.sim({ stock, level: skill > 0.6 ? 'normal' : ['cheap', 'normal', 'fancy'][Math.floor(r() * 3)] }, ctx, r);
   }
   const d = SINGLE[id], qM = 1 + effects(id, up).ptol;

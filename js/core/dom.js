@@ -62,8 +62,8 @@ export function fold(s) {
 
 export function money(n, lang = 'en') {
   const v = Math.round(n * 100) / 100;
-  const s = v.toFixed(2);
-  return lang === 'es' ? '$' + s : '$' + s;
+  const [whole, cents] = Math.abs(v).toFixed(2).split('.');
+  return (v < 0 ? '-' : '') + '$' + whole.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '.' + cents;   // $25,600.00 (same in Spanish: the lab keeps one money style)
 }
 
 /** Confetti: canvas, under one second, ~40 particles, skipped for reduced motion. */

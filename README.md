@@ -63,7 +63,7 @@ The Grown-up corner now has *Time in the lab* (minutes per day and per program, 
 
 ## Snack Shack expansion
 
-Ball fields set the size of the daily crowd: 1 field draws 10–50 fans a day, 2 fields 50–100, 3 fields 100–200, 4 fields 200–400, 5 fields 400–800, the ballpark complex 800–1,600 (weather, game days and shop upgrades decide where in the range). Prices: 2nd field $90, 3rd $220, 4th $500, 5th $1,100, ballpark complex $2,400; the 4th and later appear in later seasons and everything carries over. Each also adds serving capacity and storage, and starting stock for new menu items scales with the crowd. The Candy counter (season 1), cone machine and slush machine (frozen slush and frozen lemonade) add menu items.
+Ball fields set the size of the daily crowd: 1 field draws 10–50 fans a day, 2 fields 50–100, 3 fields 100–200, 4 fields 200–400 (weather, game days and shop upgrades decide where in the range). After the 4th, fields come two at a time and every pair makes the crowd four times bigger: 6 fields 800–1,600, 8 fields 3,200–6,400, 10 fields 12,800–25,600, 12 fields 51,200–102,400. Prices: 2nd field $90, 3rd $220, 4th $500, then $4,000 / $20,000 / $100,000 / $500,000 for the pairs (the later pairs appear in seasons 2, 3 and 4). Each also adds serving capacity and storage, and starting stock for new menu items scales with the crowd. The Merch stand ($150: pennants, foam fingers, caps) and the Big merch store ($600: team shirts, plush sharks) sell high-margin items — fans buy more of them after a home run. The Candy counter (season 1), cone machine and slush machine (frozen slush and frozen lemonade) add menu items.
 
 ## Recorded announcer clips
 

@@ -9,7 +9,7 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { awardBadges } from '../core/badges.js';
 import { COST } from '../core/economy.js';
-import { SIMS, fieldsOwned, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
+import { SIMS, fieldsOwned, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
 import { UP_TEXT } from './upgrade-text.js';
 
 addStrings({
@@ -34,7 +34,7 @@ addStrings({
     stSeasonWait: 'Your next season is ready when you are.', stCarryOver: 'Everything you bought and your {m} in cash carry over to the next season.', stUpgradesOwned: '{n} upgrades so far', stBackStands: 'Back to My Stands', stPause: 'Season in progress. Your stand is saved.',
     stMenu: 'Menu for today', stPortions: 'portions', stLevel: 'Price level', lvl_cheap: 'Cheap', lvl_normal: 'Normal', lvl_fancy: 'Fancy', lvl_cheap_s: 'Almost everyone buys', lvl_normal_s: 'Fair price', lvl_fancy_s: 'Bigger profit, fewer buyers',
     stEach: '{c} each → sells for {p}', stSnackCost: 'Cost to stock the menu', stSoldBy: 'Sold by item', stRanOut: 'Ran out of {x}',
-    m_hotdog: 'Hot dog', m_drink: 'Drink', m_chips: 'Chips', m_burger: 'Burger', m_fries: 'Fries', m_icecream: 'Ice cream scoop', m_popcandy: 'Popping candy', m_choc: 'Chocolate bar', m_cone: 'Ice cream cone', m_slush: 'Frosty slush', m_froslem: 'Frozen lemonade',
+    m_hotdog: 'Hot dog', m_drink: 'Drink', m_chips: 'Chips', m_burger: 'Burger', m_fries: 'Fries', m_icecream: 'Ice cream scoop', m_popcandy: 'Popping candy', m_choc: 'Chocolate bar', m_cone: 'Ice cream cone', m_slush: 'Frosty slush', m_froslem: 'Frozen lemonade', m_pennant: 'Pennant flag', m_finger: 'Foam finger', m_cap: 'Baseball cap', m_plush: 'Plush shark', m_shirt: 'Team shirt',
   },
   es: {
     stLemonade: 'Puesto de limonada', stIcecream: 'Puesto de helados', stSnack: 'Puesto de botanas del estadio', stBank: 'Tu dinero', stForecast: 'Pronóstico de hoy',
@@ -57,7 +57,7 @@ addStrings({
     stSeasonWait: 'Tu próxima temporada está lista cuando tú quieras.', stCarryOver: 'Todo lo que compraste y tus {m} en efectivo pasan a la próxima temporada.', stUpgradesOwned: '{n} mejoras hasta ahora', stBackStands: 'Volver a Mis puestos', stPause: 'Temporada en curso. Tu puesto está guardado.',
     stMenu: 'Menú de hoy', stPortions: 'porciones', stLevel: 'Nivel de precios', lvl_cheap: 'Barato', lvl_normal: 'Normal', lvl_fancy: 'Elegante', lvl_cheap_s: 'Casi todos compran', lvl_normal_s: 'Precio justo', lvl_fancy_s: 'Más ganancia, menos compradores',
     stEach: '{c} cada uno → se vende a {p}', stSnackCost: 'Costo de surtir el menú', stSoldBy: 'Vendido por producto', stRanOut: 'Se acabó: {x}',
-    m_hotdog: 'Hot dog', m_drink: 'Bebida', m_chips: 'Papitas', m_burger: 'Hamburguesa', m_fries: 'Papas fritas', m_icecream: 'Bola de helado', m_popcandy: 'Dulce explosivo', m_choc: 'Barra de chocolate', m_cone: 'Cono de helado', m_slush: 'Granizado helado', m_froslem: 'Limonada congelada',
+    m_hotdog: 'Hot dog', m_drink: 'Bebida', m_chips: 'Papitas', m_burger: 'Hamburguesa', m_fries: 'Papas fritas', m_icecream: 'Bola de helado', m_popcandy: 'Dulce explosivo', m_choc: 'Barra de chocolate', m_cone: 'Cono de helado', m_slush: 'Granizado helado', m_froslem: 'Limonada congelada', m_pennant: 'Banderín', m_finger: 'Dedo de espuma', m_cap: 'Gorra de béisbol', m_plush: 'Tiburón de peluche', m_shirt: 'Camiseta del equipo',
   },
 });
 
@@ -71,7 +71,7 @@ const CFG = {
   icecream: { title: 'stIcecream', unit: 'stTubs', per: 'stPerScoop', icon: 'icecream' },
   snack: { title: 'stSnack', unit: 'stPortions', per: 'stPerCup', icon: 'ballpark' },
 };
-const MENU_EMOJI = { hotdog: '🌭', drink: '🥤', chips: '🥔', burger: '🍔', fries: '🍟', icecream: '🍨', popcandy: '🍬', choc: '🍫', cone: '🍦', slush: '🧊', froslem: '🍋' };
+const MENU_EMOJI = { hotdog: '🌭', drink: '🥤', chips: '🥔', burger: '🍔', fries: '🍟', icecream: '🍨', popcandy: '🍬', choc: '🍫', cone: '🍦', slush: '🧊', froslem: '🍋', pennant: '🚩', finger: '☝️', cap: '🧢', plush: '🦈', shirt: '👕' };
 
 export function standState(id) {
   const sim = SIMS[id];
@@ -123,7 +123,8 @@ export function mount(el, { id }) {
     clearTimeout(timer);
     const ctxBase = st.next, { weather, event } = ctxBase;
     // first-time stock for a new menu item scales with the crowd (more ball fields = more food), so a big stand does not start nearly empty
-    const startStock = (id) => { const ctx = { weather: 'sunny', event: null, up: st.up }, w = snackWeights(ctx), tot = w.reduce((a, b) => a + b.k, 0), me = w.find((x) => x.id === id); const step = SNACK.stockStep(st.up); return Math.max(10, Math.round((SNACK.trafficOf(ctx) * 1.1 * (me ? me.k / tot : 0.1)) / step) * step); };
+    const startStock = (id) => { const ctx = { weather: 'sunny', event: null, up: st.up }, w = snackWeights(ctx), tot = w.reduce((a, b) => a + b.k, 0), me = w.find((x) => x.id === id); const step = SNACK.stockStep(st.up); const raw = Math.round((SNACK.trafficOf(ctx) * 1.1 * (me ? me.k / tot : 0.1)) / step) * step; return Math.max(me && me.merch ? step : 10, raw); };
+    if (isSnack) fixLegacyUp(st.up);
     const stockUnitMin = isSnack ? 0 : sim.costOf(sim.stockStep(st.up), st.up);
     let loan = 0;
     if (!isSnack && st.bank < stockUnitMin) { loan = sim.startBank - st.bank; st.bank = sim.startBank; save(); }
@@ -139,7 +140,7 @@ export function mount(el, { id }) {
       const nf = fieldsOwned(st.up), grew = nf > (st.fieldsSeen || 1);
       for (const m of MENU) if (!avail.includes(m.id)) st.mstock[m.id] = 0; else st.mstock[m.id] = clamp(grew ? Math.max(st.mstock[m.id] || 0, startStock(m.id)) : (st.mstock[m.id] ?? startStock(m.id)), 0, SNACK.stockMax(st.up));
       st.fieldsSeen = nf;
-      while (snackCost() > st.bank) { const top = Object.entries(st.mstock).sort((a, b) => b[1] - a[1])[0]; if (!top || !top[1]) break; st.mstock[top[0]] = Math.max(0, top[1] - 5); }
+      while (snackCost() > st.bank) { const top = Object.entries(st.mstock).sort((a, b) => b[1] - a[1])[0]; if (!top || !top[1]) break; st.mstock[top[0]] = Math.max(0, top[1] - Math.max(SNACK.stockStep(st.up), Math.round(top[1] / 40 / SNACK.stockStep(st.up)) * SNACK.stockStep(st.up))); }
     }
     const last = st.last;
     let coach = t('stCoachFirst');
@@ -185,7 +186,7 @@ export function mount(el, { id }) {
     } else {
       const rows = menuAvail(st.up).map((m) => {
         const val = h('output', { class: 'mval' });
-        const redraw = () => { val.textContent = st.mstock[m.id] || 0; };
+        const redraw = () => { val.textContent = (st.mstock[m.id] || 0).toLocaleString('en-US'); };
         const bump = (d) => () => {
           sfx.tap(); const next = clamp((st.mstock[m.id] || 0) + d * SNACK.stockStep(st.up), 0, SNACK.stockMax(st.up));
           const before = st.mstock[m.id]; st.mstock[m.id] = next;
@@ -221,7 +222,7 @@ export function mount(el, { id }) {
       h('div', { class: 'forecast card' },
         h('div', { class: 'wx' }, h('span', { class: 'wxi' }, WEATHER[weather].icon), h('div', {}, h('small', {}, t('stForecast') + ' · ' + t('stDayN', { n: st.season.day + 1 })), h('strong', {}, wLabel(weather)))),
         event ? h('div', { class: 'ev' }, (event === 'game' || isSnack ? '⚾ ' : event === 'roadwork' ? '🚧 ' : event === 'party' ? '🎂 ' : '🏢 '), t('e_' + event)) : null,
-        h('div', { class: 'crowdhint' }, '👥 ', t('stCustomers', { n: '~' + Math.round(exp) }))),
+        h('div', { class: 'crowdhint' }, '👥 ', t('stCustomers', { n: '~' + Math.round(exp).toLocaleString('en-US') }))),
       h('p', { class: 'coach' }, h('span', { html: icons.bulb(30) }), coach),
       planBlock,
       h('div', { class: 'openrow' }, openBtn),
@@ -240,7 +241,7 @@ export function mount(el, { id }) {
     const skip = h('button', { class: 'btn ghost small', onclick: () => finish() }, t('stSkip'));
     show(root, header(t(cfg.title), h('span', { class: 'chip' }, WEATHER[ctx.weather].icon + ' ' + wLabel(ctx.weather))),
       h('div', { class: 'stage card' }, lane, h('div', { class: 'standface', html: icons[cfg.icon](120) })),
-      h('div', { class: 'crowdbar', role: 'status' }, h('span', {}, '👥 ' + t('stCrowd') + ': '), nums.seen, h('span', {}, ' / ' + res.customers.length)),
+      h('div', { class: 'crowdbar', role: 'status' }, h('span', {}, '👥 ' + t('stCrowd') + ': '), nums.seen, h('span', {}, ' / ' + res.customers.length.toLocaleString('en-US'))),
       h('div', { class: 'tallies' },
         h('div', { class: 'tl good' }, t('stSold'), nums.sold), h('div', { class: 'tl' }, t('stSales'), nums.cash),
         h('div', { class: 'tl' }, '💭 ' + t('stTooPricey'), nums.pricey), h('div', { class: 'tl' }, '🙁 ' + t('stSoldOut'), nums.soldout),
@@ -269,7 +270,7 @@ export function mount(el, { id }) {
         requestAnimationFrame(() => requestAnimationFrame(() => cust.classList.add('arrive')));
         while (lane.children.length > 6) lane.firstChild.remove();
       }
-      nums.seen.textContent = tally.seen; nums.sold.textContent = tally.sold; nums.pricey.textContent = tally.pricey; nums.soldout.textContent = tally.soldout; nums.busy.textContent = tally.busy; nums.cash.textContent = money(tally.cash);
+      const f = (n) => n.toLocaleString('en-US'); nums.seen.textContent = f(tally.seen); nums.sold.textContent = f(tally.sold); nums.pricey.textContent = f(tally.pricey); nums.soldout.textContent = f(tally.soldout); nums.busy.textContent = f(tally.busy); nums.cash.textContent = money(tally.cash);
       timer = setTimeout(tick, reduceMotion() ? 5 : gap);
     }
     let finished = false;
