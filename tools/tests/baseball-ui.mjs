@@ -4,7 +4,7 @@ const { page, browser, errors } = await open({ lang, device, theme });
 let fails = 0; const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
 const w = (ms) => page.waitForTimeout(ms);
 await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.S.pearls = { balance: 100, earned: 100, spent: 0 }; st.S.settings.dailyLimit = 0; st.S.settings.bedtime = ''; });
-ok((await page.$$('.tile')).length === 7, 'home has 7 tiles');
+ok((await page.$$('.tile')).length === 8, 'home has 8 tiles');
 await shot(page, `home7-${lang}-${device}-${theme}`);
 await page.evaluate(() => { location.hash = '#/baseball'; }); await w(600);
 ok(!!(await page.$('.bbmenu')), 'menu shows');

@@ -15,9 +15,10 @@ for (const id of ['lemonade', 'snack', 'icecream']) {
   await nav('#/stands/' + id);
   ok(!!(await page.$('.forecast')), `${id}: plan screen shows`);
   // play a full season
-  for (let d = 0; d < 10; d++) {
+  const DAYS = id === 'snack' ? 15 : 10;
+  for (let d = 0; d < DAYS; d++) {
     // buy the first affordable upgrade on day 3 to exercise the shop
-    if (d === 3) { const b = page.locator('.upg:not([disabled]):not(.own)').first(); if (await b.count()) { await b.click(); await w(200); } }
+    if (d === 3) { await page.evaluate(async (id) => { const st = await import('./js/core/store.js'); const x = st.S.stands[id]; if (x) x.bank = (x.bank || 0) + 500; }, id); const b = page.locator('.upg:not([disabled]):not(.own)').first(); if (await b.count()) { await b.click(); await w(200); } }
     if (d === 0 && id === 'lemonade') await shot(page, `lemonade-plan-${lang}-${device}`);
     if (d === 0 && id === 'snack') await shot(page, `snack-plan-${lang}-${device}`);
     await page.locator('.openrow .btn.go').click(); await w(300);
@@ -25,7 +26,7 @@ for (const id of ['lemonade', 'snack', 'icecream']) {
     if (d === 0) await shot(page, `${id}-receipt-${lang}-${device}`);
     await page.locator('.openrow .btn.go').click(); await w(400);
   }
-  ok(!!(await page.$('.summary .stars')), `${id}: season summary with stars after 10 days`);
+  ok(!!(await page.$('.summary .stars')), `${id}: season summary with stars after a full season`);
   await shot(page, `${id}-season-${lang}-${device}`);
   const gate = await page.locator('.btn.gold.go').count();
   ok(gate === 1, `${id}: start-a-new-season button appears`);
