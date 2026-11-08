@@ -1,7 +1,7 @@
 import { initStore, S, subscribe, save, setLang, weekView, S as _S, storageHealthy, minutesToday, day, flush, onMilestone } from './core/store.js';
 import { h, $, toast } from './core/dom.js';
 import { icons, logo } from './core/icons.js';
-import { t } from './core/i18n.js';
+import { t, addStrings } from './core/i18n.js';
 import { sfx, stopSpeaking, announceMilestone } from './core/audio.js';
 import { route, startRouter, go, currentPath, setBeforeEach } from './core/router.js';
 
@@ -86,6 +86,7 @@ function checkLimits(routeKey) {
   if (m >= 20 && !nudged && (!lim || m < lim)) { nudged = true; toast(t('nudge', { n: m })); }
   if (m - lastRest >= 20 && m > 0) { lastRest = m; toast(t('eyeRest'), 5000); }
   if (limitReached() && !sunsetEl && !ALLOW.includes(routeKey || currentPath())) showSunset();
+  checkWarnings(routeKey);
 }
 function showSunset() {
   const msg = h('p', { class: 'qmsg', role: 'status' });
@@ -99,6 +100,55 @@ function showSunset() {
       h('div', { class: 'row', style: { justifyContent: 'center' } },
         h('button', { class: 'btn', onclick: () => { sunsetEl.remove(); sunsetEl = null; go('/home'); } }, t('done')), ask), msg));
   document.body.append(sunsetEl);
+}
+
+// ---------- time-is-nearly-up warnings: 10, 5 and 2 minutes left, each one must be acknowledged ----------
+addStrings({
+  en: {
+    warnTitle: '{n} minutes left', warnTitle2: '2 minutes left!',
+    warn10: 'You have 10 minutes of lab time left today. Finish the game you are playing, and then it will be time to rest.',
+    warn5: 'Only 5 minutes left! Start getting ready to finish up.',
+    warn2: 'Just 2 minutes left. Finish up now. When the time is up, the lab closes for today. You did great work!',
+    warnOk: 'OK, I understand',
+  },
+  es: {
+    warnTitle: 'Quedan {n} minutos', warnTitle2: '¡Quedan 2 minutos!',
+    warn10: 'Te quedan 10 minutos de laboratorio hoy. Termina el juego que estás jugando; después toca descansar.',
+    warn5: '¡Solo quedan 5 minutos! Empieza a prepararte para terminar.',
+    warn2: 'Solo quedan 2 minutos. Termina ya. Cuando se acabe el tiempo, el laboratorio cierra por hoy. ¡Hiciste un gran trabajo!',
+    warnOk: 'Entendido',
+  },
+});
+const WARN_AT = [600, 300, 120];                       // seconds left
+let warnEl = null;
+/** Seconds of play left before the lab closes, and what the stop is tied to (limit, extra time or bedtime). Null when nothing limits play. */
+function timeLeft() {
+  const sec = day().sec, lim = S.settings.dailyLimit || 0, g = S.settings.extraMin;
+  if (g && g.day === dateKeyToday() && typeof g.end === 'number') return { key: 'ext' + g.end, left: g.end * 60 - sec };
+  const c = [];
+  if (lim) c.push({ key: 'lim' + lim, left: lim * 60 - sec });
+  const [bh, bm] = (S.settings.bedtime || '').split(':').map(Number);
+  if (S.settings.bedtime && bh >= 12) { const n = new Date(); c.push({ key: 'bed', left: (bh * 60 + (bm || 0)) * 60 - (n.getHours() * 3600 + n.getMinutes() * 60 + n.getSeconds()) }); }
+  c.sort((a, b) => a.left - b.left);
+  return c[0] || null;
+}
+function checkWarnings(routeKey) {
+  if (warnEl || sunsetEl) return;
+  if (['/grownup', '/credits'].includes(routeKey || currentPath())) return;
+  const tl = timeLeft(); if (!tl || tl.left <= 0 || tl.left > WARN_AT[0]) return;
+  const today = dateKeyToday();
+  if (!S.warn || S.warn.day !== today || S.warn.key !== tl.key) S.warn = { day: today, key: tl.key, done: [] };
+  const due = WARN_AT.filter((w) => tl.left <= w && !S.warn.done.includes(w));
+  if (!due.length) return;
+  const w = Math.min(...due);                                           // if he arrives late, show only the most urgent one
+  S.warn.done.push(...due); save();
+  const mins = w / 60;
+  warnEl = h('div', { class: 'overlay warn', role: 'alertdialog', 'aria-modal': 'true' },
+    h('div', { class: 'dialog center' }, h('div', { class: 'warnclock', 'aria-hidden': 'true' }, '⏰'),
+      h('h2', {}, mins === 2 ? t('warnTitle2') : t('warnTitle', { n: mins })), h('p', { class: 'big' }, t('warn' + mins)),
+      h('button', { class: 'btn gold', onclick: () => { warnEl.remove(); warnEl = null; } }, t('warnOk'))));
+  document.body.append(warnEl);
+  sfx.pop();
 }
 
 async function main() {
@@ -125,8 +175,8 @@ async function main() {
     el.addEventListener('click', () => { stopSpeaking(true); end(); });
   });
   startRouter($('#screen'));
-  setInterval(checkLimits, 30000);
+  setInterval(checkLimits, 10000);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
-  window.__lab = { S, go, flush };   // handy for testing and the grown-up export
+  window.__lab = { S, go, flush, checkLimits };   // handy for testing and the grown-up export
 }
 main();

@@ -33,6 +33,7 @@ const fresh = () => ({
   chores: { done: {}, pts: {}, hidden: {}, custom: [], total: 0 },   // done[day][id]=times; pts overrides; hidden = removed built-ins
   recentMath: [],       // texts of the last generated math questions, so the same sum never comes twice in a row
   mil: {},              // milestone id -> last day the announcer played
+  warn: { day: '', key: '', done: [] },   // which "time is nearly up" warnings were shown today
   gifts: {},            // one-time grown-up gifts already given on this device (id -> pearls)
 });
 
@@ -40,6 +41,7 @@ const fresh = () => ({
 // has progress (never to a brand-new one), straight into the balance: no pop-up, and the daily taper is not touched.
 const GIFTS = [
   { id: '2026-11-07-rob-200', pearls: 200 },
+  { id: '2026-11-07-rob-snack-300', pearls: 300 },   // enough to open the Snack Shack (300) even if the first gift was spent
 ];
 function applyGifts() {
   for (const g of GIFTS) {

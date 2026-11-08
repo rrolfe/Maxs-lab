@@ -38,7 +38,7 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | Find-it right / bonus for 4+ right | 3 / +5 |
 | Hero question stamp | 6 |
 | Word Search: choose size (8, 10, 12) and difficulty (Easy: across/down, Medium: + diagonals, Tricky: backwards too) | per word 3 / 4 / 6; finish bonus 8-16 (Easy), 10-20 (Medium), 14-28 (Tricky) by size |
-| Home Jobs (real chores, a grown-up types the chore code) | Feed Perla 3, toys 5, poop 10, clothes 5, flowers 5; once a day each; not limited by the daily cap |
+| Home Jobs (real chores, a grown-up types the chore code) | 33 jobs worth 3 to 40 pearls (about 3 pearls per minute of effort), once a day each, many with a weekly limit (Monday to Sunday); not limited by the daily cap |
 | Hangman win (levels 1-3) | 10 / 15 / 20, +5 flawless; a loss still gives 3 |
 | Baseball questions | none (they power the swing) |
 
@@ -55,11 +55,15 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | New season: lemonade / snack / ice cream | 75 / 110 / 130 | ~6 / 9 / 11 |
 | Baseball, 3 innings / 6 innings | 150 / 270 | ~12 / ~22 |
 
-Stands run 10-day seasons with upgrade trees. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
+Stands run 10-day seasons (the Snack Shack runs 15) with upgrade trees. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
 
 ## Home Jobs code
 
 The chore check uses the code **1234** by default (Rob's choice, for easy approval while he is nearby). Change it in the Grown-up corner under *PIN and about*. The grown-up passcode, if set, also works. A grown-up can add, remove or re-price jobs from the Home Jobs screen.
+
+## Time warnings
+
+When the daily limit, a grown-up's extra time or bedtime is close, a pop-up appears at **10, 5 and 2 minutes left**. Max has to tap "OK, I understand" to close each one. Each warning shows once, never again after a reload, and a fresh set starts when a grown-up grants extra time. At zero the lab closes as before.
 
 ## Grown-up passcode and limits
 

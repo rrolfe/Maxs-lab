@@ -1,6 +1,7 @@
 // Pure simulation rules for the tiny businesses (no DOM: easy to test and tune with bots, see tools/tests/stands-sim.mjs).
-// A SEASON is 10 selling days. Upgrades are kept between seasons and are what lets a stand grow from ~20 customers a day to 100+.
+// A SEASON is 10 selling days (the Snack Shack runs 15: Rob's choice, Nov 2026). Upgrades are kept between seasons and are what lets a stand grow from ~20 customers a day to 100+.
 export const SEASON_DAYS = 10;
+export const seasonDays = (id) => (id === 'snack' ? 15 : SEASON_DAYS);
 
 export const WEATHER = {
   sunny:  { icon: '☀️', base: { lemonade: 20, icecream: 24, snack: 14 }, bonus: 0, hot: 1, rain: 0 },
@@ -251,7 +252,7 @@ export const SIMS = { lemonade: LEMONADE, icecream: ICECREAM, snack: SNACK };
 export function parProfit(id, up, runs = 6) {
   let seed = 12345; const r = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
   let total = 0;
-  for (let k = 0; k < runs; k++) for (let d = 0; d < SEASON_DAYS; d++) {
+  for (let k = 0; k < runs; k++) for (let d = 0; d < seasonDays(id); d++) {
     const ctx = { ...rollDay(r, up, id), up };
     total += botDay(id, ctx, 0.9, r).profit;
   }

@@ -1,5 +1,5 @@
 // Runner for the tiny businesses (lemonade, ice cream, ballpark snack shack).
-// A stand is played in SEASONS of 10 selling days: plan the day -> watch the crowd -> read the receipt -> after day 10 a season summary.
+// A stand is played in SEASONS of 10 selling days (15 for the Snack Shack): plan the day -> watch the crowd -> read the receipt -> after day 10 a season summary.
 // Upgrades are kept between seasons. A new season costs pearls (see js/core/economy.js).
 import { S, save, spendPearls } from '../core/store.js';
 import { h, clamp, money, confetti, reduceMotion, pick, toast } from '../core/dom.js';
@@ -9,7 +9,7 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { awardBadges } from '../core/badges.js';
 import { COST } from '../core/economy.js';
-import { SIMS, WEATHER, rollDay, SEASON_DAYS, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
+import { SIMS, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
 import { UP_TEXT } from './upgrade-text.js';
 
 addStrings({
@@ -96,7 +96,7 @@ export function mount(el, { id }) {
   const header = (title, extra) => h('div', { class: 'screen-head' },
     h('button', { class: 'btn ghost icon', 'aria-label': t('back'), onclick: () => go('/stands'), html: icons.back(34) }), h('h1', {}, title), extra);
   const bankChip = () => h('span', { class: 'chip bank' }, '💵 ', t('stBank') + ': ' + money(st.bank));
-  const seasonChip = () => h('span', { class: 'chip on' }, t('stSeasonN', { n: st.seasons }) + ' · ' + t('stDayOf', { d: Math.min(st.season.day + 1, SEASON_DAYS), m: SEASON_DAYS }));
+  const seasonChip = () => h('span', { class: 'chip on' }, t('stSeasonN', { n: st.seasons }) + ' · ' + t('stDayOf', { d: Math.min(st.season.day + 1, seasonDays(id)), m: seasonDays(id) }));
   const ticketCost = COST.stands[id].season;
 
   // ---------------- entry: a season in progress, or start a new one ----------------
@@ -281,7 +281,7 @@ export function mount(el, { id }) {
     const sea = st.season; sea.day++; sea.profit += profit; sea.cust += res.n; sea.bestDay = Math.max(sea.bestDay, profit);
     const w = st.next.weather, ev = st.next.event;
     st.last = { price: st.price, stock: st.stock, sold: res.sold, pricey: res.pricey, soldout: res.soldout, busy: res.busy || 0, leftover: res.leftover, profit, weather: w };
-    const seasonOver = sea.day >= SEASON_DAYS;
+    const seasonOver = sea.day >= seasonDays(id);
     if (!seasonOver) newCtx();
     save();
     const unitsLeft = id === 'icecream' ? Math.floor(res.leftover / 12) : res.leftover;

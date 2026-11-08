@@ -5,12 +5,12 @@ let ok = true; const bad = (m) => { ok = false; console.log('FAIL ' + m); };
 
 const a = await open({ lang: 'en', state: { schema: 2, pearls: { balance: 321, earned: 900, spent: 579 }, passport: { stamps: { paris: 1 }, people: {}, badges: {} } } });
 const r1 = await read(a.page);
-if (r1.b !== 521 || r1.e !== 1100 || r1.g !== 1 || r1.today !== 0) bad('first load ' + JSON.stringify(r1));
+if (r1.b !== 821 || r1.e !== 1400 || r1.g !== 2 || r1.today !== 0) bad('first load ' + JSON.stringify(r1));
 await a.page.reload(); await a.page.waitForSelector('.hud');
 const r2 = await read(a.page);
-if (r2.b !== 521 || r2.g !== 1) bad('second load gave it again ' + JSON.stringify(r2));
+if (r2.b !== 821 || r2.g !== 2) bad('second load gave it again ' + JSON.stringify(r2));
 const hud = await a.page.textContent('.hud');
-if (!/521/.test(hud)) bad('HUD does not show 521: ' + hud.replace(/\s+/g, ' ').slice(0, 120));
+if (!/821/.test(hud)) bad('HUD does not show 821: ' + hud.replace(/\s+/g, ' ').slice(0, 120));
 if (a.errors.length) bad(a.errors.join('/'));
 await a.browser.close();
 
@@ -19,5 +19,5 @@ const r3 = await read(b.page);
 if (r3.b !== 0 || r3.g !== 0) bad('fresh device got a gift ' + JSON.stringify(r3));
 await b.browser.close();
 
-console.log(ok ? 'PASS gift: +200 once, silent, not on a fresh device' : 'FAILED');
+console.log(ok ? 'PASS gifts: +200 and +300 once, silent, not on a fresh device' : 'FAILED');
 process.exit(ok ? 0 : 1);

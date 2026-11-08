@@ -1,6 +1,6 @@
 // Updates must never cost Max his progress: a daily/update safety copy is made, an unreadable save falls back to the mirror, and a copy can be restored.
 import { open } from './lib.mjs';
-const seed = { schema: 1, pearls: { balance: 321, earned: 900, spent: 400 }, unlocked: { lemonade: true }, stands: { lemonade: { bank: 777, up: { sign: 1, table: 1 } } }, passport: { stamps: { paris: { t: 1 } }, people: {}, badges: {} }, days: { '2026-11-05': { sec: 600, q: 20, ok: 15, pearls: 120, missions: 2, topics: {}, prog: {} } } };
+const seed = { schema: 1, gifts: { '2026-11-07-rob-200': 200, '2026-11-07-rob-snack-300': 300 }, pearls: { balance: 321, earned: 900, spent: 400 }, unlocked: { lemonade: true }, stands: { lemonade: { bank: 777, up: { sign: 1, table: 1 } } }, passport: { stamps: { paris: { t: 1 } }, people: {}, badges: {} }, days: { '2026-11-05': { sec: 600, q: 20, ok: 15, pearls: 120, missions: 2, topics: {}, prog: {} } } };
 const { page, browser, errors } = await open({ lang: 'en', state: seed });
 let fails = 0; const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
 const w = (ms) => page.waitForTimeout(ms);

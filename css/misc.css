@@ -69,3 +69,10 @@ select.textin { appearance: auto; }
 .cires { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 12px 0; }
 .cires > div { background: var(--panel); border: 2.5px solid var(--ink); border-radius: 10px; padding: 8px; } .cires small { display: block; } .cires b { font-size: 24px; }
 .ciBanner { margin-top: 16px; }
+
+/* "time is nearly up" warnings (10, 5, 2 minutes) */
+.overlay.warn { z-index: 70; }
+.warn .dialog { border-color: var(--gold, #E0A400); }
+.warn .warnclock { font-size: 72px; line-height: 1; margin-bottom: 4px; }
+.warn p.big { font-size: 26px; line-height: 1.35; margin: 10px 0 20px; }
+.chdetail .chhow { font-size: 22px; line-height: 1.35; margin: 0; }

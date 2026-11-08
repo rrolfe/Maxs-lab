@@ -6,6 +6,7 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { COST } from '../core/economy.js';
 import { standState } from '../stands/runner.js';
+import { seasonDays } from '../stands/sims.js';
 
 addStrings({
   en: {
@@ -54,7 +55,7 @@ function hub(el) {
       const open = !!S.unlocked[s.id], st = open && s.id !== 'pizza' ? standState(s.id) : S.stands[s.id];
       if (open) {
         return h('div', { class: 'stcard open' }, h('div', { class: 'sti', html: icons[icon](80) }),
-          h('div', { class: 'stb' }, h('strong', {}, name), h('small', {}, desc), st && (st.days || st.season) ? h('small', { class: 'meta' }, (st.season ? t('stSeasonN', { n: st.seasons }) + ' · ' + t('stDayOf', { d: Math.min(st.season.day + 1, 10), m: 10 }) : (st.tickets > 0 ? t('stReady') : t('stSeasonOver', { c: COST.stands[s.id].season }))) + ' · ' + money(st.bank)) : null),
+          h('div', { class: 'stb' }, h('strong', {}, name), h('small', {}, desc), st && (st.days || st.season) ? h('small', { class: 'meta' }, (st.season ? t('stSeasonN', { n: st.seasons }) + ' · ' + t('stDayOf', { d: Math.min(st.season.day + 1, seasonDays(s.id)), m: seasonDays(s.id) }) : (st.tickets > 0 ? t('stReady') : t('stSeasonOver', { c: COST.stands[s.id].season }))) + ' · ' + money(st.bank)) : null),
           h('a', { class: 'btn gold', href: '#/stands/' + s.id, onclick: () => sfx.pop() }, t('stGo')));
       }
       const need = s.cost - S.pearls.balance, can = need <= 0;
