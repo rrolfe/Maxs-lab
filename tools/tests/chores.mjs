@@ -37,7 +37,7 @@ await page.locator('.textin[maxlength="80"]').fill('Water the plants'); await pa
 await page.locator('.btn', { hasText: /^(Done|Listo)$/ }).last().click(); await w(300);
 ok((await page.$$('.chcard')).length === NJ + 1, 'custom job added');
 // weekly limit: a job allowed 4 times a week is locked once four days this week have it done
-await page.evaluate(async () => { const st = await import('./js/core/store.js'); const wk = st.weekView().map((d) => d.key); for (const k of wk.slice(0, 4)) (st.S.chores.done[k] ||= {}).brush = 1; for (const k of wk) if (k === st.today()) delete (st.S.chores.done[k] || {}).brush; });
+await page.evaluate(async () => { const st = await import('./js/core/store.js'); const wk = st.weekView().map((d) => d.key); for (const k of wk.filter((x) => x !== st.today()).slice(0, 4)) (st.S.chores.done[k] ||= {}).brush = 1; for (const k of wk) if (k === st.today()) delete (st.S.chores.done[k] || {}).brush; });
 await page.evaluate(async () => { location.hash = '#/home'; }); await w(300); await page.evaluate(async () => { location.hash = '#/chores'; }); await w(500);
 const brushLocked = await page.evaluate(() => [...document.querySelectorAll('.chcard')].some((c) => /Brush Perla|Cepilla/.test(c.textContent) && c.disabled && /week|semana/.test(c.textContent)));
 ok(brushLocked, 'a job at its weekly limit is locked and says done this week');

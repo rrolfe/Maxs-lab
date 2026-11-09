@@ -12,6 +12,7 @@ import { COST } from '../core/economy.js';
 import { SIMS, fieldsOwned, lookOf, stadiumLevel, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
 import { UP_TEXT } from './upgrade-text.js';
 import { PERKS, newPerks, FACT_COUNT } from './perks.js';
+import { lastChip, fansChip, crowdPhrase, verdictOf, about } from './hints.js';
 
 addStrings({
   en: {
@@ -26,7 +27,7 @@ addStrings({
     stReceipt: 'End of day', stSold: 'Sold', stTooPricey: 'Said “too pricey”', stSoldOut: 'Left because you ran out', stBusy: 'Left: line too long', stLeft: 'Left over', stSales: 'Money in', stSpent: 'Cost to make', stProfit: 'Profit', stLoss: 'Loss',
     stNextDay: 'Open again tomorrow', stBestDay: 'New best day!', stDayN: 'Day {n}', stSeasonN: 'Season {n}', stDayOf: 'Day {d} of {m}', stCrowd: 'Customers today', stCustomers: '{n} customers',
     stCoachFirst: 'Tip: not too cheap, not too pricey. Try a price and see who buys!',
-    stCoachSoldOut: 'Last time you ran out and {n} people left. Make more today?', stCoachPricey: 'Last time {n} people said “too pricey”. Try a lower price?', stCoachLeft: 'Last time {n} were left over. Make a few fewer?', stCoachGood: 'Last time went well. Can you beat ${p} profit?', stCoachBusySnack: 'Last time {n} fans left because the line was too long. Add a window or hire a worker in the shop!', stCapLine: 'Your windows can serve about {n} fans today', stCapWarn: '⏳ The line may get too long! Add a window or hire a worker in the shop.', stCapOk: '✅ Enough windows and workers for today.', stCoachBusy: '{n} people left because the line was too long. A helper or a second table would serve more people!',
+    stCoachSoldOut: 'Last time you ran out and {n} people left. How many will you make today?', stCoachPricey: 'Last time {n} people said “too pricey”. Try a lower price?', stCoachLeft: 'Last time {n} were left over. Make a few fewer?', stCoachGood: 'Last time went well. Can you beat ${p} profit?', stCoachBusySnack: 'Last time {n} fans left because the line was too long. Add a window or hire a worker in the shop!', stCapLine: 'Your windows can serve about {n} fans today', stCapWarn: '⏳ The line may get too long! Add a window or hire a worker in the shop.', stCapOk: '✅ Enough windows and workers for today.', stCoachBusy: '{n} people left because the line was too long. A helper or a second table would serve more people!',
     stTipSoldOut: 'You sold out! {n} people wanted some. Make more next time.', stTipPricey: '{n} people said “too pricey”. A lower price might bring them in.', stTipLeft: '{n} {u} were left over. Make fewer to save money.', stTipGreat: 'Great day! You read the weather and the price just right.', stTipRain: 'Rain keeps people home. On rainy days, make less so nothing is wasted.', stTipOk: 'Not bad! Small changes to price and amount can make a big difference.', stTipBusy: '{n} people left because the line was too long. Hire a helper or add a table!',
     stCateredOk: 'Catering delivered! The company paid {n}.', stCateredMiss: 'The big order needed {u} but you did not have enough. Next time make extra!',
     stLoan: 'Your family lent you ${n} so you can keep going.', stNoMoney: 'Not enough money for that much.', stBoughtUp: 'New upgrade: {n}!',
@@ -49,7 +50,7 @@ addStrings({
     stReceipt: 'Fin del día', stSold: 'Vendidos', stTooPricey: 'Dijeron “muy caro”', stSoldOut: 'Se fueron porque se acabó', stBusy: 'Se fueron: fila muy larga', stLeft: 'Sobraron', stSales: 'Dinero que entró', stSpent: 'Costo de preparar', stProfit: 'Ganancia', stLoss: 'Pérdida',
     stNextDay: 'Abrir de nuevo mañana', stBestDay: '¡Nuevo mejor día!', stDayN: 'Día {n}', stSeasonN: 'Temporada {n}', stDayOf: 'Día {d} de {m}', stCrowd: 'Clientes hoy', stCustomers: '{n} clientes',
     stCoachFirst: 'Consejo: ni muy barato ni muy caro. ¡Prueba un precio y mira quién compra!',
-    stCoachSoldOut: 'La última vez se acabó y {n} personas se fueron. ¿Preparas más hoy?', stCoachPricey: 'La última vez {n} personas dijeron “muy caro”. ¿Pruebas un precio menor?', stCoachLeft: 'La última vez sobraron {n}. ¿Preparas un poco menos?', stCoachGood: 'La última vez salió bien. ¿Puedes superar ${p} de ganancia?', stCoachBusySnack: 'La última vez {n} fans se fueron porque la fila era muy larga. ¡Agrega una ventanilla o contrata a un trabajador en la tienda!', stCapLine: 'Tus ventanillas pueden atender a unos {n} fans hoy', stCapWarn: '⏳ ¡La fila puede ser muy larga! Agrega una ventanilla o contrata a un trabajador en la tienda.', stCapOk: '✅ Suficientes ventanillas y trabajadores para hoy.', stCoachBusy: '{n} personas se fueron porque la fila era muy larga. ¡Un ayudante o una segunda mesa atenderían a más gente!',
+    stCoachSoldOut: 'La última vez se acabó y {n} personas se fueron. ¿Cuántos preparas hoy?', stCoachPricey: 'La última vez {n} personas dijeron “muy caro”. ¿Pruebas un precio menor?', stCoachLeft: 'La última vez sobraron {n}. ¿Preparas un poco menos?', stCoachGood: 'La última vez salió bien. ¿Puedes superar ${p} de ganancia?', stCoachBusySnack: 'La última vez {n} fans se fueron porque la fila era muy larga. ¡Agrega una ventanilla o contrata a un trabajador en la tienda!', stCapLine: 'Tus ventanillas pueden atender a unos {n} fans hoy', stCapWarn: '⏳ ¡La fila puede ser muy larga! Agrega una ventanilla o contrata a un trabajador en la tienda.', stCapOk: '✅ Suficientes ventanillas y trabajadores para hoy.', stCoachBusy: '{n} personas se fueron porque la fila era muy larga. ¡Un ayudante o una segunda mesa atenderían a más gente!',
     stTipSoldOut: '¡Se acabó todo! {n} personas querían. Prepara más la próxima vez.', stTipPricey: '{n} personas dijeron “muy caro”. Un precio menor podría atraerlas.', stTipLeft: 'Sobraron {n} {u}. Prepara menos para ahorrar.', stTipGreat: '¡Gran día! Leíste bien el clima y el precio.', stTipRain: 'La lluvia deja a la gente en casa. En días lluviosos prepara menos para no desperdiciar.', stTipOk: '¡Nada mal! Pequeños cambios en el precio y la cantidad pueden hacer una gran diferencia.', stTipBusy: '{n} personas se fueron porque la fila era muy larga. ¡Contrata un ayudante o agrega una mesa!',
     stCateredOk: '¡Pedido entregado! La empresa pagó {n}.', stCateredMiss: 'El pedido grande necesitaba {u} pero no tenías suficiente. ¡La próxima vez prepara de más!',
     stLoan: 'Tu familia te prestó ${n} para que sigas.', stNoMoney: 'No alcanza el dinero para tanto.', stBoughtUp: '¡Nueva mejora: {n}!',
@@ -139,6 +140,9 @@ export function mount(el, { id }) {
       h('div', { class: 'sbrow' }, cell('stScDay', st.season ? Math.min(st.season.day + 1, seasonDays(id)) + '/' + seasonDays(id) : '–'), cell('stScFields', String(fieldsOwned(st.up))), cell('stScFans', '~' + num(Math.round(exp))), cell('stScCash', money(st.bank))),
       st.perks.horn ? h('button', { class: 'sbhorn', 'aria-label': t('p_horn'), onclick: () => { sfx.fanfare(); toast('🎺 ' + t('stHornSay')); } }, '🎺') : null);
   }
+  function cmpHint(exp) {      // how today's crowd compares with last time: words, never the answer
+    const p = crowdPhrase(exp / st.lastCtx.exp); return p ? h('div', { class: 'crowdcmp' + (p.big ? ' big' : '') }, '📊 ' + t('hhCmp', { w: p.text })) : null;
+  }
   function capHint(exp) {      // can the windows keep up with today's crowd? (a busy day can be 15% bigger than the forecast)
     const cap = SNACK.serveCap(st.up), enough = exp * 1.15 <= cap;
     return h('div', { class: 'caphint ' + (enough ? 'ok' : 'warn') }, h('span', {}, '🪟 ' + t('stCapLine', { n: num(cap) })), h('b', {}, enough ? t('stCapOk') : t('stCapWarn')));
@@ -195,7 +199,8 @@ export function mount(el, { id }) {
     const last = st.last;
     let coach = t('stCoachFirst');
     if (last) {
-      coach = last.busy >= 4 ? t(isSnack ? 'stCoachBusySnack' : 'stCoachBusy', { n: num(last.busy) }) : last.soldout >= 3 ? t('stCoachSoldOut', { n: last.soldout }) : last.pricey >= 5 ? t('stCoachPricey', { n: last.pricey })
+      const cmp = isSnack && st.lastCtx && st.lastCtx.exp > 0 ? crowdPhrase(SNACK.trafficOf({ weather: st.next.weather, event: st.next.event, up: st.up }) / st.lastCtx.exp) : null;
+      coach = last.busy >= 4 ? t(isSnack ? 'stCoachBusySnack' : 'stCoachBusy', { n: num(last.busy) }) : cmp && cmp.big ? t('stCoachCmp', { w: cmp.text }) : last.soldout >= 3 ? t('stCoachSoldOut', { n: last.soldout }) : last.pricey >= 5 ? t('stCoachPricey', { n: last.pricey })
         : last.leftover >= (id === 'icecream' ? 12 : isSnack ? 12 : 5) ? t('stCoachLeft', { n: id === 'icecream' ? Math.floor(last.leftover / 12) || 1 : last.leftover })
         : t('stCoachGood', { p: Math.max(1, Math.floor(last.profit)).toFixed(0) });
     }
@@ -234,6 +239,9 @@ export function mount(el, { id }) {
         dealBtn ? h('div', { class: 'dealrow' }, dealBtn, h('small', {}, t('stDealSub'))) : null];
       refreshers.push(refresh);
     } else {
+      const hintsOn = !!(st.lastItems && Object.keys(st.lastItems).length);
+      const dim = hintsOn && st.lastCtx && (st.lastCtx.fields !== fieldsOwned(st.up) || st.lastCtx.stadium !== stadiumLevel(st.up));      // a bigger park than last time: the old numbers are about a smaller park
+      const todayDem = SNACK.demand({ weather: st.next.weather, event: st.next.event, up: st.up }, st.level);
       const rows = menuAvail(st.up).map((m) => {
         const val = h('output', { class: 'mval' });
         const redraw = () => { val.textContent = (st.mstock[m.id] || 0).toLocaleString('en-US'); };
@@ -244,12 +252,26 @@ export function mount(el, { id }) {
           save(); redraw(); updateCost();
         };
         redraw();
-        return h('div', { class: 'mrow' }, h('span', { class: 'memo' + (m.id === 'hotdog' && st.perks.goldendog ? ' golden' : '') }, MENU_EMOJI[m.id]), h('div', { class: 'mname' }, h('strong', {}, t('m_' + m.id)), h('small', {}, t('stEach', { c: money(SNACK.unitCostOf(m, st.up)), p: money(m.price * PRICE_LEVELS[st.level].mult) }))),
-          h('button', { class: 'btn alt icon', 'aria-label': '−', onclick: bump(-1), html: icons.minus(30) }), val, h('button', { class: 'btn alt icon', 'aria-label': '+', onclick: bump(1), html: icons.plus(30) }));
+        const info = hintsOn ? st.lastItems[m.id] : null;
+        const detail = h('div', { class: 'mdetail', hidden: true });
+        const tapLast = () => {
+          sfx.tap(); if (!detail.hidden) { detail.hidden = true; return; }
+          const v = verdictOf(info), again = clamp(info.made, 0, SNACK.stockMax(st.up));
+          detail.replaceChildren(h('span', {}, t('hdMade', { m: num(v.made), s: num(v.sold), w: num(v.wanted) })), again > 0 ? h('button', { class: 'btn alt small', onclick: () => {
+            const before = st.mstock[m.id] || 0; st.mstock[m.id] = again; if (snackCost() > st.bank) { st.mstock[m.id] = before; toast(t('stNoMoney')); return; } sfx.pop(); save(); redraw(); updateCost();
+          } }, t('hdUse', { n: num(again) })) : null);
+          detail.hidden = false;
+        };
+        const ratio = info && info.dem > 0 && todayDem[m.id] > 0 ? todayDem[m.id] / info.dem : null;
+        const hintCells = hintsOn ? [lastChip(info, info ? tapLast : null), fansChip(ratio)] : [];
+        const rowEl = h('div', { class: 'mrow' + (hintsOn ? ' hints' : '') + (dim ? ' dim' : '') }, h('span', { class: 'memo' + (m.id === 'hotdog' && st.perks.goldendog ? ' golden' : '') }, MENU_EMOJI[m.id]), h('div', { class: 'mname' }, h('strong', {}, t('m_' + m.id)), h('small', {}, t('stEach', { c: money(SNACK.unitCostOf(m, st.up)), p: money(m.price * PRICE_LEVELS[st.level].mult) }))),
+          hintCells, h('button', { class: 'btn alt icon', 'aria-label': '−', onclick: bump(-1), html: icons.minus(30) }), val, h('button', { class: 'btn alt icon', 'aria-label': '+', onclick: bump(1), html: icons.plus(30) }));
+        return h('div', { class: 'mwrap' }, rowEl, detail);
       });
       const lvl = h('div', { class: 'row' }, Object.keys(PRICE_LEVELS).map((k) => h('button', { class: 'chip big', 'aria-pressed': String(st.level === k), onclick: () => { st.level = k; save(); plan(); } }, t('lvl_' + k))));
       const updateCost = () => { costLine.textContent = t('stSnackCost') + ': ' + money(snackCost()); openBtn.disabled = Object.values(st.mstock).every((v) => !v); };
-      planBlock = [h('h3', {}, t('stMenu')), h('div', { class: 'menu card' }, rows), h('h3', {}, t('stLevel')), lvl, h('small', { class: 'muted' }, t('lvl_' + st.level + '_s')), costLine];
+      const menuNote = !hintsOn ? h('p', { class: 'hintnone' }, t('hhFirst')) : h('div', { class: 'mhead', 'aria-hidden': 'true' }, h('span'), h('span'), h('b', {}, t('hhLast')), h('b', {}, t('hhToday')));
+      planBlock = [h('h3', {}, t('stMenu')), h('div', { class: 'menu card' }, isSnack ? menuNote : null, rows), h('h3', {}, t('stLevel')), lvl, h('small', { class: 'muted' }, t('lvl_' + st.level + '_s')), costLine];
       refreshers.push(updateCost);
     }
 
@@ -275,6 +297,7 @@ export function mount(el, { id }) {
         h('div', { class: 'wx' }, h('span', { class: 'wxi' }, WEATHER[weather].icon), h('div', {}, h('small', {}, t('stForecast') + ' · ' + t('stDayN', { n: st.season.day + 1 })), h('strong', {}, wLabel(weather)))),
         event ? h('div', { class: 'ev' }, (event === 'nightGame' ? '🌙 ' : event === 'game' || isSnack ? '⚾ ' : event === 'roadwork' ? '🚧 ' : event === 'party' ? '🎂 ' : '🏢 '), t('e_' + event)) : null,
         h('div', { class: 'crowdhint' }, '👥 ', t('stCustomers', { n: '~' + Math.round(exp).toLocaleString('en-US') })),
+        isSnack && st.lastCtx && st.lastCtx.exp > 0 ? cmpHint(exp) : null,
         isSnack ? capHint(exp) : null,
         isSnack && st.perks.chompy ? chompyEl() : null),
       h('p', { class: 'coach' }, h('span', { html: icons.bulb(30) }), coach),
@@ -341,6 +364,11 @@ export function mount(el, { id }) {
     const newBest = profit > st.best; if (newBest) st.best = profit;
     const sea = st.season; sea.day++; sea.profit += profit; sea.cust += res.n; sea.bestDay = Math.max(sea.bestDay, profit);
     const w = st.next.weather, ev = st.next.event;
+    if (isSnack) {      // remember how every item did, and what the day was like, so tomorrow's menu can say "last time you ran out"
+      const ctxNow = { weather: w, event: ev, up: st.up }, dem = SNACK.demand(ctxNow, st.level);
+      st.lastItems = Object.fromEntries(Object.keys({ ...st.mstock, ...res.bySold, ...res.byOut }).filter((k) => (st.mstock[k] || 0) > 0 || res.bySold[k] || res.byOut[k]).map((k) => [k, { made: st.mstock[k] || 0, sold: res.bySold[k] || 0, out: res.byOut[k] || 0, dem: dem[k] || 0 }]));
+      st.lastCtx = { exp: SNACK.trafficOf(ctxNow), level: st.level, fields: fieldsOwned(st.up), stadium: stadiumLevel(st.up) };
+    }
     st.last = { price: st.price, stock: st.stock, sold: res.sold, pricey: res.pricey, soldout: res.soldout, busy: res.busy || 0, leftover: res.leftover, profit, weather: w };
     const seasonOver = sea.day >= seasonDays(id);
     if (!seasonOver) newCtx();
@@ -352,7 +380,11 @@ export function mount(el, { id }) {
     const order = res.order ? (res.order.ok ? t('stCateredOk', { n: money(res.order.pay) }) : t('stCateredMiss', { u: res.order.units + ' ' + (id === 'icecream' ? t('stScoops').split('=')[1].trim() : t('stCups')) })) : null;
     const row = (label, val, cls = '') => h('div', { class: 'rrow ' + cls }, h('span', {}, label), h('b', {}, val));
     const fresh = awardBadges();
-    const soldBy = isSnack ? Object.entries(res.bySold).map(([k, n]) => `${MENU_EMOJI[k]} ${num(n)}`).join('  ') : null;
+    const itemRows = isSnack ? Object.entries(st.lastItems).map(([k, info]) => ({ k, info, v: verdictOf(info) })).filter((x) => x.v.kind !== 'none') : [];
+    const stars = itemRows.filter((x) => x.v.kind === 'right').length;
+    const itemsEl = isSnack && itemRows.length ? h('div', { class: 'receipt card itemsdone' }, h('h3', {}, t('hhItems')),
+      itemRows.map((x) => h('div', { class: 'irow' }, h('span', { class: 'memo' }, MENU_EMOJI[x.k]), h('div', { class: 'iname' }, h('strong', {}, t('m_' + x.k)), h('small', {}, t('hdMade', { m: num(x.v.made), s: num(x.v.sold), w: num(x.v.wanted) }))), lastChip(x.info))),
+      stars >= 3 ? h('p', { class: 'notice perknew' }, t('hhStars', { n: stars })) : null) : null;
     show(root, header(t('stReceipt'), [seasonChip(), newBest && profit > 0 ? h('span', { class: 'chip on' }, '⭐ ' + t('stBestDay')) : null]),
       h('div', { class: 'receipt card' },
         row(t('stCrowd'), num(res.n)),
@@ -361,12 +393,13 @@ export function mount(el, { id }) {
         row(profit >= 0 ? t('stProfit') : t('stLoss'), (profit >= 0 ? '+' : '−') + money(Math.abs(profit)), 'total ' + (profit >= 0 ? 'good' : 'bad')),
         h('hr'), row('💭 ' + t('stTooPricey'), num(res.pricey)), row('🙁 ' + t('stSoldOut'), num(res.soldout)), res.busy ? row('⏳ ' + t('stBusy'), num(res.busy)) : null,
         row(t('stLeft'), isSnack ? num(res.leftover) : unitsLeft + (id === 'icecream' ? ' ' + t('stTubs') : ' ' + t('stCups'))),
-        soldBy ? row(t('stSoldBy'), soldBy) : null,
         row(t('stBank'), money(st.bank), 'bank')),
+      itemsEl,
       order ? h('p', { class: 'notice' }, (res.order.ok ? '🎉 ' : '') + order) : null,
       h('p', { class: 'coach' }, h('span', { html: icons.bulb(30) }), tips),
       fresh.length ? h('p', { class: 'notice' }, '🏅 ' + fresh.join(', ')) : null,
       h('div', { class: 'openrow' }, h('button', { class: 'btn gold go', onclick: () => { sfx.pop(); if (seasonOver) endSeason(); else plan(); } }, seasonOver ? t('done') : t('stNextDay')), seasonOver ? null : h('button', { class: 'btn ghost', onclick: () => go('/stands') }, t('stPause'))));
+    if (isSnack && stars >= 3) { sfx.hardCorrect(); confetti(); }
     if (isSnack && newBest && profit > 0 && st.perks.fireworks) fireworks();
     else if (profit >= (isSnack ? 25 : 8)) { sfx.hardCorrect(); confetti(); } else if (profit > 0) sfx.correct();
   }

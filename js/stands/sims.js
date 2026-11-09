@@ -269,6 +269,13 @@ export const crowdBand = (n) => {
 const bigScale = (up) => Math.round(0.8 * crowdBand(fieldsOwned(up))[1] * stadiumMult(up));
 export const SNACK = {
   id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = SNACK.stockMax(up || {}); return m >= 5e6 ? 250000 : m >= 1e6 ? 50000 : m >= 250000 ? 10000 : m >= 60000 ? 2500 : m >= 15000 ? 1000 : m >= 4000 ? 250 : m >= 1000 ? 100 : m >= 300 ? 25 : m >= 120 ? 10 : 5; },
+  /** Expected buyers per menu item for a day (before luck): the same number is compared between two days to say "more fans today" or "fewer". */
+  demand(ctx, level = 'normal') {
+    const e = effects('snack', ctx.up), lvl = PRICE_LEVELS[level] || PRICE_LEVELS.normal;
+    const ws = snackWeights(ctx), tot = ws.reduce((a, b) => a + b.k, 0) || 1;
+    const accept = Math.min(1, lvl.accept + e.ptol * (lvl.mult > 1 ? 1 : 0.4) + WEATHER[ctx.weather].bonus * 0.5), n = SNACK.trafficOf(ctx);
+    return Object.fromEntries(ws.map((w) => [w.id, n * (w.k / tot) * accept]));
+  },
   stockMax: (up) => Math.max(40 + effects('snack', up).stock, bigScale(up)),
   unitCostOf: (m, up) => m.cost * effects('snack', up).cost,
   costOf(plan, up) { return Object.entries(plan.stock).reduce((a, [id, n]) => a + n * MENU.find((m) => m.id === id).cost * effects('snack', up).cost, 0); },

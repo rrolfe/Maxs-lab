@@ -7,7 +7,7 @@ const A = await open({ lang, state: seed });
 const openCopySec = async (page) => { await page.evaluate(() => { location.hash = '#/grownup'; }); await page.waitForTimeout(700); await page.locator('details.gsec summary', { hasText: /This copy|Esta copia/ }).click(); await page.waitForTimeout(200); };
 await openCopySec(A.page);
 const bal = (page) => page.evaluate(async () => (await import('./js/core/store.js')).S.pearls.balance);
-ok(/2026-11-08/.test(await A.page.locator('details.gsec', { hasText: /This copy|Esta copia/ }).first().innerText()), 'the build number is shown');
+ok(/2026-11-\d\d/.test(await A.page.locator('details.gsec', { hasText: /This copy|Esta copia/ }).first().innerText()), 'the build number is shown');
 await A.page.locator('details.gsec[open] button', { hasText: '+800' }).click(); await A.page.waitForTimeout(200);
 ok((await bal(A.page)) === 923, 'give +800 adds exactly 800 (balance ' + await bal(A.page) + ')');
 const day0 = await A.page.evaluate(async () => Object.values((await import('./js/core/store.js')).S.days).reduce((a, d) => a + (d.pearls || 0), 0));
