@@ -106,8 +106,15 @@ export const UPGRADES = {
     { id: 'stadium2', tier: 2, price: 3000000, req: ['stadium', 'fields78'], fx: {}, unlock: ['cocoa'] },
     { id: 'stadium3', tier: 3, price: 100000000, req: ['stadium2', 'fields910'], fx: {} },
     { id: 'jerseys', tier: 2, price: 110, fx: { ptol: 0.12 } },
-    { id: 'window2', tier: 3, price: 240, fx: { serve: 40, traffic: 0.25 } },
-    { id: 'cook', tier: 3, price: 200, fx: { serve: 40, cost: 0.9 } },
+    // Windows and workers: each one lets the stand serve more fans before the line gets too long (staff = +20% of the serving capacity, which grows with the crowd). Rob, Nov 9 2026.
+    { id: 'window2', tier: 1, price: 240, fx: { staff: 0.2, traffic: 0.25 } },
+    { id: 'cook', tier: 1, price: 200, fx: { staff: 0.1, cost: 0.9 } },
+    { id: 'cashier', tier: 1, price: 1500, req: ['cook'], fx: { staff: 0.1 } },
+    { id: 'window3', tier: 1, price: 2500, req: ['window2'], fx: { staff: 0.2 } },
+    { id: 'window4', tier: 1, price: 30000, req: ['window3'], fx: { staff: 0.2 } },
+    { id: 'crew', tier: 1, price: 60000, req: ['cashier'], fx: { staff: 0.15 } },
+    { id: 'manager', tier: 2, price: 250000, req: ['crew'], fx: { staff: 0.1, cost: 0.95 } },
+    { id: 'window5', tier: 2, price: 1200000, req: ['window4'], fx: { staff: 0.2 } },
     { id: 'mascot', tier: 3, price: 330, fx: { flat: 5, traffic: 0.2 } },
     { id: 'suites', tier: 4, price: 700, req: ['window2'], fx: { flat: 8, ptol: 0.1 } },
   ],
@@ -120,7 +127,7 @@ export function fixLegacyUp(up) {      // before pairs existed there were separa
 }
 export function effects(stand, up = {}) {
   if (up && (up.field5 || up.field6)) up = { ...up, fields56: 1 };
-  const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, stock: 0, cost: 1, crowd: 1, hot: 0, rain: 0, unlock: new Set() };
+  const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, staff: 0, stock: 0, cost: 1, crowd: 1, hot: 0, rain: 0, unlock: new Set() };
   for (const u of upgradeList(stand)) if (up[u.id]) {
     for (const [k, v] of Object.entries(u.fx)) { if (k === 'cost') e.cost *= v; else if (k === 'crowd') e.crowd *= v; else e[k] += v; }
     (u.unlock || []).forEach((x) => e.unlock.add(x));
@@ -275,7 +282,8 @@ export const SNACK = {
     const [lo, hi] = crowdBand(fieldsOwned(ctx.up));
     return (lo + (hi - lo) * q) * stadiumMult(ctx.up);        // each stadium level triples the crowd
   },
-  serveCap: (up) => Math.max(40 + effects('snack', up).serve, bigScale(up)),
+  // how many fans the windows can serve in a day before people give up on the line: the stand's size, plus the windows and workers he bought
+  serveCap: (up) => { const e = effects('snack', up); return Math.round(Math.max(40 + e.serve, bigScale(up)) * (1 + e.staff)); },
   sim(plan, ctx, r = Math.random) {
     const e = effects('snack', ctx.up), lvl = PRICE_LEVELS[plan.level || 'normal'];
     const n = Math.max(0, Math.round(SNACK.trafficOf(ctx) * (0.85 + 0.3 * r())));

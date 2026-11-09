@@ -26,7 +26,7 @@ addStrings({
     stReceipt: 'End of day', stSold: 'Sold', stTooPricey: 'Said “too pricey”', stSoldOut: 'Left because you ran out', stBusy: 'Left: line too long', stLeft: 'Left over', stSales: 'Money in', stSpent: 'Cost to make', stProfit: 'Profit', stLoss: 'Loss',
     stNextDay: 'Open again tomorrow', stBestDay: 'New best day!', stDayN: 'Day {n}', stSeasonN: 'Season {n}', stDayOf: 'Day {d} of {m}', stCrowd: 'Customers today', stCustomers: '{n} customers',
     stCoachFirst: 'Tip: not too cheap, not too pricey. Try a price and see who buys!',
-    stCoachSoldOut: 'Last time you ran out and {n} people left. Make more today?', stCoachPricey: 'Last time {n} people said “too pricey”. Try a lower price?', stCoachLeft: 'Last time {n} were left over. Make a few fewer?', stCoachGood: 'Last time went well. Can you beat ${p} profit?', stCoachBusy: '{n} people left because the line was too long. A helper or a second table would serve more people!',
+    stCoachSoldOut: 'Last time you ran out and {n} people left. Make more today?', stCoachPricey: 'Last time {n} people said “too pricey”. Try a lower price?', stCoachLeft: 'Last time {n} were left over. Make a few fewer?', stCoachGood: 'Last time went well. Can you beat ${p} profit?', stCoachBusySnack: 'Last time {n} fans left because the line was too long. Add a window or hire a worker in the shop!', stCapLine: 'Your windows can serve about {n} fans today', stCapWarn: '⏳ The line may get too long! Add a window or hire a worker in the shop.', stCapOk: '✅ Enough windows and workers for today.', stCoachBusy: '{n} people left because the line was too long. A helper or a second table would serve more people!',
     stTipSoldOut: 'You sold out! {n} people wanted some. Make more next time.', stTipPricey: '{n} people said “too pricey”. A lower price might bring them in.', stTipLeft: '{n} {u} were left over. Make fewer to save money.', stTipGreat: 'Great day! You read the weather and the price just right.', stTipRain: 'Rain keeps people home. On rainy days, make less so nothing is wasted.', stTipOk: 'Not bad! Small changes to price and amount can make a big difference.', stTipBusy: '{n} people left because the line was too long. Hire a helper or add a table!',
     stCateredOk: 'Catering delivered! The company paid {n}.', stCateredMiss: 'The big order needed {u} but you did not have enough. Next time make extra!',
     stLoan: 'Your family lent you ${n} so you can keep going.', stNoMoney: 'Not enough money for that much.', stBoughtUp: 'New upgrade: {n}!',
@@ -49,7 +49,7 @@ addStrings({
     stReceipt: 'Fin del día', stSold: 'Vendidos', stTooPricey: 'Dijeron “muy caro”', stSoldOut: 'Se fueron porque se acabó', stBusy: 'Se fueron: fila muy larga', stLeft: 'Sobraron', stSales: 'Dinero que entró', stSpent: 'Costo de preparar', stProfit: 'Ganancia', stLoss: 'Pérdida',
     stNextDay: 'Abrir de nuevo mañana', stBestDay: '¡Nuevo mejor día!', stDayN: 'Día {n}', stSeasonN: 'Temporada {n}', stDayOf: 'Día {d} de {m}', stCrowd: 'Clientes hoy', stCustomers: '{n} clientes',
     stCoachFirst: 'Consejo: ni muy barato ni muy caro. ¡Prueba un precio y mira quién compra!',
-    stCoachSoldOut: 'La última vez se acabó y {n} personas se fueron. ¿Preparas más hoy?', stCoachPricey: 'La última vez {n} personas dijeron “muy caro”. ¿Pruebas un precio menor?', stCoachLeft: 'La última vez sobraron {n}. ¿Preparas un poco menos?', stCoachGood: 'La última vez salió bien. ¿Puedes superar ${p} de ganancia?', stCoachBusy: '{n} personas se fueron porque la fila era muy larga. ¡Un ayudante o una segunda mesa atenderían a más gente!',
+    stCoachSoldOut: 'La última vez se acabó y {n} personas se fueron. ¿Preparas más hoy?', stCoachPricey: 'La última vez {n} personas dijeron “muy caro”. ¿Pruebas un precio menor?', stCoachLeft: 'La última vez sobraron {n}. ¿Preparas un poco menos?', stCoachGood: 'La última vez salió bien. ¿Puedes superar ${p} de ganancia?', stCoachBusySnack: 'La última vez {n} fans se fueron porque la fila era muy larga. ¡Agrega una ventanilla o contrata a un trabajador en la tienda!', stCapLine: 'Tus ventanillas pueden atender a unos {n} fans hoy', stCapWarn: '⏳ ¡La fila puede ser muy larga! Agrega una ventanilla o contrata a un trabajador en la tienda.', stCapOk: '✅ Suficientes ventanillas y trabajadores para hoy.', stCoachBusy: '{n} personas se fueron porque la fila era muy larga. ¡Un ayudante o una segunda mesa atenderían a más gente!',
     stTipSoldOut: '¡Se acabó todo! {n} personas querían. Prepara más la próxima vez.', stTipPricey: '{n} personas dijeron “muy caro”. Un precio menor podría atraerlas.', stTipLeft: 'Sobraron {n} {u}. Prepara menos para ahorrar.', stTipGreat: '¡Gran día! Leíste bien el clima y el precio.', stTipRain: 'La lluvia deja a la gente en casa. En días lluviosos prepara menos para no desperdiciar.', stTipOk: '¡Nada mal! Pequeños cambios en el precio y la cantidad pueden hacer una gran diferencia.', stTipBusy: '{n} personas se fueron porque la fila era muy larga. ¡Contrata un ayudante o agrega una mesa!',
     stCateredOk: '¡Pedido entregado! La empresa pagó {n}.', stCateredMiss: 'El pedido grande necesitaba {u} pero no tenías suficiente. ¡La próxima vez prepara de más!',
     stLoan: 'Tu familia te prestó ${n} para que sigas.', stNoMoney: 'No alcanza el dinero para tanto.', stBoughtUp: '¡Nueva mejora: {n}!',
@@ -139,6 +139,10 @@ export function mount(el, { id }) {
       h('div', { class: 'sbrow' }, cell('stScDay', st.season ? Math.min(st.season.day + 1, seasonDays(id)) + '/' + seasonDays(id) : '–'), cell('stScFields', String(fieldsOwned(st.up))), cell('stScFans', '~' + num(Math.round(exp))), cell('stScCash', money(st.bank))),
       st.perks.horn ? h('button', { class: 'sbhorn', 'aria-label': t('p_horn'), onclick: () => { sfx.fanfare(); toast('🎺 ' + t('stHornSay')); } }, '🎺') : null);
   }
+  function capHint(exp) {      // can the windows keep up with today's crowd? (a busy day can be 15% bigger than the forecast)
+    const cap = SNACK.serveCap(st.up), enough = exp * 1.15 <= cap;
+    return h('div', { class: 'caphint ' + (enough ? 'ok' : 'warn') }, h('span', {}, '🪟 ' + t('stCapLine', { n: num(cap) })), h('b', {}, enough ? t('stCapOk') : t('stCapWarn')));
+  }
   function chompyEl() {
     const say = h('div', { class: 'chompysay', hidden: true }); let taps = 0, last = 0, hide = 0;
     const btn = h('button', { class: 'chompy', 'aria-label': t('p_chompy'), onclick: () => {
@@ -191,7 +195,7 @@ export function mount(el, { id }) {
     const last = st.last;
     let coach = t('stCoachFirst');
     if (last) {
-      coach = last.busy >= 4 ? t('stCoachBusy', { n: last.busy }) : last.soldout >= 3 ? t('stCoachSoldOut', { n: last.soldout }) : last.pricey >= 5 ? t('stCoachPricey', { n: last.pricey })
+      coach = last.busy >= 4 ? t(isSnack ? 'stCoachBusySnack' : 'stCoachBusy', { n: num(last.busy) }) : last.soldout >= 3 ? t('stCoachSoldOut', { n: last.soldout }) : last.pricey >= 5 ? t('stCoachPricey', { n: last.pricey })
         : last.leftover >= (id === 'icecream' ? 12 : isSnack ? 12 : 5) ? t('stCoachLeft', { n: id === 'icecream' ? Math.floor(last.leftover / 12) || 1 : last.leftover })
         : t('stCoachGood', { p: Math.max(1, Math.floor(last.profit)).toFixed(0) });
     }
@@ -271,6 +275,7 @@ export function mount(el, { id }) {
         h('div', { class: 'wx' }, h('span', { class: 'wxi' }, WEATHER[weather].icon), h('div', {}, h('small', {}, t('stForecast') + ' · ' + t('stDayN', { n: st.season.day + 1 })), h('strong', {}, wLabel(weather)))),
         event ? h('div', { class: 'ev' }, (event === 'nightGame' ? '🌙 ' : event === 'game' || isSnack ? '⚾ ' : event === 'roadwork' ? '🚧 ' : event === 'party' ? '🎂 ' : '🏢 '), t('e_' + event)) : null,
         h('div', { class: 'crowdhint' }, '👥 ', t('stCustomers', { n: '~' + Math.round(exp).toLocaleString('en-US') })),
+        isSnack ? capHint(exp) : null,
         isSnack && st.perks.chompy ? chompyEl() : null),
       h('p', { class: 'coach' }, h('span', { html: icons.bulb(30) }), coach),
       planBlock,
