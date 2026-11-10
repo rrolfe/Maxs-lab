@@ -40,7 +40,7 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | Word Search: choose size (8, 10, 12) and difficulty (Easy: across/down, Medium: + diagonals, Tricky: backwards too) | per word 3 / 4 / 6; finish bonus 8-16 (Easy), 10-20 (Medium), 14-28 (Tricky) by size |
 | Home Jobs (real chores, a grown-up types the chore code) | 33 jobs worth 3 to 40 pearls (about 3 pearls per minute of effort), once a day each, many with a weekly limit (Monday to Sunday); not limited by the daily cap |
 | Hangman win (levels 1-3) | 10 / 15 / 20, +5 flawless; a loss still gives 3 |
-| Baseball questions | none (they power the swing) |
+| Baseball | no questions any more: it is a timing game that costs pearls to play (see below) |
 
 **Wrong picks cost pearls, gently:** at most 2 per miss on 3-4 choice questions (up to 4 on true/false), never more than a quarter of what Max holds at that moment (minimum 1), and at most 10 lost per day in total. Pearls never drop below 0. A short buzzer plays; a gentle note plays for word-search and find-it misses. This was Rob's choice; child-development educators generally advise against point loss for this age.
 
@@ -55,7 +55,7 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | New season: lemonade / snack / ice cream | 75 / 110 / 130 | ~6 / 9 / 11 |
 | Baseball, 3 innings / 6 innings | 150 / 270 | ~12 / ~22 |
 
-Stands run 10-day seasons (the Snack Shack runs 15) with upgrade trees. Upgrades and cash carry over between seasons; only starting the next season costs pearls. Snack Shack ball fields (each doubles the crowd) cost $90, $220, $500, $1,100 and $2,400, so a careful player has field 2 by about inning 5 and field 3 by about inning 10. Max's Ballpark is a quiz-powered baseball game (3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates). Bot simulations (`tools/tests/*-sim.mjs`) show a 70%-accuracy player wins about 75% / 63% / 54% of 3-inning games against the three teams.
+Stands run 10-day seasons (the Snack Shack runs 15) with upgrade trees. Upgrades and cash carry over between seasons; only starting the next season costs pearls. Snack Shack ball fields (each doubles the crowd) cost $90, $220, $500, $1,100 and $2,400, so a careful player has field 2 by about inning 5 and field 3 by about inning 10. Max's Ballpark (Nov 10 2026) is an arcade timing game, with no questions: the pitcher throws, Max taps SWING when the ball is in the glowing ring and holds off on balls outside the strike zone. Perfect timing makes the big hits; early, late or missed swings give fouls, strikeouts and outs. On defense he taps CATCH at the right moment for a great play that can save a run. It runs 3 or 6 innings against Dino Rexes, Space Rockets or Sea Pirates (fast pitches, curveballs and changeups get harder). Playing costs pearls (150 / 270). Bot simulations (`tools/tests/baseball-sim.mjs`) show how often a rookie, a kid and a sharp player win each matchup. The field is drawn in SVG with its own animations (`js/baseball/field.js`).
 
 ## Weekly check-in and the Grown-up corner
 
@@ -73,9 +73,17 @@ See `audio/announcer/README.md` to drop in natural recordings for the winner ann
 
 The chore check uses the code **1234** by default (Rob's choice, for easy approval while he is nearby). Change it in the Grown-up corner under *PIN and about*. The grown-up passcode, if set, also works. A grown-up can add, remove or re-price jobs from the Home Jobs screen.
 
-## Safari and the Home Screen icon do not share progress
+## Safari and the Home Screen icon do not share progress (fixed so progress comes along)
 
-On an iPad, Safari and an app added to the Home Screen each keep their own saved data. A Home Screen icon added today starts at zero. Pick one place for Max to play. To move progress, open the Grown-up corner in the copy that has it, tap **Copy this copy's transfer code**, then paste it under **Paste a transfer code here** in the other copy. The same section shows the build number, and has +100 / +300 / +800 pearl buttons for testing or rewards. Updates load on the next open when online (code is fetched fresh, with the saved copy only as the offline fallback).
+On an iPad, Safari and an app added to the Home Screen each keep their own saved data (iOS copies only cookies). So, while Max plays in Safari, the lab writes a small compressed "lite" copy of his progress into a cookie (`mll_carry`, scoped to the lab, at most about 3.4 KB). A new empty copy that opens from the Home Screen reads it on first launch and picks up where Max was (pearls, levels, stands, badges). If that does not work (older iOS, cookies cleared), the Home Screen copy shows a **paste a transfer code** card, and the Grown-up corner says whether progress came along. The full copy is still the transfer code: Grown-up corner, **Copy this copy's transfer code**, then paste it in the other copy. Tip: add the icon from Safari **after** the updated lab has loaded with Max's progress, then remove the old empty icon. The same section shows the build number, and has +100 / +300 / +800 pearl buttons for testing or rewards. Updates load on the next open when online (code is fetched fresh, with the saved copy only as the offline fallback).
+
+## Start a game over
+
+Grown-up corner, **Start a game over**: reset one game (Lemonade, Ice cream, Snack Shack, Pizza, Word Search/Hangman levels, Ballpark stats) so Max can start fresh, optionally keeping what he unlocked, or everything (type RESTART). A safety snapshot is saved first and can be restored from the snapshots list.
+
+## Lemonade Stand: from a cart to Lemon Town (Nov 10 2026)
+
+The Lemonade Stand has 67 extras in eight paths: *Look & Signs*, *Gear & Ice*, *Flavors & Treats*, *Helpers*, *Shout It Out*, *Pop-up Places*, *Wheels & Orders* and *The Shop*. The shop shows a "saving for" goal (tap a card's star to pick it), the dream strip (rent a shop, counter, Grand Opening, bakery, second shop, factory, franchise, Lemon Town) and only the next few cards of a path plus a mystery card. Chapters: tiers 1-4 show from seasons 1-4, tier 5 from season 6, tier 6 from season 9. The stand on screen grows from a cart to a striped-awning stand, a wooden stand, a golden lemon sign, a coming-soon shop, a Grand Opening shop, a factory and Lemon Town. Pop-up places (park, dino museum, ballpark gate, shark aquarium, beach cart, farmers market, rocket center, stadium cart) are chosen each morning: the forecast shows the crowd at each place, and each has its own weather (the beach is empty in the rain, the museum is full). Deliveries (wagon, bike, scooter, van, drone) add customers; catering orders grow from 50 to 100 to 250 cups; other shops pay a daily income. Happy surprise days: dino parade, rocket-launch party, Shark Week, free lemons, a rainbow, a mystery shopper, newspaper ad days. The old extras (sign ... store) keep their effects, and an old save that owned the store already owns the shop steps before it. Prices run from $15 to $250,000. `node tools/tests/lemonade-ladder.mjs` checks the ladder with bots (about $11 a day in season 1, hundreds by season 12, Lemon Town around season 26 for a bot that buys the cheapest thing it can).
 
 ## Time warnings
 

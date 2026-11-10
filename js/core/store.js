@@ -80,6 +80,8 @@ function idbSet(k, v) { if (!idb) return; try { idb.transaction('kv', 'readwrite
 const SNAP_MAX = 8, SNAP_EVERY = 20 * 3600e3, SNAP_INDEX = 'snaps';
 function idbDel(k) { if (!idb) return; try { idb.transaction('kv', 'readwrite').objectStore('kv').delete(k); } catch { /* best effort */ } }
 const digest = (s) => ({ earned: s?.pearls?.earned || 0, balance: s?.pearls?.balance || 0, stamps: Object.keys(s?.passport?.stamps || {}).length, days: Object.keys(s?.days || {}).length });
+// "real" progress ignores the empty day record that is created just by opening the lab
+const hasReal = (s) => { const d = digest(s); return d.earned > 0 || d.stamps > 0 || Object.values(s?.days || {}).some((v) => (v?.q || 0) > 0 || (v?.pearls || 0) > 0 || (v?.sec || 0) > 120); };
 const hasProgress = (s) => { const d = digest(s); return d.earned > 0 || d.days > 0 || d.stamps > 0; };
 async function snapIndex() { const i = await idbGet(SNAP_INDEX); return Array.isArray(i) ? i : []; }
 async function takeSnapshot(text, saved, why) {
@@ -121,6 +123,70 @@ function migrate() {
   S.schema = SCHEMA;
 }
 
+// ---------- carrying progress into the Home Screen icon ----------
+// On iPad, Safari and a Home Screen icon keep SEPARATE storage (localStorage, IndexedDB, everything) - the icon always starts empty.
+// The one thing iOS (17.2 and newer) copies into a new icon is cookies. So while Max plays in Safari, a small, compressed copy of his
+// progress (pearls, levels, stands, stamps, settings - not the long question history) rides along in one cookie scoped to this lab's folder.
+// A copy that starts with no progress picks it up on first launch. Nothing is sent anywhere: GitHub Pages ignores the cookie.
+const CARRY = 'mll_carry', CARRY_MAX = 3400;      // browsers allow ~4,096 bytes per cookie; this is sent with every request, so keep it small
+const carryPath = () => location.pathname.replace(/[^/]*$/, '') || '/';
+export const isStandalone = () => { try { return navigator.standalone === true || matchMedia('(display-mode: standalone)').matches; } catch { return false; } };
+const pickKeys = (o, ks) => Object.fromEntries(ks.filter((k) => o && o[k] !== undefined).map((k) => [k, o[k]]));
+function liteOf(s, drop = 0) {
+  const stands = {};
+  for (const [id, st] of Object.entries(s.stands || {})) { const { last, lastItems, lastCtx, ...rest } = st || {}; stands[id] = rest; }   // yesterday's receipt is not needed
+  const L = {
+    schema: s.schema, created: s.created, lang: s.lang, theme: s.theme, sound: s.sound, speak: s.speak, bigText: s.bigText,
+    pearls: s.pearls, skill: s.skill, tally: s.tally, unlocked: s.unlocked, stands, gifts: s.gifts,
+    passport: { stamps: s.passport?.stamps || {}, badges: s.passport?.badges || {}, people: s.passport?.people || {} },
+    words: pickKeys(s.words, ['wins', 'tier', 'streak']),
+    settings: pickKeys(s.settings, ['pinHash', 'pinSalt', 'voice', 'dailyLimit', 'bedtime', 'offset', 'home', 'choreCode']),
+    baseball: s.baseball, mission: s.mission, chores: { total: s.chores?.total || 0 },
+    days: Object.fromEntries(Object.entries(s.days || {}).sort().slice(-7).map(([k, v]) => [k, pickKeys(v, ['sec', 'q', 'ok', 'pearls', 'missions', 'lost', 'chore'])])),
+  };
+  // too big for one cookie? give up the least important things first
+  if (drop >= 1) delete L.days;
+  if (drop >= 2) L.passport.people = {};
+  if (drop >= 3) L.baseball = undefined;
+  if (drop >= 4) L.passport.badges = {};
+  if (drop >= 5) L.stands = Object.fromEntries(Object.entries(L.stands).map(([id, st]) => [id, pickKeys(st, ['bank', 'days', 'best', 'total', 'up', 'seasons', 'bestSeason', 'tickets', 'perks', 'level'])]));
+  if (drop >= 6) L.passport = { stamps: {}, badges: {}, people: {} };      // last resort: pearls, levels, stands and settings still travel
+  return L;
+}
+const toUrlB64 = (u8) => b64(u8).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const fromUrlB64 = (v) => Uint8Array.from(atob(v.replace(/-/g, '+').replace(/_/g, '/')), (ch) => ch.charCodeAt(0));
+async function encodeCarry(obj) {
+  const text = JSON.stringify(obj);
+  if (typeof CompressionStream === 'undefined') return 'C0.' + toUrlB64(new TextEncoder().encode(text));
+  const z = new Blob([text]).stream().pipeThrough(new CompressionStream('gzip'));
+  return 'C1.' + toUrlB64(new Uint8Array(await new Response(z).arrayBuffer()));
+}
+async function decodeCarry(v) {
+  if (v.startsWith('C1.')) return JSON.parse(await new Response(new Blob([fromUrlB64(v.slice(3))]).stream().pipeThrough(new DecompressionStream('gzip'))).text());
+  if (v.startsWith('C0.')) return JSON.parse(new TextDecoder().decode(fromUrlB64(v.slice(3))));
+  return null;
+}
+const carryRaw = () => { try { const m = document.cookie.split('; ').find((c) => c.startsWith(CARRY + '=')); return m ? m.slice(CARRY.length + 1) : ''; } catch { return ''; } };
+function clearCarry() { try { document.cookie = `${CARRY}=; path=${carryPath()}; max-age=0; SameSite=Lax`; } catch { /* optional */ } carryInfo = { ok: false, bytes: 0, at: 0 }; }
+let carryInfo = { ok: false, bytes: 0, at: 0 }, carryTimer = 0, carriedIn = false;
+export const carryStatus = () => ({ ...carryInfo, standalone: isStandalone(), cameIn: carriedIn });
+export const progressed = () => hasReal(S);
+export async function writeCarry() {
+  try {
+    if (!hasReal(S)) { clearCarry(); return carryInfo; }
+    let val = '', drop = 0;
+    for (; drop <= 6; drop++) { val = await encodeCarry(liteOf(S, drop)); if (val.length <= CARRY_MAX) break; val = ''; }
+    if (!val) { clearCarry(); return carryInfo; }
+    document.cookie = `${CARRY}=${val}; path=${carryPath()}; max-age=${365 * 24 * 3600}; SameSite=Lax${location.protocol === 'https:' ? '; Secure' : ''}`;
+    carryInfo = { ok: carryRaw() === val, bytes: val.length, at: Date.now(), dropped: drop };
+  } catch { carryInfo = { ok: false, bytes: 0, at: 0 }; }
+  return carryInfo;
+}
+const queueCarry = (ms = 2500) => { clearTimeout(carryTimer); carryTimer = setTimeout(writeCarry, ms); };
+async function readCarry() {
+  try { const v = carryRaw(); if (!v) return null; const o = await decodeCarry(v); return o && typeof o === 'object' ? o : null; } catch { return null; }
+}
+
 export async function initStore() {
   idb = await openIDB();
   let raw = lsGet();
@@ -143,6 +209,16 @@ export async function initStore() {
       lsSet(JSON.stringify(S)); idbSet(KEY, JSON.stringify(S));
     }
   }
+  // a copy with no progress (a brand-new Home Screen icon, or Safari after it cleared its storage) takes the progress that rode along in the cookie
+  if (!hasReal(S)) {
+    const lite = await readCarry();
+    if (lite && hasReal(lite)) {
+      S = merge(fresh(), lite); migrate(); S.carried = Date.now(); carriedIn = true;
+      applyGifts();
+      lsSet(JSON.stringify(S)); idbSet(KEY, JSON.stringify(S));
+    }
+  }
+  queueCarry(1500);
   try { if (navigator.storage?.persist) navigator.storage.persist(); } catch { /* optional */ }
   document.documentElement.lang = S.lang;
   return S;
@@ -151,6 +227,7 @@ export async function initStore() {
 export function save() {
   clearTimeout(saveTimer);
   saveTimer = setTimeout(flush, 400);
+  queueCarry();
   emit();
 }
 export function flush() {
@@ -159,7 +236,7 @@ export function flush() {
   idbSet(KEY, s);
 }
 addEventListener('pagehide', flush);
-document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flush(); });
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') { flush(); queueCarry(0); } });
 export const storageHealthy = () => storageOk;
 
 // ---------- dates ----------
@@ -299,5 +376,17 @@ export async function readTransferCode(code) {
   if (c.startsWith('MLAB0:')) return decodeURIComponent(escape(atob(c.slice(6))));
   throw new Error('That is not a transfer code.');
 }
-export function resetAll() { S = fresh(); document.documentElement.lang = S.lang; save(); flush(); }
+/** Grown-up "start a game over": one stand, the word games or baseball goes back to the beginning. Pearls and everything else stay. */
+export const STAND_IDS = ['lemonade', 'icecream', 'snack', 'pizza'];
+export function resetGame(id, { keepUnlocked = true } = {}) {
+  if (STAND_IDS.includes(id)) {
+    delete S.stands[id];
+    if (keepUnlocked && S.unlocked[id]) S.stands[id] = { tickets: 1 };     // same as right after buying it: one free season ticket
+    else S.unlocked[id] = false;
+  } else if (id === 'words') S.words = fresh().words;
+  else if (id === 'baseball') S.baseball = fresh().baseball;
+  else return false;
+  save(); flush(); return true;
+}
+export function resetAll() { S = fresh(); document.documentElement.lang = S.lang; clearTimeout(carryTimer); clearCarry(); save(); flush(); clearTimeout(carryTimer); clearCarry(); }
 export function setLang(l) { S.lang = l === 'es' ? 'es' : 'en'; document.documentElement.lang = S.lang; save(); }

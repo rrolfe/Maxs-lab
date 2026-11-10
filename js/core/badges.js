@@ -15,6 +15,9 @@ export const BADGES = [
   { id: 'stamps25', icon: 'world', name: { en: 'World Traveler', es: 'Viajero del mundo' }, desc: { en: 'Collect 25 passport stamps.', es: 'Reúne 25 sellos del pasaporte.' }, test: () => Object.keys(S.passport.stamps).length >= 25 },
   { id: 'stand1', icon: 'lemonade', name: { en: 'Open for Business', es: 'Abierto al público' }, desc: { en: 'Run your first stand day.', es: 'Atiende tu primer día en un puesto.' }, test: () => Object.values(S.stands).some((s) => s && s.days > 0) },
   { id: 'profit', icon: 'trophy', name: { en: 'Big Profit', es: 'Gran ganancia' }, desc: { en: 'Make $10 profit in one day.', es: 'Gana $10 en un solo día.' }, test: () => Object.values(S.stands).some((s) => s && s.best >= 10) },
+  { id: 'lemon20', icon: 'lemonade', name: { en: 'Lemon Collector', es: 'Coleccionista de limones' }, desc: { en: 'Buy 20 extras for your lemonade stand.', es: 'Compra 20 extras para tu puesto de limonada.' }, test: () => Object.keys(S.stands.lemonade?.up || {}).length >= 20 },
+  { id: 'lemonshop', icon: 'lemonade', name: { en: 'Grand Opening', es: 'Gran inauguración' }, desc: { en: 'Open your own lemonade shop.', es: 'Abre tu propia tienda de limonada.' }, test: () => !!S.stands.lemonade?.up?.store },
+  { id: 'lemontown', icon: 'trophy', name: { en: 'Lemon Town Legend', es: 'Leyenda de Ciudad Limón' }, desc: { en: 'Build Lemon Town.', es: 'Construye Ciudad Limón.' }, test: () => !!S.stands.lemonade?.up?.lemontown },
   { id: 'ws10', icon: 'wordsearch', name: { en: 'Word Hunter', es: 'Cazapalabras' }, desc: { en: 'Solve 10 word searches.', es: 'Resuelve 10 sopas de letras.' }, test: () => S.words.wins.ws >= 10 },
   { id: 'hm10', icon: 'hangman', name: { en: 'Word Detective', es: 'Detective de palabras' }, desc: { en: 'Win 10 hangman games.', es: 'Gana 10 partidas de ahorcado.' }, test: () => S.words.wins.hm >= 10 },
 ];

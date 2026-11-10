@@ -3,12 +3,14 @@ import { execSync } from 'child_process';
 const require = createRequire(import.meta.url);
 const { chromium, devices } = require(process.env.PW_PATH || require('path').join(execSync('npm root -g').toString().trim(), 'playwright'));
 export const BASE = 'http://127.0.0.1:8767/';
-export async function open({ device = 'ipad-land', lang = 'en', theme = 'day', state = null } = {}) {
+export async function open({ device = 'ipad-land', lang = 'en', theme = 'day', state = null, cookies = null, standalone = false } = {}) {
   const browser = await chromium.launch();
   const ctxOpts = device === 'ipad-land' ? { ...devices['iPad Pro 11 landscape'] } : { viewport: { width: 834, height: 1194 }, hasTouch: true, isMobile: true, deviceScaleFactor: 1 };
   ctxOpts.serviceWorkers = 'block';
   const ctx = await browser.newContext(ctxOpts);
+  if (cookies) await ctx.addCookies(cookies);       // what iOS copies into a new Home Screen icon
   const page = await ctx.newPage();
+  if (standalone) await page.addInitScript(() => { Object.defineProperty(navigator, 'standalone', { get: () => true }); });   // pretend to be the Home Screen icon
   const errors = [];
   page.on('pageerror', (e) => errors.push('pageerror: ' + e.message));
   page.on('console', (m) => { if (m.type() === 'error' && !/tile|ERR_|Failed to load resource|net::/i.test(m.text())) errors.push('console: ' + m.text()); });

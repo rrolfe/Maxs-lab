@@ -1,4 +1,4 @@
-import { initStore, S, subscribe, save, setLang, weekView, S as _S, storageHealthy, minutesToday, day, flush, onMilestone } from './core/store.js';
+import { initStore, S, subscribe, save, setLang, weekView, S as _S, storageHealthy, minutesToday, day, flush, onMilestone, carryStatus, isStandalone, progressed, readTransferCode, importData, snapshotNow } from './core/store.js';
 import { h, $, toast } from './core/dom.js';
 import { icons, logo } from './core/icons.js';
 import { t, addStrings } from './core/i18n.js';
@@ -119,6 +119,40 @@ addStrings({
     warnOk: 'Entendido',
   },
 });
+// ---------- a Home Screen icon that starts empty: bring Max's progress over from Safari ----------
+// iOS gives every Home Screen icon its own empty storage. A small copy of the progress normally rides along in a cookie (see store.js);
+// if that did not work, this card lets a grown-up paste the transfer code from Safari's Grown-up corner. It never shows once Max has progress here.
+addStrings({
+  en: {
+    rcTitle: 'Welcome to the Home Screen lab!', rcBody: 'This copy starts with 0 pearls. If Max already earned pearls in Safari, a grown-up can bring them over:',
+    rcSteps: '1. Open Safari and the lab, then the Grown-up corner. 2. Open “This copy of the lab” and tap “Copy this copy’s transfer code”. 3. Come back here and paste it below.',
+    rcPaste: 'Paste the transfer code here', rcGo: 'Bring Max’s progress here', rcBad: 'That code did not work. Copy it again in Safari.', rcNot: 'Not now',
+    rcDone: 'Max’s progress is here! 🎉', rcCarried: 'Welcome back, Max! Your pearls and stands came along. 🎉',
+  },
+  es: {
+    rcTitle: '¡Bienvenido al laboratorio de la pantalla de inicio!', rcBody: 'Esta copia empieza con 0 perlas. Si Max ya ganó perlas en Safari, un adulto puede traerlas:',
+    rcSteps: '1. Abre Safari y el laboratorio, y entra al Rincón de adultos. 2. Abre “Esta copia del laboratorio” y toca “Copiar el código de transferencia”. 3. Vuelve aquí y pégalo abajo.',
+    rcPaste: 'Pega aquí el código de transferencia', rcGo: 'Traer el progreso de Max aquí', rcBad: 'Ese código no funcionó. Cópialo de nuevo en Safari.', rcNot: 'Ahora no',
+    rcDone: '¡El progreso de Max está aquí! 🎉', rcCarried: '¡Bienvenido de nuevo, Max! Tus perlas y puestos vinieron contigo. 🎉',
+  },
+});
+let recoverShown = false;
+function maybeRecover() {
+  if (recoverShown || !isStandalone() || progressed()) return;
+  recoverShown = true;
+  const box = h('textarea', { class: 'textin codebox', rows: 3, placeholder: 'MLAB1:…', 'aria-label': t('rcPaste'), autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
+  const msg = h('p', { class: 'qmsg', role: 'status' });
+  const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true', id: 'recover' },
+    h('div', { class: 'dialog' }, h('div', { class: 'center', html: logo(72) }), h('h2', {}, t('rcTitle')), h('p', {}, t('rcBody')), h('p', { class: 'muted small' }, t('rcSteps')), box, msg,
+      h('div', { class: 'row' },
+        h('button', { class: 'btn gold small', onclick: async () => {
+          try { const text = await readTransferCode(box.value); JSON.parse(text); await snapshotNow('before-restore'); importData(text, 'replace'); ov.remove(); toast(t('rcDone')); applyTheme(); refreshHud(); import('./core/router.js').then((m) => m.render()); }
+          catch { msg.textContent = t('rcBad'); }
+        } }, t('rcGo')),
+        h('button', { class: 'btn ghost small', onclick: () => ov.remove() }, t('rcNot')))));
+  document.body.append(ov);
+}
+
 const WARN_AT = [600, 300, 120];                       // seconds left
 let warnEl = null;
 /** Seconds of play left before the lab closes, and what the stop is tied to (limit, extra time or bedtime). Null when nothing limits play. */
@@ -175,6 +209,7 @@ async function main() {
     el.addEventListener('click', () => { stopSpeaking(true); end(); });
   });
   startRouter($('#screen'));
+  if (carryStatus().cameIn) toast(t('rcCarried'), 6000); else setTimeout(maybeRecover, 600);
   setInterval(checkLimits, 10000);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
   window.__lab = { S, go, flush, checkLimits };   // handy for testing and the grown-up export

@@ -9,7 +9,8 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { awardBadges } from '../core/badges.js';
 import { COST } from '../core/economy.js';
-import { SIMS, fieldsOwned, lookOf, stadiumLevel, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit } from './sims.js';
+import { SIMS, fieldsOwned, lookOf, stadiumLevel, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit, spotsOwned, orderOf, LEMON_ONLY, tierSeason, SPOTS } from './sims.js';
+import { lemonShop, sceneEl, spotRow, lemonGlyph } from './lemon-shop.js';
 import { UP_TEXT } from './upgrade-text.js';
 import { PERKS, newPerks, FACT_COUNT } from './perks.js';
 import { lastChip, fansChip, crowdPhrase, verdictOf, about } from './hints.js';
@@ -18,7 +19,7 @@ addStrings({
   en: {
     stLemonade: 'Lemonade Stand', stIcecream: 'Ice Cream Stand', stSnack: 'Ballpark Snack Shack', stBank: 'Your money', stForecast: 'Today’s forecast',
     w_sunny: 'Sunny', w_hot: 'Hot!', w_cloudy: 'Cloudy', w_rainy: 'Rainy',
-    e_game: 'Big game nearby: extra people!', e_roadwork: 'Road work: fewer people walk by.', e_catering: 'A company wants 50 cups for a meeting! Have 50 cups ready.', e_party: 'Birthday party order: 36 scoops (3 tubs)! Have 3 tubs ready.',
+    e_game: 'Big game nearby: extra people!', e_roadwork: 'Road work: fewer people walk by.', e_catering: 'A company wants {n} cups for a meeting! Have {n} cups ready.', e_party: 'Birthday party order: 36 scoops (3 tubs)! Have 3 tubs ready.',
     e_closeGame: 'Close game! Fans are on the edge of their seats.', e_homeRun: 'Home run! Everyone wants candy and snacks.', e_rainDelay: 'Rain delay! People want something hot.', e_bigCrowd: 'Big crowd today! Sold-out stands.',
     stPrice: 'Price', stPerCup: 'per cup', stPerScoop: 'per scoop', stStock: 'Make', stCups: 'cups', stTubs: 'tubs', stCost: 'Cost to make',
     stCostLine: '{n} {u} × {p} = {c}', stTubLine: '{n} tubs × {p} = {c}', stScoops: '1 tub = 12 scoops', stOpen: 'Open the stand!', stSkip: 'Skip to the end',
@@ -41,7 +42,7 @@ addStrings({
   es: {
     stLemonade: 'Puesto de limonada', stIcecream: 'Puesto de helados', stSnack: 'Puesto de botanas del estadio', stBank: 'Tu dinero', stForecast: 'Pronóstico de hoy',
     w_sunny: 'Soleado', w_hot: '¡Calor!', w_cloudy: 'Nublado', w_rainy: 'Lluvioso',
-    e_game: 'Hay un gran juego cerca: ¡más gente!', e_roadwork: 'Hay obras: pasa menos gente.', e_catering: '¡Una empresa quiere 50 vasos para una reunión! Ten 50 vasos listos.', e_party: '¡Pedido de fiesta de cumpleaños: 36 bolas (3 botes)! Ten 3 botes listos.',
+    e_game: 'Hay un gran juego cerca: ¡más gente!', e_roadwork: 'Hay obras: pasa menos gente.', e_catering: '¡Una empresa quiere {n} vasos para una reunión! Ten {n} vasos listos.', e_party: '¡Pedido de fiesta de cumpleaños: 36 bolas (3 botes)! Ten 3 botes listos.',
     e_closeGame: '¡Juego cerrado! Los fans están al borde del asiento.', e_homeRun: '¡Jonrón! Todos quieren dulces y botanas.', e_rainDelay: '¡Pausa por lluvia! La gente quiere algo caliente.', e_bigCrowd: '¡Gran multitud hoy! Los puestos se agotan.',
     stPrice: 'Precio', stPerCup: 'por vaso', stPerScoop: 'por bola', stStock: 'Preparar', stCups: 'vasos', stTubs: 'botes', stCost: 'Costo de preparar',
     stCostLine: '{n} {u} × {p} = {c}', stTubLine: '{n} botes × {p} = {c}', stScoops: '1 bote = 12 bolas', stOpen: '¡Abrir el puesto!', stSkip: 'Saltar al final',
@@ -73,6 +74,7 @@ const CFG = {
   icecream: { title: 'stIcecream', unit: 'stTubs', per: 'stPerScoop', icon: 'icecream' },
   snack: { title: 'stSnack', unit: 'stPortions', per: 'stPerCup', icon: 'ballpark' },
 };
+const EV_ICON = { nightGame: '🌙 ', game: '⚾ ', roadwork: '🚧 ', party: '🎂 ', catering: '🏢 ', adday: '📰 ', dinoParade: '🦖 ', rocketParty: '🚀 ', sharkWeek: '🦈 ', freeLemons: '🍋 ', rainbow: '🌈 ', shopper: '🕵️ ' };
 const MENU_EMOJI = { hotdog: '🌭', drink: '🥤', chips: '🥔', burger: '🍔', fries: '🍟', icecream: '🍨', popcandy: '🍬', choc: '🍫', cone: '🍦', slush: '🧊', froslem: '🍋', pretzel: '🥨', orange: '🍊', nachos: '🧀', berries: '🍓', cocoa: '☕', pennant: '🚩', finger: '☝️', cap: '🧢', plush: '🦈', shirt: '👕' };
 
 export function standState(id) {
@@ -89,7 +91,8 @@ const upName = (stand, id) => (UP_TEXT[stand]?.[id]?.[S.lang] || UP_TEXT[stand]?
 const upSub = (stand, id) => (UP_TEXT[stand]?.[id]?.[S.lang] || UP_TEXT[stand]?.[id]?.en || [id, ''])[1];
 
 export function mount(el, { id }) {
-  const sim = SIMS[id], cfg = CFG[id], st = standState(id), isSnack = id === 'snack';
+  const sim = SIMS[id], cfg = CFG[id], st = standState(id), isSnack = id === 'snack', isLemon = id === 'lemonade';
+  const curSpot = () => (isLemon && st.spot && st.up[st.spot] ? st.spot : null);      // where the lemonade stand opens today (null = the home corner)
   let timer = 0, alive = true;
   const root = h('div', { class: 'stand', 'data-stand': id }); el.append(root);
   // the Snack Shack grows up with the ballpark: sandlot -> park (3+ fields) -> stadium -> floodlights -> legend (see css "looks")
@@ -103,7 +106,7 @@ export function mount(el, { id }) {
     if (eggTaps >= 7 && !st.perks.goldendog) { st.perks.goldendog = 1; save(); sfx.fanfare(); confetti(); toast(t('stGoldenFound')); eggTaps = 0; if (st.season) plan(); }
   };
   const newCtx = () => (st.next = rollDay(Math.random, st.up, id));
-  if (!st.next || (isSnack && !['closeGame', 'homeRun', 'rainDelay', 'bigCrowd', 'nightGame', null].includes(st.next.event)) || (!isSnack && ['closeGame', 'homeRun', 'rainDelay', 'bigCrowd', 'nightGame'].includes(st.next.event))) { newCtx(); save(); }
+  if (!st.next || (isSnack && !['closeGame', 'homeRun', 'rainDelay', 'bigCrowd', 'nightGame', null].includes(st.next.event)) || (!isSnack && ['closeGame', 'homeRun', 'rainDelay', 'bigCrowd', 'nightGame'].includes(st.next.event)) || (id !== 'lemonade' && LEMON_ONLY.includes(st.next.event)) || (id === 'lemonade' && st.next.event === 'party')) { newCtx(); save(); }
 
   const header = (title, extra) => h('div', { class: 'screen-head' },
     h('button', { class: 'btn ghost icon', 'aria-label': t('back'), onclick: () => go('/stands'), html: icons.back(34) }), h('h1', { onclick: eggTap }, title), extra);
@@ -178,15 +181,15 @@ export function mount(el, { id }) {
     const ctxBase = st.next, { weather, event } = ctxBase;
     // first-time stock for a new menu item scales with the crowd (more ball fields = more food), so a big stand does not start nearly empty
     const startStock = (id) => { const ctx = { weather: 'sunny', event: null, up: st.up }, w = snackWeights(ctx), tot = w.reduce((a, b) => a + b.k, 0), me = w.find((x) => x.id === id); const step = SNACK.stockStep(st.up); const raw = Math.round((SNACK.trafficOf(ctx) * 1.1 * (me ? me.k / tot : 0.1)) / step) * step; return Math.max(me && me.merch ? step : 10, raw); };
-    if (isSnack) fixLegacyUp(st.up);
-    const stockUnitMin = isSnack ? 0 : sim.costOf(sim.stockStep(st.up), st.up);
+    if (isSnack || isLemon) fixLegacyUp(st.up);
+    const stockUnitMin = isSnack ? 0 : sim.costOf(Math.min(sim.stockStep(st.up), 10), st.up);
     let loan = 0;
-    if (!isSnack && st.bank < stockUnitMin) { loan = sim.startBank - st.bank; st.bank = sim.startBank; save(); }
+    if (!isSnack && st.bank < stockUnitMin && st.bank < sim.startBank) { loan = sim.startBank - st.bank; st.bank = sim.startBank; save(); }
     if (isSnack && st.bank < 5) { loan = sim.startBank - st.bank; st.bank = sim.startBank; save(); }
     if (!isSnack) {
       st.stock = clamp(st.stock, 0, sim.stockMax(st.up)); st.price = clamp(st.price, sim.priceMin, sim.priceMax);
       const step = sim.stockStep(st.up);
-      while (sim.costOf(st.stock, st.up) > st.bank && st.stock > 0) st.stock -= step;
+      while (sim.costOf(st.stock, st.up) > st.bank && st.stock > 0) st.stock = Math.max(0, st.stock - Math.min(step, 10));
       st.stock = Math.max(0, st.stock);
     } else {
       const avail = menuAvail(st.up).map((m) => m.id);
@@ -224,7 +227,9 @@ export function mount(el, { id }) {
         sfx.tap();
         if (kind === 'price') st.price = clamp(Math.round((st.price + dir * sim.priceStep) * 100) / 100, sim.priceMin, sim.priceMax);
         else {
-          const next = clamp(st.stock + dir * sim.stockStep(st.up), 0, sim.stockMax(st.up));
+          // a big stand takes big steps (100 cups at a time), but never more than the money in the bank can pay for
+          let stp = sim.stockStep(st.up); while (stp > 10 && dir > 0 && sim.costOf(st.stock + stp, st.up) > st.bank) stp = stp > 50 ? 50 : stp > 25 ? 25 : 10;
+          const next = clamp(st.stock + dir * stp, 0, sim.stockMax(st.up));
           if (sim.costOf(next, st.up) > st.bank) { toast(t('stNoMoney')); return; }
           st.stock = next;
         }
@@ -277,33 +282,48 @@ export function mount(el, { id }) {
 
     // --- the shop
     const vis = visibleUpgrades(id, st.seasons);
-    const newTier = vis.some((u) => u.tier === st.seasons && st.seasons > 1) && st.season.day === 0;
-    const shop = vis.map((u) => {
+    const newTier = vis.some((u) => tierSeason(id, u.tier) === st.seasons && st.seasons > 1) && st.season.day === 0;
+    const buy = (u) => {
+      st.bank = Math.round((st.bank - u.price) * 100) / 100; st.up[u.id] = 1; if (st.goal === u.id) st.goal = null; save();
+      if (isLemon && u.milestone) { sfx.levelUp(); confetti(); toast(t('stMilestone', { n: upName(id, u.id) })); if (['store', 'shop2', 'factory', 'franchise', 'lemontown'].includes(u.id)) fireworks(); }
+      else { sfx.coin(); toast(t('stBoughtUp', { n: upName(id, u.id) })); }
+      plan();
+    };
+    const shop = isLemon ? [] : vis.map((u) => {
       const own = !!st.up[u.id], reqOk = canBuy(id, u.id, st.up) || own, afford = st.bank >= u.price;
       const needTxt = !reqOk ? t('stNeeds', { x: (u.req || []).filter((r) => !st.up[r]).map((r) => upName(id, r)).join(', ') }) : null;
-      return h('button', { class: 'upg' + (own ? ' own' : ''), disabled: own || !reqOk || !afford, 'data-up': u.id, onclick: () => {
-        st.bank = Math.round((st.bank - u.price) * 100) / 100; st.up[u.id] = 1; save(); sfx.coin(); toast(t('stBoughtUp', { n: upName(id, u.id) })); plan();
-      } }, h('strong', {}, upName(id, u.id)), h('small', {}, upSub(id, u.id)), needTxt ? h('small', { class: 'need' }, needTxt) : null,
+      return h('button', { class: 'upg' + (own ? ' own' : ''), disabled: own || !reqOk || !afford, 'data-up': u.id, onclick: () => buy(u) },
+        h('strong', {}, upName(id, u.id)), h('small', {}, upSub(id, u.id)), needTxt ? h('small', { class: 'need' }, needTxt) : null,
         h('span', { class: 'tag' }, own ? t('stOwned') : money(u.price)));
     });
+    // the big lemonade shop: eight paths, a goal, and the dream of Lemon Town (see lemon-shop.js)
+    const shopBox = isLemon ? h('div', { class: 'shopbox' }) : null;
+    const avgDaily = st.season && st.season.day > 0 ? st.season.profit / st.season.day : (st.last ? st.last.profit : 0);
+    const drawShop = () => shopBox.replaceChildren(lemonShop({ st, seasons: st.seasons, upName, upSub, onBuy: buy, onGoal: (gid) => { st.goal = st.goal === gid ? null : gid; save(); sfx.tap(); drawShop(); }, avgDaily, rerender: drawShop }));
+    if (isLemon) drawShop();
     const e = effects(id, st.up);
-    const exp = isSnack ? SNACK.trafficOf({ weather, event, up: st.up }) : traffic(id, { weather, event, up: st.up });
+    const spot = curSpot();
+    const expAt = (sp) => traffic(id, { weather, event, up: st.up, spot: sp });
+    const exp = isSnack ? SNACK.trafficOf({ weather, event, up: st.up }) : expAt(spot);
+    const ord = isLemon || id === 'icecream' ? orderOf(id, st.up) : null;
 
     show(root, header(ttl(), [seasonChip(), bankChip()]),
       loan ? h('p', { class: 'notice' }, t('stLoan', { n: loan.toFixed(2) })) : null,
       earned.length ? h('p', { class: 'notice perknew' }, t('stSurpriseNew', { n: earned.map((p) => p.emoji + ' ' + perkName(p)).join(', ') })) : null,
       isSnack && stadiumLevel(st.up) >= 1 ? scoreboardEl(exp) : null,
+      isLemon ? sceneEl(st.up, S.lang) : null,
       h('div', { class: 'forecast card' },
         h('div', { class: 'wx' }, h('span', { class: 'wxi' }, WEATHER[weather].icon), h('div', {}, h('small', {}, t('stForecast') + ' · ' + t('stDayN', { n: st.season.day + 1 })), h('strong', {}, wLabel(weather)))),
-        event ? h('div', { class: 'ev' }, (event === 'nightGame' ? '🌙 ' : event === 'game' || isSnack ? '⚾ ' : event === 'roadwork' ? '🚧 ' : event === 'party' ? '🎂 ' : '🏢 '), t('e_' + event)) : null,
+        event ? h('div', { class: 'ev' }, (EV_ICON[event] || (isSnack ? '⚾ ' : '🏢 ')), t('e_' + event, { n: ord ? ord.need : '' })) : null,
         h('div', { class: 'crowdhint' }, '👥 ', t('stCustomers', { n: '~' + Math.round(exp).toLocaleString('en-US') })),
         isSnack && st.lastCtx && st.lastCtx.exp > 0 ? cmpHint(exp) : null,
         isSnack ? capHint(exp) : null,
         isSnack && st.perks.chompy ? chompyEl() : null),
       h('p', { class: 'coach' }, h('span', { html: icons.bulb(30) }), coach),
+      isLemon ? spotRow({ up: st.up, spot, expFor: expAt, lang: S.lang, onPick: (sp) => { st.spot = sp; save(); sfx.tap(); plan(); } }) : null,
       planBlock,
       h('div', { class: 'openrow' }, openBtn),
-      h('h3', { class: 'uph' }, t('stUpgrades') + (newTier ? ' · ' + t('stNewShop') : '')), h('p', { class: 'muted small' }, t('stShopSub')), h('div', { class: 'ups' }, shop),
+      h('h3', { class: 'uph' }, t('stUpgrades') + (newTier ? ' · ' + t('stNewShop') : '')), h('p', { class: 'muted small' }, t('stShopSub')), isLemon ? shopBox : h('div', { class: 'ups' }, shop),
       isSnack ? shelfEl() : null);
     refreshers.forEach((f) => f());
     void e;
@@ -312,13 +332,13 @@ export function mount(el, { id }) {
   // ---------------- watching the crowd ----------------
   function run() {
     sfx.pop();
-    const ctx = { ...st.next, up: st.up };
+    const ctx = { ...st.next, up: st.up, spot: curSpot() };
     const res = isSnack ? sim.sim({ stock: { ...st.mstock }, level: st.level }, ctx) : sim.sim({ price: st.price, stock: st.stock, deal: id === 'icecream' && st.deal }, ctx);
     const lane = h('div', { class: 'lane' }), tally = { sold: 0, pricey: 0, soldout: 0, busy: 0, cash: 0, seen: 0 };
     const nums = { sold: h('b', {}, '0'), pricey: h('b', {}, '0'), soldout: h('b', {}, '0'), busy: h('b', {}, '0'), cash: h('b', {}, money(0)), seen: h('b', {}, '0') };
     const skip = h('button', { class: 'btn ghost small', onclick: () => finish() }, t('stSkip'));
-    show(root, header(ttl(), h('span', { class: 'chip' }, WEATHER[ctx.weather].icon + ' ' + wLabel(ctx.weather))),
-      h('div', { class: 'stage card' + (ctx.event === 'nightGame' ? ' nightgame' : '') }, lane, isSnack && stadiumLevel(st.up) >= 1 ? h('div', { class: 'standface bigemo' }, '🏟️') : h('div', { class: 'standface', html: icons[cfg.icon](120) })),
+    show(root, header(ttl(), h('span', { class: 'chip' }, (ctx.spot ? SPOTS[ctx.spot].emoji + ' ' : '') + WEATHER[ctx.weather].icon + ' ' + wLabel(ctx.weather))),
+      h('div', { class: 'stage card' + (ctx.event === 'nightGame' ? ' nightgame' : '') }, lane, isSnack && stadiumLevel(st.up) >= 1 ? h('div', { class: 'standface bigemo' }, '🏟️') : isLemon && lemonGlyph(st.up) ? h('div', { class: 'standface bigemo' }, lemonGlyph(st.up)) : h('div', { class: 'standface', html: icons[cfg.icon](120) })),
       h('div', { class: 'crowdbar', role: 'status' }, h('span', {}, '👥 ' + t('stCrowd') + ': '), nums.seen, h('span', {}, ' / ' + num(res.n))),
       h('div', { class: 'tallies' },
         h('div', { class: 'tl good' }, t('stSold'), nums.sold), h('div', { class: 'tl' }, t('stSales'), nums.cash),
@@ -388,7 +408,7 @@ export function mount(el, { id }) {
     show(root, header(t('stReceipt'), [seasonChip(), newBest && profit > 0 ? h('span', { class: 'chip on' }, '⭐ ' + t('stBestDay')) : null]),
       h('div', { class: 'receipt card' },
         row(t('stCrowd'), num(res.n)),
-        row(t('stSold'), isSnack ? num(res.sold) : `${res.sold} × ${money(st.last.price)}`), row(t('stSales'), '+' + money(res.revenue), 'plus'),
+        row(t('stSold'), isSnack ? num(res.sold) : `${res.sold.toLocaleString('en-US')} × ${money(st.last.price)}`), (res.extra || []).map((x) => row((x.kind === 'branch' ? '🏬 ' + t('stBranch') : '🕵️ ' + t('stTip')), '+' + money(x.pay), 'plus')), row(t('stSales'), '+' + money(res.revenue), 'plus'),
         row(t('stSpent'), '−' + money(res.cost), 'minus'),
         row(profit >= 0 ? t('stProfit') : t('stLoss'), (profit >= 0 ? '+' : '−') + money(Math.abs(profit)), 'total ' + (profit >= 0 ? 'good' : 'bad')),
         h('hr'), row('💭 ' + t('stTooPricey'), num(res.pricey)), row('🙁 ' + t('stSoldOut'), num(res.soldout)), res.busy ? row('⏳ ' + t('stBusy'), num(res.busy)) : null,

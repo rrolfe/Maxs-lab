@@ -9,7 +9,12 @@ export const WEATHER = {
   cloudy: { icon: '⛅', base: { lemonade: 12, icecream: 12, snack: 12 }, bonus: 0, hot: 0, rain: 1 },
   rainy:  { icon: '🌧️', base: { lemonade: 6, icecream: 4, snack: 6 }, bonus: -0.1, hot: 0, rain: 1 },
 };
-export const EVENTS = { game: { mult: 1.5 }, roadwork: { mult: 0.7 }, catering: { mult: 1 }, party: { mult: 1 } };
+export const EVENTS = {
+  game: { mult: 1.5 }, roadwork: { mult: 0.7 }, catering: { mult: 1 }, party: { mult: 1 },
+  // the Lemonade Stand's happy surprises (none of them ever takes money away): Nov 10 2026
+  adday: { mult: 1.5 }, dinoParade: { mult: 1.5 }, rocketParty: { mult: 1.4 }, sharkWeek: { mult: 1.4 }, rainbow: { mult: 1.3 }, freeLemons: { mult: 1 }, shopper: { mult: 1 },
+};
+export const LEMON_ONLY = ['adday', 'dinoParade', 'rocketParty', 'sharkWeek', 'rainbow', 'freeLemons', 'shopper'];
 
 export function rollDay(r = Math.random, up = {}, stand = 'lemonade') {
   const x = r();
@@ -23,9 +28,19 @@ export function rollDay(r = Math.random, up = {}, stand = 'lemonade') {
     if (up.stadium2 && r() < 0.25) event = 'nightGame';        // floodlights: a quarter of the days are night games
     return { weather, event };
   }
+  if (stand === 'lemonade') {
+    const e = effects('lemonade', up), gp = 0.12 + e.gamefreq;
+    event = y < gp ? 'game' : y < gp + 0.1 ? 'roadwork' : null;
+    if (!event) {
+      const q = r();       // rare happy surprises: a parade, a launch party, Shark Week, free lemons, a rainbow, a mystery shopper
+      event = q < 0.03 ? 'dinoParade' : q < 0.06 ? 'rocketParty' : q < 0.09 ? 'sharkWeek' : q < 0.12 ? 'freeLemons' : q < 0.14 ? 'shopper' : q < 0.22 && (weather === 'rainy' || weather === 'cloudy') ? 'rainbow' : null;
+    }
+    const z = r(), cp = [0, 0.22, 0.3, 0.4][e.order] || 0;
+    if (e.order && z < cp) event = 'catering'; else if (e.adday && z < cp + 0.15) event = 'adday';
+    return { weather, event };
+  }
   event = y < 0.12 ? 'game' : y < 0.22 ? 'roadwork' : null;
   const z = r();
-  if (up.catering && z < 0.22) event = 'catering';
   if (up.party && z < 0.22) event = 'party';
   return { weather, event };
 }
@@ -46,23 +61,84 @@ const CREAM_RATE = [[1, 1], [1.5, 0.85], [2, 0.65], [2.5, 0.45], [3, 0.25], [4, 
 // stock (+max stock), cost (x unit cost), hot (+% on sunny/hot days), rain (+% on cloudy/rainy days), unlock (menu items)
 // tier decides when it appears in the shop: tier N shows from season N, so the first seasons stay simple.
 export const UPGRADES = {
+  // The Lemonade Stand: ~65 extras in eight paths (Rob, Nov 10 2026). `path` decides which shop tab it lives in. Older ids (sign ... store) keep their effects so nobody's saved game changes.
+  // Prices are about 4-8 days of the profit a player has when the item shows up (checked by tools/tests/lemonade-ladder.mjs). Tier N shows from the season in TIER_SEASON.
   lemonade: [
-    { id: 'sign', tier: 1, price: 15, fx: { traffic: 0.15 } },
-    { id: 'table', tier: 1, price: 30, fx: { traffic: 0.15, stock: 20 } },
-    { id: 'cooler', tier: 1, price: 25, fx: { cost: 0.8 } },
-    { id: 'squeezer', tier: 2, price: 60, fx: { ptol: 0.3 } },
-    { id: 'nugget', tier: 2, price: 70, fx: { hot: 0.2, ptol: 0.05 } },
-    { id: 'umbrella', tier: 2, price: 40, fx: { rain: 0.4, hot: 0.1 } },
-    { id: 'cups', tier: 2, price: 35, fx: { ptol: 0.1, cost: 1.1 } },
-    { id: 'flyers', tier: 2, price: 45, fx: { traffic: 0.2 } },
-    { id: 'speaker', tier: 2, price: 55, fx: { traffic: 0.15, flat: 3 } },
-    { id: 'helper', tier: 2, price: 90, fx: { serve: 40 } },
-    { id: 'flake', tier: 3, price: 160, req: ['nugget'], fx: { hot: 0.3, ptol: 0.08 } },
-    { id: 'spinner', tier: 3, price: 120, fx: { flat: 18, traffic: 0.1 } },
-    { id: 'table2', tier: 3, price: 150, req: ['table'], fx: { traffic: 0.2, serve: 40, stock: 60 } },
-    { id: 'wagon', tier: 3, price: 200, fx: { flat: 10, stock: 60 } },
-    { id: 'catering', tier: 4, price: 300, req: ['wagon'], fx: {} },
-    { id: 'store', tier: 4, price: 1500, req: ['table2'], fx: { traffic: 0.5, flat: 25, serve: 120, stock: 200, ptol: 0.1 } },
+    // --- Look & Signs
+    { id: 'sign', path: 'look', tier: 1, price: 15, fx: { traffic: 0.15 } },
+    { id: 'chalk', path: 'look', tier: 1, price: 25, fx: { ptol: 0.05 } },
+    { id: 'table', path: 'look', tier: 1, price: 30, fx: { traffic: 0.15, stock: 20 } },
+    { id: 'umbrella', path: 'look', tier: 2, price: 40, fx: { rain: 0.4, hot: 0.1 } },
+    { id: 'awning', path: 'look', tier: 2, price: 120, req: ['table'], fx: { traffic: 0.15 }, milestone: true },
+    { id: 'table2', path: 'look', tier: 3, price: 150, req: ['table'], fx: { traffic: 0.2, serve: 40, stock: 60 } },
+    { id: 'wooden', path: 'look', tier: 3, price: 400, req: ['awning'], fx: { traffic: 0.4, stock: 40 }, milestone: true },
+    { id: 'lights', path: 'look', tier: 4, price: 700, req: ['wooden'], fx: { traffic: 0.4, rain: 0.3 } },
+    { id: 'goldsign', path: 'look', tier: 5, price: 3500, req: ['wooden'], fx: { traffic: 1 }, milestone: true },
+    // --- Gear & Ice
+    { id: 'cooler', path: 'gear', tier: 1, price: 25, fx: { cost: 0.8 } },
+    { id: 'cups', path: 'gear', tier: 2, price: 35, fx: { ptol: 0.1, cost: 1.1 } },
+    { id: 'squeezer', path: 'gear', tier: 2, price: 60, fx: { ptol: 0.3 } },
+    { id: 'nugget', path: 'gear', tier: 2, price: 70, fx: { hot: 0.2, ptol: 0.05 } },
+    { id: 'flake', path: 'gear', tier: 3, price: 160, req: ['nugget'], fx: { hot: 0.3, ptol: 0.08 } },
+    { id: 'bulk', path: 'gear', tier: 3, price: 250, fx: { cost: 0.85 } },
+    { id: 'fridge', path: 'gear', tier: 3, price: 300, fx: { stock: 150 } },
+    { id: 'juicer', path: 'gear', tier: 4, price: 800, req: ['squeezer'], fx: { stock: 200, cost: 0.8, ptol: 0.1 } },
+    { id: 'walkin', path: 'gear', tier: 5, price: 3000, req: ['fridge'], fx: { stock: 500, cost: 0.85 } },
+    // --- Flavors & Treats
+    { id: 'pink', path: 'menu', tier: 2, price: 60, fx: { ptol: 0.1 } },
+    { id: 'mint', path: 'menu', tier: 3, price: 110, fx: { ptol: 0.1, traffic: 0.05 } },
+    { id: 'strawberry', path: 'menu', tier: 3, price: 140, fx: { ptol: 0.12 } },
+    { id: 'cookies', path: 'menu', tier: 3, price: 200, fx: { ptol: 0.1, traffic: 0.1 } },
+    { id: 'lavender', path: 'menu', tier: 4, price: 400, req: ['mint'], fx: { ptol: 0.2 } },
+    { id: 'popsicles', path: 'menu', tier: 4, price: 500, fx: { hot: 0.35, ptol: 0.1 } },
+    { id: 'slush', path: 'menu', tier: 5, price: 2000, req: ['popsicles'], fx: { hot: 0.6, ptol: 0.2 } },
+    { id: 'secret', path: 'menu', tier: 5, price: 4500, req: ['lavender', 'strawberry'], fx: { ptol: 0.5 } },
+    // --- Helpers
+    { id: 'helper', path: 'crew', tier: 2, price: 90, fx: { serve: 40 } },
+    { id: 'cashier', path: 'crew', tier: 2, price: 150, req: ['helper'], fx: { serve: 30, flat: 3 } },
+    { id: 'cousins', path: 'crew', tier: 3, price: 320, req: ['cashier'], fx: { serve: 60, flat: 8 } },
+    { id: 'aprons', path: 'crew', tier: 4, price: 550, fx: { ptol: 0.05, serve: 40, traffic: 0.1 } },
+    { id: 'lead', path: 'crew', tier: 4, price: 1000, req: ['cousins'], fx: { serve: 120, flat: 15 } },
+    { id: 'crew5', path: 'crew', tier: 5, price: 3000, req: ['lead'], fx: { serve: 300, flat: 40 } },
+    { id: 'manager', path: 'crew', tier: 6, price: 10000, req: ['crew5'], fx: { serve: 800, flat: 100, cost: 0.95 } },
+    // --- Shout It Out
+    { id: 'flyers', path: 'promo', tier: 2, price: 45, fx: { traffic: 0.2 } },
+    { id: 'speaker', path: 'promo', tier: 2, price: 55, fx: { traffic: 0.15, flat: 3 } },
+    { id: 'samples', path: 'promo', tier: 2, price: 100, fx: { traffic: 0.1 } },
+    { id: 'spinner', path: 'promo', tier: 3, price: 120, fx: { flat: 18, traffic: 0.1 } },
+    { id: 'jingle', path: 'promo', tier: 3, price: 240, req: ['speaker'], fx: { traffic: 0.15 } },
+    { id: 'newspaper', path: 'promo', tier: 3, price: 400, fx: { adday: 1 } },
+    { id: 'sponsor', path: 'promo', tier: 4, price: 900, req: ['newspaper'], fx: { gamefreq: 0.12, evgame: 1.25 } },
+    { id: 'radio', path: 'promo', tier: 5, price: 3500, fx: { traffic: 1 } },
+    { id: 'billboard', path: 'promo', tier: 5, price: 7000, req: ['radio'], fx: { traffic: 1.6, flat: 80 } },
+    { id: 'tv', path: 'promo', tier: 6, price: 20000, req: ['billboard'], fx: { traffic: 3 } },
+    // --- Pop-up Places (pick the spot each morning, see SPOTS)
+    { id: 'park', path: 'spots', tier: 3, price: 300, fx: {} },
+    { id: 'dinomuseum', path: 'spots', tier: 4, price: 900, fx: {} },
+    { id: 'ballgate', path: 'spots', tier: 4, price: 1200, req: ['park'], fx: {} },
+    { id: 'aquarium', path: 'spots', tier: 5, price: 2500, req: ['dinomuseum'], fx: {} },
+    { id: 'beach', path: 'spots', tier: 5, price: 3000, req: ['park'], fx: {} },
+    { id: 'market', path: 'spots', tier: 5, price: 4500, fx: {} },
+    { id: 'spacecenter', path: 'spots', tier: 6, price: 9000, req: ['aquarium'], fx: {} },
+    { id: 'stadiumcart', path: 'spots', tier: 6, price: 20000, req: ['ballgate'], fx: {} },
+    // --- Wheels & Orders (deliveries and catering)
+    { id: 'wagon', path: 'wheels', tier: 3, price: 200, fx: { flat: 10, stock: 60 } },
+    { id: 'catering', path: 'wheels', tier: 4, price: 300, req: ['wagon'], fx: { order: 1 } },
+    { id: 'bike', path: 'wheels', tier: 4, price: 700, req: ['wagon'], fx: { flat: 40 } },
+    { id: 'partypacks', path: 'wheels', tier: 4, price: 1100, req: ['catering'], fx: { order: 2 } },
+    { id: 'scooter', path: 'wheels', tier: 5, price: 2500, req: ['bike'], fx: { flat: 110 } },
+    { id: 'van', path: 'wheels', tier: 6, price: 12000, req: ['scooter'], fx: { flat: 350, stock: 200 } },
+    { id: 'office', path: 'wheels', tier: 6, price: 25000, req: ['van', 'partypacks'], fx: { order: 3 } },
+    { id: 'drone', path: 'wheels', tier: 6, price: 40000, req: ['van'], fx: { flat: 700 } },
+    // --- The Shop (the dream: from a rented shop to Lemon Town)
+    { id: 'shoprent', path: 'shop', tier: 4, price: 1200, req: ['wooden'], fx: { flat: 8 }, milestone: true },
+    { id: 'counter', path: 'shop', tier: 4, price: 1800, req: ['shoprent'], fx: { serve: 120, ptol: 0.05, flat: 10 } },
+    { id: 'store', path: 'shop', tier: 5, price: 4000, req: ['counter'], fx: { traffic: 0.5, flat: 25, serve: 120, stock: 200, ptol: 0.1 }, milestone: true },
+    { id: 'bakery', path: 'shop', tier: 5, price: 6500, req: ['store'], fx: { ptol: 0.2, stock: 100, traffic: 0.15 } },
+    { id: 'shop2', path: 'shop', tier: 6, price: 25000, req: ['store'], fx: { branch: 300 }, milestone: true },
+    { id: 'factory', path: 'shop', tier: 6, price: 60000, req: ['bakery'], fx: { cost: 0.5, stock: 600, serve: 600 }, milestone: true },
+    { id: 'franchise', path: 'shop', tier: 6, price: 120000, req: ['shop2'], fx: { branch: 2000 }, milestone: true },
+    { id: 'lemontown', path: 'shop', tier: 6, price: 250000, req: ['franchise', 'factory'], fx: { traffic: 1, flat: 300, branch: 1500 }, milestone: true },
   ],
   icecream: [
     { id: 'sign', tier: 1, price: 40, fx: { traffic: 0.15 } },
@@ -123,18 +199,41 @@ export const upgradeList = (stand) => UPGRADES[stand] || [];
 /** Adds up everything the owned upgrades do. */
 export function fixLegacyUp(up) {      // before pairs existed there were separate 5th and 6th fields: whoever owned them now owns the first pair
   if (up && (up.field5 || up.field6)) { up.fields56 = 1; delete up.field5; delete up.field6; }
+  // lemonade: the old one-step "Brick-and-mortar store" now sits at the end of a ladder (rent the shop, counter and stools): whoever already had it owns the steps before it
+  if (up && up.store) { up.shoprent = 1; up.counter = 1; }
   return up;
 }
-export function effects(stand, up = {}) {
+const addFx = (e, fx) => { for (const [k, v] of Object.entries(fx)) { if (k === 'cost' || k === 'crowd' || k === 'evgame') e[k] *= v; else if (k === 'order') e.order = Math.max(e.order, v); else e[k] += v; } };
+export function effects(stand, up = {}, spot = null) {
   if (up && (up.field5 || up.field6)) up = { ...up, fields56: 1 };
-  const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, staff: 0, stock: 0, cost: 1, crowd: 1, hot: 0, rain: 0, unlock: new Set() };
-  for (const u of upgradeList(stand)) if (up[u.id]) {
-    for (const [k, v] of Object.entries(u.fx)) { if (k === 'cost') e.cost *= v; else if (k === 'crowd') e.crowd *= v; else e[k] += v; }
-    (u.unlock || []).forEach((x) => e.unlock.add(x));
-  }
+  // branch: dollars a day from other shops; order: size of the catering order (0 none, 1-3); adday: newspaper ad days; gamefreq: more ball-game days; evgame: bigger crowds on game days
+  const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, staff: 0, stock: 0, cost: 1, crowd: 1, hot: 0, rain: 0, branch: 0, order: 0, adday: 0, gamefreq: 0, evgame: 1, unlock: new Set() };
+  for (const u of upgradeList(stand)) if (up[u.id]) { addFx(e, u.fx); (u.unlock || []).forEach((x) => e.unlock.add(x)); }
+  const sp = stand === 'lemonade' && spot && up[spot] ? SPOTS[spot] : null;
+  if (sp) addFx(e, sp.fx);
   return e;
 }
-export const visibleUpgrades = (stand, seasonNo) => upgradeList(stand).filter((u) => u.tier <= Math.max(1, seasonNo));
+/** Where the lemonade stand opens for the day. Each place has its own crowd: match it to the weather! (Home corner is always free.) */
+export const SPOTS = {
+  // fx: extra customers and prices at this place. wx: the place's weather: today's whole crowd is multiplied by this (a beach is empty in the rain, a museum is full)
+  park: { emoji: '🌳', fx: { flat: 15 }, wx: { sunny: 1.2, hot: 1.2, cloudy: 1, rainy: 0.6 } },
+  dinomuseum: { emoji: '🦖', fx: { flat: 30 }, wx: { sunny: 0.9, hot: 0.9, cloudy: 1.3, rainy: 1.7 } },
+  ballgate: { emoji: '⚾', fx: { flat: 40, evgame: 1.8 }, wx: {} },
+  aquarium: { emoji: '🦈', fx: { flat: 70, ptol: 0.1 }, wx: { sunny: 1.1, hot: 1.2, cloudy: 1.2, rainy: 1.5 } },
+  beach: { emoji: '🏖️', fx: { flat: 40 }, wx: { sunny: 1.5, hot: 2, cloudy: 0.6, rainy: 0.3 } },
+  market: { emoji: '🥕', fx: { flat: 90, ptol: 0.3 }, wx: { sunny: 1.2, hot: 1, cloudy: 1.2, rainy: 0.5 } },
+  spacecenter: { emoji: '🚀', fx: { flat: 200, ptol: 0.15, traffic: 0.2 }, wx: { sunny: 1.15, hot: 1.15, cloudy: 1.15, rainy: 1.15 } },
+  stadiumcart: { emoji: '🏟️', fx: { flat: 400, evgame: 1.4 }, wx: {} },
+};
+export const SPOT_IDS = Object.keys(SPOTS);
+export const spotsOwned = (up = {}) => SPOT_IDS.filter((id) => up[id]);
+/** Catering orders: [none, small, party packs, office contract]: cups wanted and the price paid for each. */
+export const LEMON_ORDERS = [null, { need: 50, price: 1.5 }, { need: 100, price: 1.75 }, { need: 250, price: 2 }];
+export const orderOf = (stand, up) => (stand === 'lemonade' ? LEMON_ORDERS[effects(stand, up).order] : up.party ? SINGLE.icecream.cater : null);
+// Lemonade chapters: tier 5 shows from season 6 and tier 6 from season 9, so the first seasons stay simple. Other stands: tier N from season N.
+export const TIER_SEASON = { lemonade: [0, 1, 2, 3, 4, 6, 9] };
+export const tierSeason = (stand, tier) => (TIER_SEASON[stand] || [])[tier] ?? tier;
+export const visibleUpgrades = (stand, seasonNo) => upgradeList(stand).filter((u) => tierSeason(stand, u.tier) <= Math.max(1, seasonNo));
 export const canBuy = (stand, id, up) => { const u = upgradeList(stand).find((x) => x.id === id); return !!u && !up[id] && (u.req || []).every((r) => up[r]); };
 
 // ---------- single-product stands (lemonade, ice cream) ----------
@@ -142,7 +241,7 @@ const SINGLE = {
   lemonade: { id: 'lemonade', unit: 'cups', startBank: 20, unitCost: 0.25, perStock: 1, baseStockMax: 60, priceMin: 0.25, priceMax: 4, priceStep: 0.25, defaultPrice: 1, rate: LEMON_RATE, cater: { need: 50, price: 1.5, event: 'catering' } },
   icecream: { id: 'icecream', unit: 'tubs', startBank: 30, unitCost: 6, perStock: 12, baseStockMax: 6, priceMin: 1, priceMax: 6, priceStep: 0.5, defaultPrice: 1.5, rate: CREAM_RATE, doubles: true, cater: { need: 36, price: 3, event: 'party' } },
 };
-export const stockStepOf = (id, up) => { const d = SINGLE[id]; if (id === 'icecream') return 1; return d.baseStockMax + effects(id, up).stock >= 200 ? 25 : 10; };
+export const stockStepOf = (id, up) => { const d = SINGLE[id]; if (id === 'icecream') return 1; const m = d.baseStockMax + effects(id, up).stock; return m >= 1000 ? 100 : m >= 400 ? 50 : m >= 200 ? 25 : 10; };
 const single = (id) => {
   const d = SINGLE[id];
   return {
@@ -159,25 +258,28 @@ export const ICECREAM = single('icecream');
 
 /** Expected customers walking up on a day, before price decides who buys. */
 export function traffic(id, ctx) {
-  const e = effects(id, ctx.up), w = WEATHER[ctx.weather];
-  const ev = ctx.event && EVENTS[ctx.event] ? EVENTS[ctx.event].mult : 1;
-  const pct = 1 + e.traffic + e.hot * w.hot + e.rain * w.rain;
-  return w.base[id] * ev * pct + e.flat;
+  const e = effects(id, ctx.up, ctx.spot), w = WEATHER[ctx.weather];
+  let ev = ctx.event && EVENTS[ctx.event] ? EVENTS[ctx.event].mult : 1;
+  if (ctx.event === 'game') ev *= e.evgame;        // sponsoring the ball team and setting up at the ball field make game days bigger
+  const pct = Math.max(0.25, 1 + e.traffic + e.hot * w.hot + e.rain * w.rain);
+  const sm = (ctx.spot && ctx.up[ctx.spot] && id === 'lemonade' && SPOTS[ctx.spot]?.wx?.[ctx.weather]) || 1;
+  return Math.max(0, (w.base[id] * ev * pct + e.flat) * sm);
 }
 export const serveCap = (id, up) => 40 + effects(id, up).serve;
 
-function simSingle(d, { price, stock, deal }, { weather, event, up }, r = Math.random) {
-  const e = effects(d.id, up), w = WEATHER[weather];
-  const n = Math.max(0, Math.round(traffic(d.id, { weather, event, up }) * (0.85 + 0.3 * r())));
+function simSingle(d, { price, stock, deal }, { weather, event, up, spot }, r = Math.random) {
+  const e = effects(d.id, up, spot), w = WEATHER[weather];
+  const n = Math.max(0, Math.round(traffic(d.id, { weather, event, up, spot }) * (0.85 + 0.3 * r())));
   const qMult = 1 + e.ptol;
   const cap = serveCap(d.id, up);
   let left = stock * d.perStock, sold = 0, pricey = 0, soldout = 0, busy = 0, revenue = 0, doubles = 0;
   const customers = [];
   // a catering / party order is delivered first and paid up front: it needs the full amount in stock
   let order = null;
-  if (event === d.cater.event && up[event === 'party' ? 'party' : 'catering']) {
-    if (left >= d.cater.need) { left -= d.cater.need; revenue += d.cater.need * d.cater.price; order = { ok: true, units: d.cater.need, pay: d.cater.need * d.cater.price }; }
-    else order = { ok: false, units: d.cater.need, pay: d.cater.need * d.cater.price };
+  const cat = d.id === 'lemonade' ? LEMON_ORDERS[e.order] : up.party ? d.cater : null;
+  if (cat && event === d.cater.event) {
+    if (left >= cat.need) { left -= cat.need; revenue += cat.need * cat.price; order = { ok: true, units: cat.need, pay: cat.need * cat.price }; }
+    else order = { ok: false, units: cat.need, pay: cat.need * cat.price };
   }
   let served = 0;
   for (let i = 0; i < n; i++) {
@@ -195,8 +297,12 @@ function simSingle(d, { price, stock, deal }, { weather, event, up }, r = Math.r
     revenue += paid; if (got === 2) doubles++;
     customers.push({ res: 'buy', paid, double: got === 2 });
   }
-  const cost = stock * d.unitCost * e.cost;
-  return { customers, sold, pricey, soldout, busy, leftover: left, revenue, cost, profit: revenue - cost, n, doubles, order };
+  // other shops pay every day (no stock needed); a mystery shopper leaves a tip; free lemons halve the cost of the cups
+  const extra = [];
+  if (e.branch) { revenue += e.branch; extra.push({ kind: 'branch', pay: e.branch }); }
+  if (event === 'shopper') { const tip = Math.max(5, Math.round((revenue * 0.2) / 5) * 5); revenue += tip; extra.push({ kind: 'tip', pay: tip }); }
+  const cost = stock * d.unitCost * e.cost * (event === 'freeLemons' ? 0.5 : 1);
+  return { customers, sold, pricey, soldout, busy, leftover: left, revenue, cost, profit: revenue - cost, n, doubles, order, extra };
 }
 
 // ---------- the ballpark snack shack: a menu of items ----------
@@ -353,15 +459,24 @@ export function botDay(id, ctx, skill = 1, r = Math.random) {
     for (const w of weights) stock[w.id] = Math.min(SNACK.stockMax(up), Math.max(w.merch ? 5 : 0, Math.round((exp * (w.k / tot) * (1.1 + (1 - skill) * (r() - 0.5))) / 5) * 5));
     return sim.sim({ stock, level: skill > 0.6 ? 'normal' : ['cheap', 'normal', 'fancy'][Math.floor(r() * 3)] }, ctx, r);
   }
-  const d = SINGLE[id], qM = 1 + effects(id, up).ptol;
+  const d = SINGLE[id];
+  // pick where to open: a good player matches the place to the weather (the forecast shows the crowd for each place); a careless one picks any
+  let spot = null; const spots = ['home', ...spotsOwned(up)];
+  if (id === 'lemonade' && spots.length > 1) {
+    if (skill > 0.6) { let best = -1; for (const sp of spots) { const x = traffic(id, { ...ctx, spot: sp === 'home' ? null : sp }); if (x > best) { best = x; spot = sp === 'home' ? null : sp; } } }
+    else { const sp = spots[Math.floor(r() * spots.length)]; spot = sp === 'home' ? null : sp; }
+    ctx = { ...ctx, spot };
+  }
+  const qM = 1 + effects(id, up, spot).ptol;
   const fair = id === 'lemonade' ? 1 : 1.75;
   let price = Math.round((fair * qM) / d.priceStep) * d.priceStep + (skill < 0.6 ? (r() - 0.5) * 2 : 0);
   price = Math.min(d.priceMax, Math.max(d.priceMin, Math.round(price / d.priceStep) * d.priceStep));
   const exp = traffic(id, ctx) * 0.85 * (id === 'icecream' ? 1.2 : 1);
-  const catNeed = ctx.event === d.cater.event ? d.cater.need : 0;
+  const ord = orderOf(id, up);
+  const catNeed = ord && ctx.event === d.cater.event ? ord.need : 0;
   let units = (exp + catNeed) * (1.1 + (1 - skill) * (r() - 0.3));
-  const maxStock = single(id).stockMax(up);
-  let stock = id === 'icecream' ? Math.ceil(units / 12) : Math.round(units / 10) * 10;
-  stock = Math.max(id === 'icecream' ? 1 : 10, Math.min(maxStock, stock));
-  return sim.sim({ price, stock }, ctx, r);
+  const maxStock = single(id).stockMax(up), stp = single(id).stockStep(up);
+  let stock = id === 'icecream' ? Math.ceil(units / 12) : Math.round(units / stp) * stp;
+  stock = Math.max(id === 'icecream' ? 1 : stp, Math.min(maxStock, stock));
+  return { ...sim.sim({ price, stock }, ctx, r), spot };
 }

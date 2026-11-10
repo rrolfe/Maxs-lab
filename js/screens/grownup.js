@@ -1,5 +1,5 @@
 // Grown-up corner: progress, limits, map key, family notes, your own questions, backup. Everything stays on this device.
-import { S, save, flush, minutesToday, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll, listSnapshots, restoreSnapshot, givePearls, snapshotNow, makeTransferCode, readTransferCode } from '../core/store.js';
+import { S, save, flush, minutesToday, TOPICS, levelOf, today, dateKey, exportData, importData, resetAll, listSnapshots, restoreSnapshot, givePearls, snapshotNow, makeTransferCode, readTransferCode, carryStatus, writeCarry, isStandalone } from '../core/store.js';
 import { APP_BUILD } from '../core/version.js';
 import { h, toast, clamp } from '../core/dom.js';
 import { icons } from '../core/icons.js';
@@ -7,6 +7,7 @@ import { t, addStrings, L } from '../core/i18n.js';
 import { go } from '../core/router.js';
 import { TOPIC_META } from '../quiz/missions.js';
 import { timeNodes, suggestNodes, progressNodes } from './grownup-extra.js';
+import { resetNodes } from './grownup-reset.js';
 import { speak, stopSpeaking, listVoices, pickVoice, voiceQuality, setVoice } from '../core/audio.js';
 
 addStrings({
@@ -20,7 +21,8 @@ addStrings({
     gLimits: 'Time and comfort', gDaily: 'Daily play limit', gNone: 'No limit', gBed: 'Bedtime wind-down starts', gBig: 'Bigger text', gOn: 'On', gOff: 'Off',
     gMap: 'Map and places', gKey: 'Esri API key (optional)', gKeyNote: 'The map shows satellite pictures from free sources by default. For sharper pictures, make a free key at developers.arcgis.com, restrict it to this website’s address, switch off pay-as-you-go, then paste it here. Google Maps cannot be used on a children’s site under Google’s terms.',
     gHome: 'Home location (for “miles from home”)', gLat: 'Latitude', gLon: 'Longitude', gUseLoc: 'Use this device’s location', gClearLoc: 'Clear', gLocSaved: 'Saved on this device only.', gLocFail: 'Could not get the location. You can type it instead.',
-    gMoveH: 'Move progress to another copy', gCopy: 'This copy of the lab', gBuild: 'Build {v}', gCopyNote: 'Safari and the Home Screen icon each keep their OWN copy of Max’s progress, and they never share. Pick one place for Max to play. To move progress from one to the other, use the transfer code below.',
+    gMoveH: 'Move progress to another copy', gCopy: 'This copy of the lab', gBuild: 'Build {v}', gCopyNote: 'Safari and the Home Screen icon each keep their OWN copy of Max’s progress. When you add the lab to the Home Screen from Safari, his progress now rides along automatically (iPad software 17.2 or newer). If the new icon ever shows 0 pearls, use the transfer code below. Pick one place for Max to play, and use the Home Screen icon: Safari can clear its storage after a week.',
+    gWhereSafari: 'You are in Safari.', gWhereIcon: 'You are in the Home Screen icon. Keep playing here.', gCarryOk: '✓ Progress is ready to travel with a new Home Screen icon ({k} KB, saved {m}).', gCarryNo: 'Progress is not ready to travel yet. Play a moment and open this again, or use the transfer code below.', gCarryCame: 'This copy received its progress from Safari.',
     gGive: 'Give pearls (testing or a reward)', gGaveN: '{n} pearls added.', gGiveNote: 'Added straight to the balance. They do not use up the daily limit.',
     gMoveOut: 'Copy this copy’s transfer code', gMoveOutNote: 'Do this on the copy that has Max’s progress. Then open the other copy, open its Grown-up corner and paste the code below.', gCodeCopied: 'Code copied. Paste it into the other copy.', gCodeSelect: 'Press and hold the code, then tap Copy.',
     gMoveIn: 'Paste a transfer code here', gMoveInBtn: 'Load it here', gMoveSure: 'Tap again to replace this copy', gMoveDone: 'Done! This copy now matches the other one.', gMoveBad: 'That code did not work. Copy it again from the other copy.', gMoveNote: 'This replaces everything in THIS copy. A safety copy of it is saved first.',
@@ -41,7 +43,8 @@ addStrings({
     gLimits: 'Tiempo y comodidad', gDaily: 'Límite diario de juego', gNone: 'Sin límite', gBed: 'La calma de la hora de dormir empieza', gBig: 'Texto más grande', gOn: 'Sí', gOff: 'No',
     gMap: 'Mapa y lugares', gKey: 'Clave de API de Esri (opcional)', gKeyNote: 'El mapa muestra imágenes de satélite de fuentes gratuitas. Para imágenes más nítidas, crea una clave gratis en developers.arcgis.com, restríngela a la dirección de este sitio, desactiva el pago por uso y pégala aquí. Google Maps no se puede usar en un sitio para niños según sus términos.',
     gHome: 'Ubicación de casa (para “millas desde casa”)', gLat: 'Latitud', gLon: 'Longitud', gUseLoc: 'Usar la ubicación del dispositivo', gClearLoc: 'Borrar', gLocSaved: 'Guardada solo en este dispositivo.', gLocFail: 'No se pudo obtener la ubicación. Puedes escribirla.',
-    gMoveH: 'Pasar el progreso a otra copia', gCopy: 'Esta copia del laboratorio', gBuild: 'Versión {v}', gCopyNote: 'Safari y el ícono de la pantalla de inicio guardan CADA UNO su propia copia del progreso de Max, y nunca se comparten. Elige un solo lugar para que Max juegue. Para pasar el progreso de uno al otro, usa el código de transferencia de abajo.',
+    gMoveH: 'Pasar el progreso a otra copia', gCopy: 'Esta copia del laboratorio', gBuild: 'Versión {v}', gCopyNote: 'Safari y el ícono de la pantalla de inicio guardan CADA UNO su propia copia del progreso de Max. Al agregar el laboratorio a la pantalla de inicio desde Safari, su progreso ahora viaja solo (iPad con software 17.2 o más nuevo). Si el ícono nuevo muestra 0 perlas, usa el código de transferencia de abajo. Elige un solo lugar para que Max juegue y usa el ícono de la pantalla de inicio: Safari puede borrar sus datos pasada una semana.',
+    gWhereSafari: 'Estás en Safari.', gWhereIcon: 'Estás en el ícono de la pantalla de inicio. Sigan jugando aquí.', gCarryOk: '✓ El progreso está listo para viajar con un ícono nuevo ({k} KB, guardado {m}).', gCarryNo: 'El progreso todavía no está listo para viajar. Juega un momento y abre esto otra vez, o usa el código de transferencia de abajo.', gCarryCame: 'Esta copia recibió su progreso desde Safari.',
     gGive: 'Dar perlas (pruebas o premio)', gGaveN: 'Se agregaron {n} perlas.', gGiveNote: 'Se suman directo al saldo. No gastan el límite diario.',
     gMoveOut: 'Copiar el código de transferencia de esta copia', gMoveOutNote: 'Hazlo en la copia que tiene el progreso de Max. Luego abre la otra copia, entra a su Rincón de adultos y pega el código abajo.', gCodeCopied: 'Código copiado. Pégalo en la otra copia.', gCodeSelect: 'Mantén presionado el código y toca Copiar.',
     gMoveIn: 'Pega aquí un código de transferencia', gMoveInBtn: 'Cargarlo aquí', gMoveSure: 'Toca otra vez para reemplazar esta copia', gMoveDone: '¡Listo! Esta copia ahora es igual a la otra.', gMoveBad: 'Ese código no funcionó. Cópialo de nuevo desde la otra copia.', gMoveNote: 'Esto reemplaza todo lo de ESTA copia. Antes se guarda una copia de seguridad.',
@@ -234,10 +237,20 @@ async function build(root) {
     catch (err) { toast(t('gMoveBad')); }
   } }, t('gMoveInBtn'));
   const giveBtn = (n) => h('button', { class: 'btn small', onclick: () => { givePearls(n); toast(t('gGaveN', { n })); } }, '+' + n);
-  const copySec = section(t('gCopy'), h('p', { class: 'chip on' }, t('gBuild', { v: APP_BUILD })), h('p', { class: 'muted small' }, t('gCopyNote')),
+  const carryLine = h('p', { class: 'muted small', id: 'carryline' });
+  const showCarry = async () => {
+    const c = await writeCarry();
+    carryLine.textContent = isStandalone() ? t('gWhereIcon') : (c.ok ? t('gCarryOk', { k: (c.bytes / 1024).toFixed(1), m: new Date(c.at).toLocaleTimeString(S.lang === 'es' ? 'es-US' : 'en-US', { hour: 'numeric', minute: '2-digit' }) }) : t('gCarryNo'));
+    if (S.carried) carryLine.textContent += ' ' + t('gCarryCame');
+  };
+  showCarry();
+  const copySec = section(t('gCopy'), h('p', { class: 'chip on' }, t('gBuild', { v: APP_BUILD }), ' · ', isStandalone() ? t('gWhereIcon').split('.')[0] + '.' : t('gWhereSafari')), h('p', { class: 'muted small' }, t('gCopyNote')), carryLine,
     h('h3', {}, t('gGive')), h('div', { class: 'row' }, giveBtn(100), giveBtn(300), giveBtn(800)), h('p', { class: 'muted small' }, t('gGiveNote')),
     h('h3', {}, t('gMoveH')), h('p', { class: 'muted small' }, t('gMoveOutNote')), outBtn, codeBox, codeNote,
     h('h3', {}, t('gMoveIn')), inBox, h('div', { class: 'row' }, inBtn), h('p', { class: 'muted small' }, t('gMoveNote')));
+
+  // ----- start a game over
+  const resetSec = section(t('rsTitle'), ...resetNodes());
 
   // ----- automatic safety copies
   const snapList = h('div', { class: 'qlist' });
@@ -269,5 +282,5 @@ async function build(root) {
     S.settings.pinHash ? h('button', { class: 'btn ghost small', onclick: () => { S.settings.pinHash = null; S.settings.pinSalt = null; save(); toast(t('gPinRemoved')); } }, t('gRemovePin')) : null),
     h('p', {}, h('a', { href: '#/credits' }, t('gCredits'))), h('small', { class: 'muted' }, t('gVersion')));
 
-  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, timeSec, suggestSec, progressSec, limits, voiceSec, mapSec, famSec, qSec, copySec, bSec, snapSec, sec);
+  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, timeSec, suggestSec, progressSec, limits, voiceSec, mapSec, famSec, qSec, copySec, resetSec, bSec, snapSec, sec);
 }

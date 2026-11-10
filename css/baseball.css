@@ -16,14 +16,17 @@
 .scoreboard th, .scoreboard td { padding: 4px 8px; border-bottom: 1.5px solid var(--line); }
 .scoreboard th:first-child, .scoreboard td:first-child { text-align: left; font-weight: 800; }
 .scoreboard .tot { font-weight: 800; background: var(--panel); }
-.bbgrid { display: grid; grid-template-columns: minmax(300px, 5fr) 6fr; gap: 18px; align-items: start; }
+.bbgrid { display: grid; grid-template-columns: minmax(380px, 8fr) 5fr; gap: 18px; align-items: start; }
 @media (orientation: portrait) { .bbgrid { grid-template-columns: 1fr; } }
 .bbleft { display: flex; flex-direction: column; gap: 10px; }
-.bbfield { position: relative; border: 3px solid var(--ink); border-radius: 12px; overflow: hidden; background: #BFE6C3; box-shadow: 0 4px 0 var(--ink); }
+.bbfield { position: relative; border: 3px solid var(--ink); border-radius: 12px; overflow: hidden; background: #BFE6C3; box-shadow: 0 4px 0 var(--ink); width: 100%; aspect-ratio: 480 / 400; max-height: 64vh; max-width: calc(64vh * 1.2); margin: 0 auto; }
 :root[data-theme="night"] .bbfield { filter: brightness(.7); }
-.bbfield svg { display: block; width: 100%; height: auto; max-height: 52vh; }
-@media (orientation: portrait) { .bbfield svg { max-height: 32vh; } }
-.bbbanner { position: absolute; inset: 0; display: grid; place-items: center; font: 400 56px/1 var(--font-display); color: #10303B; text-shadow: 0 3px 0 #FFD166, 0 -2px 0 #fff; pointer-events: none; text-align: center; }
+.bbfield svg { display: block; width: 100%; height: 100%; }
+@media (orientation: portrait) { .bbfield { max-height: 44vh; max-width: calc(44vh * 1.2); } }
+.bbfield { touch-action: manipulation; user-select: none; -webkit-user-select: none; cursor: pointer; }
+.bbbanner { position: absolute; inset: 0; display: grid; place-items: center; font: 400 64px/1 var(--font-display); color: #fff; -webkit-text-stroke: 3px #10303B; paint-order: stroke fill; text-shadow: 0 5px 0 #10303B; pointer-events: none; text-align: center; animation: bbpop .45s cubic-bezier(.2,1.6,.4,1) both; }
+.bbbanner.hr { color: #FFD166; font-size: 84px; } .bbbanner.catch { font-size: 90px; }
+@keyframes bbpop { from { transform: scale(.3) rotate(-6deg); opacity: 0; } to { transform: scale(1) rotate(0); opacity: 1; } }
 .bbinfo { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 .bbinfo .ib b { font-size: 24px; display: block; } .bbinfo small { font-size: 17px; }
 .counts { display: flex; gap: 16px; } .counts > div { display: flex; flex-direction: column; gap: 2px; } .counts span { display: inline-flex; gap: 5px; }
@@ -48,8 +51,17 @@
 .bbopts .ans.try { background: color-mix(in srgb, var(--try) 22%, var(--surface)); opacity: .75; }
 .swingnow { width: 100%; min-height: 120px; font-size: 38px; }
 .ans[disabled] { cursor: default; }
-@media (orientation: landscape) and (max-height: 700px) { .bbfield svg { max-height: 46vh; } .bbmsg { font-size: 21px; min-height: 40px; } }
+@media (orientation: landscape) and (max-height: 700px) { .bbfield { max-height: 54vh; max-width: calc(54vh * 1.2); } .bbmsg { font-size: 21px; min-height: 40px; } }
 .bbfield .ball-g { transition: none; }
-@media (prefers-reduced-motion: reduce) { .bbbanner { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .bbbanner { animation: none; } }
+.bbfield .ring ellipse { animation: bbglow .7s ease-in-out infinite alternate; }
+@keyframes bbglow { from { stroke-opacity: .55; } to { stroke-opacity: 1; } }
+.bbpanel .swingnow:disabled { opacity: .55; }
 .bbmenu .btn.go { width: 100%; justify-content: center; margin-top: 14px; }
 .bbmenu .muted.small { margin-top: 12px; }
+
+/* in the game the scoreboard sits beside the field so the whole picture and the SWING button fit on one screen */
+.bbright .scoreboard { margin: 0; padding: 4px 10px; }
+.bbright .scoreboard table { font-size: 18px; } .bbright .scoreboard th, .bbright .scoreboard td { padding: 2px 6px; }
+.bbright .bbmsg { min-height: 64px; }
+@media (orientation: portrait) { .bbright .scoreboard { order: 5; } }
