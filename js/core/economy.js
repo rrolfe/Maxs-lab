@@ -11,6 +11,9 @@ export const REWARD = {
   // Word search: pay per word depends on DIFFICULTY (1 forward, 2 diagonals, 3 backwards too); the finish bonus on size and difficulty.
   ws: { word: { 1: 3, 2: 4, 3: 6 }, finishBase: { 1: 8, 2: 12, 3: 16 }, finishMult: { 1: 1, 2: 1.25, 3: 1.75 } },
   hm: { win: { 1: 10, 2: 15, 3: 20 }, flawless: 5, loss: 3 },
+  // The weekly check-in (24 questions, about 10 minutes, one try, nothing to lose): paid for FINISHING, never for the score, so it stays a calm look at progress and not a test to cram for.
+  // 50 pearls is about 4 minutes of regular play: enough that Max looks forward to it, not so much that tapping through it quickly beats playing. Not subject to the daily taper.
+  checkin: 50,
 };
 
 /** Finish bonus for a word search of a given size (1-3) and difficulty (1-3). 8,12,16 / 10,15,20 / 14,21,28. */

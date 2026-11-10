@@ -7,10 +7,11 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { dailyMissions, MISSIONS } from '../quiz/missions.js';
 import { stampCount } from './passport-lite.js';
+import { REWARD } from '../core/economy.js';
 
 addStrings({
-  en: { todaysMission: 'Today’s mission', rankLine: '{r} · {n} pearls earned', stampsBadge: '{n} stamps', unlockSoon: 'Unlocks with pearls', standsBadge: '{n} open' },
-  es: { todaysMission: 'Misión de hoy', rankLine: '{r} · {n} perlas ganadas', stampsBadge: '{n} sellos', unlockSoon: 'Se abre con perlas', standsBadge: '{n} abiertos' },
+  en: { todaysMission: 'Today’s mission', rankLine: '{r} · {n} pearls earned', stampsBadge: '{n} stamps', unlockSoon: 'Unlocks with pearls', standsBadge: '{n} open', ciBanner: 'This week’s check-in', ciBannerSub: 'A quick 24-question look at how you are growing. Earn {n} pearls!' },
+  es: { todaysMission: 'Misión de hoy', rankLine: '{r} · {n} perlas ganadas', stampsBadge: '{n} sellos', unlockSoon: 'Se abre con perlas', standsBadge: '{n} abiertos', ciBanner: 'El chequeo de esta semana', ciBannerSub: 'Un vistazo rápido de 24 preguntas a cómo creces. ¡Gana {n} perlas!' },
 });
 
 export function mount(el) {
@@ -53,7 +54,7 @@ export function mount(el) {
 
   el.append(
     h('div', { class: 'greet' }, h('h1', {}, greet), h('span', { class: 'chip' }, t('rankLine', { r: rk.rank[S.lang], n: S.pearls.earned.toLocaleString() }))),
-    cont, checkinDoneThisWeek() ? null : h('a', { class: 'continue ciBanner', href: '#/checkin', onclick: () => sfx.pop() }, h('div', { class: 'ci', html: icons.trophy(48) }), h('div', { class: 'ct' }, h('strong', {}, t('ciBanner')), h('small', {}, t('ciBannerSub'))), h('span', { class: 'btn' }, t('play'))), h('div', { class: 'hub' }, tiles), gear);
+    cont, checkinDoneThisWeek() ? null : h('a', { class: 'continue ciBanner', href: '#/checkin', onclick: () => sfx.pop() }, h('div', { class: 'ci', html: icons.trophy(48) }), h('div', { class: 'ct' }, h('strong', {}, t('ciBanner')), h('small', {}, t('ciBannerSub', { n: REWARD.checkin }))), h('span', { class: 'btn' }, t('play'))), h('div', { class: 'hub' }, tiles), gear);
   if (day().pearls >= DAILY_PEARL_CAP) el.append(h('p', { class: 'center muted' }, t('chestFull')));
   return () => { clearTimeout(timer); };
 }

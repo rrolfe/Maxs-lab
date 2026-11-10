@@ -285,6 +285,16 @@ export function awardChore(n) {
   if (m && milestoneHook && S.mil[m.id] !== today()) { S.mil[m.id] = today(); try { milestoneHook(m); } catch (e) { console.error(e); } }
   return n;
 }
+/** The weekly check-in bonus. Paid in full whatever else he earned today (it is not screen-time play, and it should never be cut short by the daily taper). */
+export function awardCheckin(n) {
+  n = Math.max(0, Math.round(n));
+  const before = S.pearls.balance, d = day();
+  S.pearls.balance += n; S.pearls.earned += n; d.checkin = (d.checkin || 0) + n;
+  save();
+  const m = n ? crossed(S, before, S.pearls.balance) : null;
+  if (m && milestoneHook && S.mil[m.id] !== today()) { S.mil[m.id] = today(); try { milestoneHook(m); } catch (e) { console.error(e); } }
+  return n;
+}
 /** A wrong answer. Pearls never go below zero and the day's earned total never goes below zero. */
 export function losePearls(n) {
   n = Math.max(0, Math.round(n));

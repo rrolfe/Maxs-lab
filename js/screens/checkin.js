@@ -1,5 +1,6 @@
 // Weekly Check-in: 24 fresh questions (4 per subject, levels 2-5), one try, no hints, no pearls lost. Results feed the Grown-up corner.
-import { S, save, addPearls, TOPICS } from '../core/store.js';
+import { S, save, awardCheckin, TOPICS } from '../core/store.js';
+import { REWARD } from '../core/economy.js';
 import { h, shuffle, pick, confetti } from '../core/dom.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings } from '../core/i18n.js';
@@ -11,20 +12,20 @@ import { weekKey, checkinDoneThisWeek } from '../progress/stats.js';
 import { awardBadges } from '../core/badges.js';
 
 export const CHECKIN_LEVELS = [2, 3, 4, 5];
-export const CHECKIN_REWARD = 15;
+export const CHECKIN_REWARD = REWARD.checkin;
 
 addStrings({
   en: {
-    ciTitle: 'Weekly Check-in', ciIntro: 'A quick look at how much you have grown this week. 24 questions, no hints, one try each. No pearls are lost, and you get {n} pearls for finishing!',
+    ciTitle: 'Weekly Check-in', ciIntro: 'A quick look at how much you have grown this week. 24 questions, no hints, one try each. No pearls are lost, and you earn {n} pearls just for finishing, whatever your score!', ciBonus: 'Check-in bonus: +{n} pearls',
     ciStart: 'Start the check-in', ciDone: 'You already did this week’s check-in. See you next week!', ciQ: 'Question {a} of {b}', ciRead: 'Read it to me',
     ciAnswered: 'You answered {a} of {b} right!', ciGreat: 'Great effort, Max!', ciUp: 'That is up from last time!', ciSame: 'Right on track. Keep going!', ciKeep: 'Every week you grow. Nice work!',
-    ciBack: 'Home', ciAgainNote: 'Questions are new each week.', prHome: 'Home screen', ciPer: '{a} of {b}', ciBanner: 'This week’s check-in', ciBannerSub: 'A quick 24-question look at how you are growing',
+    ciBack: 'Home', ciAgainNote: 'Questions are new each week.', prHome: 'Home screen', ciPer: '{a} of {b}', 
   },
   es: {
-    ciTitle: 'Chequeo semanal', ciIntro: 'Una mirada rápida a cuánto has crecido esta semana. 24 preguntas, sin pistas, un intento cada una. ¡No se pierden perlas y ganas {n} perlas al terminar!',
+    ciTitle: 'Chequeo semanal', ciIntro: 'Una mirada rápida a cuánto has crecido esta semana. 24 preguntas, sin pistas, un intento cada una. ¡No se pierden perlas y ganas {n} perlas solo por terminar, sin importar tu puntaje!', ciBonus: 'Bono del chequeo: +{n} perlas',
     ciStart: 'Empezar el chequeo', ciDone: 'Ya hiciste el chequeo de esta semana. ¡Nos vemos la próxima!', ciQ: 'Pregunta {a} de {b}', ciRead: 'Léemela',
     ciAnswered: '¡Acertaste {a} de {b}!', ciGreat: '¡Gran esfuerzo, Max!', ciUp: '¡Mejoraste desde la última vez!', ciSame: '¡Vas muy bien! Sigue así.', ciKeep: 'Cada semana creces. ¡Buen trabajo!',
-    ciBack: 'Inicio', ciAgainNote: 'Las preguntas son nuevas cada semana.', prHome: 'Pantalla de inicio', ciPer: '{a} de {b}', ciBanner: 'El chequeo de esta semana', ciBannerSub: 'Un vistazo rápido de 24 preguntas a cómo creces',
+    ciBack: 'Inicio', ciAgainNote: 'Las preguntas son nuevas cada semana.', prHome: 'Pantalla de inicio', ciPer: '{a} de {b}', 
   },
 });
 
@@ -98,14 +99,14 @@ export async function mount(el) {
       const prev = last();
       const entry = { wk: weekKey(), date: new Date().toISOString().slice(0, 10), n: qs.length, ok, byTopic: res, sec: Math.round((Date.now() - t0) / 1000), lang: S.lang };
       S.checkins.list.push(entry); if (S.checkins.list.length > 200) S.checkins.list.shift();
-      const got = addPearls(CHECKIN_REWARD).got; save(); awardBadges();
+      const got = awardCheckin(CHECKIN_REWARD); save(); awardBadges();
       sfx.levelUp(); confetti(innerWidth / 2, innerHeight / 3);
       const note = !prev ? t('ciKeep') : ok > prev.ok ? t('ciUp') : t('ciSame');
       root.replaceChildren(h('div', { class: 'card center summary', style: { maxWidth: '720px', margin: '14px auto' } },
         h('div', { html: icons.trophy(84) }), h('h1', {}, t('ciGreat')),
         h('p', { class: 'big' }, t('ciAnswered', { a: ok, b: qs.length })), h('p', {}, note),
         h('div', { class: 'cires' }, TOPICS.map((tp) => h('div', {}, h('small', {}, t(TOPIC_META[tp].key)), h('b', {}, t('ciPer', { a: res[tp].ok, b: res[tp].n }))))),
-        got ? h('p', { class: 'big' }, h('span', { html: icons.pearl(36) }), ' ', t('plusN', { n: got })) : null,
+        got ? h('p', { class: 'big' }, h('span', { html: icons.pearl(36) }), ' ', t('ciBonus', { n: got })) : null,
         h('a', { class: 'btn gold', href: '#/home' }, t('ciBack'))));
     }
     show();
