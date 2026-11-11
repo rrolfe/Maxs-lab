@@ -1,4 +1,5 @@
 // Names and one-line effects for every shop upgrade: [name, description] in English and Latin American Spanish.
+import { CREAM_TEXT } from './cream-text.js';
 const T = (en, es) => ({ en, es });
 export const UP_TEXT = {
   lemonade: {
@@ -78,17 +79,7 @@ export const UP_TEXT = {
     franchise: T(['Franchise', 'Lemon shops in lots of cities, all paying you every day'], ['Franquicia', 'Tiendas de limonada en muchas ciudades, todas te pagan cada día']),
     lemontown: T(['Lemon Town', 'Your own lemon-shaped town with a golden trophy: the most legendary lemonade empire ever!'], ['Ciudad Limón', '¡Tu propia ciudad con forma de limón y un trofeo dorado: el imperio de limonada más legendario!']),
   },
-  icecream: {
-    sign: T(['Bright sign', '15% more people stop by'], ['Letrero brillante', '15% más gente se detiene']),
-    table: T(['Big table', '20% more people stop by'], ['Mesa grande', '20% más gente se detiene']),
-    freezer: T(['Big freezer', 'Store 2 more tubs'], ['Congelador grande', 'Guarda 2 botes más']),
-    cone: T(['Waffle cone maker', 'Fresh cones: people pay more'], ['Máquina de conos', 'Conos recién hechos: la gente paga más']),
-    toppings: T(['Toppings bar', 'Sprinkles and syrups: more people and higher prices'], ['Barra de ingredientes', 'Chispas y jarabes: más gente y mejores precios']),
-    helper: T(['Hire a helper', 'Serves 40 more customers a day'], ['Contratar un ayudante', 'Atiende a 40 clientes más al día']),
-    party: T(['Birthday-party catering', 'Parties order 36 scoops for a big payment'], ['Fiestas de cumpleaños', 'Las fiestas piden 36 bolas y pagan bien']),
-    truck: T(['Ice cream truck', 'Drive to the crowds: more people, more tubs, more served'], ['Camión de helados', 'Va donde está la gente: más clientes, más botes, más atendidos']),
-    shop: T(['Ice cream shop', 'A real shop with a line out the door'], ['Heladería', 'Una tienda de verdad con fila hasta la puerta']),
-  },
+  icecream: CREAM_TEXT,
   snack: {
     sign: T(['Ballpark sign', '20% more fans stop by'], ['Letrero del estadio', '20% más fans se detienen']),
     grill: T(['Big grill', 'Unlocks burgers and cooks faster'], ['Parrilla grande', 'Desbloquea hamburguesas y cocina más rápido']),

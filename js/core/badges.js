@@ -1,6 +1,8 @@
 // Milestone badges. awardBadges() is cheap; call it after anything that could earn one.
 import { S, save, TOPICS, levelOf, daysPlayedThisWeek } from './store.js';
 import { L } from './i18n.js';
+import { CREAM_UPGRADES } from '../stands/cream-data.js';
+const DREAM_IDS = CREAM_UPGRADES.filter((u) => u.dream).map((u) => u.id);
 
 export const BADGES = [
   { id: 'first', icon: 'quiz', name: { en: 'First Mission', es: 'Primera misión' }, desc: { en: 'Finish a quiz mission.', es: 'Termina una misión de preguntas.' }, test: () => S.mission.done >= 1 },
@@ -18,6 +20,10 @@ export const BADGES = [
   { id: 'lemon20', icon: 'lemonade', name: { en: 'Lemon Collector', es: 'Coleccionista de limones' }, desc: { en: 'Buy 20 extras for your lemonade stand.', es: 'Compra 20 extras para tu puesto de limonada.' }, test: () => Object.keys(S.stands.lemonade?.up || {}).length >= 20 },
   { id: 'lemonshop', icon: 'lemonade', name: { en: 'Grand Opening', es: 'Gran inauguración' }, desc: { en: 'Open your own lemonade shop.', es: 'Abre tu propia tienda de limonada.' }, test: () => !!S.stands.lemonade?.up?.store },
   { id: 'lemontown', icon: 'trophy', name: { en: 'Lemon Town Legend', es: 'Leyenda de Ciudad Limón' }, desc: { en: 'Build Lemon Town.', es: 'Construye Ciudad Limón.' }, test: () => !!S.stands.lemonade?.up?.lemontown },
+  { id: 'cream20', icon: 'icecream', name: { en: 'Sprinkle Collector', es: 'Coleccionista de chispas' }, desc: { en: 'Buy 20 extras for your ice cream parlor.', es: 'Compra 20 extras para tu heladería.' }, test: () => Object.keys(S.stands.icecream?.up || {}).length >= 20 },
+  { id: 'creamshop', icon: 'icecream', name: { en: 'Corner Parlor', es: 'Heladería de la esquina' }, desc: { en: 'Open your own ice cream shop.', es: 'Abre tu propia heladería.' }, test: () => !!S.stands.icecream?.up?.shop },
+  { id: 'cream60', icon: 'icecream', name: { en: 'Scoop Superstar', es: 'Superestrella de bolas' }, desc: { en: 'Buy 60 extras for your ice cream parlor.', es: 'Compra 60 extras para tu heladería.' }, test: () => Object.keys(S.stands.icecream?.up || {}).length >= 60 },
+  { id: 'sundaeisland', icon: 'trophy', name: { en: 'Sundae Island Legend', es: 'Leyenda de la Isla Sundae' }, desc: { en: 'Build every piece of Sundae Island.', es: 'Construye todas las piezas de la Isla Sundae.' }, test: () => DREAM_IDS.every((k) => !!S.stands.icecream?.up?.[k]) },
   { id: 'ws10', icon: 'wordsearch', name: { en: 'Word Hunter', es: 'Cazapalabras' }, desc: { en: 'Solve 10 word searches.', es: 'Resuelve 10 sopas de letras.' }, test: () => S.words.wins.ws >= 10 },
   { id: 'hm10', icon: 'hangman', name: { en: 'Word Detective', es: 'Detective de palabras' }, desc: { en: 'Win 10 hangman games.', es: 'Gana 10 partidas de ahorcado.' }, test: () => S.words.wins.hm >= 10 },
 ];

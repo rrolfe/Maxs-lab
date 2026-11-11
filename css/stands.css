@@ -213,3 +213,11 @@ button.hint { cursor: pointer; } button.hint:active { transform: translateY(2px)
 .goalbtn { all: unset; cursor: pointer; justify-self: start; padding: 4px 12px; border: 2.5px solid var(--line); border-radius: 99px; font-weight: 800; font-size: 16px; background: var(--surface); }
 .goalbtn.on { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 35%, var(--surface)); }
 .upg.mystery { cursor: default; display: grid; place-items: center; align-content: center; text-align: center; border-style: dashed; box-shadow: none; opacity: .85; }
+
+/* Ice Cream Parlor (Nov 11 2026): the parlor grows up on the scene, secret flavors, today's special, and what people added */
+.scene.look-castle .sglyph { filter: drop-shadow(0 0 12px #FF9FD8) saturate(1.3); } .scene.look-factory .sglyph { filter: drop-shadow(0 0 10px #FFD166); }
+.scene.look-island, .scene.look-castle { border-color: #C99A00; } .scene.look-island .sglyph { animation: shimmer-glyph 3s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .scene.look-island .sglyph { animation: none; } }
+.upg.secret { border-style: dashed; background: color-mix(in srgb, #7B5CFF 14%, var(--surface)); } .upg.secret .ue { filter: none; }
+.specialsel .spotchip.special small.ssub { color: var(--muted); font-size: 15px; }
+.addchips { display: flex; flex-wrap: wrap; gap: 8px; }

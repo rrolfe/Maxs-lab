@@ -1,5 +1,6 @@
 // Pure simulation rules for the tiny businesses (no DOM: easy to test and tune with bots, see tools/tests/stands-sim.mjs).
 // A SEASON is 10 selling days (the Snack Shack runs 15: Rob's choice, Nov 2026). Upgrades are kept between seasons and are what lets a stand grow from ~20 customers a day to 100+.
+import { CREAM_UPGRADES, CREAM_ADDONS, CREAM_SPOTS as CREAM_SPOT_DATA, CREAM_ORDER_LIST } from './cream-data.js';
 export const SEASON_DAYS = 10;
 export const seasonDays = (id) => (id === 'snack' ? 15 : SEASON_DAYS);
 
@@ -13,8 +14,18 @@ export const EVENTS = {
   game: { mult: 1.5 }, roadwork: { mult: 0.7 }, catering: { mult: 1 }, party: { mult: 1 },
   // the Lemonade Stand's happy surprises (none of them ever takes money away): Nov 10 2026
   adday: { mult: 1.5 }, dinoParade: { mult: 1.5 }, rocketParty: { mult: 1.4 }, sharkWeek: { mult: 1.4 }, rainbow: { mult: 1.3 }, freeLemons: { mult: 1 }, shopper: { mult: 1 },
+  // the Ice Cream Parlor's happy surprises (Nov 11 2026): National Ice Cream Day, Free Cone Day, school is out, a jingle parade, Shark Week, free strawberries
+  icday: { mult: 2.2 }, freecone: { mult: 2 }, schoolOut: { mult: 1.6 }, jingleDay: { mult: 1.5 }, sharkScoop: { mult: 1.5 }, berryDay: { mult: 1 },
 };
 export const LEMON_ONLY = ['adday', 'dinoParade', 'rocketParty', 'sharkWeek', 'rainbow', 'freeLemons', 'shopper'];
+export const CREAM_ONLY = ['icday', 'freecone', 'schoolOut', 'jingleDay', 'sharkScoop', 'berryDay'];
+/** Which days each stand can have (a saved "tomorrow" that does not belong gets re-rolled). */
+export const STAND_EVENTS = {
+  lemonade: ['game', 'roadwork', 'catering', ...LEMON_ONLY],
+  icecream: ['game', 'roadwork', 'party', 'adday', 'dinoParade', 'rocketParty', 'rainbow', 'shopper', ...CREAM_ONLY],
+  snack: ['closeGame', 'homeRun', 'rainDelay', 'bigCrowd', 'nightGame'],
+};
+export const eventOk = (stand, ev) => !ev || (STAND_EVENTS[stand] || []).includes(ev);
 
 export function rollDay(r = Math.random, up = {}, stand = 'lemonade') {
   const x = r();
@@ -39,9 +50,15 @@ export function rollDay(r = Math.random, up = {}, stand = 'lemonade') {
     if (e.order && z < cp) event = 'catering'; else if (e.adday && z < cp + 0.15) event = 'adday';
     return { weather, event };
   }
-  event = y < 0.12 ? 'game' : y < 0.22 ? 'roadwork' : null;
-  const z = r();
-  if (up.party && z < 0.22) event = 'party';
+  // ice cream: ball games, road work, rare happy surprises, party orders (bigger and more often as the party upgrades are bought) and newspaper-coupon days
+  const e = effects('icecream', up), gp = 0.12 + e.gamefreq;
+  event = y < gp ? 'game' : y < gp + 0.1 ? 'roadwork' : null;
+  if (!event) {
+    const q = r();
+    event = q < 0.03 ? 'dinoParade' : q < 0.06 ? 'rocketParty' : q < 0.09 ? 'sharkScoop' : q < 0.12 ? 'berryDay' : q < 0.14 ? 'shopper' : q < 0.18 ? 'schoolOut' : q < 0.21 ? 'jingleDay' : q < 0.23 ? 'icday' : q < 0.25 ? 'freecone' : q < 0.33 && (weather === 'rainy' || weather === 'cloudy') ? 'rainbow' : null;
+  }
+  const z = r(), cp = [0, 0.22, 0.3, 0.38, 0.45, 0.5][e.order] || 0;
+  if (e.order && z < cp) event = 'party'; else if (e.adday && z < cp + 0.15) event = 'adday';
   return { weather, event };
 }
 
@@ -133,24 +150,15 @@ export const UPGRADES = {
     // --- The Shop (the dream: from a rented shop to Lemon Town)
     { id: 'shoprent', path: 'shop', tier: 4, price: 1200, req: ['wooden'], fx: { flat: 8 }, milestone: true },
     { id: 'counter', path: 'shop', tier: 4, price: 1800, req: ['shoprent'], fx: { serve: 120, ptol: 0.05, flat: 10 } },
-    { id: 'store', path: 'shop', tier: 5, price: 4000, req: ['counter'], fx: { traffic: 0.5, flat: 25, serve: 120, stock: 200, ptol: 0.1 }, milestone: true },
+    { id: 'store', path: 'shop', tier: 5, price: 4000, req: ['counter'], fx: { traffic: 0.5, flat: 25, serve: 120, stock: 200, ptol: 0.1 }, milestone: true, fire: true },
     { id: 'bakery', path: 'shop', tier: 5, price: 6500, req: ['store'], fx: { ptol: 0.2, stock: 100, traffic: 0.15 } },
-    { id: 'shop2', path: 'shop', tier: 6, price: 25000, req: ['store'], fx: { branch: 300 }, milestone: true },
-    { id: 'factory', path: 'shop', tier: 6, price: 60000, req: ['bakery'], fx: { cost: 0.5, stock: 600, serve: 600 }, milestone: true },
-    { id: 'franchise', path: 'shop', tier: 6, price: 120000, req: ['shop2'], fx: { branch: 2000 }, milestone: true },
-    { id: 'lemontown', path: 'shop', tier: 6, price: 250000, req: ['franchise', 'factory'], fx: { traffic: 1, flat: 300, branch: 1500 }, milestone: true },
+    { id: 'shop2', path: 'shop', tier: 6, price: 25000, req: ['store'], fx: { branch: 300 }, milestone: true, fire: true },
+    { id: 'factory', path: 'shop', tier: 6, price: 60000, req: ['bakery'], fx: { cost: 0.5, stock: 600, serve: 600 }, milestone: true, fire: true },
+    { id: 'franchise', path: 'shop', tier: 6, price: 120000, req: ['shop2'], fx: { branch: 2000 }, milestone: true, fire: true },
+    { id: 'lemontown', path: 'shop', tier: 6, price: 250000, req: ['franchise', 'factory'], fx: { traffic: 1, flat: 300, branch: 1500 }, milestone: true, fire: true },
   ],
-  icecream: [
-    { id: 'sign', tier: 1, price: 40, fx: { traffic: 0.15 } },
-    { id: 'table', tier: 1, price: 70, fx: { traffic: 0.2 } },
-    { id: 'freezer', tier: 1, price: 90, fx: { stock: 2 } },
-    { id: 'cone', tier: 2, price: 120, fx: { ptol: 0.2 } },
-    { id: 'toppings', tier: 2, price: 150, fx: { ptol: 0.15, traffic: 0.1 } },
-    { id: 'helper', tier: 2, price: 200, fx: { serve: 40 } },
-    { id: 'truck', tier: 3, price: 650, req: ['freezer'], fx: { flat: 14, traffic: 0.2, stock: 6, serve: 40 } },
-    { id: 'party', tier: 3, price: 450, req: ['cone'], fx: {} },
-    { id: 'shop', tier: 4, price: 2600, req: ['truck'], fx: { traffic: 0.5, flat: 20, serve: 100, stock: 10, ptol: 0.1 } },
-  ],
+  // The Ice Cream Parlor: ~110 extras in nine paths (Rob, Nov 11 2026), see cream-data.js
+  icecream: CREAM_UPGRADES,
   snack: [
     { id: 'sign', tier: 1, price: 60, fx: { traffic: 0.2 } },
     { id: 'grill', tier: 1, price: 120, fx: { serve: 12 }, unlock: ['burger'] },
@@ -201,6 +209,8 @@ export function fixLegacyUp(up) {      // before pairs existed there were separa
   if (up && (up.field5 || up.field6)) { up.fields56 = 1; delete up.field5; delete up.field6; }
   // lemonade: the old one-step "Brick-and-mortar store" now sits at the end of a ladder (rent the shop, counter and stools): whoever already had it owns the steps before it
   if (up && up.store) { up.shoprent = 1; up.counter = 1; }
+  // ice cream: the old Ice cream shop is now the Corner Shop at the end of the cart-to-shop steps: whoever owns it already has the steps before it
+  if (up && up.shop) { up.umbrella ||= 1; up.trailer ||= 1; }
   return up;
 }
 const addFx = (e, fx) => { for (const [k, v] of Object.entries(fx)) { if (k === 'cost' || k === 'crowd' || k === 'evgame') e[k] *= v; else if (k === 'order') e.order = Math.max(e.order, v); else e[k] += v; } };
@@ -208,8 +218,8 @@ export function effects(stand, up = {}, spot = null) {
   if (up && (up.field5 || up.field6)) up = { ...up, fields56: 1 };
   // branch: dollars a day from other shops; order: size of the catering order (0 none, 1-3); adday: newspaper ad days; gamefreq: more ball-game days; evgame: bigger crowds on game days
   const e = { traffic: 0, flat: 0, ptol: 0, serve: 0, staff: 0, stock: 0, cost: 1, crowd: 1, hot: 0, rain: 0, branch: 0, order: 0, adday: 0, gamefreq: 0, evgame: 1, unlock: new Set() };
-  for (const u of upgradeList(stand)) if (up[u.id]) { addFx(e, u.fx); (u.unlock || []).forEach((x) => e.unlock.add(x)); }
-  const sp = stand === 'lemonade' && spot && up[spot] ? SPOTS[spot] : null;
+  for (const u of upgradeList(stand)) if (up[u.id]) { addFx(e, u.fx); (u.unlock || []).forEach((x) => e.unlock.add(x)); if (stand === 'icecream' && ADDONS[u.id]) e.unlock.add(u.id); }
+  const sp = spot && up[spot] ? spotTable(stand)[spot] || null : null;
   if (sp) addFx(e, sp.fx);
   return e;
 }
@@ -226,22 +236,36 @@ export const SPOTS = {
   stadiumcart: { emoji: '🏟️', fx: { flat: 400, evgame: 1.4 }, wx: {} },
 };
 export const SPOT_IDS = Object.keys(SPOTS);
-export const spotsOwned = (up = {}) => SPOT_IDS.filter((id) => up[id]);
+/** Pop-up places for each stand (the lemonade stand and the ice cream parlor have their own). */
+export const spotTable = (stand) => (stand === 'icecream' ? CREAM_SPOTS : stand === 'lemonade' ? SPOTS : {});
+export const spotIds = (stand = 'lemonade') => Object.keys(spotTable(stand));
+export const spotsOwned = (up = {}, stand = 'lemonade') => spotIds(stand).filter((id) => up[id]);
 /** Catering orders: [none, small, party packs, office contract]: cups wanted and the price paid for each. */
 export const LEMON_ORDERS = [null, { need: 50, price: 1.5 }, { need: 100, price: 1.75 }, { need: 250, price: 2 }];
-export const orderOf = (stand, up) => (stand === 'lemonade' ? LEMON_ORDERS[effects(stand, up).order] : up.party ? SINGLE.icecream.cater : null);
+/** Ice cream party orders: [none, birthday, class party, wedding, big event, stadium contract]: scoops wanted and the price paid for each scoop. */
+export const CREAM_ORDERS = CREAM_ORDER_LIST;
+export const CREAM_SPOTS = CREAM_SPOT_DATA;
+export const ordersOf = (stand) => (stand === 'lemonade' ? LEMON_ORDERS : stand === 'icecream' ? CREAM_ORDERS : []);
+export const orderOf = (stand, up) => ordersOf(stand)[effects(stand, up).order] || null;
 // Lemonade chapters: tier 5 shows from season 6 and tier 6 from season 9, so the first seasons stay simple. Other stands: tier N from season N.
-export const TIER_SEASON = { lemonade: [0, 1, 2, 3, 4, 6, 9] };
+export const TIER_SEASON = { lemonade: [0, 1, 2, 3, 4, 6, 9], icecream: [0, 1, 2, 3, 4, 6, 9] };
 export const tierSeason = (stand, tier) => (TIER_SEASON[stand] || [])[tier] ?? tier;
 export const visibleUpgrades = (stand, seasonNo) => upgradeList(stand).filter((u) => tierSeason(stand, u.tier) <= Math.max(1, seasonNo));
 export const canBuy = (stand, id, up) => { const u = upgradeList(stand).find((x) => x.id === id); return !!u && !up[id] && (u.req || []).every((r) => up[r]); };
 
+// ---------- things people add to an ice cream order (toppings, sauces, treats, keepsakes): a share of customers buy one, for extra money ----------
+// p: share of customers who add it on a normal day. v: what they pay for it. c: what it costs the parlor. kind: 'cold' = loves hot days and hates rain (shakes, sorbet), 'warm' = loves cool, rainy days (hot fudge, cocoa).
+// Nothing to stock: the cost is paid when it sells. Every add-on is unlocked by an upgrade (`unlock`), see UPGRADES.icecream.
+export const ADDONS = CREAM_ADDONS;
+const addonMult = (a, w) => (a.kind === 'cold' ? (w.hot ? 1.5 : w.rain ? 0.5 : 1) : a.kind === 'warm' ? (w.hot ? 0.6 : w.rain ? 1.5 : 1) : 1);
+export const addonsOwned = (up = {}) => Object.keys(ADDONS).filter((id) => effects('icecream', up).unlock.has(id));
+
 // ---------- single-product stands (lemonade, ice cream) ----------
 const SINGLE = {
   lemonade: { id: 'lemonade', unit: 'cups', startBank: 20, unitCost: 0.25, perStock: 1, baseStockMax: 60, priceMin: 0.25, priceMax: 4, priceStep: 0.25, defaultPrice: 1, rate: LEMON_RATE, cater: { need: 50, price: 1.5, event: 'catering' } },
-  icecream: { id: 'icecream', unit: 'tubs', startBank: 30, unitCost: 6, perStock: 12, baseStockMax: 6, priceMin: 1, priceMax: 6, priceStep: 0.5, defaultPrice: 1.5, rate: CREAM_RATE, doubles: true, cater: { need: 36, price: 3, event: 'party' } },
+  icecream: { id: 'icecream', unit: 'tubs', startBank: 30, unitCost: 6, perStock: 12, baseStockMax: 6, priceMin: 1, priceMax: 12, priceStep: 0.5, defaultPrice: 1.5, rate: CREAM_RATE, doubles: true, cater: { need: 36, price: 3, event: 'party' } },
 };
-export const stockStepOf = (id, up) => { const d = SINGLE[id]; if (id === 'icecream') return 1; const m = d.baseStockMax + effects(id, up).stock; return m >= 1000 ? 100 : m >= 400 ? 50 : m >= 200 ? 25 : 10; };
+export const stockStepOf = (id, up) => { const d = SINGLE[id]; const m = d.baseStockMax + effects(id, up).stock; if (id === 'icecream') return m >= 4000 ? 250 : m >= 1500 ? 100 : m >= 600 ? 50 : m >= 200 ? 25 : m >= 60 ? 10 : m >= 25 ? 5 : 1; return m >= 1000 ? 100 : m >= 400 ? 50 : m >= 200 ? 25 : 10; };
 const single = (id) => {
   const d = SINGLE[id];
   return {
@@ -262,12 +286,12 @@ export function traffic(id, ctx) {
   let ev = ctx.event && EVENTS[ctx.event] ? EVENTS[ctx.event].mult : 1;
   if (ctx.event === 'game') ev *= e.evgame;        // sponsoring the ball team and setting up at the ball field make game days bigger
   const pct = Math.max(0.25, 1 + e.traffic + e.hot * w.hot + e.rain * w.rain);
-  const sm = (ctx.spot && ctx.up[ctx.spot] && id === 'lemonade' && SPOTS[ctx.spot]?.wx?.[ctx.weather]) || 1;
+  const sm = (ctx.spot && ctx.up[ctx.spot] && spotTable(id)[ctx.spot]?.wx?.[ctx.weather]) || 1;
   return Math.max(0, (w.base[id] * ev * pct + e.flat) * sm);
 }
 export const serveCap = (id, up) => 40 + effects(id, up).serve;
 
-function simSingle(d, { price, stock, deal }, { weather, event, up, spot }, r = Math.random) {
+function simSingle(d, { price, stock, deal, special }, { weather, event, up, spot }, r = Math.random) {
   const e = effects(d.id, up, spot), w = WEATHER[weather];
   const n = Math.max(0, Math.round(traffic(d.id, { weather, event, up, spot }) * (0.85 + 0.3 * r())));
   const qMult = 1 + e.ptol;
@@ -276,12 +300,15 @@ function simSingle(d, { price, stock, deal }, { weather, event, up, spot }, r = 
   const customers = [];
   // a catering / party order is delivered first and paid up front: it needs the full amount in stock
   let order = null;
-  const cat = d.id === 'lemonade' ? LEMON_ORDERS[e.order] : up.party ? d.cater : null;
+  const cat = ordersOf(d.id)[e.order] || null;
   if (cat && event === d.cater.event) {
     if (left >= cat.need) { left -= cat.need; revenue += cat.need * cat.price; order = { ok: true, units: cat.need, pay: cat.need * cat.price }; }
     else order = { ok: false, units: cat.need, pay: cat.need * cat.price };
   }
   let served = 0;
+  // ice cream: toppings, sauces, treats and keepsakes that buyers add (each one only if its upgrade is owned); today's special is picked more often
+  const adds = d.id === 'icecream' ? [...e.unlock].filter((x) => ADDONS[x]).map((x) => ({ id: x, a: ADDONS[x], p: Math.min(0.9, ADDONS[x].p * addonMult(ADDONS[x], w) * (special === x ? 1.8 : 1)) })) : [];
+  const addSold = {}; let addPay = 0, addCost = 0;
   for (let i = 0; i < n; i++) {
     const wantsDouble = d.doubles && r() < 1 / 3;
     const p = price + (wantsDouble ? 1 : 0);
@@ -294,6 +321,7 @@ function simSingle(d, { price, stock, deal }, { weather, event, up, spot }, r = 
     const got = Math.min(need, left); left -= got; sold += got; served++;
     let paid = got === 2 ? price + 1 : price;
     if (deal && r() < 0.33) paid *= 0.8;
+    for (const x of adds) if (r() < x.p) { paid += x.a.v; addPay += x.a.v; addCost += x.a.c; addSold[x.id] = (addSold[x.id] || 0) + 1; }
     revenue += paid; if (got === 2) doubles++;
     customers.push({ res: 'buy', paid, double: got === 2 });
   }
@@ -301,8 +329,9 @@ function simSingle(d, { price, stock, deal }, { weather, event, up, spot }, r = 
   const extra = [];
   if (e.branch) { revenue += e.branch; extra.push({ kind: 'branch', pay: e.branch }); }
   if (event === 'shopper') { const tip = Math.max(5, Math.round((revenue * 0.2) / 5) * 5); revenue += tip; extra.push({ kind: 'tip', pay: tip }); }
-  const cost = stock * d.unitCost * e.cost * (event === 'freeLemons' ? 0.5 : 1);
-  return { customers, sold, pricey, soldout, busy, leftover: left, revenue, cost, profit: revenue - cost, n, doubles, order, extra };
+  if (addPay) extra.push({ kind: 'addons', pay: addPay, in: true });
+  const cost = stock * d.unitCost * e.cost * (event === 'freeLemons' ? 0.5 : 1) * (event === 'berryDay' ? 0.5 : 1) + addCost;
+  return { customers, sold, pricey, soldout, busy, leftover: left, revenue, cost, profit: revenue - cost, n, doubles, order, extra, addons: addSold, special: special && addSold[special] ? special : null };
 }
 
 // ---------- the ballpark snack shack: a menu of items ----------
@@ -461,8 +490,8 @@ export function botDay(id, ctx, skill = 1, r = Math.random) {
   }
   const d = SINGLE[id];
   // pick where to open: a good player matches the place to the weather (the forecast shows the crowd for each place); a careless one picks any
-  let spot = null; const spots = ['home', ...spotsOwned(up)];
-  if (id === 'lemonade' && spots.length > 1) {
+  let spot = null; const spots = ['home', ...spotsOwned(up, id)];
+  if (spots.length > 1) {
     if (skill > 0.6) { let best = -1; for (const sp of spots) { const x = traffic(id, { ...ctx, spot: sp === 'home' ? null : sp }); if (x > best) { best = x; spot = sp === 'home' ? null : sp; } } }
     else { const sp = spots[Math.floor(r() * spots.length)]; spot = sp === 'home' ? null : sp; }
     ctx = { ...ctx, spot };
@@ -476,7 +505,10 @@ export function botDay(id, ctx, skill = 1, r = Math.random) {
   const catNeed = ord && ctx.event === d.cater.event ? ord.need : 0;
   let units = (exp + catNeed) * (1.1 + (1 - skill) * (r() - 0.3));
   const maxStock = single(id).stockMax(up), stp = single(id).stockStep(up);
-  let stock = id === 'icecream' ? Math.ceil(units / 12) : Math.round(units / stp) * stp;
+  let stock = id === 'icecream' ? Math.ceil(units / 12 / stp) * stp : Math.round(units / stp) * stp;
   stock = Math.max(id === 'icecream' ? 1 : stp, Math.min(maxStock, stock));
-  return { ...sim.sim({ price, stock }, ctx, r), spot };
+  // a good player also picks a special that suits the weather: something cold on hot days, something warm on cool ones
+  let special = null;
+  if (id === 'icecream' && skill > 0.6) { const w = WEATHER[ctx.weather]; let bv = 0; for (const x of addonsOwned(up)) { const a = ADDONS[x], v = a.p * a.v * addonMult(a, w); if (v > bv) { bv = v; special = x; } } }
+  return { ...sim.sim({ price, stock, special }, ctx, r), spot };
 }
