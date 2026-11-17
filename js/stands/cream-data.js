@@ -80,10 +80,11 @@ export const CREAM_UPGRADES = [
   U('robo', 'crew', 6, 360000, { serve: 10000 }, { req: ['manager'], milestone: true }),
 
   // ---------- 📣 Shout It Out: more people hear about the parlor
+  // The first "more people" extras (spoons, flyers, punch, bunting) add 3 or more people on a plain sunny day (24 people, so 12.5% or more): the forecast number visibly moves when he buys one.
   U('chalk', 'promo', 1, 25, { flat: 5 }),
-  U('spoons', 'promo', 1, 35, { traffic: 0.1 }),
-  U('flyers', 'promo', 1, 50, { traffic: 0.08 }),
-  U('punch', 'promo', 1, 70, { traffic: 0.12 }),
+  U('spoons', 'promo', 1, 35, { traffic: 0.15 }),
+  U('flyers', 'promo', 1, 50, { traffic: 0.13 }),
+  U('punch', 'promo', 1, 70, { traffic: 0.18 }),
   U('jingle', 'promo', 2, 210, { traffic: 0.15 }),
   U('crayon', 'promo', 2, 280, { flat: 15 }),
   U('photowall', 'promo', 3, 2200, { traffic: 0.1 }),
@@ -143,7 +144,7 @@ export const CREAM_UPGRADES = [
   U('sign', 'shop', 1, 25, { traffic: 0.15 }),                                  // legacy
   U('table', 'shop', 1, 40, { traffic: 0.2 }),                                  // legacy
   U('umbrella', 'shop', 1, 35, { hot: 0.1 }, { milestone: true }),
-  U('bunting', 'shop', 2, 85, { traffic: 0.08 }),
+  U('bunting', 'shop', 2, 85, { traffic: 0.13 }),
   U('trailer', 'shop', 2, 280, { traffic: 0.2, flat: 8, stock: 4, serve: 30 }, { req: ['umbrella'], milestone: true }),
   U('shop', 'shop', 4, 2600, { traffic: 0.5, flat: 20, serve: 100, stock: 10, ptol: 0.1 }, { req: ['truck'], milestone: true }),   // legacy: ice cream shop (now the corner shop)
   U('booths', 'shop', 4, 5000, { rain: 0.25, flat: 10 }, { req: ['shop'] }),

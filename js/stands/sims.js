@@ -263,7 +263,7 @@ export const addonsOwned = (up = {}) => Object.keys(ADDONS).filter((id) => effec
 // ---------- single-product stands (lemonade, ice cream) ----------
 const SINGLE = {
   lemonade: { id: 'lemonade', unit: 'cups', startBank: 20, unitCost: 0.25, perStock: 1, baseStockMax: 60, priceMin: 0.25, priceMax: 4, priceStep: 0.25, defaultPrice: 1, rate: LEMON_RATE, cater: { need: 50, price: 1.5, event: 'catering' } },
-  icecream: { id: 'icecream', unit: 'tubs', startBank: 30, unitCost: 6, perStock: 12, baseStockMax: 6, priceMin: 1, priceMax: 12, priceStep: 0.5, defaultPrice: 1.5, rate: CREAM_RATE, doubles: true, cater: { need: 36, price: 3, event: 'party' } },
+  icecream: { id: 'icecream', unit: 'tubs', startBank: 30, unitCost: 6, perStock: 12, baseStockMax: 6, priceMin: 1, priceMax: 12, priceStep: 0.5, defaultPrice: 1.5, rate: CREAM_RATE, doubles: true, serveBase: 60, cater: { need: 36, price: 3, event: 'party' } },
 };
 export const stockStepOf = (id, up) => { const d = SINGLE[id]; const m = d.baseStockMax + effects(id, up).stock; if (id === 'icecream') return m >= 4000 ? 250 : m >= 1500 ? 100 : m >= 600 ? 50 : m >= 200 ? 25 : m >= 60 ? 10 : m >= 25 ? 5 : 1; return m >= 1000 ? 100 : m >= 400 ? 50 : m >= 200 ? 25 : 10; };
 const single = (id) => {
@@ -289,7 +289,8 @@ export function traffic(id, ctx) {
   const sm = (ctx.spot && ctx.up[ctx.spot] && spotTable(id)[ctx.spot]?.wx?.[ctx.weather]) || 1;
   return Math.max(0, (w.base[id] * ev * pct + e.flat) * sm);
 }
-export const serveCap = (id, up) => 40 + effects(id, up).serve;
+// Buyers served in a day: 40 to start. The parlor's cart starts at 60 (serveBase) because its crowd passes 40 around day 25, before most kids have found a helper.
+export const serveCap = (id, up) => (SINGLE[id]?.serveBase ?? 40) + effects(id, up).serve;
 
 function simSingle(d, { price, stock, deal, special }, { weather, event, up, spot }, r = Math.random) {
   const e = effects(d.id, up, spot), w = WEATHER[weather];

@@ -73,8 +73,8 @@ export const CREAM_TEXT = {
 
   // ---------- Shout It Out
   chalk: T(['Chalkboard cone sign', 'A big drawn cone says SCOOPS HERE: about 5 more people a day'], ['Pizarrón con cono', 'Un cono dibujado dice AQUÍ HAY HELADO: unas 5 personas más al día']),
-  spoons: T(['Taste-test spoons', 'Free tiny spoons turn lookers into buyers: 10% more people'], ['Cucharitas de prueba', 'Cucharitas gratis convierten a los curiosos en clientes: 10% más gente']),
-  flyers: T(['Bring-a-friend flyers', 'Each flyer has a you-and-a-buddy coupon: 8% more people'], ['Volantes “trae a un amigo”', 'Cada volante tiene un cupón para ti y un amigo: 8% más gente']),
+  spoons: T(['Taste-test spoons', 'Free tiny spoons turn lookers into buyers: 15% more people'], ['Cucharitas de prueba', 'Cucharitas gratis convierten a los curiosos en clientes: 15% más gente']),
+  flyers: T(['Bring-a-friend flyers', 'Each flyer has a you-and-a-buddy coupon: 13% more people'], ['Volantes “trae a un amigo”', 'Cada volante tiene un cupón para ti y un amigo: 13% más gente']),
   punch: T(['Tenth-scoop card', 'Stamp it nine times and the tenth scoop is free! People keep coming back'], ['Tarjeta de la décima bola', '¡Sella nueve veces y la décima bola es gratis! La gente vuelve una y otra vez']),
   jingle: T(['Ding-dong jingle', 'A bell and a silly song so kids hear you coming'], ['Melodía ding-dong', 'Una campana y una canción tonta para que los niños te oigan llegar']),
   crayon: T(['Crayon cone contest', 'Kids color a cone and parents come to see: about 15 more people a day'], ['Concurso de dibujar conos', 'Los niños colorean un cono y los papás vienen a verlo: unas 15 personas más al día']),

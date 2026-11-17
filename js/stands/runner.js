@@ -9,7 +9,7 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { awardBadges } from '../core/badges.js';
 import { COST } from '../core/economy.js';
-import { SIMS, fieldsOwned, lookOf, stadiumLevel, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit, spotsOwned, orderOf, eventOk, tierSeason, spotTable, ADDONS, addonsOwned } from './sims.js';
+import { SIMS, interp, fieldsOwned, lookOf, stadiumLevel, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit, spotsOwned, orderOf, eventOk, tierSeason, spotTable, ADDONS, addonsOwned } from './sims.js';
 import { lemonShop, sceneEl, spotRow, lemonGlyph } from './lemon-shop.js';
 import { CREAM_UI } from './cream-shop.js';
 import { UP_TEXT } from './upgrade-text.js';
@@ -94,6 +94,7 @@ const upSub = (stand, id) => (UP_TEXT[stand]?.[id]?.[S.lang] || UP_TEXT[stand]?.
 export function mount(el, { id }) {
   const sim = SIMS[id], cfg = CFG[id], st = standState(id), isSnack = id === 'snack', isLemon = id === 'lemonade', isCream = id === 'icecream', isBig = isLemon || isCream;     // the lemonade stand and the ice cream parlor have the big shop
   const curSpot = () => (isBig && st.spot && st.up[st.spot] && spotTable(id)[st.spot] ? st.spot : null);      // where the stand opens today (null = the home corner)
+  const tooPricey = (x) => x.pricey >= 5 && (!isCream || x.pricey >= 0.6 * (x.n || 0));      // ice cream: "try a lower price" only when 6 in 10 said no. The best price loses about a third of the crowd, and $1 instead of $1.50 earns a quarter to a half less
   let timer = 0, alive = true;
   const root = h('div', { class: 'stand', 'data-stand': id }); el.append(root);
   // the Snack Shack grows up with the ballpark: sandlot -> park (3+ fields) -> stadium -> floodlights -> legend (see css "looks")
@@ -204,7 +205,7 @@ export function mount(el, { id }) {
     let coach = t('stCoachFirst');
     if (last) {
       const cmp = isSnack && st.lastCtx && st.lastCtx.exp > 0 ? crowdPhrase(SNACK.trafficOf({ weather: st.next.weather, event: st.next.event, up: st.up }) / st.lastCtx.exp) : null;
-      coach = last.busy >= 4 ? t(isSnack ? 'stCoachBusySnack' : 'stCoachBusy', { n: num(last.busy) }) : cmp && cmp.big ? t('stCoachCmp', { w: cmp.text }) : last.soldout >= 3 ? t('stCoachSoldOut', { n: last.soldout }) : last.pricey >= 5 ? t('stCoachPricey', { n: last.pricey })
+      coach = last.busy >= 4 ? t(isSnack ? 'stCoachBusySnack' : isCream ? 'icCoachBusy' : 'stCoachBusy', { n: num(last.busy) }) : cmp && cmp.big ? t('stCoachCmp', { w: cmp.text }) : last.soldout >= 3 ? t('stCoachSoldOut', { n: last.soldout }) : tooPricey(last) ? t('stCoachPricey', { n: last.pricey })
         : last.leftover >= (id === 'icecream' ? 12 : isSnack ? 12 : 5) ? t('stCoachLeft', { n: id === 'icecream' ? Math.floor(last.leftover / 12) || 1 : last.leftover })
         : t('stCoachGood', { p: Math.max(1, Math.floor(last.profit)).toFixed(0) });
     }
@@ -213,7 +214,7 @@ export function mount(el, { id }) {
     // --- steppers (single-product) or menu rows (snack)
     const costLine = h('p', { class: 'costline' });
     const openBtn = h('button', { class: 'btn gold go', onclick: run }, h('span', { html: icons[cfg.icon](40) }), t('stOpen'));
-    let planBlock;
+    let planBlock, onPlanChange = null;
     const refreshers = [];
     if (!isSnack) {
       const priceVal = h('output', { class: 'big' }), stockVal = h('output', { class: 'big' });
@@ -223,6 +224,7 @@ export function mount(el, { id }) {
         const c = sim.costOf(st.stock, st.up);
         costLine.textContent = id === 'lemonade' ? t('stCostLine', { n: st.stock, u: t('stCups'), p: money(unitCost), c: money(c) }) : t('stTubLine', { n: st.stock, p: money(unitCost), c: money(c) });
         openBtn.disabled = st.stock <= 0;
+        if (onPlanChange) onPlanChange();
       };
       const step = (kind, dir) => () => {
         sfx.tap();
@@ -240,7 +242,7 @@ export function mount(el, { id }) {
         h('button', { class: 'btn alt icon', 'aria-label': '−', onclick: step(kind, -1), html: icons.minus(34) }),
         h('div', { class: 'val' }, valEl, h('small', {}, sub)),
         h('button', { class: 'btn alt icon', 'aria-label': '+', onclick: step(kind, 1), html: icons.plus(34) })));
-      const dealBtn = id === 'icecream' ? h('button', { class: 'chip big', 'aria-pressed': String(!!st.deal), onclick: (e) => { st.deal = !st.deal; e.currentTarget.setAttribute('aria-pressed', String(st.deal)); sfx.tap(); save(); } }, t('stDeal')) : null;
+      const dealBtn = id === 'icecream' ? h('button', { class: 'chip big', 'aria-pressed': String(!!st.deal), onclick: (e) => { st.deal = !st.deal; e.currentTarget.setAttribute('aria-pressed', String(st.deal)); sfx.tap(); save(); if (onPlanChange) onPlanChange(); } }, t('stDeal')) : null;
       planBlock = [h('div', { class: 'plan' }, stepper(t('stPrice'), t(cfg.per), priceVal, 'price'), stepper(t('stStock'), t(cfg.unit) + (id === 'icecream' ? ' · ' + t('stScoops') : ''), stockVal, 'stock')), costLine,
         dealBtn ? h('div', { class: 'dealrow' }, dealBtn, h('small', {}, t('stDealSub'))) : null];
       refreshers.push(refresh);
@@ -317,6 +319,13 @@ export function mount(el, { id }) {
     const expAt = (sp) => traffic(id, { weather, event, up: st.up, spot: sp });
     const exp = isSnack ? SNACK.trafficOf({ weather, event, up: st.up }) : expAt(spot);
     const ord = isBig ? orderOf(id, st.up) : null;
+    // ice cream: can the cart keep up? Only people who like the price line up (a busy day can run 15% over the forecast). It speaks up only when the line would be too long.
+    const lineBox = isCream ? h('div', { class: 'caphint warn', hidden: true }) : null;
+    if (isCream) onPlanChange = () => {
+      const q = 1 + effects(id, st.up, spot).ptol, bonus = WEATHER[weather].bonus + (st.deal ? 0.12 : 0), like = (p) => clamp(interp(sim.rate, p / q) + bonus, 0, 1), cap = serveCap(id, st.up);
+      lineBox.hidden = exp * 1.15 * ((2 / 3) * like(st.price) + (1 / 3) * like(st.price + 1)) <= cap;
+      lineBox.replaceChildren(h('span', {}, '🥄 ' + t('icCapLine', { n: num(cap) })), h('b', {}, t('icCapWarn')));
+    };
 
     show(root, header(ttl(), [seasonChip(), bankChip()]),
       loan ? h('p', { class: 'notice' }, t('stLoan', { n: loan.toFixed(2) })) : null,
@@ -327,6 +336,7 @@ export function mount(el, { id }) {
         h('div', { class: 'wx' }, h('span', { class: 'wxi' }, WEATHER[weather].icon), h('div', {}, h('small', {}, t('stForecast') + ' · ' + t('stDayN', { n: st.season.day + 1 })), h('strong', {}, wLabel(weather)))),
         event ? h('div', { class: 'ev' }, (EV_ICON[event] || (isSnack ? '⚾ ' : '🏢 ')), t('e_' + event, { n: ord ? ord.need.toLocaleString('en-US') : '', t: ord ? Math.ceil(ord.need / 12).toLocaleString('en-US') : '' })) : null,
         h('div', { class: 'crowdhint' }, '👥 ', t('stCustomers', { n: '~' + Math.round(exp).toLocaleString('en-US') })),
+        lineBox,
         isSnack && st.lastCtx && st.lastCtx.exp > 0 ? cmpHint(exp) : null,
         isSnack ? capHint(exp) : null,
         isSnack && st.perks.chompy ? chompyEl() : null),
@@ -401,13 +411,13 @@ export function mount(el, { id }) {
       st.lastItems = Object.fromEntries(Object.keys({ ...st.mstock, ...res.bySold, ...res.byOut }).filter((k) => (st.mstock[k] || 0) > 0 || res.bySold[k] || res.byOut[k]).map((k) => [k, { made: st.mstock[k] || 0, sold: res.bySold[k] || 0, out: res.byOut[k] || 0, dem: dem[k] || 0 }]));
       st.lastCtx = { exp: SNACK.trafficOf(ctxNow), level: st.level, fields: fieldsOwned(st.up), stadium: stadiumLevel(st.up) };
     }
-    st.last = { price: st.price, stock: st.stock, sold: res.sold, pricey: res.pricey, soldout: res.soldout, busy: res.busy || 0, leftover: res.leftover, profit, weather: w };
+    st.last = { price: st.price, stock: st.stock, n: res.n, sold: res.sold, pricey: res.pricey, soldout: res.soldout, busy: res.busy || 0, leftover: res.leftover, profit, weather: w };
     const seasonOver = sea.day >= seasonDays(id);
     if (!seasonOver) newCtx();
     save();
     const unitsLeft = id === 'icecream' ? Math.floor(res.leftover / 12) : res.leftover;
-    const tips = res.busy >= 4 ? t('stTipBusy', { n: res.busy }) : res.soldout >= 3 ? t('stTipSoldOut', { n: res.soldout })
-      : w === 'rainy' && res.leftover > 3 ? t('stTipRain') : res.pricey >= 5 ? t('stTipPricey', { n: res.pricey })
+    const tips = res.busy >= 4 ? t(isCream ? 'icTipBusy' : 'stTipBusy', { n: res.busy }) : res.soldout >= 3 ? t('stTipSoldOut', { n: res.soldout })
+      : w === 'rainy' && res.leftover > 3 ? t('stTipRain') : tooPricey(res) ? t('stTipPricey', { n: res.pricey })
       : res.leftover >= (id === 'icecream' ? 12 : isSnack ? 12 : 5) ? t('stTipLeft', { n: unitsLeft || 1, u: t(cfg.unit) }) : profit >= (id === 'icecream' ? 15 : isSnack ? 25 : 8) ? t('stTipGreat') : t('stTipOk');
     const order = res.order ? (res.order.ok ? t('stCateredOk', { n: money(res.order.pay) }) : t('stCateredMiss', { u: id === 'icecream' ? t('stScoopsN', { n: res.order.units }) : res.order.units + ' ' + t('stCups') })) : null;
     const row = (label, val, cls = '') => h('div', { class: 'rrow ' + cls }, h('span', {}, label), h('b', {}, val));
