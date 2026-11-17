@@ -208,7 +208,7 @@ async function runRound(el, { mission, topic }) {
         sfx[hard ? 'hardCorrect' : 'correct']();
         if (q.slot === 'boss') confetti(innerWidth / 2, innerHeight / 2.5);
         const praise = st.hinted ? t('correctHint') : (hard && success === 1) ? t('correctHard') : pickPraise();
-        feedback.className = 'feedback good'; feedback.replaceChildren(h('span', { html: icons.check(34) }), h('span', {}, praise), pts ? h('b', { class: 'plus' }, '+' + pts) : null);
+        feedback.className = 'feedback good'; feedback.replaceChildren(h('span', { html: icons.check(34) }), h('span', {}, praise), ...(pts ? [h('b', { class: 'plus' }, '+' + pts)] : []));
         const needRead = q.slot === 'boss' || q.fun;
         if (needRead && q.why) feedback.append(h('p', { class: 'why' }, q.why));
         checkBtn.hidden = true; hintBtn.hidden = true; showBtn.hidden = true; nextBtn.hidden = false; nextBtn.focus?.({ preventScroll: true });
@@ -223,7 +223,7 @@ async function runRound(el, { mission, topic }) {
       stage.querySelector('.qlayout').classList.remove('wobble'); void stage.offsetWidth; stage.querySelector('.qlayout').classList.add('wobble');
       if (st.attempts >= 2 || q.type === 'number' && st.attempts >= 2) return reveal(0);
       answerUI.wrongPick();
-      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('span', {}, t('notYet')), lost ? h('b', { class: 'minus' }, '−' + lost) : null);
+      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('span', {}, t('notYet')), ...(lost ? [h('b', { class: 'minus' }, '−' + lost)] : []));
       checkBtn.disabled = true; showBtn.hidden = false;
       hintBtn.classList.add('nudge');
     }
@@ -234,7 +234,7 @@ async function runRound(el, { mission, topic }) {
       recordAnswer(q, 0, { ms });
       answerUI.showRight();
       if (!requeued.has(q.id) && queue.length < 11 && q.slot !== 'boss') { requeued.add(q.id); queue.splice(Math.min(i + 4, queue.length), 0, { ...queue[i], slot: 'easy', rel: -1, redo: true }); }
-      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('div', {}, h('strong', {}, t('showAnswer')), h('p', { class: 'why' }, q.why || '')), st.lostTotal ? h('b', { class: 'minus' }, '−' + st.lostTotal) : null);
+      feedback.className = 'feedback try'; feedback.replaceChildren(h('span', { html: icons.bulb(34) }), h('div', {}, h('strong', {}, t('showAnswer')), h('p', { class: 'why' }, q.why || '')), ...(st.lostTotal ? [h('b', { class: 'minus' }, '−' + st.lostTotal)] : []));
       if (S.speak && canSpeak() && q.why) { /* read-aloud only on tap */ }
       checkBtn.hidden = true; hintBtn.hidden = true; showBtn.hidden = true; nextBtn.hidden = false; nextBtn.disabled = true;
       setTimeout(() => { nextBtn.disabled = false; }, 1500);

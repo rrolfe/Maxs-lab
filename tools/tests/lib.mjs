@@ -2,10 +2,10 @@ import { createRequire } from 'module';
 import { execSync } from 'child_process';
 const require = createRequire(import.meta.url);
 const { chromium, devices } = require(process.env.PW_PATH || require('path').join(execSync('npm root -g').toString().trim(), 'playwright'));
-export const BASE = 'http://127.0.0.1:8767/';
-export async function open({ device = 'ipad-land', lang = 'en', theme = 'day', state = null, cookies = null, standalone = false } = {}) {
+export const BASE = process.env.LAB_URL || 'http://127.0.0.1:8767/';
+export async function open({ device = 'ipad-land', lang = 'en', theme = 'day', state = null, cookies = null, standalone = false, init = null } = {}) {
   const browser = await chromium.launch();
-  const ctxOpts = device === 'ipad-land' ? { ...devices['iPad Pro 11 landscape'] } : { viewport: { width: 834, height: 1194 }, hasTouch: true, isMobile: true, deviceScaleFactor: 1 };
+  const ctxOpts = device === 'ipad-land' ? { ...devices['iPad Pro 11 landscape'] } : device === 'phone' ? { ...devices['iPhone 13'] } : device === 'ipad-old' ? { viewport: { width: 1024, height: 768 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2 } : { viewport: { width: 834, height: 1194 }, hasTouch: true, isMobile: true, deviceScaleFactor: 1 };
   ctxOpts.serviceWorkers = 'block';
   const ctx = await browser.newContext(ctxOpts);
   if (cookies) await ctx.addCookies(cookies);       // what iOS copies into a new Home Screen icon
@@ -17,6 +17,7 @@ export async function open({ device = 'ipad-land', lang = 'en', theme = 'day', s
   await page.addInitScript(({ lang, theme, state }) => {
     if (!sessionStorage.getItem('seeded')) { sessionStorage.setItem('seeded', '1'); localStorage.setItem('mll2:v1:state', JSON.stringify({ lang, theme, ...(state || {}) })); }
   }, { lang, theme, state });
+  if (init) await page.addInitScript(init);          // e.g. a pretend microphone, installed before the lab's own code runs
   await page.goto(BASE + '#/home');
   await page.waitForSelector('.hud');
   return { browser, page, errors, ctx };

@@ -14,6 +14,10 @@ export const REWARD = {
   // The weekly check-in (24 questions, about 10 minutes, one try, nothing to lose): paid for FINISHING, never for the score, so it stays a calm look at progress and not a test to cram for.
   // 50 pearls is about 4 minutes of regular play: enough that Max looks forward to it, not so much that tapping through it quickly beats playing. Not subject to the daily taper.
   checkin: 50,
+  // Number Patterns: a run is 10 puzzles (7 regular + 3 twists), about 3-4 minutes => ~12 pearls a minute with the bonuses.
+  pat: { core: 3, twist: 5, runDone: 5, perfect: 5, firstToday: 10 },
+  // Read It Loud: a fact read aloud is worth more the longer it is (easy ~15 s, medium ~25 s, hard ~40 s). Each fact pays once.
+  read: { tier: { 1: 4, 2: 5, 3: 7 }, firstToday: 10, catDone: 15 },
 };
 
 /** Finish bonus for a word search of a given size (1-3) and difficulty (1-3). 8,12,16 / 10,15,20 / 14,21,28. */

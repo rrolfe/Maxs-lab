@@ -35,6 +35,10 @@ const fresh = () => ({
   mil: {},              // milestone id -> last day the announcer played
   warn: { day: '', key: '', done: [] },   // which "time is nearly up" warnings were shown today
   gifts: {},            // one-time grown-up gifts already given on this device (id -> pearls)
+  // Nov 17 2026: Number Patterns (own level, run counts, critter cards) and Read It Loud (beta; facts read, mic results)
+  patterns: { skill: 3, n: 0, runs: 0, q: 0, ok: 0, best: 0, lastDay: '', cards: {}, recent: [] },
+  read: { done: {}, tries: 0, passes: 0, lastDay: '', cat: '', cfg: { strict: 1, listen: 'auto', shift: 0 }, log: [] },
+  newSeen: {},          // how many times Max has finished each NEW game (the Home "NEW" shelf goes away after 3)
 });
 
 // One-time gifts from a grown-up, delivered with an update. Each id is given once per device, to a save that already
@@ -355,6 +359,12 @@ export function importData(text, mode = 'replace') {
     for (const k of Object.keys(o.unlocked || {})) S.unlocked[k] = S.unlocked[k] || o.unlocked[k];
     for (const [k, v] of Object.entries(o.days || {})) if (!S.days[k]) S.days[k] = v;
     for (const [k, v] of Object.entries(o.seen || {})) if (!S.seen[k]) S.seen[k] = v;
+    // the two games added Nov 17 2026: keep everything either copy has earned
+    for (const [k, v] of Object.entries(o.read?.done || {})) if (!S.read.done[k]) S.read.done[k] = v;
+    for (const [k, v] of Object.entries(o.patterns?.cards || {})) if (!S.patterns.cards[k]) S.patterns.cards[k] = v;
+    if ((o.patterns?.runs || 0) > (S.patterns.runs || 0)) { S.patterns.skill = o.patterns.skill; S.patterns.runs = o.patterns.runs; }
+    S.patterns.best = Math.max(S.patterns.best || 0, o.patterns?.best || 0);
+    for (const k of Object.keys(o.newSeen || {})) S.newSeen[k] = Math.max(S.newSeen[k] || 0, o.newSeen[k] || 0);
   }
   document.documentElement.lang = S.lang;
   save(); flush();

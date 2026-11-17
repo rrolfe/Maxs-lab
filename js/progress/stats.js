@@ -1,8 +1,9 @@
 // Pure-ish helpers for the Grown-up corner: time per program, "what to work on" suggestions, weekly check-in history.
 import { S, TOPICS, dateKey, levelOf } from '../core/store.js';
+import './newgames.js';   // registers the tile names used below (tilePatterns, tileRead)
 
-export const PROGRAMS = ['quiz', 'words', 'hangman', 'stands', 'baseball', 'world', 'passport', 'chores', 'checkin', 'home'];
-const TILE = { quiz: 'tileQuiz', words: 'tileWords', hangman: 'tileHangman', stands: 'tileStands', baseball: 'tileBall', world: 'tileWorld', passport: 'tilePassport', chores: 'tileChores', checkin: 'ciTitle', home: 'prHome' };
+export const PROGRAMS = ['quiz', 'patterns', 'read', 'words', 'hangman', 'stands', 'baseball', 'world', 'passport', 'chores', 'checkin', 'home'];
+const TILE = { quiz: 'tileQuiz', patterns: 'tilePatterns', read: 'tileRead', words: 'tileWords', hangman: 'tileHangman', stands: 'tileStands', baseball: 'tileBall', world: 'tileWorld', passport: 'tilePassport', chores: 'tileChores', checkin: 'ciTitle', home: 'prHome' };
 export const programKey = (p) => TILE[p] || p;
 
 /** Monday-based week key like 2026-W45 (ISO week). */

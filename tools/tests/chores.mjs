@@ -5,7 +5,7 @@ let fails = 0; const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); 
 const w = (ms) => page.waitForTimeout(ms);
 const bal = () => page.evaluate(() => window.__lab.S.pearls.balance);
 await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.S.pearls = { balance: 0, earned: 0, spent: 0 }; st.S.settings.dailyLimit = 0; st.S.settings.bedtime = ''; st.S.settings.pinHash = null; });
-ok((await page.$$('.tile')).length === 8, 'home has 8 tiles');
+ok((await page.$$('.tile')).length === 10, 'home has 10 tiles (8 original + Number Patterns and Read It Loud)');
 await shot(page, `home8-${lang}-${device}-${theme}`);
 await page.locator('.tile[data-k="chores"]').click(); await w(500);
 const NJ = (await page.$$('.chcard')).length; ok(NJ === 33, '33 jobs (5 original + 28 new): ' + NJ);

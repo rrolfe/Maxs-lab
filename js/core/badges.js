@@ -26,6 +26,14 @@ export const BADGES = [
   { id: 'sundaeisland', icon: 'trophy', name: { en: 'Sundae Island Legend', es: 'Leyenda de la Isla Sundae' }, desc: { en: 'Build every piece of Sundae Island.', es: 'Construye todas las piezas de la Isla Sundae.' }, test: () => DREAM_IDS.every((k) => !!S.stands.icecream?.up?.[k]) },
   { id: 'ws10', icon: 'wordsearch', name: { en: 'Word Hunter', es: 'Cazapalabras' }, desc: { en: 'Solve 10 word searches.', es: 'Resuelve 10 sopas de letras.' }, test: () => S.words.wins.ws >= 10 },
   { id: 'hm10', icon: 'hangman', name: { en: 'Word Detective', es: 'Detective de palabras' }, desc: { en: 'Win 10 hangman games.', es: 'Gana 10 partidas de ahorcado.' }, test: () => S.words.wins.hm >= 10 },
+  // added Nov 17 2026 with Number Patterns and Read It Loud
+  { id: 'pat1', icon: 'patterns', name: { en: 'Pattern Spotter', es: 'Cazapatrones' }, desc: { en: 'Finish a Number Patterns game.', es: 'Termina un juego de Patrones de números.' }, test: () => (S.patterns?.runs || 0) >= 1 },
+  { id: 'pat10', icon: 'patterns', name: { en: 'Pattern Pro', es: 'Profesional de patrones' }, desc: { en: 'Finish 10 Number Patterns games.', es: 'Termina 10 juegos de Patrones de números.' }, test: () => (S.patterns?.runs || 0) >= 10 },
+  { id: 'patcards', icon: 'trophy', name: { en: 'Critter Collector', es: 'Coleccionista de criaturas' }, desc: { en: 'Collect 12 critter cards.', es: 'Reúne 12 cartas de criaturas.' }, test: () => Object.keys(S.patterns?.cards || {}).length >= 12 },
+  { id: 'rd1', icon: 'mic', name: { en: 'Loud Reader', es: 'Lector en voz alta' }, desc: { en: 'Read your first fact out loud.', es: 'Lee tu primer dato en voz alta.' }, test: () => (S.read?.passes || 0) >= 1 },
+  { id: 'rd25', icon: 'mic', name: { en: 'Fact Reader', es: 'Lector de datos' }, desc: { en: 'Read 25 different facts out loud.', es: 'Lee 25 datos distintos en voz alta.' }, test: () => Object.keys(S.read?.done || {}).length >= 25 },
+  { id: 'rd100', icon: 'trophy', name: { en: 'Reading Star', es: 'Estrella de la lectura' }, desc: { en: 'Read 100 different facts out loud.', es: 'Lee 100 datos distintos en voz alta.' }, test: () => Object.keys(S.read?.done || {}).length >= 100 },
+  { id: 'rdcat', icon: 'star', name: { en: 'Topic Master', es: 'Maestro de un tema' }, desc: { en: 'Read all 20 facts in one topic.', es: 'Lee los 20 datos de un tema.' }, test: () => { const n = {}; for (const k of Object.keys(S.read?.done || {})) n[k.slice(0, 2)] = (n[k.slice(0, 2)] || 0) + 1; return Object.values(n).some((v) => v >= 20); } },
 ];
 
 /** Returns the localized names of badges earned just now. */
