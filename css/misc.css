@@ -31,8 +31,12 @@ select.textin { appearance: auto; }
 .hero { all: unset; box-sizing: border-box; cursor: pointer; display: grid; justify-items: center; text-align: center; gap: 4px; padding: 14px 10px; border: 3px solid var(--ink); border-radius: 14px; background: var(--surface); box-shadow: 0 4px 0 var(--ink); }
 .hero:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); } .hero.met { background: color-mix(in srgb, var(--success) 10%, var(--surface)); }
 .hero .mono { width: 84px; height: 84px; display: grid; place-items: center; border-radius: 50%; border: 3px solid var(--ink); font: 400 32px var(--font-display); color: #10303B; }
+.hero .mono.photo { object-fit: cover; object-position: 50% 22%; background: var(--panel); }
+.heropic { margin: 8px auto 12px; display: grid; justify-items: center; gap: 4px; }
+.heropic img { display: block; max-width: 100%; max-height: 300px; width: auto; height: auto; border: 3px solid var(--ink); border-radius: 14px; background: var(--panel); box-shadow: 0 4px 0 var(--ink); }
+.heropic figcaption { color: var(--muted); font-size: 14px; text-align: center; }
 .hero strong { font: 400 20px/1.15 var(--font-display); } .hero small { color: var(--muted); font-size: 16px; }
-.heroD { max-width: 720px; position: relative; } .heroD .pclose { position: absolute; right: 14px; top: 14px; } .heroD h2 { padding-right: 70px; }
+.heroD { max-width: 720px; position: relative; } .heroD .pclose { position: sticky; top: 0; float: right; margin: -12px -12px 0 8px; z-index: 3; } .heroD h2 { padding-right: 0; }   /* the X stays in view while he scrolls (it used to scroll away with the page) */
 .heroD .hook { font-weight: 700; font-size: 24px; } .heroD .opts { display: grid; gap: 10px; margin: 10px 0; }
 .heroD .ans { all: unset; box-sizing: border-box; cursor: pointer; display: flex; align-items: center; min-height: 64px; padding: 8px 18px; border: 3px solid var(--ink); border-radius: 12px; background: var(--surface); box-shadow: 0 3px 0 var(--ink); font-weight: 700; }
 .heroD .ans.right { background: color-mix(in srgb, var(--success) 25%, var(--surface)); } .heroD .ans.try { background: color-mix(in srgb, var(--try) 22%, var(--surface)); opacity: .75; }
@@ -86,3 +90,12 @@ select.textin { appearance: auto; }
 .wb small:first-child:not(:last-child) { font-size: 12px; }
 
 .codebox { width: 100%; font-size: 14px; font-family: ui-monospace, Menlo, monospace; word-break: break-all; margin: 8px 0; }
+
+/* Phones: rows in the grown-up lists (reset a game, custom questions, saved copies) wrap instead of running off the screen */
+.qlist { grid-template-columns: minmax(0, 1fr); }
+.qrow > div { min-width: 0; }
+.qrow small, .qrow strong { overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  .qrow { flex-wrap: wrap; }
+  .qrow > div:first-child { flex: 1 1 200px; }
+}

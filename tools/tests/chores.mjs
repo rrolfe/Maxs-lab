@@ -1,6 +1,8 @@
 import { open, shot } from './lib.mjs';
 const lang = process.argv[2] || 'en', device = process.argv[3] || 'ipad-land', theme = process.argv[4] || 'day';
-const { page, browser, errors } = await open({ lang, device, theme });
+// The clock is set to a day after Belen's birthday-art deadline (Fri 20 Nov 2026) so the list is the same on every day this test runs; chores-new.mjs covers the deadline job.
+const fakeDate = (iso) => ({ content: `(()=>{const R=Date,off=new R('${iso}').getTime()-R.now();class D extends R{constructor(...a){a.length?super(...a):super(R.now()+off)}static now(){return R.now()+off}}window.Date=D;})()` });
+const { page, browser, errors } = await open({ lang, device, theme, init: fakeDate('2026-11-25T12:00:00') });
 let fails = 0; const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
 const w = (ms) => page.waitForTimeout(ms);
 const bal = () => page.evaluate(() => window.__lab.S.pearls.balance);
@@ -8,7 +10,7 @@ await page.evaluate(async () => { const st = await import('./js/core/store.js');
 ok((await page.$$('.tile')).length === 10, 'home has 10 tiles (8 original + Number Patterns and Read It Loud)');
 await shot(page, `home8-${lang}-${device}-${theme}`);
 await page.locator('.tile[data-k="chores"]').click(); await w(500);
-const NJ = (await page.$$('.chcard')).length; ok(NJ === 33, '33 jobs (5 original + 28 new): ' + NJ);
+const NJ = (await page.$$('.chcard')).length; ok(NJ === 41, '41 jobs (5 original + 28 + 6 holiday jobs + the ask-for-a-job one + the Thanksgiving-week one; the Friday-only job is gone by now): ' + NJ);
 const pts = await page.$$eval('.chpts', (e) => e.map((x) => x.textContent.replace(/\D/g, '')).join(','));
 ok(pts.startsWith('3,5,10,5,5,'), 'original five keep their points, then the new ones (' + pts + ')');
 await shot(page, `chores-list-${lang}-${device}-${theme}`);

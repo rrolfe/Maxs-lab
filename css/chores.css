@@ -6,6 +6,8 @@
 .chcard:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
 .chcard .che { font-size: 44px; text-align: center; }
 .chpts { font: 400 30px var(--font-display); background: var(--gold); color: #10303B; border: 2.5px solid var(--ink); border-radius: 99px; padding: 4px 16px; white-space: nowrap; }
+.chdue { display: block; margin-top: 4px; font: 700 16px var(--font-body, inherit); color: #8A2B00; }
+:root[data-theme="night"] .chdue { color: #FFB68A; }
 .chcard.done { opacity: .6; box-shadow: none; cursor: default; }
 .chcard.done .chpts { background: var(--panel); color: var(--ink); font-size: 20px; }
 .chdetail { max-width: 720px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: stretch; }
@@ -17,3 +19,12 @@
 .edrow .chname { flex: 1; font-weight: 700; font-size: 20px; }
 .edrow b { min-width: 36px; text-align: center; font-size: 24px; }
 :root[data-theme="night"] .chpts { color: #1A1330; }
+/* phones: a job card must never be wider than the screen (long Spanish words and "Done this week") */
+@media (max-width: 560px) {
+  .chgrid { grid-template-columns: minmax(0, 1fr); }
+  .chcard { grid-template-columns: 44px minmax(0, 1fr) auto; gap: 10px; padding: 10px 12px; min-height: 84px; }
+  .chcard .che { font-size: 34px; }
+  .chname { overflow-wrap: anywhere; }
+  .chpts { font-size: 24px; padding: 3px 12px; }
+  .chcard.done .chpts { font-size: 16px; white-space: normal; max-width: 104px; text-align: center; }
+}

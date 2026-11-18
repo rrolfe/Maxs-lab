@@ -16,7 +16,7 @@ addStrings({
     pEarned: 'Earned', pLocked: 'Keep going to unlock this one.', pMeet: 'Meet', pMet: 'Met', pLevel: 'Level {n}', pFacts: 'Did you know?', pTry: 'Try this', pQuiz: 'Quick question',
     pHeroQuizBonus: 'Answer right to add this hero to your passport (+12 pearls).', pMetNow: 'Added to your passport!', pWrong: 'Not quite. Try another answer.',
     pRank: '{r}', pNextRank: '{n} pearls to {r}', pTopRank: 'You reached the top rank!', pLevelsNote: 'Levels grow as you answer. Harder questions appear when a subject feels easy.', pOf6: 'of 6',
-    pHeroCount: '{n} of {m} heroes met',
+    pHeroCount: '{n} of {m} heroes met', pPhotoCredit: 'Photo: {c} ({l})', pPhotoAlt: 'A photo of {n}',
   },
   es: {
     pListen: 'Léemelo', pTitle: 'Pasaporte', pTabStamps: 'Sellos', pTabBadges: 'Insignias', pTabHeroes: 'Héroes', pTabLevels: 'Mis niveles',
@@ -24,7 +24,7 @@ addStrings({
     pEarned: 'Ganada', pLocked: 'Sigue jugando para abrir esta.', pMeet: 'Conocer', pMet: 'Conocido', pLevel: 'Nivel {n}', pFacts: '¿Sabías que…?', pTry: 'Inténtalo', pQuiz: 'Pregunta rápida',
     pHeroQuizBonus: 'Responde bien para agregar a este héroe a tu pasaporte (+12 perlas).', pMetNow: '¡Agregado a tu pasaporte!', pWrong: 'Casi. Prueba otra respuesta.',
     pRank: '{r}', pNextRank: '{n} perlas para {r}', pTopRank: '¡Llegaste al rango más alto!', pLevelsNote: 'Los niveles suben a medida que respondes. Salen preguntas más difíciles cuando una materia te parece fácil.', pOf6: 'de 6',
-    pHeroCount: '{n} de {m} héroes conocidos',
+    pHeroCount: '{n} de {m} héroes conocidos', pPhotoCredit: 'Foto: {c} ({l})', pPhotoAlt: 'Una foto de {n}',
   },
 });
 
@@ -76,7 +76,8 @@ export async function mount(el, { parts }) {
       h('div', { class: 'herogrid' }, people.map((p, i) => {
         const done = !!S.passport.people[p.id];
         return h('button', { class: 'hero' + (done ? ' met' : ''), onclick: () => openHero(p) },
-          h('span', { class: 'mono', style: { background: HUES[i % HUES.length] } }, initials(L(p.name))),
+          done ? h('img', { class: 'mono photo', src: 'img/people/' + p.id + '.jpg', alt: '', loading: 'lazy', onerror: (e) => { const m = h('span', { class: 'mono', style: { background: HUES[i % HUES.length] } }, initials(L(p.name))); e.target.replaceWith(m); } })
+            : h('span', { class: 'mono', style: { background: HUES[i % HUES.length] } }, initials(L(p.name))),
           h('strong', {}, L(p.name)), h('small', {}, L(p.role)), done ? h('span', { class: 'tag good' }, '✓ ' + t('pMet')) : null);
       })));
   }
@@ -100,11 +101,15 @@ export async function mount(el, { parts }) {
     const act = p.activity ? L(p.activity) : null;
     const ov = h('div', { class: 'overlay', role: 'dialog', 'aria-modal': 'true' }, h('div', { class: 'dialog heroD' },
       h('button', { class: 'btn ghost icon pclose', 'aria-label': t('close'), onclick: () => { ov.remove(); draw(); }, html: icons.close(30) }),
-      h('h2', {}, L(p.name)), h('p', { class: 'muted' }, L(p.role) + (p.years ? ' · ' + p.years : '') + ' · ' + L(p.country)), h('p', { class: 'hook' }, L(p.hook)),
+      h('h2', {}, L(p.name)), h('p', { class: 'muted' }, L(p.role) + (p.years ? ' · ' + p.years : '') + ' · ' + L(p.country)),
+      p.photo ? h('figure', { class: 'heropic' }, h('img', { src: 'img/people/' + p.id + '.jpg', alt: t('pPhotoAlt', { n: L(p.name) }), onerror: (e) => e.target.closest('figure')?.remove() }),
+        h('figcaption', {}, t('pPhotoCredit', { c: p.photo.credit, l: p.photo.license }))) : null,
+      h('p', { class: 'hook' }, L(p.hook)),
       h('h3', {}, t('pFacts')), h('ul', { class: 'facts2' }, L(p.facts).map((f) => h('li', {}, f))),
       canSpeak() ? h('button', { class: 'btn ghost small', onclick: () => speak([L(p.name), L(p.hook), ...L(p.facts)].join('. ')) }, h('span', { html: icons.speaker(30) }), t('pListen')) : null,
       act ? h('div', { class: 'card flat' }, h('h3', {}, t('pTry') + ': ' + act.title), h('p', {}, act.prompt)) : null,
-      h('h3', {}, t('pQuiz')), done ? null : h('p', { class: 'muted' }, t('pHeroQuizBonus')), h('p', { class: 'qq' }, q.q), opts, msg));
+      h('h3', {}, t('pQuiz')), done ? null : h('p', { class: 'muted' }, t('pHeroQuizBonus')), h('p', { class: 'qq' }, q.q), opts, msg,
+      h('div', { class: 'row', style: { justifyContent: 'center', marginTop: '8px' } }, h('button', { class: 'btn ghost', onclick: () => { ov.remove(); draw(); } }, t('close')))));
     document.body.append(ov);
   }
   function levels() {

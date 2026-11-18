@@ -18,12 +18,13 @@ addStrings({
 
 export async function mount(el) {
   const places = (await import('../../data/places.js')).default;
+  const people = (await import('../../data/people.js')).default;
   const link = (u, txt) => h('a', { href: u, target: '_blank', rel: 'noopener noreferrer' }, txt);
   el.append(
     h('div', { class: 'screen-head' }, h('button', { class: 'btn ghost icon', 'aria-label': t('back'), onclick: () => history.length > 1 ? history.back() : go('/home'), html: icons.back(34) }), h('h1', {}, t('crTitle'))),
     h('section', { class: 'card' }, h('h2', {}, t('crMaps')), h('p', {}, t('crLand')), h('ul', {}, [...new Map(PROVIDERS.map((p) => [p.attr, p])).values()].map((p) => h('li', {}, p.attr)))),
     h('section', { class: 'card' }, h('h2', {}, t('crMade')), h('p', {}, t('crMadeText'))),
     h('section', { class: 'card' }, h('h2', {}, t('crPhotos')), h('p', { class: 'muted' }, t('crPhotosNote')),
-      h('ul', { class: 'credlist' }, places.map((p) => h('li', {}, h('strong', {}, L(p.name)), ' — ', link(p.photo.source, p.photo.credit), ' · ', p.photo.licenseUrl ? link(p.photo.licenseUrl, p.photo.license) : p.photo.license)))));
+      h('ul', { class: 'credlist' }, [...places, ...people].map((p) => h('li', {}, h('strong', {}, L(p.name)), ' — ', link(p.photo.source, p.photo.credit), ' · ', p.photo.licenseUrl ? link(p.photo.licenseUrl, p.photo.license) : p.photo.license)))));
   return () => {};
 }
