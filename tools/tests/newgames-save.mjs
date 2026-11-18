@@ -17,8 +17,10 @@ const snap = () => page.evaluate(() => { const S = window.__lab.S; return { pear
 await page.waitForSelector('.hub');
 const before = await snap();
 ok(before.pearls.balance === 321 && before.pearls.earned === 900 && before.stands.lemonade.bank === 777 && before.stamps.paris === 1, 'old values are there after loading');
-ok(await page.locator('.newshelf .newcard').count() === 2, 'the NEW shelf shows for an old save');
+ok(await page.locator('.newshelf .newcard').count() === 3, 'the NEW shelf shows for an old save');
 ok(before.read.done === 0 && before.patterns.runs === 0 && before.read.cfg.strict === 1 && before.read.cfg.listen === 'auto', 'new games start with clean defaults');
+
+ok(await page.evaluate(() => { const b = window.__lab.S.boise; return !!b && Object.keys(b.done).length === 0 && Object.keys(b.cats).length === 0; }), 'Learning about Boise starts empty for an old save');
 
 // read three facts with the (pretend) microphone, then leave in the middle of a sitting
 await page.goto(BASE + '#/read/play/sp'); await page.waitForSelector('.facttext');
@@ -38,7 +40,7 @@ ok(after.oldBadge === 1700000000000, 'the old badge is still there');
 ok(after.pearls.earned === 900 + 24 && after.pearls.balance === 321 + 24, `three facts paid 4 + 5 + 5 + 10 first-of-day = 24 on top of the old balance (balance ${after.pearls.balance}, earned ${after.pearls.earned})`);
 ok(after.read.done === 3, 'three facts are remembered after the reload');
 ok(after.newSeen.read === undefined || after.newSeen.read === 0, 'an unfinished sitting does not count toward hiding the NEW card');
-ok(await page.locator('.newshelf .newcard').count() === 2, 'the NEW shelf is still there');
+ok(await page.locator('.newshelf .newcard').count() === 3, 'the NEW shelf is still there');
 ok(errors.length === 0, 'no page errors: ' + errors.join(' | '));
 console.log(fails ? `${fails} problem(s)` : 'PASS an old save keeps everything, and the new games add to it');
 await browser.close(); process.exit(fails ? 1 : 0);

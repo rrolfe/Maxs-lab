@@ -6,7 +6,7 @@ let fails = 0; const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); 
 const w = (ms) => page.waitForTimeout(ms);
 await page.emulateMedia({ reducedMotion: 'reduce' });            // short animations so a whole game takes seconds
 await page.evaluate(async () => { const st = await import('./js/core/store.js'); st.S.pearls = { balance: 100, earned: 100, spent: 0 }; st.S.settings.dailyLimit = 0; st.S.settings.bedtime = ''; const e = await import('./js/baseball/engine.js'); e.CFG.opp.rockets.ms = 500; e.CFG.opp.rockets.curve = 0.3; e.CFG.opp.rockets.change = 0.3; });
-ok((await page.$$('.tile')).length === 10, 'home has 10 tiles (8 original + Number Patterns and Read It Loud)');
+ok((await page.$$('.tile')).length === 11, 'home has 11 tiles (8 original + Number Patterns, Read It Loud and Learning about Boise)');
 await page.evaluate(() => { location.hash = '#/baseball'; }); await w(600);
 ok(!!(await page.$('.bbmenu')), 'menu shows');
 ok(await page.locator('.bbmenu .notice').count() > 0, 'not enough pearls message at 100');

@@ -16,6 +16,7 @@ route('/home', () => import('./screens/home.js'));
 route('/quiz', () => import('./screens/quiz.js'));
 route('/patterns', () => import('./screens/patterns.js'));
 route('/read', () => import('./screens/read.js'));
+route('/boise', () => import('./screens/boise.js'));
 route('/words', () => import('./screens/wordsearch.js'));
 route('/hangman', () => import('./screens/hangman.js'));
 route('/baseball', () => import('./screens/baseball.js'));

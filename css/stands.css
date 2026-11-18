@@ -221,3 +221,37 @@ button.hint { cursor: pointer; } button.hint:active { transform: translateY(2px)
 .upg.secret { border-style: dashed; background: color-mix(in srgb, #7B5CFF 14%, var(--surface)); } .upg.secret .ue { filter: none; }
 .specialsel .spotchip.special small.ssub { color: var(--muted); font-size: 15px; }
 .addchips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Sneak peek at the next season (Nov 18 2026): the strip above the tabs and the locked preview cards inside a path */
+.pstep { font-size: 28px; width: 50px; height: 50px; display: grid; place-items: center; border-radius: 50%; border: 3px dashed var(--line); opacity: .7; }
+.pstep.pv { opacity: 1; border-color: var(--gold); background: var(--surface); }
+.peekstrip > small { display: block; }
+.upg.peek { cursor: default; border-style: dashed; background: var(--panel, var(--surface)); box-shadow: none; opacity: .92; }
+.upg.peek small.lock { color: var(--muted); font-weight: 800; }
+.upg.peek .tag { opacity: .85; }
+
+/* Snack Shack: your own team (Nov 18 2026) */
+.teamcard { margin: 0 0 14px; }
+.teamcard .teamlab { display: flex; align-items: center; gap: 10px; margin: 6px 0 10px; }
+.teamcard .teamname { flex: 1 1 auto; min-width: 0; max-width: 360px; min-height: 48px; padding: 0 14px; font: 700 20px/1 var(--font); color: var(--ink); background: var(--surface); border: 3px solid var(--ink); border-radius: 12px; }
+.teamcard .teamname:focus-visible { outline: 4px solid var(--coral); outline-offset: 2px; }
+.teamcard .tsteps { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 8px; }
+.tstep { font-size: 28px; width: 50px; height: 50px; display: grid; place-items: center; border-radius: 50%; border: 3px dashed var(--line); opacity: .55; filter: grayscale(1); }
+.tstep.lit { opacity: 1; filter: none; border: 3px solid var(--ink); background: var(--gold); }
+.teamcard.champ { border-color: var(--gold); box-shadow: 0 5px 0 var(--gold); }
+.teamcard { grid-template-columns: minmax(0, 1fr); }
+.teamcard .muted { overflow-wrap: anywhere; }
+@media (max-width: 560px) { .chip.bank { white-space: normal; max-width: 100%; overflow-wrap: anywhere; } }
+/* phone: a menu row with a huge stock number (six or more digits) must still fit the screen */
+@media (max-width: 560px) {
+  .mrow, .mrow.hints { grid-template-columns: 38px minmax(0, 1fr) 46px minmax(6ch, max-content) 46px; gap: 6px; }
+  .mrow .memo { font-size: 30px; }
+  .mrow .btn.icon { min-width: 46px; min-height: 46px; padding: 0; }
+  .mrow .mval { font-size: 26px; }
+  .mrow .mname { min-width: 0; } .mrow .mname strong { font-size: 20px; } .mrow .mname small { font-size: 14px; overflow-wrap: anywhere; }
+}
+@media (max-width: 560px) {
+  .stand .screen-head { flex-wrap: wrap; row-gap: 8px; }
+  .stand .screen-head h1 { flex: 1 1 55%; min-width: 0; font-size: 28px; overflow-wrap: anywhere; }
+  .stand .screen-head .chip { max-width: 100%; }
+}

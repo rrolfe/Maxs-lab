@@ -33,6 +33,10 @@ export const BADGES = [
   { id: 'rd1', icon: 'mic', name: { en: 'Loud Reader', es: 'Lector en voz alta' }, desc: { en: 'Read your first fact out loud.', es: 'Lee tu primer dato en voz alta.' }, test: () => (S.read?.passes || 0) >= 1 },
   { id: 'rd25', icon: 'mic', name: { en: 'Fact Reader', es: 'Lector de datos' }, desc: { en: 'Read 25 different facts out loud.', es: 'Lee 25 datos distintos en voz alta.' }, test: () => Object.keys(S.read?.done || {}).length >= 25 },
   { id: 'rd100', icon: 'trophy', name: { en: 'Reading Star', es: 'Estrella de la lectura' }, desc: { en: 'Read 100 different facts out loud.', es: 'Lee 100 datos distintos en voz alta.' }, test: () => Object.keys(S.read?.done || {}).length >= 100 },
+  // added Nov 18 2026 with Learning about Boise
+  { id: 'bz1', icon: 'boise', name: { en: 'Boise Visitor', es: 'Visitante de Boise' }, desc: { en: 'Explore your first place in Learning about Boise.', es: 'Explora tu primer lugar en Aprendiendo sobre Boise.' }, test: () => Object.keys(S.boise?.done || {}).length >= 1 },
+  { id: 'bz10', icon: 'boise', name: { en: 'Boise Explorer', es: 'Explorador de Boise' }, desc: { en: 'Explore 10 places in Learning about Boise.', es: 'Explora 10 lugares en Aprendiendo sobre Boise.' }, test: () => Object.keys(S.boise?.done || {}).length >= 10 },
+  { id: 'bzall', icon: 'trophy', name: { en: 'Boise Local Expert', es: 'Experto local de Boise' }, desc: { en: 'Explore every place in Learning about Boise.', es: 'Explora todos los lugares de Aprendiendo sobre Boise.' }, test: () => Object.keys(S.boise?.cats || {}).length >= 3 },
   { id: 'rdcat', icon: 'star', name: { en: 'Topic Master', es: 'Maestro de un tema' }, desc: { en: 'Read all 20 facts in one topic.', es: 'Lee los 20 datos de un tema.' }, test: () => { const n = {}; for (const k of Object.keys(S.read?.done || {})) n[k.slice(0, 2)] = (n[k.slice(0, 2)] || 0) + 1; return Object.values(n).some((v) => v >= 20); } },
 ];
 

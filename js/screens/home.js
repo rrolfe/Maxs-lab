@@ -9,6 +9,7 @@ import { dailyMissions, MISSIONS } from '../quiz/missions.js';
 import { stampCount } from './passport-lite.js';
 import { REWARD } from '../core/economy.js';
 import { NEW_GAMES, stillNew } from '../progress/newgames.js';
+import { banner } from '../boise/scenes.js';
 
 addStrings({
   en: { todaysMission: 'Today’s mission', rankLine: '{r} · {n} pearls earned', stampsBadge: '{n} stamps', unlockSoon: 'Unlocks with pearls', standsBadge: '{n} open', ciBanner: 'This week’s check-in', ciBannerSub: 'A quick 24-question look at how you are growing. Earn {n} pearls!' },
@@ -30,6 +31,9 @@ export function mount(el) {
   const open = Object.values(S.unlocked).filter(Boolean).length;
   const choreBadge = 0;
   const newTag = (k) => (stillNew(k) ? t('newTag') : '');
+  const boiseTile = h('button', { class: 'tile wide', 'data-k': 'boise', onclick: () => { sfx.pop(); go('/boise'); } },
+    h('span', { class: 'bzban', html: banner() }), stillNew('boise') ? h('span', { class: 'badge' }, t('newTag')) : null,
+    h('span', { class: 'bztext' }, h('strong', {}, t('tileBoise')), h('span', { class: 'sub' }, t('tileBoiseSub'))));
   const tiles = [
     ['patterns', 'patterns', t('tilePatterns'), t('tilePatternsSub'), '/patterns', newTag('patterns')],
     ['read', 'mic', t('tileRead'), t('tileReadSub'), '/read', newTag('read')],
@@ -47,7 +51,7 @@ export function mount(el) {
       h('strong', {}, title), h('span', { class: 'sub' }, sub)));
 
   // The NEW shelf: the two newest games, right under the greeting, until each has been finished a few times (then only the hub tiles remain).
-  const NEWCARD = { patterns: ['patterns', 'tilePatterns', 'newPatDesc', '/patterns'], read: ['mic', 'tileRead', 'newReadDesc', '/read'] };
+  const NEWCARD = { boise: ['boise', 'tileBoise', 'newBoiseDesc', '/boise'], patterns: ['patterns', 'tilePatterns', 'newPatDesc', '/patterns'], read: ['mic', 'tileRead', 'newReadDesc', '/read'] };
   const fresh = NEW_GAMES.filter(stillNew);
   const shelf = fresh.length ? h('section', { class: 'newshelf', 'aria-label': t('newShelf') },
     h('div', { class: 'nshead' }, h('span', { 'aria-hidden': 'true', style: { fontSize: '34px', lineHeight: 1 } }, '✨'), h('h2', {}, t('newShelf')), h('span', { class: 'nsnote' }, t('newShelfNote'))),
@@ -55,7 +59,7 @@ export function mount(el) {
       const [ic, title, desc, to] = NEWCARD[k];
       return h('button', { class: 'newcard', 'data-k': k, onclick: () => { sfx.pop(); go(to); } },
         h('span', { class: 'nstag' }, t('newTag')), k === 'read' ? h('span', { class: 'nstag beta' }, t('betaTag')) : null,
-        h('span', { class: 'nsico', html: icons[ic](72) }), h('strong', {}, t(title)), h('span', { class: 'nsdesc' }, t(desc)), h('span', { class: 'btn gold' }, t('newPlay')));
+        h('span', { class: 'nsico', html: k === 'boise' ? banner() : icons[ic](72) }), h('strong', {}, t(title)), h('span', { class: 'nsdesc' }, t(desc)), h('span', { class: 'btn gold' }, t('newPlay')));
     }))) : null;
 
   // Gear: press and hold 3 seconds to reach the grown-up corner.
@@ -70,7 +74,7 @@ export function mount(el) {
 
   el.append(...[
     h('div', { class: 'greet' }, h('h1', {}, greet), h('span', { class: 'chip' }, t('rankLine', { r: rk.rank[S.lang], n: S.pearls.earned.toLocaleString() }))),
-    shelf, cont, checkinDoneThisWeek() ? null : h('a', { class: 'continue ciBanner', href: '#/checkin', onclick: () => sfx.pop() }, h('div', { class: 'ci', html: icons.trophy(48) }), h('div', { class: 'ct' }, h('strong', {}, t('ciBanner')), h('small', {}, t('ciBannerSub', { n: REWARD.checkin }))), h('span', { class: 'btn' }, t('play'))), h('div', { class: 'hub' }, tiles), gear].filter(Boolean));   // (el.append(null) would print the word "null")
+    shelf, cont, checkinDoneThisWeek() ? null : h('a', { class: 'continue ciBanner', href: '#/checkin', onclick: () => sfx.pop() }, h('div', { class: 'ci', html: icons.trophy(48) }), h('div', { class: 'ct' }, h('strong', {}, t('ciBanner')), h('small', {}, t('ciBannerSub', { n: REWARD.checkin }))), h('span', { class: 'btn' }, t('play'))), h('div', { class: 'hub' }, [boiseTile, ...tiles]), gear].filter(Boolean));   // (el.append(null) would print the word "null")
   if (day().pearls >= DAILY_PEARL_CAP) el.append(h('p', { class: 'center muted' }, t('chestFull')));
   return () => { clearTimeout(timer); };
 }

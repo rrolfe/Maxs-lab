@@ -1,6 +1,6 @@
 // The Lemonade Stand's big shop (Rob, Nov 10 2026): about 65 extras in eight paths, the stand that grows up as you buy, the place picker, and the dream of Lemon Town.
 // Only a few cards show at a time per path (what to buy next, and a mystery), so it never feels like a wall of 65 things.
-import { h, money } from '../core/dom.js';
+import { h, money, hashStr } from '../core/dom.js';
 import { t, addStrings } from '../core/i18n.js';
 import { S } from '../core/store.js';
 import { icons } from '../core/icons.js';
@@ -44,6 +44,7 @@ addStrings({
     stSaving: 'Saving for: {x}', stToGo: '{n} to go', stAboutDays: 'about {d} days', stAboutDay: 'about 1 day', stCanBuy: '🎉 You can buy something! Pick one below.', stAllBought: 'You bought everything! You are a lemonade legend.', stNothingNow: 'More things show up in season {n}.',
     stSaveThis: '⭐ Save for this', stSavingThis: '⭐ Saving for this', stBookOf: '{a} of {b} extras', stMore: '{n} more to discover', stMoreNew: '{n} more to discover. New things show up in season {s}.', stDreamT: 'Your dream: Lemon Town', stDreamOf: '{a} of {b}',
     stSecretName: 'Secret flavor', stYourStand: 'Your stand', lk_cart: 'Lemonade cart', lk_awning: 'Striped-awning stand', lk_wood: 'Wooden stand', lk_gold: 'Golden lemon stand', lk_soon: 'Shop coming soon…', lk_shop: 'Lemonade shop', lk_factory: 'Lemonade factory', lk_town: 'Lemon Town',
+    stPeekT: 'Sneak peek: season {s}', stPeekN: '{n} new things!', stPeekSub: 'Start the next season to unlock these. Some are a surprise. Save up pearls and cash!', stSeasonTag: 'Season {s}', stPeekMore: '{n} more surprises in season {s}',
     stMilestone: '🎉 {n}! Look at your stand now!', stOpenAt: 'Where will you open today?', stSpotTip: 'The crowd changes with the weather. Compare the numbers and pick the best place!', stHome: 'Home corner', stHomeSub: 'Your usual spot',
     stBranch: 'Your other shops paid you', stTip: 'Mystery shopper tip', stPay: '{n} paid',
     e_adday: 'Your newspaper ad came out today! Extra people!', e_dinoParade: 'Dino parade down the street! Everybody is out!', e_rocketParty: 'A rocket-launch party! Space fans everywhere!', e_sharkWeek: 'Shark Week! Everyone wants blue lemonade!', e_freeLemons: 'A neighbor gave you free lemons! Cups cost half today.', e_rainbow: 'A rainbow after the rain! People come out to look.', e_shopper: 'A mystery shopper is in town. Big tips today!',
@@ -55,6 +56,7 @@ addStrings({
     stSaving: 'Ahorrando para: {x}', stToGo: 'faltan {n}', stAboutDays: 'unos {d} días', stAboutDay: 'como 1 día', stCanBuy: '🎉 ¡Puedes comprar algo! Elige una abajo.', stAllBought: '¡Compraste todo! Eres una leyenda de la limonada.', stNothingNow: 'Más cosas aparecen en la temporada {n}.',
     stSaveThis: '⭐ Ahorrar para esto', stSavingThis: '⭐ Ahorrando para esto', stBookOf: '{a} de {b} extras', stMore: '{n} más por descubrir', stMoreNew: '{n} más por descubrir. Cosas nuevas aparecen en la temporada {s}.', stDreamT: 'Tu sueño: Ciudad Limón', stDreamOf: '{a} de {b}',
     stSecretName: 'Sabor secreto', stYourStand: 'Tu puesto', lk_cart: 'Carrito de limonada', lk_awning: 'Puesto con toldo de rayas', lk_wood: 'Puesto de madera', lk_gold: 'Puesto del limón dorado', lk_soon: 'Tienda próximamente…', lk_shop: 'Tienda de limonada', lk_factory: 'Fábrica de limonada', lk_town: 'Ciudad Limón',
+    stPeekT: 'Un vistazo: temporada {s}', stPeekN: '¡{n} cosas nuevas!', stPeekSub: 'Empieza la próxima temporada para abrirlas. Algunas son sorpresa. ¡Ahorra perlas y dinero!', stSeasonTag: 'Temporada {s}', stPeekMore: '{n} sorpresas más en la temporada {s}',
     stMilestone: '🎉 ¡{n}! ¡Mira cómo se ve tu puesto!', stOpenAt: '¿Dónde abrirás hoy?', stSpotTip: 'La multitud cambia con el clima. ¡Compara los números y elige el mejor lugar!', stHome: 'Esquina de casa', stHomeSub: 'Tu lugar de siempre',
     stBranch: 'Tus otras tiendas te pagaron', stTip: 'Propina del cliente misterioso', stPay: '{n} pagó',
     e_adday: '¡Hoy salió tu anuncio en el periódico! ¡Más gente!', e_dinoParade: '¡Desfile de dinosaurios por la calle! ¡Todos salieron!', e_rocketParty: '¡Fiesta de lanzamiento de cohetes! ¡Fans del espacio por todas partes!', e_sharkWeek: '¡Semana del Tiburón! ¡Todos quieren limonada azul!', e_freeLemons: '¡Un vecino te regaló limones! Los vasos cuestan la mitad hoy.', e_rainbow: '¡Un arcoíris después de la lluvia! La gente sale a verlo.', e_shopper: 'Hay un cliente misterioso en el pueblo. ¡Hoy hay buenas propinas!',
@@ -95,6 +97,11 @@ export function lemonShop({ stand = 'lemonade', st, seasons, upName, upSub, onBu
   const canNow = buyable.some((u) => bank >= u.price);
   const days = (need) => { if (!(avgDaily > 0)) return ''; const d = Math.max(1, Math.ceil(need / avgDaily)); return ' · ' + (d === 1 ? t('stAboutDay') : t('stAboutDays', { d: d.toLocaleString('en-US') })); };
 
+  // the sneak peek: what the NEXT season brings. Most of it is shown (name, picture, price) so he knows what to save for; about a third stays a surprise.
+  const nextS = Math.min(...all.filter((u) => !up[u.id] && tierSeason(stand, u.tier) > seasons).map((u) => tierSeason(stand, u.tier)), 99);
+  const upcoming = nextS < 99 ? all.filter((u) => !up[u.id] && tierSeason(stand, u.tier) === nextS).sort((a, b) => a.price - b.price) : [];
+  const showPeek = (u) => !u.secret && (u.milestone || hashStr(stand + u.id) % 3 !== 0);
+
   // 1. banner
   let banner;
   if (up[DREAM[DREAM.length - 1]] && !unowned.length) banner = h('div', { class: 'saving done' }, t(U.k + 'stAllBought'));
@@ -104,7 +111,6 @@ export function lemonShop({ stand = 'lemonade', st, seasons, upName, upSub, onBu
     banner = h('div', { class: 'saving' }, h('div', { class: 'srow2' }, h('span', { class: 'se' }, UP_EMOJI[goalU.id]), h('strong', {}, t('stSaving', { x: upName(stand, goalU.id) })), h('span', { class: 'togo' }, t('stToGo', { n: money(need) }) + days(need))),
       h('div', { class: 'meter', role: 'img', 'aria-label': pct + '%' }, h('i', { style: { width: pct + '%' } })));
   } else {
-    const nextS = Math.min(...all.filter((u) => !up[u.id] && tierSeason(stand, u.tier) > seasons).map((u) => tierSeason(stand, u.tier)), 99);
     banner = h('div', { class: 'saving' }, nextS < 99 ? t('stNothingNow', { n: nextS }) : t(U.k + 'stAllBought'));
   }
 
@@ -112,6 +118,11 @@ export function lemonShop({ stand = 'lemonade', st, seasons, upName, upSub, onBu
   const dreamN = DREAM.filter((id) => up[id]).length;
   const dream = h('div', { class: 'dream card', 'aria-label': t(U.k + 'stDreamT') }, h('div', { class: 'dhead' }, h('strong', {}, U.dreamEmoji ? U.dreamEmoji + ' ' + t(U.k + 'stDreamT') : '🏙️ ' + t('stDreamT')), h('small', {}, t('stDreamOf', { a: dreamN, b: DREAM.length }))),
     h('div', { class: 'dsteps' }, DREAM.map((id) => h('span', { class: 'dstep' + (up[id] ? ' lit' : ''), title: up[id] ? upName(stand, id) : '?' }, UP_EMOJI[id]))));
+
+  // 2b. the sneak-peek strip
+  const peekStrip = upcoming.length ? h('div', { class: 'dream card peekstrip', 'aria-label': t('stPeekT', { s: nextS }) }, h('div', { class: 'dhead' }, h('strong', {}, '🔭 ' + t('stPeekT', { s: nextS })), h('small', {}, t('stPeekN', { n: upcoming.length }))),
+    h('div', { class: 'dsteps psteps' }, upcoming.map((u) => showPeek(u) ? h('span', { class: 'pstep pv', title: upName(stand, u.id) + ' · ' + money(u.price) }, UP_EMOJI[u.id]) : h('span', { class: 'pstep', title: '?' }, '❓'))),
+    h('small', { class: 'muted' }, t('stPeekSub'))) : null;
 
   // 3. tabs
   const pathItems = (p) => all.filter((u) => u.path === p);
@@ -129,7 +140,9 @@ export function lemonShop({ stand = 'lemonade', st, seasons, upName, upSub, onBu
   const items = pathItems(tab), mine = items.filter((u) => up[u.id]), visUn = items.filter((u) => vis.includes(u) && !up[u.id]);
   const ok = (u) => canBuy(stand, u.id, up);
   const ordered = [...visUn.filter(ok).sort((a, b) => a.price - b.price), ...visUn.filter((u) => !ok(u)).sort((a, b) => a.price - b.price)];
-  const shown = ordered.slice(0, 3), hidden = items.filter((u) => !up[u.id]).length - shown.length;
+  const shown = ordered.slice(0, 3);
+  const peeks = upcoming.filter((u) => u.path === tab && showPeek(u)).slice(0, 2);
+  const hidden = items.filter((u) => !up[u.id]).length - shown.length - peeks.length;
   const hiddenNew = items.filter((u) => !up[u.id] && !vis.includes(u)).map((u) => tierSeason(stand, u.tier));
   const card = (u) => {
     const reqOk = ok(u), afford = bank >= u.price, miss = (u.req || []).filter((r) => !up[r]);
@@ -144,10 +157,12 @@ export function lemonShop({ stand = 'lemonade', st, seasons, upName, upSub, onBu
         h('span', { class: 'tag' }, money(u.price))),
       reqOk && !afford ? h('button', { class: 'goalbtn' + (isGoal ? ' on' : ''), 'data-goal': u.id, onclick: () => onGoal(u.id) }, isGoal ? t('stSavingThis') : t('stSaveThis')) : null);
   };
+  const peekCard = (u) => h('div', { class: 'upgcell' }, h('div', { class: 'upg peek', 'data-peek': u.id, role: 'group', 'aria-label': upName(stand, u.id) + ', ' + t('stSeasonTag', { s: nextS }) },
+    h('span', { class: 'ue' }, UP_EMOJI[u.id]), h('strong', {}, upName(stand, u.id)), h('small', {}, upSub(stand, u.id)), h('small', { class: 'lock' }, '🔒 ' + t('stSeasonTag', { s: nextS })), h('span', { class: 'tag' }, money(u.price))));
   const book = mine.length ? h('div', { class: 'book', 'aria-label': t('stBookOf', { a: mine.length, b: items.length }) }, mine.map((u) => h('span', { class: 'sticker', title: upName(stand, u.id) }, UP_EMOJI[u.id]))) : null;
   const mystery = hidden > 0 ? h('div', { class: 'upg mystery', 'aria-label': t('stMore', { n: hidden }) }, h('span', { class: 'ue' }, '❓'), h('strong', {}, hiddenNew.length && !shown.length ? t('stMoreNew', { n: hidden, s: Math.min(...hiddenNew) }) : t('stMore', { n: hidden }))) : null;
   const panel = h('div', { class: 'ppanel', role: 'tabpanel' },
     h('div', { class: 'phead' }, h('h3', {}, PATHS.find((p) => p.id === tab).emoji + ' ' + t(U.k + 'pth_' + tab)), h('small', {}, t(U.k + 'pthd_' + tab) + ' · ' + t('stBookOf', { a: mine.length, b: items.length }))),
-    book, h('div', { class: 'ups' }, shown.map(card), mystery));
-  return h('div', { class: 'lemonshop' }, banner, dream, tabs, panel);
+    book, h('div', { class: 'ups' }, shown.map(card), peeks.map(peekCard), mystery));
+  return h('div', { class: 'lemonshop' }, banner, dream, peekStrip, tabs, panel);
 }

@@ -115,5 +115,13 @@ export const UP_TEXT = {
     window5: T(['Fifth window', 'Another window: serve 20% more fans'], ['Quinta ventanilla', 'Otra ventanilla: atiende 20% más fans']),
     mascot: T(['Mascot visit', 'A big furry mascot brings a crowd'], ['Visita de la mascota', 'Una mascota gigante atrae a la multitud']),
     suites: T(['Suite delivery', 'Deliver snacks to the fancy seats'], ['Entrega a los palcos', 'Lleva botanas a los asientos de lujo']),
+    teamstart: T(['Start your own team', 'Your very own home team plays here! 50% more fans, and team jerseys join the menu.'], ['Crea tu propio equipo', '¡Tu propio equipo local juega aquí! 50% más fans y las camisetas con número llegan al menú.']),
+    coach: T(['Hire a coach', 'A coach makes the team play better. 20% more fans.'], ['Contratar un entrenador', 'Un entrenador hace que el equipo juegue mejor. 20% más fans.']),
+    stars: T(['Sign star players', 'Famous players bring their fans! 30% more fans, and signed baseballs join the menu.'], ['Fichar jugadores estrella', '¡Los jugadores famosos traen a sus fans! 30% más fans y las pelotas firmadas llegan al menú.']),
+    practice: T(['Practice field', 'Practice makes champions. 20% more fans and your workers get faster.'], ['Campo de práctica', 'Practicar hace campeones. 20% más fans y tus trabajadores son más rápidos.']),
+    bus: T(['Team bus', 'The team travels to away games and fans in new towns cheer for you. 20% more fans.'], ['Autobús del equipo', 'El equipo viaja a otros pueblos y sus fans te animan. 20% más fans.']),
+    fanclub: T(['Fan club', 'Fans join the club and love the team. 30% more fans, and they pay a little more.'], ['Club de fans', 'Los fans se unen al club y aman al equipo. 30% más fans y pagan un poco más.']),
+    hof: T(['Hall of Fame', 'A museum of baseball heroes. 50% more fans!'], ['Salón de la Fama', 'Un museo de héroes del béisbol. ¡50% más fans!']),
+    champs: T(['Win the Championship!', 'Your team is the champion! The crowd doubles, a golden trophy joins the menu, and you become a legend.'], ['¡Gana el Campeonato!', '¡Tu equipo es el campeón! La multitud se duplica, llega un trofeo dorado al menú y te vuelves una leyenda.']),
   },
 };

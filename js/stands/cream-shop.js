@@ -18,6 +18,8 @@ const EMOJI = {
   rocketcart: '🛒', truck2: '🚛', sharktruck: '🐋', parlor2: '🏪', online: '🛍️', grocery: '🥫', fleet5: '🚐', chain10: '🗺️', franchise: '🚩', fleet100: '🌎',
   sign: '🪧', table: '🪑', umbrella: '⛱️', bunting: '🎏', trailer: '🚃', shop: '🏠', booths: '🛋️', sweetparlor: '🎶', castle: '🏰', factory: '🏭',
   dock: '⛵', conebeach: '🏖️', volcano: '🌋', lagoon: '🌊', dinopark: '🦖', scoopstadium: '🏟️', megamountain: '🏔️', rocketpad: '🚀',
+  // Nov 18 2026
+  rainbowcone: '🌈', kidscoop: '🧒', nametag: '🏷️', greeter: '👋', scoopshow: '💃', wagonbell: '📯', neighborhood: '🏘️', bestie: '👫', kidclub: '💳', wishsign: '🎈', parlorname: '✏️', logo: '🎨', slogan: '📢', hats: '🎩', cousin: '👧', playcorner: '🧸', grandparents: '👵', cupsleeve: '🥤', newsletter: '📬', posters: '🏆', stringlights: '✨', glowfreezer: '🔆', speedstation: '🛎️', cartoon: '📚', localnews: '🗞️', patio: '🌳', walkup: '🔔', hopscotch: '🎲', parade: '🎠', bakerydeal: '🥐', glowwall: '💡', skybanner: '✈️', tourbus: '🚌', fanclub: '🎤',
   ...Object.fromEntries(Object.entries(CREAM_SPOTS).map(([k, v]) => [k, v.emoji])),
 };
 /** The dream, piece by piece: Sundae Island lights up as he buys. */

@@ -1,4 +1,4 @@
-// Grown-up corner section for the two games added Nov 17 2026: Number Patterns and Read It Loud (beta).
+// Grown-up corner section for the games added Nov 17-18 2026: Number Patterns, Read It Loud (beta) and Learning about Boise.
 // Totals, the microphone settings (who listens, how forgiving), what this device is and how to fix its microphone, a microphone test, and the "what it heard" list for the last tries.
 import { S, save } from '../core/store.js';
 import { h, toast } from '../core/dom.js';
@@ -7,10 +7,12 @@ import { listenSupport } from '../read/listen.js';
 import { openMicTest, listenNote, copyLinkButton, helpBlock, lastMicError } from '../read/mictest.js';
 import { CATS, FACTS, FACT_BY_ID } from '../../data/facts.js';
 import { patLevel, cardsOwned, CARD_TOTAL } from '../progress/newgames.js';
+import BZ, { CATS as BZCATS } from '../../data/boise.js';
 
 addStrings({
   en: {
-    gNew: 'New: Number Patterns and Read It Loud',
+    gNew: 'New: Number Patterns, Read It Loud and Learning about Boise',
+    gBzH: 'Learning about Boise', gBzStats: '{n} of {m} places explored · {f} answered right on the first try', gBzNone: 'Not started yet.', gBzWhy: 'Facts, history and things to do in Boise for ages 7 to 14. Each place has three facts, a “try it” idea for the family and a quiz. The facts were checked against official sources in November 2026, but hours, prices and seasons change, so check before a visit.',
     gPatH: 'Number Patterns', gPatStats: '{n} puzzles · {p}% right on the first try · {r} games played · {c} of {m} critter cards', gPatNone: 'Not played yet.',
     gPatLevel: 'Puzzle level now: {l} of 8. It adjusts by itself as he plays. The Easier / Harder setting under Overview moves it by one.',
     gPatWhy: 'Built for the “number patterns without counting on fingers” goal: quick ten-frame flashes, number lines, hops, skip counting, balance scales and number machines. Every third or fourth puzzle is a fun twist.',
@@ -24,7 +26,8 @@ addStrings({
     gReadCats: 'Facts read by topic',
   },
   es: {
-    gNew: 'Nuevo: Patrones de números y Lee en voz alta',
+    gNew: 'Nuevo: Patrones de números, Lee en voz alta y Aprendiendo sobre Boise',
+    gBzH: 'Aprendiendo sobre Boise', gBzStats: '{n} de {m} lugares explorados · {f} respondidos bien al primer intento', gBzNone: 'Todavía no ha empezado.', gBzWhy: 'Datos, historia y cosas para hacer en Boise para edades de 7 a 14 años. Cada lugar tiene tres datos, una idea para probar en familia y un acertijo. Los datos se revisaron con fuentes oficiales en noviembre de 2026, pero los horarios, precios y temporadas cambian, así que confírmalos antes de visitar.',
     gPatH: 'Patrones de números', gPatStats: '{n} rompecabezas · {p}% bien al primer intento · {r} juegos · {c} de {m} cartas de criaturas', gPatNone: 'Todavía no ha jugado.',
     gPatLevel: 'Nivel actual: {l} de 8. Se ajusta solo mientras juega. La opción Más fácil / Más difícil en Resumen lo mueve un nivel.',
     gPatWhy: 'Hecho para la meta de “patrones de números sin contar con los dedos”: destellos de cuadros de diez, rectas numéricas, saltos, conteo de 2 en 2, balanzas y máquinas de números. Cada tres o cuatro rompecabezas hay un giro divertido.',
@@ -82,5 +85,11 @@ export function newGameNodes() {
     h('p', { class: 'muted small' }, t('gMicNote')),
     h('h3', {}, t('gHeardH')), logBox, h('p', { class: 'muted small' }, t('gHeardNote')),
     h('div', { class: 'row' }, h('button', { class: 'btn ghost small', onclick: () => { R.log.length = 0; save(); drawLog(); toast('✓'); } }, t('gHeardClear')))];
-  return [...pat, ...rd];
+  // ----- Learning about Boise
+  const bz = S.boise, bdone = BZ.filter((p) => bz.done[p.id]), bfirst = bdone.filter((p) => !bz.done[p.id].w).length;
+  const boise = [h('h3', {}, t('gBzH')),
+    bdone.length ? h('p', {}, t('gBzStats', { n: bdone.length, m: BZ.length, f: bfirst })) : h('p', { class: 'muted' }, t('gBzNone')),
+    h('div', { class: 'row', style: { gap: '8px' } }, BZCATS.map((c) => h('span', { class: 'chip' }, c.e + ' ' + L(c.n) + ' ' + BZ.filter((p) => p.cat === c.id && bz.done[p.id]).length + '/' + BZ.filter((p) => p.cat === c.id).length))),
+    h('p', { class: 'muted small' }, t('gBzWhy'))];
+  return [...pat, ...rd, ...boise];
 }

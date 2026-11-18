@@ -18,6 +18,9 @@ export const REWARD = {
   pat: { core: 3, twist: 5, runDone: 5, perfect: 5, firstToday: 10 },
   // Read It Loud: a fact read aloud is worth more the longer it is (easy ~15 s, medium ~25 s, hard ~40 s). Each fact pays once.
   read: { tier: { 1: 4, 2: 5, 3: 7 }, firstToday: 10, catDone: 15 },
+  // Learning about Boise: each place pays once. place = for reading about it (paid with the quiz), quiz = pays like any 3-choice question (half on a second try), firstToday = first place of the day, catDone = every place in one topic.
+  // About 1.5 minutes a place => ~12 a minute. Wrong answers cost nothing here (the facts are right on the screen).
+  boise: { place: 8, quiz: 6, firstToday: 5, catDone: 15 },
 };
 
 /** Finish bonus for a word search of a given size (1-3) and difficulty (1-3). 8,12,16 / 10,15,20 / 14,21,28. */

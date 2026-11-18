@@ -9,7 +9,7 @@ import { go } from '../core/router.js';
 import { sfx } from '../core/audio.js';
 import { awardBadges } from '../core/badges.js';
 import { COST } from '../core/economy.js';
-import { SIMS, interp, fieldsOwned, lookOf, stadiumLevel, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit, spotsOwned, orderOf, eventOk, tierSeason, spotTable, ADDONS, addonsOwned } from './sims.js';
+import { SIMS, interp, fieldsOwned, lookOf, stadiumLevel, fixLegacyUp, WEATHER, rollDay, seasonDays, upgradeList, visibleUpgrades, canBuy, effects, traffic, serveCap, stockStepOf, MENU, menuAvail, PRICE_LEVELS, SNACK, snackWeights, parProfit, spotsOwned, orderOf, eventOk, tierSeason, spotTable, ADDONS, addonsOwned, TEAM_IDS, teamLevel } from './sims.js';
 import { lemonShop, sceneEl, spotRow, lemonGlyph } from './lemon-shop.js';
 import { CREAM_UI } from './cream-shop.js';
 import { UP_TEXT } from './upgrade-text.js';
@@ -25,7 +25,7 @@ addStrings({
     stPrice: 'Price', stPerCup: 'per cup', stPerScoop: 'per scoop', stStock: 'Make', stCups: 'cups', stTubs: 'tubs', stCost: 'Cost to make',
     stCostLine: '{n} {u} × {p} = {c}', stTubLine: '{n} tubs × {p} = {c}', stScoops: '1 tub = 12 scoops', stScoopsN: '{n} scoops', stOpen: 'Open the stand!', stSkip: 'Skip to the end',
     stDeal: 'Buddy deal', stDealSub: 'More people say yes, but some friends pay 20% less.',
-    stUpgrades: 'Shop', stShopSub: 'Upgrades stay with you in every season.', stBuy: 'Buy', stOwned: 'Yours', stNeedMore: 'Need ${n} more', stNeeds: 'Needs: {x}', stNewShop: 'New things in the shop!',
+    stUpgrades: 'Shop', stShopSub: 'Upgrades stay with you in every season.', stTeamT: 'Your team', stTeamName: 'Team name', stTeamDefault: 'The Home Team', stTeamLevel: 'Team level {n} of {m}', stTeamSub: 'Every step brings more fans. Look for the team steps in the shop.', stTeamLocked: 'Build the night-game stadium to start your own team!', stTeamDone: 'Champions! Your team won it all.', stBuy: 'Buy', stOwned: 'Yours', stNeedMore: 'Need ${n} more', stNeeds: 'Needs: {x}', stNewShop: 'New things in the shop!',
     stReceipt: 'End of day', stSold: 'Sold', stTooPricey: 'Said “too pricey”', stSoldOut: 'Left because you ran out', stBusy: 'Left: line too long', stLeft: 'Left over', stSales: 'Money in', stSpent: 'Cost to make', stProfit: 'Profit', stLoss: 'Loss',
     stNextDay: 'Open again tomorrow', stBestDay: 'New best day!', stDayN: 'Day {n}', stSeasonN: 'Season {n}', stDayOf: 'Day {d} of {m}', stCrowd: 'Customers today', stCustomers: '{n} customers',
     stCoachFirst: 'Tip: not too cheap, not too pricey. Try a price and see who buys!',
@@ -38,7 +38,7 @@ addStrings({
     stSeasonWait: 'Your next season is ready when you are.', stCarryOver: 'Everything you bought and your {m} in cash carry over to the next season.', stUpgradesOwned: '{n} upgrades so far', stBackStands: 'Back to My Stands', stPause: 'Season in progress. Your stand is saved.',
     stMenu: 'Menu for today', stPortions: 'portions', stLevel: 'Price level', lvl_cheap: 'Cheap', lvl_normal: 'Normal', lvl_fancy: 'Fancy', lvl_cheap_s: 'Almost everyone buys', lvl_normal_s: 'Fair price', lvl_fancy_s: 'Bigger profit, fewer buyers',
     stEach: '{c} each → sells for {p}', stSnackCost: 'Cost to stock the menu', stSoldBy: 'Sold by item', stRanOut: 'Ran out of {x}',
-    m_hotdog: 'Hot dog', m_drink: 'Drink', m_chips: 'Chips', m_burger: 'Burger', m_fries: 'Fries', m_icecream: 'Ice cream scoop', m_popcandy: 'Popping candy', m_choc: 'Chocolate bar', m_cone: 'Ice cream cone', m_slush: 'Frosty slush', m_froslem: 'Frozen lemonade', m_pretzel: 'Soft pretzel', m_orange: 'Orange slices', m_nachos: 'Nachos', m_berries: 'Strawberries & cream', m_cocoa: 'Hot cocoa', m_pennant: 'Pennant flag', m_finger: 'Foam finger', m_cap: 'Baseball cap', m_plush: 'Plush shark', m_shirt: 'Team shirt',
+    m_hotdog: 'Hot dog', m_drink: 'Drink', m_chips: 'Chips', m_burger: 'Burger', m_fries: 'Fries', m_icecream: 'Ice cream scoop', m_popcandy: 'Popping candy', m_choc: 'Chocolate bar', m_cone: 'Ice cream cone', m_slush: 'Frosty slush', m_froslem: 'Frozen lemonade', m_pretzel: 'Soft pretzel', m_orange: 'Orange slices', m_nachos: 'Nachos', m_berries: 'Strawberries & cream', m_cocoa: 'Hot cocoa', m_pennant: 'Pennant flag', m_finger: 'Foam finger', m_cap: 'Baseball cap', m_plush: 'Plush shark', m_shirt: 'Team shirt', m_jersey: 'Team jersey', m_autoball: 'Signed baseball', m_trophy: 'Gold trophy',
   },
   es: {
     stLemonade: 'Puesto de limonada', stIcecream: 'Puesto de helados', stSnack: 'Puesto de botanas del estadio', stBank: 'Tu dinero', stForecast: 'Pronóstico de hoy',
@@ -48,7 +48,7 @@ addStrings({
     stPrice: 'Precio', stPerCup: 'por vaso', stPerScoop: 'por bola', stStock: 'Preparar', stCups: 'vasos', stTubs: 'botes', stCost: 'Costo de preparar',
     stCostLine: '{n} {u} × {p} = {c}', stTubLine: '{n} botes × {p} = {c}', stScoops: '1 bote = 12 bolas', stScoopsN: '{n} bolas', stOpen: '¡Abrir el puesto!', stSkip: 'Saltar al final',
     stDeal: 'Oferta de amigos', stDealSub: 'Más gente dice que sí, pero algunos amigos pagan 20% menos.',
-    stUpgrades: 'Tienda', stShopSub: 'Las mejoras se quedan contigo en todas las temporadas.', stBuy: 'Comprar', stOwned: 'Tuya', stNeedMore: 'Faltan ${n}', stNeeds: 'Necesita: {x}', stNewShop: '¡Hay cosas nuevas en la tienda!',
+    stUpgrades: 'Tienda', stShopSub: 'Las mejoras se quedan contigo en todas las temporadas.', stTeamT: 'Tu equipo', stTeamName: 'Nombre del equipo', stTeamDefault: 'El equipo local', stTeamLevel: 'Nivel del equipo: {n} de {m}', stTeamSub: 'Cada paso trae más fans. Busca los pasos del equipo en la tienda.', stTeamLocked: '¡Construye el estadio de juegos nocturnos para crear tu propio equipo!', stTeamDone: '¡Campeones! Tu equipo lo ganó todo.', stBuy: 'Comprar', stOwned: 'Tuya', stNeedMore: 'Faltan ${n}', stNeeds: 'Necesita: {x}', stNewShop: '¡Hay cosas nuevas en la tienda!',
     stReceipt: 'Fin del día', stSold: 'Vendidos', stTooPricey: 'Dijeron “muy caro”', stSoldOut: 'Se fueron porque se acabó', stBusy: 'Se fueron: fila muy larga', stLeft: 'Sobraron', stSales: 'Dinero que entró', stSpent: 'Costo de preparar', stProfit: 'Ganancia', stLoss: 'Pérdida',
     stNextDay: 'Abrir de nuevo mañana', stBestDay: '¡Nuevo mejor día!', stDayN: 'Día {n}', stSeasonN: 'Temporada {n}', stDayOf: 'Día {d} de {m}', stCrowd: 'Clientes hoy', stCustomers: '{n} clientes',
     stCoachFirst: 'Consejo: ni muy barato ni muy caro. ¡Prueba un precio y mira quién compra!',
@@ -61,7 +61,7 @@ addStrings({
     stSeasonWait: 'Tu próxima temporada está lista cuando tú quieras.', stCarryOver: 'Todo lo que compraste y tus {m} en efectivo pasan a la próxima temporada.', stUpgradesOwned: '{n} mejoras hasta ahora', stBackStands: 'Volver a Mis puestos', stPause: 'Temporada en curso. Tu puesto está guardado.',
     stMenu: 'Menú de hoy', stPortions: 'porciones', stLevel: 'Nivel de precios', lvl_cheap: 'Barato', lvl_normal: 'Normal', lvl_fancy: 'Elegante', lvl_cheap_s: 'Casi todos compran', lvl_normal_s: 'Precio justo', lvl_fancy_s: 'Más ganancia, menos compradores',
     stEach: '{c} cada uno → se vende a {p}', stSnackCost: 'Costo de surtir el menú', stSoldBy: 'Vendido por producto', stRanOut: 'Se acabó: {x}',
-    m_hotdog: 'Hot dog', m_drink: 'Bebida', m_chips: 'Papitas', m_burger: 'Hamburguesa', m_fries: 'Papas fritas', m_icecream: 'Bola de helado', m_popcandy: 'Dulce explosivo', m_choc: 'Barra de chocolate', m_cone: 'Cono de helado', m_slush: 'Granizado helado', m_froslem: 'Limonada congelada', m_pretzel: 'Pretzel suave', m_orange: 'Gajos de naranja', m_nachos: 'Nachos', m_berries: 'Fresas con crema', m_cocoa: 'Chocolate caliente', m_pennant: 'Banderín', m_finger: 'Dedo de espuma', m_cap: 'Gorra de béisbol', m_plush: 'Tiburón de peluche', m_shirt: 'Camiseta del equipo',
+    m_hotdog: 'Hot dog', m_drink: 'Bebida', m_chips: 'Papitas', m_burger: 'Hamburguesa', m_fries: 'Papas fritas', m_icecream: 'Bola de helado', m_popcandy: 'Dulce explosivo', m_choc: 'Barra de chocolate', m_cone: 'Cono de helado', m_slush: 'Granizado helado', m_froslem: 'Limonada congelada', m_pretzel: 'Pretzel suave', m_orange: 'Gajos de naranja', m_nachos: 'Nachos', m_berries: 'Fresas con crema', m_cocoa: 'Chocolate caliente', m_pennant: 'Banderín', m_finger: 'Dedo de espuma', m_cap: 'Gorra de béisbol', m_plush: 'Tiburón de peluche', m_shirt: 'Camiseta del equipo', m_jersey: 'Camiseta con número', m_autoball: 'Pelota firmada', m_trophy: 'Trofeo dorado',
   },
 });
 
@@ -76,7 +76,7 @@ const CFG = {
   snack: { title: 'stSnack', unit: 'stPortions', per: 'stPerCup', icon: 'ballpark' },
 };
 const EV_ICON = { nightGame: '🌙 ', game: '⚾ ', roadwork: '🚧 ', party: '🎂 ', catering: '🏢 ', adday: '📰 ', dinoParade: '🦖 ', rocketParty: '🚀 ', sharkWeek: '🦈 ', freeLemons: '🍋 ', rainbow: '🌈 ', shopper: '🕵️ ', icday: '🇺🇸 ', freecone: '🎉 ', schoolOut: '🎒 ', jingleDay: '🎺 ', sharkScoop: '🦈 ', berryDay: '🍓 ' };
-const MENU_EMOJI = { hotdog: '🌭', drink: '🥤', chips: '🥔', burger: '🍔', fries: '🍟', icecream: '🍨', popcandy: '🍬', choc: '🍫', cone: '🍦', slush: '🧊', froslem: '🍋', pretzel: '🥨', orange: '🍊', nachos: '🧀', berries: '🍓', cocoa: '☕', pennant: '🚩', finger: '☝️', cap: '🧢', plush: '🦈', shirt: '👕' };
+const MENU_EMOJI = { hotdog: '🌭', drink: '🥤', chips: '🥔', burger: '🍔', fries: '🍟', icecream: '🍨', popcandy: '🍬', choc: '🍫', cone: '🍦', slush: '🧊', froslem: '🍋', pretzel: '🥨', orange: '🍊', nachos: '🧀', berries: '🍓', cocoa: '☕', pennant: '🚩', finger: '☝️', cap: '🧢', plush: '🦈', shirt: '👕', jersey: '🎽', autoball: '⚾', trophy: '🏆' };
 
 export function standState(id) {
   const sim = SIMS[id];
@@ -141,7 +141,7 @@ export function mount(el, { id }) {
   function scoreboardEl(exp) {
     const cell = (k, v) => h('div', { class: 'sbcell' }, h('small', {}, t(k)), h('b', {}, v));
     return h('div', { class: 'scoreboard', role: 'group', 'aria-label': t('stScName') },
-      h('div', { class: 'sbname' }, '🏟️ ' + t('stScName')),
+      h('div', { class: 'sbname' }, '🏟️ ' + (teamLevel(st.up) && st.teamName ? st.teamName.toUpperCase() : t('stScName'))),
       h('div', { class: 'sbrow' }, cell('stScDay', st.season ? Math.min(st.season.day + 1, seasonDays(id)) + '/' + seasonDays(id) : '–'), cell('stScFields', String(fieldsOwned(st.up))), cell('stScFans', '~' + num(Math.round(exp))), cell('stScCash', money(st.bank))),
       st.perks.horn ? h('button', { class: 'sbhorn', 'aria-label': t('p_horn'), onclick: () => { sfx.fanfare(); toast('🎺 ' + t('stHornSay')); } }, '🎺') : null);
   }
@@ -248,7 +248,7 @@ export function mount(el, { id }) {
       refreshers.push(refresh);
     } else {
       const hintsOn = !!(st.lastItems && Object.keys(st.lastItems).length);
-      const dim = hintsOn && st.lastCtx && (st.lastCtx.fields !== fieldsOwned(st.up) || st.lastCtx.stadium !== stadiumLevel(st.up));      // a bigger park than last time: the old numbers are about a smaller park
+      const dim = hintsOn && st.lastCtx && (st.lastCtx.fields !== fieldsOwned(st.up) || st.lastCtx.stadium !== stadiumLevel(st.up) || (st.lastCtx.team || 0) !== teamLevel(st.up));      // a bigger park than last time: the old numbers are about a smaller park
       const todayDem = SNACK.demand({ weather: st.next.weather, event: st.next.event, up: st.up }, st.level);
       const rows = menuAvail(st.up).map((m) => {
         const val = h('output', { class: 'mval' });
@@ -304,6 +304,18 @@ export function mount(el, { id }) {
     const avgDaily = st.season && st.season.day > 0 ? st.season.profit / st.season.day : (st.last ? st.last.profit : 0);
     const drawShop = () => shopBox.replaceChildren(lemonShop({ stand: id, st, seasons: st.seasons, upName, upSub, onBuy: buy, onGoal: (gid) => { st.goal = st.goal === gid ? null : gid; save(); sfx.tap(); drawShop(); }, avgDaily, rerender: drawShop }));
     if (isBig) drawShop();
+    // snack shack: your own team (the last big challenge): a name, and a trophy case that fills as the eight team steps are bought
+    const TEAM_ICON = { teamstart: '🧢', coach: '📋', stars: '⭐', practice: '🥎', bus: '🚌', fanclub: '📣', hof: '🏛️', champs: '🏆' };
+    const teamCard = () => {
+      const lv = teamLevel(st.up); if (!isSnack || (lv === 0 && stadiumLevel(st.up) < 2)) return null;
+      const nameIn = h('input', { type: 'text', class: 'teamname', maxlength: '20', 'aria-label': t('stTeamName'), placeholder: t('stTeamDefault'), value: st.teamName || '', disabled: lv === 0 ? true : null });
+      nameIn.addEventListener('input', () => { st.teamName = nameIn.value.slice(0, 20); save(); const sb = document.querySelector('.scoreboard .sbname'); if (sb) sb.textContent = '🏟️ ' + (st.teamName ? st.teamName.toUpperCase() : t('stScName')); });
+      return h('div', { class: 'card dream teamcard' + (lv >= TEAM_IDS.length ? ' champ' : '') },
+        h('div', { class: 'dhead' }, h('strong', {}, '🏆 ' + t('stTeamT')), h('small', {}, lv ? t('stTeamLevel', { n: lv, m: TEAM_IDS.length }) : t('stTeamLocked'))),
+        lv ? h('label', { class: 'teamlab' }, h('small', {}, t('stTeamName')), nameIn) : null,
+        h('div', { class: 'dsteps tsteps' }, TEAM_IDS.map((x) => h('span', { class: 'tstep' + (st.up[x] ? ' lit' : ''), title: st.up[x] ? upName(id, x) : '?' }, TEAM_ICON[x]))),
+        h('small', { class: 'muted' }, lv >= TEAM_IDS.length ? t('stTeamDone') : t('stTeamSub')));
+    };
     const e = effects(id, st.up);
     const spot = curSpot();
     // ice cream: pick today's special from what the parlor sells. Cold treats love hot days, warm ones love cool and rainy days.
@@ -345,6 +357,7 @@ export function mount(el, { id }) {
       specialRow(),
       planBlock,
       h('div', { class: 'openrow' }, openBtn),
+      teamCard(),
       h('h3', { class: 'uph' }, t('stUpgrades') + (newTier ? ' · ' + t('stNewShop') : '')), h('p', { class: 'muted small' }, t('stShopSub')), isBig ? shopBox : h('div', { class: 'ups' }, shop),
       isSnack ? shelfEl() : null);
     refreshers.forEach((f) => f());
@@ -409,7 +422,7 @@ export function mount(el, { id }) {
     if (isSnack) {      // remember how every item did, and what the day was like, so tomorrow's menu can say "last time you ran out"
       const ctxNow = { weather: w, event: ev, up: st.up }, dem = SNACK.demand(ctxNow, st.level);
       st.lastItems = Object.fromEntries(Object.keys({ ...st.mstock, ...res.bySold, ...res.byOut }).filter((k) => (st.mstock[k] || 0) > 0 || res.bySold[k] || res.byOut[k]).map((k) => [k, { made: st.mstock[k] || 0, sold: res.bySold[k] || 0, out: res.byOut[k] || 0, dem: dem[k] || 0 }]));
-      st.lastCtx = { exp: SNACK.trafficOf(ctxNow), level: st.level, fields: fieldsOwned(st.up), stadium: stadiumLevel(st.up) };
+      st.lastCtx = { exp: SNACK.trafficOf(ctxNow), level: st.level, fields: fieldsOwned(st.up), stadium: stadiumLevel(st.up), team: teamLevel(st.up) };
     }
     st.last = { price: st.price, stock: st.stock, n: res.n, sold: res.sold, pricey: res.pricey, soldout: res.soldout, busy: res.busy || 0, leftover: res.leftover, profit, weather: w };
     const seasonOver = sea.day >= seasonDays(id);

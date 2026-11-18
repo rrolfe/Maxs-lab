@@ -38,7 +38,9 @@ const fresh = () => ({
   // Nov 17 2026: Number Patterns (own level, run counts, critter cards) and Read It Loud (beta; facts read, mic results)
   patterns: { skill: 3, n: 0, runs: 0, q: 0, ok: 0, best: 0, lastDay: '', cards: {}, recent: [] },
   read: { done: {}, tries: 0, passes: 0, lastDay: '', cat: '', cfg: { strict: 1, listen: 'auto', shift: 0 }, log: [] },
-  newSeen: {},          // how many times Max has finished each NEW game (the Home "NEW" shelf goes away after 3)
+  newSeen: {},          // how many times Max has finished each NEW game (the Home "NEW" shelf goes away after 3; Boise after 6 places)
+  // Nov 18 2026: Learning about Boise. done[placeId] = { t, w } (when it was explored, wrong tries); cats[cat] = true once every place in that topic is done; lastDay = day of the last paid place
+  boise: { done: {}, cats: {}, lastDay: '' },
 });
 
 // One-time gifts from a grown-up, delivered with an update. Each id is given once per device, to a save that already
@@ -365,6 +367,8 @@ export function importData(text, mode = 'replace') {
     if ((o.patterns?.runs || 0) > (S.patterns.runs || 0)) { S.patterns.skill = o.patterns.skill; S.patterns.runs = o.patterns.runs; }
     S.patterns.best = Math.max(S.patterns.best || 0, o.patterns?.best || 0);
     for (const k of Object.keys(o.newSeen || {})) S.newSeen[k] = Math.max(S.newSeen[k] || 0, o.newSeen[k] || 0);
+    for (const [k, v] of Object.entries(o.boise?.done || {})) if (!S.boise.done[k]) S.boise.done[k] = v;
+    for (const [k, v] of Object.entries(o.boise?.cats || {})) if (v) S.boise.cats[k] = true;
   }
   document.documentElement.lang = S.lang;
   save(); flush();

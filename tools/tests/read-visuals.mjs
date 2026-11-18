@@ -34,9 +34,9 @@ for (const device of devs) for (const lang of langs) for (const theme of themes)
   // Home with the shelf
   await page.waitForSelector('.hub'); await page.waitForTimeout(150);
   await over('home (shelf)');
-  if (!(await page.locator('.newshelf .newcard').count() === 2)) bad('home: expected two NEW cards');
-  // Home without the shelf (both games finished three times)
-  await page.evaluate(() => { const S = window.__lab.S; S.newSeen = { patterns: 3, read: 3 }; });
+  if (!(await page.locator('.newshelf .newcard').count() === 3)) bad('home: expected three NEW cards');
+  // Home without the shelf (the two games played three times, six Boise places explored)
+  await page.evaluate(() => { const S = window.__lab.S; S.newSeen = { patterns: 3, read: 3, boise: 6 }; });
   await page.goto(BASE + '#/quiz'); await page.goto(BASE + '#/home'); await page.waitForSelector('.hub');
   if (await page.locator('.newshelf').count()) bad('home: shelf should be gone after three plays of each');
   await over('home (no shelf)');

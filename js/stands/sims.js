@@ -201,8 +201,20 @@ export const UPGRADES = {
     { id: 'window5', tier: 2, price: 1200000, req: ['window4'], fx: { staff: 0.2 } },
     { id: 'mascot', tier: 3, price: 330, fx: { flat: 5, traffic: 0.2 } },
     { id: 'suites', tier: 4, price: 700, req: ['window2'], fx: { flat: 8, ptol: 0.1 } },
+    // Own a team (Rob, Nov 18 2026: the Snack Shack was nearly all bought): eight steps from "start a team" to the Championship. Every step brings a bigger crowd (the steps multiply to about 14x),
+    // and the team's own merch joins the menu. Prices: 20 million up to 10 billion. The first step needs the night-game stadium.
+    { id: 'teamstart', tier: 5, price: 20000000, req: ['stadium2'], fx: { crowd: 1.5 }, unlock: ['jersey'], team: true },
+    { id: 'coach', tier: 5, price: 50000000, req: ['teamstart'], fx: { crowd: 1.2 }, team: true },
+    { id: 'stars', tier: 5, price: 120000000, req: ['coach'], fx: { crowd: 1.3 }, unlock: ['autoball'], team: true },
+    { id: 'practice', tier: 5, price: 300000000, req: ['stars'], fx: { crowd: 1.2, staff: 0.1 }, team: true },
+    { id: 'bus', tier: 6, price: 700000000, req: ['practice'], fx: { crowd: 1.2 }, team: true },
+    { id: 'fanclub', tier: 6, price: 1500000000, req: ['bus'], fx: { crowd: 1.3, ptol: 0.1 }, team: true },
+    { id: 'hof', tier: 6, price: 4000000000, req: ['fanclub'], fx: { crowd: 1.5 }, team: true },
+    { id: 'champs', tier: 6, price: 10000000000, req: ['hof'], fx: { crowd: 2, ptol: 0.1 }, unlock: ['trophy'], team: true },
   ],
 };
+export const TEAM_IDS = ['teamstart', 'coach', 'stars', 'practice', 'bus', 'fanclub', 'hof', 'champs'];
+export const teamLevel = (up = {}) => TEAM_IDS.filter((id) => up[id]).length;
 export const upgradeList = (stand) => UPGRADES[stand] || [];
 /** Adds up everything the owned upgrades do. */
 export function fixLegacyUp(up) {      // before pairs existed there were separate 5th and 6th fields: whoever owned them now owns the first pair
@@ -360,6 +372,10 @@ export const MENU = [
   { id: 'cap', cost: 6, price: 15, base: 0.6, merch: true },
   { id: 'plush', cost: 5, price: 14, base: 0.55, merch: true },
   { id: 'shirt', cost: 12, price: 30, base: 0.5, merch: true },
+  // your own team's merch (the team steps unlock them)
+  { id: 'jersey', cost: 25, price: 65, base: 0.45, merch: true },
+  { id: 'autoball', cost: 8, price: 25, base: 0.45, merch: true },
+  { id: 'trophy', cost: 40, price: 110, base: 0.3, merch: true },
 ];
 export const PRICE_LEVELS = { cheap: { mult: 0.8, accept: 0.97 }, normal: { mult: 1, accept: 0.85 }, fancy: { mult: 1.3, accept: 0.6 } };
 // what the day's story does to traffic and to what people crave
@@ -402,7 +418,7 @@ export const crowdBand = (n) => {
   return [Math.round(200 * k), Math.round(400 * k)];
 };
 // how much the stand can serve and store: four fifths of the biggest crowd for the fields owned (the window and cook upgrades cover the rest)
-const bigScale = (up) => Math.round(0.8 * crowdBand(fieldsOwned(up))[1] * stadiumMult(up));
+const bigScale = (up) => Math.round(0.8 * crowdBand(fieldsOwned(up))[1] * stadiumMult(up) * effects('snack', up).crowd);
 export const SNACK = {
   id: 'snack', unit: 'portions', startBank: 40, stockStep: (up) => { const m = SNACK.stockMax(up || {}); return m >= 5e6 ? 250000 : m >= 1e6 ? 50000 : m >= 250000 ? 10000 : m >= 60000 ? 2500 : m >= 15000 ? 1000 : m >= 4000 ? 250 : m >= 1000 ? 100 : m >= 300 ? 25 : m >= 120 ? 10 : 5; },
   /** Expected buyers per menu item for a day (before luck): the same number is compared between two days to say "more fans today" or "fewer". */
@@ -423,7 +439,7 @@ export const SNACK = {
     const score = w.base.snack * st * (1 + e.traffic) + e.flat;           // about 6 (rainy, bare stand) up to about 25 (hot game day, every upgrade bought)
     const q = Math.max(0, Math.min(1.05, (score - 6) / 20));
     const [lo, hi] = crowdBand(fieldsOwned(ctx.up));
-    return (lo + (hi - lo) * q) * stadiumMult(ctx.up);        // each stadium level triples the crowd
+    return (lo + (hi - lo) * q) * stadiumMult(ctx.up) * e.crowd;        // each stadium level triples the crowd; each team step brings more fans (e.crowd)
   },
   // how many fans the windows can serve in a day before people give up on the line: the stand's size, plus the windows and workers he bought
   serveCap: (up) => { const e = effects('snack', up); return Math.round(Math.max(40 + e.serve, bigScale(up)) * (1 + e.staff)); },
