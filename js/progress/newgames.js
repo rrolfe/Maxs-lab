@@ -10,12 +10,12 @@ addStrings({
   en: {
     tilePatterns: 'Number Patterns', tilePatternsSub: 'Spot it. Solve it. Win cards!', tileRead: 'Read It Loud', tileReadSub: 'Read a fact. Win pearls!',
     newShelf: 'New in Max’s Lab!', newShelfNote: 'Try them. They are brand new!', newTag: 'NEW', betaTag: 'BETA', newPlay: 'Play!',
-    newPatDesc: 'Number puzzles with surprise twists. Win critter cards!', newReadDesc: 'Pick a topic and read a cool fact out loud. The iPad listens!',
+    newPatDesc: 'Number puzzles with surprise twists. Win critter cards!', newReadDesc: 'Pick a topic and read a cool fact out loud. {The} listens!',
   },
   es: {
     tilePatterns: 'Patrones de números', tilePatternsSub: '¡Descúbrelo, resuélvelo y gana cartas!', tileRead: 'Lee en voz alta', tileReadSub: '¡Lee un dato y gana perlas!',
     newShelf: '¡Nuevo en el Laboratorio de Max!', newShelfNote: '¡Pruébalos! ¡Son nuevecitos!', newTag: 'NUEVO', betaTag: 'BETA', newPlay: '¡Jugar!',
-    newPatDesc: 'Rompecabezas de números con giros sorpresa. ¡Gana cartas de criaturas!', newReadDesc: 'Elige un tema y lee en voz alta un dato genial. ¡El iPad escucha!',
+    newPatDesc: 'Rompecabezas de números con giros sorpresa. ¡Gana cartas de criaturas!', newReadDesc: 'Elige un tema y lee en voz alta un dato genial. ¡{The} escucha!',
   },
 });
 

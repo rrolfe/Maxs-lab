@@ -71,7 +71,7 @@ for (const device of devs) for (const lang of langs) for (const theme of themes)
   // Grown-up corner
   await page.goto(BASE + '#/grownup'); await page.waitForSelector('.gsec');
   const sec = page.locator('details.gsec').filter({ hasText: /Read It Loud|Lee en voz alta/ }).first();
-  await sec.locator('summary').click(); await page.waitForTimeout(150); await over('grown-up section');
+  await sec.locator('summary').first().click(); await sec.locator('.mthelp summary').click(); await page.waitForTimeout(150); await over('grown-up section (with the microphone help open)');
   await shot(page, `rv-${device}-${lang}-${theme}`);
   if (errors.length) bad('page errors: ' + errors.join(' | '));
   await browser.close();

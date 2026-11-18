@@ -237,6 +237,11 @@ button.nt[disabled]:not(.right):not(.try):not(.gone):not(.shown) { opacity: .6; 
 .mtbox .micbox { margin: 6px 0 10px; }
 .mtbox .feedback { margin: 10px 0 14px; text-align: left; }
 .mtbox .heardline { margin: 6px 0; }
+.mtbox .rdstat { text-align: left; margin: 8px 0 14px; }
+.rdhero .rdstat + p .btn { margin-top: 0; }
+.mthelp { margin: 6px 0 10px; border: 3px solid var(--line, var(--ink)); border-radius: 12px; padding: 8px 14px; background: var(--surface); }
+.mthelp summary { cursor: pointer; font-weight: 700; font-size: 19px; min-height: 36px; display: flex; align-items: center; }
+.mthelp ol { margin: 8px 0 4px; padding-left: 24px; display: grid; gap: 8px; font-size: 18px; line-height: 1.4; }
 @media (max-width: 700px) { .micbtn { width: 112px; height: 112px; } .facttext { font-size: 29px; } .facttext.long { font-size: 26px; } .rcat { min-height: 150px; } .rcat .rce { font-size: 48px; } }
 
 /* ===== Home: the NEW shelf (shown until each new game has been finished a few times) ===== */

@@ -121,7 +121,7 @@ await scenario('Home Screen icon: explained, grown-up listens from the start', {
 // 6. no speech recognition at all
 await scenario('browser without speech recognition', { init: NOSR }, async (page) => {
   await page.goto(BASE + '#/read'); await page.waitForSelector('.rcats');
-  ok(/grown-up listens/i.test(await page.textContent('.rdstat')), 'menu says a grown-up listens');
+  ok(/grown-up can listen/i.test(await page.textContent('.rdstat')), 'menu says a grown-up can listen');
   await page.goto(BASE + '#/read/play/mc'); await page.waitForSelector('.facttext');
   ok(await page.isVisible('.holdbtn'), 'grown-up button is there');
 });
@@ -178,7 +178,7 @@ await scenario('Grown-up corner section', {}, async (page) => {
   const f = await fact(page); await tapMic(page); await sr(page, 'say', 'jupiter big planet', true); await page.click('.micbtn'); await page.waitForSelector('.feedback.try');
   await page.goto(BASE + '#/grownup'); await page.waitForSelector('.gsec');
   const sec = page.locator('details.gsec:has(summary:text("Read It Loud"))');
-  await sec.locator('summary').click();
+  await sec.locator('summary').first().click();
   ok(await sec.locator('.hl').count() >= 1, 'heard list shows the try');
   ok(/jupiter big planet/i.test(await sec.textContent()), 'what the iPad heard is shown');
   await sec.locator('button:has-text("A grown-up")').click();

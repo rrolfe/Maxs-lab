@@ -1,4 +1,4 @@
-// Read It Loud (BETA, added Nov 17 2026). Max picks a topic, reads a true fact out loud, and the iPad listens.
+// Read It Loud (BETA, added Nov 17 2026). Max picks a topic, reads a true fact out loud, and the phone, iPad or computer listens (what to do on each: js/core/device.js).
 // Listening is imperfect on an old iPad, so every step has a fallback: forgiving matching (js/read/match.js), retries, "hear it", tap-a-word,
 // and "grown-up listens" (a grown-up holds a button to say he read it). Nothing is recorded; only text is kept (last 40 tries, Grown-up corner).
 import { S, save, addPearls } from '../core/store.js';
@@ -11,14 +11,14 @@ import { REWARD } from '../core/economy.js';
 import { awardBadges } from '../core/badges.js';
 import { CATS, FACTS, factsOf } from '../../data/facts.js';
 import { match } from '../read/match.js';
-import { createListener, listenSupport, ERROR_KEYS } from '../read/listen.js';
-import { openMicTest } from '../read/mictest.js';
+import { createListener, listenSupport } from '../read/listen.js';
+import { openMicTest, listenNote, errText, copyLinkButton, noteError, WAIT_MS } from '../read/mictest.js';
 import { markPlayed, firstToday } from '../progress/newgames.js';
 
 addStrings({
   en: {
-    rdTitle: 'Read It Loud', rdBeta: 'BETA', rdIntro: 'Pick a topic, then read a fact out loud. The iPad listens! You earn pearls for every fact you read.',
-    rdFirst: 'The first time, the iPad asks to use the microphone. Tap Allow.', rdTest: 'Test my microphone',
+    rdTitle: 'Read It Loud', rdBeta: 'BETA', rdIntro: 'Pick a topic, then read a fact out loud. {The} listens! You earn pearls for every fact you read.',
+    rdFirst: 'The first time, {the} asks to use the microphone. Tap Allow.', rdTest: 'Test my microphone',
     rdPick: 'Pick a topic', rdOf: '{n} of {m} read', rdAllRead: 'All read!', rdLevel1: 'Easy', rdLevel2: 'Medium', rdLevel3: 'Challenge',
     rdTapMic: 'Tap the microphone, then read the card.', rdMic: 'Read it!', rdListening: 'Listening… tap when you are done.', rdStarting: 'Getting ready…', rdDone: 'I’m done',
     rdHear: 'Hear it', rdTapWord: 'Tap any word to hear it.', rdHeard: 'I heard', rdNothing: 'I did not hear much. Tap the microphone and try again.',
@@ -30,8 +30,8 @@ addStrings({
     qOf: '{i} of {n}', stars: '{n} of 3 stars', newPearls: '+{n} pearls', patQuit: 'Leave',
   },
   es: {
-    rdTitle: 'Lee en voz alta', rdBeta: 'BETA', rdIntro: 'Elige un tema y lee un dato en voz alta. ¡El iPad escucha! Ganas perlas por cada dato que leas.',
-    rdFirst: 'La primera vez, el iPad pide usar el micrófono. Toca Permitir.', rdTest: 'Probar mi micrófono',
+    rdTitle: 'Lee en voz alta', rdBeta: 'BETA', rdIntro: 'Elige un tema y lee un dato en voz alta. ¡{The} escucha! Ganas perlas por cada dato que leas.',
+    rdFirst: 'La primera vez, {the} pide usar el micrófono. Toca Permitir.', rdTest: 'Probar mi micrófono',
     rdPick: 'Elige un tema', rdOf: '{n} de {m} leídos', rdAllRead: '¡Todos leídos!', rdLevel1: 'Fácil', rdLevel2: 'Medio', rdLevel3: 'Reto',
     rdTapMic: 'Toca el micrófono y lee la tarjeta.', rdMic: '¡Leer!', rdListening: 'Escuchando… toca cuando termines.', rdStarting: 'Preparando…', rdDone: 'Terminé',
     rdHear: 'Escúchalo', rdTapWord: 'Toca una palabra para oírla.', rdHeard: 'Escuché', rdNothing: 'No escuché mucho. Toca el micrófono e inténtalo otra vez.',
@@ -67,7 +67,7 @@ export function mount(el, { parts }) {
 function menu(el) {
   forceGrown = false;                           // each visit to the menu gives the microphone a fresh chance
   const sup = listenSupport(), grown = S.read.cfg.listen === 'grownup', ok = sup === 'ready' && !grown;
-  const msg = grown ? t('rdGrownOn') : sup === 'ready' ? t('rdMicOn') : sup === 'standalone' ? t('rdMicHome') : t('rdMicNone');
+  const msg = grown ? t('rdGrownOn') : listenNote();
   const total = FACTS.length, read = FACTS.filter((f) => S.read.done[f.id]).length;
   el.append(
     h('div', { class: 'screen-head' }, h('h1', {}, t('rdTitle')), h('span', { class: 'betatag' }, t('rdBeta'))),
@@ -76,7 +76,8 @@ function menu(el) {
       h('div', { class: 'pt' },
         h('p', { class: 'big' }, t('rdIntro')),
         h('p', { class: 'rdstat ' + (ok ? 'good' : 'warn') }, h('span', { html: ok ? icons.check(26) : icons.bulb(26) }), h('span', {}, msg)),
-        ok ? h('p', { class: 'muted small', style: { margin: '4px 0 0' } }, t('rdFirst')) : null),
+        ok ? h('p', { class: 'muted small', style: { margin: '4px 0 0' } }, t('rdFirst')) : null,
+        sup !== 'ready' ? h('p', { style: { margin: '10px 0 0' } }, copyLinkButton('btn gold small')) : null),   // can't listen here: copy the link and open it in the right browser
       ok ? h('button', { class: 'btn ghost', onclick: () => openMicTest() }, h('span', { html: icons.mic(30) }), t('rdTest')) : null),
     h('div', { class: 'row', style: { margin: '22px 0 8px', justifyContent: 'space-between' } }, h('h2', { style: { margin: 0 } }, t('rdPick')), h('span', { class: 'chip' }, t('rdOf', { n: read, m: total }))),
     h('div', { class: 'rcats' }, CATS.map((c) => {
@@ -128,7 +129,7 @@ function run(el, cat, again) {
     if (i >= queue.length) return finish();
     drawDots();
     const f = queue[i];
-    const st = { tries: 0, phase: 'ready', over: false, grown: !micMode(), l: null, hold: 0, moved: false };
+    const st = { tries: 0, phase: 'ready', over: false, grown: !micMode(), l: null, hold: 0, moved: false, tok: 0, wait: 0 };
     const words = f.text.split(/\s+/);
     const spans = words.map((w) => h('span', { class: 'rw', onclick: () => { if (st.phase === 'listening' || st.phase === 'starting') return; sfx.tap(); speak(clean(w), 'en', { rate: 0.8 }); } }, w));
     const factEl = h('p', { class: 'facttext' + (f.tier === 3 ? ' long' : '') }, spans.flatMap((s, k) => (k ? [' ', s] : [s])));
@@ -174,16 +175,19 @@ function run(el, cat, again) {
     function onMic() {
       if (st.over) return;
       if (st.phase === 'listening') { sfx.tap(); st.l?.stop(); return; }
-      if (st.phase === 'starting') return;
+      if (st.phase === 'starting') { sfx.tap(); st.tok++; clearTimeout(st.wait); st.l?.abort(); st.phase = 'ready'; setKids(feedback); feedback.className = 'feedback'; renderMode(); return; }   // still waiting for the microphone: a second tap cancels, so he is never stuck
       sfx.tap();
       const talking = (() => { try { return speechSynthesis.speaking || speechSynthesis.pending; } catch { return false; } })();
       stopSpeaking();
       st.phase = 'starting'; unpaint(); showHeard(''); setKids(feedback); feedback.className = 'feedback'; renderMode();
-      const begin = () => {                                                      // (Safari wants listening to start right after a tap, so only wait when the iPad was still talking)
-        if (dead || st.over) return;
+      const tok = ++st.tok;
+      clearTimeout(st.wait);
+      st.wait = setTimeout(() => { if (st.phase === 'starting' && tok === st.tok) say(icons.bulb(34), t('rdWaitHint'), 'try'); }, WAIT_MS);   // a permission question may be waiting for a tap
+      const begin = () => {                                                      // (Safari wants listening to start right after a tap, so only wait when the device was still talking)
+        if (dead || st.over || tok !== st.tok) return;
         st.l = createListener({
           lang: 'en-US', maxMs: 16000 + words.length * 1100, silentMs: 12000,
-          onState: (s) => { if (s === 'listening' && st.phase === 'starting') { st.phase = 'listening'; renderMode(); } },
+          onState: (s) => { if (s === 'listening' && st.phase === 'starting') { clearTimeout(st.wait); st.phase = 'listening'; setKids(feedback); feedback.className = 'feedback'; renderMode(); } },
           onText: (txt) => {
             showHeard(txt);
             const r = match(f.text, txt, strictLvl()); paint(r, false);
@@ -192,18 +196,19 @@ function run(el, cat, again) {
           },
           onPause: (txt) => { const r = match(f.text, txt, strictLvl()); return r.pass && (r.score >= 0.9 || reachedEnd(r)); },   // he paused, and he had reached the end
           onDone: (txt) => judge(txt),
-          onError: (code) => micError(code),
+          onError: (code, raw) => micError(code, raw),
         });
         if (!st.l.start()) micError('denied');
       };
-      if (talking) timers.push(setTimeout(begin, 380)); else begin();            // the iPad cannot talk and listen at once
+      if (talking) timers.push(setTimeout(begin, 380)); else begin();            // a phone or iPad cannot talk and listen at once
     }
-    function micError(code) {
+    function micError(code, raw) {
       if (st.over) return;
-      st.phase = 'ready';
+      clearTimeout(st.wait); st.phase = 'ready';
       if (code !== 'silent') { forceGrown = true; st.grown = true; }
       renderMode();
-      say(icons.bulb(34), t(ERROR_KEYS[code] || 'rdErrDenied'), 'try');
+      say(icons.bulb(34), errText(code), 'try');
+      noteError(raw || code);                                                    // so the Grown-up corner can show the browser's own error word (kept in memory only)
     }
 
     // ---- judging a try
@@ -253,8 +258,8 @@ function run(el, cat, again) {
       micBox.hidden = true; grownBox.hidden = true; skipBtn.hidden = true; grownBtn.hidden = true; nextBtn.hidden = false;
       save();
     }
-    function advance() { if (dead || st.moved) return; st.moved = true; holdStop(); st.l?.destroy(); stopSpeaking(); i++; showFact(); }
-    curCleanup = () => { holdStop(); st.l?.destroy(); st.over = true; };
+    function advance() { if (dead || st.moved) return; st.moved = true; holdStop(); clearTimeout(st.wait); st.l?.destroy(); stopSpeaking(); i++; showFact(); }
+    curCleanup = () => { holdStop(); clearTimeout(st.wait); st.l?.destroy(); st.over = true; };
   }
 
   // ---------------------------------------------------------------- end of a sitting

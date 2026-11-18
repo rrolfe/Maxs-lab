@@ -1,15 +1,20 @@
 // English / Latin American Spanish. Each screen registers its own strings with addStrings().
 import { S } from './store.js';
+import { deviceVars } from './device.js';
 
 const dict = { en: {}, es: {} };
 export function addStrings(pack) {
   for (const l of ['en', 'es']) Object.assign(dict[l], pack[l] || {});
 }
-/** t('key', {n: 3}) -> string; falls back to English, then the key. */
+const DEVICE_WORDS = /\{(dev|the|The|br|Br|rec|co)\}/;     // {the} -> "the iPad" / "the phone" / "the computer"... (js/core/device.js), so no screen needs to pass them
+const fill = (s, vars) => { for (const [k, v] of Object.entries(vars)) s = s.replaceAll('{' + k + '}', v); return s; };
+/** t('key', {n: 3}) -> string; falls back to English, then the key. A list of strings comes back as a list. */
 export function t(key, vars) {
   let s = dict[S.lang]?.[key] ?? dict.en[key] ?? key;
-  if (vars) for (const [k, v] of Object.entries(vars)) s = s.replaceAll('{' + k + '}', v);
-  return s;
+  if (Array.isArray(s)) return s.map((x) => (DEVICE_WORDS.test(x) ? fill(x, { ...deviceVars(S.lang), ...vars }) : vars ? fill(x, vars) : x));   // a list of steps
+  if (typeof s !== 'string') return s;
+  if (DEVICE_WORDS.test(s)) vars = { ...deviceVars(S.lang), ...vars };
+  return vars ? fill(s, vars) : s;
 }
 /** Pick from a {en, es} object (data records). Falls back to English. */
 export const L = (obj) => (obj == null ? '' : typeof obj === 'string' ? obj : obj[S.lang] ?? obj.en ?? '');
