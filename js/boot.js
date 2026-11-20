@@ -4,6 +4,7 @@ import { icons, logo } from './core/icons.js';
 import { t, addStrings } from './core/i18n.js';
 import { sfx, stopSpeaking, announceMilestone } from './core/audio.js';
 import { route, startRouter, go, currentPath, setBeforeEach } from './core/router.js';
+import { startOffline } from './core/offline.js';
 
 function applyTheme() {
   const r = document.documentElement;
@@ -215,6 +216,7 @@ async function main() {
   if (carryStatus().cameIn) toast(t('rcCarried'), 6000); else setTimeout(maybeRecover, 600);
   setInterval(checkLimits, 10000);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  startOffline();   // saves the whole lab for no-internet play, and says so kindly when the internet goes away
   window.__lab = { S, go, flush, checkLimits };   // handy for testing and the grown-up export
 }
 main();

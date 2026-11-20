@@ -39,7 +39,7 @@ await page.evaluate(() => { location.hash = '#/home'; }); await w(300);
 ok(!(await page.$('.ciBanner')), 'banner gone after the check-in is done');
 // parent corner
 await page.evaluate(() => { location.hash = '#/grownup'; }); await w(600);
-await page.locator('details.gsec > summary').nth(4).click().catch(() => {});
+// (the time and suggestion sections are open by default; sections are found by their titles, never by position)
 const txt = await page.evaluate(() => document.body.innerText);
 ok(/Where the time goes|En qué se va el tiempo/.test(txt), 'time-per-program section present');
 ok(/What to work on|En qué trabajar/.test(txt), 'suggestions section present');

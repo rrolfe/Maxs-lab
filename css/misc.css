@@ -99,3 +99,10 @@ select.textin { appearance: auto; }
   .qrow { flex-wrap: wrap; }
   .qrow > div:first-child { flex: 1 1 200px; }
 }
+
+/* Grown-up corner: "Ready for no internet" */
+.offline-line { font-weight: 700; margin: 12px 0 8px; overflow-wrap: anywhere; }
+.offline-line.good { color: #0B6B3A; }
+.offbar { height: 16px; border-radius: 9px; border: 2px solid var(--ink); background: #fff; overflow: hidden; margin: 6px 0 10px; }
+.offbar > i { display: block; height: 100%; width: 0; background: var(--gold); transition: width 300ms; }
+.offsteps { margin: 6px 0 12px; padding-left: 26px; } .offsteps li { margin: 6px 0; overflow-wrap: anywhere; }

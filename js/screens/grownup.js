@@ -8,6 +8,7 @@ import { go } from '../core/router.js';
 import { TOPIC_META } from '../quiz/missions.js';
 import { timeNodes, suggestNodes, progressNodes } from './grownup-extra.js';
 import { newGameNodes } from './grownup-new.js';
+import { offlineNodes } from './grownup-offline.js';
 import { resetNodes } from './grownup-reset.js';
 import { speak, stopSpeaking, listVoices, pickVoice, voiceQuality, setVoice } from '../core/audio.js';
 
@@ -141,6 +142,7 @@ async function build(root) {
   const drawProg = () => progBody.replaceChildren(...progressNodes(drawProg)); drawProg();
   const progressSec = section(t('gProgress'), progBody);
   const newSec = section(t('gNew'), ...newGameNodes());
+  const offSec = section(t('ofTitle'), ...offlineNodes()); offSec.open = true;
 
   // ----- limits
   const limSel = h('select', { class: 'textin', onchange: (e) => { S.settings.dailyLimit = +e.target.value; save(); } }, [[0, t('gNone')], [15, '15 min'], [20, '20 min'], [30, '30 min'], [45, '45 min'], [60, '60 min']].map(([v, l]) => h('option', { value: v, selected: (S.settings.dailyLimit || 0) === v }, l)));
@@ -284,5 +286,5 @@ async function build(root) {
     S.settings.pinHash ? h('button', { class: 'btn ghost small', onclick: () => { S.settings.pinHash = null; S.settings.pinSalt = null; save(); toast(t('gPinRemoved')); } }, t('gRemovePin')) : null),
     h('p', {}, h('a', { href: '#/credits' }, t('gCredits'))), h('small', { class: 'muted' }, t('gVersion')));
 
-  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), overview, timeSec, suggestSec, progressSec, newSec, limits, voiceSec, mapSec, famSec, qSec, copySec, resetSec, bSec, snapSec, sec);
+  root.replaceChildren(h('div', { class: 'screen-head' }, h('h1', {}, t('gTitle')), h('button', { class: 'btn ghost small', onclick: () => { unlocked = false; go('/home'); } }, t('done'))), h('p', { class: 'muted' }, t('gPrivacy')), offSec, overview, timeSec, suggestSec, progressSec, newSec, limits, voiceSec, mapSec, famSec, qSec, copySec, resetSec, bSec, snapSec, sec);
 }

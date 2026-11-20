@@ -70,7 +70,7 @@ for (const device of devs) for (const lang of langs) for (const theme of themes)
   await page.click('.mtbox button:has-text("Close"), .mtbox button:has-text("Cerrar")');
   // Grown-up corner
   await page.goto(BASE + '#/grownup'); await page.waitForSelector('.gsec');
-  const sec = page.locator('details.gsec').filter({ hasText: /Read It Loud|Lee en voz alta/ }).first();
+  const sec = page.locator('details.gsec:has(summary:text("Read It Loud")), details.gsec:has(summary:text("Lee en voz alta"))').first();
   await sec.locator('summary').first().click(); await sec.locator('.mthelp summary').click(); await page.waitForTimeout(150); await over('grown-up section (with the microphone help open)');
   await shot(page, `rv-${device}-${lang}-${theme}`);
   if (errors.length) bad('page errors: ' + errors.join(' | '));
