@@ -312,6 +312,15 @@ export function losePearls(n) {
   save();
   return lost;
 }
+/** A hint Max chose to take (Word Search Peek). Takes exactly n pearls, or nothing if he has fewer (the caller asks him to earn some first), so pearls never go below zero.
+ *  Not a wrong answer (no daily loss ceiling) and not a purchase (not counted as spent); the day's peek count and cost are kept for the Grown-up corner. Returns the pearls taken. */
+export function payHint(n) {
+  n = Math.max(0, Math.round(n));
+  if (!n || S.pearls.balance < n) return 0;
+  const d = day();
+  S.pearls.balance -= n; d.peeks = (d.peeks || 0) + 1; d.peekCost = (d.peekCost || 0) + n;
+  save(); return n;
+}
 export function spendPearls(n) {
   if (S.pearls.balance < n) return false;
   S.pearls.balance -= n; S.pearls.spent += n; save(); return true;

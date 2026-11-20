@@ -13,6 +13,11 @@ import { resetNodes } from './grownup-reset.js';
 import { speak, stopSpeaking, listVoices, pickVoice, voiceQuality, setVoice } from '../core/audio.js';
 
 addStrings({
+  en: { gPeeks: 'Word Search peeks this week: {n} (cost {c} pearls).' },
+  es: { gPeeks: 'Pistas en Sopa de letras esta semana: {n} (costaron {c} perlas).' },
+});
+
+addStrings({
   en: {
     gTitle: 'Grown-up corner', gPrivacy: 'Everything here stays on this device. Nothing is sent anywhere.',
     gPin: 'Enter the grown-up passcode', gPinWrong: 'That passcode did not match.', gUnlock: 'Unlock', gEnter: 'Enter',
@@ -117,6 +122,7 @@ const textin = (attrs) => h('input', { class: 'textin', ...attrs });
 async function build(root) {
   const places = (await import('../../data/places.js')).default;
   const wk = Array.from({ length: 7 }, (_, i) => { const d = new Date(); d.setDate(d.getDate() - (6 - i)); const k = dateKey(d); const v = S.days[k] || { sec: 0, q: 0, ok: 0, pearls: 0 }; return { k, d, ...v }; });
+  const totalPeeks = wk.reduce((a, d) => a + (d.peeks || 0), 0), totalPeekCost = wk.reduce((a, d) => a + (d.peekCost || 0), 0);
   const totalQ = wk.reduce((a, d) => a + (d.q || 0), 0), totalOk = wk.reduce((a, d) => a + (d.ok || 0), 0);
   const maxQ = Math.max(1, ...wk.map((d) => d.q || 0));
   const todayD = S.days[today()] || { sec: 0 };
@@ -131,6 +137,7 @@ async function build(root) {
       h('div', {}, h('small', {}, t('gAccuracy')), h('b', {}, totalQ ? Math.round((100 * totalOk) / totalQ) + '%' : '–'))),
     h('div', { class: 'wkbars', role: 'img', 'aria-label': t('gOverview') }, wk.map((d) => h('div', { class: 'wb' }, h('i', { style: { height: Math.max(4, Math.round(((d.q || 0) / maxQ) * 80)) + 'px' } }), h('small', {}, d.d.toLocaleDateString(S.lang === 'es' ? 'es-US' : 'en-US', { weekday: 'narrow' }))))),
     totalQ ? null : h('p', { class: 'muted' }, t('gNoData')),
+    totalPeeks ? h('p', { class: 'muted small' }, t('gPeeks', { n: totalPeeks, c: totalPeekCost })) : null,
     h('h3', {}, t('gSubjects')), h('div', { class: 'gsub' }, TOPICS.map((tp) => { const lv = levelOf(tp), b = byTopic[tp]; return h('div', { class: 'card flat' }, h('strong', {}, t(TOPIC_META[tp].key)), h('div', { class: 'lvbar' }, [1, 2, 3, 4, 5, 6].map((i) => h('i', { class: i <= lv ? 'on' : '' }))), h('small', {}, t('gLevel', { n: lv }) + (b ? ' · ' + Math.round((100 * b.ok) / b.n) + '%' : ''))); })),
     weak.length ? h('p', {}, t('gNeeds', { s: weak.join(', ') })) : null,
     h('h3', {}, t('gDifficulty')), h('div', { class: 'seg2' }, [[-1, 'gEasier'], [0, 'gJust'], [1, 'gHarder']].map(([v, k]) => h('button', { 'aria-pressed': String((S.settings.offset || 0) === v), onclick: (e) => { S.settings.offset = v; save(); e.currentTarget.parentNode.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === e.currentTarget))); } }, t(k)))),

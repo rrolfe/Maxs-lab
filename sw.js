@@ -2,7 +2,7 @@
 // Code and data are fetched fresh when online (so updates show on the next open) and fall back to the saved copy offline;
 // pictures and sounds come from the saved copy and refresh in the background. Map tiles and other sites are never cached here.
 // The Grown-up corner asks this worker how much is saved ({type:'status'}) and can ask it to save the rest ({type:'fill'}).
-const CACHE = 'mll2-v31';
+const CACHE = 'mll2-v32';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'css/lab.css', 'css/base.css', 'css/quiz.css', 'css/games.css', 'css/stands.css', 'css/world.css', 'css/misc.css', 'css/baseball.css', 'css/chores.css', 'css/play.css', 'css/boise.css',
   'js/boot.js', 'js/core/dom.js', 'js/core/store.js', 'js/core/i18n.js', 'js/core/device.js', 'js/core/icons.js', 'js/core/audio.js', 'js/core/offline.js', 'js/core/economy.js', 'js/core/router.js', 'js/core/badges.js', 'js/screens/home.js', 'icons/fathom.svg', 'icons/apple-touch-icon.png'];
 /* ALL-FILES:start (written by tools/make-precache.mjs: 230 files, 11.3 MB) */

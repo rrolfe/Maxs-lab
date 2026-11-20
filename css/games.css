@@ -21,6 +21,16 @@
 .wcell.p0 { background: #FFB4A0; } .wcell.p1 { background: #9ADBE3; }
 :root[data-theme="night"] .wcell.found { color: #1A1330; }
 .wcell.found::after { content: ""; position: absolute; left: 14%; right: 14%; bottom: 10%; height: 4px; border-radius: 2px; background: var(--ink); opacity: .55; }
+.peekbtn { gap: 8px; }
+/* phone: the title row (back, theme, size chip, pearls earned) wraps instead of widening the whole page */
+@media (max-width: 560px) {
+  .wsgrid { --cell: 24px; }   /* small until the script sizes it, so a big grid can never push the page wider than the phone (innerWidth then grows and the grid sizes itself to that) */
+  .wshead { flex-wrap: wrap; row-gap: 8px; }
+  .wshead h1 { flex: 1 1 55%; min-width: 0; font-size: 28px; overflow-wrap: anywhere; }
+  .wshead .chip { max-width: 100%; }
+}
+.peekbtn .peekcost { display: inline-flex; align-items: center; gap: 3px; padding: 0 9px; min-height: 30px; border-radius: 999px; border: 2px solid var(--ink); background: var(--panel); font-size: 18px; font-weight: 800; }
+.peekbtn.poor { opacity: .65; }
 .wcell.peek { animation: peek 600ms ease-in-out 3; outline: 4px solid var(--try); outline-offset: -3px; }
 @keyframes peek { 50% { transform: scale(1.35); background: var(--gold); } }
 .wsmsg { min-height: 56px; padding: 10px 16px; border-radius: 12px; font-weight: 700; font-size: 21px; max-width: calc(var(--n, 10) * 64px + 40px); }

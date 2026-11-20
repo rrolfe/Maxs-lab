@@ -23,6 +23,9 @@ export const REWARD = {
   boise: { place: 8, quiz: 6, firstToday: 5, catDone: 15 },
 };
 
+/** What a hint costs when Max chooses to take it (Rob, Nov 20: he was tapping Peek every time). Word Search: 3 pearls a peek, only in a puzzle that pays pearls. */
+export const HINT_COST = { ws: 3 };
+
 /** Finish bonus for a word search of a given size (1-3) and difficulty (1-3). 8,12,16 / 10,15,20 / 14,21,28. */
 export const wsFinish = (size, diff) => Math.round(REWARD.ws.finishBase[size] * REWARD.ws.finishMult[diff]);
 

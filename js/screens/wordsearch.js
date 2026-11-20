@@ -1,6 +1,6 @@
-import { S, save, today, addPearls } from '../core/store.js';
-import { h, clear, shuffle, confetti, clamp, flyPoints } from '../core/dom.js';
-import { REWARD, wsFinish } from '../core/economy.js';
+import { S, save, today, addPearls, payHint } from '../core/store.js';
+import { h, clear, shuffle, confetti, clamp, flyPoints, flyLoss } from '../core/dom.js';
+import { REWARD, HINT_COST, wsFinish } from '../core/economy.js';
 import { icons } from '../core/icons.js';
 import { t, addStrings, L } from '../core/i18n.js';
 import { go } from '../core/router.js';
@@ -18,6 +18,7 @@ addStrings({
     wsFound: 'Found {w}!', wsAllFound: 'You found every word!', wsPeek: 'Peek', newPuzzle: 'New puzzle', otherTheme: 'Other theme', letters: '{n} letters', mystery: 'Mystery word',
     turn: '{p}’s turn', maxP: 'Max', dadP: 'Dad', wins: '{p} wins!', tie: 'It’s a tie!', wsPromoted: 'Bigger puzzles are ready for you next time!', factsHead: 'Cool facts from this puzzle',
     foundCount: '{a} of {b} found', wordsLeft: 'Words to find', sayIt: 'Say it',
+    wsPeekFree: 'free', wsPeekPays: '{n} pearls', wsPeeked: 'Peek used: −{n} pearls. The glowing letter is where a word starts.', wsPeekNeed: 'A peek costs {n} pearls. Find a word first to earn some, then you can peek!',
   },
   es: {
     wsFinishBonus: 'bono del rompecabezas +{n}', wsDailyNoPearls: 'El rompecabezas de hoy ya ganó sus perlas. ¡Prueba otro tema para ganar más!',
@@ -27,6 +28,7 @@ addStrings({
     wsFound: '¡Encontraste {w}!', wsAllFound: '¡Encontraste todas las palabras!', wsPeek: 'Pista', newPuzzle: 'Nueva sopa', otherTheme: 'Otro tema', letters: '{n} letras', mystery: 'Palabra misteriosa',
     turn: 'Turno de {p}', maxP: 'Max', dadP: 'Papá', wins: '¡{p} gana!', tie: '¡Empate!', wsPromoted: '¡La próxima vez te esperan sopas más grandes!', factsHead: 'Datos curiosos de esta sopa',
     foundCount: '{a} de {b} encontradas', wordsLeft: 'Palabras por encontrar', sayIt: 'Escúchala',
+    wsPeekFree: 'gratis', wsPeekPays: '{n} perlas', wsPeeked: 'Pista usada: −{n} perlas. La letra brillante es donde empieza una palabra.', wsPeekNeed: 'Una pista cuesta {n} perlas. ¡Encuentra una palabra primero para ganar algunas y luego podrás pedirla!',
   },
 });
 
@@ -104,11 +106,22 @@ async function play(el, params) {
   const list = h('ul', { class: 'wlist' });
   const turnBar = nPlayers === 2 ? h('div', { class: 'turnbar' }) : null;
   const count = h('p', { class: 'muted small' });
+  // A peek costs pearls, but only in a puzzle that is paying pearls and only on Max's turn: "free" when there is nothing to lose.
+  const peekTag = h('span', { class: 'peekcost' });
+  const peekBtn = h('button', { class: 'btn ghost small peekbtn', onclick: peek }, h('span', { html: icons.bulb(30) }), h('span', {}, t('wsPeek')), peekTag);
+  let peekBusy = false;
+  const peekCost = () => (earns && !over && (nPlayers === 1 || turn === 0) && puzzle.placed.some((p) => !found.has(p.word.key) && newKeys.has(p.word.key)) ? HINT_COST.ws : 0);
+  function updatePeek() {
+    const cost = peekCost();
+    peekTag.replaceChildren(...(cost ? ['−' + cost, h('span', { html: icons.pearl(20) })] : [t('wsPeekFree')]));
+    peekBtn.classList.toggle('poor', cost > S.pearls.balance);
+    peekBtn.setAttribute('aria-label', t('wsPeek') + ', ' + (cost ? t('wsPeekPays', { n: cost }) : t('wsPeekFree')));
+  }
   const side = h('div', { class: 'wside' }, turnBar, h('h3', {}, t('wordsLeft')), count, list,
     h('div', { class: 'row' },
-      h('button', { class: 'btn ghost small', onclick: peek }, h('span', { html: icons.bulb(30) }), t('wsPeek')),
+      peekBtn,
       h('button', { class: 'btn ghost small', onclick: () => go('/words') }, t('otherTheme'))));
-  const title = h('div', { class: 'screen-head' },
+  const title = h('div', { class: 'screen-head wshead' },
     h('button', { class: 'btn ghost icon', 'aria-label': t('back'), onclick: () => go('/words'), html: icons.back(34) }),
     h('h1', {}, `${pack.icon} ${packName(pack)}`), h('span', { class: 'chip' }, t(TIER_KEYS[size]) + ' · ' + t(DIFF_KEYS[tier]) + (tier === 3 ? ' ★' : '')), earns ? earnChip : null);
   const fin = h('div', { class: 'wsfinish' });
@@ -124,6 +137,7 @@ async function play(el, params) {
         h('span', { class: 'ck' }, f ? '✓' : mystery ? '?' : ''), h('span', { class: 'wt' }, label), mystery && !f ? h('span', { class: 'tag' }, t('letters', { n: p.word.len })) : null);
     }));
     count.textContent = t('foundCount', { a: found.size, b: puzzle.placed.length });
+    updatePeek();
     if (turnBar) turnBar.replaceChildren(h('span', { class: 'pl p0' + (turn === 0 ? ' on' : '') }, `${t('maxP')} ${scores[0]}`), h('span', { class: 'pl p1' + (turn === 1 ? ' on' : '') }, `${t('dadP')} ${scores[1]}`), h('small', {}, t('turn', { p: turn === 0 ? t('maxP') : t('dadP') })));
   }
   function paint() {
@@ -134,8 +148,8 @@ async function play(el, params) {
   }
   function layout() {
     const landscape = innerWidth > innerHeight;
-    const availH = innerHeight - 250, availW = landscape ? innerWidth * 0.56 : innerWidth - 40;
-    const cell = clamp(Math.floor(Math.min(availH + (landscape ? 0 : 160), availW) / N), 34, 64);
+    const availH = innerHeight - 250, availW = landscape ? innerWidth * 0.56 : innerWidth - 62;   // 62 = page sides (40) + the grid's own padding and border (22)
+    const cell = clamp(Math.floor(Math.min(availH + (landscape ? 0 : 160), availW) / N), 22, 64);
     grid.style.setProperty('--cell', cell + 'px');
   }
   layout(); addEventListener('resize', layout);
@@ -190,15 +204,21 @@ async function play(el, params) {
   }
 
   function peek() {
-    if (over) return; sfx.pop();
+    if (over || peekBusy) return;   // a second tap while the glow is showing is ignored, so one peek is never charged twice
     const left = puzzle.placed.filter((p) => !found.has(p.word.key));
     if (!left.length) return;
+    const cost = peekCost();
+    if (cost && S.pearls.balance < cost) { sfx.soft(); msg.textContent = t('wsPeekNeed', { n: cost }); return; }
+    sfx.pop();
+    if (cost) { const paid = payHint(cost); if (paid) { flyLoss(peekBtn, paid); msg.textContent = t('wsPeeked', { n: paid }); } }
     const p = left[Math.floor(Math.random() * left.length)];
-    const c = cells[p.cells[0]]; c.classList.add('peek'); setTimeout(() => c.classList.remove('peek'), 1800);
+    const c = cells[p.cells[0]]; c.classList.add('peek'); peekBusy = true;
+    setTimeout(() => { c.classList.remove('peek'); peekBusy = false; }, 1800);
+    updatePeek();
   }
 
   function finish() {
-    over = true; sfx.levelUp(); confetti(innerWidth / 2, innerHeight / 3);
+    over = true; peekBtn.style.display = 'none'; sfx.levelUp(); confetti(innerWidth / 2, innerHeight / 3);
     for (const p of puzzle.placed) markSolved('ws', p.word.key);
     let line = t('wsAllFound');
     let promoted = false;

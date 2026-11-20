@@ -39,6 +39,7 @@ Design target: about **12 pearls per minute** of real play. The tables below are
 | Hero question stamp | 6 |
 | Word Search: choose size (8, 10, 12) and difficulty (Easy: across/down, Medium: + diagonals, Tricky: backwards too) | per word 3 / 4 / 6; finish bonus 8-16 (Easy), 10-20 (Medium), 14-28 (Tricky) by size |
 | Home Jobs (real chores, a grown-up types the chore code) | 33 jobs worth 3 to 40 pearls (about 3 pearls per minute of effort), once a day each, many with a weekly limit (Monday to Sunday); not limited by the daily cap |
+| Word Search **Peek** (shows where a word starts) | costs 3 pearls (`HINT_COST.ws`), only in a puzzle that pays pearls (not today's puzzle once it has paid, not words he has already found) and only on Max's turn in a race with Dad; free otherwise (the button says so). Needs 3 pearls to peek (never goes below zero), one tap is never charged twice, and the Grown-up corner shows the week's peeks and what they cost |
 | Hangman win (levels 1-3) | 10 / 15 / 20, +5 flawless; a loss still gives 3 |
 | Number Patterns (ten puzzles a game) | 3 a puzzle, 5 a twist (second try pays half); game finished +5, perfect +5, first game of the day +10 |
 | Read It Loud (five facts a sitting) | 4 / 5 / 7 by level, once per fact; first fact of the day +10, topic finished +15 |
@@ -129,6 +130,12 @@ Tests: `tools/tests/patterns-unit.mjs` (39,060 generated puzzles), `patterns-ui.
 - Phones: the Snack Shack header and menu rows wrap when the numbers get huge.
 
 Older iPads (Safari before 16.2) ignore `color-mix()`. Because those declarations use `var()`, the browser cannot fall back to an earlier line, so the plain-colour versions live in one `@supports not (background: color-mix(…))` block at the end of `css/play.css`. If you add a `color-mix()` to that file, add its plain colour there too (day and night); `oldcss.mjs` lists the important ones.
+
+## Word Search Peek costs 3 pearls (Nov 20 2026)
+
+Max was tapping Peek every time, so a peek now costs **3 pearls** (`HINT_COST.ws` in `js/core/economy.js`; the quiz, patterns and world-map hints already halve the payout, so Word Search was the only free one). The button shows the price (**Peek −3 🔮**) and a short message says what it cost. A peek is charged only in a puzzle that pays pearls and only on Max's turn (in a race, Dad's turn is free); a puzzle that pays nothing (today's puzzle after it has paid, or words Max has found before) says **free**. With fewer than 3 pearls the peek is refused kindly ("find a word first to earn some"), so pearls never go below zero and a stuck puzzle can always be started by finding one word. `payHint()` in `js/core/store.js` takes the pearls (it is a choice, so not the wrong-answer ceiling, and not counted as a purchase) and keeps `peeks` and `peekCost` on the day, which the Grown-up corner shows under This week. Test: `node tools/tests/ws-peek.mjs [en|es] [ipad-land|phone]`.
+
+Also fixed in the same release: on a phone the Word Search title row and the big grid made the page wider than the screen (the grid started at its 52 px default, which pushed the page wider, and then sized itself to that). The title row now wraps and the grid starts small and sizes itself to the real screen width (22 px minimum, so even 12×12 fits).
 
 ## Works with no internet (Nov 19 2026)
 
